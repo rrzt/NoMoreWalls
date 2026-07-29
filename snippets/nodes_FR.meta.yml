@@ -1,1387 +1,378 @@
 proxies:
-- name: 🇫🇷_法国_111
-  network: ws
-  port: 80
-  server: 199.232.170.68
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_112
-  network: ws
-  port: 2053
-  server: 51.91.100.159
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_116
-  network: ws
-  port: 2053
-  server: 141.94.77.169
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- name: 🇫🇷_法国_119
-  network: ws
-  port: 80
-  server: 199.232.170.25
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_130
-  network: ws
-  port: 2053
-  server: 152.228.134.90
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_132
-  network: ws
-  port: 2053
-  server: 162.19.79.57
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_136
-  network: ws
-  port: 2053
-  server: 51.75.16.73
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- name: 🇫🇷_法国_138
-  network: ws
-  port: 80
-  server: 199.232.170.57
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_200
-  network: ws
-  port: 443
-  server: 57.128.183.79
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_209
-  network: ws
-  port: 2053
-  server: 162.19.243.106
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_221
-  network: ws
-  port: 2053
-  server: 152.228.135.111
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- name: 🇫🇷_法国_228
-  network: ws
-  port: 443
-  server: 195.154.184.21
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇫🇷_法国_232
-  network: ws
-  port: 443
-  server: 57.128.180.98
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇫🇷_法国_247
-  network: ws
-  port: 443
-  server: 57.128.180.238
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇫🇷_法国_253
-  network: ws
-  port: 443
-  server: 51.91.254.189
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇫🇷_法国_255
-  network: ws
-  port: 443
-  server: 109.120.179.99
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇫🇷_法国_268
-  network: ws
-  port: 443
-  server: 51.38.44.17
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇫🇷_法国_274
-  network: ws
-  port: 443
-  server: 57.128.183.77
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇫🇷_法国_293
-  network: ws
-  port: 80
-  server: 199.232.170.174
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_295
-  network: ws
-  port: 80
-  server: 199.232.170.27
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_297
-  network: ws
-  port: 80
-  server: 199.232.170.177
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_298
-  network: ws
-  port: 80
-  server: 199.232.170.6
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_299
-  network: ws
-  port: 80
-  server: 199.232.170.18
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_300
-  network: ws
-  port: 80
-  server: 199.232.170.3
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_301
-  network: ws
-  port: 80
-  server: 199.232.170.63
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_302
-  network: ws
-  port: 80
-  server: 199.232.170.201
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_303
-  network: ws
-  port: 80
-  server: 199.232.170.106
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_304
-  network: ws
-  port: 80
-  server: 199.232.170.76
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_305
-  network: ws
-  port: 80
-  server: 199.232.170.162
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_306
-  network: ws
-  port: 80
-  server: 199.232.170.49
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_307
-  network: ws
-  port: 80
-  server: 199.232.170.56
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_308
-  network: ws
-  port: 80
-  server: 199.232.170.51
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_309
-  network: ws
-  port: 80
-  server: 199.232.170.169
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_310
-  network: ws
-  port: 80
-  server: 199.232.170.219
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_311
-  network: ws
-  port: 80
-  server: 199.232.170.149
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_313
-  network: ws
-  port: 80
-  server: 199.232.170.252
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_314
-  network: ws
-  port: 80
-  server: 199.232.170.53
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_316
-  network: ws
-  port: 80
-  server: 199.232.170.213
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_317
-  network: ws
-  port: 80
-  server: 199.232.170.207
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_318
-  network: ws
-  port: 80
-  server: 199.232.170.180
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_319
-  network: ws
-  port: 80
-  server: 199.232.170.228
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_320
-  network: ws
-  port: 80
-  server: 199.232.170.167
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_321
-  network: ws
-  port: 80
-  server: 199.232.170.67
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_322
-  network: ws
-  port: 80
-  server: 199.232.170.227
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_324
-  network: ws
-  port: 80
-  server: 199.232.170.202
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_325
-  network: ws
-  port: 80
-  server: 199.232.170.210
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_326
-  network: ws
-  port: 80
-  server: 199.232.170.47
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_328
-  network: ws
-  port: 80
-  server: 199.232.170.161
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_329
-  network: ws
-  port: 80
-  server: 199.232.170.10
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_330
-  network: ws
-  port: 80
-  server: 199.232.170.226
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_331
-  network: ws
-  port: 80
-  server: 199.232.170.121
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_332
-  network: ws
-  port: 80
-  server: 199.232.170.166
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_333
-  network: ws
-  port: 80
-  server: 199.232.170.142
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_334
-  network: ws
-  port: 80
-  server: 199.232.170.224
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_335
-  network: ws
-  port: 80
-  server: 199.232.170.86
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_336
-  network: ws
-  port: 80
-  server: 199.232.170.246
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_337
-  network: ws
-  port: 80
-  server: 199.232.170.156
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_338
-  network: ws
-  port: 80
-  server: 199.232.170.73
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_339
-  network: ws
-  port: 80
-  server: 199.232.170.160
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_340
-  network: ws
-  port: 80
-  server: 199.232.170.80
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_342
-  network: ws
-  port: 80
-  server: 199.232.170.61
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_343
-  network: ws
-  port: 80
-  server: 199.232.170.175
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_345
-  network: ws
-  port: 80
-  server: 199.232.170.127
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_346
-  network: ws
-  port: 2053
-  server: 146.59.230.8
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- name: 🇫🇷_法国_347
-  network: ws
-  port: 80
-  server: 199.232.170.4
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_352
-  network: ws
-  port: 2053
-  server: 31.59.120.124
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_355
-  network: ws
-  port: 2053
-  server: 152.228.134.153
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- name: 🇫🇷_法国_356
-  network: ws
-  port: 80
-  server: 199.232.170.107
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_358
-  network: ws
-  port: 80
-  server: 199.232.170.141
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_362
-  network: ws
-  port: 80
-  server: 199.232.170.110
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_363
-  network: ws
-  port: 80
-  server: 199.232.170.71
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_364
-  network: ws
-  port: 80
-  server: 199.232.170.143
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_366
-  network: ws
-  port: 80
-  server: 199.232.170.74
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_367
-  network: ws
-  port: 80
-  server: 199.232.170.181
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_368
-  network: ws
-  port: 80
-  server: 199.232.170.209
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_369
-  network: ws
-  port: 80
-  server: 199.232.170.147
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_370
-  network: ws
-  port: 80
-  server: 199.232.170.182
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_372
-  network: ws
-  port: 80
-  server: 199.232.170.90
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_373
-  network: ws
-  port: 80
-  server: 199.232.170.77
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_374
-  network: ws
-  port: 2053
-  server: 152.228.135.239
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- name: 🇫🇷_法国_376
-  network: ws
-  port: 80
-  server: 199.232.170.205
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_378
-  network: ws
-  port: 80
-  server: 199.232.170.179
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- alterId: 0
-  cipher: auto
-  name: NN_speednode_0010
-  network: ws
-  port: 55009
-  server: 2001:bc8:32d7:225::3
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
-  ws-opts:
-    path: /0zNW56sF
-- name: 🇫🇷_法国_380
-  network: ws
-  port: 80
-  server: 199.232.170.54
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_381
-  network: ws
-  port: 80
-  server: 199.232.170.125
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_383
-  network: ws
-  port: 80
-  server: 199.232.170.128
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_384
-  network: ws
-  port: 80
-  server: 199.232.170.211
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_385
-  network: ws
-  port: 80
-  server: 199.232.170.230
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_386
-  network: ws
-  port: 80
-  server: 199.232.170.203
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_388
-  network: ws
-  port: 80
-  server: 199.232.170.45
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_389
-  network: ws
-  port: 80
-  server: 199.232.170.185
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_390
-  network: ws
-  port: 80
-  server: 199.232.170.215
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_391
-  network: ws
-  port: 80
-  server: 199.232.170.192
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_393
-  network: ws
-  port: 80
-  server: 199.232.170.55
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_394
-  network: ws
-  port: 80
-  server: 199.232.170.183
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_403
-  network: ws
-  port: 80
-  server: 199.232.170.223
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_404
-  network: ws
-  port: 80
-  server: 199.232.170.20
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_409
-  network: ws
-  port: 80
-  server: 199.232.170.155
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_424
-  network: ws
-  port: 80
-  server: 199.232.170.214
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_426
-  network: ws
-  port: 80
-  server: 199.232.170.64
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 美国 069
-  network: ws
-  port: 80
-  server: 199.232.170.177
-  servername: BankMelat.glObal.ssl.faStly.nEt
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /
-- name: 🇫🇷_法国_429
-  network: ws
-  port: 80
-  server: 199.232.170.134
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_430
-  network: ws
-  port: 80
-  server: 199.232.170.136
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_法国_434
-  network: ws
-  port: 80
-  server: 199.232.170.40
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt
-    path: /?Telegram-WangCai2🇨🇳
+- down: 300
+  name: 法国节点0201 | 1倍率
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: 法国节点0202 | 1倍率
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #1'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #1'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #2'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #2'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #3'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #3'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #4'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #4'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #5'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #5'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #6'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #6'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #7'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #7'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #8'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #8'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #9'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #9'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #10'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 3c7f95aa-59fc-4b8d-baf0-d7b82ea70da7
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #10'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 3c7f95aa-59fc-4b8d-baf0-d7b82ea70da7
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #11'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 48111320-6606-417a-b14c-253e85110861
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #11'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 48111320-6606-417a-b14c-253e85110861
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #12'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #12'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #13'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #13'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #14'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #14'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #15'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #15'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #16'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: e95a3362-9f7b-4a11-a09c-83b80a2b21ab
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #16'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: e95a3362-9f7b-4a11-a09c-83b80a2b21ab
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
 - name: 🇫🇷FR_7|⬇️3.3MB/s
   network: ws
   port: 443
