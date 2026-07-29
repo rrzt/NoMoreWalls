@@ -1,4 +1,29 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国2
+  network: ws
+  port: 30000
+  server: 137.220.130.58
+  servername: www.68703921.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68703921.xyz
+    path: /path/011410073331
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国特殊
+  password: amazonskr05
+  port: 443
+  server: 3.112.220.140
+  tfo: false
+  type: ss
 - name: 🇰🇷_韩国_139
   network: ws
   port: 443
@@ -29,187 +54,10 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 未知35 487.5KB/s
-  network: tcp
-  port: 443
-  server: 140.238.2.250
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- alterId: 0
-  cipher: auto
-  name: 韩国 002
-  network: ws
-  port: 80
-  server: 132.145.80.230
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  ws-opts:
-    headers:
-      Host: kr02.a0a.xyz
-    path: /cctv13.m3u8
-- alterId: 1
-  cipher: auto
-  name: 韩国 003
-  network: ws
-  port: 8080
-  server: 140.238.28.227
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 1
-  cipher: auto
-  name: 韩国 004
-  network: ws
-  port: 8080
-  server: 140.238.31.168
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 1
-  cipher: auto
-  name: 韩国 005
-  network: ws
-  port: 8888
-  server: 54.180.96.67
-  skip-cert-verify: true
-  type: vmess
-  uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89
-  ws-opts:
-    headers:
-      Host: 54.180.96.67
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国 006
-  network: ws
-  port: 443
-  server: fullaccesstokoreannetsubnode1.azurewebsites.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
-  ws-opts:
-    headers:
-      Host: fullaccesstokoreannetsubnode1.azurewebsites.net
-    path: /ws
-- alterId: 64
-  cipher: auto
-  name: 韩国 007
-  network: ws
-  port: 443
-  server: 202.79.161.188
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.32278117.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国 008
-  network: ws
-  port: 443
-  server: 202.79.160.243
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.32278117.xyz
-    path: /path/191019072927
-- alterId: 64
-  cipher: auto
-  name: 韩国 009
-  network: ws
-  port: 443
-  server: 202.79.160.164
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.20850772.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 韩国 010
-  network: ws
-  port: 30002
-  server: 220.123.48.124
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 韩国 011
-  network: ws
-  port: 17443
-  server: 211.248.216.119
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
-    path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  name: 韩国 012
-  network: ws
-  port: 80
-  server: 92.223.61.25
-  skip-cert-verify: true
-  type: vmess
-  uuid: 22aa72b1-605b-4807-8a81-fb414cbb409c
-  ws-opts:
-    headers:
-      Host: mizban888.servecounterstrike.com
-    path: /
-- name: 韩国 013
-  network: ws
-  port: 12323
-  server: 121.179.3.58
-  servername: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 90235096-9296-3d36-c77c-715577598fd5
-  ws-opts:
-    headers:
-      Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
-    path: /glasspanel/0038ba35_0_1bdabe931208/
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷KR-152.67.218.38-0282 | 4.56...
+  name: 韩国/春川市/South Korea/Chuncheon
   network: ws
   port: 443
   server: 152.67.218.38
-  skip-cert-verify: false
-  tls: false
   type: vmess
   uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   ws-opts:
@@ -221,158 +69,124 @@ proxies:
   server: 217.142.138.61
   type: vmess
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷KR-20.249.116.169-0570 | 1.6...
+  network: ws
+  port: 36824
+  server: sylva53.ceoiii.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0292 | 0....
+  name: 🇰🇷KR-211.178.105.134-0141 | 0....
   password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-221.139.79.57-0127 | 0.06...
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
   type: ss
 - cipher: aes-256-gcm
-  name: 🇰🇷KR-141.164.45.187-6179 | 0.3...
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷KR-141.164.45.187-0303 | 0.2...
+  name: 🇰🇷KR-141.164.45.187-0121 | 0.0...
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 141.164.45.187
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0301 | 0....
+  name: 🇰🇷KR-218.237.185.230-0133 | 0....
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-218.237.185.230-0138 | 0....
   password: qwerREWQ@@
   port: 4652
   server: 218.237.185.230
   type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-221.139.79.57-6178 | 0.03...
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-211.178.105.134-6107 | 0....
-  password: qwerREWQ@@
-  port: 6123
-  server: 211.178.105.134
-  type: ss
-- name: 🇰🇷KR-82.117.226.104-0181 | 0.0...
-  password: IQ68037294
-  port: 443
-  server: robust-toucan.rooster465.autos
-  skip-cert-verify: false
-  sni: robust-toucan.rooster465.autos
-  type: trojan
-- name: 🇰🇷KR-82.117.226.218-0183 | 0.0...
-  password: IQ68037294
-  port: 443
-  server: whole-perch.rooster465.autos
-  skip-cert-verify: false
-  sni: whole-perch.rooster465.autos
-  type: trojan
-- name: 🇰🇷KR-82.117.226.221-0195 | 0.0...
+- name: 🇰🇷KR-82.117.226.221-0180 | 0.0...
   password: IQ68037294
   port: 443
   server: accurate-drake.rooster465.autos
   skip-cert-verify: false
   sni: accurate-drake.rooster465.autos
   type: trojan
-- name: 🇰🇷KR-82.117.226.76-0197 | 0.0M...
+- name: 🇰🇷KR-82.117.226.76-0183 | 0.0M...
   password: JT80563429
   port: 443
   server: touching-pigeon.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- name: 🇰🇷KR-109.61.127.24-0206 | 0.0M...
+- name: 🇰🇷KR-82.117.226.104-0187 | 0.0...
   password: IQ68037294
   port: 443
-  server: artistic-pigeon.rooster465.autos
+  server: robust-toucan.rooster465.autos
   skip-cert-verify: false
-  sni: artistic-pigeon.rooster465.autos
+  sni: robust-toucan.rooster465.autos
   type: trojan
-- name: 🇰🇷KR-109.61.127.145-0213 | 0.0...
+- name: 🇰🇷KR-109.61.127.205-0190 | 0.0...
+  password: IQ68037294
+  port: 443
+  server: select-marmoset.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇰🇷KR-109.61.127.145-0191 | 0.0...
   password: FC60532879
   port: 443
   server: outgoing-ladybird.rooster465.autos
   skip-cert-verify: false
   sni: outgoing-ladybird.rooster465.autos
   type: trojan
-- name: 🇰🇷KR-109.61.127.72-0217 | 0.0M...
-  password: WG39087154
+- name: 🇰🇷KR-109.61.127.24-0192 | 0.0M...
+  password: IQ68037294
   port: 443
-  server: outgoing-cockatoo.rooster465.autos
+  server: artistic-pigeon.rooster465.autos
   skip-cert-verify: false
-  sni: outgoing-cockatoo.rooster465.autos
+  sni: artistic-pigeon.rooster465.autos
   type: trojan
-- name: 🇰🇷KR-109.61.127.79-0219 | 0.0M...
-  password: WG39087154
+- name: 🇰🇷KR-82.117.226.224-0199 | 0.0...
+  password: FC60532879
   port: 443
-  server: fun-seagull.rooster465.autos
+  server: exotic-chicken.rooster465.autos
   skip-cert-verify: false
-  sni: fun-seagull.rooster465.autos
+  sni: exotic-chicken.rooster465.autos
   type: trojan
-- name: 🇰🇷KR-109.61.127.34-0222 | 0.0M...
-  password: WG39087154
+- name: 🇰🇷KR-82.117.226.218-0200 | 0.0...
+  password: IQ68037294
   port: 443
-  server: harmless-imp.rooster465.autos
+  server: whole-perch.rooster465.autos
   skip-cert-verify: false
-  sni: harmless-imp.rooster465.autos
+  sni: whole-perch.rooster465.autos
   type: trojan
-- name: 🇰🇷KR-82.117.226.157-0223 | 0.0...
+- name: 🇰🇷KR-82.117.226.157-0202 | 0.0...
   password: JT80563429
   port: 443
   server: fair-ram.rooster465.autos
   skip-cert-verify: false
   sni: fair-ram.rooster465.autos
   type: trojan
-- name: 🇰🇷KR-109.61.127.205-0226 | 0.0...
-  password: IQ68037294
-  port: 443
-  server: select-marmoset.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 🇰🇷KR-82.117.226.225-0234 | 0.0...
-  password: IQ68037294
-  port: 443
-  server: adjusted-labrador.rooster465.autos
-  skip-cert-verify: false
-  sni: adjusted-labrador.rooster465.autos
-  type: trojan
-- name: 🇰🇷KR-109.61.127.115-0238 | 0.0...
-  password: FC60532879
-  port: 443
-  server: positive-bear.rooster465.autos
-  skip-cert-verify: false
-  sni: positive-bear.rooster465.autos
-  type: trojan
-- name: 🇰🇷KR-82.117.226.72-0241 | 0.0M...
-  password: FC60532879
-  port: 443
-  server: flowing-gobbler.rooster465.autos
-  skip-cert-verify: false
-  sni: flowing-gobbler.rooster465.autos
-  type: trojan
-- name: 🇰🇷KR-109.61.127.38-0243 | 0.0M...
-  password: FC60532879
-  port: 443
-  server: premium-lab.rooster465.autos
-  skip-cert-verify: false
-  sni: premium-lab.rooster465.autos
-  type: trojan
-- name: 🇰🇷KR-82.117.226.40-0161 | 0.0M...
+- name: 🇰🇷KR-82.117.226.40-0204 | 0.0M...
   password: FC60532879
   port: 443
   server: classic-pug.rooster465.autos
   skip-cert-verify: false
   sni: classic-pug.rooster465.autos
   type: trojan
-- name: 🇰🇷KR-82.117.226.224-0252 | 0.0...
-  password: FC60532879
+- name: 🇰🇷KR-82.117.226.225-0205 | 0.0...
+  password: IQ68037294
   port: 443
-  server: exotic-chicken.rooster465.autos
+  server: adjusted-labrador.rooster465.autos
   skip-cert-verify: false
-  sni: exotic-chicken.rooster465.autos
+  sni: adjusted-labrador.rooster465.autos
   type: trojan
 - delay: 1527
   name: 'KR_speednode_0009 #1'

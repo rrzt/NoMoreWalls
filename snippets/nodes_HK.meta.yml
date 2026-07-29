@@ -3,7 +3,7 @@ proxies:
   name: 香港节点3701 | 1倍率
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -14,7 +14,7 @@ proxies:
   name: 香港节点3702 | 1倍率
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -25,7 +25,7 @@ proxies:
   name: 香港节点3601 | 1倍率
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -36,7 +36,7 @@ proxies:
   name: 香港节点3602 | 1倍率
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -47,7 +47,7 @@ proxies:
   name: 香港节点3603 | 1倍率
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -58,7 +58,7 @@ proxies:
   name: 香港节点3604 | 1倍率
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -69,7 +69,7 @@ proxies:
   name: 香港节点3001 | 1倍率
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -80,7 +80,7 @@ proxies:
   name: 香港节点3002 | 1倍率
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -91,7 +91,7 @@ proxies:
   name: 香港节点3003 | 1倍率
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -102,7 +102,7 @@ proxies:
   name: 香港节点3004 | 1倍率
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -113,7 +113,7 @@ proxies:
   name: 香港节点3005 | 1倍率
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -124,7 +124,7 @@ proxies:
   name: 香港节点3006 | 1倍率
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -135,7 +135,7 @@ proxies:
   name: 香港节点3007 | 1倍率
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -146,7 +146,7 @@ proxies:
   name: 香港节点3008 | 1倍率
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -157,7 +157,7 @@ proxies:
   name: 香港节点3009 | 1倍率
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
+  password: 16ccac66-a7b5-4194-b842-186465a6d0f1
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -168,7 +168,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #1'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -179,7 +179,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #1'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -190,7 +190,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #1'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -201,7 +201,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #1'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -212,7 +212,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #1'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -223,7 +223,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #1'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -234,7 +234,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #1'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -245,7 +245,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #1'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -256,7 +256,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #1'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -267,7 +267,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #1'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -278,7 +278,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #1'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -289,7 +289,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #1'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -300,7 +300,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #1'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -311,7 +311,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #1'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -322,7 +322,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #1'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
+  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -333,7 +333,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #2'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -344,7 +344,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #2'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -355,7 +355,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #2'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -366,7 +366,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #2'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -377,7 +377,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #2'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -388,7 +388,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #2'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -399,7 +399,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #2'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -410,7 +410,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #2'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -421,7 +421,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #2'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -432,7 +432,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #2'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -443,7 +443,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #2'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -454,7 +454,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #2'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -465,7 +465,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #2'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -476,7 +476,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #2'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -487,7 +487,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #2'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
+  password: 4f3127d6-67ea-44ab-90c8-39d856102576
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -498,7 +498,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #3'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -509,7 +509,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #3'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -520,7 +520,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #3'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -531,7 +531,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #3'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -542,7 +542,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #3'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -553,7 +553,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #3'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -564,7 +564,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #3'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -575,7 +575,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #3'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -586,7 +586,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #3'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -597,7 +597,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #3'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -608,7 +608,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #3'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -619,7 +619,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #3'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -630,7 +630,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #3'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -641,7 +641,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #3'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -652,7 +652,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #3'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
+  password: 633b66b5-bb3f-4933-9af6-31e73bd4ebe3
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -663,7 +663,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #4'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -674,7 +674,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #4'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -685,7 +685,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #4'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -696,7 +696,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #4'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -707,7 +707,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #4'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -718,7 +718,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #4'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -729,7 +729,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #4'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -740,7 +740,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #4'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -751,7 +751,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #4'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -762,7 +762,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #4'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -773,7 +773,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #4'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -784,7 +784,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #4'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -795,7 +795,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #4'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -806,7 +806,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #4'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -817,7 +817,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #4'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
+  password: b46754e2-c895-4f23-967a-73ec9a56322a
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -828,7 +828,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #5'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -839,7 +839,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #5'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -850,7 +850,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #5'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -861,7 +861,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #5'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -872,7 +872,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #5'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -883,7 +883,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #5'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -894,7 +894,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #5'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -905,7 +905,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #5'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -916,7 +916,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #5'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -927,7 +927,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #5'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -938,7 +938,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #5'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -949,7 +949,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #5'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -960,7 +960,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #5'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -971,7 +971,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #5'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -982,7 +982,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #5'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
+  password: 8ef25396-bf52-49b8-9df9-39383c580679
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -993,7 +993,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #6'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -1004,7 +1004,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #6'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -1015,7 +1015,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #6'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1026,7 +1026,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #6'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1037,7 +1037,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #6'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1048,7 +1048,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #6'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1059,7 +1059,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #6'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1070,7 +1070,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #6'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1081,7 +1081,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #6'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1092,7 +1092,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #6'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1103,7 +1103,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #6'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1114,7 +1114,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #6'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1125,7 +1125,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #6'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1136,7 +1136,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #6'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1147,7 +1147,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #6'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
+  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1158,7 +1158,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #7'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -1169,7 +1169,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #7'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -1180,7 +1180,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #7'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1191,7 +1191,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #7'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1202,7 +1202,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #7'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1213,7 +1213,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #7'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1224,7 +1224,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #7'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1235,7 +1235,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #7'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1246,7 +1246,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #7'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1257,7 +1257,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #7'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1268,7 +1268,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #7'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1279,7 +1279,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #7'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1290,7 +1290,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #7'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1301,7 +1301,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #7'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1312,7 +1312,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #7'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
+  password: 82f2e70e-be67-45c9-b83a-3709aca7bd49
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1323,7 +1323,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #8'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -1334,7 +1334,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #8'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -1345,7 +1345,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #8'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1356,7 +1356,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #8'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1367,7 +1367,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #8'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1378,7 +1378,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #8'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1389,7 +1389,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #8'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1400,7 +1400,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #8'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1411,7 +1411,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #8'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1422,7 +1422,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #8'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1433,7 +1433,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #8'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1444,7 +1444,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #8'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1455,7 +1455,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #8'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1466,7 +1466,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #8'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1477,7 +1477,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #8'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
+  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1488,7 +1488,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #9'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -1499,7 +1499,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #9'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -1510,7 +1510,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #9'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1521,7 +1521,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #9'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1532,7 +1532,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #9'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1543,7 +1543,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #9'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -1554,7 +1554,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #9'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1565,7 +1565,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #9'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1576,7 +1576,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #9'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1587,7 +1587,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #9'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1598,7 +1598,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #9'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1609,7 +1609,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #9'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1620,7 +1620,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #9'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1631,7 +1631,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #9'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1642,7 +1642,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #9'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
+  password: 4683a2aa-fa8e-4dba-9fa0-fa21cf7bac89
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -1983,7 +1983,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #12'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -1994,7 +1994,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #12'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -2005,7 +2005,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #12'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2016,7 +2016,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #12'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2027,7 +2027,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #12'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2038,7 +2038,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #12'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2049,7 +2049,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #12'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2060,7 +2060,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #12'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2071,7 +2071,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #12'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2082,7 +2082,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #12'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2093,7 +2093,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #12'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2104,7 +2104,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #12'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2115,7 +2115,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #12'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2126,7 +2126,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #12'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2137,7 +2137,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #12'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
+  password: 8832a0bc-a3e5-4d52-a7ff-2dedfd98fd93
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2148,7 +2148,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #13'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -2159,7 +2159,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #13'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -2170,7 +2170,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #13'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2181,7 +2181,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #13'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2192,7 +2192,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #13'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2203,7 +2203,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #13'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2214,7 +2214,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #13'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2225,7 +2225,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #13'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2236,7 +2236,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #13'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2247,7 +2247,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #13'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2258,7 +2258,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #13'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2269,7 +2269,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #13'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2280,7 +2280,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #13'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2291,7 +2291,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #13'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2302,7 +2302,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #13'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
+  password: acd291ac-935d-483f-b962-2b92e2b4d51c
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2313,7 +2313,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #14'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -2324,7 +2324,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #14'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -2335,7 +2335,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #14'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2346,7 +2346,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #14'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2357,7 +2357,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #14'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2368,7 +2368,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #14'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2379,7 +2379,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #14'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2390,7 +2390,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #14'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2401,7 +2401,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #14'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2412,7 +2412,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #14'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2423,7 +2423,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #14'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2434,7 +2434,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #14'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2445,7 +2445,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #14'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2456,7 +2456,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #14'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2467,7 +2467,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #14'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
+  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2478,7 +2478,7 @@ proxies:
   name: '香港节点3701 | 1倍率 #15'
   obfs: salamander
   obfs-password: N4jsyUlCv7jOSeIb
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45103
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -2489,7 +2489,7 @@ proxies:
   name: '香港节点3702 | 1倍率 #15'
   obfs: salamander
   obfs-password: KOfP5lme6aeFpDXC
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45201
   server: v2hk37.stableq.top
   skip-cert-verify: false
@@ -2500,7 +2500,7 @@ proxies:
   name: '香港节点3601 | 1倍率 #15'
   obfs: salamander
   obfs-password: 4Tf9DSrpNGUwu7ef
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45106
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2511,7 +2511,7 @@ proxies:
   name: '香港节点3602 | 1倍率 #15'
   obfs: salamander
   obfs-password: qONdAQegtpW7Z5Bz
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45206
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2522,7 +2522,7 @@ proxies:
   name: '香港节点3603 | 1倍率 #15'
   obfs: salamander
   obfs-password: RnnogKGDQJXn9ncS
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45306
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2533,7 +2533,7 @@ proxies:
   name: '香港节点3604 | 1倍率 #15'
   obfs: salamander
   obfs-password: kZfq0cOFaA527N4u
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45406
   server: v3hk36.stableq.top
   skip-cert-verify: false
@@ -2544,7 +2544,7 @@ proxies:
   name: '香港节点3001 | 1倍率 #15'
   obfs: salamander
   obfs-password: ZmpVHtfy0BIlxQHa
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45106
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2555,7 +2555,7 @@ proxies:
   name: '香港节点3002 | 1倍率 #15'
   obfs: salamander
   obfs-password: kEkCaLaumO0Ovvv3
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45206
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2566,7 +2566,7 @@ proxies:
   name: '香港节点3003 | 1倍率 #15'
   obfs: salamander
   obfs-password: FSkE0FDWbbrQUbPG
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45306
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2577,7 +2577,7 @@ proxies:
   name: '香港节点3004 | 1倍率 #15'
   obfs: salamander
   obfs-password: qtCy5We1l1gMYOzd
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45406
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2588,7 +2588,7 @@ proxies:
   name: '香港节点3005 | 1倍率 #15'
   obfs: salamander
   obfs-password: mLlUWmEOjFFtmReA
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45506
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2599,7 +2599,7 @@ proxies:
   name: '香港节点3006 | 1倍率 #15'
   obfs: salamander
   obfs-password: RSgERnskqy15qMTo
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45607
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2610,7 +2610,7 @@ proxies:
   name: '香港节点3007 | 1倍率 #15'
   obfs: salamander
   obfs-password: Jp47s2DVexsPg1Lt
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45703
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2621,7 +2621,7 @@ proxies:
   name: '香港节点3008 | 1倍率 #15'
   obfs: salamander
   obfs-password: T3n2MIpDvdZn16TQ
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45802
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2632,7 +2632,7 @@ proxies:
   name: '香港节点3009 | 1倍率 #15'
   obfs: salamander
   obfs-password: hvhFznkNqHceM7ct
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
+  password: 4d429708-2196-4d38-b4f2-cbdc41867fbb
   port: 45902
   server: v10hk30.stableq.top
   skip-cert-verify: false
@@ -2804,6 +2804,81 @@ proxies:
   sni: v10hk30.stableq.top
   type: hysteria2
   up: 200
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港2
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港3
+  network: ws
+  port: 443
+  server: 103.212.98.234
+  servername: www.59795160.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59795160.xyz
+    path: /path/011410073331
+- client-fingerprint: chrome
+  name: 🇭🇰 香港4
+  password: llyEnxJlVC
+  port: 51017
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港5
+  port: 54104
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港6
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 36993
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港7
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港8
+  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
+  port: 10182
+  server: 36.139.183.164
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇭🇰_香港_15
@@ -3080,9 +3155,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-headers:
-    Host: v10.hdacd.com
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong
@@ -3129,7 +3201,7 @@ proxies:
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.12-18
+  name: 🇭🇰_HK_中国香港
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
@@ -3138,9 +3210,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  ws-headers:
-    Host: n1747624274.4u9ma.icu
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-6
@@ -3186,7 +3255,7 @@ proxies:
     headers:
       Host: VAH4URdZL3jDX5r2.v.3dns.vip
     path: /ws-vmess
-- name: 🇭🇰HK-18.163.180.201-0507 | 18....
+- name: 🇭🇰HK-18.163.180.201-0107 | 19....
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 18.163.180.201
@@ -3195,7 +3264,21 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-6171 | 0.0...
+  name: 🇭🇰HK-43.100.32.12-0386 | 9.591...
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0137 | 0.0...
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -3207,7 +3290,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-6170 | 0.0...
+  name: 🇭🇰HK-47.244.120.197-0142 | 0.0...
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -3217,102 +3300,95 @@ proxies:
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     path: /
-- name: 🇭🇰HK-91.199.84.90-0199 | 0.0MB
-  password: WG39087154
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-43.100.32.4-0140 | 0.0MB
+  network: ws
   port: 443
-  server: helped-buck.rooster465.autos
+  server: n1747624260.4u9ma.icu
   skip-cert-verify: false
-  sni: helped-buck.rooster465.autos
-  type: trojan
-- name: 🇭🇰HK-185.14.47.56-0200 | 0.0MB
-  password: NQ26071394
-  port: 443
-  server: kind-unicorn.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 🇭🇰HK-185.14.47.101-0208 | 0.0M...
-  password: OD90375861
-  port: 443
-  server: ideal-robin.rooster465.autos
-  skip-cert-verify: false
-  sni: ideal-robin.rooster465.autos
-  type: trojan
-- name: 🇭🇰HK-185.244.208.176-0221 | 0....
+  tls: true
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
+- name: 🇭🇰HK-185.244.208.176-0145 | 0....
   password: IQ68037294
   port: 443
   server: eternal-swift.rooster465.autos
   skip-cert-verify: false
   sni: eternal-swift.rooster465.autos
   type: trojan
-- name: 🇭🇰HK-185.244.208.69-0225 | 0.0...
+- name: 🇭🇰HK-185.14.47.56-0146 | 0.0MB
+  password: NQ26071394
+  port: 443
+  server: kind-unicorn.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇭🇰HK-185.244.208.69-0149 | 0.0...
   password: ON38567014
   port: 443
   server: strong-haddock.rooster465.autos
   skip-cert-verify: false
   sni: strong-haddock.rooster465.autos
   type: trojan
-- name: 🇭🇰HK-91.199.84.204-0230 | 0.0M...
-  password: XG59623478
-  port: 443
-  server: growing-oyster.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 🇭🇰HK-185.244.208.210-0231 | 0....
+- name: 🇭🇰HK-185.244.208.210-0155 | 0....
   password: PI36027154
   port: 443
   server: upright-hamster.rooster465.autos
   skip-cert-verify: false
   sni: upright-hamster.rooster465.autos
   type: trojan
-- name: 🇭🇰HK-194.99.79.214-0233 | 0.0M...
+- name: 🇭🇰HK-185.14.47.101-0188 | 0.0M...
+  password: OD90375861
+  port: 443
+  server: ideal-robin.rooster465.autos
+  skip-cert-verify: false
+  sni: ideal-robin.rooster465.autos
+  type: trojan
+- name: 🇭🇰HK-91.199.84.204-0194 | 0.0M...
   password: XG59623478
   port: 443
-  server: 194.99.79.214
+  server: growing-oyster.rooster465.autos
   skip-cert-verify: false
-  sni: growing-oyster.rooster465.autos
   type: trojan
-- name: 🇭🇰HK-185.14.47.234-0235 | 0.0M...
-  password: WG39087154
+- name: 🇭🇰HK-194.99.79.197-0208 | 0.0M...
+  password: ON38567014
   port: 443
-  server: novel-mouse.rooster465.autos
+  server: smiling-ray.rooster465.autos
   skip-cert-verify: false
-  sni: novel-mouse.rooster465.autos
+  sni: smiling-ray.rooster465.autos
   type: trojan
-- name: 🇭🇰HK-91.199.84.86-0248 | 0.0MB
-  password: JT80563429
-  port: 443
-  server: engaging-llama.rooster465.autos
-  skip-cert-verify: false
-  sni: engaging-llama.rooster465.autos
-  type: trojan
-- name: 🇭🇰HK-185.244.208.56-0253 | 0.0...
-  password: WG39087154
-  port: 443
-  server: choice-worm.rooster465.autos
-  skip-cert-verify: false
-  sni: choice-worm.rooster465.autos
-  type: trojan
-- name: 🇭🇰HK-185.14.47.12-0256 | 0.0MB
-  password: KV63147582
-  port: 443
-  server: desired-tahr.rooster465.autos
-  skip-cert-verify: false
-  sni: desired-tahr.rooster465.autos
-  type: trojan
-- name: 🇭🇰HK-185.14.47.195-0261 | 0.0M...
+- name: 🇭🇰HK-185.14.47.195-0215 | 0.0M...
   password: HW85960347
   port: 443
   server: 185.14.47.195
   skip-cert-verify: false
   sni: eminent-lamb.rooster465.autos
   type: trojan
-- name: 🇭🇰HK-185.14.47.125-0263 | 0.0M...
+- name: 🇭🇰HK-185.14.47.125-0216 | 0.0M...
   password: HW85960347
   port: 443
   server: eminent-lamb.rooster465.autos
   skip-cert-verify: false
   sni: eminent-lamb.rooster465.autos
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-85.113.71.85-0220 | 0.0MB
+  network: ws
+  port: 2086
+  server: 85.113.71.85
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ba58ca0c-0411-444e-80f7-e361ce49012d
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /
 - name: 🇭🇰 HK 145 | ⬇️ 34KB/s
   password: '!!str 111'
   port: 11211
@@ -3320,6 +3396,24 @@ proxies:
   tls: false
   type: socks5
   username: '111'
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  delay: 769
+  h2-opts: {}
+  http-opts: {}
+  name: HK5
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇭🇰 HK 790 | ⬇️ 124KB/s
   password: '!!str 123'
   port: 3060
@@ -3498,6 +3592,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: HK 45.2KB/s
+  network: tcp
+  port: 800
+  server: 47.86.167.194
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   name: 🇭🇰HK香港
   password: BxceQaOe

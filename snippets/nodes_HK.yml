@@ -1,4 +1,79 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港2
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港3
+  network: ws
+  port: 443
+  server: 103.212.98.234
+  servername: www.59795160.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59795160.xyz
+    path: /path/011410073331
+- client-fingerprint: chrome
+  name: 🇭🇰 香港4
+  password: llyEnxJlVC
+  port: 51017
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港5
+  port: 54104
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港6
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 36993
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港7
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港8
+  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
+  port: 10182
+  server: 36.139.183.164
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
@@ -161,9 +236,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-headers:
-    Host: v10.hdacd.com
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong
@@ -210,7 +282,7 @@ proxies:
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.12-18
+  name: 🇭🇰_HK_中国香港
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
@@ -219,9 +291,6 @@ proxies:
   type: vmess
   udp: true
   uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  ws-headers:
-    Host: n1747624274.4u9ma.icu
-  ws-path: /
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-6
@@ -267,7 +336,7 @@ proxies:
     headers:
       Host: VAH4URdZL3jDX5r2.v.3dns.vip
     path: /ws-vmess
-- name: 🇭🇰HK-18.163.180.201-0507 | 18....
+- name: 🇭🇰HK-18.163.180.201-0107 | 19....
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 18.163.180.201
@@ -276,7 +345,21 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-6171 | 0.0...
+  name: 🇭🇰HK-43.100.32.12-0386 | 9.591...
+  network: ws
+  port: 443
+  server: n1747624274.4u9ma.icu
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-opts:
+    headers:
+      Host: n1747624274.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.244.120.197-0137 | 0.0...
   network: ws
   port: 36703
   server: 47.244.120.197
@@ -288,7 +371,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-47.244.120.197-6170 | 0.0...
+  name: 🇭🇰HK-47.244.120.197-0142 | 0.0...
   network: ws
   port: 44867
   server: 47.244.120.197
@@ -298,102 +381,113 @@ proxies:
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   ws-opts:
     path: /
-- name: 🇭🇰HK-91.199.84.90-0199 | 0.0MB
-  password: WG39087154
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-43.100.32.4-0140 | 0.0MB
+  network: ws
   port: 443
-  server: helped-buck.rooster465.autos
+  server: n1747624260.4u9ma.icu
   skip-cert-verify: false
-  sni: helped-buck.rooster465.autos
-  type: trojan
-- name: 🇭🇰HK-185.14.47.56-0200 | 0.0MB
-  password: NQ26071394
-  port: 443
-  server: kind-unicorn.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 🇭🇰HK-185.14.47.101-0208 | 0.0M...
-  password: OD90375861
-  port: 443
-  server: ideal-robin.rooster465.autos
-  skip-cert-verify: false
-  sni: ideal-robin.rooster465.autos
-  type: trojan
-- name: 🇭🇰HK-185.244.208.176-0221 | 0....
+  tls: true
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
+- name: 🇭🇰HK-185.244.208.176-0145 | 0....
   password: IQ68037294
   port: 443
   server: eternal-swift.rooster465.autos
   skip-cert-verify: false
   sni: eternal-swift.rooster465.autos
   type: trojan
-- name: 🇭🇰HK-185.244.208.69-0225 | 0.0...
+- name: 🇭🇰HK-185.14.47.56-0146 | 0.0MB
+  password: NQ26071394
+  port: 443
+  server: kind-unicorn.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇭🇰HK-185.244.208.69-0149 | 0.0...
   password: ON38567014
   port: 443
   server: strong-haddock.rooster465.autos
   skip-cert-verify: false
   sni: strong-haddock.rooster465.autos
   type: trojan
-- name: 🇭🇰HK-91.199.84.204-0230 | 0.0M...
-  password: XG59623478
-  port: 443
-  server: growing-oyster.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 🇭🇰HK-185.244.208.210-0231 | 0....
+- name: 🇭🇰HK-185.244.208.210-0155 | 0....
   password: PI36027154
   port: 443
   server: upright-hamster.rooster465.autos
   skip-cert-verify: false
   sni: upright-hamster.rooster465.autos
   type: trojan
-- name: 🇭🇰HK-194.99.79.214-0233 | 0.0M...
+- name: 🇭🇰HK-185.14.47.101-0188 | 0.0M...
+  password: OD90375861
+  port: 443
+  server: ideal-robin.rooster465.autos
+  skip-cert-verify: false
+  sni: ideal-robin.rooster465.autos
+  type: trojan
+- name: 🇭🇰HK-91.199.84.204-0194 | 0.0M...
   password: XG59623478
   port: 443
-  server: 194.99.79.214
+  server: growing-oyster.rooster465.autos
   skip-cert-verify: false
-  sni: growing-oyster.rooster465.autos
   type: trojan
-- name: 🇭🇰HK-185.14.47.234-0235 | 0.0M...
-  password: WG39087154
+- name: 🇭🇰HK-194.99.79.197-0208 | 0.0M...
+  password: ON38567014
   port: 443
-  server: novel-mouse.rooster465.autos
+  server: smiling-ray.rooster465.autos
   skip-cert-verify: false
-  sni: novel-mouse.rooster465.autos
+  sni: smiling-ray.rooster465.autos
   type: trojan
-- name: 🇭🇰HK-91.199.84.86-0248 | 0.0MB
-  password: JT80563429
-  port: 443
-  server: engaging-llama.rooster465.autos
-  skip-cert-verify: false
-  sni: engaging-llama.rooster465.autos
-  type: trojan
-- name: 🇭🇰HK-185.244.208.56-0253 | 0.0...
-  password: WG39087154
-  port: 443
-  server: choice-worm.rooster465.autos
-  skip-cert-verify: false
-  sni: choice-worm.rooster465.autos
-  type: trojan
-- name: 🇭🇰HK-185.14.47.12-0256 | 0.0MB
-  password: KV63147582
-  port: 443
-  server: desired-tahr.rooster465.autos
-  skip-cert-verify: false
-  sni: desired-tahr.rooster465.autos
-  type: trojan
-- name: 🇭🇰HK-185.14.47.195-0261 | 0.0M...
+- name: 🇭🇰HK-185.14.47.195-0215 | 0.0M...
   password: HW85960347
   port: 443
   server: 185.14.47.195
   skip-cert-verify: false
   sni: eminent-lamb.rooster465.autos
   type: trojan
-- name: 🇭🇰HK-185.14.47.125-0263 | 0.0M...
+- name: 🇭🇰HK-185.14.47.125-0216 | 0.0M...
   password: HW85960347
   port: 443
   server: eminent-lamb.rooster465.autos
   skip-cert-verify: false
   sni: eminent-lamb.rooster465.autos
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-85.113.71.85-0220 | 0.0MB
+  network: ws
+  port: 2086
+  server: 85.113.71.85
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ba58ca0c-0411-444e-80f7-e361ce49012d
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /
+- alpn:
+  - ''
+  alterId: 2
+  cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  delay: 769
+  h2-opts: {}
+  http-opts: {}
+  name: HK5
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - ''
   alterId: 0
@@ -566,6 +660,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: HK 45.2KB/s
+  network: tcp
+  port: 800
+  server: 47.86.167.194
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   name: 🇭🇰HK香港
   password: BxceQaOe

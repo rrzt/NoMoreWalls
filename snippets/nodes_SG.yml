@@ -1,4 +1,20 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡2
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39204
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇸🇬 狮城特殊
+  password: amazonskr05
+  port: 443
+  server: 18.183.186.14
+  tfo: false
+  type: ss
 - name: 🇸🇬SG_4|⬇️5.1MB/s
   network: ws
   password: a9570330-769d-11ef-90dc-1577c1651679
@@ -31,232 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 新加坡 001
-  network: ws
-  port: 80
-  server: 172.104.182.226
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad
-  ws-opts:
-    headers:
-      Host: vpngiare.akamaized.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡 002
-  network: ws
-  port: 8848
-  server: 23.101.27.60
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 新加坡 003
-  network: ws
-  port: 8080
-  server: 18.139.108.70
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 新加坡 004
-  network: ws
-  port: 8080
-  server: 52.221.29.32
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 新加坡 005
-  network: ws
-  port: 8080
-  server: 18.141.185.144
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 新加坡 006
-  network: ws
-  port: 8080
-  server: 124.156.207.12
-  skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
-  ws-opts:
-    headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 4
-  cipher: auto
-  name: 新加坡 007
-  network: ws
-  port: 443
-  server: 103.253.26.134
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: eeh7iewe.com
-    path: /ws
-- alterId: 4
-  cipher: auto
-  name: 新加坡 008
-  network: ws
-  port: 443
-  server: 103.253.26.20
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: zecjk.com
-    path: /ws
-- alterId: 64
-  cipher: auto
-  name: 新加坡 009
-  network: ws
-  port: 30010
-  server: 103.254.152.82
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.47876202.xyz
-    path: /path/191019072927
-- alterId: 1
-  cipher: auto
-  name: 新加坡 010
-  network: ws
-  port: 21888
-  server: 104.248.148.147
-  skip-cert-verify: true
-  type: vmess
-  uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89
-  ws-opts:
-    headers:
-      Host: 104.248.148.147
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡 011
-  network: ws
-  port: 80
-  server: 139.99.61.154
-  skip-cert-verify: true
-  type: vmess
-  uuid: 932a1f0d-f5ce-418d-8560-c88f53c534b9
-  ws-opts:
-    headers:
-      Host: 139.99.61.154
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 新加坡 012
-  network: ws
-  port: 16737
-  server: 139.180.211.152
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1458e38c-9f71-4c3c-aa70-aaccda6789dd
-  ws-opts:
-    headers:
-      Host: m.twitter.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡 013
-  network: ws
-  port: 18063
-  server: 139.180.211.152
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0d4f647b-0d96-4820-9de8-0186156185dd
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /Dialog Zoom
-- alterId: 0
-  cipher: auto
-  name: 新加坡 014
-  network: ws
-  port: 80
-  server: 139.59.255.209
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5c609459-82f5-430d-8e1b-84a8527cfb22
-  ws-opts:
-    headers:
-      Host: 4gvpn.akamaized.net
-    path: /cloudfast
-- alterId: 0
-  cipher: auto
-  name: 新加坡 015
-  network: ws
-  port: 63086
-  server: 159.27.90.254
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f
-  ws-opts:
-    headers:
-      Host: jp-balancer.myn1des.com
-    path: /mugua
-- alterId: 0
-  cipher: auto
-  name: 新加坡 016
-  network: ws
-  port: 9111
-  server: st-1.dnspro.icu
-  skip-cert-verify: true
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: st-1.dnspro.icu
-    path: /iso
-- alterId: 0
-  cipher: auto
-  name: 新加坡 017
-  network: ws
-  port: 5100
-  server: st-2.dnspro.icu
-  skip-cert-verify: true
-  type: vmess
-  uuid: 13ef5f2c-d002-36a2-9e96-a13d5e3ae03b
-  ws-opts:
-    headers:
-      Host: st-2.dnspro.icu
-    path: /iso
-- name: 🇸🇬SG-167.150.100.133-0287 | 2....
+- name: 🇸🇬SG-167.150.100.133-0134 | 0....
   password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
   port: 450
   server: 167.150.100.133
@@ -282,39 +73,65 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
-- name: 🇸🇬SG-91.243.81.111-0169 | 0.0M...
-  password: WG39087154
-  port: 443
-  server: whole-grub.rooster465.autos
-  skip-cert-verify: false
-  sni: whole-grub.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-45.135.228.169-0170 | 0.0...
+- cipher: chacha20-ietf
+  name: 🇸🇬SG-103.36.91.32-0115 | 0.0MB
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- name: 🇸🇬SG-45.135.228.28-0163 | 0.0M...
   password: IQ68037294
   port: 443
-  server: fun-salmon.rooster465.autos
+  server: pleased-sawfly.rooster465.autos
   skip-cert-verify: false
-  sni: fun-salmon.rooster465.autos
   type: trojan
-- name: 🇸🇬SG-81.28.13.126-0166 | 0.0MB
+- name: 🇸🇬SG-81.28.13.103-0164 | 0.0MB
+  password: FC60532879
+  port: 443
+  server: faithful-panther.rooster465.autos
+  skip-cert-verify: false
+  sni: faithful-panther.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.63-0165 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: fair-reptile.rooster465.autos
+  skip-cert-verify: false
+  sni: fair-reptile.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.59-0166 | 0.0M...
+  password: FC60532879
+  port: 443
+  server: true-alpaca.rooster465.autos
+  skip-cert-verify: false
+  sni: true-alpaca.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-91.243.81.129-0167 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: casual-stallion.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇸🇬SG-91.243.81.178-0169 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: brave-cattle.rooster465.autos
+  skip-cert-verify: false
+  sni: brave-cattle.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-81.28.13.126-0170 | 0.0MB
   password: FC60532879
   port: 443
   server: resolved-gelding.rooster465.autos
   skip-cert-verify: false
   sni: resolved-gelding.rooster465.autos
   type: trojan
-- name: 🇸🇬SG-81.28.13.68-0172 | 0.0MB
+- name: 🇸🇬SG-45.135.228.220-0171 | 0.0...
   password: IQ68037294
   port: 443
-  server: pet-albacore.rooster465.autos
+  server: neat-duck.rooster465.autos
   skip-cert-verify: false
-  sni: pet-albacore.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-45.135.228.28-0173 | 0.0M...
-  password: IQ68037294
-  port: 443
-  server: pleased-sawfly.rooster465.autos
-  skip-cert-verify: false
+  sni: neat-duck.rooster465.autos
   type: trojan
 - name: 🇸🇬SG-45.135.228.211-0174 | 0.0...
   password: IQ68037294
@@ -322,135 +139,73 @@ proxies:
   server: endless-kiwi.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- name: 🇸🇬SG-81.28.13.9-0175 | 0.0MB
-  password: IQ68037294
-  port: 443
-  server: prepared-turkey.rooster465.autos
-  skip-cert-verify: false
-  sni: prepared-turkey.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-45.135.228.179-0176 | 0.0...
-  password: IQ68037294
-  port: 443
-  server: electric-rhino.rooster465.autos
-  skip-cert-verify: false
-  sni: electric-rhino.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-91.243.81.192-0177 | 0.0M...
-  password: IQ68037294
-  port: 443
-  server: sterling-fowl.rooster465.autos
-  skip-cert-verify: false
-  sni: sterling-fowl.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-91.243.81.26-0178 | 0.0MB
-  password: IQ68037294
-  port: 443
-  server: full-mackerel.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 🇸🇬SG-91.243.81.165-0179 | 0.0M...
-  password: FC60532879
-  port: 443
-  server: magnetic-woodcock.rooster465.autos
-  skip-cert-verify: false
-  sni: magnetic-woodcock.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-81.28.13.225-0182 | 0.0MB
+- name: 🇸🇬SG-81.28.13.225-0175 | 0.0MB
   password: IQ68037294
   port: 443
   server: open-eel.rooster465.autos
   skip-cert-verify: false
   sni: open-eel.rooster465.autos
   type: trojan
-- name: 🇸🇬SG-91.243.81.142-0184 | 0.0M...
-  password: WG39087154
+- name: 🇸🇬SG-91.243.81.26-0176 | 0.0MB
+  password: IQ68037294
   port: 443
-  server: fair-kingfish.rooster465.autos
+  server: full-mackerel.rooster465.autos
   skip-cert-verify: false
-  sni: fair-kingfish.rooster465.autos
   type: trojan
-- name: 🇸🇬SG-45.135.228.9-0185 | 0.0MB
+- name: 🇸🇬SG-81.28.13.48-0177 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: glowing-deer.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇸🇬SG-91.243.81.192-0178 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: sterling-fowl.rooster465.autos
+  skip-cert-verify: false
+  sni: sterling-fowl.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.9-0179 | 0.0MB
   password: FC60532879
   port: 443
   server: actual-chicken.rooster465.autos
   skip-cert-verify: false
   sni: actual-chicken.rooster465.autos
   type: trojan
-- name: 🇸🇬SG-81.28.13.159-0186 | 0.0MB
+- name: 🇸🇬SG-45.135.228.169-0181 | 0.0...
   password: IQ68037294
   port: 443
-  server: giving-bird.rooster465.autos
+  server: fun-salmon.rooster465.autos
   skip-cert-verify: false
-  sni: giving-bird.rooster465.autos
+  sni: fun-salmon.rooster465.autos
   type: trojan
-- name: 🇸🇬SG-81.28.13.148-0188 | 0.0MB
-  password: FC60532879
-  port: 443
-  server: needed-gelding.rooster465.autos
-  skip-cert-verify: false
-  sni: needed-gelding.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-91.243.81.178-0189 | 0.0M...
-  password: IQ68037294
-  port: 443
-  server: brave-cattle.rooster465.autos
-  skip-cert-verify: false
-  sni: brave-cattle.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-45.135.228.223-0193 | 0.0...
-  password: WG39087154
-  port: 443
-  server: open-caribou.rooster465.autos
-  skip-cert-verify: false
-  sni: open-caribou.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-45.135.228.63-0164 | 0.0M...
-  password: IQ68037294
-  port: 443
-  server: fair-reptile.rooster465.autos
-  skip-cert-verify: false
-  sni: fair-reptile.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-91.243.81.69-0205 | 0.0MB
-  password: WG39087154
-  port: 443
-  server: proud-escargot.rooster465.autos
-  skip-cert-verify: false
-  sni: proud-escargot.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-81.28.13.48-0163 | 0.0MB
-  password: IQ68037294
-  port: 443
-  server: glowing-deer.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-- name: 🇸🇬SG-45.135.228.100-0160 | 0.0...
+- name: 🇸🇬SG-45.135.228.100-0182 | 0.0...
   password: IQ68037294
   port: 443
   server: meet-doe.rooster465.autos
   skip-cert-verify: false
   sni: meet-doe.rooster465.autos
   type: trojan
-- name: 🇸🇬SG-45.135.228.68-0159 | 0.0M...
-  password: FC60532879
-  port: 443
-  server: helpful-possum.rooster465.autos
-  skip-cert-verify: false
-  sni: helpful-possum.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-91.243.81.129-0158 | 0.0M...
+- name: 🇸🇬SG-81.28.13.68-0185 | 0.0MB
   password: IQ68037294
   port: 443
-  server: casual-stallion.rooster465.autos
+  server: pet-albacore.rooster465.autos
   skip-cert-verify: false
+  sni: pet-albacore.rooster465.autos
   type: trojan
-- name: 🇸🇬SG-45.135.228.220-0157 | 0.0...
+- name: 🇸🇬SG-81.28.13.159-0196 | 0.0MB
   password: IQ68037294
   port: 443
-  server: neat-duck.rooster465.autos
+  server: giving-bird.rooster465.autos
   skip-cert-verify: false
-  sni: neat-duck.rooster465.autos
+  sni: giving-bird.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-81.28.13.9-0198 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: prepared-turkey.rooster465.autos
+  skip-cert-verify: false
+  sni: prepared-turkey.rooster465.autos
   type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
