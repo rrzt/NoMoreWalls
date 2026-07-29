@@ -1,37 +1,12 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 日本 013
-  network: ws
-  port: 30000
-  server: 137.220.130.58
-  servername: www.68703921.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68703921.xyz
-    path: /path/011410073331
 - cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 🇰🇷 韩国特殊
-  password: amazonskr05
-  port: 443
-  server: 3.112.220.140
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: kr|9179|puddincat07@Telegram
+  name: South Korea_None_ss_1131
   password: qwerREWQ@@
   port: 2078
   server: 27.255.82.134
   skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - alterId: 0
   cipher: auto
   name: 韩国 001

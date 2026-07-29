@@ -1,12 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇹🇼 台湾
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 39201
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇨🇳TW-125.230.74.183-0598 | 7.7...

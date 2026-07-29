@@ -40,14 +40,17 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 中国 005
+  name: 🇨🇳CN-119.45.239.226-23
   network: tcp
   port: 30835
   server: v35.hdacd.com
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v35.hdacd.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 中国 006
@@ -242,6 +245,20 @@ proxies:
     headers:
       Host: download.cloud.189.cn
     path: /
+- alterId: 64
+  cipher: auto
+  name: 中国 021
+  network: ws
+  port: 443
+  server: 103.212.98.234
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59795160.xyz
+    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 中国 022
@@ -1354,6 +1371,16 @@ proxies:
     headers:
       Host: 120.233.150.146
     path: /rocket
+- alterId: 0
+  name: 'CN_speednode_0005 #2'
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
 - name: 'CN_speednode_0006 #2'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -1377,6 +1404,58 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳CN-118.24.78.46-15
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v24.hdacd.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳CN-1.13.185.195-16
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v29.hdacd.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳CN-1.14.76.96-21
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v8.hdacd.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳CN-1.13.185.182-22
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v9.hdacd.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 2|🇺🇸24 |  4.8MB/s

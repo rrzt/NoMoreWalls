@@ -301,298 +301,6 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 香港2
-  network: ws
-  port: 46001
-  server: mmhk01.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmhk01.micloud.buzz
-    path: /zh-cn
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 中国 021
-  network: ws
-  port: 443
-  server: 103.212.98.234
-  servername: www.59795160.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59795160.xyz
-    path: /path/011410073331
-- client-fingerprint: chrome
-  name: 🇭🇰 香港4
-  password: llyEnxJlVC
-  port: 51017
-  server: 183.232.139.24
-  skip-cert-verify: true
-  type: trojan
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 香港5
-  port: 54104
-  server: 183.236.51.23
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇭🇰 香港6
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 36993
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇭🇰 香港7
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 39301
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 🇭🇰 香港8
-  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
-  port: 10182
-  server: 36.139.183.164
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇹🇼 台湾
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 39201
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 🇯🇵 日本
-  password: yEnxJlVC
-  port: 51012
-  server: 183.232.139.24
-  skip-cert-verify: true
-  type: trojan
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 日本 012
-  network: ws
-  port: 443
-  server: 134.122.139.79
-  servername: www.48907900.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.48907900.xyz
-    path: /path/011410073331
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本5
-  network: ws
-  port: 46011
-  server: mmjp11.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmjp11.micloud.buzz
-    path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇯🇵 日本4
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 49207
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本6
-  network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
-  ws-opts:
-    headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 日本 013
-  network: ws
-  port: 30000
-  server: 137.220.130.58
-  servername: www.68703921.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68703921.xyz
-    path: /path/011410073331
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇸🇬 新加坡2
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 39204
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 美国 263
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.dtku47.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国2
-  network: ws
-  port: 46036
-  server: mmus36.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmus36.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国3
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
-  ws-opts:
-    headers:
-      Host: us2jdgv5GC7.fzbqfrse.xyz
-    path: /video/DDC4btA8wc/
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 美国 199
-  network: ws
-  port: 2086
-  server: 104.26.0.56
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 🇯🇵 日本特殊
-  password: amazonskr05
-  port: 443
-  server: 47.128.150.72
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 🇰🇷 韩国特殊
-  password: amazonskr05
-  port: 443
-  server: 3.112.220.140
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 🇸🇬 狮城特殊
-  password: amazonskr05
-  port: 443
-  server: 18.183.186.14
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪 德国
-  network: ws
-  port: 46092
-  server: mmde92.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmde92.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇺 匈牙利
-  network: ws
-  port: 46082
-  server: mmhu82.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmhu82.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
   name: '防范境外势力渗透 #10'
   network: tcp
   port: '80'
@@ -1192,10 +900,14 @@ proxies:
   port: '30807'
   server: v10.hdacd.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: xx|12e6|puddincat07@Telegram
+  ws-headers:
+    Host: v10.hdacd.com
+  ws-path: /
+- name: Japan_None_trojan_1144
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr2.tube-cat.com
@@ -1215,7 +927,7 @@ proxies:
     headers:
       Host: ikk---7-MiTiVPN----o.kingnetwork.ir
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
-- name: us|3055|puddincat07@Telegram
+- name: None_None_trojan_1146
   network: ws
   password: MiTiVPN
   port: 2087
@@ -1417,13 +1129,13 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: kr|9179|puddincat07@Telegram
+  name: South Korea_None_ss_1131
   password: qwerREWQ@@
   port: 2078
   server: 27.255.82.134
   skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - cipher: aes-128-gcm
   name: United States_Los Angeles_ss_1...
   password: fjlfjafl231303831
@@ -1556,88 +1268,6 @@ proxies:
   server: 260323.1.0.l2.unclemanco.com
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: xx|a441|puddincat07@Telegram
-  password: agSY+I/9kdioZ9aZLajgjEF0uwTcmTi9cIQVuguchJ4=
-  port: 51570
-  server: e1.cover20.ir
-  type: ss
-  udp: true
-- name: 'US_speednode_0134 #2'
-  network: ws
-  password: MiTiVPN
-  port: 2083
-  server: 104.18.7.178
-  skip-cert-verify: true
-  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
-- cipher: aes-256-cfb
-  name: se|599b|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 13.53.198.63
-  type: ss
-  udp: true
-- alterId: 0
-  name: 🇺🇦UA乌克兰
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: us|c3bc|puddincat07@Telegram
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 193.42.38.209
-  type: ss
-  udp: true
-- alterId: 0
-  name: 'CN_speednode_0005 #2'
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL-108.181.126.122-0249 | 49...
-  password: CJmTCCx7Ltud
-  port: 8388
-  server: 108.181.126.122
-  type: ss
-- name: 美国 024
-  network: ws
-  password: humanity
-  port: 443
-  server: 208.103.161.101
-  skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.creationlong.org
-    path: /assignment
-- client-fingerprint: chrome
-  name: 俄罗斯 007
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: full-ox.rooster465.autos
-  skip-cert-verify: false
-  sni: full-ox.rooster465.autos
-  type: trojan
-  udp: true
 - name: 法国 001
   network: tcp
   password: JT80563429
@@ -1654,6 +1284,16 @@ proxies:
   server: 15.237.217.186
   skip-cert-verify: false
   sni: desired-pony.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇺🇦UA乌克兰
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  tls: true
   type: trojan
   udp: true
 - name: 美国 011
@@ -1743,6 +1383,18 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
+- name: 美国 024
+  network: ws
+  password: humanity
+  port: 443
+  server: 208.103.161.101
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: /assignment
 - client-fingerprint: chrome
   name: 俄罗斯 001
   network: tcp
@@ -1811,6 +1463,16 @@ proxies:
   server: pretty-mollusk.rooster465.autos
   skip-cert-verify: false
   sni: pretty-mollusk.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 俄罗斯 007
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: full-ox.rooster465.autos
+  skip-cert-verify: false
+  sni: full-ox.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -2961,14 +2623,17 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 中国 005
+  name: 🇨🇳CN-119.45.239.226-23
   network: tcp
   port: 30835
   server: v35.hdacd.com
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v35.hdacd.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 印度 002
@@ -4817,6 +4482,20 @@ proxies:
     path: /realtime
 - alterId: 0
   cipher: auto
+  name: 美国 199
+  network: ws
+  port: 2086
+  server: 104.26.0.56
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 美国 200
   network: ws
   port: 8443
@@ -6243,6 +5922,61 @@ proxies:
     headers:
       Host: cg1c14.waimaojd.com
     path: /api/v1/graphql
+- alterId: 64
+  cipher: auto
+  name: 中国 021
+  network: ws
+  port: 443
+  server: 103.212.98.234
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59795160.xyz
+    path: /path/011410073331
+- alterId: 64
+  cipher: auto
+  name: 日本 012
+  network: ws
+  port: 443
+  server: 134.122.139.79
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.48907900.xyz
+    path: /path/011410073331
+- alterId: 64
+  cipher: auto
+  name: 日本 013
+  network: ws
+  port: 30000
+  server: 137.220.130.58
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68703921.xyz
+    path: /path/011410073331
+- alterId: 0
+  cipher: auto
+  name: 美国 263
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  skip-cert-verify: true
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip005.dtku47.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 澳大利亚 009
@@ -23394,6 +23128,16 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+- alterId: 0
+  name: 'CN_speednode_0005 #2'
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
 - name: 'CN_speednode_0006 #2'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -23417,6 +23161,19 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
+- name: 'US_speednode_0134 #2'
+  network: ws
+  password: MiTiVPN
+  port: 2083
+  server: 104.18.7.178
+  skip-cert-verify: true
+  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
 - name: 'US_speednode_0135 #2'
   network: ws
   password: MITIVPN
@@ -23449,7 +23206,7 @@ proxies:
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_HK_中国香港
+  name: 🇭🇰HK-43.100.32.12-18
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
@@ -23458,6 +23215,9 @@ proxies:
   type: vmess
   udp: true
   uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  ws-headers:
+    Host: n1747624274.4u9ma.icu
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_1
@@ -23471,7 +23231,7 @@ proxies:
   uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
   ws-opts:
     path: /speed
-- name: 🇭🇰_HK_中国香港->🇲🇴_MO_中国澳门
+- name: 🇺🇸US-157.254.38.210-20
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20068
   server: oplosgru-c.catcat321.com
@@ -24042,6 +23802,12 @@ proxies:
   password: shadowsocks
   port: 443
   server: 173.244.56.9
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL-108.181.126.122-0249 | 49...
+  password: CJmTCCx7Ltud
+  port: 8388
+  server: 108.181.126.122
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL-108.181.58.239-0257 | 49....
@@ -25028,6 +24794,84 @@ proxies:
   skip-cert-verify: false
   sni: chief-cricket.rooster465.autos
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳CN-118.24.78.46-15
+  network: tcp
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v24.hdacd.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳CN-1.13.185.195-16
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v29.hdacd.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-23.95.248.105-17
+  network: tcp
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  ws-headers:
+    Host: guanwang.awsno.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-192.204.57.30-19
+  network: ws
+  port: 443
+  server: 192.204.57.30
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
+  ws-headers:
+    Host: 192.204.57.30
+  ws-path: /speed
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳CN-1.14.76.96-21
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v8.hdacd.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳CN-1.13.185.182-22
+  network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v9.hdacd.com
+  ws-path: /
 - alterId: '0'
   cipher: auto
   name: '🇭🇰HK_6|2.1MB/s #1'
