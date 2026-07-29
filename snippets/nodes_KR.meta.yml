@@ -1,32 +1,4 @@
 proxies:
-- name: 🇰🇷_韩国_139
-  network: ws
-  port: 443
-  server: 123.111.169.70
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇰🇷_韩国_141
-  network: ws
-  port: 443
-  server: 129.154.50.159
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 未知35 487.5KB/s
@@ -374,6 +346,16 @@ proxies:
   skip-cert-verify: false
   sni: exotic-chicken.rooster465.autos
   type: trojan
+- delay: 1527
+  name: 'KR_speednode_0009 #1'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: Og%3D%3D
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -431,10 +413,3 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
-- name: 'KR_speednode_0009 #1'
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  udp: true
-  username: Og%3D%3D

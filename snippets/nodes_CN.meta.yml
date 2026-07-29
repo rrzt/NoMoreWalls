@@ -1,18 +1,4 @@
 proxies:
-- name: 🇨🇳_中国_348
-  network: ws
-  port: 443
-  server: 47.102.212.166
-  servername: vangoghhh.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-    path: /rdfgtws
 - alterId: 0
   cipher: auto
   name: 🇨🇳TW-125.230.74.183-0598 | 7.7...
@@ -1583,8 +1569,15 @@ proxies:
   ws-headers:
     Host: v8.hdacd.com
   ws-path: /
-- alterId: 2
+- alpn:
+  - ''
+  alterId: 2
   cipher: auto
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  delay: 769
+  h2-opts: {}
+  http-opts: {}
   name: HK5
   network: tcp
   port: 30809
@@ -1592,6 +1585,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-headers:
     Host: v9.hdacd.com

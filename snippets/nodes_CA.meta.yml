@@ -597,6 +597,32 @@ proxies:
   port: 443
   server: 149.22.95.183
   type: ss
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 744 | ⬇️ 128KB/s
+  password: 2803361d6c196af8
+  port: 10210
+  server: 50.114.177.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: 🇨🇦 CA 378 | ⬇️ 3MB/s
+  password: ''
+  port: 10084
+  server: 51.222.12.245
+  type: socks5
+  username: ''
+- disable-sni: 'true'
+  name: 🇨🇦 CA 852 | ⬇️ 56KB/s
+  packet-encoding: ''
+  packetEncoding: none
+  password: c90afede-81f8-439d-9a20-f45579f623ec
+  port: 443
+  server: jnd02.asgg2026.vip
+  skip-cert-verify: true
+  sni: ''
+  type: anytls
+  udp: true
+  username: c90afede-81f8-439d-9a20-f45579f623ec
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

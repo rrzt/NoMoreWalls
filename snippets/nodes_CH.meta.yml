@@ -1,89 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇨🇭_瑞士_124
-  network: ws
-  port: 2053
-  server: 91.192.102.170
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- name: 🇨🇭_瑞士_216
-  network: ws
-  port: 443
-  server: 45.85.93.49
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇨🇭_瑞士_241
-  network: ws
-  port: 443
-  server: 176.10.125.114
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇨🇭_瑞士_245
-  network: ws
-  port: 443
-  server: 91.245.225.69
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇨🇭_瑞士_249
-  network: ws
-  port: 443
-  server: 91.245.225.17
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
-- name: 🇨🇭_瑞士_270
-  network: ws
-  port: 443
-  server: 45.143.200.104
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 瑞士 001
@@ -170,6 +85,19 @@ proxies:
   port: 80
   server: 84.17.53.163
   type: ss
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray
+  name: 🇨🇭 CH 188 | ⬇️ 40KB/s
+  network: grpc
+  password: Xpp4J8jfbWRwCFPbFQ0PaugqS8VZLKkm
+  port: 18936
+  reality-opts:
+    public-key: myxNd1bvr963QPX-04CKcKkXSUfiUn2lLEQrdN4I4ms
+    short-id: '!!str !!str 141d17dfc73efe2c'
+  server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
+  sni: rd.autos.yahoo.com:443
+  type: trojan
 - alpn:
   - h3
   auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
