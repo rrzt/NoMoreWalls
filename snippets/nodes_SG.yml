@@ -1,4 +1,20 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡2
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39204
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇸🇬 狮城特殊
+  password: amazonskr05
+  port: 443
+  server: 18.183.186.14
+  tfo: false
+  type: ss
 - name: 🇸🇬SG_4|⬇️5.1MB/s
   network: ws
   password: a9570330-769d-11ef-90dc-1577c1651679
@@ -256,27 +272,293 @@ proxies:
     headers:
       Host: st-2.dnspro.icu
     path: /iso
-- name: 新加坡|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 16.162.55.106
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 新加坡2|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 57.183.19.130
+- name: 🇸🇬SG-167.150.100.133-0287 | 2....
+  password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
+  port: 450
+  server: 167.150.100.133
   skip-cert-verify: false
-  sni: www.nintendogames.net
+  sni: grape-power-sg.roxa.org
   type: trojan
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 45744
-  server: 18.166.236.71
+- cipher: chacha20-ietf
+  name: 🇸🇬SG-103.36.91.32-6092 | 2.674...
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- name: 🇸🇬SG-91.243.81.111-0169 | 0.0M...
+  password: WG39087154
+  port: 443
+  server: whole-grub.rooster465.autos
+  skip-cert-verify: false
+  sni: whole-grub.rooster465.autos
+  type: trojan
+- alterId: 0
+  name: 🇸🇬SG新加坡7
+  password: IQ68037294
+  port: 443
+  server: fun-salmon.rooster465.autos
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: fun-salmon.rooster465.autos
+  tls: true
   type: trojan
+  udp: true
+- name: 🇸🇬SG-81.28.13.126-0166 | 0.0MB
+  password: FC60532879
+  port: 443
+  server: resolved-gelding.rooster465.autos
+  skip-cert-verify: false
+  sni: resolved-gelding.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-81.28.13.68-0172 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: pet-albacore.rooster465.autos
+  skip-cert-verify: false
+  sni: pet-albacore.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.28-0173 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: pleased-sawfly.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  name: 🇸🇬SG新加坡2
+  password: IQ68037294
+  port: 443
+  server: endless-kiwi.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇸🇬SG-81.28.13.9-0175 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: prepared-turkey.rooster465.autos
+  skip-cert-verify: false
+  sni: prepared-turkey.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.179-0176 | 0.0...
+  password: IQ68037294
+  port: 443
+  server: electric-rhino.rooster465.autos
+  skip-cert-verify: false
+  sni: electric-rhino.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-91.243.81.192-0177 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: sterling-fowl.rooster465.autos
+  skip-cert-verify: false
+  sni: sterling-fowl.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-91.243.81.26-0178 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: full-mackerel.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇸🇬SG-91.243.81.165-0179 | 0.0M...
+  password: FC60532879
+  port: 443
+  server: magnetic-woodcock.rooster465.autos
+  skip-cert-verify: false
+  sni: magnetic-woodcock.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-81.28.13.225-0182 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: open-eel.rooster465.autos
+  skip-cert-verify: false
+  sni: open-eel.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-91.243.81.142-0184 | 0.0M...
+  password: WG39087154
+  port: 443
+  server: fair-kingfish.rooster465.autos
+  skip-cert-verify: false
+  sni: fair-kingfish.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.9-0185 | 0.0MB
+  password: FC60532879
+  port: 443
+  server: actual-chicken.rooster465.autos
+  skip-cert-verify: false
+  sni: actual-chicken.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-81.28.13.159-0186 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: giving-bird.rooster465.autos
+  skip-cert-verify: false
+  sni: giving-bird.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-81.28.13.148-0188 | 0.0MB
+  password: FC60532879
+  port: 443
+  server: needed-gelding.rooster465.autos
+  skip-cert-verify: false
+  sni: needed-gelding.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-91.243.81.178-0189 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: brave-cattle.rooster465.autos
+  skip-cert-verify: false
+  sni: brave-cattle.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.223-0193 | 0.0...
+  password: WG39087154
+  port: 443
+  server: open-caribou.rooster465.autos
+  skip-cert-verify: false
+  sni: open-caribou.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.63-0164 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: fair-reptile.rooster465.autos
+  skip-cert-verify: false
+  sni: fair-reptile.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-91.243.81.69-0205 | 0.0MB
+  password: WG39087154
+  port: 443
+  server: proud-escargot.rooster465.autos
+  skip-cert-verify: false
+  sni: proud-escargot.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-81.28.13.48-0163 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: glowing-deer.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  name: 🇸🇬SG新加坡9
+  password: IQ68037294
+  port: 443
+  server: meet-doe.rooster465.autos
+  skip-cert-verify: true
+  sni: meet-doe.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇸🇬SG新加坡6
+  password: FC60532879
+  port: 443
+  server: helpful-possum.rooster465.autos
+  skip-cert-verify: true
+  sni: helpful-possum.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇸🇬SG-91.243.81.129-0158 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: casual-stallion.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇸🇬SG-45.135.228.220-0157 | 0.0...
+  password: IQ68037294
+  port: 443
+  server: neat-duck.rooster465.autos
+  skip-cert-verify: false
+  sni: neat-duck.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡|@ripaojiedian
+  port: 23910
+  server: hzz9.fgmcx.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
+- cipher: chacha20-ietf-poly1305
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  password: cdc48a7a-b618-45af-a831-5afbd686b02f
+  port: 13203
+  server: gg21.hangfengjiasu.com
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.36.96.166
+  tfo: false
+  type: ss
+- alterId: 0
+  name: 🇸🇬SG新加坡
+  password: BxceQaOe
+  port: 9194
+  server: 18.162.152.65
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇸🇬SG新加坡3
+  password: IQ68037294
+  port: 443
+  server: apt-midge.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇸🇬SG新加坡4
+  password: IQ68037294
+  port: 443
+  server: 45.135.228.169
+  skip-cert-verify: true
+  sni: fun-salmon.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true

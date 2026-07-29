@@ -1,4 +1,37 @@
 proxies:
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 日本 013
+  network: ws
+  port: 30000
+  server: 137.220.130.58
+  servername: www.68703921.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68703921.xyz
+    path: /path/011410073331
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国特殊
+  password: amazonskr05
+  port: 443
+  server: 3.112.220.140
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: kr|9179|puddincat07@Telegram
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 韩国 001
@@ -179,39 +212,259 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: /?ed=2048security=tls
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇰🇷KR_1|2.3MB/s
-  network: tcp
-  port: '20158'
-  reality-opts:
-    public-key: zYijLoutrnnrwLpLXaL9KAIT9siijcdajF8blOfgSxM
-    short-id: '!!str 33f6498052e5cb1a'
-  server: 8mc0z4qk-7n2r-5t9x-0r6p-3a4w8k1d9e2.edge.ccdn3.work
-  servername: www.bilibili.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
-  xudp: true
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: KR_speednode_0031
-  network: tcp
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷KR-152.67.218.38-0282 | 4.56...
+  network: ws
   port: 443
-  reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    short-id: '!!str dbbe8dca27a92c35'
-  server: 154.193.55.183
-  servername: storage.yandex.net
+  server: 152.67.218.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷KR-20.196.255.208-0634 | 1.0...
+  network: ws
+  port: 36824
+  server: sylva53.ceoiii.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-218.237.185.230-0292 | 0....
+  password: qwerREWQ@@
+  port: 4652
+  server: p141.panda001.net
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR-141.164.45.187-6179 | 0.3...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR-141.164.45.187-0303 | 0.2...
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-218.237.185.230-0301 | 0....
+  password: qwerREWQ@@
+  port: 4652
+  server: 218.237.185.230
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-221.139.79.57-6178 | 0.03...
+  password: qwerREWQ@@
+  port: 13979
+  server: 221.139.79.57
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR-211.178.105.134-6107 | 0....
+  password: qwerREWQ@@
+  port: 6123
+  server: 211.178.105.134
+  type: ss
+- name: 🇰🇷KR-82.117.226.104-0181 | 0.0...
+  password: IQ68037294
+  port: 443
+  server: robust-toucan.rooster465.autos
+  skip-cert-verify: false
+  sni: robust-toucan.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-82.117.226.218-0183 | 0.0...
+  password: IQ68037294
+  port: 443
+  server: whole-perch.rooster465.autos
+  skip-cert-verify: false
+  sni: whole-perch.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-82.117.226.221-0195 | 0.0...
+  password: IQ68037294
+  port: 443
+  server: accurate-drake.rooster465.autos
+  skip-cert-verify: false
+  sni: accurate-drake.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-82.117.226.76-0197 | 0.0M...
+  password: JT80563429
+  port: 443
+  server: touching-pigeon.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇰🇷KR-109.61.127.24-0206 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: artistic-pigeon.rooster465.autos
+  skip-cert-verify: false
+  sni: artistic-pigeon.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-109.61.127.145-0213 | 0.0...
+  password: FC60532879
+  port: 443
+  server: outgoing-ladybird.rooster465.autos
+  skip-cert-verify: false
+  sni: outgoing-ladybird.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-109.61.127.72-0217 | 0.0M...
+  password: WG39087154
+  port: 443
+  server: outgoing-cockatoo.rooster465.autos
+  skip-cert-verify: false
+  sni: outgoing-cockatoo.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-109.61.127.79-0219 | 0.0M...
+  password: WG39087154
+  port: 443
+  server: fun-seagull.rooster465.autos
+  skip-cert-verify: false
+  sni: fun-seagull.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-109.61.127.34-0222 | 0.0M...
+  password: WG39087154
+  port: 443
+  server: harmless-imp.rooster465.autos
+  skip-cert-verify: false
+  sni: harmless-imp.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-82.117.226.157-0223 | 0.0...
+  password: JT80563429
+  port: 443
+  server: fair-ram.rooster465.autos
+  skip-cert-verify: false
+  sni: fair-ram.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-109.61.127.205-0226 | 0.0...
+  password: IQ68037294
+  port: 443
+  server: select-marmoset.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇰🇷KR-82.117.226.225-0234 | 0.0...
+  password: IQ68037294
+  port: 443
+  server: adjusted-labrador.rooster465.autos
+  skip-cert-verify: false
+  sni: adjusted-labrador.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-109.61.127.115-0238 | 0.0...
+  password: FC60532879
+  port: 443
+  server: positive-bear.rooster465.autos
+  skip-cert-verify: false
+  sni: positive-bear.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-82.117.226.72-0241 | 0.0M...
+  password: FC60532879
+  port: 443
+  server: flowing-gobbler.rooster465.autos
+  skip-cert-verify: false
+  sni: flowing-gobbler.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-109.61.127.38-0243 | 0.0M...
+  password: FC60532879
+  port: 443
+  server: premium-lab.rooster465.autos
+  skip-cert-verify: false
+  sni: premium-lab.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-82.117.226.40-0161 | 0.0M...
+  password: FC60532879
+  port: 443
+  server: classic-pug.rooster465.autos
+  skip-cert-verify: false
+  sni: classic-pug.rooster465.autos
+  type: trojan
+- name: 🇰🇷KR-82.117.226.224-0252 | 0.0...
+  password: FC60532879
+  port: 443
+  server: exotic-chicken.rooster465.autos
+  skip-cert-verify: false
+  sni: exotic-chicken.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 12|🇰🇷 韩国|@ripaojiedian
+  port: 17232
+  server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+- cipher: aes-256-cfb
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.34.192.249
+  tfo: false
+  type: ss
+- name: 13|韩国|@ripaojiedian
+  network: ws
+  password: ji0612uenfs
+  port: 50004
+  server: 110.9.4.54
+  skip-cert-verify: true
+  sni: ji0612e.nfjunka.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ji0612e.nfjunka.xyz
+    path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
+- name: 🇰🇷KR_1|1.8MB/s
+  network: ws
+  port: 443
+  server: 129.154.50.159
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: KR_speednode_0032
+  name: 'KR_speednode_0032 #1'
   network: tcp
   port: 443
   reality-opts:

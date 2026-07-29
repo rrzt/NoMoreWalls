@@ -1,4 +1,36 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: VMESS-未知>德国-NF解锁印度地区非自制剧-ChatG...
+  network: ws
+  port: 8080
+  server: 547.rtxconfigz.shop
+  servername: node4.rtxconfigz.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+  ws-opts:
+    headers:
+      HOST: node4.rtxconfigz.com
+    path: /@Malinda6104
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇪 德国
+  network: ws
+  port: 46092
+  server: mmde92.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmde92.micloud.buzz
+    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   name: 德国(yudou789.top 玉豆免费节点)
   password: XUMTygEM1jVYIvysXKqA5T
@@ -750,10 +782,23 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 2d4dd672-180f-415c-9035-e2fc461dd95a
-- name: 🇩🇪DE_2|2.6MB/s
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE-209.46.102.22-0258 | 43.6...
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪 德国 01 | 1x DE
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

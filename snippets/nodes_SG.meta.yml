@@ -1,4 +1,20 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡2
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39204
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇸🇬 狮城特殊
+  password: amazonskr05
+  port: 443
+  server: 18.183.186.14
+  tfo: false
+  type: ss
 - name: 🇸🇬SG_4|⬇️5.1MB/s
   network: ws
   password: a9570330-769d-11ef-90dc-1577c1651679
@@ -279,27 +295,637 @@ proxies:
   type: vless
   udp: true
   uuid: 319c1270-87da-4fa4-ac4f-e2d5c0353fdc
-- name: 新加坡|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 16.162.55.106
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 新加坡2|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 57.183.19.130
+- name: 🇸🇬SG-167.150.100.133-0287 | 2....
+  password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
+  port: 450
+  server: 167.150.100.133
   skip-cert-verify: false
-  sni: www.nintendogames.net
+  sni: grape-power-sg.roxa.org
   type: trojan
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 45744
-  server: 18.166.236.71
+- cipher: chacha20-ietf
+  name: 🇸🇬SG-103.36.91.32-6092 | 2.674...
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
+- name: 🇸🇬SG-91.243.81.111-0169 | 0.0M...
+  password: WG39087154
+  port: 443
+  server: whole-grub.rooster465.autos
+  skip-cert-verify: false
+  sni: whole-grub.rooster465.autos
+  type: trojan
+- alterId: 0
+  name: 🇸🇬SG新加坡7
+  password: IQ68037294
+  port: 443
+  server: fun-salmon.rooster465.autos
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: fun-salmon.rooster465.autos
+  tls: true
   type: trojan
+  udp: true
+- name: 🇸🇬SG-81.28.13.126-0166 | 0.0MB
+  password: FC60532879
+  port: 443
+  server: resolved-gelding.rooster465.autos
+  skip-cert-verify: false
+  sni: resolved-gelding.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-81.28.13.68-0172 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: pet-albacore.rooster465.autos
+  skip-cert-verify: false
+  sni: pet-albacore.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.28-0173 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: pleased-sawfly.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  name: 🇸🇬SG新加坡2
+  password: IQ68037294
+  port: 443
+  server: endless-kiwi.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇸🇬SG-81.28.13.9-0175 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: prepared-turkey.rooster465.autos
+  skip-cert-verify: false
+  sni: prepared-turkey.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.179-0176 | 0.0...
+  password: IQ68037294
+  port: 443
+  server: electric-rhino.rooster465.autos
+  skip-cert-verify: false
+  sni: electric-rhino.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-91.243.81.192-0177 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: sterling-fowl.rooster465.autos
+  skip-cert-verify: false
+  sni: sterling-fowl.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-91.243.81.26-0178 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: full-mackerel.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇸🇬SG-91.243.81.165-0179 | 0.0M...
+  password: FC60532879
+  port: 443
+  server: magnetic-woodcock.rooster465.autos
+  skip-cert-verify: false
+  sni: magnetic-woodcock.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-81.28.13.225-0182 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: open-eel.rooster465.autos
+  skip-cert-verify: false
+  sni: open-eel.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-91.243.81.142-0184 | 0.0M...
+  password: WG39087154
+  port: 443
+  server: fair-kingfish.rooster465.autos
+  skip-cert-verify: false
+  sni: fair-kingfish.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.9-0185 | 0.0MB
+  password: FC60532879
+  port: 443
+  server: actual-chicken.rooster465.autos
+  skip-cert-verify: false
+  sni: actual-chicken.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-81.28.13.159-0186 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: giving-bird.rooster465.autos
+  skip-cert-verify: false
+  sni: giving-bird.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-81.28.13.148-0188 | 0.0MB
+  password: FC60532879
+  port: 443
+  server: needed-gelding.rooster465.autos
+  skip-cert-verify: false
+  sni: needed-gelding.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-91.243.81.178-0189 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: brave-cattle.rooster465.autos
+  skip-cert-verify: false
+  sni: brave-cattle.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.223-0193 | 0.0...
+  password: WG39087154
+  port: 443
+  server: open-caribou.rooster465.autos
+  skip-cert-verify: false
+  sni: open-caribou.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-45.135.228.63-0164 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: fair-reptile.rooster465.autos
+  skip-cert-verify: false
+  sni: fair-reptile.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-91.243.81.69-0205 | 0.0MB
+  password: WG39087154
+  port: 443
+  server: proud-escargot.rooster465.autos
+  skip-cert-verify: false
+  sni: proud-escargot.rooster465.autos
+  type: trojan
+- name: 🇸🇬SG-81.28.13.48-0163 | 0.0MB
+  password: IQ68037294
+  port: 443
+  server: glowing-deer.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- alterId: 0
+  name: 🇸🇬SG新加坡9
+  password: IQ68037294
+  port: 443
+  server: meet-doe.rooster465.autos
+  skip-cert-verify: true
+  sni: meet-doe.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇸🇬SG新加坡6
+  password: FC60532879
+  port: 443
+  server: helpful-possum.rooster465.autos
+  skip-cert-verify: true
+  sni: helpful-possum.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇸🇬SG-91.243.81.129-0158 | 0.0M...
+  password: IQ68037294
+  port: 443
+  server: casual-stallion.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: 🇸🇬SG-45.135.228.220-0157 | 0.0...
+  password: IQ68037294
+  port: 443
+  server: neat-duck.rooster465.autos
+  skip-cert-verify: false
+  sni: neat-duck.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 01 | 1x SG
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 02 | 1x SG
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬新加坡 03 | 1x SG
+  password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 01 | 1x SG
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 02 | 1x SG
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬 新加坡 03 | 1x SG
+  password: eea28d8c-2132-4147-85d5-93b4bd405b34
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 12|🇸🇬 新加坡|@ripaojiedian
+  port: 23910
+  server: hzz9.fgmcx.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
+- cipher: chacha20-ietf-poly1305
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  password: cdc48a7a-b618-45af-a831-5afbd686b02f
+  port: 13203
+  server: gg21.hangfengjiasu.com
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.36.96.166
+  tfo: false
+  type: ss
+- name: 🇸🇬SG_1|2.5MB/s
+  network: ws
+  port: 443
+  server: 162.159.41.252
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_2|2.6MB/s
+  network: ws
+  port: 443
+  server: 162.159.43.187
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_3|3.9MB/s
+  network: ws
+  port: 443
+  server: 172.64.32.108
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_4|1.6MB/s
+  network: ws
+  port: 443
+  server: store.ubi.com
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_5|2.4MB/s
+  network: ws
+  port: 443
+  server: 104.18.46.46
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_6|3.9MB/s
+  network: ws
+  port: 443
+  server: 172.64.158.146
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_7|1.9MB/s
+  network: ws
+  port: 443
+  server: 104.18.46.234
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_8|4.3MB/s
+  network: ws
+  port: 443
+  server: 104.18.39.218
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_9|2.9MB/s
+  network: ws
+  port: 443
+  server: 162.159.43.57
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_10|4.1MB/s
+  network: ws
+  port: 443
+  server: 162.159.48.32
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_11|3.3MB/s
+  network: ws
+  port: 443
+  server: 162.159.8.3
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_12|3.8MB/s
+  network: ws
+  port: 443
+  server: 172.64.154.8
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_13|2.1MB/s
+  network: ws
+  port: 443
+  server: 172.64.32.103
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_14|3.8MB/s
+  network: ws
+  port: 443
+  server: 162.159.0.53
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_15|2.9MB/s
+  network: ws
+  port: 443
+  server: 162.159.15.208
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_16|4.7MB/s
+  network: ws
+  port: 443
+  server: www.shopify.com
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_17|3.3MB/s
+  network: ws
+  port: 443
+  server: 104.18.34.14
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_18|4.7MB/s
+  network: ws
+  port: 443
+  server: 104.18.47.113
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_19|3.0MB/s
+  network: ws
+  port: 443
+  server: 172.64.42.85
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_20|3.7MB/s
+  network: ws
+  port: 443
+  server: 162.159.0.169
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_21|2.4MB/s
+  network: ws
+  port: 443
+  server: 162.159.24.131
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇸🇬SG_22|2.2MB/s
+  network: ws
+  port: 443
+  server: www.cnae.top
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- alterId: 0
+  name: 🇸🇬SG新加坡
+  password: BxceQaOe
+  port: 9194
+  server: 18.162.152.65
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇸🇬SG新加坡3
+  password: IQ68037294
+  port: 443
+  server: apt-midge.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇸🇬SG新加坡4
+  password: IQ68037294
+  port: 443
+  server: 45.135.228.169
+  skip-cert-verify: true
+  sni: fun-salmon.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇸🇬_SG_新加坡_2
+  network: ws
+  port: 8443
+  server: 27.50.49.232
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 🇸🇬_SG_新加坡_7
+  network: ws
+  port: 443
+  server: 27.50.49.13
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 🇸🇬_SG_新加坡_37
+  network: ws
+  port: 443
+  server: 27.50.48.222
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'

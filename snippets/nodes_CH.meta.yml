@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: CH_speednode_0004
+  password: kvrov4vd4iszb3aw
+  port: 25026
+  server: koviraaa.kovira2.ir
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 瑞士 001
@@ -66,31 +73,9 @@ proxies:
   type: vless
   udp: true
   uuid: ea3e789a-4eaf-4d2d-be93-5032614546e0
-- encryption: none
-  name: 🇨🇭CH_1|2.1MB/s
-  network: xhttp
-  port: '8443'
-  server: koviraaa.kovira2.ir
-  type: vless
-  udp: true
-  uuid: f5f77177-4937-4f40-b6fc-7c4278151f01
-  xhttp-opts:
-    host: chatgpt.com
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- encryption: none
-  name: 🇨🇭CH_2|2.1MB/s
-  network: xhttp
-  port: '8443'
-  server: 83.228.229.139
-  type: vless
-  udp: true
-  uuid: f5f77177-4937-4f40-b6fc-7c4278151f01
-  xhttp-opts:
-    host: chatgpt.com
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
+- cipher: aes-256-cfb
+  name: 🇨🇭_CH_瑞士
+  password: asdKkaskJKfnsa
+  port: 80
+  server: 84.17.53.163
+  type: ss
