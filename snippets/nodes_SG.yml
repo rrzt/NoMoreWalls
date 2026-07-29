@@ -26,6 +26,27 @@ proxies:
   udp: true
   ws-opts:
     path: /welcome
+- name: 🇸🇬 新加坡|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4674
+  server: 52.194.222.108
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡2|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4674
+  server: 43.207.115.26
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡3|@stairnode
+  password: BxceQaOe
+  port: 25675
+  server: 16.162.119.43
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 新加坡 001
@@ -277,12 +298,6 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
-- cipher: chacha20-ietf
-  name: 🇸🇬SG-103.36.91.32-0115 | 0.0MB
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
 - name: 🇸🇬SG-45.135.228.28-0163 | 0.0M...
   password: IQ68037294
   port: 443
