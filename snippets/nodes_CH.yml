@@ -32,10 +32,3 @@ proxies:
   port: 80
   server: 84.17.53.163
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: CH_speednode_0004
-  password: kvrov4vd4iszb3aw
-  port: 25026
-  server: koviraaa.kovira2.ir
-  type: ss
-  udp: true

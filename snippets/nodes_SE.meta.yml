@@ -247,7 +247,7 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 3009e607-7059-44be-be84-0ea80a7ec50c
+  uuid: 047e406a-d7c8-4f5b-a86b-ad009eab80ce
   ws-opts:
     headers:
       Host: rb24.ir
@@ -256,18 +256,48 @@ proxies:
   network: ws
   port: 8080
   server: 185.146.173.58
-  servername: lc17.lebasnoo.ir.
+  servername: dcc11.servernet.fun.
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: 5b87fc3b-0190-46e5-8eec-943f652fa180
+  uuid: 10ccd98d-91ed-49bf-a6a6-1ee3392ea7cc
   ws-opts:
     headers:
-      Host: lc17.lebasnoo.ir.
+      Host: dcc11.servernet.fun.
     path: /servernett
 - name: 瑞典 019
+  network: ws
+  port: 2095
+  server: 185.146.173.93
+  servername: wWw.vArZeSh3.Com.QUENTIN.1.1.1.1.radiotehran.org.
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: wWw.vArZeSh3.Com.QUENTIN.1.1.1.1.radiotehran.org.
+    path: /DigiconnecT?ed=1024
+- name: 瑞典 020
+  network: ws
+  port: 8880
+  server: 185.146.173.96
+  servername: www.speedtest.net.kkkkklllkokowkfwofkfkfekojg.ir
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b766b662-2c8a-4de6-99e0-dfd120a74975
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.kkkkklllkokowkfwofkfkfekojg.ir
+    path: /-LiV2ry
+- name: 瑞典 021
   network: tcp
   port: 2044
   server: 185.246.131.170

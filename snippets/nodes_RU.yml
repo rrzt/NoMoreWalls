@@ -1,4 +1,17 @@
 proxies:
+- name: 🇷🇺_俄罗斯_398
+  password: '!!str 521314'
+  port: 443
+  server: 45.142.120.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
 - client-fingerprint: chrome
   name: 俄罗斯 001
   network: tcp
@@ -17,16 +30,6 @@ proxies:
   server: liberal-salmon.rooster465.autos
   skip-cert-verify: false
   sni: liberal-salmon.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 俄罗斯 003
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: modern-bedbug.rooster465.autos
-  skip-cert-verify: false
-  sni: modern-bedbug.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -241,7 +244,7 @@ proxies:
   uuid: f3cb1cd4-4e56-444d-8d6b-4759fa69dae3
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 025
+  name: 俄罗斯 029
   network: ws
   port: 443
   server: lu1.gogogoo.cyou
@@ -255,7 +258,7 @@ proxies:
     path: /go
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 026
+  name: 俄罗斯 030
   network: ws
   port: 852
   server: 176.119.156.229
@@ -268,7 +271,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 027
+  name: 俄罗斯 031
   network: ws
   port: 14369
   server: 195.133.53.192
@@ -281,7 +284,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 028
+  name: 俄罗斯 032
   network: ws
   port: 8080
   server: 194.87.106.131
@@ -294,7 +297,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 029
+  name: 俄罗斯 033
   network: grpc
   port: 32740
   server: 5.42.80.252
@@ -304,7 +307,7 @@ proxies:
   uuid: 433f1111-b780-4eae-b7e7-d7823b09e701
 - alterId: 64
   cipher: auto
-  name: 俄罗斯 030
+  name: 俄罗斯 034
   network: ws
   port: 30002
   server: 185.173.94.1
@@ -318,7 +321,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 031
+  name: 俄罗斯 035
   network: ws
   port: 16231
   server: 31.129.105.239
@@ -331,7 +334,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 032
+  name: 俄罗斯 036
   network: ws
   port: 443
   server: 37.220.161.249
@@ -345,7 +348,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 033
+  name: 俄罗斯 037
   network: ws
   port: 80
   server: 195.54.174.18
@@ -358,7 +361,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 034
+  name: 俄罗斯 038
   network: http
   port: 26743
   server: 194.87.248.27
@@ -367,7 +370,7 @@ proxies:
   uuid: 59952a8e-b712-4190-d85e-f9aadd65faa0
 - alterId: 64
   cipher: auto
-  name: 俄罗斯 035
+  name: 俄罗斯 039
   network: http
   port: 37672
   server: 176.119.159.245
@@ -376,7 +379,7 @@ proxies:
   uuid: 86b4e35c-1061-47b3-8c6c-811d1853a477
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 036
+  name: 俄罗斯 040
   network: ws
   port: 2095
   server: 185.174.138.209
@@ -389,7 +392,7 @@ proxies:
     path: /az05.beyondy.cfd/link?/TM
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 037
+  name: 俄罗斯 041
   network: ws
   port: 2052
   server: 185.174.138.199
@@ -402,7 +405,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 038
+  name: 俄罗斯 042
   network: ws
   port: 2082
   server: 185.174.138.196
@@ -415,7 +418,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 039
+  name: 俄罗斯 043
   network: ws
   port: 443
   server: 194.76.18.113
@@ -429,7 +432,7 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 040
+  name: 俄罗斯 044
   network: ws
   port: 443
   server: 194.76.18.197
@@ -443,7 +446,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 041
+  name: 俄罗斯 045
   network: ws
   port: 443
   server: 93.93.89.118
@@ -457,7 +460,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 042
+  name: 俄罗斯 046
   network: ws
   port: 443
   server: renderer-stream-1-411.mirra.now
@@ -470,7 +473,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 043
+  name: 俄罗斯 047
   network: ws
   port: 2082
   server: 185.174.138.34
@@ -483,7 +486,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 044
+  name: 俄罗斯 048
   network: ws
   port: 443
   server: cg1c13.waimaojd.com
@@ -497,7 +500,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 045
+  name: 俄罗斯 049
   network: ws
   port: 443
   server: haxus3.janechiu.icu
@@ -511,7 +514,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 046
+  name: 俄罗斯 050
   network: ws
   port: 443
   server: us03.gogogoo.cyou
@@ -525,7 +528,7 @@ proxies:
     path: /go
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 047
+  name: 俄罗斯 051
   network: ws
   port: 443
   server: us02.gogogoo.cyou
@@ -537,6 +540,15 @@ proxies:
     headers:
       Host: us02.gogogoo.cyou
     path: /go
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 053
+  network: tcp
+  port: 22324
+  server: 5.188.190.252
+  skip-cert-verify: true
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-gcm
   name: 🇷🇺RU-185.22.154.103-2471 | 10....
   password: cfe685726eea2c4b

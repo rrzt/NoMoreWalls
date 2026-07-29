@@ -286,6 +286,37 @@ proxies:
   skip-cert-verify: false
   sni: grape-power-sg.roxa.org
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 新加坡/新加坡/Singapore/Singapore-3
+  port: 59121
+  server: 129.226.157.220
+  type: vmess
+  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 新加坡/新加坡/Singapore/Singapore-4
+  port: 443
+  reality-opts:
+    public-key: 9Y-_jCI3Z1x6SXK2tHdZ6V1CN9IJPNPnoxSW0cbXxD8
+    short-id: '!!str 764f497dda21c4fc'
+  server: 45.198.96.153
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  uuid: 83ab4443-ec22-4b3d-a587-53090be7beb2
+- alterId: 0
+  cipher: auto
+  name: 新加坡/新加坡/Singapore/Singapore-5
+  network: ws
+  port: 36809
+  server: cindy58.ceoiii.com
+  type: vmess
+  uuid: d5cac7ea-a02f-3cf2-9ca8-f48b6666b419
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - cipher: chacha20-ietf
   name: 🇸🇬SG-103.36.91.32-6092 | 2.674...
   password: asd123456
@@ -528,24 +559,6 @@ proxies:
   server: 3.36.96.166
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_1|2.3MB/s
-  network: ws
-  port: '443'
-  server: 172.64.146.86
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /sg-melbi
-  xudp: true
 - alterId: 0
   name: 🇸🇬SG新加坡3
   password: BxceQaOe

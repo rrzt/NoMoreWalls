@@ -1,7 +1,45 @@
 proxies:
+- name: 🇰🇷_韩国_139
+  network: ws
+  port: 443
+  server: 123.111.169.70
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇰🇷_韩国_141
+  network: ws
+  port: 443
+  server: 129.154.50.159
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 韩国 001
+  name: 未知35 487.5KB/s
+  network: tcp
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+- alterId: 0
+  cipher: auto
+  name: 韩国 002
   network: ws
   port: 80
   server: 132.145.80.230
@@ -15,7 +53,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 1
   cipher: auto
-  name: 韩国 002
+  name: 韩国 003
   network: ws
   port: 8080
   server: 140.238.28.227
@@ -28,7 +66,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 韩国 003
+  name: 韩国 004
   network: ws
   port: 8080
   server: 140.238.31.168
@@ -41,7 +79,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 韩国 004
+  name: 韩国 005
   network: ws
   port: 8888
   server: 54.180.96.67
@@ -54,7 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 005
+  name: 韩国 006
   network: ws
   port: 443
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
@@ -68,7 +106,7 @@ proxies:
     path: /ws
 - alterId: 64
   cipher: auto
-  name: 韩国 006
+  name: 韩国 007
   network: ws
   port: 443
   server: 202.79.161.188
@@ -82,7 +120,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 007
+  name: 韩国 008
   network: ws
   port: 443
   server: 202.79.160.243
@@ -96,7 +134,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: 韩国 008
+  name: 韩国 009
   network: ws
   port: 443
   server: 202.79.160.164
@@ -110,7 +148,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 009
+  name: 韩国 010
   network: ws
   port: 30002
   server: 220.123.48.124
@@ -124,7 +162,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 韩国 010
+  name: 韩国 011
   network: ws
   port: 17443
   server: 211.248.216.119
@@ -138,7 +176,7 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 韩国 011
+  name: 韩国 012
   network: ws
   port: 80
   server: 92.223.61.25
@@ -149,36 +187,21 @@ proxies:
     headers:
       Host: mizban888.servecounterstrike.com
     path: /
-- name: 韩国 012
-  network: ws
-  port: 27435
-  server: 113.60.219.145
-  servername: a.ssll.gay
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: a.ssll.gay
-    path: /?ed=2048security=tls
 - name: 韩国 013
   network: ws
-  port: 22672
-  server: 124.199.33.104
-  servername: a.ssll.gay
+  port: 12323
+  server: 121.179.3.58
+  servername: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 90235096-9296-3d36-c77c-715577598fd5
   ws-opts:
     headers:
-      Host: a.ssll.gay
-    path: /?ed=2048security=tls
+      Host: l.m.j.u.w.9.y.i.m.y.s.8.p.y.us.art-us.kdns.fr
+    path: /glasspanel/0038ba35_0_1bdabe931208/
 - alterId: 0
   cipher: auto
   name: 🇰🇷KR-152.67.218.38-0282 | 4.56...
@@ -193,18 +216,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷KR-20.196.255.208-0634 | 1.0...
-  network: ws
-  port: 36824
-  server: sylva53.ceoiii.com
-  skip-cert-verify: false
-  tls: false
+  name: 韩国/首尔特别市/South Korea/Seoul
+  port: 80
+  server: 217.142.138.61
   type: vmess
-  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
 - cipher: aes-256-cfb
   name: 🇰🇷KR-218.237.185.230-0292 | 0....
   password: qwerREWQ@@
@@ -415,18 +431,10 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'KR_speednode_0032 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
-    short-id: '!!str c76ba2c2fb172e8b'
-  server: 154.193.55.183
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- name: 'KR_speednode_0009 #1'
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
   udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+  username: Og%3D%3D

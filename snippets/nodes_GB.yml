@@ -5,6 +5,19 @@ proxies:
   port: 443
   server: 146.19.49.251
   type: ss
+- name: 🇬🇧_英国_399
+  password: '!!str 521314'
+  port: 443
+  server: 164.38.155.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
 - alterId: 0
   cipher: auto
   name: 英国(yudou789.top 玉豆免费节点)_56
@@ -47,17 +60,14 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 英国 006
-  network: ws
-  port: 2086
-  server: 85.113.71.85
+  name: US3
+  network: tcp
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: ba58ca0c-0411-444e-80f7-e361ce49012d
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 64
   cipher: auto
   name: 英国 007
@@ -72,6 +82,19 @@ proxies:
   cipher: auto
   name: 英国 008
   network: ws
+  port: 2086
+  server: 85.113.71.85
+  skip-cert-verify: true
+  type: vmess
+  uuid: ba58ca0c-0411-444e-80f7-e361ce49012d
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 英国 009
+  network: ws
   port: 443
   server: 45.85.118.88
   skip-cert-verify: true
@@ -84,7 +107,7 @@ proxies:
     path: /aidapp.lifevws
 - alterId: 64
   cipher: auto
-  name: 英国 009
+  name: 英国 010
   network: ws
   port: 443
   server: 217.138.197.171
@@ -98,7 +121,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: 英国 010
+  name: 英国 011
   network: ws
   port: 30002
   server: 83.142.225.57
@@ -112,7 +135,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 英国 011
+  name: 英国 012
   network: ws
   port: 80
   server: ul-uae2.09vpn.com
@@ -125,7 +148,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: 英国 012
+  name: 英国 013
   network: ws
   port: 443
   server: 144.24.200.164
@@ -139,7 +162,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 英国 013
+  name: 英国 014
   network: ws
   port: 80
   server: eu-2.hihu.net
@@ -152,7 +175,7 @@ proxies:
     path: /ch12y6ij
 - alterId: 0
   cipher: auto
-  name: 英国 014
+  name: 英国 015
   network: ws
   port: 443
   server: 185.162.228.228
@@ -166,7 +189,7 @@ proxies:
     path: /ECTCJ0DF
 - alterId: 0
   cipher: auto
-  name: 英国 015
+  name: 英国 016
   network: ws
   port: 443
   server: 185.162.228.110
@@ -180,7 +203,7 @@ proxies:
     path: /AUIKN8AU
 - alterId: 0
   cipher: auto
-  name: 英国 016
+  name: 英国 017
   network: ws
   port: 443
   server: 185.162.228.230
@@ -194,7 +217,7 @@ proxies:
     path: /A2DJOPFT
 - alterId: 4
   cipher: auto
-  name: 英国 017
+  name: 英国 018
   network: ws
   port: 443
   server: 146.70.46.68
@@ -208,7 +231,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: 英国 018
+  name: 英国 019
   network: ws
   port: 443
   server: 158.180.228.226
@@ -222,7 +245,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 019
+  name: 英国 020
   network: ws
   port: 443
   server: 217.163.76.147
@@ -236,7 +259,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 英国 020
+  name: 英国 021
   network: grpc
   port: 443
   server: 146.70.158.111
@@ -246,7 +269,7 @@ proxies:
   uuid: 11ae0edd-2f63-4495-8683-037abbda9986
 - alterId: 0
   cipher: auto
-  name: 英国 021
+  name: 英国 022
   network: ws
   port: 23451
   server: frankfurt.faforex.eu.org
@@ -259,7 +282,7 @@ proxies:
     path: /itdog?ed=2560
 - alterId: 0
   cipher: auto
-  name: 英国 022
+  name: 英国 023
   network: ws
   port: 80
   server: 213.35.113.150
@@ -269,6 +292,54 @@ proxies:
   ws-opts:
     headers:
       Host: dl.kgvn.garenanow.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 英国 025
+  network: tcp
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英国 026
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.205-0117 | 72.54...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.205
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧GB-141.98.101.178-0266 | 14....
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.174-0153 | 80.54...
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.174
+  type: ss
+- name: 英国/United Kingdom-4
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  server: 104.248.161.136
+  skip-cert-verify: true
+  sni: tjplay.lxdxo.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjplay.lxdxo.kdns.fr
     path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.208-0130 | 85.39...
@@ -406,12 +477,6 @@ proxies:
   server: 82.38.31.155
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.174-0153 | 80.54...
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.174
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.191-0136 | 80.13...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
@@ -454,12 +519,6 @@ proxies:
   server: 82.38.31.179
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.205-0117 | 72.54...
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.205
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.16-0150 | 68.389...
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
@@ -476,12 +535,6 @@ proxies:
   password: shadowsocks
   port: 443
   server: 141.98.101.182
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧GB-141.98.101.178-0266 | 14....
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.178
   type: ss
 - cipher: aes-128-gcm
   name: 🇬🇧GB-141.98.101.181-0264 | 13....

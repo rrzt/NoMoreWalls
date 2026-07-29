@@ -1,7 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 韩国 001
+  name: 未知35 487.5KB/s
+  network: tcp
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+- alterId: 0
+  cipher: auto
+  name: 韩国 002
   network: ws
   port: 80
   server: 132.145.80.230
@@ -15,7 +25,7 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 1
   cipher: auto
-  name: 韩国 002
+  name: 韩国 003
   network: ws
   port: 8080
   server: 140.238.28.227
@@ -28,7 +38,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 韩国 003
+  name: 韩国 004
   network: ws
   port: 8080
   server: 140.238.31.168
@@ -41,7 +51,7 @@ proxies:
     path: /download
 - alterId: 1
   cipher: auto
-  name: 韩国 004
+  name: 韩国 005
   network: ws
   port: 8888
   server: 54.180.96.67
@@ -54,7 +64,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 005
+  name: 韩国 006
   network: ws
   port: 443
   server: fullaccesstokoreannetsubnode1.azurewebsites.net
@@ -68,7 +78,7 @@ proxies:
     path: /ws
 - alterId: 64
   cipher: auto
-  name: 韩国 006
+  name: 韩国 007
   network: ws
   port: 443
   server: 202.79.161.188
@@ -82,7 +92,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 007
+  name: 韩国 008
   network: ws
   port: 443
   server: 202.79.160.243
@@ -96,7 +106,7 @@ proxies:
     path: /path/191019072927
 - alterId: 64
   cipher: auto
-  name: 韩国 008
+  name: 韩国 009
   network: ws
   port: 443
   server: 202.79.160.164
@@ -110,7 +120,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国 009
+  name: 韩国 010
   network: ws
   port: 30002
   server: 220.123.48.124
@@ -124,7 +134,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 韩国 010
+  name: 韩国 011
   network: ws
   port: 17443
   server: 211.248.216.119
@@ -138,7 +148,7 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 韩国 011
+  name: 韩国 012
   network: ws
   port: 80
   server: 92.223.61.25
@@ -163,18 +173,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇰🇷KR-20.196.255.208-0634 | 1.0...
-  network: ws
-  port: 36824
-  server: sylva53.ceoiii.com
-  skip-cert-verify: false
-  tls: false
+  name: 韩国/首尔特别市/South Korea/Seoul
+  port: 80
+  server: 217.142.138.61
   type: vmess
-  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
 - cipher: aes-256-cfb
   name: 🇰🇷KR-218.237.185.230-0292 | 0....
   password: qwerREWQ@@

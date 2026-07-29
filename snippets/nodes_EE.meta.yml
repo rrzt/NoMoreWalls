@@ -1,4 +1,18 @@
 proxies:
+- name: 🇪🇪_爱沙尼亚_264
+  network: ws
+  port: 443
+  server: 185.4.73.45
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
 - alterId: 1
   cipher: auto
   name: 爱沙尼亚 001
@@ -12,3 +26,29 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 爱沙尼亚/Estonia
+  port: 45176
+  reality-opts:
+    public-key: A1Qf_rMG4KDfLzfCK-M5R9qW_0uThfeSosQnv6LBL1M
+    short-id: '!!str 8433cb66b6c3ab6d'
+  server: 185.155.97.58
+  servername: www.googletagmanager.com
+  tls: true
+  type: vless
+  uuid: dc7940e0-6bff-45e3-853d-4007561803c3
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 爱沙尼亚/Estonia-2
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 37.49.224.176
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  uuid: a8a98c3e-0b0d-47c4-b4a0-1402ba3252ca
