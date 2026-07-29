@@ -282,6 +282,12 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
+- cipher: chacha20-ietf
+  name: 🇸🇬SG-103.36.91.32-0115 | 0.0MB
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
 - name: 🇸🇬SG-45.135.228.28-0163 | 0.0M...
   password: IQ68037294
   port: 443

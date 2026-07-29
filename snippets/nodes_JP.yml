@@ -16,7 +16,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: xx|12e6|puddincat07@Telegram
+- name: 🇯🇵_日本_79
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr2.tube-cat.com
