@@ -1,71 +1,89 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 瑞士 001
+- client-fingerprint: chrome
+  name: 🇨🇭_瑞士_124
   network: ws
-  port: 8080
-  server: 64.110.66.235
+  port: 2053
+  server: 91.192.102.170
+  servername: forfreeuse.sub-flow.online
   skip-cert-verify: true
-  type: vmess
-  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
-      Host: download.windowsupdate.com
-    path: /download
-- alterId: 0
-  cipher: auto
-  name: 瑞士 002
+      Host: forfreeuse.sub-flow.online
+    path: /
+- name: 🇨🇭_瑞士_216
   network: ws
   port: 443
-  server: 140.238.212.95
+  server: 45.85.93.49
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
-    path: /
-- name: 瑞士 003
-  network: tcp
-  port: 2087
-  server: 178.83.31.31
-  skip-cert-verify: false
-  tfo: false
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇨🇭_瑞士_241
+  network: ws
+  port: 443
+  server: 176.10.125.114
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 75b38c79-92e3-454b-b98e-52fbd254884d
-- name: 瑞士 004
-  network: tcp
-  port: 12596
-  server: 193.134.100.23
-  skip-cert-verify: false
-  tfo: false
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇨🇭_瑞士_245
+  network: ws
+  port: 443
+  server: 91.245.225.69
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: e48cf70b-a9a5-4855-9330-e8649a11882e
-- name: 瑞士 005
-  network: tcp
-  port: 12001
-  server: 83.228.231.239
-  skip-cert-verify: false
-  tfo: false
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇨🇭_瑞士_249
+  network: ws
+  port: 443
+  server: 91.245.225.17
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: e912f8d6-f59a-48b1-b5ad-bbe548d7ebf3
-- name: 瑞士 006
-  network: tcp
-  port: 34186
-  server: 195.15.241.170
-  skip-cert-verify: false
-  tfo: false
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇨🇭_瑞士_270
+  network: ws
+  port: 443
+  server: 45.143.200.104
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ea3e789a-4eaf-4d2d-be93-5032614546e0
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -105,13 +123,3 @@ proxies:
   server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
   sni: rd.autos.yahoo.com:443
   type: trojan
-- alpn:
-  - h3
-  auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  name: 🇨🇭CH_1|2.8MB/s
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  skip-cert-verify: true
-  sni: devideo.h2corp.org
-  type: hysteria2
