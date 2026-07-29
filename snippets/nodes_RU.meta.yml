@@ -192,7 +192,7 @@ proxies:
   sni: usa1.spectrumproxy.shop
   tls: false
   type: hysteria2
-- name: '@Napsternetvirani #1'
+- name: '@Napsternetvirani'
   password: e04a51d1-0450-4919-b924-bd08501934bf
   port: 443
   server: 80.66.78.105
@@ -200,16 +200,14 @@ proxies:
   sni: 80.66.78.105.nip.io
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 俄罗斯 001
-  network: tcp
-  password: NQ26071394
+- name: 🐰49@oneclickvpnkeys
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  server: heroic-cow.rooster465.autos
-  skip-cert-verify: false
-  sni: heroic-cow.rooster465.autos
-  type: trojan
-  udp: true
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 俄罗斯 002
   network: tcp
@@ -447,7 +445,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 未知12
+  name: 未知80
   network: tcp
   port: 27343
   server: 46.226.166.205

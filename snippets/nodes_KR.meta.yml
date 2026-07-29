@@ -54,7 +54,7 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 未知35 487.5KB/s
+  name: 未知11 870.5KB/s
   network: tcp
   port: 443
   server: 140.238.2.250

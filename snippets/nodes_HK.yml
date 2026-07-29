@@ -133,7 +133,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 🇯🇵JP日本
+  name: 🇯🇵JP日本5
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -145,7 +145,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: HK2 55.7KB/s
+  name: HK2 1.3MB/s
   network: ws
   port: 443
   server: 7timuei1uufoixbf.v.3dns.vip
@@ -199,7 +199,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
-  name: 🇭🇰HK香港2
+  name: 🇭🇰HK香港
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
@@ -226,7 +226,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
-  name: 🇯🇵JP日本2
+  name: 🇯🇵JP日本4
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 4099
@@ -237,7 +237,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 🇸🇬SG新加坡
+  name: 🇸🇬SG新加坡3
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
@@ -471,7 +471,7 @@ proxies:
   delay: 769
   h2-opts: {}
   http-opts: {}
-  name: HK5
+  name: 未知9
   network: tcp
   port: 30809
   server: v9.hdacd.com
@@ -653,29 +653,19 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
-  name: 🇭🇰HK香港
-  password: BxceQaOe
-  port: 11035
-  server: 16.162.34.239
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
   cipher: auto
-  name: HK3
+  name: HK
   network: ws
-  port: 36968
-  server: 47.83.18.10
+  port: 54809
+  server: 8.210.140.23
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 176bf1dd-647f-4c09-892e-5f9223dc8617
+  uuid: fde73daf-cc67-42f3-9935-35b132b01abd
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
-  name: 🇭🇰HK香港4
+  name: 🇭🇰HK香港2
   password: BxceQaOe
   port: 27161
   server: 54.46.75.237
@@ -685,15 +675,49 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
+  name: 🇭🇰HK香港3
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 47867
+  server: 18.162.155.166
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
   cipher: auto
-  name: HK4
-  network: ws
-  port: 54809
-  server: 8.210.140.23
+  name: HK3
+  network: tcp
+  port: 8081
+  server: 185.206.171.78
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: fde73daf-cc67-42f3-9935-35b132b01abd
+  uuid: 450037e8-e9fb-4296-bdf7-213f40b753c1
+- alterId: 0
+  cipher: auto
+  name: HK4
+  network: ws
+  port: 13080
+  server: 182.160.14.145
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      host: 01.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: HK5
+  network: ws
+  port: 36968
+  server: 47.83.18.10
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 176bf1dd-647f-4c09-892e-5f9223dc8617
   ws-opts:
     path: /arki?ed=2048
 - alterId: 0
@@ -711,16 +735,45 @@ proxies:
       host: cfhk.393930.xyz
     path: /
 - alterId: 0
+  name: 🇭🇰HK香港4
+  password: BxceQaOe
+  port: 11035
+  server: 16.162.34.239
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇭🇰HK香港5
+  password: 65fQmPHHbPcBCfvSHt
+  port: 443
+  server: au-4.tr202605.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
   cipher: auto
   name: HK7
   network: ws
-  port: 33410
-  server: yd4.ainivp.com
+  port: 8443
+  server: 20.2.218.142
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 9301afcd-025e-781f-1abc-c10efabd1211
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
   ws-opts:
     headers:
-      host: yd4.ainivp.com
-    path: /ray
+      host: 01.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: HK9
+  network: tcp
+  port: 14979
+  server: 38.147.188.239
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2919ef6f-b8d3-49ea-a32d-2f95d346e4cb

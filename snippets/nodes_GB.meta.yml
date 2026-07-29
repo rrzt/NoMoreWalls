@@ -248,7 +248,7 @@ proxies:
     path: /cdnws
 - alterId: 0
   cipher: auto
-  name: US3
+  name: US17 745.7KB/s
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -508,11 +508,12 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 英国 026
+  name: US7 59.0MB/s
   network: tcp
   port: 180
   server: 82.198.246.37
   skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 英国 027
@@ -858,12 +859,6 @@ proxies:
   port: 8080
   server: 82.38.31.35
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.2-0090 | 28.369M...
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.2
-  type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧GB-94.156.250.148-0195 | 22....
   password: RexnBgU7EV5ADxG
@@ -875,6 +870,12 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.189
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB-82.38.31.208-0061 | 18.53...
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.208
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.16-6014 | 16.301...

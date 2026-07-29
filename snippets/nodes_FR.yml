@@ -64,7 +64,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 未知7 26.6KB/s
+  name: 未知53 24.3KB/s
   network: tcp
   port: 27726
   server: fj260205.freechatup.com
@@ -74,7 +74,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知20
+  name: 未知57
   network: tcp
   port: 2053
   server: fr.connfull.org
@@ -84,7 +84,7 @@ proxies:
   uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
 - alterId: 0
   cipher: auto
-  name: 未知22 30.7KB/s
+  name: 未知60 41.4KB/s
   network: tcp
   port: 27726
   server: fj260304.freechatup.com
@@ -103,29 +103,32 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 法国 008
+  name: 未知83 21.0KB/s
   network: tcp
   port: 27726
   server: fj260306.freechatup.com
   skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 法国 009
+  name: 未知65 27.3KB/s
   network: tcp
   port: 27726
   server: fj260204.freechatup.com
   skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 法国 010
+  name: 未知36 35.1KB/s
   network: tcp
   port: 27726
   server: fj260203.freechatup.com
   skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
@@ -553,3 +556,14 @@ proxies:
   server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
   sni: rd.autos.yahoo.com:443
   type: trojan
+- alterId: 0
+  name: 🇫🇷FR法国
+  network: ws
+  password: humanity
+  port: 443
+  server: 81.255.155.10
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  tls: true
+  type: trojan
+  udp: true

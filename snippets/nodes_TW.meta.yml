@@ -7,14 +7,6 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
-- name: 🐰57@oneclickvpnkeys
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
-  tls: false
-  type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳TW-61.231.49.122-0236 | 4.96...
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -38,12 +30,6 @@ proxies:
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-61.231.49.177-0114 | 0.0M...
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
   type: ss
 - disable-sni: 'true'
   name: 🇹🇼 TW 007 | ⬇️ 1MB/s

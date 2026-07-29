@@ -179,7 +179,7 @@ proxies:
   udp: true
   uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
 - alterId: 0
-  name: 🇸🇬SG新加坡2
+  name: 🇸🇬SG新加坡
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
@@ -190,7 +190,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 🇺🇸US美国
+  name: 🇺🇸US美国5
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -1282,12 +1282,62 @@ proxies:
   type: vmess
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
 - alterId: 0
+  name: 🇯🇵JP日本
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 38937
+  server: 54.46.77.161
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇯🇵JP日本2
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 40138
+  server: 35.77.80.32
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
   name: 🇯🇵JP日本3
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 38937
+  server: 18.163.123.229
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇯🇵JP日本6
   password: BxceQaOe
   port: 45691
   server: 18.163.208.174
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇯🇵JP日本7
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 40138
+  server: 18.166.58.27
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇯🇵JP日本8
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 38937
+  server: 95.40.51.248
+  skip-cert-verify: true
+  sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
