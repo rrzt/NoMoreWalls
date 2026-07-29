@@ -164,6 +164,13 @@ proxies:
   tls: true
   type: vless
   uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- cipher: chacha20-ietf-poly1305
+  name: CH_speednode_0001
+  password: kvrov4vd4iszb3aw
+  port: 25026
+  server: koviraaa.kovira2.ir
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: 🇨🇭_CH_瑞士
   password: asdKkaskJKfnsa

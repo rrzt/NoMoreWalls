@@ -17,22 +17,6 @@ proxies:
     path: /@Malinda6104
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪 德国
-  network: ws
-  port: 46092
-  server: mmde92.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmde92.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
   name: 俄罗斯 028
   network: ws
   port: 443
