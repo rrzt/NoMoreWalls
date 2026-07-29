@@ -1,26 +1,5 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇹🇼 台湾
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 39201
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
-- cipher: chacha20-ietf-poly1305
   name: 🇨🇳TW-61.231.49.122-0290 | 3.25...
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
@@ -38,20 +17,6 @@ proxies:
     headers:
       Host: cos.ap-shanghai.myqcloud.com
     path: /assets/images/
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳TW-125.230.74.183-0598 | 7.7...
-  network: ws
-  port: 2096
-  server: twdx6.baidupi.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-  ws-opts:
-    headers:
-      Host: cos.ap-shanghai.myqcloud.com
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳TW-61.231.49.177-0296 | 3.89...
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4

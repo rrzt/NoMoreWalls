@@ -13,16 +13,19 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 'A - 🇪🇪 EE 01 TG: @nodpai'
+- alterId: 1
+  cipher: auto
+  name: 爱沙尼亚 001
   network: ws
-  port: 8880
-  server: 45.80.110.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  port: 8080
+  server: 104.160.19.22
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
   ws-opts:
     headers:
-      Host: vms.lifetime51.workers.dev
-    path: /?ed=2560
+      Host: download.windowsupdate.com
+    path: /download
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 爱沙尼亚/Estonia
