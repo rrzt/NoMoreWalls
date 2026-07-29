@@ -1,565 +1,4 @@
 proxies:
-- down: 300
-  name: 新加坡节点0601 | 1倍率
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: 新加坡节点0602 | 1倍率
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: 新加坡节点0603 | 1倍率
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: b322355b-4c9f-4d67-b3bb-e247f13c8ade
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #1'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #1'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #1'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: e5efd27d-b9bb-4664-b4e9-4bd4339f2486
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #2'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #2'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #2'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: fb413f14-b766-4940-a9e0-2c82b17bf11b
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #3'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #3'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #3'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 297eef59-8ddc-48c1-835d-d26c0da225ef
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #4'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #4'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #4'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 8ef25396-bf52-49b8-9df9-39383c580679
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #5'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #5'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #5'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 31f5ed08-0323-465f-b1dd-abee33c8ba2a
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #6'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #6'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #6'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 61eb842e-2a01-48e6-85c1-7a73d1ffee64
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #7'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #7'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #7'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 7eb0c840-fa1e-4379-85e3-c07a169ddd90
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #8'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #8'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #8'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 86fdb889-6fb5-4736-a8e4-4fc6ff92262f
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #9'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #9'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #9'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 5d422f61-6226-4d4f-9eaa-f775c521566d
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #10'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 3c7f95aa-59fc-4b8d-baf0-d7b82ea70da7
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #10'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 3c7f95aa-59fc-4b8d-baf0-d7b82ea70da7
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #10'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 3c7f95aa-59fc-4b8d-baf0-d7b82ea70da7
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #11'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 48111320-6606-417a-b14c-253e85110861
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #11'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 48111320-6606-417a-b14c-253e85110861
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #11'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 48111320-6606-417a-b14c-253e85110861
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #12'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #12'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #12'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: b306bcaa-694e-40e7-8935-42d42fd5daaa
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #13'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #13'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #13'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 3b68ef1f-b8af-421e-989e-fa2b8e754806
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #14'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #14'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #14'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: acd291ac-935d-483f-b962-2b92e2b4d51c
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #15'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #15'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #15'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 7da3367e-2aa3-40cc-9924-7927a7a80efd
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #16'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: e95a3362-9f7b-4a11-a09c-83b80a2b21ab
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #16'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: e95a3362-9f7b-4a11-a09c-83b80a2b21ab
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #16'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: e95a3362-9f7b-4a11-a09c-83b80a2b21ab
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
 - name: 🇸🇬SG_4|⬇️5.1MB/s
   network: ws
   password: a9570330-769d-11ef-90dc-1577c1651679
@@ -605,6 +44,343 @@ proxies:
     headers:
       Host: sni.skylee4.cloudns.ch
     path: /proxyip=ProxyIP.CMLiussss.net
+- name: 🇸🇬 SG 1 → tg@nicevpn123
+  password: ISpGyFeSDr06
+  port: 17418
+  server: 175.41.172.250
+  skip-cert-verify: true
+  sni: appsvs.shop
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 10 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.250.61.18
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 11 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20177
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 12 → tg@nicevpn123
+  password: 15f804fa-27be-4b0f-85d4-cead43a483ef
+  port: 30020
+  server: us05.freeflyingcloud.xyz
+  skip-cert-verify: true
+  sni: us05.freeflyingcloud.xyz
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 13 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.229.184.181
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 14 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.179.101.194
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 15 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 52.221.231.138
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 16 → tg@nicevpn123
+  password: yR7hP9aw5L
+  port: 443
+  server: 134.209.105.33
+  skip-cert-verify: true
+  sni: aka.ms
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 17 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 18.142.56.221
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 18 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: sg5g.xn--vhq70hxyat50h6wk.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
+  ws-opts:
+    headers:
+      Host: sg5g.xn--vhq70hxyat50h6wk.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 19 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20175
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 2 → tg@nicevpn123
+  network: ws
+  password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
+  port: 37508
+  server: sg1.520s.pro
+  skip-cert-verify: true
+  sni: sg01.520s.pro
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: sg01.520s.pro
+    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252F520JICHANG'
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 20 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 18.141.207.80
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 21 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 52.221.183.250
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 22 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20181
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 23 → tg@nicevpn123
+  network: ws
+  port: 34237
+  server: 8.218.136.67
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 345c1562-1449-36ca-adf6-d3d683476712
+  ws-opts:
+    path: /db00
+- name: 🇸🇬 SG 24 → tg@nicevpn123
+  password: 15f804fa-27be-4b0f-85d4-cead43a483ef
+  port: 30018
+  server: sg04.freeflyingcloud.xyz
+  skip-cert-verify: true
+  sni: sg04.freeflyingcloud.xyz
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 25 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.229.57.68
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 26 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20180
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 27 → tg@nicevpn123
+  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+  port: 443
+  server: 139.162.49.215
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 28 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.251.168.143
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 29 → tg@nicevpn123
+  password: 557340ab-4ae8-4593-989f-a8053bec73b6
+  port: 443
+  server: sg2-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 3 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.169.147.64
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 30 → tg@nicevpn123
+  network: ws
+  password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
+  port: 37508
+  server: sg1.520s.pro
+  skip-cert-verify: true
+  sni: sg01.520s.pro
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: sg01.520s.pro
+    path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252F520JICHANG'
+- name: 🇸🇬 SG 31 → tg@nicevpn123
+  password: e9edd1db-e6f0-4c37-9be7-135335a81e6c
+  port: 30020
+  server: 128.199.13.40
+  skip-cert-verify: true
+  sni: us05.freeflyingcloud.xyz
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 32 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 3.0.50.219
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 33 → tg@nicevpn123
+  password: 557340ab-4ae8-4593-989f-a8053bec73b6
+  port: 443
+  server: 139.162.39.206
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇸🇬 SG 42 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.250.63.15
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 35 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20182
+  server: 139.59.119.251
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 36 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 54.254.167.160
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 37 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 8.217.85.14
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1a363dc9-698c-49d2-e00d-c43005f64c40
+  ws-opts:
+    path: /TG@dns68免费节点
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 38 → tg@nicevpn123
+  network: ws
+  port: 80
+  server: 8.210.9.129
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
+  ws-opts:
+    path: /TG@dns68公益节点
+- name: 🇸🇬 SG 39 → tg@nicevpn123
+  password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
+  port: 443
+  server: sg3-full.privateip.net
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 🇸🇬 SG 4 → tg@nicevpn123
+  password: a-wym4ovY4Yw
+  port: 81
+  server: 8.210.89.240
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 40 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.250.57.60
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 41 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 13.228.23.150
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬 SG 5 → tg@nicevpn123
+  network: ws
+  port: 99
+  server: 128.199.161.230
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: befd085a-91f7-4608-bc45-f40c1ac2f4b7
+  ws-opts:
+    path: /v2ray
+- cipher: aes-256-cfb
+  name: 🇸🇬 SG 6 → tg@nicevpn123
+  password: amazonskr05
+  port: 443
+  server: 18.142.225.182
+  type: ss
+  udp: true
+- name: 🇸🇬 SG 7 → tg@nicevpn123
+  password: I4bO2YDEgs
+  port: 443
+  server: 188.166.252.91
+  skip-cert-verify: true
+  sni: aka.ms
+  type: trojan
+  udp: true
+- name: 🇸🇬 SG 8 → tg@nicevpn123
+  password: af7d4ea7-e793-4030-9766-9a13e1f099f5
+  port: 443
+  server: 139.162.50.211
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 9 → tg@nicevpn123
+  password: df30da54-317f-4726-98bd-8bc8ec8140c9
+  port: 20172
+  server: 139.59.119.251
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 新加坡 001
