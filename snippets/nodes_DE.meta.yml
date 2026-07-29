@@ -1523,18 +1523,3 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|2.5MB/s
-  network: tcp
-  port: '757'
-  reality-opts:
-    public-key: TOEfmCDbdYjHFdzEAsMTMfXRB-k80zZ5uZV45g3SJRI
-    short-id: '!!str cd0cfab98411cbb7'
-  server: hk03.ccdn3.work
-  servername: i1.hdslb.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
-  xudp: true

@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: South Korea_None_ss_1131
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - alterId: 0
   cipher: auto
   name: 韩国 001

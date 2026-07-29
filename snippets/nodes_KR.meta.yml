@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: South Korea_None_ss_1131
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - alterId: 0
   cipher: auto
   name: 韩国 001
@@ -423,20 +415,6 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
-- name: 🇰🇷KR_1|1.8MB/s
-  network: ws
-  port: 443
-  server: 129.154.50.159
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 'KR_speednode_0032 #1'

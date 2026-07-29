@@ -46,19 +46,11 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: Japan_None_trojan_1144
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr2.tube-cat.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: 'CN_speednode_0008 #2'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr1.tube-cat.com
   skip-cert-verify: true
-  tls: true
   type: trojan
   udp: true
 - alterId: 0
