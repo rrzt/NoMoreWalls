@@ -1,4 +1,117 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港2
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 中国 025
+  network: ws
+  port: 443
+  server: 103.212.98.234
+  servername: www.59795160.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59795160.xyz
+    path: /path/011410073331
+- client-fingerprint: chrome
+  name: 🇭🇰 香港4
+  password: llyEnxJlVC
+  port: 51017
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港5
+  port: 54104
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港6
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 36993
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港7
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港8
+  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
+  port: 10182
+  server: 36.139.183.164
+  tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: '香港|@ripaojiedian #1'
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_香港_428 - undefinedms
+  network: ws
+  port: 443
+  server: 7timuei1uufoixbf.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 7timuei1uufoixbf.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-43.100.32.4-0140 | 0.0MB
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  ws-opts:
+    headers:
+      Host: n1747624260.4u9ma.icu
+    path: /
 - alterId: 2
   cipher: auto
   name: '🇭🇰 香港|@ripaojiedian #1'
@@ -150,17 +263,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: '香港|@ripaojiedian #1'
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong

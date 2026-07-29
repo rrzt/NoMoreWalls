@@ -36,6 +36,19 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
+  name: 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefine...
+  network: ws
+  port: 2082
+  server: 45.159.219.89
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 加拿大 001
   network: ws
   port: 443

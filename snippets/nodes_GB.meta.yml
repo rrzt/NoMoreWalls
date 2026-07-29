@@ -5,6 +5,19 @@ proxies:
   port: 443
   server: 146.19.49.251
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_GB_英国 - undefinedms
+  network: ws
+  port: 23140
+  server: 5.39.254.196
+  tls: false
+  type: vmess
+  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+  ws-opts:
+    headers:
+      Host: 5.39.254.196
+    path: /
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇬🇧_英国_12
@@ -864,12 +877,6 @@ proxies:
   server: 82.38.31.189
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.208-0061 | 18.53...
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.16-6014 | 16.301...
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
@@ -1024,12 +1031,20 @@ proxies:
   server: series-a2.varzesh360.co
   type: ss
 - auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 🇬🇧GB_1|2.0MB/s
+  name: 🇬🇧GB_1|2.4MB/s
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
-  server: wopa3.api3-max.ru
+  server: wopa7.api3-max.ru
   skip-cert-verify: true
-  sni: wopa3.api3-max.ru
+  sni: wopa7.api3-max.ru
+  type: hysteria2
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 🇬🇧GB_2|2.2MB/s
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga9.api3-max.ru
+  skip-cert-verify: true
+  sni: taga9.api3-max.ru
   type: hysteria2
 - name: 🇬🇧_GB_英国_6
   network: ws

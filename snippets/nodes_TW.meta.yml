@@ -1,4 +1,12 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39201
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
 - name: 🐰57@oneclickvpnkeys
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443

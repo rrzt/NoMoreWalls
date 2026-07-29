@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇷🇺_RU_俄罗斯_7 - undefinedms
+  network: ws
+  port: 19634
+  server: 46.29.161.15
+  tls: false
+  type: vmess
+  uuid: 600b472f-3e43-43a0-8815-a890a607891c
+  ws-opts:
+    headers:
+      Host: 46.29.161.15
+    path: /
 - name: 🇷🇺_俄罗斯_398
   password: '!!str 521314'
   port: 443

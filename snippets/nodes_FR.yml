@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 🇫🇷_法国_379 - undefinedms
+  network: ws
+  port: 55009
+  server: 2001:bc8:32d7:225::3
+  tls: false
+  type: vmess
+  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
+  ws-opts:
+    headers:
+      Host: 2001:bc8:32d7:225::3
+    path: /0zNW56sF
+- alterId: 0
+  cipher: auto
   name: NN_speednode_0010
   network: ws
   port: 55009

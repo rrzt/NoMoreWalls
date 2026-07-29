@@ -309,20 +309,6 @@ proxies:
     headers:
       Host: download.cloud.189.cn
     path: /
-- alterId: 64
-  cipher: auto
-  name: 中国 025
-  network: ws
-  port: 443
-  server: 103.212.98.234
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59795160.xyz
-    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 中国 026
@@ -1435,20 +1421,6 @@ proxies:
     headers:
       Host: 120.233.150.146
     path: /rocket
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK-43.100.32.4-0140 | 0.0MB
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  ws-opts:
-    headers:
-      Host: n1747624260.4u9ma.icu
-    path: /
 - name: 中国 122
   network: ws
   port: 8880
