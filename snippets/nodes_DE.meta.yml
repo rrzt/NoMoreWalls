@@ -17,22 +17,6 @@ proxies:
     path: /@Malinda6104
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪 德国
-  network: ws
-  port: 46092
-  server: mmde92.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmde92.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
   name: 俄罗斯 028
   network: ws
   port: 443
@@ -1822,6 +1806,21 @@ proxies:
   type: hysteria
   udp: 'true'
   up: '500'
+- alpn:
+  - http/1.1
+  name: '🇩🇪DE_1|2.5MB/s #1'
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: com.digitalposts.dpdns.org
+    path: /bkdicj
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

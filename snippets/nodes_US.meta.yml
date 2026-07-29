@@ -200,70 +200,6 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 美国 277
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.dtku47.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国2
-  network: ws
-  port: 46036
-  server: mmus36.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmus36.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国3
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
-  ws-opts:
-    headers:
-      Host: us2jdgv5GC7.fzbqfrse.xyz
-    path: /video/DDC4btA8wc/
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 美国 213
-  network: ws
-  port: 2086
-  server: 104.26.0.56
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_美国_48 - undefinedms
   network: tcp
   port: 24548
@@ -745,7 +681,7 @@ proxies:
   type: vless
   udp: true
   uuid: 7d6d3391-7bf8-46bf-bd2e-01e82a790017
-- name: United States_None_trojan_1131
+- name: 🇺🇸_美国_64
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -753,7 +689,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: United States_None_trojan_1129
+- name: 🇺🇸_美国_24
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: hkdcrtc-e.catcat321.com
@@ -801,7 +737,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: United States_None_trojan_1127
+- name: 🇺🇸_美国_29
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: hkdcrtc-e.catcat321.com
@@ -825,17 +761,20 @@ proxies:
   uuid: 677ecfdc-3e25-4abc-89d2-5f7f3b92c680
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸_美国_94
-  port: 993
+  name: 🇳🇱NL_3|2.2MB/s
+  network: tcp
+  port: '993'
   reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+    short-id: '!!str '
   server: 88.218.44.4
-  servername: dl.google.com
+  servername: download.nvidia.com
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇺🇸_美国_34
@@ -941,11 +880,11 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: United States_None_trojan_1138
+- name: 🇺🇸_美国_90
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hk.catxstar.com
   tls: true
   type: trojan
@@ -994,7 +933,7 @@ proxies:
   type: vless
   udp: true
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: United States_None_trojan_1137
+- name: 🇺🇸_美国_88
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20056
   server: oplosgru-c.catcat321.com
@@ -2082,38 +2021,6 @@ proxies:
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   sni: oplosgru-c.catcat321.com
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: xx|7fd8|puddincat07@Telegram
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: '8443'
-  server: hyperon.site
-  skip-cert-verify: false
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /bkdicj
-- name: xx|6cf2|puddincat07@Telegram
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_1132
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
 - name: 美国 012
@@ -4792,6 +4699,20 @@ proxies:
     path: /realtime
 - alterId: 0
   cipher: auto
+  name: 美国 213
+  network: ws
+  port: 2086
+  server: 104.26.0.56
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 美国 214
   network: ws
   port: 8443
@@ -5580,6 +5501,19 @@ proxies:
     headers:
       Host: cg1c04.waimaojd.com
     path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  name: 美国 277
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  skip-cert-verify: true
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip005.dtku47.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 美国 278
@@ -22098,6 +22032,126 @@ proxies:
     headers:
       Host: hk2.lrzdx.uk
     path: /register
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 🇺🇸US_1|2.5MB/s
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga2.api3-max.ru
+  skip-cert-verify: true
+  sni: taga2.api3-max.ru
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_2|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: '!!str 0990d22f'
+  server: 167.17.69.171
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+  xudp: true
+- name: 🇺🇸US_3|3.6MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_4|3.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_5|2.1MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_6|1.6MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_7|2.5MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_8|3.2MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_9|2.4MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_10|1.8MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.21
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_11|2.3MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.8
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_12|2.1MB/s
+  password: None
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇺🇸US_13|2.5MB/s
+  password: ''
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_14|2.6MB/s
+  password: ''
+  port: '9002'
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - alterId: 0
   name: 🇺🇸US美国
   password: BxceQaOe

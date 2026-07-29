@@ -215,3 +215,10 @@ proxies:
     headers:
       Host: www.20414124.xyz
     path: /path/1704188270531
+- cipher: aes-256-cfb
+  name: '🇸🇪SE_1|4.4MB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 51.20.125.180
+  type: ss
+  udp: true

@@ -1032,7 +1032,7 @@ proxies:
   server: series-a2.varzesh360.co
   type: ss
 - auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 🇬🇧GB_1|2.4MB/s
+  name: 🇬🇧GB_1|3.6MB/s
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa7.api3-max.ru
@@ -1040,7 +1040,7 @@ proxies:
   sni: wopa7.api3-max.ru
   type: hysteria2
 - auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 🇬🇧GB_2|2.2MB/s
+  name: 🇬🇧GB_2|2.6MB/s
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: taga9.api3-max.ru

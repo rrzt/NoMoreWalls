@@ -326,3 +326,10 @@ proxies:
     host: cdn.steamstatic.com
     mode: auto
     path: /
+- cipher: aes-256-cfb
+  name: '🇸🇪SE_1|4.4MB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 51.20.125.180
+  type: ss
+  udp: true

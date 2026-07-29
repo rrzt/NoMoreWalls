@@ -1,76 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇯🇵 日本
-  password: yEnxJlVC
-  port: 51012
-  server: 183.232.139.24
-  skip-cert-verify: true
-  type: trojan
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 日本 013
-  network: ws
-  port: 443
-  server: 134.122.139.79
-  servername: www.48907900.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.48907900.xyz
-    path: /path/011410073331
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本5
-  network: ws
-  port: 46011
-  server: mmjp11.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmjp11.micloud.buzz
-    path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇯🇵 日本4
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 49207
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 日本6
-  network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
-  ws-opts:
-    headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 🇯🇵 日本特殊
-  password: amazonskr05
-  port: 443
-  server: 47.128.150.72
-  tfo: false
-  type: ss
 - alterId: 2
   cipher: auto
   name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - undefine...
@@ -103,7 +31,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: Japan_None_trojan_1133
+- name: 🇯🇵_日本_67
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr1.tube-cat.com
@@ -359,6 +287,34 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
+- alterId: 64
+  cipher: auto
+  name: 日本 013
+  network: ws
+  port: 443
+  server: 134.122.139.79
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.48907900.xyz
+    path: /path/011410073331
+- alterId: 64
+  cipher: auto
+  name: 日本 014
+  network: ws
+  port: 30000
+  server: 137.220.130.58
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68703921.xyz
+    path: /path/011410073331
 - alterId: 4
   cipher: auto
   name: 日本 015

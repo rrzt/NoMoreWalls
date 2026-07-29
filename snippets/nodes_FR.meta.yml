@@ -2546,18 +2546,6 @@ proxies:
   server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
   sni: rd.autos.yahoo.com:443
   type: trojan
-- down: ''
-  fingerprint: ''
-  name: 🇫🇷FR_2|2.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-fr-002.fastervpn.world
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-  up: ''
 - alterId: 0
   name: 🇫🇷FR法国
   network: ws
