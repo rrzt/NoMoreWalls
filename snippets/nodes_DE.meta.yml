@@ -15,22 +15,6 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪 德国
-  network: ws
-  port: 46092
-  server: mmde92.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmde92.micloud.buzz
-    path: /zh-cn
 - client-fingerprint: firefox
   name: 🇩🇪_德国_81
   port: 443
@@ -433,6 +417,16 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪3
+  obfs: salamander
+  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
+  password: 1Tm8undefinedEG5fl
+  port: 443
+  server: 91.107.178.22
+  skip-cert-verify: true
+  sni: www.refersion.com
+  tls: false
+  type: hysteria2
 - name: 🐰55@oneclickvpnkeys
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
@@ -448,16 +442,6 @@ proxies:
   server: 91.107.178.22
   skip-cert-verify: false
   sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 🇩🇪 t-me-V2RayyNGvpn 🇩🇪
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: HYi0xllvAM
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
   tls: false
   type: hysteria2
 - name: 🇩🇪 t- me - V2RayyNGvpn 🇩🇪
@@ -477,6 +461,14 @@ proxies:
   sni: de1-hy2.veilvpn.life
   tls: false
   type: hysteria2
+- name: 🐰49@oneclickvpnkeys
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
 - name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪2
   obfs: salamander
   obfs-password: V2RayyNGvpn
@@ -485,16 +477,6 @@ proxies:
   server: 91.107.178.22
   skip-cert-verify: false
   sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 🇩🇪 Telegram = V2RayyNGvpn 3🇩🇪
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: qfcdqzQundefinedRh
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
   tls: false
   type: hysteria2
 - client-fingerprint: chrome

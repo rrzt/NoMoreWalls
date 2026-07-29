@@ -179,6 +179,14 @@ proxies:
   sni: usa1.spectrumproxy.shop
   tls: false
   type: hysteria2
+- name: '@Napsternetvirani #1'
+  password: e04a51d1-0450-4919-b924-bd08501934bf
+  port: 443
+  server: 80.66.78.105
+  skip-cert-verify: false
+  sni: 80.66.78.105.nip.io
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 俄罗斯 001
   network: tcp
