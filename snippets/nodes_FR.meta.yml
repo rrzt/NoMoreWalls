@@ -1329,7 +1329,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_FR_法国->🇫🇮_FI_芬兰
+- name: 美国 069
   network: ws
   port: 80
   server: 199.232.170.177

@@ -299,6 +299,298 @@ proxies:
     headers:
       HOST: cg1c14.waimaojd.com
     path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港2
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 中国 025
+  network: ws
+  port: 443
+  server: 103.212.98.234
+  servername: www.59795160.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59795160.xyz
+    path: /path/011410073331
+- client-fingerprint: chrome
+  name: 🇭🇰 香港4
+  password: llyEnxJlVC
+  port: 51017
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港5
+  port: 54104
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港6
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 36993
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港7
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港8
+  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
+  port: 10182
+  server: 36.139.183.164
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39201
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 🇯🇵 日本
+  password: yEnxJlVC
+  port: 51012
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 日本 013
+  network: ws
+  port: 443
+  server: 134.122.139.79
+  servername: www.48907900.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.48907900.xyz
+    path: /path/011410073331
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本5
+  network: ws
+  port: 46011
+  server: mmjp11.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmjp11.micloud.buzz
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇯🇵 日本4
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 49207
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本6
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 日本 014
+  network: ws
+  port: 30000
+  server: 137.220.130.58
+  servername: www.68703921.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68703921.xyz
+    path: /path/011410073331
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡2
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39204
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 美国 277
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip005.dtku47.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国2
+  network: ws
+  port: 46036
+  server: mmus36.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmus36.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国3
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
+  ws-opts:
+    headers:
+      Host: us2jdgv5GC7.fzbqfrse.xyz
+    path: /video/DDC4btA8wc/
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 美国 213
+  network: ws
+  port: 2086
+  server: 104.26.0.56
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇯🇵 日本特殊
+  password: amazonskr05
+  port: 443
+  server: 47.128.150.72
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国特殊
+  password: amazonskr05
+  port: 443
+  server: 3.112.220.140
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇸🇬 狮城特殊
+  password: amazonskr05
+  port: 443
+  server: 18.183.186.14
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇪 德国
+  network: ws
+  port: 46092
+  server: mmde92.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmde92.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇺 匈牙利
+  network: ws
+  port: 46082
+  server: mmhu82.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhu82.micloud.buzz
+    path: /zh-cn
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 每天更新，请加电报群防止失联
@@ -669,7 +961,7 @@ proxies:
   uuid: 677ecfdc-3e25-4abc-89d2-5f7f3b92c680
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇵🇱_波兰_31
+  name: 🇵🇱_PL_波兰
   port: 7443
   reality-opts:
     public-key: 8wD0IhR27ftD5LyJDq9CaFzi6DgA4vFtB-UP6QIdWVc
@@ -790,7 +1082,7 @@ proxies:
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
-  tls: true
+  tls: false
   type: trojan
   udp: true
 - name: 🇺🇸_美国_42
@@ -1464,14 +1756,14 @@ proxies:
     headers:
       Host: d3gxy6d0a9fs18.cloudfront.net
     path: /fnetvpn2026
-- name: 美国 1058
+- name: 🇺🇸_US_美国->🇦🇪_AE_阿拉伯联合酋长国
   network: ws
   port: 80
   server: naseza.tarfiq.ir
   servername: teranko.global.ssl.fastly.net
-  skip-cert-verify: false
+  skip-cert-verify: true
   tfo: false
-  tls: true
+  tls: false
   type: vless
   udp: true
   uuid: 1fe455ab-ef5a-4e51-9015-709f8f019aaf
@@ -4731,7 +5023,7 @@ proxies:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
 - client-fingerprint: chrome
-  name: 🇺🇸_美国_392
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
   network: ws
   port: 80
   server: 151.101.193.54
@@ -5526,7 +5818,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
-- name: 🇫🇷_FR_法国->🇫🇮_FI_芬兰
+- name: 美国 069
   network: ws
   port: 80
   server: 199.232.170.177
@@ -5618,7 +5910,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_香港_436
+  name: 🇭🇰_HK_中国香港_1
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -6456,7 +6748,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
   port: 30824
   server: v24.hdacd.com
   skip-cert-verify: true
@@ -6555,10 +6847,10 @@ proxies:
     path: /195.123.218.174-443
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  name: 美国(yudou789.top 玉豆免费节点)_13
   port: 30829
   server: v29.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -6740,10 +7032,10 @@ proxies:
     path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
 - alterId: 2
   cipher: auto
-  name: 美国(yudou789.top 玉豆免费节点)_53
+  name: 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
   port: 30804
   server: v4.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -6842,7 +7134,7 @@ proxies:
     path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国
   port: 30808
   server: v8.hdacd.com
   skip-cert-verify: true
@@ -8924,7 +9216,7 @@ proxies:
       Host: sie704.pages.dev
     path: /XFJVPN
 - client-fingerprint: chrome
-  name: 🇩🇪_DE_德国->🇫🇮_FI_芬兰_1
+  name: 俄罗斯 025
   network: ws
   port: 2053
   server: 147.45.196.240
@@ -8939,7 +9231,7 @@ proxies:
       Host: forfreeuse.sub-flow.online
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪_DE_德国->🇫🇮_FI_芬兰_2
+  name: 罗马尼亚 004
   network: ws
   port: 2053
   server: 188.241.241.29
@@ -8953,7 +9245,7 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: 🇺🇸_US_美国->🇹🇭_TH_泰国
+- name: 美国 070
   network: ws
   port: 80
   server: 18.238.109.26
@@ -8968,12 +9260,12 @@ proxies:
     path: /GDkX4xpB/
 - grpc-opts:
     grpc-service-name: grpc
-  name: 🇩🇪_DE_德国
+  name: 美国 072
   network: grpc
   port: 8443
   server: 64.188.83.94
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 1f29762d-3f23-4207-9e39-f774de5d49ba
@@ -11853,20 +12145,6 @@ proxies:
     path: /realtime
 - alterId: 0
   cipher: auto
-  name: 美国 213
-  network: ws
-  port: 2086
-  server: 104.26.0.56
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 美国 214
   network: ws
   port: 8443
@@ -13293,61 +13571,6 @@ proxies:
     headers:
       Host: cg1c14.waimaojd.com
     path: /api/v1/graphql
-- alterId: 64
-  cipher: auto
-  name: 中国 025
-  network: ws
-  port: 443
-  server: 103.212.98.234
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59795160.xyz
-    path: /path/011410073331
-- alterId: 64
-  cipher: auto
-  name: 日本 013
-  network: ws
-  port: 443
-  server: 134.122.139.79
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.48907900.xyz
-    path: /path/011410073331
-- alterId: 64
-  cipher: auto
-  name: 日本 014
-  network: ws
-  port: 30000
-  server: 137.220.130.58
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68703921.xyz
-    path: /path/011410073331
-- alterId: 0
-  cipher: auto
-  name: 美国 277
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  skip-cert-verify: true
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.dtku47.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 澳大利亚 008
@@ -38323,14 +38546,11 @@ proxies:
     path: /proxyip=ProxyIP.SG.CMLiussss.Net
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1
+  name: 美国/洛杉矶/United States/Los Angel...
   network: ws
   port: 443
   server: 192.204.57.30
-  skip-cert-verify: true
-  tls: false
   type: vmess
-  udp: true
   uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
   ws-opts:
     path: /speed
@@ -39818,39 +40038,49 @@ proxies:
   server: 94.20.88.13
   sni: azer-tea-grape.bumbleshrimp.com
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国
-  port: 443
-  server: guanwang.awsno.com
+- name: 🇭🇰_HK_中国香港->🇮🇩_ID_印度尼西亚
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20120
+  server: oplosgru-c.catcat321.com
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
   udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺_RU_俄罗斯_1
-  port: 443
-  reality-opts:
-    public-key: KgKu2yHqldNUFnYCY7suz-YTQKi6ZX2mLBduS2yy1xs
-  server: 188.225.46.217
-  servername: api-maps.yandex.ru
+- name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 8443
+  server: ad-013.pixel9xdmq.info
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇫🇷_FR_法国
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'ES_speednode_0004 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
+    short-id: '82f5d3a1e9c0b661'
+  server: getsavesafe.net
+  servername: getsavesafe.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB英国 3.4MB/s
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.36
+  skip-cert-verify: true
+  tls: true
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇨🇦_CA_加拿大
@@ -39887,7 +40117,7 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_1 #1'
+  name: 🇺🇸_US_美国_1
   network: ws
   port: 2082
   server: 206.168.190.219
@@ -39969,7 +40199,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_2 #1'
+  name: 🇺🇸_US_美国_2
   network: ws
   port: 80
   server: wnd2.shabijichang.com
@@ -40219,15 +40449,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.184
-  type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB英国 3.4MB/s
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.36
-  skip-cert-verify: true
-  tls: true
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.219-0286 | 82.61...
@@ -43810,7 +44031,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #1'
+  name: 🇨🇳_CN_中国->🇫🇷_FR_法国
   network: tcp
   port: 17235
   server: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
@@ -43872,7 +44093,7 @@ proxies:
       host: baidu.com
     path: /oooo
 - cipher: chacha20-ietf-poly1305
-  name: '🇺🇸_US_美国 #1'
+  name: 🇺🇸_US_美国
   password: DLW8QqdfAvfUHSeucMIF4E
   port: 2636
   server: 45.8.98.163
@@ -46565,21 +46786,6 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: '%2f%3fed%3d2048'
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'ES_speednode_0004 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs
-    short-id: '82f5d3a1e9c0b661'
-  server: getsavesafe.net
-  servername: getsavesafe.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
 - name: 'RO_speednode_0011 #1'
   port: 9002
   server: 84.239.49.231

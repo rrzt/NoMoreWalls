@@ -393,7 +393,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇩🇪_DE_德国->🇫🇮_FI_芬兰_1
+  name: 俄罗斯 025
   network: ws
   port: 2053
   server: 147.45.196.240
@@ -1013,19 +1013,6 @@ proxies:
   port: 10921
   server: 185.22.154.103
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺_RU_俄罗斯_1
-  port: 443
-  reality-opts:
-    public-key: KgKu2yHqldNUFnYCY7suz-YTQKi6ZX2mLBduS2yy1xs
-  server: 188.225.46.217
-  servername: api-maps.yandex.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
