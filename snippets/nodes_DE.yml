@@ -813,23 +813,6 @@ proxies:
   port: 9042
   server: 5.188.181.201
   type: ss
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪DE_1|1.5MB/s #1'
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: '8443'
-  server: hyperon.site
-  skip-cert-verify: false
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /bkdicj
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
