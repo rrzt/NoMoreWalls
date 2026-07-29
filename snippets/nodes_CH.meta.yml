@@ -72,6 +72,16 @@ proxies:
   port: 80
   server: 84.17.53.163
   type: ss
+- alpn:
+  - h3
+  auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  name: 🇨🇭CH_1|3.2MB/s
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: CH_speednode_0004
   password: kvrov4vd4iszb3aw

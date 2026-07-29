@@ -16,7 +16,7 @@ proxies:
     path: /assets/images/
 - alterId: 0
   cipher: auto
-  name: 中国 003
+  name: 未知33 425.5KB/s
   network: tcp
   port: 59121
   server: 129.226.157.220
@@ -40,12 +40,12 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇨🇳CN-119.45.239.226-23
+  name: 未知29 27.4KB/s
   network: tcp
   port: 30835
   server: v35.hdacd.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-headers:
@@ -1373,12 +1373,12 @@ proxies:
     path: /rocket
 - alterId: 2
   cipher: auto
-  name: 🇨🇳CN-118.24.78.46-15
+  name: US2
   network: tcp
   port: 30824
   server: v24.hdacd.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-headers:
@@ -1412,12 +1412,12 @@ proxies:
   ws-path: /
 - alterId: 2
   cipher: auto
-  name: 🇨🇳CN-1.13.185.182-22
+  name: HK5
   network: tcp
   port: 30809
   server: v9.hdacd.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-headers:

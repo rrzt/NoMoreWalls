@@ -336,11 +336,14 @@ proxies:
   port: 8080
   server: 82.38.31.184
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.36-0115 | 82.707...
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB英国 3.4MB/s
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.36
+  skip-cert-verify: true
+  tls: true
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.219-0286 | 82.61...
@@ -530,13 +533,3 @@ proxies:
   port: 443
   server: series-a2.varzesh360.co
   type: ss
-- alterId: 0
-  name: 🇬🇧GB英国
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  tls: true
-  type: trojan
-  udp: true
