@@ -15,6 +15,282 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- client-fingerprint: firefox
+  name: 🇩🇪_德国_81
+  port: 443
+  reality-opts:
+    public-key: AFcLwlXQXNEtUjWokaNw6AKTXoWdXjbmTw71Yay3phw
+    short-id: '!!str ee6bb65a'
+  server: zde96.tcpdoor.net
+  servername: media2.tcpdoor.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- client-fingerprint: ios
+  encryption: mlkem768x25519plus.native.0rtt.iICp3anMpUYKL23en1Hq18yfxSEbgV10jczbJJcOh0M
+  name: 🇩🇪_德国_78
+  port: 8443
+  reality-opts:
+    public-key: l07MVIs83m71Wh1OiGE58XzZfqNd-x6O3isIRYLRYw8
+    short-id: '!!str 453f365feecf'
+  server: 94.249.197.147
+  servername: images.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a21678d7-2024-4370-8d2e-255b344b3e1b
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '德国/法兰克福/Germany/Frankfurt am M... #3'
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str 42e51b053eec3700'
+  server: 5.254.121.199
+  servername: cdn4-81.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_100
+  network: ws
+  port: 2053
+  server: 57.129.63.154
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_103
+  network: ws
+  port: 2053
+  server: 5.187.6.30
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_104
+  network: ws
+  port: 2053
+  server: 57.129.47.78
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_108
+  network: ws
+  port: 2053
+  server: 57.129.47.15
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_133
+  network: ws
+  port: 2053
+  server: 57.129.63.42
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯 028
+  network: ws
+  port: 443
+  server: jeffptrade.com
+  servername: jeffptrade.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b86f3b55-04dd-532b-3a05-11d9ebd42604
+  ws-opts:
+    headers:
+      Host: jeffptrade.com
+    path: /odixvws
+- name: 🇩🇪_德国_203
+  network: ws
+  port: 443
+  server: 78.47.146.151
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇩🇪_德国_208
+  network: ws
+  port: 443
+  server: 94.130.72.184
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇩🇪_德国_223
+  network: ws
+  port: 443
+  server: 193.23.219.31
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_230
+  network: ws
+  port: 2053
+  server: 57.129.14.56
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- name: 🇩🇪_德国_239
+  network: ws
+  port: 443
+  server: 57.129.47.52
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_243
+  network: ws
+  port: 2053
+  server: 80.76.33.4
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- name: 🇩🇪_德国_273
+  network: ws
+  port: 443
+  server: 152.53.84.52
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇩🇪_德国_283
+  network: ws
+  port: 443
+  server: 94.159.108.42
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_344
+  network: ws
+  port: 2053
+  server: 57.129.47.47
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 'DE_speednode_0002 #1'
+  network: ws
+  port: 2053
+  server: 51.89.23.94
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
 - flow: xtls-rprx-vision
   name: 德國
   network: tcp
@@ -1479,21 +1755,6 @@ proxies:
   type: vless
   udp: true
   uuid: d7fc372d-c057-43ce-8070-9b96abbc60f3
-- encryption: none
-  name: 🇩🇪 DE 768 | ⬇️ 17KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 151.101.56.7
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
 - client-fingerprint: chrome
   name: 🇩🇪 DE 286 | ⬇️ 15KB/s
   network: ws
@@ -1510,36 +1771,6 @@ proxies:
       Host: pan1.global.ssl.fastly.net
     max-early-data: 2053
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
-- encryption: none
-  name: 🇩🇪 DE 339 | ⬇️ 78KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 167.82.0.1
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-- name: 🇫🇮 FI 388 | ⬇️ 49KB/s
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 167.82.0.1
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-  xudp: true
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.S5tQO3pPOG2nemudouz-HV4ocOjLbBcECmPWbc5l3hc
   flow: xtls-rprx-vision

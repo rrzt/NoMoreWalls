@@ -1,4 +1,17 @@
 proxies:
+- name: 🇷🇺_俄罗斯_398
+  password: '!!str 521314'
+  port: 443
+  server: 45.142.120.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
 - client-fingerprint: chrome
   name: 俄罗斯 001
   network: tcp
@@ -229,20 +242,6 @@ proxies:
   tls: true
   type: vmess
   uuid: f3cb1cd4-4e56-444d-8d6b-4759fa69dae3
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯 028
-  network: ws
-  port: 443
-  server: jeffptrade.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b86f3b55-04dd-532b-3a05-11d9ebd42604
-  ws-opts:
-    headers:
-      Host: jeffptrade.com
-    path: /odixvws
 - alterId: 0
   cipher: auto
   name: 俄罗斯 029

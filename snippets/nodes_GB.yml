@@ -5,6 +5,19 @@ proxies:
   port: 443
   server: 146.19.49.251
   type: ss
+- name: 🇬🇧_英国_399
+  password: '!!str 521314'
+  port: 443
+  server: 164.38.155.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
 - alterId: 0
   cipher: auto
   name: 英国(yudou789.top 玉豆免费节点)_56
