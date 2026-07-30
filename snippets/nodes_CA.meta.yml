@@ -1,4 +1,112 @@
 proxies:
+- name: 'Node #134'
+  network: ws
+  port: 8880
+  server: 130.250.137.30
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime05.workers.dev
+    path: /
+- name: 'Node #23'
+  network: ws
+  port: 80
+  server: 151.101.124.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 'Node #142'
+  network: ws
+  port: 80
+  server: 151.101.127.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 'Node #123'
+  network: ws
+  port: 80
+  server: 151.101.139.151
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- http-opts:
+    headers:
+      Host:
+      - sudo.domain.direct.Pannel.admin.soon.ab841.com
+    path:
+    - /@SoonTeam
+  name: '未命名 #2'
+  network: xhttp
+  port: 8880
+  server: 198.41.207.201
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
+    path: /@SoonTeam
+- http-opts:
+    headers:
+      Host:
+      - sudo.domain.direct.Pannel.admin.soon.ab841.com
+    path:
+    - /@SoonTeam
+  name: '未命名 #3'
+  network: xhttp
+  port: 8880
+  server: 108.162.195.19
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
+    path: /@SoonTeam
+- client-fingerprint: chrome
+  name: 'Node #101'
+  network: ws
+  port: 443
+  server: 162.159.8.42
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - name: 加拿大(免费节点)_1
   network: ws
   port: 443
@@ -339,14 +447,6 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 🇨🇦 机场推荐:dafei.de 加拿大 01
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-ca-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-ca-001.fastervpn.world
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefine... #1'
@@ -406,6 +506,14 @@ proxies:
     headers:
       Host: seribus.org
     path: /
+- cipher: aes-256-gcm
+  name: 🇨🇦 CA 534 | ⬇️ 15KB/s
+  password: 2803361d6c196af8
+  port: 20111
+  server: 50.114.177.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦加拿大 01 | 1x CA
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -576,25 +684,21 @@ proxies:
     headers:
       Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
+- alterId: 0
+  name: 🇨🇦CA加拿大
+  password: '!!str 521314'
+  port: 443
+  server: 103.133.1.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: 'Node #47'
   network: ws
   port: 443
   server: 172.64.146.229
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  name: 'Node #101'
-  network: ws
-  port: 443
-  server: 162.159.8.42
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -641,20 +745,6 @@ proxies:
   ws-opts:
     headers:
       Host: ad-013.orbitqgr7v.info
-    path: /
-- client-fingerprint: chrome
-  name: 'Node #129'
-  network: ws
-  port: 443
-  server: 198.41.223.238
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
     path: /
 - client-fingerprint: chrome
   name: 🇨🇦CA_24

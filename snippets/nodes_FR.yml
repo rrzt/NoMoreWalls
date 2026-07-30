@@ -80,6 +80,14 @@ proxies:
   port: 8119
   server: 54.36.174.181
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 024 | ⬇️ 12KB/s
+  password: AtU2Weu7mf4QUOH2Lomi3g
+  port: 1080
+  server: kaffee-tour.de
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - name: 🇫🇷FR_91
   network: ws
   password: humanity

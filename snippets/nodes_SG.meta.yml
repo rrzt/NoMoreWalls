@@ -36,6 +36,21 @@ proxies:
   tls: false
   type: trojan
   udp: true
+- client-fingerprint: firefox
+  name: 'Node #31'
+  network: ws
+  port: 2053
+  server: cf4.danfeng.eu.org
+  servername: juzi8186.qea.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
+  ws-opts:
+    headers:
+      Host: juzi8186.qea.ccwu.cc
+    path: /tv/juzibaipiao?ed=2560
 - name: 新加坡(免费节点)_1
   network: ws
   port: 59404
@@ -77,567 +92,17 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- down: 300
-  name: 新加坡节点0601 | 1倍率
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 63163480-3694-4de1-821a-f38fd303e2f2
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: 新加坡节点0602 | 1倍率
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 63163480-3694-4de1-821a-f38fd303e2f2
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: 新加坡节点0603 | 1倍率
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 63163480-3694-4de1-821a-f38fd303e2f2
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #1'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 6ae2bdaf-94ef-4373-8b1a-f8f45ad7740e
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #1'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 6ae2bdaf-94ef-4373-8b1a-f8f45ad7740e
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #1'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 6ae2bdaf-94ef-4373-8b1a-f8f45ad7740e
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #2'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 739d161c-4cae-4859-918f-109dd145946c
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #2'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 739d161c-4cae-4859-918f-109dd145946c
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #2'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 739d161c-4cae-4859-918f-109dd145946c
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #3'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: c4e7ef1a-d26a-44e9-a2b6-d00af05bd37d
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #3'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: c4e7ef1a-d26a-44e9-a2b6-d00af05bd37d
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #3'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: c4e7ef1a-d26a-44e9-a2b6-d00af05bd37d
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #4'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: e9c110ce-da18-47d5-bd4a-62a7b4c37cf3
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #4'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: e9c110ce-da18-47d5-bd4a-62a7b4c37cf3
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #4'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: e9c110ce-da18-47d5-bd4a-62a7b4c37cf3
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #5'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: a8a6b3ed-f31a-41f1-a3c3-924f1923da9f
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #5'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: a8a6b3ed-f31a-41f1-a3c3-924f1923da9f
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #5'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: a8a6b3ed-f31a-41f1-a3c3-924f1923da9f
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #6'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: bbdeb737-cc0d-4143-99d8-33909ff0f570
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #6'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: bbdeb737-cc0d-4143-99d8-33909ff0f570
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #6'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: bbdeb737-cc0d-4143-99d8-33909ff0f570
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #7'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: e68e783c-9271-49d2-bfd5-50c395ddf9d5
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #7'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: e68e783c-9271-49d2-bfd5-50c395ddf9d5
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #7'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: e68e783c-9271-49d2-bfd5-50c395ddf9d5
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #8'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 2c8f268c-6161-40cf-998f-5c78a7f79949
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #8'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 2c8f268c-6161-40cf-998f-5c78a7f79949
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #8'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 2c8f268c-6161-40cf-998f-5c78a7f79949
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #9'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: ed53482f-9003-4dbd-8eda-b29870c16525
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #9'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: ed53482f-9003-4dbd-8eda-b29870c16525
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #9'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: ed53482f-9003-4dbd-8eda-b29870c16525
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #10'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 65e83834-6f30-4c6d-bdbf-dc55ce79b3c5
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #10'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 65e83834-6f30-4c6d-bdbf-dc55ce79b3c5
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #10'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 65e83834-6f30-4c6d-bdbf-dc55ce79b3c5
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #11'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 428963bb-75c4-4012-b5bc-41c7a3cce80c
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #11'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 428963bb-75c4-4012-b5bc-41c7a3cce80c
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #11'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 428963bb-75c4-4012-b5bc-41c7a3cce80c
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #12'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 9615711b-0868-4956-b032-895769d5735c
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #12'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 9615711b-0868-4956-b032-895769d5735c
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #12'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 9615711b-0868-4956-b032-895769d5735c
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #13'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: f9039cec-f085-4039-a953-a4f985f4556a
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #13'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: f9039cec-f085-4039-a953-a4f985f4556a
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #13'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: f9039cec-f085-4039-a953-a4f985f4556a
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #14'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 0aabed85-ef82-4346-955c-3324641a7a43
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #14'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 0aabed85-ef82-4346-955c-3324641a7a43
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #14'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 0aabed85-ef82-4346-955c-3324641a7a43
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #15'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 9929d7ba-8c4d-4b8f-882a-029a2545dfcc
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #15'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 9929d7ba-8c4d-4b8f-882a-029a2545dfcc
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #15'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 9929d7ba-8c4d-4b8f-882a-029a2545dfcc
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0601 | 1倍率 #16'
-  obfs: salamander
-  obfs-password: 9noYJA0bODeBONED
-  password: 3b6a5e7a-80b1-4ec6-ab25-914e75e89571
-  port: 45103
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 800
-  name: '新加坡节点0602 | 1倍率 #16'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 3b6a5e7a-80b1-4ec6-ab25-914e75e89571
-  port: 45203
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
-- down: 300
-  name: '新加坡节点0603 | 1倍率 #16'
-  obfs: salamander
-  obfs-password: v3DkmNCkTvHQOenK
-  password: 3b6a5e7a-80b1-4ec6-ab25-914e75e89571
-  port: 45303
-  server: v4sg6.stableq.top
-  skip-cert-verify: false
-  sni: v4sg6.stableq.top
-  type: hysteria2
-  up: 300
+- name: 🇸🇬SG_4|⬇️5.1MB/s
+  network: ws
+  password: a9570330-769d-11ef-90dc-1577c1651679
+  port: 443
+  server: 104.18.1.196
+  skip-cert-verify: true
+  sni: sg-trojan.andfree.my.id
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /welcome
 - name: 🇸🇬 新加坡|@stairnode
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
@@ -832,6 +297,18 @@ proxies:
   sni: prepared-turkey.rooster465.autos
   type: trojan
 - cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 004 | ⬇️ 14MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)af2501f:110406
+    mode: tls
+  port: 2377
+  server: 13.215.226.240
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31171
@@ -926,7 +403,7 @@ proxies:
       Host: mkvmh.alnm.a7e.hh.vavava.kdns.fr
     path: /?ed=2560
 - alterId: 0
-  name: 🇸🇬SG新加坡3
+  name: 🇸🇬SG新加坡2
   password: BxceQaOe
   port: 32434
   server: 43.198.12.180

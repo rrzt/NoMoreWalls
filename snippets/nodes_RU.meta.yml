@@ -1,4 +1,18 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇷🇺 俄罗斯 starcorenode.com #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
+  server: ruded2.onlinestreamself.com
+  servername: apple.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 'RU_speednode_0091 #1'
@@ -36,6 +50,73 @@ proxies:
   type: vless
   udp: true
   uuid: dee59997-f3f0-4dc5-bb26-ae24ae63ec5a
+- client-fingerprint: chrome
+  name: 'Node #14'
+  network: tcp
+  port: 19562
+  reality-opts:
+    public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
+    short-id: '!!str 9e'
+  server: 90.156.254.164
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3
+- alterId: 0
+  cipher: auto
+  name: 俄羅斯
+  network: ws
+  port: 443
+  server: renderer-stream-1-411.mirra.now
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  ws-opts:
+    headers:
+      Host: renderer-stream-1-411.mirra.now
+    path: /api/v1/gpu-stream/socket
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'Node #28'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UQLa8BZNvHnwWL7pUnMbO046iRPh0jGhvA2xtjJRgQE
+    short-id: '!!str 8b263e22ba03b4c1'
+  server: 81.177.212.44
+  servername: sw1.panel11.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 039a1658-e86e-475f-a3a4-67cc249acada
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU俄羅斯丨yoyapai.com
+  password: 7e1dd4c55bf85da5
+  port: 30129
+  server: 212.192.13.91
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇷🇺
+  network: ws
+  port: 443
+  server: 109.120.176.37
+  servername: sertraline.adaspoloandco.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 10a6b923-e349-4594-92bb-d81a6245aaec
+  ws-opts:
+    headers:
+      Host: sertraline.adaspoloandco.com
+    path: /download.php
 - name: 俄罗斯(免费节点)_3
   network: ws
   port: 8443
@@ -50,14 +131,6 @@ proxies:
     headers:
       host: cloudflare.vhub.pro
     path: /websocket
-- name: '@Alpha_v2rayIP'
-  password: e04a51d1-0450-4919-b924-bd08501934bf
-  port: 443
-  server: 80.66.78.105
-  skip-cert-verify: false
-  sni: 80.66.78.105.nip.io
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '🇷🇺_RU_俄罗斯_7 - undefinedms #1'
@@ -128,6 +201,26 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- flow: xtls-rprx-vision
+  name: 🇸🇪SE_1|⬇️2.7MB/s
+  network: tcp
+  port: 443
+  server: 176.125.240.166
+  servername: apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: RUVLESS-51|free-nodes
+  network: tcp
+  port: 10468
+  server: 185.113.10.198
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
 - cipher: aes-256-gcm
   name: 🇷🇺RU_8
   password: cfe685726eea2c4b
@@ -196,6 +289,69 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 040 | ⬇️ 25KB/s
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
+    short-id: '!!str 69d4'
+  server: status.netraidly.ru
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
+- client-fingerprint: qq
+  name: 🇷🇺 RU 163 | ⬇️ 15KB/s
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: 7QJA1tXQcNj8gioQVzief5a4KeUTDT7R8FE0jfKU41k
+    short-id: '!!str 3180'
+  server: tw05.kinomir.fun
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0eac976-e4e2-4e24-bc86-cda82ee31442
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺 RU 156 | ⬇️ 15KB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 2053
+  reality-opts:
+    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
+    short-id: '!!str f0131a4772b494d4'
+  server: 85.209.135.3
+  servername: dns.adguard-dns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc
+  name: 🇷🇺 RU 372 | ⬇️ 198KB/s
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
+    short-id: '!!str f0131a4772b494d4'
+  server: 85.209.135.3
+  servername: dns.adguard-dns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -210,13 +366,6 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
-  password: RiPuKJJl18ZgvLpTjWxBwSfKiPkt9gzFKyxGCY8eHtOcDb2X
-  port: 31348
-  server: 5.189.201.250
-  type: ss
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 🇷🇺RU俄罗斯
@@ -271,20 +420,6 @@ proxies:
     headers:
       Host: 53fe439es2358.gogocs.xyz
     path: ''
-- client-fingerprint: chrome
-  name: 🇷🇺
-  network: ws
-  port: 443
-  server: 109.120.176.37
-  servername: sertraline.adaspoloandco.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 10a6b923-e349-4594-92bb-d81a6245aaec
-  ws-opts:
-    headers:
-      Host: sertraline.adaspoloandco.com
-    path: /download.php
 - alpn:
   - h2
   - http/1.1

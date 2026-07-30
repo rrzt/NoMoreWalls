@@ -33,6 +33,48 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: 🇰🇷KR南朝鮮丨yoyapai.com
+  network: ws
+  port: 19530
+  server: 121.180.225.222
+  servername: sni.latonyamadeline.ndjp.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- name: 🇰🇷KR韓國節點丨yoyapai.com
+  network: ws
+  port: 16000
+  server: 121.180.225.222
+  servername: sni.latonyamadeline.ndjp.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- alterId: 0
+  name: 未知33
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 211.49.57.179
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
 - name: 韩国(免费节点)_1
   network: ws
   password: '!!str 521314'
@@ -74,23 +116,6 @@ proxies:
     headers:
       host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
-- name: 'KR_speednode_0003 #1'
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  udp: true
-  username: T2clM0QlM0Q6
-- name: 🇰🇷 机场推荐:dafei.de 韩国 02
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  udp: true
-  username: test
 - alterId: 0
   cipher: auto
   name: 韩国/首尔特别市/South Korea/Seoul
@@ -181,6 +206,31 @@ proxies:
   skip-cert-verify: false
   sni: artistic-pigeon.rooster465.autos
   type: trojan
+- delay: 750
+  name: 'KR_speednode_0003 #1'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: T2clM0QlM0Q6
+- name: 🇰🇷 KR 603 | ⬇️ 7KB/s
+  password: ''
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+  username: ''
+- name: 🇰🇷 KR 649 | ⬇️ 323KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  sni: rr1.tube-cat.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

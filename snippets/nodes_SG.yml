@@ -21,6 +21,17 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
+- name: 🇸🇬SG_4|⬇️5.1MB/s
+  network: ws
+  password: a9570330-769d-11ef-90dc-1577c1651679
+  port: 443
+  server: 104.18.1.196
+  skip-cert-verify: true
+  sni: sg-trojan.andfree.my.id
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /welcome
 - name: 🇸🇬 新加坡|@stairnode
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
@@ -189,6 +200,18 @@ proxies:
   sni: prepared-turkey.rooster465.autos
   type: trojan
 - cipher: chacha20-ietf-poly1305
+  name: 🇸🇬 SG 004 | ⬇️ 14MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)af2501f:110406
+    mode: tls
+  port: 2377
+  server: 13.215.226.240
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31171
@@ -255,7 +278,7 @@ proxies:
   tfo: false
   type: ss
 - alterId: 0
-  name: 🇸🇬SG新加坡3
+  name: 🇸🇬SG新加坡2
   password: BxceQaOe
   port: 32434
   server: 43.198.12.180
