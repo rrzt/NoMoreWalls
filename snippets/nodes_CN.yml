@@ -295,6 +295,20 @@ proxies:
     headers:
       Host: download.cloud.189.cn
     path: /
+- alterId: 64
+  cipher: auto
+  name: 中国 025
+  network: ws
+  port: 443
+  server: 103.212.98.234
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59795160.xyz
+    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 中国 026

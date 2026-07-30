@@ -12,6 +12,19 @@ proxies:
     headers:
       Host: 46.29.161.15
     path: /
+- name: 🇷🇺_俄罗斯_398
+  password: '!!str 521314'
+  port: 443
+  server: 45.142.120.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: /pyip=Telegram-WangCai2🇨🇳
 - client-fingerprint: chrome
   name: 俄罗斯 001
   network: tcp

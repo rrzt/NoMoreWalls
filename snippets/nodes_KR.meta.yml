@@ -1,29 +1,32 @@
 proxies:
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 日本 014
+- name: 🇰🇷_韩国_139
   network: ws
-  port: 30000
-  server: 137.220.130.58
-  servername: www.68703921.xyz
+  port: 443
+  server: 123.111.169.70
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   skip-cert-verify: true
-  tfo: false
   tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
     headers:
-      Host: www.68703921.xyz
-    path: /path/011410073331
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 🇰🇷 韩国特殊
-  password: amazonskr05
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: 🇰🇷_韩国_141
+  network: ws
   port: 443
-  server: 3.112.220.140
-  tfo: false
-  type: ss
+  server: 129.154.50.159
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
   name: 未知11 870.5KB/s
