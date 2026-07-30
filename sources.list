@@ -43,7 +43,6 @@ https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/co
 https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml
 https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml
 https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
-https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml
 https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
 https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml
 https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml
@@ -70,18 +69,14 @@ https://raw.githubusercontent.com/rrzt/get_subscribe/main/subscribe/clash.yml
 https://raw.githubusercontent.com/hello-world-1989/cn-news/refs/heads/main/clash.yaml
 https://gh-proxy.org/https://github.com/xituimao/spider-clash/blob/main/output/clash_all.yaml
 https://raw.githubusercontent.com/rrzt/spider-clash/main/output/clash_all.yaml
+https://gh-proxy.com/raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml
+https://ghproxy.cfd/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml
 
 # 小水管
 # *https://raw.githubusercontent.com/mksshare/mksshare.github.io/main/README.md
 *https://raw.githubusercontent.com/abshare/abshare.github.io/main/README.md
 
-# Alvin9999 账号已注销
-# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/config.yaml#max=100
-# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/1/config.yaml#max=100
-# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/13/config.yaml#max=100
-# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/15/config.yaml#max=100
-# https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/2/config.yaml#max=100
-# # https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/3/config.yaml#max=100
+
 # 有循环引用
 # https://raw.githubusercontent.com/Misaka-blog/chromego_merge/refs/heads/main/sub/merged_proxies_new.yaml#ignore=vmess,ss,ssr,trojan
 
@@ -118,6 +113,7 @@ https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2
 # +date https://nodefree.org/dy/%Y/%m/%Y%m%d.yaml
 # !+date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt
 # !+date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.yaml
++date https://static.v2rayshare.net/%Y/%m/%Y%m%d.yaml
 # !+date https://node.oneclash.cc/%Y/%m/%Y%m%d.txt
 # !+date https://node.oneclash.cc/%Y/%m/%Y%m%d.yaml
 # !https://sub.nicevpn.top/long
@@ -140,3 +136,4 @@ https://pai.yt/clash#ignore=ss,ssr,anytls
 # *https://raw.githubusercontent.com/RenaLio/Mux2sub/main/urllist # 挂了，谁叫你不控制抓取时长
 
 *https://gist.githubusercontent.com/peasoft/7907a8ee2a4fa5e80cd1bd006664442c/raw/
+
