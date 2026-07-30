@@ -74,12 +74,9 @@ proxies:
     headers:
       host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
-- delay: 1527
-  name: 'KR_speednode_0003 #1'
-  password: ''
+- name: 'KR_speednode_0003 #1'
   port: 1090
   server: 121.169.46.116
-  skip-cert-verify: true
   tls: false
   type: socks5
   udp: true

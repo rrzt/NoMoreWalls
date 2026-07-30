@@ -80,19 +80,6 @@ proxies:
   port: 8119
   server: 54.36.174.181
   type: ss
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray------BanV2ray-------BanV2ray
-  name: 🇫🇷 FR 333 | ⬇️ 12KB/s
-  network: grpc
-  password: Xpp4J8jfbWRwCFPbFQ0PaugqS8VZLKkm
-  port: 51405
-  reality-opts:
-    public-key: gKnW_-1RMWzyOOfGRrVYmYrKZlpjSeaYNtqMD3Ti6FM
-    short-id: '!!str !!str c6602ca83b10028e'
-  server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
-  sni: rd.autos.yahoo.com:443
-  type: trojan
 - name: 🇫🇷FR_91
   network: ws
   password: humanity

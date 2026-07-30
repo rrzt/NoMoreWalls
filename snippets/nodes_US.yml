@@ -543,6 +543,278 @@ proxies:
     headers:
       HOST: cg1c14.waimaojd.com
     path: /api/v1/graphql
+- name: 美国节点0902 | 1倍率
+  network: tcp
+  password: 63163480-3694-4de1-821a-f38fd303e2f2
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 美国节点0903 | 1倍率
+  network: tcp
+  password: 63163480-3694-4de1-821a-f38fd303e2f2
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #1'
+  network: tcp
+  password: 6ae2bdaf-94ef-4373-8b1a-f8f45ad7740e
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #1'
+  network: tcp
+  password: 6ae2bdaf-94ef-4373-8b1a-f8f45ad7740e
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #2'
+  network: tcp
+  password: 739d161c-4cae-4859-918f-109dd145946c
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #2'
+  network: tcp
+  password: 739d161c-4cae-4859-918f-109dd145946c
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #3'
+  network: tcp
+  password: c4e7ef1a-d26a-44e9-a2b6-d00af05bd37d
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #3'
+  network: tcp
+  password: c4e7ef1a-d26a-44e9-a2b6-d00af05bd37d
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #4'
+  network: tcp
+  password: e9c110ce-da18-47d5-bd4a-62a7b4c37cf3
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #4'
+  network: tcp
+  password: e9c110ce-da18-47d5-bd4a-62a7b4c37cf3
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #5'
+  network: tcp
+  password: a8a6b3ed-f31a-41f1-a3c3-924f1923da9f
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #5'
+  network: tcp
+  password: a8a6b3ed-f31a-41f1-a3c3-924f1923da9f
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #6'
+  network: tcp
+  password: bbdeb737-cc0d-4143-99d8-33909ff0f570
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #6'
+  network: tcp
+  password: bbdeb737-cc0d-4143-99d8-33909ff0f570
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #7'
+  network: tcp
+  password: e68e783c-9271-49d2-bfd5-50c395ddf9d5
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #7'
+  network: tcp
+  password: e68e783c-9271-49d2-bfd5-50c395ddf9d5
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #8'
+  network: tcp
+  password: 2c8f268c-6161-40cf-998f-5c78a7f79949
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #8'
+  network: tcp
+  password: 2c8f268c-6161-40cf-998f-5c78a7f79949
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #9'
+  network: tcp
+  password: ed53482f-9003-4dbd-8eda-b29870c16525
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #9'
+  network: tcp
+  password: ed53482f-9003-4dbd-8eda-b29870c16525
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #10'
+  network: tcp
+  password: 65e83834-6f30-4c6d-bdbf-dc55ce79b3c5
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #10'
+  network: tcp
+  password: 65e83834-6f30-4c6d-bdbf-dc55ce79b3c5
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #11'
+  network: tcp
+  password: 428963bb-75c4-4012-b5bc-41c7a3cce80c
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #11'
+  network: tcp
+  password: 428963bb-75c4-4012-b5bc-41c7a3cce80c
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #12'
+  network: tcp
+  password: 9615711b-0868-4956-b032-895769d5735c
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #12'
+  network: tcp
+  password: 9615711b-0868-4956-b032-895769d5735c
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #13'
+  network: tcp
+  password: f9039cec-f085-4039-a953-a4f985f4556a
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #13'
+  network: tcp
+  password: f9039cec-f085-4039-a953-a4f985f4556a
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #14'
+  network: tcp
+  password: 0aabed85-ef82-4346-955c-3324641a7a43
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #14'
+  network: tcp
+  password: 0aabed85-ef82-4346-955c-3324641a7a43
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #15'
+  network: tcp
+  password: 9929d7ba-8c4d-4b8f-882a-029a2545dfcc
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #15'
+  network: tcp
+  password: 9929d7ba-8c4d-4b8f-882a-029a2545dfcc
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #16'
+  network: tcp
+  password: 3b6a5e7a-80b1-4ec6-ab25-914e75e89571
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #16'
+  network: tcp
+  password: 3b6a5e7a-80b1-4ec6-ab25-914e75e89571
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '🇺🇸_US_美国 - undefinedms #1'
@@ -1781,16 +2053,6 @@ proxies:
   port: 811
   server: 138.68.248.130
   type: ss
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 752 | ⬇️ 23KB/s
-  password: Yq42Vx56a2SghCnLtOyOCF
-  port: 443
-  server: 216.105.168.19
-  skip-cert-verify: true
-  tls: true
-  type: ss
-  udp: false
 - alterId: 2
   cipher: auto
   name: '🇨🇳_CN_中国->🇺🇸_US_美国 #4'

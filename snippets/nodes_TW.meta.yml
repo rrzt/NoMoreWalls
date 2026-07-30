@@ -83,18 +83,6 @@ proxies:
   sni: https://t.me/oneclickvpnkeys
   tls: false
   type: hysteria2
-- disable-sni: 'true'
-  name: 🇹🇼 TW 007 | ⬇️ 1MB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: c90afede-81f8-439d-9a20-f45579f623ec
-  port: 443
-  server: yazhou05.netvigor.cc
-  skip-cert-verify: true
-  sni: ''
-  type: anytls
-  udp: true
-  username: c90afede-81f8-439d-9a20-f45579f623ec
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

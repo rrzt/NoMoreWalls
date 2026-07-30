@@ -1,27 +1,21 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   http-opts:
     path:
     - /
   name: 🇸🇪SE_12
   network: xhttp
-  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
   server: 170.168.99.3
   servername: cdn.steamstatic.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vless
   udp: true
   uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
   ws-opts:
-    path: /
-  xhttp-opts:
-    host: cdn.steamstatic.com
-    mode: auto
     path: /
 - cipher: aes-256-cfb
   name: SE_speednode_0093
