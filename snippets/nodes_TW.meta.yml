@@ -1,24 +1,52 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-36.224.191.247-0142 | 3.2...
+  name: 未知 SS-13
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
   skip-cert-verify: true
   type: ss
   udp: true
+- insecure: '1'
+  mport: 40000-49999
+  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
 - cipher: chacha20-ietf-poly1305
   name: 台湾/新北/Taiwan/New Taipei City
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: 61.231.49.100
   type: ss
-- name: 台湾/台北市/Taiwan/Taipei
+- name: 🇹🇼TW_1
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 103.115.109.49
   skip-cert-verify: true
   sni: https://t.me/oneclickvpnkeys
+  tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
@@ -91,3 +119,22 @@ proxies:
     headers:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_7
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  port: 50099
+  server: R3MRCG00129437X.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_11
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 61.231.49.177
+  type: ss
+- name: 🇹🇼TW_10
+  network: tcp
+  port: 10000
+  server: 60.249.101.14
+  tls: false
+  type: vless
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
