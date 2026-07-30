@@ -1,19 +1,15 @@
 proxies:
 - alterId: 0
-  disable-sni: true
-  name: 🇩🇪DE德国3
+  name: 'DE德国 #12'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: ''
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: 🇩🇪 DE 623 | ⬇️ 54KB/s
+- name: 🇩🇪DE_93
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -60,29 +56,6 @@ proxies:
   server: 145.239.1.100
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 DE 013 | ⬇️ 10KB/s
-  password: 6iOQhyxpH7i5ptiJe02Z0XbE1BdRwfr0npOJCK6hhy4=
-  port: 51570
-  server: e1.cover20.ir
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alpn:
-  - http/1.1
-  name: 🇩🇪 DE 658 | ⬇️ 378KB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: undef.network
-  skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
-- cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31471
@@ -106,3 +79,39 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_3
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_124
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 62.113.194.158
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_111
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.36.133
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_42
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
+  type: ss
+- name: 'DE德国 #14'
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  server: 45.80.111.27
+  skip-cert-verify: true
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'

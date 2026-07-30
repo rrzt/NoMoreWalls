@@ -1,15 +1,4 @@
 proxies:
-- name: '🇺🇸_US_美国 #7'
-  network: tcp
-  packet-encoding: xudp
-  port: 10000
-  server: 180.178.60.252
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - alterId: 0
   cipher: auto
   name: '🇭🇰_香港_146 - undefinedms #1'
@@ -26,7 +15,7 @@ proxies:
     headers:
       Host: cE0gedPXwOU6cqoN.v.3dns.vip
     path: /ws-vmess
-- name: HK香港(v2clash.blog 2026-7.31更新)...
+- name: 'HK香港 #5'
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -34,29 +23,27 @@ proxies:
   server: nas.aizhzo.com
   skip-cert-verify: true
   sni: nas.aizhzo.com
+  tls: false
   type: hysteria2
   udp: true
 - client-fingerprint: firefox
   http-opts:
     path:
     - /
-  name: 🇭🇰 HK 095 | ⬇️ 101KB/s
+  name: 'HK香港 #6'
   network: xhttp
-  packet-encoding: ''
   port: 8443
   reality-opts:
     public-key: p9ISfhV0uZpKSgrK_8R6Mm4A01tWdzpKMlFR2TIj81s
   server: stockholm-meow.nethcloud.top
   servername: wikihow.com
-  skip-cert-verify: false
-  tls: true
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
   uuid: 4cbefb4d-328c-411d-bf76-780df1082df8
-  xhttp-opts:
-    host: wikihow.com
-    mode: auto
-    path: /
+  ws-opts:
+    path: '%2F'
 - alterId: 0
   name: 🇭🇰HK香港
   network: tcp
@@ -125,15 +112,16 @@ proxies:
       Host: jamph131-1228.pages.dev
     path: Telegram-WangCai2🇨🇳
 - alterId: 0
-  name: 🇭🇰HK香港2
+  name: 'Node #93'
+  network: tcp
   password: 65fQmPHHbPcBCfvSHt
   port: 443
   server: au-4.tr202605.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: trojan
   udp: true
-- name: '香港丨yoyapai.com_2 #2'
+- name: 'Node #96'
   network: ws
   port: 80
   server: 151.101.77.151
@@ -147,11 +135,12 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
 - alterId: 0
-  name: 🇭🇰HK香港4
+  name: 'Node #110'
+  network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
   server: 18.162.155.166
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   tls: true
   type: trojan
@@ -172,7 +161,7 @@ proxies:
     headers:
       Host: speeches-obligations-view-epinions.trycloudflare.com
     path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
-- name: '🇭🇰HK香港丨yoyapai.com #2'
+- name: '🇭🇰 #2'
   network: ws
   port: 80
   server: 91.193.58.243
@@ -185,7 +174,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
     path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_1 #2'
+- name: '🇭🇰 #1'
   network: ws
   port: 80
   server: 91.193.58.246
@@ -198,7 +187,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
     path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_2 #2'
+- name: '🇭🇰 #3'
   network: ws
   port: 80
   server: 91.193.58.209
@@ -211,7 +200,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
     path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_3 #2'
+- name: 🇭🇰
   network: ws
   port: 80
   server: 91.193.58.197
@@ -224,7 +213,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
     path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_4 #2'
+- name: '🇭🇰 #5'
   network: ws
   port: 80
   server: 91.193.58.179
@@ -237,7 +226,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
     path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_5 #2'
+- name: '🇭🇰 #4'
   network: ws
   port: 80
   server: 91.193.58.42
@@ -537,11 +526,12 @@ proxies:
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
     path: /ws-vmess
-- name: 🇭🇰HK-18.163.180.201-0100 | 34....
+- name: 🇸🇬SG_30
+  network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 18.163.180.201
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - alterId: 0
@@ -608,28 +598,6 @@ proxies:
   server: growing-oyster.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- name: 🇭🇰 HK 622 | ⬇️ 16KB/s
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
-- alpn:
-  - h2%2Chttp%2F1.1
-  client-fingerprint: qq
-  name: 🇭🇰 HK 087 | ⬇️ 499KB/s
-  network: xhttp
-  port: 443
-  server: hk.denverpresents.top
-  servername: hk.denverpresents.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
-  xhttp-opts:
-    host: hk.denverpresents.top
-    mode: auto
-    path: /assets/build/_app/immutable/chunks/stream-one/
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -900,3 +868,282 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: RU VLESS-220
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: bjOGTQ4xsiFbyCPM_WzoK53L130rW5vZJtuYDJx_pkM
+    short-id: '!!str aa3c'
+  server: billing.netraidly.ru
+  servername: deepl.com
+  tls: false
+  type: vless
+  uuid: 17d29827-7cf1-4115-b40d-548e10ec355d
+- client-fingerprint: chrome
+  name: 香港 04
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: IZn3ibz8K1yot2cj4ssmAQHVB--xrcQEc3RCFQUSRiE
+    short-id: '!!str 2143'
+  server: tw04.kinomir.fun
+  servername: deepl.com
+  tls: false
+  type: vless
+  uuid: 84e919d1-efc6-48fc-8248-8c3cbfec9f17
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: HK VLESS-1047
+  network: tcp
+  port: 443
+  server: 212.192.15.191
+  servername: u695099u36cf43b9s298.wagahaha.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 36cf43b9s298.wagahaha.xyz
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: HK VLESS-1103
+  network: tcp
+  port: 443
+  server: s299.freessr.bid
+  servername: u695099u36cf43b9s298.wagahaha.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 36cf43b9s298.wagahaha.xyz
+    path: ''
+- name: HK香港
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa3.api3-max.ru
+  skip-cert-verify: false
+  sni: wopa3.api3-max.ru
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: web.max.ru
+  name: 香港 05
+  network: grpc
+  port: 444
+  reality-opts:
+    public-key: lxq7uAa7l0ozobBgTRrQIF_aCxDeJqZZFaNv8CFA9TQ
+    short-id: '!!str 8622176789abcdef'
+  server: hk.vrsvpn.com
+  servername: web.max.ru
+  tls: false
+  type: vless
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 未知 VLESS-496
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: oc9uweln_cqyaJnlRMnhhhKrGNP7RrYOsuYtaIOIQDE
+    short-id: '!!str 2bc0'
+  server: 186.246.19.79
+  servername: deepl.com
+  tls: false
+  type: vless
+  uuid: 5e3f974b-06fc-4555-907a-6681391b7c17
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 香港 09
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: oc9uweln_cqyaJnlRMnhhhKrGNP7RrYOsuYtaIOIQDE
+    short-id: '!!str 2bc0'
+  server: private.netraidly.ru
+  servername: deepl.com
+  tls: false
+  type: vless
+  uuid: 5e3f974b-06fc-4555-907a-6681391b7c17
+- name: 香港 14
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: 202.146.222.29
+  tls: false
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 香港 20
+  password: W4wHhN9YQntY
+  port: 8388
+  server: 212.192.15.143
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'HK香港 #7'
+  network: tcp
+  port: 40118
+  reality-opts:
+    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+    short-id: '!!str 5895914d'
+  server: 43.255.156.59
+  servername: www.lamer.com.sg
+  tls: false
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+- client-fingerprint: chrome
+  name: 'HK香港 #8'
+  network: ws
+  port: 443
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7c61a2a5-c7e4-4d52-baf7-a9406ad89b4c
+  ws-opts:
+    headers:
+      Host: ov186.ochmaybrooooo.online
+    path: '%2F'
+- name: 香港 01
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.174
+  skip-cert-verify: true
+  sni: https://t.me/oneclickvpnkeys
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港 22
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zCeRZCK7gCGFmPlOzBaTWHVkmysMFJlPqgDTPZRjRx0
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: fh4.freechatup2.com
+  servername: hihidress.com
+  tls: false
+  type: vless
+  uuid: bfad812b-4f2b-4075-bd9a-9c9a6fb12511
+- client-fingerprint: chrome
+  name: 香港 23
+  network: ws
+  port: 443
+  server: 103.74.192.228
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港 13
+  network: tcp
+  port: 64531
+  reality-opts:
+    public-key: WFZUvUYtHggboBInm2fVt25Qw_3OFpJPeFn3qb_oCRY
+    short-id: '!!str 5442644f'
+  server: 85.113.71.85
+  servername: apple.com
+  tls: false
+  type: vless
+  uuid: ba58ca0c-0411-444e-80f7-e361ce49012d
+- name: 香港 11
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  sni: hkt.ccwink.cc
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港 19
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
+    short-id: '!!str e53048e82bb20077'
+  server: 103.252.117.7
+  servername: asia.cendora.ru
+  tls: false
+  type: vless
+  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
+- cipher: chacha20-ietf
+  name: 香港 16
+  password: asd123456
+  port: 8388
+  server: 103.149.183.113
+  type: ss
+- client-fingerprint: chrome
+  name: 香港 24
+  network: ws
+  port: 443
+  server: 43.198.204.35
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  tls: true
+  type: vless
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港 26
+  network: tcp
+  port: 796
+  reality-opts:
+    public-key: TF0cpYzynl9KBdRfExFyNGoQn-l0XHmTkvRMgwf4VV8
+    short-id: '!!str e62d7339ead9eb13'
+  server: hk03.ccdn3.work
+  servername: www.bilibili.com
+  tls: false
+  type: vless
+  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: HK VLESS-1040
+  network: tcp
+  port: 443
+  server: s306.ccgfw.top
+  servername: u695099u36cf43b9s298.wagahaha.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 36cf43b9s298.wagahaha.xyz
+    path: ''
+- name: 香港 02
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 119.246.1.143
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan

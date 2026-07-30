@@ -1,13 +1,69 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 爱沙尼亚/Estonia
+  name: 🇪🇪EE_3
+  network: tcp
   port: 45176
   reality-opts:
     public-key: A1Qf_rMG4KDfLzfCK-M5R9qW_0uThfeSosQnv6LBL1M
     short-id: '!!str 8433cb66b6c3ab6d'
   server: 185.155.97.58
   servername: www.googletagmanager.com
-  tls: true
+  tls: false
   type: vless
   uuid: dc7940e0-6bff-45e3-853d-4007561803c3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_2
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SJkDT_L0eziQR2afDGrkN7-uRxjYu6bZxIGXlKeCvX4
+    short-id: '!!str 15aa18f971da1f81'
+  server: 185.155.97.241
+  servername: web.max.ru
+  tls: false
+  type: vless
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 🇪🇪EE_5
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 37.49.224.176
+  servername: api-maps.yandex.ru
+  tls: false
+  type: vless
+  uuid: 254d715d-49be-43cf-a138-b4a4df713240
+- cipher: chacha20-ietf-poly1305
+  name: 🇪🇪EE_6
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 77.83.198.104
+  type: ss
+- grpc-opts:
+    grpc-service-name: grpc
+  name: 🇪🇪EE_4
+  network: grpc
+  port: 8443
+  server: 95.85.228.161
+  tls: false
+  type: vless
+  uuid: 1f29762d-3f23-4207-9e39-f774de5d49ba
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_1
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SJkDT_L0eziQR2afDGrkN7-uRxjYu6bZxIGXlKeCvX4
+    short-id: '!!str 15aa18f971da1f81'
+  server: est.vrsvpn.com
+  servername: web.max.ru
+  tls: false
+  type: vless
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
