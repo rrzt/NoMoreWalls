@@ -41036,7 +41036,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 18.138.237.18
+  server: 13.229.150.108
   servername: www.apple.com
   tls: true
   type: vless
@@ -41048,7 +41048,7 @@ proxies:
   reality-opts:
     public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
     short-id: '628b3c90c98ead4f'
-  server: 52.79.234.32
+  server: 13.124.180.204
   servername: www.apple.com
   tls: true
   type: vless
