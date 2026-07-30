@@ -38,6 +38,20 @@ proxies:
   server: hackney-latest-strike.freesocks.work
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '德国/法兰克福/Germany/Frankfurt am M... #4'
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.114.133
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: Germany_None_ss_1133
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: '45819'
+  server: 134.98.141.145
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 未知21
@@ -64,7 +78,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 未知92
+  name: 未知80
   network: tcp
   port: 8585
   server: 165.227.138.218
@@ -74,7 +88,7 @@ proxies:
   uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
 - alterId: 0
   cipher: auto
-  name: 未知55
+  name: 未知50
   network: tcp
   port: 2053
   server: de.connfull.org
@@ -791,37 +805,21 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 2d4dd672-180f-415c-9035-e2fc461dd95a
-- cipher: aes-256-cfb
-  name: 西班牙/马德里/Spain/Madrid
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 5.188.181.201
-  type: ss
 - cipher: aes-256-gcm
   name: 🇩🇪DE-145.239.1.100-0035 | 0.0M...
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 145.239.1.100
   type: ss
-- name: 🇩🇪DE_2|2.1MB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: cctvhikvision.center
+- client-fingerprint: chrome
+  name: '🇩🇪DE_11|3.3MB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
+  sni: hkdcrtc-e.catcat321.com
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_7|2.6MB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 130.61.114.133
-  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE

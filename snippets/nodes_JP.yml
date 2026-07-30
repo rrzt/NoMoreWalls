@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇰🇷KR_1|2.2MB/s
+- name: 🇯🇵_日本_23
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr2.tube-cat.com
@@ -17,7 +17,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 🇰🇷KR_2|2.7MB/s
+- name: 🇯🇵_日本_67
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr1.tube-cat.com
@@ -76,7 +76,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 🇺🇸US美国5
+  name: 🇺🇸US美国
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -86,9 +86,27 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: 'JP_speednode_0015 #1'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 38937
+  server: 18.181.205.36
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- name: 'JP_speednode_0016 #1'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 49277
+  server: 18.181.205.36
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 日本 001
+  name: 日本/Japan
   network: ws
   port: 80
   server: 168.138.43.75
@@ -494,18 +512,6 @@ proxies:
     path: /ksebupo
 - alterId: 0
   cipher: auto
-  name: 日本/Japan
-  network: ws
-  port: 80
-  server: 168.138.43.75
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: 168.138.43.75
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
   name: 日本/Japan-2
   network: ws
   port: 25686
@@ -514,8 +520,18 @@ proxies:
   uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
   ws-opts:
     headers:
-      Host: jp02.a0a.xyz
+      Host: 140.83.51.161
     path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 日本/Japan-3
+  network: ws
+  port: 4010
+  server: 45.76.202.45
+  type: vmess
+  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
+  ws-opts:
+    path: /liksuzcp
 - alterId: 0
   cipher: auto
   name: 🇯🇵JP-45.76.202.45-0080 | 0.0MB
@@ -729,62 +745,12 @@ proxies:
   type: vmess
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
 - alterId: 0
-  name: 🇯🇵JP日本
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 38937
-  server: 54.46.77.161
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 🇯🇵JP日本2
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 40138
-  server: 35.77.80.32
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
   name: 🇯🇵JP日本3
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 38937
-  server: 18.163.123.229
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 🇯🇵JP日本6
   password: BxceQaOe
   port: 45691
   server: 18.163.208.174
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 🇯🇵JP日本7
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 40138
-  server: 18.166.58.27
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 🇯🇵JP日本8
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 38937
-  server: 95.40.51.248
-  skip-cert-verify: true
-  sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true

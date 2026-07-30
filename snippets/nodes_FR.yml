@@ -14,7 +14,7 @@ proxies:
     path: /0zNW56sF
 - alterId: 0
   cipher: auto
-  name: NN_speednode_0010
+  name: NN_speednode_0020
   network: ws
   port: 55009
   server: 2001:bc8:32d7:225::3
@@ -64,7 +64,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 未知53 24.3KB/s
+  name: 未知37 64.9KB/s
   network: tcp
   port: 27726
   server: fj260205.freechatup.com
@@ -74,7 +74,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知57
+  name: 未知98
   network: tcp
   port: 2053
   server: fr.connfull.org
@@ -84,7 +84,7 @@ proxies:
   uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
 - alterId: 0
   cipher: auto
-  name: 未知60 41.4KB/s
+  name: 未知81 47.1KB/s
   network: tcp
   port: 27726
   server: fj260304.freechatup.com
@@ -103,7 +103,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知83 21.0KB/s
+  name: 未知19 67.5KB/s
   network: tcp
   port: 27726
   server: fj260306.freechatup.com
@@ -113,7 +113,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知65 27.3KB/s
+  name: 未知25 57.8KB/s
   network: tcp
   port: 27726
   server: fj260204.freechatup.com
@@ -123,7 +123,7 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知36 35.1KB/s
+  name: 未知10 44.7KB/s
   network: tcp
   port: 27726
   server: fj260203.freechatup.com
@@ -478,13 +478,6 @@ proxies:
     headers:
       Host: a.baradiha.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 法国/France
-  port: 2052
-  server: node-uk.connectsuite.org
-  type: vmess
-  uuid: 40b25dc2-8e1a-4889-b334-e3376ab3d865
 - cipher: aes-256-cfb
   name: 🇫🇷_FR_法国
   password: asdKkaskJKfnsa
@@ -556,14 +549,3 @@ proxies:
   server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
   sni: rd.autos.yahoo.com:443
   type: trojan
-- alterId: 0
-  name: 🇫🇷FR法国
-  network: ws
-  password: humanity
-  port: 443
-  server: 81.255.155.10
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  tls: true
-  type: trojan
-  udp: true

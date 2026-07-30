@@ -58,9 +58,9 @@ proxies:
   type: vless
   udp: true
   uuid: a21678d7-2024-4370-8d2e-255b344b3e1b
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '德国/法兰克福/Germany/Frankfurt am M... #3'
+  name: 🇩🇪_德国_84
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
@@ -277,7 +277,7 @@ proxies:
       Host: forfreeuse.sub-flow.online
     path: /
 - client-fingerprint: chrome
-  name: 'DE_speednode_0002 #1'
+  name: 'DE_speednode_0004 #1'
   network: ws
   port: 2053
   server: 51.89.23.94
@@ -407,13 +407,27 @@ proxies:
   server: hackney-latest-strike.freesocks.work
   type: ss
   udp: true
-- name: '@KAFING_2'
+- cipher: chacha20-ietf-poly1305
+  name: '德国/法兰克福/Germany/Frankfurt am M... #4'
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.114.133
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: Germany_None_ss_1133
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: '45819'
+  server: 134.98.141.145
+  type: ss
+  udp: true
+- name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 181.214.99.162
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
@@ -501,7 +515,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 未知92
+  name: 未知80
   network: tcp
   port: 8585
   server: 165.227.138.218
@@ -511,7 +525,7 @@ proxies:
   uuid: afedd970-62a2-46f5-88c4-e1f5305d3758
 - alterId: 0
   cipher: auto
-  name: 未知55
+  name: 未知50
   network: tcp
   port: 2053
   server: de.connfull.org
@@ -1424,7 +1438,7 @@ proxies:
   type: vless
   udp: true
   uuid: 49e197be-99bc-4701-96f1-57678b6c3c5c
-- name: 德国/Germany
+- name: 德国/Germany-3
   network: tcp
   port: 50417
   server: 91.107.139.186
@@ -1666,14 +1680,40 @@ proxies:
   type: vless
   udp: true
   uuid: fb37aadd-b957-4462-8738-80c55d77a52d
-- cipher: aes-256-cfb
-  name: 西班牙/马德里/Spain/Madrid
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 5.188.181.201
-  type: ss
-- client-fingerprint: qq
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'CA_speednode_0003 #1'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: UZn-GKszDMErkbxDZAMbPmOMBk2nwEc7Av5uhZFMkgI
+    short-id: '!!str 7a3f9c2e1b8d4506'
+  server: 167.17.182.192
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a6ee382-75c3-4cc5-bacd-66494cf99daa
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 德国/纽伦堡/Germany/Nuremberg
+  port: 443
+  reality-opts:
+    public-key: P5ceHLOW8Gmz45z-ozbm9T6xsdSsIGLB71-jMfSjCBQ
+    short-id: '!!str 04bc695105689674'
+  server: 159.195.46.178
+  servername: 4.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+- name: 塞尔维亚/贝尔格莱德/Serbia/Belgrade
+  port: 30153
+  server: 195.133.18.161
+  type: vless
+  uuid: da97d2d7-d255-4efd-8398-7101d698768e
+- client-fingerprint: qq
+  name: 德国/纽伦堡/Germany/Nuremberg-2
   port: 6500
   reality-opts:
     public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
@@ -1682,6 +1722,15 @@ proxies:
   tls: true
   type: vless
   uuid: b8ae8186-22ed-413b-b0de-dc590bbbc3bc
+- name: 'US_speednode_0122 #1'
+  port: 2553
+  server: 195.21.129.117
+  servername: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
 - cipher: aes-256-gcm
   name: 🇩🇪DE-145.239.1.100-0035 | 0.0M...
   password: kDWvXYZoTBcGkC4
@@ -1806,25 +1855,15 @@ proxies:
   type: hysteria
   udp: 'true'
   up: '500'
-- name: 🇩🇪DE_2|2.1MB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: cctvhikvision.center
+- client-fingerprint: chrome
+  name: '🇩🇪DE_11|3.3MB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
+  sni: hkdcrtc-e.catcat321.com
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_7|2.6MB/s
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 130.61.114.133
-  type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
@@ -1840,32 +1879,80 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|2.5MB/s
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 🇩🇪DE_1|2.1MB/s
   network: tcp
   port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 82.39.171.145
-  servername: yahoo.com
+  server: 203.23.179.151
+  servername: ddc-akn.astralweb.tech
   tls: true
   type: vless
   udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|2.8MB/s
+  name: 'US_speednode_0118 #1'
   network: tcp
-  port: '8443'
+  port: 8443
   reality-opts:
     public-key: dNfk0sOCzOlmE61B7ur7YzU2i08RqXIBcGVBA2Ne1Ck
     short-id: '!!str 7548bc'
   server: v-de-node-03.bot-auth.com
   servername: www.oracle.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: b9b1e7c9-4160-49b4-85a4-2f096706509a
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪DE_5|2.1MB/s
+  network: xhttp
+  port: '8443'
+  server: 162.159.38.119
+  servername: argentinavsspain.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: argentinavsspain.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE_6|2.0MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
+    short-id: '!!str 3303c7a5'
+  server: 194.93.0.28
+  servername: media2.tcpdoor.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 🇩🇪DE_10|1.6MB/s
+  network: grpc
+  port: '16923'
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 159.195.58.201
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecc1e369-4aaf-441a-b919-6e7455dd8354
   xudp: true
