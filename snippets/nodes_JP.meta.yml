@@ -1,5 +1,5 @@
 proxies:
-- name: 'JP日本(v2clash.blog 2026-7.31更新)... #1'
+- name: 🇺🇸_美国_60
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
@@ -7,7 +7,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'JP日本(v2clash.blog 2026-7.31更新)... #2'
+- name: 🇺🇸_美国_70
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20129
   server: hkdcrtc-e.catcat321.com
@@ -15,7 +15,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 印度(v2clash.blog 2026-7.31更新)_2
+- name: 🇺🇸_美国_108
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20035
   server: oplosgru-c.catcat321.com
@@ -23,7 +23,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'JP日本(v2clash.blog 2026-7.31更新)... #8'
+- name: 🇺🇸_美国_66
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20129
   server: hkdcrtc-e.catcat321.com
@@ -279,7 +279,67 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇺🇸 美国2|@ripaojiedian
+- name: 🇯🇵_日本_38
+  password: NQ26071394
+  port: 443
+  server: correct-starfish.rooster465.autos
+  skip-cert-verify: true
+  sni: correct-starfish.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇯🇵_日本_40
+  password: NQ26071394
+  port: 443
+  server: thankful-piranha.rooster465.autos
+  skip-cert-verify: true
+  sni: thankful-piranha.rooster465.autos
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇯🇵_日本_47
+  password: an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA
+  port: 443
+  server: 154.31.114.10
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇯🇵_日本_142
+  password: HutaoCloud
+  port: 11543
+  server: 185.220.238.77
+  skip-cert-verify: true
+  sni: 185.220.238.77
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 185.220.238.77
+    path: /api
+- name: 🇯🇵 日本|@stairnode
+  password: BxceQaOe
+  port: 3022
+  server: 52.194.222.108
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇯🇵 日本2|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4937
+  server: 13.231.134.78
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇯🇵 日本3|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 9201
+  server: 43.207.115.26
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '🇺🇸 美国2|@ripaojiedian #1'
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
   server: 57.183.19.130

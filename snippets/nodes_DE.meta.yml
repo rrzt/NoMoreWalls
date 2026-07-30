@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇩🇪 德国 starcorenode.com #2'
+  name: 德国+V2CROSS.COM
   network: tcp
   port: 443
   reality-opts:
@@ -9,13 +9,27 @@ proxies:
     short-id: '!!str 4c5a76834671'
   server: 185.164.111.48
   servername: www.cloudflare.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  tls: false
   type: vless
   uuid: 59eefc04-b831-45cf-8d68-63ca23381171
 - client-fingerprint: chrome
-  name: 'DE德国(v2clash.blog 2026-7.31更新)... #2'
+  name: '🇩🇪_DE_德国->🇫🇮_FI_芬兰 #2'
+  network: ws
+  packet-encoding: xudp
+  port: 2053
+  server: 51.89.23.94
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_96
   port: 53996
   reality-opts:
     public-key: aNMxt5DL5lJSEb_zKQTvGw7GJqpLrOuNQMNUQ8A-BQ8
@@ -236,14 +250,20 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
-- name: '🇮🇳_IN_印度->🇩🇪_DE_德国 #1'
-  port: 2553
-  server: 195.21.129.117
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪_德国_14
+  port: 8443
+  reality-opts:
+    public-key: UZn-GKszDMErkbxDZAMbPmOMBk2nwEc7Av5uhZFMkgI
+    short-id: '!!str 7a3f9c2e1b8d4506'
+  server: 144.31.98.144
+  servername: www.tesla.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
+  uuid: 9a6ee382-75c3-4cc5-bacd-66494cf99daa
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'

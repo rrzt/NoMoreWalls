@@ -9,7 +9,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'KR韩国(v2clash.blog 2026-7.31更新)... #3'
+- name: 🇯🇵_日本_76
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr2.tube-cat.com

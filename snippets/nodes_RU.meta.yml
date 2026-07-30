@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: NL荷兰(v2clash.blog 2026-7.31更新)
+  name: 🇳🇱_荷兰_178
   network: ws
   port: 2053
   server: 188.227.86.123
@@ -14,7 +14,7 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: 'RU俄罗斯(v2clash.blog 2026-7.31更新... #1'
+- name: 🇷🇺_俄罗斯_200
   network: ws
   port: 4100
   server: 5.129.194.34
@@ -127,6 +127,50 @@ proxies:
     headers:
       Host: 46.29.161.15
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'RU_speednode_0092 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.9
+  servername: apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+- client-fingerprint: safari
+  name: 🇷🇺_俄罗斯_125
+  network: ws
+  port: 443
+  server: 158.160.196.224
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9b08bee0-2615-46c6-8939-54b575517a26
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket?ed=2560
+- client-fingerprint: chrome
+  name: 🇷🇺_俄罗斯_214
+  network: ws
+  port: 443
+  server: 158.160.57.2
+  servername: cloudflare.vhub.pro
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9b08bee0-2615-46c6-8939-54b575517a26
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+    path: /websocket?ed
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '🇷🇺_RU_俄罗斯 #6'
@@ -392,20 +436,6 @@ proxies:
   reality-opts:
     public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
   server: 94.139.251.189
-  servername: apple.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'RU_speednode_0092 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.9
   servername: apple.com
   skip-cert-verify: true
   tls: true

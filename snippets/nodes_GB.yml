@@ -20,7 +20,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'US美国(v2clash.blog 2026-7.31更新)... #9'
+- name: 🇺🇸_美国_155
   password: humanity
   port: 443
   server: 165.215.250.14

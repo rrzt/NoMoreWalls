@@ -7,6 +7,76 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇼_台湾_55
+  port: 32800
+  reality-opts:
+    public-key: E6W_DSr_vZSjBjTmkA0J5LfAROb4Xf8CZ894sw-EWHI
+    short-id: '!!str 6e495175'
+  server: 8lh0z5coc2ubje1ql7wr.reality.kipfel.dev
+  servername: www.cht.com.tw
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7fc4e294-73e9-4ef9-acf5-1800fe24a806
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇼_台湾_56
+  port: 32801
+  reality-opts:
+    public-key: E6W_DSr_vZSjBjTmkA0J5LfAROb4Xf8CZ894sw-EWHI
+    short-id: '!!str 6e495175'
+  server: kt3bi9jrfm7vgfypqhpo.reality.kipfel.dev
+  servername: www.cht.com.tw
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7fc4e294-73e9-4ef9-acf5-1800fe24a806
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇼_台湾_57
+  port: 32802
+  reality-opts:
+    public-key: E6W_DSr_vZSjBjTmkA0J5LfAROb4Xf8CZ894sw-EWHI
+    short-id: '!!str 6e495175'
+  server: zy9cbaswz0gsrcqleh4b.reality.kipfel.dev
+  servername: www.cht.com.tw
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7fc4e294-73e9-4ef9-acf5-1800fe24a806
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇼_台湾_58
+  port: 32803
+  reality-opts:
+    public-key: E6W_DSr_vZSjBjTmkA0J5LfAROb4Xf8CZ894sw-EWHI
+    short-id: '!!str 6e495175'
+  server: q3zkrfdi7ruw45qebchj.reality.kipfel.dev
+  servername: www.cht.com.tw
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7fc4e294-73e9-4ef9-acf5-1800fe24a806
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇼_台湾_59
+  port: 32804
+  reality-opts:
+    public-key: E6W_DSr_vZSjBjTmkA0J5LfAROb4Xf8CZ894sw-EWHI
+    short-id: '!!str 6e495175'
+  server: kgolg6cxdumtjufzb23p.reality.kipfel.dev
+  servername: www.cht.com.tw
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7fc4e294-73e9-4ef9-acf5-1800fe24a806
 - cipher: chacha20-ietf-poly1305
   name: 台湾/新北/Taiwan/New Taipei City
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4

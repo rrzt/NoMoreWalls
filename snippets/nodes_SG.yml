@@ -21,6 +21,27 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
+- name: 🇸🇬 新加坡|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4674
+  server: 52.194.222.108
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡2|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4674
+  server: 43.207.115.26
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡3|@stairnode
+  password: BxceQaOe
+  port: 25675
+  server: 16.162.119.43
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 🇸🇬SG-167.150.100.133-0162 | 0....
   password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
   port: 450
