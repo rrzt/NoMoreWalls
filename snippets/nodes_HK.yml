@@ -27,29 +27,27 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 'Node #93'
-  network: tcp
+  name: 🇭🇰HK香港2
   password: 65fQmPHHbPcBCfvSHt
   port: 443
   server: au-4.tr202605.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  name: 'Node #110'
-  network: tcp
+  name: 🇭🇰HK香港4
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
   server: 18.162.155.166
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 香港_2
+  name: '香港_2 #2'
   network: ws
   port: 443
   server: 221.204.41.88
@@ -190,60 +188,6 @@ proxies:
     headers:
       Host: 7timuei1uufoixbf.v.3dns.vip
     path: /ws-vmess
-- alterId: 2
-  cipher: auto
-  name: '🇭🇰_HK_中国香港_1 #6'
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: HK3 152.4KB/s
-  network: ws
-  port: 443
-  server: 7timuei1uufoixbf.v.3dns.vip
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      host: 7tImuei1uuFOiXbf.v.3dns.vip
-    path: /ws-vmess
-- name: '香港_2 #1'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港3|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 52687
-  server: 18.162.54.192
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 6313
-  server: 52.194.222.108
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 6313
-  server: 3.112.196.41
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: '香港4|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
@@ -252,7 +196,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: '香港5|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
@@ -261,7 +204,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 0
   name: 🇸🇬SG新加坡3
   network: tcp
@@ -292,7 +234,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-3
@@ -353,12 +294,11 @@ proxies:
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
     path: /ws-vmess
-- name: 🇸🇬SG_30
-  network: tcp
+- name: 🇭🇰HK-18.163.180.201-0100 | 34....
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 18.163.180.201
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - alterId: 0
@@ -481,6 +421,13 @@ proxies:
   server: hk2.fgmcx.top
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 12|🇭🇰 香港3|@ripaojiedian
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52612
+  server: 111.29.57.125
+  tfo: false
+  type: ss
 - alterId: 2
   cipher: auto
   name: 12,13|香港4|@ripaojiedian
@@ -512,6 +459,13 @@ proxies:
     headers:
       Host: cloudgd.coemn.com
     path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  name: 12|🇭🇰 香港6|@ripaojiedian
+  password: cdc48a7a-b618-45af-a831-5afbd686b02f
+  port: 12202
+  server: gg21.hangfengjiasu.com
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 12|🇭🇰 香港7|@ripaojiedian
@@ -681,23 +635,3 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 香港 20
-  password: W4wHhN9YQntY
-  port: 8388
-  server: 212.192.15.143
-  type: ss
-- cipher: chacha20-ietf
-  name: 香港 16
-  password: asd123456
-  port: 8388
-  server: 103.149.183.113
-  type: ss
-- name: 香港 02
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 119.246.1.143
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan

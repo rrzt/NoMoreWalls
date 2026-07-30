@@ -1,87 +1,24 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇹🇼_台湾_55
-  port: 32800
-  reality-opts:
-    public-key: E6W_DSr_vZSjBjTmkA0J5LfAROb4Xf8CZ894sw-EWHI
-    short-id: '!!str 6e495175'
-  server: 8lh0z5coc2ubje1ql7wr.reality.kipfel.dev
-  servername: www.cht.com.tw
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳TW-36.224.191.247-0142 | 3.2...
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
   skip-cert-verify: true
-  tls: true
-  type: vless
+  type: ss
   udp: true
-  uuid: 7fc4e294-73e9-4ef9-acf5-1800fe24a806
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇹🇼_台湾_56
-  port: 32801
-  reality-opts:
-    public-key: E6W_DSr_vZSjBjTmkA0J5LfAROb4Xf8CZ894sw-EWHI
-    short-id: '!!str 6e495175'
-  server: kt3bi9jrfm7vgfypqhpo.reality.kipfel.dev
-  servername: www.cht.com.tw
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7fc4e294-73e9-4ef9-acf5-1800fe24a806
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇹🇼_台湾_57
-  port: 32802
-  reality-opts:
-    public-key: E6W_DSr_vZSjBjTmkA0J5LfAROb4Xf8CZ894sw-EWHI
-    short-id: '!!str 6e495175'
-  server: zy9cbaswz0gsrcqleh4b.reality.kipfel.dev
-  servername: www.cht.com.tw
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7fc4e294-73e9-4ef9-acf5-1800fe24a806
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇹🇼_台湾_58
-  port: 32803
-  reality-opts:
-    public-key: E6W_DSr_vZSjBjTmkA0J5LfAROb4Xf8CZ894sw-EWHI
-    short-id: '!!str 6e495175'
-  server: q3zkrfdi7ruw45qebchj.reality.kipfel.dev
-  servername: www.cht.com.tw
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7fc4e294-73e9-4ef9-acf5-1800fe24a806
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇹🇼_台湾_59
-  port: 32804
-  reality-opts:
-    public-key: E6W_DSr_vZSjBjTmkA0J5LfAROb4Xf8CZ894sw-EWHI
-    short-id: '!!str 6e495175'
-  server: kgolg6cxdumtjufzb23p.reality.kipfel.dev
-  servername: www.cht.com.tw
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7fc4e294-73e9-4ef9-acf5-1800fe24a806
 - cipher: chacha20-ietf-poly1305
   name: 台湾/新北/Taiwan/New Taipei City
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: 61.231.49.100
   type: ss
-- name: 🇹🇼TW_1
+- name: 台湾/台北市/Taiwan/Taipei
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 103.115.109.49
   skip-cert-verify: true
   sni: https://t.me/oneclickvpnkeys
-  tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
@@ -154,22 +91,3 @@ proxies:
     headers:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_7
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: R3MRCG00129437X.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_11
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 61.231.49.177
-  type: ss
-- name: 🇹🇼TW_10
-  network: tcp
-  port: 10000
-  server: 60.249.101.14
-  tls: false
-  type: vless
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
