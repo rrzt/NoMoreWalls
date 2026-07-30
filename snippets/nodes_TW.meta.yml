@@ -1,12 +1,30 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇹🇼 台湾
-  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
-  port: 39201
-  server: aa01gg.sssyun.xyz
-  tfo: false
+  name: '未知 SS-12 #1'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  skip-cert-verify: true
   type: ss
+  udp: true
+- name: 'HK香港(mibei77.com 米贝节点分享)_4 #3'
+  password: c90afede-81f8-439d-9a20-f45579f623ec
+  port: 28680
+  server: tw76.jdvipkuai.cc
+  skip-cert-verify: true
+  sni: hk15.nynet2026.shop
+  tls: true
+  type: anytls
+  udp: true
+- name: 'TW台湾(mibei77.com 米贝节点分享)_1 #3'
+  password: c90afede-81f8-439d-9a20-f45579f623ec
+  port: 56726
+  server: tw78.jdvipkuai.cc
+  skip-cert-verify: true
+  sni: hk11.nynet2026.shop
+  tls: true
+  type: anytls
+  udp: true
 - client-fingerprint: random
   name: 🇨🇳 机场推荐:dafei.de 台湾 01
   network: ws
@@ -26,34 +44,6 @@ proxies:
     max-early-data: 2560
     path: /fdip=tw.william.us.ci!txt
   xudp: true
-- insecure: '1'
-  mport: 40000-49999
-  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 40000
-  server: tw.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 中国 013
-  network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
 - cipher: chacha20-ietf-poly1305
   name: 台湾/新北/Taiwan/New Taipei City
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -67,36 +57,6 @@ proxies:
   skip-cert-verify: true
   sni: https://t.me/oneclickvpnkeys
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-61.231.49.100-0116 | 17.7...
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-61.231.49.122-0236 | 17.5...
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-61.231.49.177-0114 | 0.18...
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001286ek2.cybervena.com
-  type: ss
-- disable-sni: 'true'
-  name: 🇹🇼 TW 007 | ⬇️ 1MB/s
-  packet-encoding: ''
-  packetEncoding: none
-  password: c90afede-81f8-439d-9a20-f45579f623ec
-  port: 443
-  server: yazhou05.netvigor.cc
-  skip-cert-verify: true
-  sni: ''
-  type: anytls
-  udp: true
-  username: c90afede-81f8-439d-9a20-f45579f623ec
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
