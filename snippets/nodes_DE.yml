@@ -811,7 +811,7 @@ proxies:
   port: 8881
   server: 145.239.1.100
   type: ss
-- name: 🇩🇪DE_4|1.9MB/s
+- name: '🇩🇪DE_4|1.9MB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: '20041'

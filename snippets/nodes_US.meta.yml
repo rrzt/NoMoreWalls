@@ -659,7 +659,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: US_speednode_0081
+- name: United States_None_trojan_1128
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -681,7 +681,7 @@ proxies:
   type: vless
   udp: true
   uuid: 7d6d3391-7bf8-46bf-bd2e-01e82a790017
-- name: 🇩🇪DE_3|2.5MB/s
+- name: '🇩🇪DE_3|2.5MB/s #1'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -786,7 +786,7 @@ proxies:
   type: vless
   udp: true
   uuid: 11113f77-b439-4911-a8dd-414d2ee36b59
-- name: 🇩🇪DE_2|3.1MB/s
+- name: '🇩🇪DE_2|3.1MB/s #1'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -2010,7 +2010,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'US_speednode_0115 #1'
+- name: 'US_speednode_0115 #2'
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -2019,7 +2019,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- name: 'US_speednode_0128 #1'
+- name: 'US_speednode_0128 #2'
   network: tcp
   password: BxceQaOe
   port: 15775
@@ -2028,7 +2028,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: US_speednode_0085
+- name: United States_None_trojan_1135
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com

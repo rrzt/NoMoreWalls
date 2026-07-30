@@ -128,7 +128,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'JP_speednode_0015 #1'
+- name: 'JP_speednode_0015 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -137,7 +137,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 'JP_speednode_0016 #1'
+- name: 'JP_speednode_0016 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277

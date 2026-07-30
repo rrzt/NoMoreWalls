@@ -1156,6 +1156,15 @@ proxies:
     mode: auto
     path: /v2ray
     x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  name: '🇸🇬SG_4|3.3MB/s #1'
+  password: BxceQaOe
+  port: '32434'
+  server: 43.198.12.180
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -1222,15 +1231,6 @@ proxies:
   server: 3.36.96.166
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 🇸🇬SG_4|3.3MB/s
-  password: BxceQaOe
-  port: '32434'
-  server: 43.198.12.180
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - alterId: 0
   name: 🇸🇬SG新加坡2
   password: BxceQaOe

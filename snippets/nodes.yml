@@ -1006,7 +1006,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: US_speednode_0081
+- name: United States_None_trojan_1128
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -1014,7 +1014,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 🇩🇪DE_3|2.5MB/s
+- name: '🇩🇪DE_3|2.5MB/s #1'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -1065,7 +1065,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 🇩🇪DE_2|3.1MB/s
+- name: '🇩🇪DE_2|3.1MB/s #1'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -1894,7 +1894,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 'HK_speednode_0010 #1'
+- name: 'HK_speednode_0010 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
@@ -1903,7 +1903,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 'HK_speednode_0009 #1'
+- name: 'HK_speednode_0009 #2'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -1912,7 +1912,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 'HK_speednode_0008 #1'
+- name: 'HK_speednode_0008 #2'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -1921,7 +1921,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 'US_speednode_0115 #1'
+- name: 'US_speednode_0115 #2'
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -1930,7 +1930,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- name: 'HK_speednode_0012 #1'
+- name: 'HK_speednode_0012 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
@@ -1939,7 +1939,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 'JP_speednode_0015 #1'
+- name: 'JP_speednode_0015 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -1948,7 +1948,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 🇸🇬SG_3|3.7MB/s
+- name: '🇸🇬SG_3|3.7MB/s #1'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
@@ -1964,7 +1964,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 'HK_speednode_0011 #1'
+- name: 'HK_speednode_0011 #2'
   network: tcp
   password: BxceQaOe
   port: 32434
@@ -1973,7 +1973,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- name: 'JP_speednode_0016 #1'
+- name: 'JP_speednode_0016 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -1982,7 +1982,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 'US_speednode_0128 #1'
+- name: 'US_speednode_0128 #2'
   network: tcp
   password: BxceQaOe
   port: 15775
@@ -1991,7 +1991,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: US_speednode_0085
+- name: United States_None_trojan_1135
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -2040,9 +2040,9 @@ proxies:
   server: 13.53.198.63
   type: ss
   udp: true
-- name: 🇩🇪DE_9|2.6MB/s
+- name: xx|6cf2|puddincat07@Telegram
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
+  port: '20041'
   server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: de.catxstar.com
@@ -26651,13 +26651,40 @@ proxies:
   type: vmess
   udp: true
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- name: 🇩🇪DE_4|1.9MB/s
+- name: '🇩🇪DE_4|1.9MB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: '20041'
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '🇭🇰HK_6|3.1MB/s #1'
+  password: BxceQaOe
+  port: '11035'
+  server: 18.163.122.92
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '🇭🇰HK_7|3.5MB/s #1'
+  password: BxceQaOe
+  port: '27161'
+  server: 16.163.138.98
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '🇸🇬SG_4|3.3MB/s #1'
+  password: BxceQaOe
+  port: '32434'
+  server: 43.198.12.180
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - alterId: 2
@@ -28478,33 +28505,6 @@ proxies:
     headers:
       Host: rn2.hostmjj.com
     path: /
-- client-fingerprint: chrome
-  name: 🇭🇰HK_6|3.1MB/s
-  password: BxceQaOe
-  port: '11035'
-  server: 18.163.122.92
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇭🇰HK_7|3.5MB/s
-  password: BxceQaOe
-  port: '27161'
-  server: 16.163.138.98
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_4|3.3MB/s
-  password: BxceQaOe
-  port: '32434'
-  server: 43.198.12.180
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 未知
