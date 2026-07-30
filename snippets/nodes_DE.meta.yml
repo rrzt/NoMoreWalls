@@ -45,7 +45,7 @@ proxies:
       Host: timeline.www.cloudflare.com
     path: '%2F'
 - client-fingerprint: chrome
-  name: '芬兰(mibei77.com 米贝节点分享)_13 #4'
+  name: 🇨🇿_捷克_195
   network: ws
   port: 2053
   server: 195.133.94.188
@@ -84,7 +84,8 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- name: 🇩🇪DE_93
+- client-fingerprint: chrome
+  name: 🇩🇪DE_93
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -108,164 +109,6 @@ proxies:
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
   ws-opts:
     path: '%2F'
-- name: 'Node #122'
-  network: ws
-  port: 8880
-  server: 77.37.33.50
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime57.workers.dev
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 德国(yudou789.top 玉豆免费节点)
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- name: 'Node #65'
-  network: tcp
-  port: 8443
-  server: 95.133.245.213
-  servername: cdn9-33.vk-cdnvideo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- name: 'Node #24'
-  network: tcp
-  port: 8443
-  server: 95.133.245.212
-  servername: cdn9-33.vk-cdnvideo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- name: 'DE德国(mibei77.com 米贝节点分享) #4'
-  password: c90afede-81f8-439d-9a20-f45579f623ec
-  port: 443
-  server: de003.asgg2026.vip
-  skip-cert-verify: true
-  tls: true
-  type: anytls
-  udp: true
-- client-fingerprint: firefox
-  http-opts:
-    path:
-    - /api/v2/sync
-  name: 'DE德国 #11'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: 1Fs7XrW1oMep_TGpbpiS3HOLZrGYMUzDmtMEShOoIGc
-    short-id: '!!str 6a480648c1'
-  server: 169.40.32.216
-  servername: www.samsung.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: cb71a24c-85bf-4251-8a42-7300f5122067
-  ws-opts:
-    path: '%2Fapi%2Fv2%2Fsync'
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'DE德国 #15'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str 3c9c5d01c6f824dd'
-  server: 155.117.137.201
-  servername: cdn9-33.yahoo.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: api.v1.StreamService
-  name: 'DE德国 #10'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
-    short-id: '!!str 5bc76436f2905fba'
-  server: store.noneok.com
-  servername: store.noneok.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: ad5ff95a-81a8-4006-8771-8e33f0bcd9aa
-- name: 'DE德国(mibei77.com 米贝节点分享)_5 #4'
-  network: ws
-  port: 80
-  server: 151.101.193.54
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: a69d5300-8101-47b5-9448-6730f228af37
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
-- name: 'DE德国(mibei77.com 米贝节点分享)_6 #4'
-  password: '!!str 521314'
-  port: 443
-  server: 45.80.111.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: neurex
-  name: 'DE德国 #17'
-  network: grpc
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: 89.222.123.209
-  servername: api-maps.yandex.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: a8a98c3e-0b0d-47c4-b4a0-1402ba3252ca
-  xudp: true
-- client-fingerprint: ios
-  encryption: mlkem768x25519plus.native.0rtt.iICp3anMpUYKL23en1Hq18yfxSEbgV10jczbJJcOh0M
-  name: DE德国
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: l07MVIs83m71Wh1OiGE58XzZfqNd-x6O3isIRYLRYw8
-    short-id: '!!str 453f365feecf'
-  server: 94.249.197.147
-  servername: images.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: a21678d7-2024-4370-8d2e-255b344b3e1b
 - name: '🇩🇪_DE_德国 #7'
   port: 22223
   server: 52.57.117.158
@@ -378,90 +221,76 @@ proxies:
   type: hysteria
   udp: 'true'
   up: '500'
-- client-fingerprint: chrome
-  name: 未知 TROJAN-194
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: neurex
-  name: 🇩🇪 机场推荐:dafei.de 德国 06
-  network: grpc
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: 159.195.12.98
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 35a7fb25-7391-48c6-ac72-b35fda77e36f
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪 机场推荐:dafei.de 德国 07
-  network: tcp
-  port: 8545
-  reality-opts:
-    public-key: 8fx-S5BqsZ99GVPj5kJ-LyMF1cRUE_-NsSetAbc6ADM
-    short-id: '!!str cf5bb241f8a84897'
-  server: 80.253.249.197
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4c69c296-3786-40d3-b6b6-3734e69e02d3
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-direct
-  name: 🇩🇪 机场推荐:dafei.de 德国 08
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
-    short-id: '!!str 5b9dc5fe4ad87cc2'
-  server: 89.208.231.82
-  servername: hh.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 42d3cfb6-8a1d-11f1-9ca5-1e6febe3e1df
 - alpn:
-  - h3
-  - h2
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_147
+  name: 🇩🇪 机场推荐:dafei.de 德国 05
   network: ws
-  port: 443
-  server: cd3.postshup.ir
-  servername: ptr.cyberbear.io
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: com.digitalposts.dpdns.org
+    path: /bkdicj
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 机场推荐:dafei.de 德国 06
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /bkdicj
+- client-fingerprint: chrome
+  name: 🇩🇪 机场推荐:dafei.de 德国 07
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: cctvhikvision.center
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  sub_tag: noCache
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /bkdicj
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪_德国_14
+  port: 8443
+  reality-opts:
+    public-key: UZn-GKszDMErkbxDZAMbPmOMBk2nwEc7Av5uhZFMkgI
+    short-id: '!!str 7a3f9c2e1b8d4506'
+  server: 144.31.98.144
+  servername: www.tesla.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 3fc2dd40-78f1-40ed-8276-936d9dcd248f
-  ws-opts:
-    headers:
-      Host: ptr.cyberbear.io
-    path: /CMlsadnCISdss
-  xudp: true
-- name: '🇮🇳_IN_印度->🇩🇪_DE_德国 #1'
-  port: 2553
-  server: 195.21.129.117
-  skip-cert-verify: true
-  tls: false
-  type: vless
+  uuid: 9a6ee382-75c3-4cc5-bacd-66494cf99daa
+- cipher: chacha20-ietf-poly1305
+  name: 德国(yudou789.top 玉豆免费节点)
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
+  type: ss
   udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -506,6 +335,16 @@ proxies:
   obfs: salamander
   obfs-password: V2RayyNGvpn
   password: c8L7Asi4ur
+  port: 43913
+  server: 91.107.178.22
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪5
+  obfs: salamander
+  obfs-password: V2RayyNGvpn
+  password: im0McIgBXw
   port: 43913
   server: 91.107.178.22
   skip-cert-verify: false
@@ -571,7 +410,13 @@ proxies:
   type: vless
   uuid: b8ae8186-22ed-413b-b0de-dc590bbbc3bc
 - cipher: aes-256-gcm
-  name: 🇩🇪DE-145.239.1.100-0035 | 0.0M...
+  name: 🇩🇪DE-145.239.1.100-0029 | 0.0M...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE-145.239.1.100-0185 | 0.0M...
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 145.239.1.100
@@ -639,6 +484,21 @@ proxies:
   type: vless
   udp: true
   uuid: d7fc372d-c057-43ce-8070-9b96abbc60f3
+- encryption: none
+  name: 🇩🇪 DE 768 | ⬇️ 17KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 151.101.56.7
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
 - client-fingerprint: chrome
   name: 🇩🇪 DE 286 | ⬇️ 15KB/s
   network: ws
@@ -655,6 +515,36 @@ proxies:
       Host: pan1.global.ssl.fastly.net
     max-early-data: 2053
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+- encryption: none
+  name: 🇩🇪 DE 339 | ⬇️ 78KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.0.1
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+- name: 🇫🇮 FI 388 | ⬇️ 49KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 167.82.0.1
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.S5tQO3pPOG2nemudouz-HV4ocOjLbBcECmPWbc5l3hc
   flow: xtls-rprx-vision
@@ -810,6 +700,18 @@ proxies:
     headers:
       Host: cloudflare.vhub.pro
     path: /websocket?ed=2560
+- client-fingerprint: ios
+  name: DE德国
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: l07MVIs83m71Wh1OiGE58XzZfqNd-x6O3isIRYLRYw8
+    short-id: '!!str 453f365feecf'
+  server: 94.249.197.147
+  servername: images.apple.com
+  tls: false
+  type: vless
+  uuid: a21678d7-2024-4370-8d2e-255b344b3e1b
 - client-fingerprint: chrome
   name: 🇩🇪DE_66
   network: ws
@@ -960,6 +862,20 @@ proxies:
   tls: false
   type: vless
   uuid: c95f6104-6b19-4f3e-aaa6-a74fec3ee258
+- client-fingerprint: firefox
+  name: 'DE德国 #11'
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 1Fs7XrW1oMep_TGpbpiS3HOLZrGYMUzDmtMEShOoIGc
+    short-id: '!!str 6a480648c1'
+  server: 169.40.32.216
+  servername: www.samsung.com
+  tls: false
+  type: vless
+  uuid: cb71a24c-85bf-4251-8a42-7300f5122067
+  ws-opts:
+    path: '%2Fapi%2Fv2%2Fsync'
 - client-fingerprint: chrome
   name: 🇩🇪DE_38
   network: ws
@@ -1043,6 +959,19 @@ proxies:
   uuid: 0d3a6c59-c89d-49c6-a480-4a615ed26314
   ws-opts:
     path: /video.php
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'DE德国 #15'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str 3c9c5d01c6f824dd'
+  server: 155.117.137.201
+  servername: cdn9-33.yahoo.com
+  tls: false
+  type: vless
+  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
 - client-fingerprint: chrome
   name: 🇩🇪DE_158
   network: ws
@@ -1440,6 +1369,20 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 'DE德国 #17'
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 89.222.123.209
+  servername: api-maps.yandex.ru
+  tls: false
+  type: vless
+  uuid: a8a98c3e-0b0d-47c4-b4a0-1402ba3252ca
 - client-fingerprint: chrome
   name: 🇩🇪DE_106
   network: tcp
@@ -1452,6 +1395,20 @@ proxies:
   tls: false
   type: vless
   uuid: 38df5518-26c5-449b-98d9-a4f456f5f689
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: api.v1.StreamService
+  name: 'DE德国 #10'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
+    short-id: '!!str 5bc76436f2905fba'
+  server: store.noneok.com
+  servername: store.noneok.com
+  tls: false
+  type: vless
+  uuid: ad5ff95a-81a8-4006-8771-8e33f0bcd9aa
 - client-fingerprint: chrome
   name: 🇩🇪DE_157
   network: ws
@@ -1577,6 +1534,23 @@ proxies:
     headers:
       Host: static.lotussec.com
     path: /Join-JavidnamanIran-on-Telegram
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_147
+  network: ws
+  port: 443
+  server: cd3.postshup.ir
+  servername: ptr.cyberbear.io
+  tls: true
+  type: vless
+  uuid: 3fc2dd40-78f1-40ed-8276-936d9dcd248f
+  ws-opts:
+    headers:
+      Host: ptr.cyberbear.io
+    path: /CMlsadnCISdss
 - client-fingerprint: chrome
   name: 🇩🇪DE_53
   network: ws
@@ -1669,13 +1643,6 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560
-- name: 🇩🇪DE_78
-  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
-  port: 443
-  server: prodfr.h2corp.org
-  sni: prodfr.h2corp.org
-  tls: false
-  type: hysteria2
 - name: 'DE德国 #14'
   network: ws
   password: '!!str 521314'

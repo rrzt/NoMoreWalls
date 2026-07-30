@@ -8,7 +8,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 🇩🇪DE_93
+- client-fingerprint: chrome
+  name: 🇩🇪DE_93
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -18,27 +19,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 德国(yudou789.top 玉豆免费节点)
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- name: 'DE德国(mibei77.com 米贝节点分享)_6 #4'
-  password: '!!str 521314'
-  port: 443
-  server: 45.80.111.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: /pyip=Telegram-WangCai2🇨🇳
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -55,18 +35,70 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
-- client-fingerprint: chrome
-  name: 未知 TROJAN-194
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 机场推荐:dafei.de 德国 05
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
   skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
+  sni: com.digitalposts.dpdns.org
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: com.digitalposts.dpdns.org
+    path: /bkdicj
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪 机场推荐:dafei.de 德国 06
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /bkdicj
+- client-fingerprint: chrome
+  name: 🇩🇪 机场推荐:dafei.de 德国 07
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: cctvhikvision.center
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  sub_tag: noCache
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /bkdicj
+- cipher: chacha20-ietf-poly1305
+  name: 德国(yudou789.top 玉豆免费节点)
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: 🇩🇪DE-145.239.1.100-0035 | 0.0M...
+  name: 🇩🇪DE-145.239.1.100-0029 | 0.0M...
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE-145.239.1.100-0185 | 0.0M...
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 145.239.1.100
