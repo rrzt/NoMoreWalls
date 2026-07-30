@@ -1,4 +1,53 @@
 proxies:
+- name: 🇫🇷_FR_法国
+  port: 22223
+  server: 13.37.22.60
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇫🇷_FR_法国_1
+  port: 22222
+  server: 13.37.22.60
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国
+  port: 33485
+  server: babi.amojimi.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 33ad2587-5ae6-46b0-a04e-b05aab9f5d84
+- name: 🇫🇷_FR_法国_2
+  port: 22224
+  server: 13.37.22.60
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷 机场推荐:dafei.de 法国 01
+  network: ws
+  port: 443
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c61a2a5-c7e4-4d52-baf7-a9406ad89b4c
+  ws-opts:
+    headers:
+      Host: ov186.ochmaybrooooo.online
+    path: /
 - alterId: 0
   cipher: auto
   name: '🇫🇷_法国_379 - undefinedms #1'
@@ -2439,7 +2488,7 @@ proxies:
   sni: www.microsoft.com
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 🇫🇷_FR_法国
+  name: '🇫🇷_FR_法国 #1'
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.54.209

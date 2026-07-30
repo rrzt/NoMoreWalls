@@ -1,4 +1,11 @@
 proxies:
+- cipher: aes-256-cfb
+  name: se|599b|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 13.53.198.63
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 瑞典 001

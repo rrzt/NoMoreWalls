@@ -1,4 +1,26 @@
 proxies:
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇸🇬_SG_新加坡
+  network: grpc
+  port: 54324
+  server: sgp3xui.jzy88.top
+  servername: sgp3xui.jzy88.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cdd37253-5f9b-4dcb-8b01-ad60a29384b8
+- name: 🇸🇬SG-81.28.13.126-0170 | 0.0MB
+  password: FC60532879
+  port: 443
+  server: resolved-gelding.rooster465.autos
+  skip-cert-verify: false
+  sni: resolved-gelding.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
 - name: 🇸🇬SG_4|⬇️5.1MB/s
   network: ws
   password: a9570330-769d-11ef-90dc-1577c1651679
@@ -353,13 +375,6 @@ proxies:
   server: brave-cattle.rooster465.autos
   skip-cert-verify: false
   sni: brave-cattle.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-81.28.13.126-0170 | 0.0MB
-  password: FC60532879
-  port: 443
-  server: resolved-gelding.rooster465.autos
-  skip-cert-verify: false
-  sni: resolved-gelding.rooster465.autos
   type: trojan
 - name: 🇸🇬SG-45.135.228.220-0171 | 0.0...
   password: IQ68037294

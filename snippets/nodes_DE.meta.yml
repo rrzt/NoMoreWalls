@@ -1,4 +1,12 @@
 proxies:
+- name: 🇩🇪_DE_德国
+  port: 22223
+  server: 52.57.117.158
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -15,6 +23,116 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 🇩🇪 DE 710 | ⬇️ 3MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  sub-tag: R002-260618
+  type: hysteria
+  udp: 'true'
+  up: '500'
+- client-fingerprint: chrome
+  name: '🇩🇪DE_4|1.9MB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 🇩🇪 机场推荐:dafei.de 德国 05
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 89.222.123.209
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8a98c3e-0b0d-47c4-b4a0-1402ba3252ca
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: neurex
+  name: 🇩🇪 机场推荐:dafei.de 德国 06
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 159.195.12.98
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 35a7fb25-7391-48c6-ac72-b35fda77e36f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 机场推荐:dafei.de 德国 07
+  network: tcp
+  port: 8545
+  reality-opts:
+    public-key: 8fx-S5BqsZ99GVPj5kJ-LyMF1cRUE_-NsSetAbc6ADM
+    short-id: '!!str cf5bb241f8a84897'
+  server: 80.253.249.197
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c69c296-3786-40d3-b6b6-3734e69e02d3
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-direct
+  name: 🇩🇪 机场推荐:dafei.de 德国 08
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
+    short-id: '!!str 5b9dc5fe4ad87cc2'
+  server: 89.208.231.82
+  servername: hh.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42d3cfb6-8a1d-11f1-9ca5-1e6febe3e1df
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 机场推荐:dafei.de 德国 09
+  network: ws
+  port: 443
+  server: cd3.postshup.ir
+  servername: ptr.cyberbear.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3fc2dd40-78f1-40ed-8276-936d9dcd248f
+  ws-opts:
+    headers:
+      Host: ptr.cyberbear.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /CMlsadnCISdss
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '🇩🇪_德国_137 - undefinedms #1'
@@ -291,6 +409,15 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
+- name: 'US_speednode_0122 #1'
+  port: 2553
+  server: 195.21.129.117
+  servername: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
 - flow: xtls-rprx-vision
   name: 德國
   network: tcp
@@ -1722,15 +1849,6 @@ proxies:
   tls: true
   type: vless
   uuid: b8ae8186-22ed-413b-b0de-dc590bbbc3bc
-- name: 'US_speednode_0122 #1'
-  port: 2553
-  server: 195.21.129.117
-  servername: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
 - cipher: aes-256-gcm
   name: 🇩🇪DE-145.239.1.100-0035 | 0.0M...
   password: kDWvXYZoTBcGkC4
@@ -1840,30 +1958,6 @@ proxies:
   type: vless
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪 DE 710 | ⬇️ 3MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  sub-tag: R002-260618
-  type: hysteria
-  udp: 'true'
-  up: '500'
-- name: '🇩🇪DE_4|1.9MB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

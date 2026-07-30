@@ -1,4 +1,11 @@
 proxies:
+- cipher: aes-256-cfb
+  name: se|599b|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 13.53.198.63
+  type: ss
+  udp: true
 - name: 🇸🇪SE_3|⬇️3.2MB/s
   network: tcp
   port: 443

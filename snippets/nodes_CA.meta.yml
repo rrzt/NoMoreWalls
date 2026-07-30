@@ -34,6 +34,14 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 🇨🇦 机场推荐:dafei.de 加拿大 01
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga8.api3-max.ru
+  skip-cert-verify: true
+  sni: taga8.api3-max.ru
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefine... #1'

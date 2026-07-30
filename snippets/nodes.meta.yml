@@ -1,4 +1,265 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 美国(yudou789.top 玉豆免费节点)_13
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇸🇬_SG_新加坡
+  network: grpc
+  port: 54324
+  server: sgp3xui.jzy88.top
+  servername: sgp3xui.jzy88.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: cdd37253-5f9b-4dcb-8b01-ad60a29384b8
+- name: 🇫🇷_FR_法国
+  port: 22223
+  server: 13.37.22.60
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰_HK_中国香港 #3'
+  network: ws
+  port: 443
+  server: n1747624260.4u9ma.icu
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸_US_美国_1 #3'
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alterId: 2
+  cipher: auto
+  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇹🇷_TR_土耳其
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.55
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_中国香港_1
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /arki?ed=2048
+- name: 🇫🇷_FR_法国_1
+  port: 22222
+  server: 13.37.22.60
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国
+  port: 33485
+  server: babi.amojimi.ir
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 33ad2587-5ae6-46b0-a04e-b05aab9f5d84
+- alterId: 2
+  cipher: auto
+  name: '🇨🇳_CN_中国->🇮🇪_IE_爱尔兰 #2'
+  port: 30804
+  server: v4.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇩🇪_DE_德国
+  port: 22223
+  server: 52.57.117.158
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- alterId: 2
+  cipher: auto
+  name: China_Chengdu_vmess_1127
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇹🇷_TR_土耳其_1
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.14
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- alterId: 2
+  cipher: auto
+  name: 美国(yudou789.top 玉豆免费节点)_3
+  port: 30824
+  server: v24.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇫🇷_FR_法国_2
+  port: 22224
+  server: 13.37.22.60
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇸🇬SG-81.28.13.126-0170 | 0.0MB
+  password: FC60532879
+  port: 443
+  server: resolved-gelding.rooster465.autos
+  skip-cert-verify: false
+  sni: resolved-gelding.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: none
+  name: 🇨🇳_CN_中国->🇩🇪_DE_德国
+  port: 30833
+  server: v33.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇷🇺_RU_俄罗斯
+  port: 29311
+  server: 46.29.163.32
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: dee59997-f3f0-4dc5-bb26-ae24ae63ec5a
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇹🇷 TR 258 | ⬇️ 151KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.105
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇹🇷_TR_土耳其_3
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.170
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_中国香港_2
+  port: 5566
+  server: 47.76.127.88
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇹🇷_TR_土耳其_4
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.92
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇹🇷_TR_土耳其_5
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 'c6ef72e4635d15a5'
+  server: 45.196.201.37
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
 - cipher: aes-256-gcm
   name: SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT...
   password: 8JCsPssfgS8tiRwiMlhARg==
@@ -299,6 +560,747 @@ proxies:
     headers:
       HOST: cg1c14.waimaojd.com
     path: /api/v1/graphql
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: 🇩🇪 DE 710 | ⬇️ 3MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  sub-tag: R002-260618
+  type: hysteria
+  udp: 'true'
+  up: '500'
+- client-fingerprint: chrome
+  name: '🇩🇪DE_4|1.9MB/s #1'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 🇩🇪 机场推荐:dafei.de 德国 05
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '10ffb85da1c2d986'
+  server: 89.222.123.209
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8a98c3e-0b0d-47c4-b4a0-1402ba3252ca
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: neurex
+  name: 🇩🇪 机场推荐:dafei.de 德国 06
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '10ffb85da1c2d986'
+  server: 159.195.12.98
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 35a7fb25-7391-48c6-ac72-b35fda77e36f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 机场推荐:dafei.de 德国 07
+  network: tcp
+  port: 8545
+  reality-opts:
+    public-key: 8fx-S5BqsZ99GVPj5kJ-LyMF1cRUE_-NsSetAbc6ADM
+    short-id: 'cf5bb241f8a84897'
+  server: 80.253.249.197
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c69c296-3786-40d3-b6b6-3734e69e02d3
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-direct
+  name: 🇩🇪 机场推荐:dafei.de 德国 08
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
+    short-id: '5b9dc5fe4ad87cc2'
+  server: 89.208.231.82
+  servername: hh.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42d3cfb6-8a1d-11f1-9ca5-1e6febe3e1df
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 机场推荐:dafei.de 德国 09
+  network: ws
+  port: 443
+  server: cd3.postshup.ir
+  servername: ptr.cyberbear.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3fc2dd40-78f1-40ed-8276-936d9dcd248f
+  ws-opts:
+    headers:
+      Host: ptr.cyberbear.io
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /CMlsadnCISdss
+  xudp: true
+- name: 'US_speednode_0140 #1'
+  port: 9002
+  server: 138.199.35.198
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0135 #1'
+  port: 9002
+  server: 138.199.35.202
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0145 #1'
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_1|1.5MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: 'US_speednode_0141 #1'
+  port: 9002
+  server: 138.199.35.200
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0148 #1'
+  port: 9002
+  server: 138.199.35.204
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0129 #1'
+  port: 9002
+  server: 138.199.35.208
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0139 #1'
+  port: 9002
+  server: 138.199.35.218
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0142 #1'
+  port: 9002
+  server: 138.199.35.205
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0136 #1'
+  port: 9002
+  server: 138.199.35.213
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0143 #1'
+  port: 9002
+  server: 138.199.35.207
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0147 #1'
+  port: 9002
+  server: 138.199.35.216
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0131 #1'
+  port: 9002
+  server: 138.199.35.215
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸 机场推荐:dafei.de 美国 14
+  port: 9002
+  server: 138.199.35.211
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+- name: 🇺🇸 机场推荐:dafei.de 美国 15
+  port: 9002
+  server: 138.199.35.197
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+- name: 'US_speednode_0138 #1'
+  port: 9002
+  server: 138.199.35.212
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸 机场推荐:dafei.de 美国 17
+  port: 9002
+  server: 138.199.35.220
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+- name: 'US_speednode_0144 #1'
+  port: 9002
+  server: 138.199.35.217
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0149 #1'
+  port: 9002
+  server: 138.199.35.209
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0137 #1'
+  port: 9002
+  server: 138.199.35.206
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0133 #1'
+  port: 9002
+  server: 138.199.35.214
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0120 #1'
+  port: 9002
+  server: 138.199.35.196
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸 机场推荐:dafei.de 美国 23
+  network: ws
+  port: 443
+  server: 104.18.16.56
+  servername: l-j--vMiTiVPN---MiTiVPN-pp-o.KingCloud-1.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
+  ws-opts:
+    headers:
+      Host: l-j-v-MiTiVPN---MiTiVPN-oo.KingCloud-1.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL
+  xudp: true
+- name: 'US_speednode_0134 #1'
+  port: 9002
+  server: 138.199.35.210
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0157 #1'
+  port: 9002
+  server: 156.146.59.25
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'US_speednode_0159 #1'
+  port: 9002
+  server: 156.146.59.21
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸_美国_30
+  network: tcp
+  port: 1080
+  reality-opts:
+    public-key: kSR18CNj6e3pYOGXrUJWYHyYHyrc9imttzMwYus0PkU
+    short-id: '020ec8fa5086ffc4'
+  server: out.metalinken.shop
+  servername: www.samsung.com:443
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: vless
+  udp: true
+  uuid: 677ecfdc-3e25-4abc-89d2-5f7f3b92c680
+  xudp: true
+- name: 'US_speednode_0130 #1'
+  port: 9002
+  server: 138.199.35.199
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸 机场推荐:dafei.de 美国 29
+  port: 9002
+  server: 138.199.35.195
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  name: 🇺🇸 机场推荐:dafei.de 美国 30
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+  server: pro-se.emrata.top
+  servername: pro-se.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 72b9b9bd-8cb9-49ed-bfd4-20fab16829ba
+- name: 'NL_speednode_0018 #1'
+  port: 9002
+  server: 84.17.47.148
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 'NL_speednode_0017 #1'
+  port: 9002
+  server: 84.17.47.150
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+- name: 🇳🇱 机场推荐:dafei.de 荷兰 03
+  port: 9002
+  server: 84.17.47.125
+  sin: https://t.me/WangCai2🇨🇳
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+- name: 'NL_speednode_0019 #1'
+  password: ''
+  port: 9002
+  server: 84.17.47.146
+  skip-cert-verify: true
+  sub_tag: noCache
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇦🇪_阿拉伯联合酋长国_6
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: 'd67ec5a8fc40ebea'
+  server: test.skorostnet.space
+  servername: test.skorostnet.space
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- name: 🇷🇴 机场推荐:dafei.de 罗马尼亚 01
+  port: 9002
+  server: 193.176.84.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴 机场推荐:dafei.de 罗马尼亚 02
+  port: 9002
+  server: 193.176.84.35
+  skip-cert-verify: true
+  sni: www.bing.com
+  sub_tag: noCache
+  tls: true
+  type: http
+- name: 'RO_speednode_0103 #1'
+  port: 9002
+  server: 193.176.84.23
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 'RO_speednode_0104 #1'
+  port: 9002
+  server: 193.176.84.37
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴 机场推荐:dafei.de 罗马尼亚 05
+  port: 9002
+  server: 193.176.84.31
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 'RO_speednode_0065 #1'
+  port: 9002
+  server: 193.176.84.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴 机场推荐:dafei.de 罗马尼亚 07
+  port: 9002
+  server: 193.176.84.25
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 'RO_speednode_0088 #1'
+  port: 9002
+  server: 193.176.84.26
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+  udp: true
+- name: 🇷🇴 机场推荐:dafei.de 罗马尼亚 09
+  port: 9002
+  server: 193.176.84.21
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: true
+  type: http
+- name: 🇷🇴 机场推荐:dafei.de 罗马尼亚 10
+  port: 9002
+  server: 193.176.84.39
+  skip-cert-verify: true
+  sni: www.bing.com
+  sub_tag: noCache
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: 🇺🇸US-157.254.38.210-0132 | 3.3...
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 'AU_speednode_0002 #1'
+  port: 443
+  server: 103.62.50.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US-157.254.38.210-0135 | 1.6...
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20129
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+- cipher: aes-256-cfb
+  name: se|599b|puddincat07@Telegram
+  password: amazonskr05
+  port: 443
+  server: 13.53.198.63
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷 机场推荐:dafei.de 法国 01
+  network: ws
+  port: 443
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c61a2a5-c7e4-4d52-baf7-a9406ad89b4c
+  ws-opts:
+    headers:
+      Host: ov186.ochmaybrooooo.online
+    path: /
+- client-fingerprint: chrome
+  name: 美国/United States-5
+  network: ws
+  port: 443
+  server: fast.cd-tur4.ir
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f5576b8c-57b3-40cd-9c09-dba9f3106435
+  ws-opts:
+    headers:
+      Host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇺🇸_US_美国->🇩🇪_DE_德国 #3'
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 151.101.56.7
+  servername: BankMelat.glObal.ssl.faStly.nEt.
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇫🇮 机场推荐:dafei.de 芬兰 03
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  udp: true
+  uuid: 047e406a-d7c8-4f5b-a86b-ad009eab80ce
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: /ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+- client-fingerprint: chrome
+  name: 美国 1058
+  network: ws
+  port: 80
+  server: naseza.tarfiq.ir
+  servername: teranko.global.ssl.fastly.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1fe455ab-ef5a-4e51-9015-709f8f019aaf
+  ws-opts:
+    headers:
+      Host: teranko.global.ssl.fastly.net
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: TunService
+  name: '🇫🇮_FI_芬兰->🇹🇷_TR_土耳其 #2'
+  network: grpc
+  packet-encoding: xudp
+  port: 8443
+  reality-opts:
+    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
+  server: 170.168.97.3
+  servername: download.nvidia.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
+  xudp: true
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 🇨🇦 机场推荐:dafei.de 加拿大 01
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: taga8.api3-max.ru
+  skip-cert-verify: true
+  sni: taga8.api3-max.ru
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 机场推荐:dafei.de 香港 01
+  network: tcp
+  port: 793
+  reality-opts:
+    public-key: dhwO3fomENJoBQO-T4NPxmTDgTOsUsTpG3NsaJdxsWw
+    short-id: 'bf92e87fff488bd3'
+  server: hk03.ccdn3.work
+  servername: i1.hdslb.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
+  xudp: true
+- name: 🇬🇧 机场推荐:dafei.de 英国 01
+  password: ''
+  port: 1080
+  server: 31.76.80.215
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- client-fingerprint: random
+  name: 🇨🇳 机场推荐:dafei.de 台湾 01
+  network: ws
+  port: 8443
+  server: 162.159.45.24
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: learn00.evany.de5.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    max-early-data: 2560
+    path: /fdip=tw.william.us.ci!txt
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇷🇺 机场推荐:dafei.de 俄罗斯 01
+  network: ws
+  port: 443
+  server: 159.194.201.32.fwqfw783rg2dad.website
+  servername: 159.194.201.32.fwqfw783rg2dad.website
+  sub_tag: noCache
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f728ce3-766d-432a-ac2f-0e7e74e975be
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 159.194.201.32.fwqfw783rg2dad.website
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    max-early-data: 2560
+    path: /websocket
+  xudp: true
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: neurex
+  name: 🇵🇱 机场推荐:dafei.de 波兰 01
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '10ffb85da1c2d986'
+  server: 152.233.43.85
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d200c8f0-070b-4c1c-bbf9-1d4663d379ca
 - alterId: 0
   cipher: auto
   name: '🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefine... #2'
@@ -1030,20 +2032,6 @@ proxies:
   type: vless
   udp: true
   uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇦🇪_阿拉伯联合酋长国_6
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: 'd67ec5a8fc40ebea'
-  server: test.skorostnet.space
-  servername: test.skorostnet.space
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - alterId: 0
   name: 🇭🇰HK香港3
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -1325,19 +2313,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸_美国_30
-  port: 1080
-  reality-opts:
-    public-key: kSR18CNj6e3pYOGXrUJWYHyYHyrc9imttzMwYus0PkU
-    short-id: '020ec8fa5086ffc4'
-  server: out.metalinken.shop
-  servername: www.samsung.com:443
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 677ecfdc-3e25-4abc-89d2-5f7f3b92c680
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇵🇱_波兰_31
@@ -1539,7 +2514,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '🇭🇰_HK_中国香港->🇯🇵_JP_日本 #1'
+- name: '🇭🇰_HK_中国香港->🇯🇵_JP_日本 #2'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
@@ -1549,7 +2524,7 @@ proxies:
   type: trojan
   udp: true
 - encryption: none
-  name: '🇨🇿_CZ_捷克 #1'
+  name: '🇨🇿_CZ_捷克 #2'
   network: tcp
   packet-encoding: xudp
   port: 20342
@@ -1561,15 +2536,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
-- name: 🇺🇸US-157.254.38.210-0132 | 3.3...
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇺🇸_美国_68
@@ -1696,7 +2662,7 @@ proxies:
   udp: true
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
 - encryption: none
-  name: '🇺🇸_US_美国 #2'
+  name: '🇺🇸_US_美国 #4'
   network: tcp
   packet-encoding: xudp
   port: 10000
@@ -1782,7 +2748,7 @@ proxies:
   uuid: 34eaf2f3-894f-472e-a36c-0e08a30f0829
 - alterId: 2
   cipher: auto
-  name: '🇭🇰_HK_中国香港_1 #1'
+  name: '🇭🇰_HK_中国香港_1 #3'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: true
@@ -1842,7 +2808,7 @@ proxies:
       Host: forfreeuse.sub-flow.online
     path: /
 - client-fingerprint: chrome
-  name: '🇺🇸_US_美国->🇫🇮_FI_芬兰 #1'
+  name: '🇺🇸_US_美国->🇫🇮_FI_芬兰 #2'
   network: ws
   port: 443
   server: fast.cd-tur4.ir
@@ -2137,21 +3103,6 @@ proxies:
     headers:
       Host: d3gxy6d0a9fs18.cloudfront.net
     path: /fnetvpn2026
-- name: 美国 1058
-  network: ws
-  port: 80
-  server: naseza.tarfiq.ir
-  servername: teranko.global.ssl.fastly.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1fe455ab-ef5a-4e51-9015-709f8f019aaf
-  ws-opts:
-    headers:
-      Host: teranko.global.ssl.fastly.net
-    path: /
 - client-fingerprint: chrome
   name: 🇫🇮_芬兰_122
   network: ws
@@ -5439,22 +6390,6 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt
     path: /?Telegram-WangCai2🇨🇳
-- encryption: none
-  name: '🇺🇸_US_美国->🇩🇪_DE_德国 #2'
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 151.101.56.7
-  servername: BankMelat.glObal.ssl.faStly.nEt.
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: c9380ef8-23f8-422e-81fe-ebbb032202cf
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
 - name: 🇫🇷_法国_366
   network: ws
   port: 80
@@ -6260,17 +7195,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇭🇰_HK_中国香港 #1'
-  network: ws
-  port: 443
-  server: n1747624260.4u9ma.icu
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-- alterId: 0
-  cipher: auto
   name: '防范境外势力渗透 #10'
   network: tcp
   port: '80'
@@ -6359,6 +7283,81 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 2
+  cipher: auto
+  name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #3'
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '🇬🇧_GB_英国->🇩🇪_DE_德国 #2'
+  port: 2551
+  server: 78.154.108.200
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
+- name: '🇬🇧_GB_英国 #2'
+  port: 1446
+  server: 78.154.108.51
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-111111111111
+- alterId: 0
+  name: 🇮🇳IN印度2
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20120
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇷🇺_RU_俄罗斯 #3'
+  port: 443
+  reality-opts:
+    public-key: KgKu2yHqldNUFnYCY7suz-YTQKi6ZX2mLBduS2yy1xs
+  server: 188.225.46.217
+  servername: api-maps.yandex.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- name: '🇭🇰_HK_中国香港->🇹🇭_TH_泰国 #2'
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20023
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
+- name: 'US_speednode_0122 #1'
+  port: 2553
+  server: 195.21.129.117
+  servername: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸_US_美国_2 #3'
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 193.42.38.209
+  skip-cert-verify: true
+  type: ss
+  udp: true
 - name: 香港_1
   network: ws
   port: 443
@@ -7096,16 +8095,6 @@ proxies:
     headers:
       Host: s28233.cdn.ngenix.net
     path: /
-- alterId: 2
-  cipher: auto
-  name: 美国(yudou789.top 玉豆免费节点)_3
-  port: 30824
-  server: v24.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国(yudou789.top 玉豆免费节点)_4
   network: ws
   port: 2087
@@ -7195,16 +8184,6 @@ proxies:
     headers:
       Host: blackshadow.dpdns.org
     path: /195.123.218.174-443
-- alterId: 2
-  cipher: auto
-  name: 美国(yudou789.top 玉豆免费节点)_13
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国(yudou789.top 玉豆免费节点)_14
   password: humanity
   port: 443
@@ -7380,16 +8359,6 @@ proxies:
     headers:
       Host: vms.lifetime03.workers.dev
     path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- alterId: 2
-  cipher: auto
-  name: '🇨🇳_CN_中国->🇮🇪_IE_爱尔兰 #1'
-  port: 30804
-  server: v4.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国(yudou789.top 玉豆免费节点)_55
   network: ws
   port: 2053
@@ -7482,16 +8451,6 @@ proxies:
     headers:
       Host: vms.lifetime15.workers.dev
     path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
-- alterId: 2
-  cipher: auto
-  name: China_Chengdu_vmess_1127
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   name: 🇭🇰HK香港2
   network: tcp
@@ -7741,13 +8700,6 @@ proxies:
   password: zyqB77GsJ0CZnRBiWvF6buPpynCXXHQY6QDPrDNIwXU=
   port: 19964
   server: n4.cover20.ir
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: se|599b|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 13.53.198.63
   type: ss
   udp: true
 - name: xx|6cf2|puddincat07@Telegram
@@ -39319,18 +40271,6 @@ proxies:
   server: fj260203.freechatup.com
   type: vmess
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- name: 美国/United States-5
-  network: ws
-  port: 443
-  server: fast.cd-tur4.ir
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  uuid: f5576b8c-57b3-40cd-9c09-dba9f3106435
-  ws-opts:
-    headers:
-      Host: pan1.global.ssl.fastly.net
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-3
@@ -39346,14 +40286,6 @@ proxies:
     headers:
       Host: cE0gedPXwOU6cqoN.v.3dns.vip
     path: /ws-vmess
-- name: '🇬🇧_GB_英国 #1'
-  port: 1446
-  server: 78.154.108.51
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: d8b42cd5-a149-4356-9e61-111111111111
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-4
@@ -39602,14 +40534,6 @@ proxies:
   skip-cert-verify: false
   sni: 163.245.196.68.sslip.io
   type: trojan
-- name: '🇬🇧_GB_英国->🇩🇪_DE_德国 #1'
-  port: 2551
-  server: 78.154.108.200
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
 - name: '美国/San Francisco/United States... #13'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
@@ -39642,23 +40566,6 @@ proxies:
   tls: true
   type: vless
   uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: TunService
-  name: '🇫🇮_FI_芬兰->🇹🇷_TR_土耳其 #1'
-  network: grpc
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs
-  server: 170.168.97.3
-  servername: download.nvidia.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong-8
@@ -40726,75 +41633,6 @@ proxies:
   skip-cert-verify: true
   sni: ajax.microsoft.com
   type: hysteria2
-- alterId: 2
-  cipher: auto
-  name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #2'
-  port: 30835
-  server: v35.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  name: 🇮🇳IN印度2
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20120
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇷🇺_RU_俄罗斯 #1'
-  port: 443
-  reality-opts:
-    public-key: KgKu2yHqldNUFnYCY7suz-YTQKi6ZX2mLBduS2yy1xs
-  server: 188.225.46.217
-  servername: api-maps.yandex.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- name: '🇭🇰_HK_中国香港->🇹🇭_TH_泰国 #1'
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20023
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: false
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸_US_美国_1 #2'
-  port: 443
-  server: guanwang.awsno.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-- name: 'US_speednode_0122 #1'
-  port: 2553
-  server: 195.21.129.117
-  servername: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d8b42cd5-a149-4356-9e61-000000000000
-- cipher: chacha20-ietf-poly1305
-  name: '🇺🇸_US_美国_2 #2'
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 193.42.38.209
-  skip-cert-verify: true
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇨🇦_CA_加拿大
@@ -40831,7 +41669,7 @@ proxies:
     path: /path/1696251522438
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_1 #1'
+  name: '🇺🇸_US_美国_1 #2'
   network: ws
   port: 2082
   server: 206.168.190.219
@@ -40871,7 +41709,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  name: '🇺🇸_US_美国->🇩🇪_DE_德国 #2'
   network: ws
   port: 80
   server: flkf2.shabijichang.com
@@ -40913,7 +41751,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_2 #1'
+  name: '🇺🇸_US_美国_2 #2'
   network: ws
   port: 80
   server: wnd2.shabijichang.com
@@ -40926,7 +41764,7 @@ proxies:
       host: wnd2.shabijichang.com
     path: /
 - cipher: aes-256-cfb
-  name: 🇫🇷_FR_法国
+  name: '🇫🇷_FR_法国 #1'
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.54.209
@@ -41495,13 +42333,6 @@ proxies:
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   ws-opts:
     path: /
-- name: 🇺🇸US-157.254.38.210-0135 | 1.6...
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20129
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
 - cipher: aes-256-cfb
   name: 🇰🇷KR-221.139.79.57-0127 | 1.36...
   password: qwerREWQ@@
@@ -41885,13 +42716,6 @@ proxies:
   server: brave-cattle.rooster465.autos
   skip-cert-verify: false
   sni: brave-cattle.rooster465.autos
-  type: trojan
-- name: 🇸🇬SG-81.28.13.126-0170 | 0.0MB
-  password: FC60532879
-  port: 443
-  server: resolved-gelding.rooster465.autos
-  skip-cert-verify: false
-  sni: resolved-gelding.rooster465.autos
   type: trojan
 - name: 🇸🇬SG-45.135.228.220-0171 | 0.0...
   password: IQ68037294
@@ -42788,14 +43612,6 @@ proxies:
   type: vless
   udp: true
   uuid: 806b803b-7dad-4f13-b525-f3b1ab50e44e
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_1|1.5MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
 - cipher: aes-256-gcm
   name: 🇨🇦 CA 744 | ⬇️ 128KB/s
   password: 2803361d6c196af8
@@ -43317,23 +44133,6 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇹🇷 TR 258 | ⬇️ 151KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: 'c6ef72e4635d15a5'
-  server: 45.196.201.105
-  servername: storage.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
@@ -43975,21 +44774,6 @@ proxies:
   xhttp-opts:
     mode: auto
     path: /
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪 DE 710 | ⬇️ 3MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  sub-tag: R002-260618
-  type: hysteria
-  udp: 'true'
-  up: '500'
 - ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
@@ -44631,15 +45415,6 @@ proxies:
     mode: auto
     path: /v2ray
     x-padding-bytes: 100-1000
-- name: '🇩🇪DE_4|1.9MB/s #1'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: '🇭🇰HK_6|3.1MB/s #1'
   password: BxceQaOe
@@ -44669,7 +45444,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #1'
   network: ws
   port: 30836
   server: v36.heduian.link
@@ -44768,7 +45543,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #1'
+  name: '🇨🇳_CN_中国->🇫🇷_FR_法国 #2'
   network: tcp
   port: 17235
   server: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
@@ -44830,7 +45605,7 @@ proxies:
       host: baidu.com
     path: /oooo
 - cipher: chacha20-ietf-poly1305
-  name: '🇺🇸_US_美国 #1'
+  name: '🇺🇸_US_美国 #3'
   password: DLW8QqdfAvfUHSeucMIF4E
   port: 2636
   server: 45.8.98.163
@@ -46535,13 +47310,6 @@ proxies:
     host: us2.denverpresents.top
     mode: auto
     path: /assets/build/_app/immutable/chunks/stream-one/
-- name: 'NL_speednode_0019 #1'
-  port: 9002
-  server: 84.17.47.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - down: ''
   fingerprint: ''
   name: 🇺🇸US_3|2.1MB/s
@@ -48335,13 +49103,6 @@ proxies:
   type: vless
   udp: true
   uuid: 9cddcc01-3dfb-46e0-85d8-e3c6818232cf
-- name: 'AU_speednode_0002 #1'
-  port: 443
-  server: 103.62.50.130
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 'GB_speednode_0007 #1'
@@ -48357,20 +49118,6 @@ proxies:
   type: vless
   udp: true
   uuid: 30702f28-0a64-4f96-bd8f-cc601ca87e4d
-- name: 'NL_speednode_0017 #1'
-  port: 9002
-  server: 84.17.47.150
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'NL_speednode_0018 #1'
-  port: 9002
-  server: 84.17.47.148
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 'RO_speednode_0021 #1'
   port: 9002
   server: 84.239.49.220
@@ -48679,13 +49426,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 'RO_speednode_0065 #1'
-  port: 9002
-  server: 193.176.84.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 'RO_speednode_0066 #1'
   port: 9002
   server: 84.239.49.55
@@ -48840,13 +49580,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 'RO_speednode_0088 #1'
-  port: 9002
-  server: 193.176.84.26
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 'RO_speednode_0089 #1'
   port: 9002
   server: 193.176.84.17
@@ -48941,20 +49674,6 @@ proxies:
 - name: 'RO_speednode_0102 #1'
   port: 9002
   server: 84.239.49.40
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'RO_speednode_0103 #1'
-  port: 9002
-  server: 193.176.84.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'RO_speednode_0104 #1'
-  port: 9002
-  server: 193.176.84.37
   skip-cert-verify: true
   tls: true
   type: http
@@ -49099,13 +49818,6 @@ proxies:
   type: vless
   udp: true
   uuid: b9b1e7c9-4160-49b4-85a4-2f096706509a
-- name: 'US_speednode_0120 #1'
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 'US_speednode_0121 #1'
   network: ws
   port: 80
@@ -49150,27 +49862,6 @@ proxies:
     headers:
       Host: ezaccess1-slv-ezaccess1-1077.up.railway.app
     path: /ws/vless/Kiyan?ed=2048
-- name: 'US_speednode_0129 #1'
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0130 #1'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0131 #1'
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - alpn:
   - http/1.1
   client-fingerprint: ios
@@ -49188,97 +49879,6 @@ proxies:
     headers:
       Host: rvg-production-accb.up.railway.app
     path: /ws/cb7c2c3e-4323-c0bf-15d1-c7e5d93f6544
-- name: 'US_speednode_0133 #1'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0134 #1'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0135 #1'
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0136 #1'
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0137 #1'
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0138 #1'
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0139 #1'
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0140 #1'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0141 #1'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0142 #1'
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0143 #1'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0144 #1'
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0145 #1'
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 'US_speednode_0146 #1'
   network: ws
   packet-encoding: xudp
@@ -49294,27 +49894,6 @@ proxies:
     headers:
       Host: telegram4.freepersianland8.workers.dev
     path: /eyJqdW5rIjoiOW56N0hTRm9IS252IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
-- name: 'US_speednode_0147 #1'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0148 #1'
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0149 #1'
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 'US_speednode_0150 #1'
   port: 9002
   server: 156.146.59.43
@@ -49357,23 +49936,9 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 'US_speednode_0157 #1'
-  port: 9002
-  server: 156.146.59.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: 'US_speednode_0158 #1'
   port: 9002
   server: 156.146.59.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 'US_speednode_0159 #1'
-  port: 9002
-  server: 156.146.59.21
   skip-cert-verify: true
   tls: true
   type: http

@@ -1,4 +1,34 @@
 proxies:
+- name: 🇷🇺_RU_俄罗斯
+  port: 29311
+  server: 46.29.163.32
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: dee59997-f3f0-4dc5-bb26-ae24ae63ec5a
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: 🇷🇺 机场推荐:dafei.de 俄罗斯 01
+  network: ws
+  port: 443
+  server: 159.194.201.32.fwqfw783rg2dad.website
+  servername: 159.194.201.32.fwqfw783rg2dad.website
+  sub_tag: noCache
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f728ce3-766d-432a-ac2f-0e7e74e975be
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: 159.194.201.32.fwqfw783rg2dad.website
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    max-early-data: 2560
+    path: /websocket
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '🇷🇺_RU_俄罗斯_7 - undefinedms #1'
@@ -165,6 +195,19 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: /pyip=Telegram-WangCai2🇨🇳
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇷🇺_RU_俄罗斯 #3'
+  port: 443
+  reality-opts:
+    public-key: KgKu2yHqldNUFnYCY7suz-YTQKi6ZX2mLBduS2yy1xs
+  server: 188.225.46.217
+  servername: api-maps.yandex.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
 - flow: xtls-rprx-vision
   name: 🇸🇪SE_1|⬇️2.7MB/s
   network: tcp
@@ -1010,19 +1053,6 @@ proxies:
   tls: true
   type: vless
   uuid: d6dc1358-1bb5-4a9d-92fd-3e255567e3fc
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇷🇺_RU_俄罗斯 #1'
-  port: 443
-  reality-opts:
-    public-key: KgKu2yHqldNUFnYCY7suz-YTQKi6ZX2mLBduS2yy1xs
-  server: 188.225.46.217
-  servername: api-maps.yandex.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
