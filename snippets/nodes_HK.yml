@@ -27,22 +27,20 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 'Node #93'
-  network: tcp
+  name: 🇭🇰HK香港2
   password: 65fQmPHHbPcBCfvSHt
   port: 443
   server: au-4.tr202605.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  name: 'Node #110'
-  network: tcp
+  name: 🇭🇰HK香港4
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
   server: 18.162.155.166
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   tls: true
   type: trojan
@@ -190,14 +188,7 @@ proxies:
     headers:
       Host: 7timuei1uufoixbf.v.3dns.vip
     path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: '香港4|@ripaojiedian #1'
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -205,7 +196,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '香港5|@ripaojiedian #1'
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -235,7 +226,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '新加坡3|@ripaojiedian #1'
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 32434
@@ -303,12 +294,11 @@ proxies:
     headers:
       Host: EX1oGt73NzPQKAc2.v.3dns.vip
     path: /ws-vmess
-- name: 🇸🇬SG_30
-  network: tcp
+- name: 🇭🇰HK-18.163.180.201-0100 | 34....
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 18.163.180.201
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - alterId: 0
@@ -645,23 +635,3 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 香港 20
-  password: W4wHhN9YQntY
-  port: 8388
-  server: 212.192.15.143
-  type: ss
-- cipher: chacha20-ietf
-  name: 香港 16
-  password: asd123456
-  port: 8388
-  server: 103.149.183.113
-  type: ss
-- name: 香港 02
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 119.246.1.143
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
