@@ -186,13 +186,13 @@ proxies:
   ws-opts:
     path: /wsproxy
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-211.178.105.134-0141 | 0....
+  name: 🇰🇷KR-211.178.105.134-0141 | 3....
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-221.139.79.57-0127 | 0.06...
+  name: 🇰🇷KR-221.139.79.57-0127 | 1.36...
   password: qwerREWQ@@
   port: 13979
   server: 221.139.79.57

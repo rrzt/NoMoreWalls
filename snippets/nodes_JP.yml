@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - undefine...
+  name: '🇯🇵_JP_日本->🇸🇬_SG_新加坡 - undefine... #1'
   network: tcp
   port: 30845
   server: v45.hdacd.com
@@ -534,7 +534,7 @@ proxies:
     path: /liksuzcp
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP-45.76.202.45-0080 | 0.0MB
+  name: 🇯🇵JP-45.76.202.45-0080 | 0.02M...
   network: ws
   port: 4010
   server: 45.76.202.45
@@ -545,19 +545,19 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-128-gcm
-  name: 🇯🇵JP-149.22.87.240-0103 | 23.9...
+  name: 🇯🇵JP-149.22.87.240-0103 | 76.4...
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
 - cipher: aes-128-gcm
-  name: 🇯🇵JP-149.22.87.204-0102 | 23.4...
+  name: 🇯🇵JP-149.22.87.204-0102 | 69.5...
   password: shadowsocks
   port: 443
   server: 149.22.87.204
   type: ss
 - cipher: aes-128-gcm
-  name: 🇯🇵JP-149.22.87.241-0109 | 23.3...
+  name: 🇯🇵JP-149.22.87.241-0109 | 69.1...
   password: shadowsocks
   port: 443
   server: 149.22.87.241

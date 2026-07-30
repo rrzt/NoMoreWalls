@@ -13,19 +13,19 @@ proxies:
   sni: https://t.me/oneclickvpnkeys
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-61.231.49.100-0116 | 5.50...
+  name: 🇨🇳TW-61.231.49.100-0116 | 17.7...
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg00129437x.cybervena.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-61.231.49.122-0236 | 4.96...
+  name: 🇨🇳TW-61.231.49.122-0236 | 17.5...
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001287h3p.cybervena.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳TW-61.231.49.177-0114 | 0.0M...
+  name: 🇨🇳TW-61.231.49.177-0114 | 0.18...
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001286ek2.cybervena.com

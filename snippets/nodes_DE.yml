@@ -17,7 +17,7 @@ proxies:
     path: /@Malinda6104
 - alterId: 0
   cipher: auto
-  name: 俄罗斯 028
+  name: '🇩🇪_德国_137 - undefinedms #1'
   network: ws
   port: 443
   server: jeffptrade.com
@@ -811,8 +811,7 @@ proxies:
   port: 8881
   server: 145.239.1.100
   type: ss
-- client-fingerprint: chrome
-  name: '🇩🇪DE_11|3.3MB/s #1'
+- name: 🇩🇪DE_4|1.9MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: '20041'

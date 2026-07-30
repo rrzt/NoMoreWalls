@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇫🇷_法国_379 - undefinedms
+  name: '🇫🇷_法国_379 - undefinedms #1'
   network: ws
   port: 55009
   server: 2001:bc8:32d7:225::3
@@ -2539,11 +2539,16 @@ proxies:
   server: 0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir
   sni: rd.autos.yahoo.com:443
   type: trojan
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: 🇫🇷FR_1|2.6MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🇮🇷_IR_伊朗->🇫🇷_FR_法国_2 - undefin...
+  network: ws
+  port: 2083
+  server: 193.151.144.26
+  tls: false
+  type: vmess
+  uuid: 7b33bc8f-7014-4814-afb1-1c4d7f25314c
+  ws-opts:
+    headers:
+      Host: tv.filmnet.ir
+    path: /

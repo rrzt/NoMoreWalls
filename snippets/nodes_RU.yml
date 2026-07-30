@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇷🇺_RU_俄罗斯_7 - undefinedms
+  name: '🇷🇺_RU_俄罗斯_7 - undefinedms #1'
   network: ws
   port: 19634
   server: 46.29.161.15
@@ -93,16 +93,6 @@ proxies:
   server: full-ox.rooster465.autos
   skip-cert-verify: false
   sni: full-ox.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 俄罗斯 008
-  network: tcp
-  password: PD07395842
-  port: 443
-  server: magical-kodiak.rooster465.autos
-  skip-cert-verify: false
-  sni: magical-kodiak.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -573,7 +563,7 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: aes-256-gcm
-  name: 🇷🇺RU-185.22.154.103-0139 | 8.6...
+  name: 🇷🇺RU-185.22.154.103-0139 | 18....
   password: cfe685726eea2c4b
   port: 10921
   server: 185.22.154.103
