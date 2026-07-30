@@ -21,6 +21,38 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
+- name: 🇸🇬SG_4|⬇️5.1MB/s
+  network: ws
+  password: a9570330-769d-11ef-90dc-1577c1651679
+  port: 443
+  server: 104.18.1.196
+  skip-cert-verify: true
+  sni: sg-trojan.andfree.my.id
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /welcome
+- name: 🇸🇬 新加坡|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4674
+  server: 52.194.222.108
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡2|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4674
+  server: 43.207.115.26
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇸🇬 新加坡3|@stairnode
+  password: BxceQaOe
+  port: 25675
+  server: 16.162.119.43
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 🇸🇬SG-167.150.100.133-0134 | 0....
   password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
   port: 450
@@ -40,7 +72,7 @@ proxies:
   server: pleased-sawfly.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- name: 未知 TROJAN-178
+- name: 🇸🇬SG-81.28.13.103-0164 | 0.0MB
   password: FC60532879
   port: 443
   server: faithful-panther.rooster465.autos
@@ -54,7 +86,7 @@ proxies:
   skip-cert-verify: false
   sni: fair-reptile.rooster465.autos
   type: trojan
-- name: 未知 TROJAN-180
+- name: 🇸🇬SG-45.135.228.59-0166 | 0.0M...
   password: FC60532879
   port: 443
   server: true-alpaca.rooster465.autos
@@ -67,14 +99,14 @@ proxies:
   server: casual-stallion.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- name: 未知 TROJAN-183
+- name: 🇸🇬SG-91.243.81.178-0169 | 0.0M...
   password: IQ68037294
   port: 443
   server: brave-cattle.rooster465.autos
   skip-cert-verify: false
   sni: brave-cattle.rooster465.autos
   type: trojan
-- name: '未知 TROJAN-189 #1'
+- name: 🇸🇬SG-45.135.228.220-0171 | 0.0...
   password: IQ68037294
   port: 443
   server: neat-duck.rooster465.autos
@@ -87,7 +119,7 @@ proxies:
   server: endless-kiwi.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- name: '未知 TROJAN-191 #1'
+- name: 🇸🇬SG-81.28.13.225-0175 | 0.0MB
   password: IQ68037294
   port: 443
   server: open-eel.rooster465.autos
@@ -106,14 +138,14 @@ proxies:
   server: glowing-deer.rooster465.autos
   skip-cert-verify: false
   type: trojan
-- name: '未知 TROJAN-195 #1'
+- name: 🇸🇬SG-91.243.81.192-0178 | 0.0M...
   password: IQ68037294
   port: 443
   server: sterling-fowl.rooster465.autos
   skip-cert-verify: false
   sni: sterling-fowl.rooster465.autos
   type: trojan
-- name: 未知 TROJAN-175
+- name: 🇸🇬SG-45.135.228.9-0179 | 0.0MB
   password: FC60532879
   port: 443
   server: actual-chicken.rooster465.autos
@@ -221,39 +253,35 @@ proxies:
   server: 3.36.96.166
   tfo: false
   type: ss
-- alterId: 0
-  name: 🇸🇬SG新加坡
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 57.183.19.130
+- name: 🇸🇬SG_16
+  network: tcp
+  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
+  port: 50573
+  server: 139.59.238.97
   skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
+  sni: 139.59.238.97
   type: trojan
-  udp: true
-- alterId: 0
-  name: 🇸🇬SG新加坡2
-  password: BxceQaOe
-  port: 45744
-  server: 18.166.236.71
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 🇸🇬SG新加坡3
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 16.162.55.106
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
 - name: 新加坡_3
   password: '!!str 521314'
   port: 443
   server: 116.251.217.65
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇸🇬SG²_1
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.16
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇸🇬SG_29
+  password: AokfsS9OVVxH
+  port: 8388
+  server: 192.124.176.146
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇸🇬SG_9
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 103.106.229.69
+  type: ss

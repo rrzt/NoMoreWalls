@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  name: 🇯🇵JP日本2
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  port: 44184
+  server: v2jp.k1.ssnss.live
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
 - name: JP日本(mibei77.com 米贝节点分享)_2
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
@@ -7,7 +16,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'JP日本(mibei77.com 米贝节点分享)_3 #4'
+- name: 'JP日本 #3'
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20129
   server: hkdcrtc-e.catcat321.com
@@ -15,7 +25,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '印度(mibei77.com 米贝节点分享)_2 #4'
+- name: 'JP日本 #2'
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20035
   server: oplosgru-c.catcat321.com
@@ -55,7 +66,8 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: 'Node #94'
+- alterId: 0
+  name: 'Node #70'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -65,7 +77,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'Node #99'
+- alterId: 0
+  name: 'Node #119'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -75,7 +88,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'Node #86'
+- alterId: 0
+  name: 'Node #90'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -85,7 +99,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'Node #34'
+- alterId: 0
+  name: 'Node #147'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -95,7 +110,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'Node #26'
+- alterId: 0
+  name: 'Node #116'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -137,34 +153,56 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 'JP_speednode_0015 #2'
+- name: 🇯🇵 日本|@stairnode
+  password: BxceQaOe
+  port: 3022
+  server: 52.194.222.108
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇯🇵 日本2|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4937
+  server: 13.231.134.78
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇯🇵 日本3|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 9201
+  server: 43.207.115.26
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  name: 'JP_speednode_0015 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
   server: 18.181.205.36
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tls: true
   type: trojan
   udp: true
-- name: 'JP_speednode_0016 #2'
+- alterId: 0
+  name: 'JP_speednode_0016 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
   server: 18.181.205.36
   skip-cert-verify: false
   sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 🇺🇸US美国
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 49277
-  server: 57.183.19.130
-  skip-cert-verify: true
-  sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
+- name: '🇺🇸 美国2|@ripaojiedian #1'
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 49277
+  server: 57.183.19.130
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 日本/Japan
@@ -202,7 +240,7 @@ proxies:
   server: 149.22.87.204
   type: ss
 - cipher: aes-128-gcm
-  name: 🇯🇵JP-149.22.87.241-0109 | 69.1...
+  name: 🇯🇵JP_6
   password: shadowsocks
   port: 443
   server: 149.22.87.241
@@ -418,35 +456,22 @@ proxies:
   type: vmess
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
 - alterId: 0
-  name: 🇯🇵JP日本
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 38937
-  server: 18.163.111.105
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 🇯🇵JP日本2
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 4099
-  server: 18.167.12.183
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 🇯🇵JP日本3
+  name: 🇯🇵JP日本10
   password: BxceQaOe
-  port: 45691
-  server: 18.163.208.174
+  port: 41421
+  server: 54.46.46.228
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: true
   type: trojan
   udp: true
+- name: 🇯🇵JP_12
+  network: tcp
+  password: tsuchiya
+  port: 443
+  server: 161.34.39.108
+  sni: aa.ccmusic.jp
+  type: trojan
 - name: 日本_3
   password: '!!str 521314'
   port: 2053
