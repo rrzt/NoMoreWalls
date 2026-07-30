@@ -8,8 +8,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE_93
+- name: 🇩🇪DE_93
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -66,19 +65,6 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪_德国_137 - undefinedms #1'
-  network: ws
-  port: 443
-  server: jeffptrade.com
-  tls: true
-  type: vmess
-  uuid: b86f3b55-04dd-532b-3a05-11d9ebd42604
-  ws-opts:
-    headers:
-      Host: jeffptrade.com
-    path: /odixvws
 - cipher: aes-256-gcm
   name: 🇩🇪DE-145.239.1.100-0035 | 0.0M...
   password: kDWvXYZoTBcGkC4

@@ -256,7 +256,7 @@ proxies:
   sni: adjusted-labrador.rooster465.autos
   type: trojan
 - delay: 1527
-  name: 🇰🇷 KR 750 | ⬇️ 526KB/s
+  name: 'KR_speednode_0003 #1'
   password: ''
   port: 1090
   server: 121.169.46.116
@@ -264,7 +264,7 @@ proxies:
   tls: false
   type: socks5
   udp: true
-  username: Og%3D%3D
+  username: T2clM0QlM0Q6
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

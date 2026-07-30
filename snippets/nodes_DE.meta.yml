@@ -1,21 +1,18 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸US_179
+  name: 🇩🇪DE_16
   network: tcp
   port: 443
-  reality-opts:
-    public-key: 4-qE0E0B5ShfnAe0KFM0qRkXJ33rRF39AlHK7MpBzAE
-    short-id: '!!str 4c5a76834671'
-  server: 185.164.111.48
-  servername: www.cloudflare.com
+  server: 185.119.19.105
+  servername: u695099u8adcedd7s8746.gogocs.xyz
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 59eefc04-b831-45cf-8d68-63ca23381171
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
 - client-fingerprint: chrome
-  name: 'DE_speednode_0004 #1'
+  name: '🇩🇪_DE_德国->🇫🇮_FI_芬兰 #2'
   network: ws
   port: 2053
   server: 51.89.23.94
@@ -87,8 +84,7 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-- client-fingerprint: chrome
-  name: 🇩🇪DE_93
+- name: 🇩🇪DE_93
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -458,137 +454,14 @@ proxies:
       Host: ptr.cyberbear.io
     path: /CMlsadnCISdss
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪_德国_137 - undefinedms #1'
-  network: ws
-  port: 443
-  server: jeffptrade.com
-  tls: true
-  type: vmess
-  uuid: b86f3b55-04dd-532b-3a05-11d9ebd42604
-  ws-opts:
-    headers:
-      Host: jeffptrade.com
-    path: /odixvws
-- name: 'US_speednode_0122 #1'
+- name: '🇮🇳_IN_印度->🇩🇪_DE_德国 #1'
   port: 2553
   server: 195.21.129.117
-  servername: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
-- flow: xtls-rprx-vision
-  name: 德國
-  network: tcp
-  port: 443
-  server: fra-0001-xr.packet-drop-society.net
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: ba77276e-9939-4c6c-a73e-90e02b6faf13
-- flow: xtls-rprx-vision
-  name: DEVLESS-60|free-nodes
-  network: tcp
-  port: 350
-  server: iar.blackhoster.com
-  servername: excoino.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 79a48cba-4a44-4a5c-bfa9-64a53379df2c
-- name: 官网520.juanwangjc.top德国免费使用-03
-  network: ws
-  port: 2083
-  server: v3.dabache.top
-  servername: hajames.amirconfigpaanelllll.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c805b05e-339d-40e0-8787-432d97a27345
-  ws-opts:
-    headers:
-      host: hajames.amirconfigpaanelllll.com
-    path: /
-- name: 🇩🇪DE_6|⬇️4.3MB/s
-  network: ws
-  port: 2053
-  server: 172.64.152.23
-  servername: hz.badomzamini.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
-  ws-opts:
-    headers:
-      host: hz.badomzamini.uk
-    path: /latest?ed=2560
-- name: 🇩🇪DE_13|⬇️5.6MB/s
-  network: ws
-  port: 443
-  server: 194.76.18.25
-  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
-  ws-opts:
-    headers:
-      host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-    path: /ws
-- flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|⬇️3.5MB/s
-  network: tcp
-  port: 443
-  server: 178.17.50.111
-  servername: ads.x5.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 36f6f998-029e-48e2-ba30-24e2a8159075
-- name: 🇩🇪DE_5|⬇️4.2MB/s
-  network: tcp
-  port: 443
-  server: 0ru84.tcpdoor.net
-  servername: 0ru84.tcpdoor.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
-- name: 🇩🇪DE_8|⬇️4.8MB/s
-  network: tcp
-  port: 443
-  server: decdn13.suio.me
-  servername: decdn13.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-- name: DEVLESS-42|free-nodes
-  network: ws
-  port: 2052
-  server: nx.cloud1.hosting-ip.zulagaming.icu
-  servername: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1f00970a-14c1-40d0-9c06-43f513975be1
-  ws-opts:
-    headers:
-      host: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
-    path: /
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -603,6 +476,16 @@ proxies:
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: 1Tm8undefinedEG5fl
+  port: 443
+  server: 91.107.178.22
+  skip-cert-verify: true
+  sni: www.refersion.com
+  tls: false
+  type: hysteria2
+- name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪4
+  obfs: salamander
+  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
+  password: 4IGOAN2QIY
   port: 443
   server: 91.107.178.22
   skip-cert-verify: true
@@ -641,18 +524,15 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'CA_speednode_0003 #1'
-  network: tcp
+  name: 德国/Germany-2
   port: 8443
   reality-opts:
     public-key: UZn-GKszDMErkbxDZAMbPmOMBk2nwEc7Av5uhZFMkgI
     short-id: '!!str 7a3f9c2e1b8d4506'
   server: 167.17.182.192
   servername: www.tesla.com
-  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: 9a6ee382-75c3-4cc5-bacd-66494cf99daa
 - name: 🇩🇪DE_82
   network: tcp
@@ -1459,16 +1339,6 @@ proxies:
     headers:
       Host: wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev
     path: /@Marisa_kristi
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_16
-  network: tcp
-  port: 443
-  server: 185.119.19.105
-  servername: u695099u8adcedd7s8746.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
 - client-fingerprint: chrome
   name: 🇩🇪DE_57
   network: ws
