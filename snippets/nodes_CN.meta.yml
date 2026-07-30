@@ -153,20 +153,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 中国 013
-  network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
   name: 中国 014
   network: ws
   port: 65086
@@ -309,20 +295,6 @@ proxies:
     headers:
       Host: download.cloud.189.cn
     path: /
-- alterId: 64
-  cipher: auto
-  name: 中国 025
-  network: ws
-  port: 443
-  server: 103.212.98.234
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59795160.xyz
-    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 中国 026
@@ -1450,22 +1422,6 @@ proxies:
     headers:
       Host: old-violet-a5ce.29-440.workers.dev
     path: /pyip=TelegramU0001F1E8U0001F1F3
-- flow: ''
-  name: 中国 123
-  network: ws
-  port: 8880
-  server: 154.197.121.30
-  servername: vms.lifetime42.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: /
 - name: 中国 124
   network: ws
   port: 8880
