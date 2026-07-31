@@ -30,7 +30,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-842 | free-nodes - 6m...
+  name: '法國節點 #2'
   network: ws
   port: 80
   server: 69.84.182.49

@@ -157,7 +157,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-842 | free-nodes - 6m...
+  name: '法國節點 #2'
   network: ws
   port: 80
   server: 69.84.182.49
@@ -506,7 +506,7 @@ proxies:
 - alpn:
   - h2%2Chttp%2F1.1
   client-fingerprint: qq
-  name: 🇫🇷 FR 383 | ⬇️ 953KB/s
+  name: 🇺🇸US_2|1.3MB/s
   network: xhttp
   port: 443
   server: fr2.ethicsdinnerpave.online
@@ -534,6 +534,26 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: /assignment
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_1|4.0MB/s
+  network: ws
+  port: '443'
+  server: 172.66.174.41
+  servername: pinalo.zenvorix.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 245bb424-b186-4738-8f42-bdbde719d4c9
+  ws-opts:
+    headers:
+      Host: pinalo.zenvorix.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /nova-geo-psiphon-fr
+  xudp: true
 - name: 🇫🇷FR_105
   network: ws
   port: 8880
@@ -697,6 +717,19 @@ proxies:
     headers:
       Host: ez-645eee.ezaccess13e2b2a.workers.dev
     path: /sync
+- client-fingerprint: chrome
+  name: 🇫🇷FR_704
+  network: ws
+  port: 443
+  server: 198.41.208.112
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - name: 🇫🇷FR_1045
   network: ws
   port: 2095
@@ -7064,6 +7097,19 @@ proxies:
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
 - client-fingerprint: chrome
+  name: 🇫🇷FR_746
+  network: ws
+  port: 8443
+  server: 162.159.3.186
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt?ed=2560fp=random
+- client-fingerprint: chrome
   name: 🇫🇷FR_511
   network: ws
   port: 2087
@@ -7150,6 +7196,19 @@ proxies:
     headers:
       Host: icy-breeze-126c.211-eb3.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1185
+  network: ws
+  port: 443
+  server: 188.114.98.66
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - name: 🇫🇷FR_327
   network: ws
   password: humanity
@@ -8268,3 +8327,16 @@ proxies:
     headers:
       Host: node-1156018316-84eadd.silimem566.workers.dev
     path: /
+- client-fingerprint: chrome
+  name: 🇫🇷FR_638
+  network: ws
+  port: 443
+  server: 104.17.149.233
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi

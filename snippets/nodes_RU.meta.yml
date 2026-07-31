@@ -156,7 +156,7 @@ proxies:
     short-id: '!!str 496ee75c2f91f51d'
   server: 201.51.2.248
   servername: ads.x5.ru
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -218,21 +218,6 @@ proxies:
   server: 45.140.169.216
   type: ss
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'BR_speednode_0002 #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
-  server: pro-ru-bridge.emrata.top
-  servername: pro-ru-bridge.emrata.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '🇷🇺_RU_俄罗斯 #4'
@@ -403,6 +388,21 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'BR_speednode_0002 #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
+  server: pro-ru-bridge.emrata.top
+  servername: pro-ru-bridge.emrata.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
 - cipher: aes-256-gcm
   name: RU_speednode_0083
   password: 9f3d1a6d31468599
@@ -438,10 +438,10 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇷🇺 RU 936 | ⬇️ 443KB/s
+  name: 🇷🇺RU_1|1.1MB/s
   network: grpc
   packet-encoding: xudp
-  port: 2053
+  port: '2053'
   reality-opts:
     public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
     short-id: '!!str f0131a4772b494d4'
@@ -452,6 +452,7 @@ proxies:
   type: vless
   udp: true
   uuid: 347e34f2-3211-4e01-b475-409f46788d3f
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: qq

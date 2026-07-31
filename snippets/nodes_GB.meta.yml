@@ -1,14 +1,4 @@
 proxies:
-- name: 'US美国 #33'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
 - name: 印度
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -261,21 +251,6 @@ proxies:
   port: 443
   server: 146.19.49.251
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧 机场推荐:dafei.de 英国 01
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: 31.76.37.2
-  servername: pro-it.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 35a23d16-4117-42e7-8489-a1cedd670374
-  xudp: true
 - name: 🇬🇧GB_86
   network: tcp
   port: 1446
@@ -650,19 +625,6 @@ proxies:
   port: 443
   server: series-a2.varzesh360.co
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 未知 VMESS-972 | free-nodes - 15...
-  network: ws
-  port: 443
-  server: mtckundigepwu3up.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: mTCKUNDiGePwU3uP.v.3dns.vip
-    path: /ws-vmess
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧GB_50
