@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'JP日本(v2clash.blog 2026-7.31更新)... #3'
+  name: 🇫🇷_法国_192
   network: ws
   port: 55009
   server: 2001:bc8:32d7:225::3
@@ -28,21 +28,6 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '未知 VMESS-889 | free-nodes #2'
-  network: ws
-  port: 80
-  server: 69.84.182.49
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 荷兰(yudou789.top 玉豆免费节点)_2
   password: RFK38Cg7APneSB5cWDcpbm
@@ -52,13 +37,402 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: 未知29 13.0KB/s
+  network: tcp
+  port: 27726
+  server: fj260205.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知40
+  network: tcp
+  port: 27726
+  server: fj260304.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知81
+  network: tcp
+  port: 2053
+  server: fr.connfull.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 未知94 28.4KB/s
+  network: tcp
+  port: 27726
+  server: 195.133.193.18
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知96
+  network: tcp
+  port: 27726
+  server: fj260204.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知105 21.2KB/s
+  network: tcp
+  port: 27726
+  server: fj260306.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 法国 007
+  network: ws
+  port: 8080
+  server: 141.11.139.82
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: 法国 008
+  network: ws
+  port: 443
+  server: 91.134.8.88
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: lammaland.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 009
+  network: ws
+  port: 443
+  server: 91.134.8.92
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: yichueng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 010
+  network: ws
+  port: 443
+  server: 91.134.8.93
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: pelang.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 011
+  network: ws
+  port: 443
+  server: 91.134.8.100
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kampong.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 012
+  network: ws
+  port: 443
+  server: 91.134.8.102
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: serkat.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 013
+  network: ws
+  port: 443
+  server: 146.59.118.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: lammaland.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 014
+  network: ws
+  port: 443
+  server: 146.59.55.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: o.metuji.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 015
+  network: ws
+  port: 443
+  server: 146.59.70.146
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: yichueng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 016
+  network: ws
+  port: 443
+  server: 146.59.85.226
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: pelang.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 017
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 018
+  network: grpc
+  port: 2096
+  server: 51.254.142.162
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 388add20-90e0-40b7-b891-74ed3b817d71
+- alterId: 0
+  cipher: auto
+  name: 法国 019
+  network: ws
+  port: 443
+  server: 163.5.159.231
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws?ed=
+- alterId: 0
+  cipher: auto
+  name: 法国 020
+  network: ws
+  port: 443
+  server: 146.19.168.161
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: 法国 021
+  network: ws
+  port: 443
+  server: 51.77.20.137
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: tilebani.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 022
+  network: ws
+  port: 443
+  server: 51.77.20.140
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: bamparda.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 023
+  network: ws
+  port: 2082
+  server: 5.196.29.123
+  skip-cert-verify: true
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 024
+  network: ws
+  port: 443
+  server: 91.134.8.101
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: fapeng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 025
+  network: ws
+  port: 443
+  server: 146.59.118.249
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: fapeng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 026
+  network: ws
+  port: 443
+  server: 194.9.172.65
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  ws-opts:
+    headers:
+      Host: beyonddbc.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 027
+  network: ws
+  port: 443
+  server: 193.160.130.245
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-825 | free-nodes - 10...
+  network: ws
+  port: 80
+  server: 51.254.133.152
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
+  ws-opts:
+    headers:
+      Host: fr5.niekotin.de
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 法国 029
+  network: ws
+  port: 443
+  server: 51.77.20.136
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: capellare.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 030
+  network: ws
+  port: 443
+  server: 51.77.20.132
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: a.baradiha.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 法国/France
   port: 2052
   server: node-uk.connectsuite.org
   type: vmess
   uuid: 40b25dc2-8e1a-4889-b334-e3376ab3d865
 - cipher: aes-256-cfb
-  name: '🇫🇷_FR_法国 #4'
+  name: '🇫🇷_FR_法国 #3'
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.54.209
@@ -69,26 +443,27 @@ proxies:
   port: 443
   server: 149.202.82.172
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 🇫🇷FR-51.195.35.134-0160 | 0.0M...
-  network: ws
-  port: 443
-  server: 51.195.35.134
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
-  ws-opts:
-    headers:
-      Host: www.98272029.xyz
-    path: /
 - cipher: aes-256-gcm
   name: 🇫🇷FR-54.36.174.181-0170 | 0.0M...
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 54.36.174.181
   type: ss
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷 FR 524 | ⬇️ 95KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.69
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
 - alterId: 0
   name: 🇫🇷FR法国
   network: ws
