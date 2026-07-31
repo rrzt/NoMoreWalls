@@ -36,8 +36,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  name: 'Node #50'
+- name: 'Node #50'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -47,8 +46,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  name: 'Node #116'
+- name: 'Node #116'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
@@ -81,7 +79,8 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: 'Node #72'
+- alterId: 0
+  name: 'Node #72'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -91,7 +90,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'Node #93'
+- alterId: 0
+  name: 'Node #93'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -101,7 +101,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'Node #75'
+- alterId: 0
+  name: 'Node #75'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -111,7 +112,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'Node #65'
+- alterId: 0
+  name: 'Node #65'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -121,7 +123,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'Node #86'
+- alterId: 0
+  name: 'Node #86'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
@@ -156,29 +159,33 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '🇯🇵_JP_日本->🇸🇬_SG_新加坡 - undefine... #1'
+  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - 420ms
   network: tcp
   port: 30845
   server: v45.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 日本2|@ripaojiedian
+- alterId: 0
+  name: 🇯🇵JP日本7
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
   server: 3.114.9.167
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
+  tls: true
   type: trojan
   udp: true
-- name: 日本3|@ripaojiedian
+- alterId: 0
+  name: 🇯🇵JP日本5
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
   server: 3.114.9.167
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
+  tls: true
   type: trojan
   udp: true
 - cipher: aes-128-gcm
@@ -456,8 +463,8 @@ proxies:
 - alterId: 0
   name: 🇯🇵JP日本3
   password: BxceQaOe
-  port: 41421
-  server: 54.46.46.228
+  port: 49811
+  server: 43.198.187.59
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: true

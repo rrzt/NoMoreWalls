@@ -62,7 +62,8 @@ proxies:
     headers:
       Host: sni.latonyamadeline.ndjp.net
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 'KR韓國丨yoyapai.com #2'
+- alterId: 0
+  name: 未知68
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
   server: 211.49.57.179
@@ -287,6 +288,15 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
+- name: 🇰🇷KR_1|1.9MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇰🇷KR_10

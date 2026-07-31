@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'JP日本(v2clash.blog 2026-7.31更新)... #3'
+  name: 🇫🇷_法国_192
   network: ws
   port: 55009
   server: 2001:bc8:32d7:225::3
@@ -12,7 +12,7 @@ proxies:
   uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
   ws-opts:
     path: /0zNW56sF
-- name: 'FR法国(v2clash.blog 2026-7.31更新)... #1'
+- name: 🇩🇪_德国_210
   network: ws
   port: 2053
   server: 51.89.23.94
@@ -410,19 +410,330 @@ proxies:
   tls: false
   type: vless
   uuid: 0fc0e114-8ed6-4c8e-931e-7e3674929750
-- alterId: 0
-  cipher: auto
-  name: FR法国(v2clash.blog 2026-7.29更新)...
+- name: '🇫🇷 法国巴黎 CloudFlare节点 #1'
   network: ws
-  port: 55009
-  server: 2001:bc8:32d7:225::3
-  tls: false
-  type: vmess
-  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: 2001:bc8:32d7:225::3
-    path: /0zNW56sF
+      Host: www.ignitelimit.com
+    path: /assignment
+- client-fingerprint: firefox
+  name: 🇫🇷_法国_79
+  port: 443
+  reality-opts:
+    public-key: M7fn-U9PikoH_WXu6HbDE5bi9ej5cFN8bgWy8qF14WU
+    short-id: '!!str 76f547961a8ca082'
+  server: 185.33.24.204
+  servername: cdn.shopify.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f93f3eb-8ff2-4da4-837b-8a333c281ff3
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_235
+  network: ws
+  port: 2053
+  server: 152.228.135.209
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_173
+  network: ws
+  port: 2053
+  server: 152.228.134.213
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_245
+  network: ws
+  port: 2053
+  server: 135.125.191.89
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_240
+  network: ws
+  port: 2053
+  server: 54.36.98.76
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_176
+  network: ws
+  port: 2053
+  server: 31.59.121.155
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_207
+  network: ws
+  port: 2053
+  server: 152.228.135.44
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_226
+  network: ws
+  port: 2053
+  server: 146.59.156.154
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_217
+  network: ws
+  port: 2053
+  server: 51.91.102.36
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_213
+  network: ws
+  port: 2053
+  server: 51.77.140.9
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_212
+  network: ws
+  port: 2053
+  server: 51.210.150.65
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_273
+  network: ws
+  port: 2053
+  server: 146.59.19.208
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_241
+  network: ws
+  port: 2053
+  server: 51.210.149.2
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_222
+  network: ws
+  port: 2053
+  server: 51.77.140.23
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_249
+  network: ws
+  port: 2053
+  server: 152.228.135.238
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_254
+  network: ws
+  port: 2053
+  server: 162.19.78.179
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_232
+  network: ws
+  port: 2053
+  server: 135.125.133.217
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- name: 🇫🇷_法国_234
+  network: ws
+  port: 2053
+  server: 135.125.234.148
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_260
+  network: ws
+  port: 2053
+  server: 51.195.119.195
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_294
+  network: ws
+  port: 2053
+  server: 152.228.135.141
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_292
+  network: ws
+  port: 2053
+  server: 77.221.153.168
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
 - name: 🇫🇷FR_7|⬇️3.3MB/s
   network: ws
   port: 443
@@ -589,6 +900,17 @@ proxies:
   port: 8119
   server: 54.36.174.181
   type: ss
+- alterId: 0
+  name: 🇫🇷FR法国
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
 - name: 🇫🇷FR_105
   network: ws
   port: 8880
@@ -613,6 +935,19 @@ proxies:
     headers:
       Host: orange-darkness-749f.phantomnettest1-65d.workers.dev
     path: /sync
+- client-fingerprint: chrome
+  name: 🇫🇷FR_14
+  network: ws
+  port: 443
+  server: cf-vless-4cf55824.aimall.fr
+  servername: cf-vless-4cf55824.aimall.fr
+  tls: true
+  type: vless
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
+  ws-opts:
+    headers:
+      Host: cf-vless-4cf55824.aimall.fr
+    path: /connect
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -1464,19 +1799,6 @@ proxies:
     headers:
       Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
     path: /fp=randomized
-- client-fingerprint: chrome
-  name: 🇫🇷FR_645
-  network: ws
-  port: 443
-  server: 104.25.244.217
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -2039,19 +2361,6 @@ proxies:
     headers:
       Host: cnmfangbinxing.cnmfangbinxing-q.workers.dev
     path: /
-- client-fingerprint: chrome
-  name: 🇫🇷FR_170
-  network: ws
-  port: 2087
-  server: www.shopify.com
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-    path: /?ed=2560
 - client-fingerprint: chrome
   name: 🇫🇷FR_426
   network: ws
@@ -2666,6 +2975,19 @@ proxies:
     headers:
       Host: nuclear.us.kg
     path: /free/103.101.153.32:443
+- client-fingerprint: chrome
+  name: 🇫🇷FR_823
+  network: ws
+  port: 443
+  server: ip.sb
+  servername: learn00.evany.de5.net
+  tls: true
+  type: vless
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  ws-opts:
+    headers:
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt
 - name: 🇫🇷FR_1209
   network: tcp
   port: 22222

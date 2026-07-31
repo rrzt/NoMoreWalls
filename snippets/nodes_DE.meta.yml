@@ -46,7 +46,7 @@ proxies:
       Host: timeline.www.cloudflare.com
     path: '%2F'
 - client-fingerprint: chrome
-  name: 'DE德国(v2clash.blog 2026-7.31更新)... #6'
+  name: 🇨🇿_捷克_315
   network: ws
   port: 2053
   server: 195.133.94.188
@@ -257,6 +257,227 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- client-fingerprint: firefox
+  name: 🇩🇪_德国_49
+  port: 443
+  reality-opts:
+    public-key: agZZLk3GNH8CME1dobmtO1UwIrXYL-WrEuLREy_EqnA
+    short-id: '!!str aefe467c7b22f190'
+  server: 31.76.249.31
+  servername: cdn.shopify.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f93f3eb-8ff2-4da4-837b-8a333c281ff3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪_德国_51
+  port: 443
+  reality-opts:
+    public-key: x8AqgiU2yHx67Yv2opPUV17wRjAz1ftFtVi2CcVup10
+    short-id: '!!str e132826d'
+  server: 94.249.187.223
+  servername: api.led.samsung.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: da0f3291-c93e-4a19-b3f2-d150aad828ed
+- name: 'DE德国 #4'
+  network: tcp
+  port: 49518
+  server: 49.12.130.109
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇩🇪_德国_149
+  port: 443
+  reality-opts:
+    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
+  server: 94.249.225.84
+  servername: grand-lynx.cdn.cachefleet.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_238
+  network: ws
+  port: 2053
+  server: 5.178.106.61
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_166
+  network: ws
+  port: 2053
+  server: 147.45.197.233
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_168
+  network: ws
+  port: 2053
+  server: 217.144.190.14
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_175
+  network: ws
+  port: 2053
+  server: 78.47.203.106
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_259
+  network: ws
+  port: 2053
+  server: 94.159.96.182
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_231
+  network: ws
+  port: 2053
+  server: 92.119.90.67
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_220
+  network: ws
+  port: 2053
+  server: 82.117.245.166
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- name: 🇩🇪_德国_184
+  network: ws
+  port: 58500
+  server: 176.124.221.208
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: aa259670-7dbd-44d2-be2b-f8bdbf202c82
+  ws-opts:
+    path: /free
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_243
+  network: ws
+  port: 2053
+  server: 57.129.47.56
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_256
+  network: ws
+  port: 2053
+  server: 91.99.193.84
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_293
+  network: ws
+  port: 2053
+  server: 82.117.245.125
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- name: 🇩🇪_德国_298
+  network: ws
+  port: 58500
+  server: 176.124.221.208
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c19cbde1-4177-4dc5-9e2f-cbae45f5dbc1
+  ws-opts:
+    path: /free
 - alpn:
   - h3
   auth_str: dongtaiwang.com
@@ -514,20 +735,6 @@ proxies:
   skip-cert-verify: true
   sni: www.refersion.com
   type: hysteria2
-- name: 未知 VLESS-563
-  network: ws
-  port: 80
-  server: www.true.th
-  servername: d2pwbkmfr5lxa4.cloudfront.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
-  ws-opts:
-    headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
-    path: /
 - cipher: aes-256-gcm
   name: 🇩🇪DE-145.239.1.100-0029 | 0.0M...
   password: RexnBgU7EV5ADxG
@@ -1083,13 +1290,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /bkdicj
-- name: 'DE德国 #4'
-  network: tcp
-  port: 49518
-  server: 49.12.130.109
-  tls: false
-  type: vless
-  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
 - client-fingerprint: chrome
   name: 🇩🇪DE_16
   network: ws

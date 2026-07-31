@@ -1,13 +1,12 @@
 proxies:
-- alterId: 0
-  name: 印度
+- name: 印度
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20035
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
-  tls: true
+  tls: false
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -26,7 +25,7 @@ proxies:
       Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
 - alterId: 0
-  name: 🇬🇧GB英国2
+  name: 🇬🇧GB英国3
   password: humanity
   port: 443
   server: 165.215.250.14
@@ -188,24 +187,41 @@ proxies:
     headers:
       host: mTCKUNDiGePwU3uP.v.3dns.vip
     path: /ws-vmess
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇬🇧 英国 starcorenode.com #1'
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: WPxQ7LPnJfuchcuNLZNOFqE-dTqOfRIbscUdQS5qsV0
+    short-id: '!!str a1b2c3d4e5f6789a'
+  server: 2.27.15.95
+  servername: amedia-vod.cdnvideo.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b5f03bd3-0c55-416b-8ef9-da02593c1466
 - cipher: chacha20-ietf-poly1305
-  name: SS-英国-NF解锁自制剧-ChatGPT-TikTok-1...
+  name: gb|87a1|puddincat07@Telegram
   password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
   port: 443
   server: 146.19.49.251
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧_GB_英国 - undefinedms
+- client-fingerprint: chrome
+  name: 🇬🇧_英国_246
   network: ws
-  port: 23140
-  server: 5.39.254.196
-  tls: false
-  type: vmess
-  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+  port: 2053
+  server: 57.129.131.165
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
-      Host: 5.39.254.196
+      Host: forfreeuse.sub-flow.online
     path: /
 - name: 🇬🇧GB_86
   network: tcp
@@ -396,12 +412,6 @@ proxies:
   port: 8080
   server: 82.38.31.10
   type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧GB_20
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
 - cipher: aes-128-gcm
   name: 🇬🇧GB-141.98.101.179-0106 | 21....
   password: shadowsocks
@@ -470,6 +480,15 @@ proxies:
   port: 443
   server: series-a2.varzesh360.co
   type: ss
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 'GB英国 #1'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa8.api3-max.ru
+  skip-cert-verify: false
+  sni: wopa8.api3-max.ru
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧GB_50
@@ -575,14 +594,6 @@ proxies:
     headers:
       Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
     path: /@Marisa_kristi
-- name: 'GB英国 #1'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa8.api3-max.ru
-  skip-cert-verify: false
-  sni: wopa8.api3-max.ru
-  tls: false
-  type: hysteria2
 - alpn:
   - h2
   - http/1.1

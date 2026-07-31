@@ -79,7 +79,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇲🇾_马来西亚_190 - undefinedms
+  name: 🇲🇾_马来西亚_190 - 298ms
   network: ws
   port: 36803
   server: cindy52.ceoiii.com
@@ -144,7 +144,8 @@ proxies:
   uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
   ws-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
-- name: 'US美國丨yoyapai.com_1 #2'
+- alterId: 0
+  name: US
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
   server: 211.49.57.178
@@ -190,7 +191,8 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: '美國+CloudFlare节点丨yoyapai.com_1 #2'
+- alterId: 0
+  name: 未知20
   password: 9c521e24-7326-acd3-acec-d0afac2b465d
   port: 8080
   server: 104.25.108.147
@@ -203,7 +205,8 @@ proxies:
     headers:
       Host: red-cell-47f9.milaniomilan9.workers.dev
     path: /
-- name: 'Node #133'
+- alterId: 0
+  name: 'Node #133'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -213,7 +216,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'Node #120'
+- alterId: 0
+  name: 'Node #120'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -402,19 +406,19 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: '🇺🇸 美国 CloudFlare节点 3 #1'
+- name: '🇺🇸 美国 CloudFlare节点 2 #1'
   network: ws
   password: humanity
   port: 443
-  server: 172.66.44.211
+  server: 104.16.71.213
   skip-cert-verify: false
-  sni: www.multiplydose.com
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.multiplydose.com
+      Host: www.calmlunch.com
     path: /assignment
-- name: '🇺🇸 美国 CloudFlare节点 4 #1'
+- name: '🇺🇸 美国 CloudFlare节点 3 #1'
   network: ws
   password: humanity
   port: 443
@@ -426,23 +430,11 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: /assignment
-- name: '🇺🇸 美国 CloudFlare节点 5 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.152.38
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
 - name: '🇺🇸 美国 CloudFlare节点 6 #1'
   network: ws
   password: humanity
   port: 443
-  server: 172.64.147.236
+  server: 104.17.131.88
   skip-cert-verify: false
   sni: www.gossipglove.com
   type: trojan
@@ -450,17 +442,17 @@ proxies:
     headers:
       Host: www.gossipglove.com
     path: /assignment
-- name: '🇺🇸 美国 CloudFlare节点 9 #1'
+- name: '🇺🇸 美国 CloudFlare节点 7 #1'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.36
+  server: 172.64.155.209
   skip-cert-verify: false
-  sni: www.ignitelimit.com
+  sni: www.gossipglove.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
+      Host: www.gossipglove.com
     path: /assignment
 - cipher: chacha20-ietf-poly1305
   name: SS-美国-NF解锁自制剧-ChatGPT-TikTok-Y...
@@ -661,7 +653,7 @@ proxies:
     path: /api/v1/graphql
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国 - undefinedms #1'
+  name: 🇺🇸_US_美国 - 202ms
   network: tcp
   port: 443
   server: guanwang.awsno.com
@@ -670,7 +662,7 @@ proxies:
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - alterId: 2
   cipher: auto
-  name: '🇨🇳_CN_中国->🇺🇸_US_美国 - undefined... #3'
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国 - 366ms
   network: tcp
   port: 30829
   server: v29.hdacd.com
@@ -679,7 +671,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: '🇨🇳_CN_中国->🇺🇸_US_美国 - undefined... #4'
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国 - 1028ms
   network: tcp
   port: 30804
   server: v4.hdacd.com
@@ -688,7 +680,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: '🇨🇳_CN_中国->🇺🇸_US_美国 - undefined... #5'
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国 - 1016ms
   network: tcp
   port: 30808
   server: v8.hdacd.com
@@ -697,7 +689,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1 - undefinedms
+  name: 🇺🇸_US_美国_1 - 6ms
   network: ws
   port: 2086
   server: 104.26.0.206
@@ -710,7 +702,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4 - undefinedms
+  name: 🇺🇸_US_美国_4 - 6ms
   network: ws
   port: 8880
   server: 104.26.0.15
@@ -723,7 +715,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_7 - undefinedms
+  name: 🇺🇸_US_美国_7 - 6ms
   network: ws
   port: 2086
   server: 162.159.45.53
@@ -736,7 +728,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_9 - undefinedms
+  name: 🇺🇸_US_美国_9 - 6ms
   network: ws
   port: 8880
   server: 104.26.0.100
@@ -749,7 +741,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_10 - undefinedms
+  name: 🇺🇸_US_美国_10 - 6ms
   network: ws
   port: 8880
   server: 162.159.45.47
@@ -762,7 +754,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_16 - undefinedms
+  name: 🇺🇸_US_美国_16 - 7ms
   network: ws
   port: 8880
   server: 104.18.114.56
@@ -775,7 +767,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_11 - undefinedms
+  name: 🇺🇸_US_美国_11 - 6ms
   network: ws
   port: 2086
   server: 162.159.45.181
@@ -788,7 +780,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_12 - undefinedms
+  name: 🇺🇸_US_美国_12 - 6ms
   network: ws
   port: 8880
   server: 162.159.45.77
@@ -801,7 +793,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_13 - undefinedms
+  name: 🇺🇸_US_美国_13 - 7ms
   network: ws
   port: 2086
   server: 104.26.0.87
@@ -814,7 +806,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_1 - undefinedms #1'
+  name: '🇺🇸_US_美国_1 - 6ms #1'
   network: ws
   port: 2086
   server: 104.18.114.188
@@ -827,7 +819,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_2 - undefinedms
+  name: 🇺🇸_US_美国_2 - 6ms
   network: ws
   port: 2086
   server: 104.18.114.33
@@ -840,7 +832,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3 - undefinedms
+  name: 🇺🇸_US_美国_3 - 7ms
   network: ws
   port: 2086
   server: 104.18.114.69
@@ -853,7 +845,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_4 - undefinedms #1'
+  name: 🇺🇸_US_美国_4 - 7ms
   network: ws
   port: 2086
   server: 104.18.114.118
@@ -866,7 +858,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_5 - undefinedms
+  name: 🇺🇸_US_美国_5 - 7ms
   network: ws
   port: 2086
   server: 162.159.45.165
@@ -879,7 +871,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_6 - undefinedms
+  name: 🇺🇸_US_美国_6 - 8ms
   network: ws
   port: 2086
   server: 104.18.114.162
@@ -892,7 +884,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_8 - undefinedms
+  name: 🇺🇸_US_美国_8 - 7ms
   network: ws
   port: 2086
   server: 104.26.0.87
@@ -905,7 +897,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_9 - undefinedms #1'
+  name: 🇺🇸_US_美国_9 - 7ms
   network: ws
   port: 2086
   server: 104.21.238.37
@@ -918,7 +910,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_10 - undefinedms #1'
+  name: 🇺🇸_US_美国_10 - 8ms
   network: ws
   port: 2086
   server: 104.26.0.239
@@ -931,7 +923,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_11 - undefinedms #1'
+  name: '🇺🇸_US_美国_11 - 6ms #1'
   network: ws
   port: 2086
   server: 104.18.114.125
@@ -944,7 +936,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_12 - undefinedms #1'
+  name: 🇺🇸_US_美国_12 - 7ms
   network: ws
   port: 2086
   server: 104.21.238.148
@@ -957,7 +949,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '🇺🇸_US_美国_13 - undefinedms #1'
+  name: 🇺🇸_US_美国_13 - 6ms
   network: ws
   port: 2086
   server: 104.18.114.183
@@ -970,7 +962,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大 - undefine...
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 7ms
   network: ws
   port: 2082
   server: 190.93.244.1
@@ -983,7 +975,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_14 - undefinedms
+  name: 🇺🇸_US_美国_14 - 7ms
   network: ws
   port: 2086
   server: 104.18.114.107
@@ -996,7 +988,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_15 - undefinedms
+  name: 🇺🇸_US_美国_15 - 6ms
   network: ws
   port: 2086
   server: 104.26.0.183
@@ -1009,7 +1001,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_17 - undefinedms
+  name: 🇺🇸_US_美国_17 - 6ms
   network: ws
   port: 2086
   server: 104.26.0.71
@@ -1022,7 +1014,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_18 - undefinedms
+  name: 🇺🇸_US_美国_18 - 7ms
   network: ws
   port: 2086
   server: 104.18.114.58
@@ -1035,7 +1027,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_19 - undefinedms
+  name: 🇺🇸_US_美国_19 - 7ms
   network: ws
   port: 2086
   server: 104.18.114.122
@@ -1048,7 +1040,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_20 - undefinedms
+  name: 🇺🇸_US_美国_20 - 7ms
   network: ws
   port: 2086
   server: 104.18.114.108
@@ -1061,7 +1053,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_21 - undefinedms
+  name: 🇺🇸_US_美国_21 - 7ms
   network: ws
   port: 2086
   server: 104.21.238.182
@@ -1074,7 +1066,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_22 - undefinedms
+  name: 🇺🇸_US_美国_22 - 6ms
   network: ws
   port: 2086
   server: 104.18.114.111
@@ -1085,6 +1077,24 @@ proxies:
     headers:
       Host: e5.808075.xyz
     path: github.com/Alvin9999
+- name: 🇺🇸_美国_33
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20035
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_45
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  tls: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-111
   password: XF0klw7870vXn3uQIxe19Q
@@ -1128,16 +1138,6 @@ proxies:
     headers:
       Host: epge.muarua.filegear-sg.me
     path: /?ed
-- alterId: 2
-  cipher: auto
-  name: '🇨🇳_CN_中国->🇭🇰_HK_中国香港 #1'
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国(yudou789.top 玉豆免费节点)_11
   password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   port: 443
@@ -1196,8 +1196,7 @@ proxies:
   sni: download.windowsupdate.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 🇹🇼TW_1|1.7MB/s
+- name: 🇹🇼TW_2|3.6MB/s
   network: tcp
   password: i99Cef
   port: '28101'
@@ -2174,116 +2173,40 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: auto
-  name: US
+  name: 🇺🇸US美国
   network: ws
-  port: 80
-  server: blang.kcapsys.com
+  password: humanity
+  port: 443
+  server: 172.64.155.209
   skip-cert-verify: true
+  sni: www.gossipglove.com
   tls: true
-  type: vmess
-  uuid: f0273043-d637-4fdf-971c-eb486efa9c4b
-  ws-opts:
-    path: /
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇺🇸US美国2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.131.88
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: US2 10.8MB/s
+  name: US2
   network: tcp
-  port: 22324
-  server: 216.106.183.35
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628
 - alterId: 0
   cipher: auto
   name: US3
-  network: tcp
-  port: 10086
-  server: 43.173.74.241
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: bd7e0c40-79c7-4db1-ba27-43894d59a4a1
-- alterId: 0
-  cipher: auto
-  name: US5
-  network: ws
-  port: 80
-  server: 69.84.182.49
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: US6
-  network: ws
-  port: 33410
-  server: yd4.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9301afcd-025e-781f-1abc-c10efabd1211
-  ws-opts:
-    headers:
-      host: yd4.ainivp.com
-    path: /ray
-- alterId: 64
-  cipher: auto
-  name: US7
-  network: tcp
-  port: 41911
-  server: 107.148.192.150
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: US8
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0921f18e-db32-4c07-939b-4388673bfe59
-  ws-opts:
-    headers:
-      host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: US9
-  network: tcp
-  port: 20001
-  server: 74.211.102.179
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83
-- alterId: 0
-  cipher: auto
-  name: US10
-  network: ws
-  port: 2082
-  server: us1.levikogjgfdd.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
-  ws-opts:
-    headers:
-      host: www.bing.com
-    path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
-- alterId: 0
-  cipher: auto
-  name: US11
   network: tcp
   port: 42899
   server: 47.251.91.241
@@ -2293,91 +2216,17 @@ proxies:
   uuid: 0925b355-2bcd-4eae-9720-d2709e4f7e36
 - alterId: 0
   cipher: auto
-  name: US12
+  name: US4
   network: tcp
-  port: 8881
-  server: 143.198.18.35
+  port: 20001
+  server: 74.211.102.179
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+  uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83
 - alterId: 0
   cipher: auto
-  name: US13
-  network: tcp
-  port: 44806
-  server: ambxxic01hk.dorabbb.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628
-- alterId: 0
-  name: 🇺🇸US美国3
-  password: BxceQaOe
-  port: 15775
-  server: 54.46.46.228
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: US14
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9ebb09ef-ce69-4bbb-ba8f-3be6c52ef9c2
-  ws-opts:
-    headers:
-      host: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
-- alterId: 0
-  cipher: auto
-  name: US15
-  network: ws
-  port: 22047
-  server: 103.179.142.212
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 948763b5-a064-453c-a015-185cb183bbfe
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: US16
-  network: ws
-  port: 2052
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 78c40177-c364-480d-bd77-76e9d89f69b4
-  ws-opts:
-    headers:
-      host: kvjqqknzjp6.yofnhkfc.xyz
-    path: /video/Zo98PYfE
-- alterId: 0
-  cipher: auto
-  name: US17
-  network: ws
-  port: 8880
-  server: 154.21.83.77
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 04bccfa1-a6a8-4ace-991f-454624a8766f
-  ws-opts:
-    headers:
-      host: www.bing.com
-    path: 04bccfa1-a6a8-4ace-991f-454624a8766f-vm
-- alterId: 0
-  cipher: auto
-  name: US18 127.1KB/s
+  name: US5 83.7KB/s
   network: ws
   port: 2086
   server: 154.17.234.39
@@ -2391,83 +2240,49 @@ proxies:
     path: /7e25875e-50bb-47ed-9627-261e6d232f69-vm
 - alterId: 0
   cipher: auto
-  name: US19
-  network: tcp
-  port: 8881
-  server: 157.245.4.52
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  name: US20
+  name: US6 35.6KB/s
   network: ws
-  port: 80
-  server: slime-rhinestone-spy.glitch.me
+  port: 8880
+  server: 154.17.238.183
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 1d5fb496-19fb-48fb-9880-a147326dee62
+  uuid: b7479b73-8cea-4a82-97e8-bacf9bd86605
   ws-opts:
     headers:
-      host: best-charm-pediatrician.glitch.me
-    path: /1d5fb496-19fb-48fb-9880-a147326dee62-vmess
+      host: www.bing.com
+    path: b7479b73-8cea-4a82-97e8-bacf9bd86605-vm
 - alterId: 0
   cipher: auto
-  name: US21
+  name: US8
   network: ws
-  port: 443
-  server: xsj004-10.facai2024.com
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  uuid: 9ebb09ef-ce69-4bbb-ba8f-3be6c52ef9c2
   ws-opts:
     headers:
-      host: xsj004-10.facai2024.com
-    path: /1f1aa362-25
+      host: zifstzamhk1.yofnhkfc.xyz
+    path: /video/VuDFdktz
 - alterId: 0
   cipher: auto
-  name: US22
+  name: US9
   network: ws
-  port: 443
-  server: gt021.bestforxray.buzz
+  port: 2082
+  server: us1.levikogjgfdd.ir
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
+  uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
   ws-opts:
     headers:
-      host: ausgt02.bestforxray.buzz
-    path: /linkws
+      host: www.bing.com
+    path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
 - alterId: 0
   cipher: auto
-  name: US23
-  network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7e1d0a3d-8d0d-46b9-83bf-0eac8cf895c6
-  ws-opts:
-    headers:
-      host: agzbjszujp4.yofnhkfc.xyz
-    path: /video/ibCT6z55
-- alterId: 0
-  cipher: auto
-  name: US24 25.4MB/s
-  network: tcp
-  port: 443
-  server: 165.140.216.141
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: 0
-  cipher: auto
-  name: US25
+  name: US10
   network: ws
   port: 2086
   server: 23.254.166.237
@@ -2481,7 +2296,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: US26 91.5MB/s
+  name: US11
+  network: ws
+  port: 80
+  server: slime-rhinestone-spy.glitch.me
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1d5fb496-19fb-48fb-9880-a147326dee62
+  ws-opts:
+    headers:
+      host: best-charm-pediatrician.glitch.me
+    path: /1d5fb496-19fb-48fb-9880-a147326dee62-vmess
+- alterId: 0
+  cipher: auto
+  name: US12 5.1MB/s
   network: tcp
   port: 180
   server: 82.198.246.97
@@ -2490,19 +2319,58 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  name: 🇺🇸US美国4
+  cipher: auto
+  name: US13
   network: ws
-  password: humanity
   port: 443
-  server: 104.21.40.34
+  server: gt021.bestforxray.buzz
   skip-cert-verify: true
-  sni: www.multiplydose.com
   tls: true
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
+  ws-opts:
+    headers:
+      host: ausgt02.bestforxray.buzz
+    path: /linkws
 - alterId: 0
   cipher: auto
-  name: US27 80.6MB/s
+  name: US14 243.9MB/s
+  network: tcp
+  port: 443
+  server: 165.140.216.141
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+- alterId: 0
+  cipher: auto
+  name: US15
+  network: ws
+  port: 80
+  server: blang.kcapsys.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f0273043-d637-4fdf-971c-eb486efa9c4b
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US16
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7e1d0a3d-8d0d-46b9-83bf-0eac8cf895c6
+  ws-opts:
+    headers:
+      host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
+- alterId: 0
+  cipher: auto
+  name: US17 236.2MB/s
   network: tcp
   port: 180
   server: 82.198.246.37
@@ -2511,10 +2379,113 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  name: 🇺🇸US美国5
+  cipher: auto
+  name: US18
+  network: ws
+  port: 33410
+  server: yd4.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9301afcd-025e-781f-1abc-c10efabd1211
+  ws-opts:
+    headers:
+      host: yd4.ainivp.com
+    path: /ray
+- alterId: 0
+  name: 🇺🇸US美国8
   password: humanity
   port: 443
-  server: 104.17.121.43
+  server: 172.64.146.116
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇺🇸US美国9
+  password: humanity
+  port: 443
+  server: 104.16.174.37
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US19
+  network: ws
+  port: 2052
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 78c40177-c364-480d-bd77-76e9d89f69b4
+  ws-opts:
+    headers:
+      host: kvjqqknzjp6.yofnhkfc.xyz
+    path: /video/Zo98PYfE
+- alterId: 0
+  cipher: auto
+  name: US20
+  network: tcp
+  port: 8881
+  server: 157.245.4.52
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alterId: 0
+  cipher: auto
+  name: US21
+  network: tcp
+  port: 10086
+  server: 43.173.74.241
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bd7e0c40-79c7-4db1-ba27-43894d59a4a1
+- alterId: 0
+  cipher: auto
+  name: US22
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0921f18e-db32-4c07-939b-4388673bfe59
+  ws-opts:
+    headers:
+      host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: US23 440.9MB/s
+  network: tcp
+  port: 443
+  server: 165.140.216.142
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 64
+  cipher: auto
+  name: US24
+  network: tcp
+  port: 41911
+  server: 107.148.192.150
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  name: 🇺🇸US美国12
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.71.213
   skip-cert-verify: true
   sni: www.calmlunch.com
   tls: true
@@ -2522,7 +2493,33 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: US28 127.0KB/s
+  name: US25
+  network: ws
+  port: 22047
+  server: 103.179.142.212
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 948763b5-a064-453c-a015-185cb183bbfe
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US26
+  network: ws
+  port: 80
+  server: 69.84.182.49
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  ws-opts:
+    headers:
+      host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US27
   network: ws
   port: 2095
   server: 64.186.253.113
@@ -2534,26 +2531,34 @@ proxies:
     path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
 - alterId: 0
   cipher: auto
-  name: US29 33.8MB/s
+  name: US28
   network: tcp
-  port: 443
-  server: 165.140.216.142
+  port: 8881
+  server: 143.198.18.35
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alterId: 0
+  cipher: auto
+  name: US29
+  network: ws
+  port: 443
+  server: xsj004-10.facai2024.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  ws-opts:
+    headers:
+      host: xsj004-10.facai2024.com
+    path: /1f1aa362-25
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-106
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
   server: 185.232.22.18
   type: ss
-- name: 美国_127
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  sni: www.multiplydose.com
-  type: trojan
 - cipher: aes-256-gcm
   name: 🇺🇸US_27
   password: faBAoD54k87UJG7
