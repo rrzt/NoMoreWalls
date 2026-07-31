@@ -44,7 +44,7 @@ proxies:
       Host: cos.ap-shanghai.myqcloud.com
     path: /
 - client-fingerprint: chrome
-  name: '🇹🇼TW_1|1020KB/s #1'
+  name: 🇹🇼TW_3|2.3MB/s
   network: tcp
   password: i99Cef
   port: '28101'

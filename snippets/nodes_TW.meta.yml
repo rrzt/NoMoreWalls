@@ -59,7 +59,7 @@ proxies:
       Host: cos.ap-shanghai.myqcloud.com
     path: /
 - client-fingerprint: chrome
-  name: '🇹🇼TW_1|1020KB/s #1'
+  name: 🇹🇼TW_3|2.3MB/s
   network: tcp
   password: i99Cef
   port: '28101'
@@ -139,6 +139,15 @@ proxies:
     headers:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
+- name: 🇹🇼TW_1|4.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: chacha20-ietf-poly1305
   name: 🇹🇼TW_9
   password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
