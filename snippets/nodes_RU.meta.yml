@@ -117,20 +117,6 @@ proxies:
     headers:
       host: cloudflare.vhub.pro
     path: /websocket
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL_325
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.189
-  servername: apple.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '🇷🇺_RU_俄罗斯 #4'

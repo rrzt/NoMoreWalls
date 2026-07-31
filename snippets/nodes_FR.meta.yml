@@ -1402,6 +1402,19 @@ proxies:
     headers:
       Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
     path: /fp=randomized
+- client-fingerprint: chrome
+  name: 🇫🇷FR_645
+  network: ws
+  port: 443
+  server: 104.25.244.217
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -2725,19 +2738,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- client-fingerprint: random
-  name: 🇫🇷FR_1032
-  network: ws
-  port: 443
-  server: 104.16.251.148
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
 - name: 🇫🇷FR_306
   network: ws
   port: 8880
@@ -3706,19 +3706,6 @@ proxies:
     headers:
       Host: calm-smoke-1a21.alvlirm6262.workers.dev
     path: /
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1040
-  network: ws
-  port: 443
-  server: 162.159.12.41
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp=chrome
 - name: 🇫🇷FR_11
   network: ws
   password: humanity
@@ -4470,19 +4457,6 @@ proxies:
     headers:
       Host: rAyAn-007.mAxImA.DpDnS.OrG
     path: /?ed=2560
-- client-fingerprint: chrome
-  name: 🇫🇷FR_334
-  network: ws
-  port: 443
-  server: 162.159.43.121
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - client-fingerprint: random
   name: 🇫🇷FR_524
   network: ws

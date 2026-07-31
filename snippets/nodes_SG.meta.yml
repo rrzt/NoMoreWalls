@@ -126,7 +126,7 @@ proxies:
   type: vless
   uuid: 83ab4443-ec22-4b3d-a587-53090be7beb2
 - cipher: chacha20-ietf
-  name: 🇸🇬SG-103.36.91.32-0125 | 3.562...
+  name: 🇸🇬SG-103.36.91.32-0125 | 0.033...
   password: asd123456
   port: 8388
   server: 103.36.91.32
