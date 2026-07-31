@@ -1,4 +1,271 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '8元老牌专线机场：cczzuu.top #2'
+  port: 7754
+  server: efan.dnsefan04881.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+- name: '🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司 #2'
+  network: ws
+  port: 8880
+  server: 166.62.109.30
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime18.workers.dev
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇷🇺 俄罗斯 starcorenode.com #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.9
+  servername: apple.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- name: '🇺🇸 美国 加州 #2'
+  network: ws
+  port: 8880
+  server: 216.24.57.40
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime28.workers.dev
+    path: /
+- name: 美国_126
+  network: ws
+  packet-encoding: xudp
+  port: 80
+  server: 18.239.134.69
+  servername: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
+  ws-opts:
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+    path: /
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '🇷🇺 俄罗斯 starcorenode.com 2 #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.189
+  servername: apple.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- name: '🇺🇸 美国 CloudFlare节点 #2'
+  network: ws
+  port: 8880
+  server: 104.17.191.15
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: adcce8be-9de7-41bd-abcd-52939cec108b
+  ws-opts:
+    headers:
+      Host: fancy-haze-ab00.236-68b.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_22
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
+    short-id: '250b5976473a'
+  server: jyvlryz.cvewfjg.shop
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
+- name: 美国_18
+  network: tcp
+  port: 20342
+  server: 141.133.172.222
+  servername: 141.133.172.222
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
+  ws-opts:
+    path: /
+- name: 🇺🇸US_345
+  network: ws
+  port: 8080
+  server: 172.67.69.63
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
+  ws-opts:
+    headers:
+      Host: premium-us-ca-01-gthost.efgwf.online
+    path: /ws-6Tta3kYF
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'US_speednode_0189 #1'
+  network: tcp
+  packet-encoding: xudp
+  port: 993
+  reality-opts:
+    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
+  server: 88.218.44.4
+  servername: dl.google.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
+- name: '美国/San Francisco/United States... #14'
+  network: ws
+  port: 2095
+  server: www.shopify.com
+  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+    path: /fp=randomized
+- name: '🇺🇸 美国 CloudFlare节点 4 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.21.40.34
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.multiplydose.com
+    path: /assignment
+- alpn:
+  - h3,h2,http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 CloudFlare节点 5 #2'
+  network: ws
+  port: 443
+  server: time.is
+  servername: azadnet-826.pages.Dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
+  ws-opts:
+    headers:
+      Host: azadnet-826.pages.Dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '🇲🇾_马来西亚_126 - undefinedms #1'
+  network: ws
+  port: 36803
+  server: cindy52.ceoiii.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- name: '🇺🇸 美国 CloudFlare节点 6 #2'
+  network: ws
+  port: 8880
+  server: cf5.466688.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 9b14cdbe-bcfe-4178-a674-3ad88a7c6f6a
+  ws-opts:
+    headers:
+      Host: summer-snow-c151.320-3ef.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+- auth: u9zD-8mD-XZROtWZCZGNb_qU7qR3Q4dLk7hnLfaJBNyu12Mn
+  name: 'NL荷兰 #2'
+  password: u9zD-8mD-XZROtWZCZGNb_qU7qR3Q4dLk7hnLfaJBNyu12Mn
+  port: 443
+  server: lv.h2corp.org
+  skip-cert-verify: false
+  sni: lv.h2corp.org
+  tls: false
+  type: hysteria2
+  udp: true
+- name: 🇯🇵JP-13.115.71.81-6044 | 19.36...
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  port: 44184
+  server: v2jp.k1.ssnss.live
+  skip-cert-verify: false
+  type: trojan
+- client-fingerprint: chrome
+  name: 'DE_speednode_0006 #1'
+  network: ws
+  packet-encoding: xudp
+  port: 2053
+  server: 51.89.23.94
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- name: 🇳🇱NL_93
+  network: ws
+  port: 8880
+  server: 192.0.54.30
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime35.workers.dev
+    path: /
 - client-fingerprint: random
   name: 🇫🇷FR_1045
   network: ws
@@ -215,19 +482,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 美国_18
-  network: tcp
-  port: 20342
-  server: 141.133.172.222
-  servername: 141.133.172.222
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
-  ws-opts:
-    path: /
 - client-fingerprint: chrome
   name: GB英国(v2clash.blog 2026-7.31更新)
   network: ws
@@ -336,23 +590,6 @@ proxies:
     headers:
       Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
-- client-fingerprint: chrome
-  name: 'DE_speednode_0006 #1'
-  network: ws
-  packet-encoding: xudp
-  port: 2053
-  server: 51.89.23.94
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
 - name: 美国_63
   network: ws
   port: 8880
@@ -655,23 +892,6 @@ proxies:
     path: /v1
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: 'US_speednode_0189 #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 993
-  reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
-  server: 88.218.44.4
-  servername: dl.google.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- client-fingerprint: chrome
-  encryption: none
   http-opts:
     path:
     - /
@@ -787,22 +1007,6 @@ proxies:
   type: vless
   udp: true
   uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
-- name: 美国_126
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 18.239.134.69
-  servername: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
-  ws-opts:
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-    path: /
 - name: 'US美国(v2clash.blog 2026-7.31更新)... #96'
   network: ws
   port: 4100
@@ -1075,21 +1279,6 @@ proxies:
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
   ws-opts:
     path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: '🇲🇾_马来西亚_126 - undefinedms #1'
-  network: ws
-  port: 36803
-  server: cindy52.ceoiii.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
 - name: 'US美国 #27'
   network: tcp
   packet-encoding: xudp
@@ -1100,16 +1289,6 @@ proxies:
   type: vless
   udp: true
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- auth: u9zD-8mD-XZROtWZCZGNb_qU7qR3Q4dLk7hnLfaJBNyu12Mn
-  name: 'NL荷兰 #2'
-  password: u9zD-8mD-XZROtWZCZGNb_qU7qR3Q4dLk7hnLfaJBNyu12Mn
-  port: 443
-  server: lv.h2corp.org
-  skip-cert-verify: false
-  sni: lv.h2corp.org
-  tls: false
-  type: hysteria2
-  udp: true
 - alterId: 0
   cipher: auto
   name: '🇲🇽_墨西哥_205 - undefinedms #1'
@@ -8892,185 +9071,6 @@ proxies:
     headers:
       host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev
     path: /@Marisa_kristi
-- alterId: 0
-  cipher: auto
-  name: '8元老牌专线机场：cczzuu.top #1'
-  port: 7754
-  server: efan.dnsefan04881.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-- name: '🇺🇸 美国 亚利桑那州斯科茨代尔市Go Daddy集团公司 #1'
-  network: ws
-  port: 8880
-  server: 166.62.109.30
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime18.workers.dev
-    path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇷🇺 俄罗斯 starcorenode.com #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.9
-  servername: apple.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-- name: '🇺🇸 美国 加州 #1'
-  network: ws
-  port: 8880
-  server: 216.24.57.40
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime28.workers.dev
-    path: /
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '🇷🇺 俄罗斯 starcorenode.com 2 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.189
-  servername: apple.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-- name: '🇺🇸 美国 CloudFlare节点 #1'
-  network: ws
-  port: 8880
-  server: 104.17.191.15
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: adcce8be-9de7-41bd-abcd-52939cec108b
-  ws-opts:
-    headers:
-      Host: fancy-haze-ab00.236-68b.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_22
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
-    short-id: '250b5976473a'
-  server: jyvlryz.cvewfjg.shop
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
-- name: 🇺🇸US_345
-  network: ws
-  port: 8080
-  server: 172.67.69.63
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
-  ws-opts:
-    headers:
-      Host: premium-us-ca-01-gthost.efgwf.online
-    path: /ws-6Tta3kYF
-- name: '美国/San Francisco/United States... #14'
-  network: ws
-  port: 2095
-  server: www.shopify.com
-  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
-    path: /fp=randomized
-- name: '🇺🇸 美国 CloudFlare节点 4 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.21.40.34
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- alpn:
-  - h3,h2,http/1.1
-  client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 5 #1'
-  network: ws
-  port: 443
-  server: time.is
-  servername: azadnet-826.pages.Dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
-  ws-opts:
-    headers:
-      Host: azadnet-826.pages.Dev
-    path: /
-- name: '🇺🇸 美国 CloudFlare节点 6 #1'
-  network: ws
-  port: 8880
-  server: cf5.466688.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 9b14cdbe-bcfe-4178-a674-3ad88a7c6f6a
-  ws-opts:
-    headers:
-      Host: summer-snow-c151.320-3ef.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
-- name: 🇯🇵JP-13.115.71.81-6044 | 19.36...
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  skip-cert-verify: false
-  type: trojan
-- name: 🇳🇱NL_93
-  network: ws
-  port: 8880
-  server: 192.0.54.30
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime35.workers.dev
-    path: /
 - cipher: aes-256-gcm
   name: SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT...
   password: 8JCsPssfgS8tiRwiMlhARg==
@@ -10183,96 +10183,6 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 'tg频道:@ripaojiedian #2'
-  password: amazonskr05
-  port: 443
-  server: 63.180.254.10
-  type: ss
-- name: 🇭🇰 香港3|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 52687
-  server: 18.162.54.192
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 6313
-  server: 52.194.222.108
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 6313
-  server: 3.112.196.41
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本|@stairnode
-  password: BxceQaOe
-  port: 3022
-  server: 52.194.222.108
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本2|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4937
-  server: 13.231.134.78
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本3|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 9201
-  server: 43.207.115.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4674
-  server: 52.194.222.108
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4674
-  server: 43.207.115.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@stairnode
-  password: BxceQaOe
-  port: 25675
-  server: 16.162.119.43
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇺🇸 美国|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4019
-  server: 43.207.115.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国2|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 3057
-  server: 13.231.134.78
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国3|@stairnode
-  password: BxceQaOe
-  port: 23255
-  server: 16.162.122.123
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL-92.112.126.90-0148 | 0.03...
   password: 9tqhMdIrTkgQ46PvhyAtMH
@@ -10573,6 +10483,12 @@ proxies:
     headers:
       Host: vms.lifetime15.workers.dev
     path: /?ed=2560&https://t.me/YouTube@小青科学网🇨🇳
+- cipher: aes-256-cfb
+  name: 'tg频道:@ripaojiedian #2'
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
 - client-fingerprint: chrome
   name: 'HK_speednode_0010 #1'
   network: tcp
@@ -15862,7 +15778,7 @@ proxies:
   server: 62.133.63.21
   type: ss
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 2 #2'
+  name: '🇺🇸 美国 CloudFlare节点 2 #3'
   network: ws
   password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
   port: 443
@@ -16479,7 +16395,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 #2'
+  name: '🇺🇸 美国 CloudFlare节点 #3'
   network: ws
   port: 443
   server: 104.21.15.36
@@ -16511,7 +16427,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 3 #2'
+  name: '🇺🇸 美国 CloudFlare节点 3 #3'
   network: ws
   port: 8443
   server: 141.101.121.34
@@ -16523,7 +16439,7 @@ proxies:
       Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
     path: /
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 4 #2'
+  name: '🇺🇸 美国 CloudFlare节点 4 #3'
   network: ws
   password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
   port: 443
@@ -16552,7 +16468,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 5 #2'
+  name: '🇺🇸 美国 CloudFlare节点 5 #3'
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -16575,7 +16491,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 6 #2'
+  name: '🇺🇸 美国 CloudFlare节点 6 #3'
   network: ws
   port: 443
   server: hk2.lrzdx.uk

@@ -1,4 +1,32 @@
 proxies:
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '🇷🇺 俄罗斯 starcorenode.com #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.9
+  servername: apple.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '🇷🇺 俄罗斯 starcorenode.com 2 #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.251.189
+  servername: apple.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
 - client-fingerprint: chrome
   name: NL荷兰(v2clash.blog 2026-7.31更新)
   network: ws
@@ -117,34 +145,6 @@ proxies:
     headers:
       host: cloudflare.vhub.pro
     path: /websocket
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇷🇺 俄罗斯 starcorenode.com #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.9
-  servername: apple.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '🇷🇺 俄罗斯 starcorenode.com 2 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.189
-  servername: apple.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
 - alterId: 0
   cipher: auto
   name: '🇷🇺_RU_俄罗斯_7 - undefinedms #1'
