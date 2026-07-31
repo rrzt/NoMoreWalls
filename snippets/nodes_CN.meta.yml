@@ -1,13 +1,6 @@
 proxies:
-- alpn:
-  - ''
-  alterId: 2
+- alterId: 2
   cipher: auto
-  client-fingerprint: ''
-  country: 🇮🇷IR
-  delay: 769
-  h2-opts: {}
-  http-opts: {}
   name: 未知114
   network: tcp
   port: 30809
@@ -15,7 +8,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
   name: '🇨🇳_CN_中国->🇵🇱_PL_波兰 #1'

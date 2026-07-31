@@ -13,7 +13,7 @@ proxies:
   ws-opts:
     path: /0zNW56sF
 - cipher: chacha20-ietf-poly1305
-  name: 'FR法国(v2clash.blog 2026-7.31更新)... #7'
+  name: 'FR法国 #1'
   password: agSY+I/9kdioZ9aZLajgjEF0uwTcmTi9cIQVuguchJ4=
   port: 51570
   server: e1.cover20.ir
@@ -21,7 +21,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 'FR法国(v2clash.blog 2026-7.31更新)... #8'
+  name: 'FR法国 #5'
   password: OVlHEMLx3ZBjznj/RJ6p8jAIcLdRyzojPMqIjPI215U=
   port: 55129
   server: n3.cover20.ir
@@ -89,21 +89,6 @@ proxies:
   port: 8119
   server: 54.36.174.181
   type: ss
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷 FR 524 | ⬇️ 95KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.69
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
 - alterId: 0
   name: 🇫🇷FR法国
   network: ws
@@ -115,3 +100,1012 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: 🇫🇷FR_835
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1116
+  network: ws
+  password: MITIVPN
+  port: 2053
+  server: 104.17.147.22
+  skip-cert-verify: true
+  sni: ikk---7-MiTiVPN----o.kingnetwork.ir
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
+- name: 🇫🇷FR_23
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_832
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.22
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /%2Fassignment
+- name: 🇫🇷FR_640
+  network: ws
+  password: humanity
+  port: 443
+  server: ip.myip2.qzz.io
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_197
+  network: ws
+  password: humanity
+  port: 443
+  server: 216.24.57.7
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_57
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_753
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.13.149
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_434
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.146.1
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_1135
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 194.187.249.218
+  type: ss
+- name: 🇫🇷FR_300
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.73
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_568
+  network: ws
+  password: 988sR-269PKCKlb&3pMrFTEr
+  port: 443
+  server: 104.18.155.119
+  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
+  type: trojan
+  ws-opts:
+    path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+- name: 🇫🇷FR_918
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.108
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1179
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.18.6.178
+  skip-cert-verify: true
+  sni: g-o-MiTiVPN---MiTiVPNj.Maqror.ir
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
+- name: 🇫🇷FR_192
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.208
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_834
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.193.213.11
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: 🇫🇷FR_1096
+  network: ws
+  password: humanity
+  port: 40443
+  server: 2.144.21.112
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1122
+  network: ws
+  password: MiTiVPN
+  port: 2087
+  server: 104.18.6.178
+  skip-cert-verify: true
+  sni: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1117
+  network: ws
+  password: MiTiVPN
+  port: 2096
+  server: 162.159.140.91
+  skip-cert-verify: true
+  sni: ib-bbg--MiTiVPN---MiTiVPN-u.kingnetwork.ir
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_479
+  network: ws
+  password: 988sR-269PKCKlb&3pMrFTEr
+  port: 443
+  server: jquery.com
+  sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
+  type: trojan
+  ws-opts:
+    path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
+- name: 🇫🇷FR_839
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.26.14.137
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_615
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.227
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_777
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_294
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.0.55
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_1144
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.152
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_171
+  network: ws
+  password: humanity
+  port: 443
+  server: www.host-tracker.com
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_22
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.24
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_52
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: vless.herogoing.top
+  sni: vless.herogoing.top
+  type: trojan
+  ws-opts:
+    path: /tr?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_1099
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 217.138.207.106
+  type: ss
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1197
+  network: ws
+  password: Telegram_healer_config
+  port: 443
+  server: 104.21.17.125
+  sni: 30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv
+  type: trojan
+  ws-opts:
+    path: /tr/hYgAqUlh5GyczDyXP?ed
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_1196
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: fr3.levikogjgfdd.ir
+  type: ss
+- name: 🇫🇷FR_827
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.252
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_760
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.6
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_700
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.146.28
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_1140
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 195.154.29.29
+  type: ss
+- name: 🇫🇷FR_826
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.99.0
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_1134
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 194.187.249.220
+  type: ss
+- name: 🇫🇷FR_199
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_191
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_942
+  network: ws
+  password: humanity
+  port: 443
+  server: 208.103.161.170
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_830
+  network: ws
+  password: humanity
+  port: 443
+  server: 86.38.214.205
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_11
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.121
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_378
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.50
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_184
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.225
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_45
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  sni: blackshadow.dpdns.org
+  type: trojan
+  ws-opts:
+    path: /195.123.218.174-443
+- name: 🇫🇷FR_185
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.18.250.252
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_293
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.185.26
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_4
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_50
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.149.54
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_196
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.155.209
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1145
+  network: ws
+  password: humanity
+  port: 443
+  server: 5.10.214.53
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_994
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.144
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_648
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.250.22
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: 🇫🇷FR_380
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.223.96
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_299
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.73.213
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_425
+  network: ws
+  password: humanity
+  port: 443
+  server: www.speedtest.org
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_28
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.229
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_754
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.193.213.21
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_27
+  password: bBnV36tzt7MKV75aDZTbzG
+  port: 8388
+  server: 141.227.152.129
+  type: ss
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1105
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 45.130.125.0
+  skip-cert-verify: true
+  sni: swsjh--MiTiVPN---MiTiVPN-ao.aPp-cLoud.IR
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
+- name: 🇫🇷FR_110
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.80.73
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_751
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.21.26.36
+  sni: vless.herogoing.top
+  type: trojan
+  ws-opts:
+    path: /tr?ed=2560
+- name: 🇫🇷FR_837
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.37
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_1137
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 51.159.19.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_457
+  password: diOMBU5IDvJcFqyNPbRjYR
+  port: 10443
+  server: 137.74.119.18
+  type: ss
+- name: 🇫🇷FR_657
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.34
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_111
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.23.63
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇫🇷FR_1
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.115.61
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: 🇫🇷FR_198
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.158
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_1139
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 163.172.244.41
+  type: ss
+- name: 🇫🇷FR_182
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_423
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.207
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1160
+  network: ws
+  password: Telegram_healer_config
+  port: 443
+  server: 188.114.96.7
+  sni: BjSa2yGFITzjtHo8ucZe29xf2m2q9C.G3FIAJpF0Erm9k3x6WW-YeGzl2.workeRs.dEV
+  type: trojan
+  ws-opts:
+    path: /tr/J6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr?ed=2560
+- name: 🇫🇷FR_796
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.236
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_558
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.146.102
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_267
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.177.143
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- cipher: aes-256-gcm
+  name: 🇫🇷FR_1173
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 64.31.63.244
+  type: ss
+- name: 🇫🇷FR_183
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_239
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.224
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_1120
+  network: ws
+  password: 0b5fa773-6f37-4134-87d4-0c349742b6f6
+  port: 443
+  server: app-538961.user-y0o4gm.workers.dev
+  sni: app-538961.user-y0o4gm.workers.dev
+  type: trojan
+  ws-opts:
+    path: /
+- name: 🇫🇷FR_338
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.175
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_254
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.46
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_129
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1123
+  network: ws
+  password: MiTiVPN
+  port: 2083
+  server: 104.18.7.178
+  skip-cert-verify: true
+  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
+- name: 🇫🇷FR_559
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.113
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_327
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.204
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_402
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_573
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.2
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1167
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 45.130.125.112
+  skip-cert-verify: true
+  sni: ikk---7-MiTiVPN----o.Maqror.ir
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
+- name: 🇫🇷FR_193
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.131.88
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_817
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_10
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_181
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_609
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.153.199
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_1136
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 185.128.25.36
+  type: ss
+- name: 🇫🇷FR_117
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.25.112.190
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_950
+  network: ws
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  sni: _acme-challenge.sb.cloudns.biz
+  type: trojan
+  ws-opts:
+    path: /
+- name: 🇫🇷FR_838
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_195
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_194
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_1138
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 185.156.173.206
+  type: ss
+- name: 🇫🇷FR_836
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_1142
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 185.128.25.44
+  type: ss
+- name: 🇫🇷FR_29
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.146.198
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR_1141
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 62.210.123.100
+  type: ss
+- alpn:
+  - http/1.1
+  name: 🇫🇷FR_1121
+  network: ws
+  password: MITIVPN
+  port: 8443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: MiTiVPN---MiTiVPN-7.kingnetwork.ir
+  type: trojan
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
+- name: 🇫🇷FR_169
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.146.153
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: 🇫🇷FR_6
+  network: ws
+  password: humanity
+  port: 443
+  server: www.gossipglove.com
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    path: /assignment

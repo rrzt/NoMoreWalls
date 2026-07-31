@@ -15,7 +15,8 @@ proxies:
       Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
 - alterId: 0
-  name: 🇰🇷KR韩国 147.9KB/s
+  name: 'KR韩国 #4'
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr2.tube-cat.com
@@ -24,7 +25,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'KR韩国(v2clash.blog 2026-7.31更新)... #3'
+- name: 'KR韩国 #3'
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr2.tube-cat.com
@@ -190,7 +192,7 @@ proxies:
   server: 221.139.79.57
   type: ss
 - cipher: aes-256-gcm
-  name: 🇰🇷KR-141.164.45.187-0141 | 0.0...
+  name: ❓Other_49
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 141.164.45.187
@@ -229,31 +231,6 @@ proxies:
   skip-cert-verify: false
   sni: artistic-pigeon.rooster465.autos
   type: trojan
-- delay: 744
-  name: 🇰🇷 KR 985 | ⬇️ 46KB/s
-  password: ''
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: ''
-- name: 🇰🇷 KR 405 | ⬇️ 7KB/s
-  password: ''
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
-  username: ''
-- name: 🇰🇷 KR 833 | ⬇️ 323KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr1.tube-cat.com
-  skip-cert-verify: true
-  sni: rr1.tube-cat.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -311,3 +288,212 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_10
+  network: tcp
+  port: 18967
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 3.39.4.109
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_1
+  network: tcp
+  port: 13672
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: '!!str 48050fab'
+  server: 3.39.4.109
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_17
+  network: tcp
+  port: 443
+  server: 132.145.89.30
+  servername: ako.pagate.top
+  tls: true
+  type: vless
+  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_25
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 141.164.45.187
+  type: ss
+- client-fingerprint: chrome
+  name: 'KR韩国 #2'
+  network: ws
+  port: 11019
+  server: 211.104.99.209
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3ee15a68-9391-470d-b810-29fc663beb28
+  ws-opts:
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+    path: '%2F%40Marisa_kristi'
+- name: 🇰🇷KR_31
+  network: tcp
+  port: 2087
+  server: sw.motorbazan.com
+  tls: false
+  type: vless
+  uuid: 75b38c79-92e3-454b-b98e-52fbd254884d
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_24
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_28
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 141.164.45.187
+  type: ss
+- name: 韩国_3
+  network: ws
+  port: 11019
+  server: 211.104.99.209
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  tls: true
+  type: vless
+  uuid: 3ee15a68-9391-470d-b810-29fc663beb28
+  ws-opts:
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+    path: /@marisa_kristi
+- name: 韩国_2
+  network: ws
+  port: 30021
+  server: 221.158.168.29
+  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+  tls: true
+  type: vless
+  uuid: 781f186d-573c-436c-bda3-969a6e506d95
+  ws-opts:
+    headers:
+      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+    path: /@marisa_kristi
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_23
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 141.164.45.187
+  type: ss
+- client-fingerprint: chrome
+  name: 🇰🇷KR_11
+  network: ws
+  port: 36389
+  server: 183.107.137.157
+  servername: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+  tls: true
+  type: vless
+  uuid: 7185500c-8b9a-49d2-8cbb-765542a49a52
+  ws-opts:
+    headers:
+      Host: woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev
+    path: /@Marisa_kristi
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_18
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_27
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 141.164.45.187
+  type: ss
+- name: 韩国_1
+  password: '!!str 521314'
+  port: 443
+  server: 118.218.10.159
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+- name: 🇰🇷KR_7
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-kr-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-003.fastervpn.world
+  tls: false
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_29
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 141.164.45.187
+  type: ss
+- name: 🇰🇷KR_32
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr2.tube-cat.com
+  skip-cert-verify: true
+  sni: rr2.tube-cat.com
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_26
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_19
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 141.164.45.187
+  type: ss
+- name: 🇰🇷KR_8
+  password: H7mP2xY9kJ4nQ9wR5tF6vB3z
+  port: 443
+  server: vpn-kr-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: 🇰🇷KR_35
+  network: tcp
+  port: 2087
+  server: 178.83.31.31
+  tls: false
+  type: vless
+  uuid: 75b38c79-92e3-454b-b98e-52fbd254884d
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷KR_14
+  network: raw
+  port: 443
+  server: ako.pagate.top
+  servername: ako.pagate.top
+  tls: true
+  type: vless
+  uuid: e6d8d743-a9bc-48c9-be99-8f3cc94d16e1
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_30
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 141.164.45.187
+  type: ss

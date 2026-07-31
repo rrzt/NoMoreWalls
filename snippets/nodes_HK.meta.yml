@@ -15,7 +15,7 @@ proxies:
     headers:
       Host: cE0gedPXwOU6cqoN.v.3dns.vip
     path: /ws-vmess
-- name: HK香港(v2clash.blog 2026-7.31更新)...
+- name: 'HK香港 #3'
   obfs: salamander
   obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
   password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
@@ -23,14 +23,15 @@ proxies:
   server: nas.aizhzo.com
   skip-cert-verify: true
   sni: nas.aizhzo.com
+  tls: false
   type: hysteria2
   udp: true
 - client-fingerprint: firefox
   http-opts:
     path:
     - /
-  name: 'HK香港(v2clash.blog 2026-7.31更新)... #1'
-  network: http
+  name: 'HK香港 #2'
+  network: tcp
   port: 8443
   reality-opts:
     public-key: p9ISfhV0uZpKSgrK_8R6Mm4A01tWdzpKMlFR2TIj81s
@@ -41,22 +42,27 @@ proxies:
   type: vless
   udp: true
   uuid: 4cbefb4d-328c-411d-bf76-780df1082df8
+  ws-opts:
+    headers:
+      Host: wikihow.com
+    path: /
 - alterId: 0
-  name: 🇭🇰HK香港4
+  name: 香港 16
+  network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
   server: 43.199.32.78
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
-- name: '🇭🇰HK香港節點丨yoyapai.com #2'
+- name: '🇭🇰 #1'
   network: ws
   port: 443
   server: 91.193.58.117
   servername: jamph131-1228.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -65,12 +71,12 @@ proxies:
     headers:
       Host: jamph131-1228.pages.dev
     path: Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港節點丨yoyapai.com_1 #2'
+- name: '🇭🇰 #6'
   network: ws
   port: 443
   server: 91.193.58.93
   servername: jamph131-1228.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -79,12 +85,12 @@ proxies:
     headers:
       Host: jamph131-1228.pages.dev
     path: Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港節點丨yoyapai.com_2 #2'
+- name: '🇭🇰 #7'
   network: ws
   port: 443
   server: 91.193.58.195
   servername: jamph131-1228.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -93,12 +99,12 @@ proxies:
     headers:
       Host: jamph131-1228.pages.dev
     path: Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港節點丨yoyapai.com_3 #2'
+- name: '🇭🇰 #5'
   network: ws
   port: 443
   server: 91.193.58.141
   servername: jamph131-1228.pages.dev
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -108,15 +114,16 @@ proxies:
       Host: jamph131-1228.pages.dev
     path: Telegram-WangCai2🇨🇳
 - alterId: 0
-  name: 🇭🇰HK香港3
+  name: 'Node #118'
+  network: tcp
   password: 65fQmPHHbPcBCfvSHt
   port: 443
   server: au-4.tr202605.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: trojan
   udp: true
-- name: '香港丨yoyapai.com_2 #2'
+- name: 'Node #128'
   network: ws
   port: 80
   server: 151.101.77.151
@@ -130,11 +137,12 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
 - alterId: 0
-  name: 🇭🇰HK香港
+  name: 'Node #125'
+  network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
   server: 18.162.155.166
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   tls: true
   type: trojan
@@ -155,7 +163,7 @@ proxies:
     headers:
       Host: speeches-obligations-view-epinions.trycloudflare.com
     path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
-- name: '🇭🇰HK香港丨yoyapai.com #2'
+- name: '🇭🇰 #3'
   network: ws
   port: 80
   server: 91.193.58.243
@@ -168,7 +176,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
     path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_1 #2'
+- name: 🇭🇰
   network: ws
   port: 80
   server: 91.193.58.246
@@ -181,7 +189,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
     path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_2 #2'
+- name: '🇭🇰 #8'
   network: ws
   port: 80
   server: 91.193.58.209
@@ -194,7 +202,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
     path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_3 #2'
+- name: '🇭🇰 #9'
   network: ws
   port: 80
   server: 91.193.58.197
@@ -207,7 +215,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
     path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_4 #2'
+- name: '🇭🇰 #2'
   network: ws
   port: 80
   server: 91.193.58.179
@@ -220,7 +228,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
     path: /pyip=Telegram-WangCai2🇨🇳
-- name: '🇭🇰HK香港丨yoyapai.com_5 #2'
+- name: '🇭🇰 #4'
   network: ws
   port: 80
   server: 91.193.58.42
@@ -350,7 +358,6 @@ proxies:
   type: vmess
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
-  client-fingerprint: chrome
   name: 🇭🇰HK香港6
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -386,7 +393,6 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
-  client-fingerprint: chrome
   name: 'HK_speednode_0005 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -417,7 +423,6 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
-  client-fingerprint: chrome
   name: 'HK_speednode_0006 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -429,7 +434,6 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  client-fingerprint: chrome
   name: 'HK_speednode_0007 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -600,7 +604,8 @@ proxies:
     path: /ws-vmess
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 香港/Hong Kong-2
+  name: 'RU俄罗斯 #1'
+  network: tcp
   port: 40118
   reality-opts:
     public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
@@ -610,11 +615,15 @@ proxies:
   tls: true
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 🇭🇰HK-18.163.180.201-0105 | 40....
+  ws-opts:
+    headers:
+      Host: www.lamer.com.sg
+- name: 🇸🇬SG_37
+  network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 18.163.180.201
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - alterId: 0
@@ -661,35 +670,6 @@ proxies:
   skip-cert-verify: false
   sni: smiling-ray.rooster465.autos
   type: trojan
-- name: 🇭🇰 HK 005 | ⬇️ 34KB/s
-  password: '!!str 111'
-  port: 11211
-  server: 47.243.173.50
-  tls: false
-  type: socks5
-  username: '111'
-- name: 🇭🇰 HK 898 | ⬇️ 45KB/s
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
-- alpn:
-  - h2%2Chttp%2F1.1
-  client-fingerprint: qq
-  name: 🇭🇰 HK 402 | ⬇️ 4MB/s
-  network: xhttp
-  port: 443
-  server: hk.denverpresents.top
-  servername: hk.denverpresents.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
-  xhttp-opts:
-    host: hk.denverpresents.top
-    mode: auto
-    path: /assets/build/_app/immutable/chunks/stream-one/
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -990,3 +970,180 @@ proxies:
     headers:
       host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: web.max.ru
+  name: 香港 11
+  network: grpc
+  port: 444
+  reality-opts:
+    public-key: lxq7uAa7l0ozobBgTRrQIF_aCxDeJqZZFaNv8CFA9TQ
+    short-id: '!!str 8622176789abcdef'
+  server: 85.11.161.8
+  servername: web.max.ru
+  tls: true
+  type: vless
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+- name: 香港 04
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.174
+  skip-cert-verify: true
+  sni: https://t.me/oneclickvpnkeys
+  tls: false
+  type: hysteria2
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 香港 05
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: bjOGTQ4xsiFbyCPM_WzoK53L130rW5vZJtuYDJx_pkM
+    short-id: '!!str aa3c'
+  server: 186.246.21.156
+  servername: deepl.com
+  tls: true
+  type: vless
+  uuid: 17d29827-7cf1-4115-b40d-548e10ec355d
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: HK VLESS-1157
+  network: tcp
+  port: 443
+  server: 212.192.15.191
+  servername: u695099u36cf43b9s298.wagahaha.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 36cf43b9s298.wagahaha.xyz
+    path: ''
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: RU VLESS-237
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: bjOGTQ4xsiFbyCPM_WzoK53L130rW5vZJtuYDJx_pkM
+    short-id: '!!str aa3c'
+  server: billing.netraidly.ru
+  servername: deepl.com
+  tls: true
+  type: vless
+  uuid: 17d29827-7cf1-4115-b40d-548e10ec355d
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: HK VLESS-1160
+  network: tcp
+  port: 443
+  server: s299.freessr.bid
+  servername: u695099u36cf43b9s298.wagahaha.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 36cf43b9s298.wagahaha.xyz
+    path: ''
+- name: 香港 02
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: https://t.me/wangcai2🇨🇳
+  tls: false
+  type: hysteria2
+- name: 香港 14
+  network: tcp
+  password: BxceQaOe
+  port: 11035
+  server: 18.163.122.92
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- name: 香港 15
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 16.163.138.98
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港 18
+  network: tcp
+  port: 21001
+  reality-opts:
+    public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA
+    short-id: '!!str dfa28122'
+  server: fv2026.node2.top
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  uuid: d54c235c-5fc6-401c-ad93-5d0fb1a2c50b
+- name: 香港 03
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 119.246.1.143
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: HK VLESS-1150
+  network: tcp
+  port: 443
+  server: s306.ccgfw.top
+  servername: u695099u36cf43b9s298.wagahaha.xyz
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 36cf43b9s298.wagahaha.xyz
+    path: ''
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: web.max.ru
+  name: 香港 01
+  network: grpc
+  port: 444
+  reality-opts:
+    public-key: lxq7uAa7l0ozobBgTRrQIF_aCxDeJqZZFaNv8CFA9TQ
+    short-id: '!!str 8622176789abcdef'
+  server: hk.vrsvpn.com
+  servername: web.max.ru
+  tls: true
+  type: vless
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 香港 13
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: oc9uweln_cqyaJnlRMnhhhKrGNP7RrYOsuYtaIOIQDE
+    short-id: '!!str 2bc0'
+  server: us2.levikogjgfdd.ir
+  servername: deepl.com
+  tls: true
+  type: vless
+  uuid: 5e3f974b-06fc-4555-907a-6681391b7c17

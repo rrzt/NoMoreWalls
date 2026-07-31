@@ -16,30 +16,33 @@ proxies:
       Host: cE0gedPXwOU6cqoN.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
-  name: 🇭🇰HK香港4
+  name: 香港 16
+  network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
   server: 43.199.32.78
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  name: 🇭🇰HK香港3
+  name: 'Node #118'
+  network: tcp
   password: 65fQmPHHbPcBCfvSHt
   port: 443
   server: au-4.tr202605.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  name: 🇭🇰HK香港
+  name: 'Node #125'
+  network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
   server: 18.162.155.166
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   tls: true
   type: trojan
@@ -177,7 +180,6 @@ proxies:
   type: vmess
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
-  client-fingerprint: chrome
   name: 🇭🇰HK香港6
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -213,7 +215,6 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
-  client-fingerprint: chrome
   name: 'HK_speednode_0005 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -244,7 +245,6 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
-  client-fingerprint: chrome
   name: 'HK_speednode_0006 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -256,7 +256,6 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  client-fingerprint: chrome
   name: 'HK_speednode_0007 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -412,11 +411,12 @@ proxies:
     headers:
       Host: M01c7B2z26DtQGEe.v.3dns.vip
     path: /ws-vmess
-- name: 🇭🇰HK-18.163.180.201-0105 | 40....
+- name: 🇸🇬SG_37
+  network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 18.163.180.201
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - alterId: 0
@@ -763,3 +763,27 @@ proxies:
     headers:
       host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
+- name: 香港 14
+  network: tcp
+  password: BxceQaOe
+  port: 11035
+  server: 18.163.122.92
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- name: 香港 15
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 16.163.138.98
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- name: 香港 03
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 119.246.1.143
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
