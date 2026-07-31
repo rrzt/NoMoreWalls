@@ -311,20 +311,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇯🇵_日本_50
-  port: 10585
-  reality-opts:
-    public-key: lhoXl9e1t-WDwli-STyOSMXJv8ZSNVwU6uVqt1TbhAY
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 191.223.220.115
-  servername: vuejs-jp.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0659abf6-b784-4421-be09-1eea5b703510
 - cipher: aes-128-gcm
   name: 🇯🇵JP_4
   password: shadowsocks

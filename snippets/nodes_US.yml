@@ -1,4 +1,52 @@
 proxies:
+- name: '🇺🇸 美国 CloudFlare节点 2 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.71.213
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇺🇸 美国 CloudFlare节点 3 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '🇺🇸 美国 CloudFlare节点 6 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.131.88
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
+- name: '🇺🇸 美国 CloudFlare节点 7 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.155.209
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
 - alterId: 0
   name: 'US美国 #33'
   network: tcp
@@ -405,54 +453,6 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
-    path: /assignment
-- name: '🇺🇸 美国 CloudFlare节点 2 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.71.213
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '🇺🇸 美国 CloudFlare节点 3 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.111.8
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: '🇺🇸 美国 CloudFlare节点 6 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.131.88
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: /assignment
-- name: '🇺🇸 美国 CloudFlare节点 7 #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.155.209
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
     path: /assignment
 - cipher: chacha20-ietf-poly1305
   name: SS-美国-NF解锁自制剧-ChatGPT-TikTok-Y...
@@ -1077,24 +1077,6 @@ proxies:
     headers:
       Host: e5.808075.xyz
     path: github.com/Alvin9999
-- name: 🇺🇸_美国_33
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20035
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇺🇸_美国_45
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20004
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: oplosgru-c.catcat321.com
-  tls: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-111
   password: XF0klw7870vXn3uQIxe19Q
@@ -1103,28 +1085,6 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: 美國_2
-  network: grpc
-  password: iWnFtzMiac
-  port: 19258
-  server: 205.185.115.223
-  skip-cert-verify: true
-  sni: cloudflare.com
-  type: trojan
-  udp: true
-- name: 美國_3
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 8443
-  server: 172.66.44.230
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: Koma-YT.PAGeS.Dev
-    path: /tro8sFW1S91B6sZrM1?ed=2560
 - name: 🇺🇸 美国 4
   password: Aimer
   port: 2053
@@ -1138,6 +1098,16 @@ proxies:
     headers:
       Host: epge.muarua.filegear-sg.me
     path: /?ed
+- alterId: 2
+  cipher: auto
+  name: '🇨🇳_CN_中国->🇭🇰_HK_中国香港 #1'
+  port: 30809
+  server: v9.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国(yudou789.top 玉豆免费节点)_11
   password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   port: 443
@@ -1187,7 +1157,7 @@ proxies:
   port: 443
   server: 63.180.254.10
   type: ss
-- name: 🇹🇼TW_1|2.7MB/s
+- name: United States_None_trojan_1127
   network: tcp
   password: i99Cef
   port: '28101'
@@ -1196,7 +1166,7 @@ proxies:
   sni: download.windowsupdate.com
   type: trojan
   udp: true
-- name: 🇹🇼TW_2|3.6MB/s
+- name: United States_None_trojan_1128
   network: tcp
   password: i99Cef
   port: '28101'
@@ -2026,7 +1996,7 @@ proxies:
       Host: zxjp-c.tkong.cc
     path: /
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 2 #2'
+  name: '🇺🇸 美国 CloudFlare节点 2 #3'
   network: ws
   password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
   port: 443
@@ -2097,7 +2067,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 #2'
+  name: '🇺🇸 美国 CloudFlare节点 #3'
   network: ws
   port: 443
   server: 104.21.15.36
@@ -2111,7 +2081,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 3 #2'
+  name: '🇺🇸 美国 CloudFlare节点 3 #3'
   network: ws
   port: 8443
   server: 141.101.121.34
@@ -2123,7 +2093,7 @@ proxies:
       Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
     path: /
 - client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 4 #2'
+  name: '🇺🇸 美国 CloudFlare节点 4 #3'
   network: ws
   password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
   port: 443
@@ -2138,7 +2108,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 5 #2'
+  name: '🇺🇸 美国 CloudFlare节点 5 #3'
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -2152,7 +2122,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 6 #2'
+  name: '🇺🇸 美国 CloudFlare节点 6 #3'
   network: ws
   port: 443
   server: hk2.lrzdx.uk
@@ -2280,6 +2250,16 @@ proxies:
     headers:
       host: www.bing.com
     path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
+- alterId: 0
+  name: 🇺🇸US美国5
+  password: BxceQaOe
+  port: 38961
+  server: 16.162.122.119
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: US10
@@ -2559,6 +2539,12 @@ proxies:
   port: 1080
   server: 185.232.22.18
   type: ss
+- name: 美国_127
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  sni: www.multiplydose.com
+  type: trojan
 - cipher: aes-256-gcm
   name: 🇺🇸US_27
   password: faBAoD54k87UJG7

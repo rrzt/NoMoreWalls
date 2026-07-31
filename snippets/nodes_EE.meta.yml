@@ -1,33 +1,4 @@
 proxies:
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 'NL_speednode_0016 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
-    short-id: '!!str 5629431325884ff0'
-  server: eston3.o4ka-internet.com
-  servername: eston3.o4ka-internet.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a03df445-0666-4d61-acde-9705009e409c
-- name: 🇪🇪_爱沙尼亚_252
-  network: ws
-  port: 2053
-  server: 46.36.221.147
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 爱沙尼亚/Estonia

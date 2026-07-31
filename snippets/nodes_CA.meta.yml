@@ -1,4 +1,19 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_140
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
+    short-id: '!!str 250b5976473a'
+  server: 167.17.68.205
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
 - name: 'Node #3'
   network: ws
   port: 8880
@@ -412,21 +427,6 @@ proxies:
     headers:
       host: t1s1.rittbo.kdns.fr
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_140
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
-    short-id: '!!str 250b5976473a'
-  server: 167.17.68.205
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
 - cipher: chacha20-ietf-poly1305
   name: SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-...
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=

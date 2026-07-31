@@ -1,4 +1,19 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '🇬🇧 英国 starcorenode.com #2'
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: WPxQ7LPnJfuchcuNLZNOFqE-dTqOfRIbscUdQS5qsV0
+    short-id: '!!str a1b2c3d4e5f6789a'
+  server: 2.27.15.95
+  servername: amedia-vod.cdnvideo.ru
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b5f03bd3-0c55-416b-8ef9-da02593c1466
 - name: 印度
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -187,42 +202,12 @@ proxies:
     headers:
       host: mTCKUNDiGePwU3uP.v.3dns.vip
     path: /ws-vmess
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '🇬🇧 英国 starcorenode.com #1'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: WPxQ7LPnJfuchcuNLZNOFqE-dTqOfRIbscUdQS5qsV0
-    short-id: '!!str a1b2c3d4e5f6789a'
-  server: 2.27.15.95
-  servername: amedia-vod.cdnvideo.ru
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: b5f03bd3-0c55-416b-8ef9-da02593c1466
 - cipher: chacha20-ietf-poly1305
-  name: gb|87a1|puddincat07@Telegram
+  name: SS-英国-NF解锁自制剧-ChatGPT-TikTok-1...
   password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
   port: 443
   server: 146.19.49.251
   type: ss
-- client-fingerprint: chrome
-  name: 🇬🇧_英国_246
-  network: ws
-  port: 2053
-  server: 57.129.131.165
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
 - name: 🇬🇧GB_86
   network: tcp
   port: 1446
@@ -232,34 +217,6 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
-- name: 🇬🇧GB_2|⬇️1.7MB/s
-  network: ws
-  port: 443
-  server: 173.245.59.121
-  servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 979b6822-d65a-400d-89f8-30391903ac20
-  ws-opts:
-    headers:
-      host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
-    path: /ws
-- name: GBVLESS-110|free-nodes
-  network: ws
-  port: 80
-  server: fuck1.tawanaproxy.online
-  servername: en.tawana.cf.panbehpanel.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c33275fd-a4fa-470d-90e4-55da39d849a8
-  ws-opts:
-    headers:
-      host: en.tawana.cf.panbehpanel.ir
-    path: /
 - alterId: 0
   cipher: auto
   name: 英国(yudou789.top 玉豆免费节点)_43
@@ -411,6 +368,12 @@ proxies:
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.10
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇬🇧GB_20
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
   type: ss
 - cipher: aes-128-gcm
   name: 🇬🇧GB-141.98.101.179-0106 | 21....

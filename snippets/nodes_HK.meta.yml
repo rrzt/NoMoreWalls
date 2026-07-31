@@ -372,122 +372,6 @@ proxies:
       Host: 7timuei1uufoixbf.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
-  name: 🇺🇸US美国5
-  password: BxceQaOe
-  port: 38961
-  server: 16.162.122.119
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'RU俄罗斯 #1'
-  network: tcp
-  port: 40118
-  reality-opts:
-    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
-    short-id: '!!str 5895914d'
-  server: 43.255.156.59
-  servername: www.lamer.com.sg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  ws-opts:
-    headers:
-      Host: www.lamer.com.sg
-- alterId: 0
-  name: 'HK_speednode_0005 #1'
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.167.20.3
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 🇭🇰_香港_142
-  port: 14415
-  reality-opts:
-    public-key: U8qMhMopoDP9qhxcbKuObAGQrCAB_O0bEViDDx9M42E
-    short-id: '!!str 87459b536e92'
-  server: rrr2.892622.xyz
-  servername: web.hkha.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 35aad6cb-b507-4c8c-962d-18ee5b965c30
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇭🇰_香港_145
-  port: 14413
-  reality-opts:
-    public-key: X-7pmY-BGvWb7fr-ASkNAwse47_I-hDe2FWwb2ZxKhE
-    short-id: '!!str 7f0853ada6'
-  server: rrr2.892622.xyz
-  servername: web.hkha.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 35aad6cb-b507-4c8c-962d-18ee5b965c30
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰_香港_146
-  port: 14414
-  reality-opts:
-    public-key: L1ZF4yLaG7x3Z3F2-VzfnKVBLW098b5dl8qMz7Kbm1k
-    short-id: '!!str 003b78f640'
-  server: rrr2.892622.xyz
-  servername: web.hkha.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 35aad6cb-b507-4c8c-962d-18ee5b965c30
-- name: 🇭🇰_香港_185
-  password: 20ddf7dc-26ba-457c-8486-f754664f3087
-  port: 30114
-  server: hk4.moonbase.life
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.microsoft.com
-    path: /home
-- name: '香港_1 #3'
-  network: ws
-  port: 443
-  server: s1.db-link.in
-  servername: dabaihk.webn.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 53cddd30-34a1-32dd-b598-c1c4c8a0f813
-  ws-opts:
-    headers:
-      host: dabaihk.webn.cc
-    path: /db1024a105975707
-- name: '香港_2 #3'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
   name: 🇭🇰HK香港6
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -523,6 +407,17 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
+  name: 'HK_speednode_0005 #2'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 18.167.20.3
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
   name: 🇸🇬SG新加坡
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -542,7 +437,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
-  name: 'HK_speednode_0006 #1'
+  name: 'HK_speednode_0006 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -553,7 +448,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 'HK_speednode_0007 #1'
+  name: 'HK_speednode_0007 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -696,6 +591,22 @@ proxies:
     headers:
       Host: M01c7B2z26DtQGEe.v.3dns.vip
     path: /ws-vmess
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'RU俄罗斯 #1'
+  network: tcp
+  port: 40118
+  reality-opts:
+    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+    short-id: '!!str 5895914d'
+  server: 43.255.156.59
+  servername: www.lamer.com.sg
+  tls: true
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  ws-opts:
+    headers:
+      Host: www.lamer.com.sg
 - name: 🇸🇬SG_37
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -842,6 +753,13 @@ proxies:
     headers:
       Host: cloudgd.coemn.com
     path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  name: 12|🇭🇰 香港6|@ripaojiedian
+  password: cdc48a7a-b618-45af-a831-5afbd686b02f
+  port: 12202
+  server: gg21.hangfengjiasu.com
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   name: 12|🇭🇰 香港7|@ripaojiedian
@@ -1239,6 +1157,21 @@ proxies:
   server: 45.196.201.80
   servername: storage.yandex.net
   skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'HK_speednode_0009 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.215
+  servername: storage.yandex.net
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
