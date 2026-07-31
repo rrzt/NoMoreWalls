@@ -300,9 +300,13 @@ proxies:
   port: '30807'
   server: v10.hdacd.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v10.hdacd.com
+  ws-path: /
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong
@@ -372,7 +376,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-6
+  name: 未知 VMESS-903 | free-nodes - 79...
   network: ws
   port: 443
   server: drbkg16egf3fzlm3.v.3dns.vip
@@ -387,7 +391,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-8
+  name: 未知 VMESS-901 | free-nodes - 17...
   network: ws
   port: 443
   server: 47.83.19.148
@@ -432,7 +436,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-11
+  name: 未知 VMESS-870 | free-nodes - 17...
   network: ws
   port: 443
   server: 47.86.107.119
@@ -511,6 +515,32 @@ proxies:
   skip-cert-verify: false
   sni: smiling-ray.rooster465.autos
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.243.233.149-40
+  network: ws
+  port: 443
+  server: 7timuei1uufoixbf.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-headers:
+    Host: 7timuei1uufoixbf.v.3dns.vip
+  ws-path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK-47.83.207.148-43
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-headers:
+    Host: vah4urdzl3jdx5r2.v.3dns.vip
+  ws-path: /ws-vmess
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -663,6 +693,84 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-967 | free-nodes - 14...
+  network: ws
+  port: 443
+  server: 93ucrn4i0pffuabk.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-973 | free-nodes - 15...
+  network: ws
+  port: 443
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-970 | free-nodes - 14...
+  network: ws
+  port: 443
+  server: m01c7b2z26dtqgee.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: M01c7B2z26DtQGEe.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-975 | free-nodes - 15...
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-968 | free-nodes - 15...
+  network: ws
+  port: 443
+  server: ejomsxptp19apygl.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ejOMsxPtP19APyGL.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-977 | free-nodes - 15...
+  network: ws
+  port: 443
+  server: zudssgtmrqg9lpvi.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: zUDssgTMRqg9LpvI.v.3dns.vip
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: HK 27.1KB/s

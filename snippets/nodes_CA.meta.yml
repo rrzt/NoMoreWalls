@@ -1,13 +1,13 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸US_140
+  name: 🇺🇸US_207
   network: tcp
   port: 443
   reality-opts:
     public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
     short-id: '!!str 250b5976473a'
-  server: 167.17.68.205
+  server: jyvlryz.cvewfjg.shop
   servername: www.cloudflare.com
   skip-cert-verify: false
   tfo: false

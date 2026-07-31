@@ -275,6 +275,36 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '1000'
+  name: 🇩🇪DE_4|1.4MB/s
+  port: 20088
+  protocol: udp
+  server: 5.83.129.153
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: '500'
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪 机场推荐:dafei.de 德国 05
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 07ae141c-b60a-45b8-b7b1-32b1450d5567
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Slackware/Chrome/12.0.742.100 Safari/534.30
+    path: /
+  xudp: true
 - name: 'Node #52'
   network: tcp
   port: 2553
@@ -504,18 +534,6 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /nova-geo-psiphon-de
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: 🇩🇪DE_4|1.4MB/s
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
 - client-fingerprint: chrome
   name: 🇩🇪DE_42
   network: ws
@@ -1364,6 +1382,19 @@ proxies:
   tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  name: 🇩🇪DE_39
+  network: ws
+  port: 8443
+  server: ad-005.vector9nmb3.info
+  servername: ad-005.vector9nmb3.info
+  tls: true
+  type: vless
+  uuid: 2e1eb27b-9b56-40e9-a2f8-b959bc71736e
+  ws-opts:
+    headers:
+      Host: ad-005.vector9nmb3.info
+    path: /
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇩🇪DE_25
