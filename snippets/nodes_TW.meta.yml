@@ -22,6 +22,20 @@ proxies:
   sni: https://t.me/oneclickvpnkeys
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳TW-125.230.80.21-0154 | 0.0M...
+  network: ws
+  port: 2096
+  server: twdx6.baidupi.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: cos.ap-shanghai.myqcloud.com
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -105,6 +119,20 @@ proxies:
   port: 50099
   server: R3MRCG00129437X.cybervena.com
   type: ss
+- name: 🇹🇼TW_6
+  network: tcp
+  port: 10000
+  server: 60.249.101.14
+  tls: false
+  type: vless
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+- name: 🇹🇼TW_14
+  network: tcp
+  port: 10000
+  server: 60.249.101.16
+  tls: false
+  type: vless
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - cipher: chacha20-ietf-poly1305
   name: 🇹🇼TW_11
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4

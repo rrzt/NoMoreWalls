@@ -49,7 +49,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 中国 004
+  name: '香港_2 #2'
   network: ws
   port: 443
   server: 221.204.41.88
@@ -124,6 +124,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: vmess
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
@@ -168,95 +169,16 @@ proxies:
     headers:
       host: zUDssgTMRqg9LpvI.v.3dns.vip
     path: /ws-vmess
-- alterId: 2
-  cipher: auto
-  name: '香港|@ripaojiedian #1'
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-5
-  network: ws
-  port: 443
-  server: 7timuei1uufoixbf.v.3dns.vip
-  servername: 7timuei1uufoixbf.v.3dns.vip
+  name: HK 28.7KB/s
+  network: tcp
+  port: 800
+  server: 47.86.167.194
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 7timuei1uufoixbf.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  name: 🇺🇸US美国5
-  password: BxceQaOe
-  port: 38961
-  server: 16.162.122.119
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  client-fingerprint: chrome
-  name: 'HK_speednode_0005 #2'
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.167.20.3
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇭🇰_香港_185
-  password: 20ddf7dc-26ba-457c-8486-f754664f3087
-  port: 30114
-  server: hk4.moonbase.life
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.microsoft.com
-    path: /home
-- name: '香港_2 #3'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港3|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 52687
-  server: 18.162.54.192
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 6313
-  server: 52.194.222.108
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 6313
-  server: 3.112.196.41
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 0
   client-fingerprint: chrome
   name: 🇭🇰HK香港6
@@ -293,6 +215,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alterId: 0
+  client-fingerprint: chrome
+  name: 'HK_speednode_0005 #2'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 18.167.20.3
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 0
   name: 🇸🇬SG新加坡
   network: tcp
@@ -344,6 +278,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: '香港|@ripaojiedian #1'
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong
@@ -398,7 +342,22 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-903 | free-nodes - 25...
+  name: 香港/香港/Hong Kong/Hong Kong-5
+  network: ws
+  port: 443
+  server: 7timuei1uufoixbf.v.3dns.vip
+  servername: 7timuei1uufoixbf.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 7timuei1uufoixbf.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-903 | free-nodes - 79...
   network: ws
   port: 443
   server: drbkg16egf3fzlm3.v.3dns.vip
@@ -413,7 +372,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-901 | free-nodes - 20...
+  name: 未知 VMESS-901 | free-nodes - 17...
   network: ws
   port: 443
   server: 47.83.19.148
@@ -661,16 +620,6 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
-  cipher: auto
-  name: HK 28.7KB/s
-  network: tcp
-  port: 800
-  server: 47.86.167.194
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- alterId: 0
   name: 🇭🇰HK香港2
   password: BxceQaOe
   port: 27161
@@ -746,6 +695,16 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
+  name: HK8
+  network: tcp
+  port: 8081
+  server: 185.206.171.78
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 450037e8-e9fb-4296-bdf7-213f40b753c1
+- alterId: 0
+  cipher: auto
   name: HK10
   network: ws
   port: 13080
@@ -758,6 +717,16 @@ proxies:
     headers:
       host: 01.appleid.bf
     path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: HK11
+  network: tcp
+  port: 14979
+  server: 38.147.188.239
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2919ef6f-b8d3-49ea-a32d-2f95d346e4cb
 - alterId: 0
   cipher: auto
   name: HK12
