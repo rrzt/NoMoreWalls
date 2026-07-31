@@ -1,7 +1,8 @@
 proxies:
 - alterId: 0
+  client-fingerprint: chrome
   disable-sni: true
-  name: 'DE德国 #12'
+  name: 🇩🇪DE德国3
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -13,7 +14,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   country: 🇺🇸US
-  name: 🇩🇪DE_93
+  name: '🇩🇪DE_1|2.0MB/s #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -106,39 +107,3 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 🇩🇪DE_3
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 185.226.172.8
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_124
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 62.113.194.158
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_111
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.36.133
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪DE_42
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
-  type: ss
-- name: 'DE德国 #14'
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  server: 45.80.111.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
