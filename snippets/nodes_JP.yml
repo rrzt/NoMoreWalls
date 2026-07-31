@@ -1,5 +1,5 @@
 proxies:
-- name: 🇺🇸_美国_48
+- name: 'JP日本(v2clash.blog 2026-7.31更新)... #1'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
@@ -8,7 +8,8 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 🇯🇵JP日本2
+  name: 'JP日本 #3'
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20129
   server: hkdcrtc-e.catcat321.com
@@ -16,7 +17,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 🇺🇸_美国_31
+- name: 'JP日本 #2'
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20035
   server: oplosgru-c.catcat321.com
@@ -78,47 +80,52 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: '日本丨yoyapai.com_3 #2'
+- name: 'Node #70'
+  network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
   server: 54.46.77.161
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
-- name: '日本丨yoyapai.com_4 #2'
+- name: 'Node #119'
+  network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
   server: 18.166.58.27
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
-- name: '日本丨yoyapai.com_5 #2'
+- name: 'Node #90'
+  network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
   server: 95.40.51.248
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
-- name: '日本丨yoyapai.com_6 #2'
+- name: 'Node #147'
+  network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
   server: 35.77.80.32
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
-- name: '日本丨yoyapai.com_7 #2'
+- name: 'Node #116'
+  network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
   server: 18.163.123.229
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   tls: true
   type: trojan
@@ -155,28 +162,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 'JP_speednode_0018 #1'
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 38937
-  server: 3.114.9.167
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇯🇵JP_2|1.9MB/s
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 3.114.9.167
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
 - name: 🇯🇵 日本|@stairnode
   password: BxceQaOe
   port: 3022
@@ -198,6 +183,26 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- client-fingerprint: chrome
+  name: 'JP_speednode_0018 #1'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 38937
+  server: 3.114.9.167
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_2|1.9MB/s
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 40138
+  server: 3.114.9.167
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+  udp: true
 - name: Japan_Tokyo_trojan_1123
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -245,12 +250,6 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
     path: /cctv13.m3u8
-- name: 🇯🇵JP-13.115.71.81-6044 | 19.36...
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  skip-cert-verify: false
-  type: trojan
 - cipher: aes-128-gcm
   name: 🇯🇵JP-149.22.87.240-0113 | 25.1...
   password: shadowsocks
@@ -258,7 +257,7 @@ proxies:
   server: 149.22.87.240
   type: ss
 - cipher: aes-128-gcm
-  name: 🇯🇵JP-149.22.87.241-0114 | 23.4...
+  name: 🇯🇵JP_6
   password: shadowsocks
   port: 443
   server: 149.22.87.241
@@ -487,3 +486,16 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- name: 🇯🇵JP_12
+  network: tcp
+  password: tsuchiya
+  port: 443
+  server: 161.34.39.108
+  sni: aa.ccmusic.jp
+  type: trojan
+- name: 日本_3
+  password: '!!str 521314'
+  port: 2053
+  server: 103.106.228.126
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
