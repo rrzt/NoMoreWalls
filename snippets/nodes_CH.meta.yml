@@ -1,6 +1,7 @@
 proxies:
 - client-fingerprint: chrome
-  name: '瑞士丨yoyapai.com #2'
+  name: 'Node #80'
+  network: tcp
   port: 443
   reality-opts:
     public-key: MK3NN842R-fVl71Rdcn9oLAQNJrd-igvxPaKS_c6928
@@ -14,7 +15,8 @@ proxies:
   uuid: 83989465-4ec6-4dbe-97c6-2779df88d9e0
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇨🇭CH瑞士丨yoyapai.com #2'
+  name: 🇨🇭
+  network: tcp
   port: 8443
   reality-opts:
     public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
@@ -28,7 +30,8 @@ proxies:
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇨🇭CH瑞士丨yoyapai.com_1 #2'
+  name: '🇨🇭 #1'
+  network: tcp
   port: 8443
   reality-opts:
     public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
@@ -42,7 +45,8 @@ proxies:
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇨🇭CH瑞士丨yoyapai.com_2 #2'
+  name: '🇨🇭 #2'
+  network: tcp
   port: 8443
   reality-opts:
     public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY
@@ -54,62 +58,6 @@ proxies:
   type: vless
   udp: true
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- alpn:
-  - h3
-  auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  name: 🇩🇪 DE 274 | ⬇️ 2MB/s
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  skip-cert-verify: true
-  sni: devideo.h2corp.org
-  type: hysteria2
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: neurex
-  name: 🇨🇭 机场推荐:dafei.de 瑞士 02
-  network: grpc
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: 152.233.31.80
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ecc1e369-4aaf-441a-b919-6e7455dd8354
-- client-fingerprint: chrome
-  name: 🇨🇭_瑞士_255
-  network: ws
-  port: 2053
-  server: 185.195.69.119
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇨🇭_瑞士_297
-  network: ws
-  port: 2053
-  server: 45.95.232.18
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -135,7 +83,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-  name: 瑞士/Switzerland
+  name: 🇨🇭CH_10
   network: grpc
   port: 8082
   reality-opts:
@@ -151,3 +99,191 @@ proxies:
   port: 80
   server: 84.17.53.163
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇭CH_5
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 146.70.26.156
+  type: ss
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_19
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 83.228.197.161
+  servername: id.vk.com
+  tls: true
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_18
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 83.228.197.104
+  servername: id.vk.com
+  tls: true
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇭CH_20
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 185.212.170.58
+  type: ss
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_11
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 83.228.197.195
+  servername: id.vk.com
+  tls: true
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_14
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.108.52.82
+  servername: id.vk.com
+  tls: true
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_15
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 195.15.213.66
+  servername: id.vk.com
+  tls: true
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_12
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.108.52.167
+  servername: id.vk.com
+  tls: true
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_8
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 195.15.213.198
+  servername: id.vk.com
+  tls: true
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_17
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 195.15.213.253
+  servername: id.vk.com
+  tls: true
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_9
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 83.228.197.246
+  servername: id.vk.com
+  tls: true
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_13
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 83.228.197.174
+  servername: id.vk.com
+  tls: true
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: neurex
+  name: 🇨🇭CH_21
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 152.233.31.80
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  uuid: ecc1e369-4aaf-441a-b919-6e7455dd8354
+- name: 🇨🇭CH_6
+  network: tcp
+  port: 2087
+  server: swiss.motorbazan.com
+  tls: false
+  type: vless
+  uuid: 75b38c79-92e3-454b-b98e-52fbd254884d
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_16
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 193.108.52.99
+  servername: id.vk.com
+  tls: true
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- name: 🇨🇭CH_3
+  network: tcp
+  password: y3b03zx3tznhyo538p4c
+  port: 53261
+  server: 86.106.84.195
+  skip-cert-verify: true
+  sni: 86.106.84.195
+  type: trojan

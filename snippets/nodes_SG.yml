@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬SG-81.28.13.126-0187 | 0.0MB
+- name: '🇸🇬_SG_新加坡 #6'
   password: FC60532879
   port: 443
   server: resolved-gelding.rooster465.autos
@@ -21,18 +21,6 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- alterId: 0
-  client-fingerprint: chrome
-  name: 🇸🇬SG新加坡
-  network: tcp
-  password: BxceQaOe
-  port: 32434
-  server: 43.198.12.180
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-  udp: true
 - name: 🇸🇬SG_4|⬇️5.1MB/s
   network: ws
   password: a9570330-769d-11ef-90dc-1577c1651679
@@ -44,27 +32,6 @@ proxies:
   udp: true
   ws-opts:
     path: /welcome
-- name: 🇸🇬 新加坡|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4674
-  server: 52.194.222.108
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4674
-  server: 43.207.115.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡3|@stairnode
-  password: BxceQaOe
-  port: 25675
-  server: 16.162.119.43
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 新加坡/新加坡/Singapore/Singapore
@@ -86,7 +53,8 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: 🇸🇬SG-167.150.100.133-0132 | 4....
+- name: 🇸🇬SG_32
+  network: tcp
   password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
   port: 450
   server: 167.150.100.133
@@ -271,18 +239,6 @@ proxies:
   sni: proud-escargot.rooster465.autos
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: 🇸🇬 SG 004 | ⬇️ 14MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)af2501f:110406
-    mode: tls
-  port: 2377
-  server: 13.215.226.240
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31171
@@ -347,4 +303,80 @@ proxies:
   port: 443
   server: 3.36.96.166
   tfo: false
+  type: ss
+- alterId: 0
+  name: 🇸🇬SG_53
+  network: tcp
+  password: BxceQaOe
+  port: 32434
+  server: 43.198.12.180
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇸🇬SG_57
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 43.199.32.78
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇸🇬SG新加坡3
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 48738
+  server: 43.199.32.78
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬SG_48
+  password: H5R7JXdDb5xo3sCdzA7gKjLrnZ0rbSmos8LO40edGZU=
+  port: 17497
+  server: 152.42.243.20
+  type: ss
+- name: 🇸🇬SG_50
+  network: tcp
+  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
+  port: 50573
+  server: 139.59.238.97
+  skip-cert-verify: true
+  sni: 139.59.238.97
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇸🇬SG²_1
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.16
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇸🇬SG_47
+  password: sHh42jRgCUfV
+  port: 8388
+  server: 194.87.10.216
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇸🇬SG_11
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 103.106.229.69
+  type: ss
+- name: 新加坡_3
+  password: '!!str 521314'
+  port: 443
+  server: 116.251.217.65
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬SG_55
+  password: LG9UzkKlO6qf7AHkXzZ3M7L+VZJpPrscFn1N0MXJ5hk=
+  port: 12380
+  server: 157.230.240.128
   type: ss

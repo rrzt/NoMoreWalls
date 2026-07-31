@@ -1,6 +1,7 @@
 proxies:
 - alterId: 0
-  name: 🇬🇧GB英国3 44.4KB/s
+  name: 印度
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20035
   server: oplosgru-c.catcat321.com
@@ -64,7 +65,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '🇬🇧_GB_英国 - undefinedms #1'
+  name: 🇬🇧_GB_英国 - undefinedms
   network: ws
   port: 23140
   server: 5.39.254.196
@@ -86,13 +87,13 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: 英国/United Kingdom-2
+  name: 🇳🇱NL_337
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: pl1.levikogjgfdd.ir
   type: ss
 - cipher: rc4-md5
-  name: 🇬🇧GB-146.70.61.37-0061 | 0.0MB
+  name: 🇬🇧GB_2
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 146.70.61.37
@@ -110,25 +111,25 @@ proxies:
       Host: tjplay.lxdxo.kdns.fr
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.155-0068 | 77.63...
+  name: 🇳🇱NL_178
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.155
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.187-0091 | 73.98...
+  name: 🇳🇱NL_69
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.187
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.35-0076 | 73.538...
+  name: 🇳🇱NL_219
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.35
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.186-0072 | 73.21...
+  name: 🇳🇱NL_74
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.186
@@ -140,55 +141,55 @@ proxies:
   server: 82.38.31.194
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.210-0058 | 71.38...
+  name: 🇳🇱NL_2
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.210
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.36-0066 | 70.514...
+  name: 🇳🇱NL_148
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 82.38.31.36
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.49-0084 | 69.917...
+  name: 🇳🇱NL_149
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.49
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.34-0082 | 69.042...
+  name: 🇳🇱NL_68
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.34
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.184-0081 | 68.87...
+  name: ❓Other_34
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.184
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.202-0065 | 68.65...
+  name: 🇳🇱NL_81
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.202
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.149-0095 | 68.65...
+  name: 🇳🇱NL_177
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.10-0136 | 67.276...
+  name: 🇳🇱NL_160
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.10
   type: ss
 - cipher: aes-256-gcm
-  name: 🇬🇧GB-94.156.250.148-0122 | 25....
+  name: 🇬🇧GB_20
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
@@ -200,37 +201,37 @@ proxies:
   server: 141.98.101.179
   type: ss
 - cipher: aes-128-gcm
-  name: 🇬🇧GB-141.98.101.181-0109 | 20....
+  name: 🇬🇧GB_9
   password: shadowsocks
   port: 443
   server: 141.98.101.181
   type: ss
 - cipher: aes-128-gcm
-  name: 🇬🇧GB-141.98.101.178-0117 | 20....
+  name: 🇬🇧GB_1
   password: shadowsocks
   port: 443
   server: 141.98.101.178
   type: ss
 - cipher: aes-128-gcm
-  name: 🇬🇧GB-141.98.101.182-0112 | 18....
+  name: 🇬🇧GB_10
   password: shadowsocks
   port: 443
   server: 141.98.101.182
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.218-0126 | 5.954...
+  name: ❓Other_5
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.218
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.199-0123 | 4.374...
+  name: 🇳🇱NL_75
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.199
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.219-0130 | 2.571...
+  name: 🇳🇱NL_10
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.219
@@ -260,4 +261,22 @@ proxies:
   password: mps3FwmDjLrWaOVg
   port: 443
   server: series-a2.varzesh360.co
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_65
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 195.12.48.126
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_55
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 188.119.149.27
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_4
+  password: cAqbBYBB0f9CAmpU_mc_7FyvvLCcwzt0
+  port: 8388
+  server: 31.76.80.205
   type: ss

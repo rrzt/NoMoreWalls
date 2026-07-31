@@ -1,19 +1,15 @@
 proxies:
 - alterId: 0
-  disable-sni: true
-  name: 🇩🇪DE德国
+  name: 'DE德国 #10'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: ''
   tls: true
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  country: 🇺🇸US
-  name: '🇭🇰_HK_中国香港->🇩🇪_DE_德国 #1'
+- name: 未知 TROJAN-208
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -86,29 +82,6 @@ proxies:
   server: 145.239.1.100
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪 DE 013 | ⬇️ 10KB/s
-  password: 6iOQhyxpH7i5ptiJe02Z0XbE1BdRwfr0npOJCK6hhy4=
-  port: 51570
-  server: e1.cover20.ir
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- alpn:
-  - http/1.1
-  name: 🇩🇪 DE 658 | ⬇️ 378KB/s
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: undef.network
-  skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: com.digitalposts.dpdns.org
-    path: /bkdicj
-- cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31471
@@ -122,3 +95,79 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_150
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: cctvhikvision.center
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  ws-opts:
+    path: /bkdicj
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_137
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 62.113.194.158
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_6
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_149
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 62.113.194.49
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_156
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.114.133
+  type: ss
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_146
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: hyperon.site
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  ws-opts:
+    path: /bkdicj
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_161
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  ws-opts:
+    path: /bkdicj
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_158
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 62.113.194.157
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_5
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_136
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 62.113.237.3
+  type: ss
