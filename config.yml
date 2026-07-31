@@ -105,7 +105,7 @@ dns:
   nameserver-policy:
     'geosite:googlefcm': 'https://doh.pub/dns-query'
 
-global-client-fingerprint: chrome
+#global-client-fingerprint: chrome
 tcp-concurrent: true
 unified-delay: true
 
