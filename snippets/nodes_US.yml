@@ -1,42 +1,41 @@
 proxies:
-- name: '🇺🇸 美国 CloudFlare节点 2 #2'
+- name: '🇺🇸 美国 CloudFlare节点 #2'
   network: ws
   password: humanity
   port: 443
-  server: www.gossipglove.com
+  server: www.multiplydose.com
   skip-cert-verify: false
-  sni: www.gossipglove.com
+  sni: www.multiplydose.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.gossipglove.com
+      Host: www.multiplydose.com
     path: /assignment
-- name: '🇺🇸 美国 CloudFlare节点 4 #2'
+- name: '🇺🇸 美国 CloudFlare节点 7 #2'
   network: ws
   password: humanity
   port: 443
-  server: 172.64.146.1
+  server: 104.16.71.213
   skip-cert-verify: false
-  sni: www.gossipglove.com
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.gossipglove.com
+      Host: www.calmlunch.com
     path: /assignment
 - alterId: 0
-  name: 'JP日本 #1'
+  name: 🇬🇧GB英国 826.7KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  name: 未知 TROJAN-197
-  network: tcp
+  name: 🇺🇸US美国6
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20120
   server: oplosgru-c.catcat321.com
@@ -46,8 +45,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 'US美国 #51'
-  network: tcp
+  name: 🇺🇸US美国
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20023
   server: oplosgru-c.catcat321.com
@@ -56,7 +54,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 美国_22
+- name: 'US美国(v2clash.blog 2026-7.31更新)... #11'
   password: humanity
   port: 443
   server: 165.215.250.14
@@ -82,8 +80,7 @@ proxies:
     headers:
       Host: www.creationlong.org
     path: /assignment
-- name: 'US美国 #63'
-  network: tcp
+- name: 'JP日本(v2clash.blog 2026-7.31更新)... #10'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20129
   server: hkdcrtc-e.catcat321.com
@@ -93,8 +90,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 未知 TROJAN-198
-  network: tcp
+  name: 🇺🇸US美国2
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr1.tube-cat.com
@@ -228,22 +224,20 @@ proxies:
     headers:
       Host: red-cell-47f9.milaniomilan9.workers.dev
     path: /
-- name: 'Node #83'
-  network: tcp
+- name: '美国丨yoyapai.com_1 #2'
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
   server: 18.166.58.27
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
-- name: 'Node #9'
-  network: tcp
+- name: '美国丨yoyapai.com_2 #2'
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
   server: 18.162.155.166
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   tls: true
   type: trojan
@@ -418,7 +412,7 @@ proxies:
     headers:
       host: www.ignitelimit.com
     path: /assignment
-- name: 🇳🇱NL_166
+- name: 美国(免费节点)_132
   network: ws
   password: humanity
   port: 443
@@ -428,6 +422,8 @@ proxies:
   type: trojan
   udp: true
   ws-opts:
+    headers:
+      host: www.multiplydose.com
     path: /assignment
 - cipher: chacha20-ietf-poly1305
   name: SS-美国-NF解锁自制剧-ChatGPT-TikTok-Y...
@@ -626,6 +622,278 @@ proxies:
     headers:
       HOST: cg1c14.waimaojd.com
     path: /api/v1/graphql
+- name: 美国节点0902 | 1倍率
+  network: tcp
+  password: f035629e-580d-4da5-ac81-c37d417642c7
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 美国节点0903 | 1倍率
+  network: tcp
+  password: f035629e-580d-4da5-ac81-c37d417642c7
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #1'
+  network: tcp
+  password: 04e0deb7-96e2-48dc-a65e-4ef1ffc9ea7f
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #1'
+  network: tcp
+  password: 04e0deb7-96e2-48dc-a65e-4ef1ffc9ea7f
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #2'
+  network: tcp
+  password: a23198af-60df-49fb-b362-1ed5f457a267
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #2'
+  network: tcp
+  password: a23198af-60df-49fb-b362-1ed5f457a267
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #3'
+  network: tcp
+  password: c0181cb3-a790-4ebc-b639-228759ceeefa
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #3'
+  network: tcp
+  password: c0181cb3-a790-4ebc-b639-228759ceeefa
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #4'
+  network: tcp
+  password: 0cbd4244-97f4-4274-9c0c-abcdee04e010
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #4'
+  network: tcp
+  password: 0cbd4244-97f4-4274-9c0c-abcdee04e010
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #5'
+  network: tcp
+  password: 572b0329-f84d-4751-9b2a-8ea7e4605606
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #5'
+  network: tcp
+  password: 572b0329-f84d-4751-9b2a-8ea7e4605606
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #6'
+  network: tcp
+  password: 7e0a1425-f49f-44b5-88c3-e8ccc9883cf6
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #6'
+  network: tcp
+  password: 7e0a1425-f49f-44b5-88c3-e8ccc9883cf6
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #7'
+  network: tcp
+  password: d9d86e64-afe3-401f-b5bc-d6d1666489e5
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #7'
+  network: tcp
+  password: d9d86e64-afe3-401f-b5bc-d6d1666489e5
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #8'
+  network: tcp
+  password: d98ea8e1-ea56-4c2f-8664-e7329a4e3090
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #8'
+  network: tcp
+  password: d98ea8e1-ea56-4c2f-8664-e7329a4e3090
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #9'
+  network: tcp
+  password: e71bc8e5-816e-4ad3-a61b-d6fae18899cc
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #9'
+  network: tcp
+  password: e71bc8e5-816e-4ad3-a61b-d6fae18899cc
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #10'
+  network: tcp
+  password: b71c46ad-84c6-4a1d-91a8-a56c21233c73
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #10'
+  network: tcp
+  password: b71c46ad-84c6-4a1d-91a8-a56c21233c73
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #11'
+  network: tcp
+  password: d39908c5-15c9-4e3e-988b-b3854ebfa45e
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #11'
+  network: tcp
+  password: d39908c5-15c9-4e3e-988b-b3854ebfa45e
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #12'
+  network: tcp
+  password: c5c2c8d6-5d5b-44d0-a452-ad8e5433e7e8
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #12'
+  network: tcp
+  password: c5c2c8d6-5d5b-44d0-a452-ad8e5433e7e8
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #13'
+  network: tcp
+  password: ae917970-de39-4df2-815d-307d523769f6
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #13'
+  network: tcp
+  password: ae917970-de39-4df2-815d-307d523769f6
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #14'
+  network: tcp
+  password: 9615711b-0868-4956-b032-895769d5735c
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #14'
+  network: tcp
+  password: 9615711b-0868-4956-b032-895769d5735c
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #15'
+  network: tcp
+  password: e7d06669-412f-4396-92c2-923485e31818
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #15'
+  network: tcp
+  password: e7d06669-412f-4396-92c2-923485e31818
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #16'
+  network: tcp
+  password: 99b75a4e-eb48-478b-b79c-5efa9e08d348
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #16'
+  network: tcp
+  password: 99b75a4e-eb48-478b-b79c-5efa9e08d348
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: '🇺🇸_US_美国 - undefinedms #1'
@@ -1052,6 +1320,24 @@ proxies:
     headers:
       Host: e5.808075.xyz
     path: github.com/Alvin9999
+- name: 🇺🇸_美国_33
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20035
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇺🇸_美国_45
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: oplosgru-c.catcat321.com
+  tls: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸_US_美国_2
   password: XF0klw7870vXn3uQIxe19Q
@@ -1060,6 +1346,49 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+- name: 美國_2
+  network: grpc
+  password: iWnFtzMiac
+  port: 19258
+  server: 205.185.115.223
+  skip-cert-verify: true
+  sni: cloudflare.com
+  type: trojan
+  udp: true
+- name: 美國_3
+  network: ws
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: Koma-YT.PAGeS.Dev
+    path: /tro8sFW1S91B6sZrM1?ed=2560
+- name: 🇺🇸 美国|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4019
+  server: 43.207.115.26
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国2|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 3057
+  server: 13.231.134.78
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国3|@stairnode
+  password: BxceQaOe
+  port: 23255
+  server: 16.162.122.123
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: 美国(yudou789.top 玉豆免费节点)_12
   password: Aimer
   port: 2053
@@ -1073,16 +1402,6 @@ proxies:
     headers:
       Host: epge.muarua.filegear-sg.me
     path: /?ed
-- alterId: 2
-  cipher: auto
-  name: '🇨🇳_CN_中国->🇭🇰_HK_中国香港 #1'
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 美国(yudou789.top 玉豆免费节点)_11
   password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   port: 443
@@ -1126,12 +1445,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 'tg频道:@ripaojiedian #2'
-  password: amazonskr05
-  port: 443
-  server: 63.180.254.10
-  type: ss
 - name: United States_None_trojan_1116
   network: tcp
   password: BxceQaOe
@@ -1170,8 +1483,7 @@ proxies:
     headers:
       Host: www.multiplydose.com
     path: /assignment
-- name: 🇺🇸US_173
-  network: tcp
+- name: 🇺🇸US-163.245.196.68-0097 | 64....
   password: 0ebb269c9f2d4e8e46b0cd4105a55134
   port: 49361
   server: 163.245.196.68
@@ -1468,31 +1780,31 @@ proxies:
       host: mm3.shabijichang.com
     path: /
 - cipher: aes-128-gcm
-  name: 🇺🇸US_2
+  name: 🇺🇸US-156.146.38.168-0069 | 210...
   password: shadowsocks
   port: 443
   server: 156.146.38.168
   type: ss
 - cipher: aes-128-gcm
-  name: 🇺🇸US_28
+  name: 🇺🇸US-156.146.38.167-0070 | 137...
   password: shadowsocks
   port: 443
   server: 156.146.38.167
   type: ss
 - cipher: aes-128-gcm
-  name: 🇺🇸US_1
+  name: 🇺🇸US-156.146.38.169-0060 | 135...
   password: shadowsocks
   port: 443
   server: 156.146.38.169
   type: ss
 - cipher: aes-128-gcm
-  name: 🇺🇸US_3
+  name: 🇺🇸US-156.146.38.170-0085 | 124...
   password: shadowsocks
   port: 443
   server: 156.146.38.170
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_29
+  name: 🇺🇸US-108.181.0.177-0098 | 93.8...
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.0.177
@@ -1504,7 +1816,7 @@ proxies:
   server: 37.19.198.244
   type: ss
 - cipher: aes-128-gcm
-  name: 🇺🇸US_4
+  name: 🇺🇸US-37.19.198.160-0053 | 78.4...
   password: shadowsocks
   port: 443
   server: 37.19.198.160
@@ -1522,7 +1834,7 @@ proxies:
   server: 173.244.56.6
   type: ss
 - cipher: aes-128-gcm
-  name: 🇺🇸US_126
+  name: 🇺🇸US-173.244.56.9-0102 | 63.82...
   password: shadowsocks
   port: 443
   server: 173.244.56.9
@@ -1556,7 +1868,7 @@ proxies:
       Host: www.52140341.xyz
     path: /
 - cipher: aes-128-gcm
-  name: 🇺🇸US_30
+  name: 🇺🇸US-37.19.198.236-0054 | 0.0M...
   password: shadowsocks
   port: 443
   server: 37.19.198.236
@@ -1651,8 +1963,7 @@ proxies:
   uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
   ws-opts:
     path: /
-- name: 'US美国 #33'
-  network: tcp
+- name: 🇺🇸US-157.254.38.210-0156 | 0.0...
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -1684,7 +1995,7 @@ proxies:
   server: 167.88.63.59
   type: ss
 - cipher: aes-256-cfb
-  name: 🇺🇸US_267
+  name: 🇺🇸US-54.197.30.38-0209 | 0.0MB
   password: amazonskr05
   port: 443
   server: 54.197.30.38
@@ -2082,7 +2393,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 5
+  name: '🇺🇸 美国 CloudFlare节点 5 #3'
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -2096,7 +2407,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 6
+  name: '🇺🇸 美国 CloudFlare节点 6 #3'
   network: ws
   port: 443
   server: hk2.lrzdx.uk
@@ -2576,231 +2887,3 @@ proxies:
   tls: true
   type: vmess
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_334
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 185.232.22.18
-  type: ss
-- name: 🇺🇸US_91
-  network: tcp
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.117
-  skip-cert-verify: true
-  sni: static.rutube.ru
-  type: trojan
-- name: 美国_84
-  password: '!!str 521314'
-  port: 443
-  server: 129.212.239.178
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-- name: 🇺🇸US_32
-  network: tcp
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  sni: 64.94.95.118
-  type: trojan
-- name: 🇺🇸US_348
-  network: tcp
-  password: 9ad83f65a560960e6509b677eb6162c1
-  port: 49271
-  server: 153.75.250.171
-  sni: 153.75.250.171.sslip.io
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇺🇸US_303
-  password: amazonskr05
-  port: 443
-  server: 100.58.124.178
-  type: ss
-- name: 美国_93
-  password: '!!str 521314'
-  port: 443
-  server: 128.199.82.20
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_395
-  password: GyO2pLS8rLplFHIDnWM4XM
-  port: 443
-  server: 104.192.227.164
-  type: ss
-- name: 'US美国 #23'
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  server: 155.46.167.27
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: '%2F'
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_338
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 38.132.118.198
-  type: ss
-- name: 🇺🇸US_31
-  network: tcp
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.114
-  skip-cert-verify: true
-  sni: static.rutube.ru
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇺🇸US_339
-  password: amazonskr05
-  port: 443
-  server: 54.226.105.188
-  type: ss
-- name: 美国_131
-  password: humanity
-  port: 443
-  server: 104.18.152.97
-  sni: www.ignitelimit.com
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_14
-  password: RSo52SbxW40r
-  port: 8388
-  server: 108.181.57.93
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US_27
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 172.245.235.84
-  type: ss
-- name: 🇺🇸US_298
-  network: tcp
-  password: bIsrw94HH7zmhmvmGskKIb4HbmOZdcCR
-  port: 58615
-  server: 148.72.168.35
-  skip-cert-verify: true
-  sni: 148.72.168.35
-  type: trojan
-- name: 美国_127
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  sni: www.multiplydose.com
-  type: trojan
-- name: 美国_128
-  password: '!!str 521314'
-  port: 443
-  server: 103.83.87.111
-  sni: tjplay.lxdxo.kdns.fr
-  type: trojan
-- cipher: rc4-md5
-  name: 🇺🇸US_17
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 138.199.42.68
-  type: ss
-- name: 🇺🇸US_342
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 44766
-  server: dd1.catcat321.com
-  skip-cert-verify: true
-  sni: d.usj1.cat.bilibili.com
-  type: trojan
-- name: 'US美国 #59'
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  server: 155.46.167.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: 'US美国 #75'
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_336
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 185.247.68.94
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸US_269
-  password: amazonskr05
-  port: 443
-  server: 34.207.112.128
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_337
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 146.70.34.226
-  type: ss
-- name: 🇺🇸US_294
-  network: tcp
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.115
-  skip-cert-verify: true
-  sni: static.rutube.ru
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_366
-  password: nPyE8V1H7+3HxpeTRXmFDZba1loveHpHu3uA06oecuo=
-  port: 56985
-  server: e3.cover20.ir
-  type: ss
-- name: 美国_132
-  password: humanity
-  port: 443
-  server: 172.66.44.211
-  sni: www.multiplydose.com
-  type: trojan
-- name: 'US美国 #84'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.gossipglove.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.gossipglove.com
-    path: '%2Fassignment'
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_310
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 37.120.139.234
-  type: ss
-- name: '美國+ #2'
-  network: ws
-  password: 9c521e24-7326-acd3-acec-d0afac2b465d
-  port: 8080
-  server: 104.25.108.147
-  skip-cert-verify: false
-  sni: red-cell-47f9.milaniomilan9.workers.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: red-cell-47f9.milaniomilan9.workers.dev
-    path: /

@@ -1,13 +1,8 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 🇸🇪SE_18
+  name: SE-13.53.198.63-0394 | 22.25MB
   password: amazonskr05
   port: 443
   server: 13.53.198.63
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇸🇪SE_17
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 185.117.88.9
-  type: ss
+  udp: true
