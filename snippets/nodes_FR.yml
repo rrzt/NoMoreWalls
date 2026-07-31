@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'JP日本(v2clash.blog 2026-7.31更新)... #3'
+  name: 🇫🇷_法国_192
   network: ws
   port: 55009
   server: 2001:bc8:32d7:225::3
@@ -97,7 +97,7 @@ proxies:
       Host: www.98272029.xyz
     path: /
 - cipher: aes-256-gcm
-  name: 🇫🇷FR-54.36.174.181-0183 | 0.0M...
+  name: 🇫🇷FR-54.36.174.181-0170 | 0.0M...
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 54.36.174.181

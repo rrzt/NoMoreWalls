@@ -1,5 +1,5 @@
 proxies:
-- name: 'JP日本(v2clash.blog 2026-7.31更新)... #1'
+- name: 🇺🇸_美国_48
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
@@ -7,7 +7,8 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 'JP日本(v2clash.blog 2026-7.31更新)... #2'
+- alterId: 0
+  name: 🇯🇵JP日本2
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20129
   server: hkdcrtc-e.catcat321.com
@@ -15,7 +16,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 印度(v2clash.blog 2026-7.31更新)_2
+- name: 🇺🇸_美国_31
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20035
   server: oplosgru-c.catcat321.com
@@ -33,7 +34,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 🇯🇵JP日本7
+  name: 🇯🇵JP日本
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -44,7 +45,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
-  name: 🇯🇵JP日本5
+  name: 🇯🇵JP日本4
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
@@ -77,8 +78,7 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- alterId: 0
-  name: 🇯🇵JP日本2
+- name: '日本丨yoyapai.com_3 #2'
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
   server: 54.46.77.161
@@ -87,8 +87,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  name: 🇯🇵JP日本
+- name: '日本丨yoyapai.com_4 #2'
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
   server: 18.166.58.27
@@ -97,8 +96,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  name: 🇯🇵JP日本4
+- name: '日本丨yoyapai.com_5 #2'
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 38937
   server: 95.40.51.248
@@ -107,8 +105,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  name: 🇯🇵JP日本3
+- name: '日本丨yoyapai.com_6 #2'
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
   server: 35.77.80.32
@@ -158,19 +155,46 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '日本2|@ripaojiedian #1'
+- client-fingerprint: chrome
+  name: 'JP_speednode_0018 #1'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
   server: 3.114.9.167
   skip-cert-verify: false
   sni: www.nintendogames.net
+  tls: true
   type: trojan
-- name: '🇯🇵JP_1|5.4MB/s #1'
+  udp: true
+- client-fingerprint: chrome
+  name: 🇯🇵JP_2|1.9MB/s
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
   server: 3.114.9.167
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇯🇵 日本|@stairnode
+  password: BxceQaOe
+  port: 3022
+  server: 52.194.222.108
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 🇯🇵 日本2|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4937
+  server: 13.231.134.78
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇯🇵 日本3|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 9201
+  server: 43.207.115.26
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -182,7 +206,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: aes-128-gcm
-  name: 🇯🇵JP-149.22.87.204-0096 | 0.52...
+  name: 🇯🇵JP-149.22.87.204-0111 | 24.7...
   password: shadowsocks
   port: 443
   server: 149.22.87.204
@@ -221,14 +245,27 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
     path: /cctv13.m3u8
-- name: 日本/东京/Japan/Tokyo-3
+- name: 🇯🇵JP-13.115.71.81-6044 | 19.36...
   password: d050aca3-9df2-4461-90ec-92373c1d7636
   port: 44184
   server: v2jp.k1.ssnss.live
+  skip-cert-verify: false
   type: trojan
+- cipher: aes-128-gcm
+  name: 🇯🇵JP-149.22.87.240-0113 | 25.1...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇯🇵JP-149.22.87.241-0114 | 23.4...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP-172.111.146.64-6050 | 3.6...
+  name: 🇯🇵JP-172.111.146.64-0159 | 0.0...
   network: ws
   port: 80
   server: 172.111.146.64
@@ -238,21 +275,15 @@ proxies:
   uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
   ws-opts:
     path: /
-- cipher: aes-128-gcm
-  name: 🇯🇵JP-149.22.87.240-0095 | 0.55...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵JP-149.22.87.241-0097 | 0.54...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.241
+- cipher: chacha20-ietf-poly1305
+  name: 🇯🇵JP-185.172.113.101-0026 | 0....
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 185.172.113.101
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP-140.83.51.161-0119 | 0.0M...
+  name: 🇯🇵JP-140.83.51.161-0158 | 0.0M...
   network: ws
   port: 25686
   server: 140.83.51.161
@@ -264,12 +295,6 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵JP-185.172.113.101-0026 | 0....
-  password: G!yBwPWH3Vao
-  port: 810
-  server: 185.172.113.101
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵日本 01 | 1x JP
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -453,7 +478,7 @@ proxies:
   type: vmess
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
 - alterId: 0
-  name: 🇯🇵JP日本6
+  name: 🇯🇵JP日本3
   password: BxceQaOe
   port: 41421
   server: 54.46.46.228

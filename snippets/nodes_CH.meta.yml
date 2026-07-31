@@ -56,6 +56,75 @@ proxies:
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - alpn:
   - h3
+  auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  name: 🇩🇪 DE 274 | ⬇️ 2MB/s
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  skip-cert-verify: true
+  sni: devideo.h2corp.org
+  type: hysteria2
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: neurex
+  name: 🇨🇭 机场推荐:dafei.de 瑞士 02
+  network: grpc
+  port: 16923
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 152.233.31.80
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecc1e369-4aaf-441a-b919-6e7455dd8354
+- client-fingerprint: firefox
+  name: 🇨🇭_瑞士_99
+  port: 443
+  reality-opts:
+    public-key: a28gKquRbugXlI13fv5HeiiZ2yTPrqtQfNFqcAiHE1I
+    short-id: '!!str 76f547961a8ca082'
+  server: 138.124.60.95
+  servername: api.max.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f93f3eb-8ff2-4da4-837b-8a333c281ff3
+- client-fingerprint: chrome
+  name: 🇨🇭_瑞士_255
+  network: ws
+  port: 2053
+  server: 185.195.69.119
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇨🇭_瑞士_297
+  network: ws
+  port: 2053
+  server: 45.95.232.18
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- alpn:
+  - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'

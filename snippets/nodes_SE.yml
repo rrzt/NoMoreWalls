@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: SE_speednode_0093
+  name: SE-13.53.198.63-0394 | 22.25MB
   password: amazonskr05
   port: 443
   server: 13.53.198.63

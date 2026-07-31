@@ -1,8 +1,7 @@
 proxies:
 - alterId: 0
-  client-fingerprint: chrome
   disable-sni: true
-  name: 🇩🇪DE德国3
+  name: 🇩🇪DE德国
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -14,10 +13,10 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   country: 🇺🇸US
-  name: '🇩🇪DE_1|2.0MB/s #1'
+  name: 🇩🇪DE_2|1.7MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
+  port: '20041'
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: de.catxstar.com
@@ -54,10 +53,36 @@ proxies:
   port: 7001
   server: 145.239.1.100
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-194.87.105.162-0146 | 0.0...
+  network: ws
+  port: 443
+  server: jeffptrade.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b86f3b55-04dd-532b-3a05-11d9ebd42604
+  ws-opts:
+    headers:
+      Host: jeffptrade.com
+    path: /
 - cipher: aes-256-gcm
-  name: 🇩🇪DE-145.239.1.100-0185 | 0.0M...
+  name: 🇩🇪DE-145.239.1.100-0171 | 0.0M...
   password: kDWvXYZoTBcGkC4
   port: 8881
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE-145.239.1.100-0174 | 0.0M...
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE-145.239.1.100-0176 | 0.0M...
+  password: KixLvKzwjekG00rm
+  port: 8000
   server: 145.239.1.100
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -96,14 +121,4 @@ proxies:
   port: 36471
   server: free.2weradf.xyz
   type: ss
-  udp: true
-- alterId: 0
-  name: 🇩🇪DE德国
-  password: '!!str 521314'
-  port: 443
-  server: 45.80.111.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
-  tls: true
-  type: trojan
   udp: true

@@ -1,17 +1,4 @@
 proxies:
-- name: '🇩🇪 德国 starcorenode.com #2'
-  network: ws
-  port: 80
-  server: 91.206.71.8
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
-  ws-opts:
-    headers:
-      Host: round-haze-8783.294.workers.dev
-    path: /pyip=Telegram🇨🇳+@WangCai2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 德国+V2CROSS.COM
@@ -26,7 +13,7 @@ proxies:
   type: vless
   uuid: 59eefc04-b831-45cf-8d68-63ca23381171
 - client-fingerprint: chrome
-  name: '🇩🇪_DE_德国->🇫🇮_FI_芬兰 #2'
+  name: 'DE_speednode_0006 #1'
   network: ws
   packet-encoding: xudp
   port: 2053
@@ -54,10 +41,25 @@ proxies:
   type: vless
   udp: true
   uuid: efc9ffd0-aff8-4f3a-b0f9-1c1777a4e2c4
+- client-fingerprint: chrome
+  name: 🇫🇮 FI 650 | ⬇️ 15KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 2053
+  server: 195.133.94.188
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
 - alterId: 0
-  client-fingerprint: chrome
   disable-sni: true
-  name: 🇩🇪DE德国3
+  name: 🇩🇪DE德国
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -85,10 +87,10 @@ proxies:
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - client-fingerprint: chrome
   country: 🇺🇸US
-  name: '🇩🇪DE_1|2.0MB/s #1'
+  name: 🇩🇪DE_2|1.7MB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
+  port: '20041'
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: de.catxstar.com
@@ -248,6 +250,268 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 🇩🇪 机场推荐:dafei.de 德国 04
+  network: tcp
+  port: 443
+  server: 203.23.179.151
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇩🇪 机场推荐:dafei.de 德国 06
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vqx7me-oxAZmYOQbuxy5qRsGyAD0Vdmsn3gEMYFIjHQ
+  server: norwselfst.5gvpn.pw
+  servername: norwselfst.5gvpn.pw
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f96e98-f83f-48d0-9cd0-f31e8071f67f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪 机场推荐:dafei.de 德国 07
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6wEcjCOgl-LIN9otQ_UJgRQYLFlnKTEjdYnnqjj5cRY
+    short-id: '!!str 911debda80e7b51b'
+  server: 83.243.86.135
+  servername: kinopoisk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a852c438-b983-46ce-a789-53c70d426505
+- client-fingerprint: firefox
+  encryption: none
+  name: 'GB_speednode_0009 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: agZZLk3GNH8CME1dobmtO1UwIrXYL-WrEuLREy_EqnA
+    short-id: '!!str aefe467c7b22f190'
+  server: 31.76.249.31
+  servername: cdn.shopify.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f93f3eb-8ff2-4da4-837b-8a333c281ff3
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪_德国_51
+  port: 443
+  reality-opts:
+    public-key: x8AqgiU2yHx67Yv2opPUV17wRjAz1ftFtVi2CcVup10
+    short-id: '!!str e132826d'
+  server: 94.249.187.223
+  servername: api.led.samsung.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: da0f3291-c93e-4a19-b3f2-d150aad828ed
+- name: 🇩🇪_德国_82
+  port: 49518
+  server: 49.12.130.109
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇩🇪_德国_149
+  port: 443
+  reality-opts:
+    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
+  server: 94.249.225.84
+  servername: grand-lynx.cdn.cachefleet.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_238
+  network: ws
+  port: 2053
+  server: 5.178.106.61
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_166
+  network: ws
+  port: 2053
+  server: 147.45.197.233
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_168
+  network: ws
+  port: 2053
+  server: 217.144.190.14
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_175
+  network: ws
+  port: 2053
+  server: 78.47.203.106
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_259
+  network: ws
+  port: 2053
+  server: 94.159.96.182
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_231
+  network: ws
+  port: 2053
+  server: 92.119.90.67
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_220
+  network: ws
+  port: 2053
+  server: 82.117.245.166
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- name: 🇩🇪_德国_184
+  network: ws
+  port: 58500
+  server: 176.124.221.208
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: aa259670-7dbd-44d2-be2b-f8bdbf202c82
+  ws-opts:
+    path: /free
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_243
+  network: ws
+  port: 2053
+  server: 57.129.47.56
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_256
+  network: ws
+  port: 2053
+  server: 91.99.193.84
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇩🇪_德国_293
+  network: ws
+  port: 2053
+  server: 82.117.245.125
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- name: 🇩🇪_德国_298
+  network: ws
+  port: 58500
+  server: 176.124.221.208
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c19cbde1-4177-4dc5-9e2f-cbae45f5dbc1
+  ws-opts:
+    path: /free
 - name: 🇮🇳_IN_印度->🇩🇪_DE_德国
   port: 2553
   server: 195.21.129.117
@@ -256,6 +520,115 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
+- flow: xtls-rprx-vision
+  name: 德國
+  network: tcp
+  port: 443
+  server: fra-0001-xr.packet-drop-society.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: ba77276e-9939-4c6c-a73e-90e02b6faf13
+- flow: xtls-rprx-vision
+  name: DEVLESS-60|free-nodes
+  network: tcp
+  port: 350
+  server: iar.blackhoster.com
+  servername: excoino.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 79a48cba-4a44-4a5c-bfa9-64a53379df2c
+- name: 官网520.juanwangjc.top德国免费使用-03
+  network: ws
+  port: 2083
+  server: v3.dabache.top
+  servername: hajames.amirconfigpaanelllll.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c805b05e-339d-40e0-8787-432d97a27345
+  ws-opts:
+    headers:
+      host: hajames.amirconfigpaanelllll.com
+    path: /
+- name: 🇩🇪DE_6|⬇️4.3MB/s
+  network: ws
+  port: 2053
+  server: 172.64.152.23
+  servername: hz.badomzamini.uk
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
+  ws-opts:
+    headers:
+      host: hz.badomzamini.uk
+    path: /latest?ed=2560
+- name: 🇩🇪DE_13|⬇️5.6MB/s
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+    path: /ws
+- flow: xtls-rprx-vision
+  name: 🇩🇪DE_9|⬇️3.5MB/s
+  network: tcp
+  port: 443
+  server: 178.17.50.111
+  servername: ads.x5.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 36f6f998-029e-48e2-ba30-24e2a8159075
+- name: 🇩🇪DE_5|⬇️4.2MB/s
+  network: tcp
+  port: 443
+  server: 0ru84.tcpdoor.net
+  servername: 0ru84.tcpdoor.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
+- name: 🇩🇪DE_8|⬇️4.8MB/s
+  network: tcp
+  port: 443
+  server: decdn13.suio.me
+  servername: decdn13.suio.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+- name: DEVLESS-42|free-nodes
+  network: ws
+  port: 2052
+  server: nx.cloud1.hosting-ip.zulagaming.icu
+  servername: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1f00970a-14c1-40d0-9c06-43f513975be1
+  ws-opts:
+    headers:
+      host: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
+    path: /
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -378,31 +751,42 @@ proxies:
   skip-cert-verify: true
   sni: www.refersion.com
   type: hysteria2
-- name: 'US_speednode_0101 #1'
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: www.true.th
-  servername: d2pwbkmfr5lxa4.cloudfront.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
-  ws-opts:
-    headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
-    path: /
 - cipher: aes-256-gcm
   name: 🇩🇪DE-145.239.1.100-0029 | 0.0M...
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 145.239.1.100
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-194.87.105.162-0146 | 0.0...
+  network: ws
+  port: 443
+  server: jeffptrade.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b86f3b55-04dd-532b-3a05-11d9ebd42604
+  ws-opts:
+    headers:
+      Host: jeffptrade.com
+    path: /
 - cipher: aes-256-gcm
-  name: 🇩🇪DE-145.239.1.100-0185 | 0.0M...
+  name: 🇩🇪DE-145.239.1.100-0171 | 0.0M...
   password: kDWvXYZoTBcGkC4
   port: 8881
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE-145.239.1.100-0174 | 0.0M...
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE-145.239.1.100-0176 | 0.0M...
+  password: KixLvKzwjekG00rm
+  port: 8000
   server: 145.239.1.100
   type: ss
 - encryption: none
@@ -472,16 +856,6 @@ proxies:
     max-early-data: 2560
     path: /websocket
 - alpn:
-  - h3
-  auth: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  name: 🇩🇪 DE 274 | ⬇️ 2MB/s
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  skip-cert-verify: true
-  sni: devideo.h2corp.org
-  type: hysteria2
-- alpn:
   - http/1.1
   name: 🇩🇪 DE 658 | ⬇️ 378KB/s
   network: ws
@@ -510,79 +884,35 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|2.0MB/s
-  network: ws
-  port: '443'
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 957797d5-1710-4e4a-bf41-9f5b641503e3
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: ''
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|1.5MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
-    short-id: '!!str '
-  server: 94.249.225.41
-  servername: grand-lynx.cdn.cachefleet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_5|2.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc
-    short-id: '!!str '
-  server: 94.249.225.84
-  servername: grand-lynx.cdn.cachefleet.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_6|2.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: x8AqgiU2yHx67Yv2opPUV17wRjAz1ftFtVi2CcVup10
-    short-id: '!!str e132826d'
-  server: 77.90.61.47
-  servername: api.led.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: da0f3291-c93e-4a19-b3f2-d150aad828ed
-  xudp: true
-- alterId: 0
-  name: 🇩🇪DE德国
-  password: '!!str 521314'
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 🇩🇪DE_1|2.4MB/s
+  network: xhttp
   port: 443
-  server: 45.80.111.27
-  skip-cert-verify: true
-  sni: hhtj.hhllfly.kdns.fr
+  server: nl29.abvpn.net
+  servername: nl29.abvpn.net
   tls: true
-  type: trojan
+  type: vless
   udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xhttp-opts:
+    host: nl29.abvpn.net
+    mode: auto
+    path: /xhttp/
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|2.4MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: sntQ0HsOXhaye-K7bKrMw1w3cRmjgp0lT5IhP-ngwlU
+    short-id: '!!str 998432bc'
+  server: 103.88.241.176
+  servername: userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9cddcc01-3dfb-46e0-85d8-e3c6818232cf
+  xudp: true
