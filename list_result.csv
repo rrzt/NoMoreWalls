@@ -1,9 +1,9 @@
 序号,链接,节点数
 0,https://clashgithub.com/wp-content/uploads/rss/20260801.yml,0
-1,https://clashstair.cczzuu.top/node/20260801.yaml,14
+1,https://clashstair.cczzuu.top/node/20260801.yaml,11
 2,https://free.datiya.com/uploads/20260801-clash.yaml,0
-3,https://jichangx.com/nodes/v2ray-20260731-01,10
-4,https://jichangx.com/nodes/v2ray-20260731-02,1185
+3,https://jichangx.com/nodes/v2ray-20260801-01,10
+4,https://jichangx.com/nodes/v2ray-20260801-02,0
 5,https://mm.mibei77.com/202607/0730Clashikw.yaml,197
 6,https://node.clashnode.cc/uploads/2026/08/0-20260801.yaml,308
 7,https://node.clashnode.cc/uploads/2026/08/1-20260801.yaml,183
@@ -12,7 +12,7 @@
 10,https://node.clashnode.cc/uploads/2026/08/4-20260801.yaml,0
 11,https://node.freeclashnode.com/uploads/2026/08/0-20260801.yaml,308
 12,https://node.freeclashnode.com/uploads/2026/08/1-20260801.yaml,183
-13,https://node.freeclashnode.com/uploads/2026/08/2-20260801.yaml,0
+13,https://node.freeclashnode.com/uploads/2026/08/2-20260801.yaml,2042
 14,https://node.freeclashnode.com/uploads/2026/08/3-20260801.yaml,24
 15,https://node.freeclashnode.com/uploads/2026/08/4-20260801.yaml,0
 16,https://node.freev2raynode.com/uploads/2026/08/0-20260801.yaml,308
@@ -24,10 +24,10 @@
 22,https://oss.oneclash.cc/2026/7/20260730.yaml,0
 23,https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260801.yml,1228
 24,https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/7/20260731.yaml,219
-25,https://stairnode.cczzuu.top/node/20260801.yaml,14
+25,https://stairnode.cczzuu.top/node/20260801.yaml,11
 26,https://static.v2rayshare.net/2026/08/20260801.yaml,20
 27,https://v2clash.blog/Link/20260731-clash.yaml,197
-28,https://wanzhuanmi.cczzuu.top/node/20260801.yaml,14
+28,https://wanzhuanmi.cczzuu.top/node/20260801.yaml,11
 29,https://cdn.jsdelivr.net/gh/vxiaov/free_proxies@main/clash/clash.provider.yaml,28
 30,https://fn03.fn0618.xyz/nodes/0339675542cb92dad7c2aa45b7ed2577,0
 31,https://fn03.fn0618.xyz/nodes/0c9fc7984c4693ab905cd15b7e431661,0
@@ -76,7 +76,7 @@
 74,https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml,201
 75,https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml,0
 76,https://raw.githubusercontent.com/ovmvo/FreeSub/refs/heads/main/sub/permanent/mihomo.yaml,1005
-77,https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml,29
+77,https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml,34
 78,https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash,14
 79,https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub,14
 80,https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/combine.yaml,187
@@ -94,4 +94,4 @@
 92,https://tt.vg/freeclash,0
 93,https://www.xrayvip.com/free.yaml,0
 
-总计,,3875
+总计,,4037

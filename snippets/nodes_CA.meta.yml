@@ -586,19 +586,6 @@ proxies:
     headers:
       Host: ad-013.pixel9xdmq.info
     path: /
-- client-fingerprint: chrome
-  name: 🇨🇦CA_16
-  network: ws
-  port: 8443
-  server: ad-013.orbitqgr7v.info
-  servername: ad-013.orbitqgr7v.info
-  tls: true
-  type: vless
-  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
-  ws-opts:
-    headers:
-      Host: ad-013.orbitqgr7v.info
-    path: /
 - alpn:
   - h2
   - http/1.1

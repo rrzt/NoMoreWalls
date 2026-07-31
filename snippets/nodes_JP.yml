@@ -172,7 +172,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - 541ms
+  name: 🇯🇵_JP_日本->🇸🇬_SG_新加坡 - 431ms
   network: tcp
   port: 30845
   server: v45.hdacd.com
@@ -503,6 +503,19 @@ proxies:
   tls: false
   type: vmess
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 日本(免费节点)_1 - 71ms
+  network: ws
+  port: 443
+  server: yg1.ygkkk.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
+  ws-opts:
+    headers:
+      Host: blogging-responsibility-recruiting-most.trycloudflare.com
+    path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
 - alterId: 0
   name: 🇯🇵JP日本5
   password: BxceQaOe

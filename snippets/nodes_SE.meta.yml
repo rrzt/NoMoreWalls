@@ -83,12 +83,55 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
+- name: 🇸🇪SE_3|⬇️3.2MB/s
+  network: tcp
+  port: 443
+  server: secdn17.suio.me
+  servername: secdn17.suio.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+- grpc-opts:
+    grpc-service-name: JNIR
+  name: 未知VLESS-49|free-nodes
+  network: grpc
+  port: 504
+  server: dd.openaccessnode.com
+  servername: nobitex.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
 - cipher: aes-256-cfb
   name: 🇸🇪SE_14
   password: amazonskr05
   port: 443
   server: 13.53.198.63
   type: ss
+- cipher: aes-256-cfb
+  name: '🇸🇪SE_2|2.5MB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 16.171.242.243
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '🇸🇪SE_3|3.6MB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 13.53.38.71
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '🇸🇪SE_4|2.2MB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 13.62.20.75
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   encryption: none
   name: 🇸🇪SE_5|3.1MB/s
@@ -104,27 +147,6 @@ proxies:
   udp: true
   uuid: 6651246a-d9d8-4428-b255-45a659c31cf5
   xudp: true
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_2|2.5MB/s
-  password: amazonskr05
-  port: 443
-  server: 16.171.242.243
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_3|3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.53.38.71
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_4|2.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.62.20.75
-  type: ss
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇪SE_6

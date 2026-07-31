@@ -1,19 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: NL荷兰(v2clash.blog 2026-7.31更新)
-  network: ws
-  port: 2053
-  server: 188.227.86.123
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
 - name: 美国_122
   network: ws
   port: 4100
@@ -231,6 +216,26 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- flow: xtls-rprx-vision
+  name: 🇸🇪SE_1|⬇️2.7MB/s
+  network: tcp
+  port: 443
+  server: 176.125.240.166
+  servername: apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: RUVLESS-51|free-nodes
+  network: tcp
+  port: 10468
+  server: 185.113.10.198
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
 - name: 俄罗斯联邦/莫斯科/Russia/Moscow
   network: ws
   port: 4100

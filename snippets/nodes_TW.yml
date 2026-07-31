@@ -43,6 +43,16 @@ proxies:
     headers:
       Host: cos.ap-shanghai.myqcloud.com
     path: /
+- client-fingerprint: chrome
+  name: '🇹🇼TW_1|1020KB/s #1'
+  network: tcp
+  password: i99Cef
+  port: '28101'
+  server: 209.248.32.116
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -114,16 +124,6 @@ proxies:
     headers:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
-- client-fingerprint: chrome
-  name: 🇹🇼TW_1|1020KB/s
-  network: tcp
-  password: i99Cef
-  port: '28101'
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇹🇼TW_9
   password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
