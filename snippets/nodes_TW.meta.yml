@@ -1,6 +1,6 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 未知 SS-13
+  name: 🇨🇳TW-36.224.191.247-0121 | 5.5...
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg001286ek2.cybervena.com
@@ -14,13 +14,12 @@ proxies:
   skip-cert-verify: true
   sni: vpn-tw-002.fastervpn.world
   type: hysteria2
-- name: 🇹🇼TW_1
+- name: 台湾/台北市/Taiwan/Taipei-3
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 103.115.109.49
   skip-cert-verify: true
   sni: https://t.me/oneclickvpnkeys
-  tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
@@ -107,35 +106,3 @@ proxies:
     headers:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_9
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_5
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: R3MRCG00129437X.cybervena.com
-  type: ss
-- name: 🇹🇼TW_6
-  network: tcp
-  port: 10000
-  server: 60.249.101.14
-  tls: false
-  type: vless
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: 🇹🇼TW_14
-  network: tcp
-  port: 10000
-  server: 60.249.101.16
-  tls: false
-  type: vless
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_11
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 61.231.49.122
-  type: ss

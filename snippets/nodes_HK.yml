@@ -16,33 +16,30 @@ proxies:
       Host: cE0gedPXwOU6cqoN.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
-  name: 香港 16
-  network: tcp
+  name: 🇭🇰HK香港4
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
   server: 43.199.32.78
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  name: 'Node #118'
-  network: tcp
+  name: 🇭🇰HK香港3
   password: 65fQmPHHbPcBCfvSHt
   port: 443
   server: au-4.tr202605.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  name: 'Node #125'
-  network: tcp
+  name: 🇭🇰HK香港
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
   server: 18.162.155.166
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   tls: true
   type: trojan
@@ -357,7 +354,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-903 | free-nodes - 79...
+  name: 香港/香港/Hong Kong/Hong Kong-6
   network: ws
   port: 443
   server: drbkg16egf3fzlm3.v.3dns.vip
@@ -372,7 +369,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-901 | free-nodes - 17...
+  name: 香港/香港/Hong Kong/Hong Kong-8
   network: ws
   port: 443
   server: 47.83.19.148
@@ -415,12 +412,11 @@ proxies:
     headers:
       Host: M01c7B2z26DtQGEe.v.3dns.vip
     path: /ws-vmess
-- name: 🇸🇬SG_37
-  network: tcp
+- name: 🇭🇰HK-18.163.180.201-0105 | 40....
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 18.163.180.201
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - alterId: 0
@@ -767,27 +763,3 @@ proxies:
     headers:
       host: NYcQg19zkwaCPM1B.v.3dns.vip
     path: /ws-vmess
-- name: 香港 14
-  network: tcp
-  password: BxceQaOe
-  port: 11035
-  server: 18.163.122.92
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 香港 15
-  network: tcp
-  password: BxceQaOe
-  port: 27161
-  server: 16.163.138.98
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: 香港 03
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 119.246.1.143
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan

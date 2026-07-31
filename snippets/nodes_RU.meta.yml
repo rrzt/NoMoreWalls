@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇳🇱NL_325
+  name: '🇷🇺 俄罗斯 starcorenode.com #2'
   network: tcp
   port: 443
   reality-opts:
@@ -28,13 +28,12 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- name: 美国_122
+- name: 'RU俄罗斯(v2clash.blog 2026-7.31更新... #1'
   network: ws
   port: 4100
   server: 5.129.194.34
-  servername: live.ok.ru
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
   uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
@@ -43,8 +42,7 @@ proxies:
       Host: live.ok.ru
     path: /v1
 - client-fingerprint: chrome
-  name: 'Node #15'
-  network: tcp
+  name: '俄羅斯丨yoyapai.com_1 #2'
   port: 19562
   reality-opts:
     public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
@@ -73,8 +71,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'Node #121'
-  network: tcp
+  name: '俄羅斯丨yoyapai.com_2 #2'
   port: 443
   reality-opts:
     public-key: UQLa8BZNvHnwWL7pUnMbO046iRPh0jGhvA2xtjJRgQE
@@ -95,12 +92,12 @@ proxies:
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 🇷🇺
+  name: '🇷🇺俄羅斯丨yoyapai.com #2'
   network: ws
   port: 443
   server: 109.120.176.37
   servername: sertraline.adaspoloandco.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -109,7 +106,7 @@ proxies:
     headers:
       Host: sertraline.adaspoloandco.com
     path: /download.php
-- name: '🇷🇺_RU_俄罗斯 #7'
+- name: '🇷🇺_RU_俄罗斯 #3'
   port: 29311
   server: 46.29.163.32
   skip-cert-verify: true
@@ -156,8 +153,7 @@ proxies:
     path: /v1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇷🇺RU_1
-  network: tcp
+  name: 俄罗斯联邦/圣彼得堡/Russia/St Petersbur...
   port: 443
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -169,21 +165,18 @@ proxies:
   uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 未知 VLESS-535
-  network: tcp
+  name: 俄罗斯联邦/莫斯科/Russia/Moscow-2
   port: 443
   reality-opts:
     public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
   server: 94.126.206.117
   servername: apple.com
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- client-fingerprint: chrome
-  grpc-opts:
+- grpc-opts:
     grpc-service-name: grpc
-  name: 🇷🇺RU_22
+  name: 俄罗斯联邦/Russia
   network: grpc
   port: 2083
   server: 45.138.100.226
@@ -255,14 +248,12 @@ proxies:
     path: /v1
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 未知 VLESS-728
-  network: tcp
+  name: 俄罗斯联邦/莫斯科/Russia/Moscow-6
   port: 443
   reality-opts:
     public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
   server: 94.126.205.65
   servername: apple.com
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: d6dc1358-1bb5-4a9d-92fd-3e255567e3fc
@@ -272,12 +263,11 @@ proxies:
   server: 138.124.68.188
   sni: usa1.spectrumproxy.shop
   type: hysteria2
-- name: 🇷🇺RU_7
+- name: 俄罗斯联邦/莫斯科/Russia/Moscow-8
   password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
   port: 443
   server: usa1.spectrumproxy.shop
   sni: usa1.spectrumproxy.shop
-  tls: false
   type: hysteria2
 - client-fingerprint: qq
   flow: xtls-rprx-vision
@@ -296,7 +286,7 @@ proxies:
   udp: true
   uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
 - cipher: aes-256-gcm
-  name: 🇷🇺RU_10
+  name: 🇷🇺RU-185.22.154.103-0119 | 0.0...
   password: cfe685726eea2c4b
   port: 10921
   server: 185.22.154.103
@@ -366,7 +356,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: RU俄罗斯
+  name: 🇷🇺 RU 381 | ⬇️ 955KB/s
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -447,326 +437,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: RU VLESS-234
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg
-    short-id: '!!str 4e07408562be'
-  server: red-fhmq5ehr3ievlnabv8l2.concept7.ru
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  uuid: 15e0833c-08ad-47f3-bf80-60c2a47a6774
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: RU VLESS-1175
-  network: tcp
-  port: 443
-  server: 45.130.146.232
-  servername: u695099u57be39cds394.csgfw.top
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 57be39cds394.csgfw.top
-    path: ''
-- client-fingerprint: chrome
-  name: 🇷🇺RU_18
-  network: tcp
-  port: 39771
-  reality-opts:
-    public-key: GMnXK7wz7qTo_IFmPy--pQcODPhYJG_CLaY2Sh4fTCI
-    short-id: '!!str 33f2'
-  server: 45.145.163.115
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: e5bd3d75-06b3-490e-9651-930b1dc29cdb
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: RU VLESS-1129
-  network: tcp
-  port: 443
-  server: s461.wagahaha.xyz
-  servername: u695099u57be39cds394.csgfw.top
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 57be39cds394.csgfw.top
-    path: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: dgrcO3r5wkEjcsWdEsNtgtWCe9vER6mgADXYclWXVxg
-    short-id: '!!str 8de54d32a8d3fdf9'
-  server: 193.93.194.120
-  servername: site.rumedia-cdn.com
-  tls: true
-  type: vless
-  uuid: cfb5b3d3-c094-4222-99e8-53faa787c857
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: RU VLESS-1131
-  network: tcp
-  port: 443
-  server: s2359.ccgfw.online
-  servername: u695099u53fe439es2358.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 53fe439es2358.gogocs.xyz
-    path: ''
-- name: 🇷🇺RU_8
-  network: ws
-  port: 8880
-  server: 194.67.102.65
-  tls: false
-  type: vless
-  uuid: fd22ad82-2d89-4338-b72c-5092ae699c7d
-  ws-opts:
-    headers:
-      Host: rutube.ummapeople.online
-    path: /rutube
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_12
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-    short-id: '!!str 93ae75024604f796'
-  server: ru.rush-server.com
-  servername: findmypackets.com
-  tls: true
-  type: vless
-  uuid: fe444095-ab4b-45b5-8f25-2c2576fb1968
-- client-fingerprint: qq
-  name: 🇷🇺RU_11
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
-    short-id: '!!str b997e34499a919f3'
-  server: mnl.savesafe.space
-  servername: bridgework.savesafe.space
-  tls: true
-  type: vless
-  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
-  ws-opts:
-    headers:
-      Host: mnl.savesafe.space
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇷🇺RU_2
-  network: grpc
-  port: 2083
-  server: using.neobo-tooth.ru
-  servername: using.neobo-tooth.ru
-  tls: true
-  type: vless
-  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: RU VLESS-1111
-  network: tcp
-  port: 443
-  server: s462.csgfw.top
-  servername: u695099u57be39cds394.csgfw.top
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 57be39cds394.csgfw.top
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺RU_25
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1081
-  server: 185.106.94.132
-  type: ss
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: RU VLESS-1114
-  network: tcp
-  port: 443
-  server: s2360.okgfwbackxyz.xyz
-  servername: u695099u53fe439es2358.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 53fe439es2358.gogocs.xyz
-    path: ''
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_23
-  password: fbaf33bcffe53cf9
-  port: 20111
-  server: 195.58.48.19
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_26
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: dRPcJM7ZWihjiGNHuIJ4iaCpLxHAKoo59WE-vsTZASs
-    short-id: '!!str 41f6de54'
-  server: 91.243.86.196
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 34a1ada8-4a1a-434b-8583-7b68668f6e9d
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: 'RU俄罗斯 #3'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
-    short-id: '!!str 496ee75c2f91f51d'
-  server: yt-tw-bridge.astralweb.tech
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-- name: RU VLESS-705
-  network: ws
-  port: 2200
-  server: tn.tmn141246.ru
-  tls: false
-  type: vless
-  uuid: e7299042-7d8f-440f-8368-2516b0e69341
-  ws-opts:
-    headers:
-      Host: rzd.ru
-    path: '%2Fv1'
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_19
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: '!!str c1a7e9b4711d5f60'
-  server: 193.168.46.180
-  servername: rruu.persik.host
-  tls: true
-  type: vless
-  uuid: 010d7dc9-776b-4495-a85c-44794f3da49c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_9
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: zA-R_HtKJR1Hb0c1KXA3Yxh1TH_SPi1oV6cDfWURdQs
-    short-id: '!!str d4f1c403150d9964'
-  server: ru.themesh.site
-  servername: ru.themesh.site
-  tls: true
-  type: vless
-  uuid: 6fa9f6ae-877b-4858-b128-a8377fd9038b
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: RU VLESS-1118
-  network: tcp
-  port: 443
-  server: 193.53.126.91
-  servername: u695099u53fe439es2358.gogocs.xyz
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 53fe439es2358.gogocs.xyz
-    path: ''
-- name: 'RU俄罗斯 #4'
-  network: ws
-  port: 4100
-  server: 5.129.194.34
-  tls: false
-  type: vless
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: '%2Fv1'
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_24
-  password: b24a80e79cee1d1f
-  port: 20111
-  server: 195.133.5.207
-  type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_5
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 94.242.55.42
-  servername: enterprisekitten.com
-  tls: true
-  type: vless
-  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_21
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: fXo3tH4oKvALIlQaEip4vKQ9wnOgGEgQ1RVS842IwGk
-    short-id: '!!str 9c2378562188c3cb'
-  server: daas.astrokolchick.com
-  servername: daas.astrokolchick.com
-  tls: true
-  type: vless
-  uuid: 0fd412c1-6904-4ccc-bb6e-9653975c73f3
 - name: 🇷🇺_RU_俄罗斯联邦_10
   network: ws
   port: 2087
