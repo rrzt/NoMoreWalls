@@ -1,44 +1,35 @@
 proxies:
+- name: '🇺🇸 美国 CloudFlare节点 2 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.gossipglove.com
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
 - name: '🇺🇸 美国 CloudFlare节点 4 #2'
   network: ws
   password: humanity
   port: 443
-  server: 104.21.40.34
+  server: 172.64.146.1
   skip-cert-verify: false
-  sni: www.multiplydose.com
+  sni: www.gossipglove.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.multiplydose.com
+      Host: www.gossipglove.com
     path: /assignment
 - alterId: 0
-  cipher: auto
-  name: '🇲🇾_马来西亚_126 - undefinedms #1'
-  network: ws
-  port: 36803
-  server: cindy52.ceoiii.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- name: 🇯🇵JP-13.115.71.81-6044 | 19.36...
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: 44184
-  server: v2jp.k1.ssnss.live
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  name: 'US_speednode_0204 #1'
+  name: 'JP日本 #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: hk.catxstar.com
   tls: true
   type: trojan
@@ -111,6 +102,21 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: '🇲🇾_马来西亚_126 - undefinedms #1'
+  network: ws
+  port: 36803
+  server: cindy52.ceoiii.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - alterId: 0
   name: 🇺🇸US美国7
   network: tcp
@@ -2076,7 +2082,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 5 #3'
+  name: 🇺🇸 美国 CloudFlare节点 5
   network: ws
   port: 8880
   server: 104.21.82.183
@@ -2090,7 +2096,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 6 #3'
+  name: 🇺🇸 美国 CloudFlare节点 6
   network: ws
   port: 443
   server: hk2.lrzdx.uk

@@ -192,7 +192,7 @@ proxies:
       Host: 7timuei1uufoixbf.v.3dns.vip
     path: /ws-vmess
 - client-fingerprint: chrome
-  name: 'HK_speednode_0010 #1'
+  name: 'HK_speednode_0012 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
@@ -201,7 +201,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 香港4|@ripaojiedian
+- name: '香港4|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -209,7 +209,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: '香港5|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 25982
@@ -225,7 +225,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 'HK_speednode_0012 #1'
+- name: 'HK_speednode_0013 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
@@ -242,7 +242,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡3|@ripaojiedian
+- name: '新加坡3|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 32434
@@ -250,7 +250,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 'HK_speednode_0011 #1'
+- name: 'HK_speednode_0015 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -259,7 +259,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 'HK_speednode_0014 #1'
+- name: 'HK_speednode_0014 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -268,7 +268,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 'HK_speednode_0013 #1'
+- name: '美国3|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 38961
@@ -435,7 +435,7 @@ proxies:
     headers:
       Host: M01c7B2z26DtQGEe.v.3dns.vip
     path: /ws-vmess
-- name: 'HK_speednode_0015 #1'
+- name: 12|HK_speednode_0015
   password: BxceQaOe
   port: 38961
   server: 16.162.122.119

@@ -39,7 +39,7 @@ proxies:
   server: stockholm-meow.nethcloud.top
   servername: wikihow.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 4cbefb4d-328c-411d-bf76-780df1082df8
@@ -373,7 +373,7 @@ proxies:
       Host: 7timuei1uufoixbf.v.3dns.vip
     path: /ws-vmess
 - client-fingerprint: chrome
-  name: 'HK_speednode_0010 #1'
+  name: 'HK_speednode_0012 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
@@ -382,7 +382,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 香港4|@ripaojiedian
+- name: '香港4|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -390,7 +390,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: '香港5|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 25982
@@ -406,7 +406,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 'HK_speednode_0012 #1'
+- name: 'HK_speednode_0013 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
@@ -423,7 +423,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡3|@ripaojiedian
+- name: '新加坡3|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 32434
@@ -431,7 +431,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 'HK_speednode_0011 #1'
+- name: 'HK_speednode_0015 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -440,7 +440,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 'HK_speednode_0014 #1'
+- name: 'HK_speednode_0014 #2'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -449,7 +449,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: 'HK_speednode_0013 #1'
+- name: '美国3|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 38961
@@ -629,20 +629,7 @@ proxies:
     headers:
       Host: M01c7B2z26DtQGEe.v.3dns.vip
     path: /ws-vmess
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'HK香港 #7'
-  network: tcp
-  port: 40118
-  reality-opts:
-    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
-    short-id: '!!str 5895914d'
-  server: 43.255.156.59
-  servername: www.lamer.com.sg
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: 'HK_speednode_0015 #1'
+- name: 12|HK_speednode_0015
   password: BxceQaOe
   port: 38961
   server: 16.162.122.119
@@ -1056,7 +1043,7 @@ proxies:
     short-id: '!!str aa3c'
   server: billing.netraidly.ru
   servername: deepl.com
-  tls: false
+  tls: true
   type: vless
   uuid: 17d29827-7cf1-4115-b40d-548e10ec355d
 - client-fingerprint: chrome
@@ -1068,7 +1055,7 @@ proxies:
     short-id: '!!str 2143'
   server: tw04.kinomir.fun
   servername: deepl.com
-  tls: false
+  tls: true
   type: vless
   uuid: 84e919d1-efc6-48fc-8248-8c3cbfec9f17
 - alpn:
@@ -1128,7 +1115,7 @@ proxies:
     short-id: '!!str 8622176789abcdef'
   server: hk.vrsvpn.com
   servername: web.max.ru
-  tls: false
+  tls: true
   type: vless
   uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
 - client-fingerprint: qq
@@ -1141,7 +1128,7 @@ proxies:
     short-id: '!!str 2bc0'
   server: 186.246.19.79
   servername: deepl.com
-  tls: false
+  tls: true
   type: vless
   uuid: 5e3f974b-06fc-4555-907a-6681391b7c17
 - client-fingerprint: qq
@@ -1154,7 +1141,7 @@ proxies:
     short-id: '!!str 2bc0'
   server: private.netraidly.ru
   servername: deepl.com
-  tls: false
+  tls: true
   type: vless
   uuid: 5e3f974b-06fc-4555-907a-6681391b7c17
 - name: 香港 14
@@ -1203,7 +1190,7 @@ proxies:
     short-id: '!!str 6ba85179e30d4fc2'
   server: fh4.freechatup2.com
   servername: hihidress.com
-  tls: false
+  tls: true
   type: vless
   uuid: bfad812b-4f2b-4075-bd9a-9c9a6fb12511
 - client-fingerprint: chrome
@@ -1229,7 +1216,7 @@ proxies:
     short-id: '!!str 5442644f'
   server: 85.113.71.85
   servername: apple.com
-  tls: false
+  tls: true
   type: vless
   uuid: ba58ca0c-0411-444e-80f7-e361ce49012d
 - name: 香港 11
@@ -1250,7 +1237,7 @@ proxies:
     short-id: '!!str e53048e82bb20077'
   server: 103.252.117.7
   servername: asia.cendora.ru
-  tls: false
+  tls: true
   type: vless
   uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
 - cipher: chacha20-ietf
@@ -1282,7 +1269,7 @@ proxies:
     short-id: '!!str e62d7339ead9eb13'
   server: hk03.ccdn3.work
   servername: www.bilibili.com
-  tls: false
+  tls: true
   type: vless
   uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
 - alpn:
@@ -1312,3 +1299,153 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'HK_speednode_0016 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.179
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'HK_speednode_0017 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.215
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'HK_speednode_0018 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.158
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'HK_speednode_0019 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.101
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'HK_speednode_0020 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.28
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'HK_speednode_0022 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.220
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'HK_speednode_0023 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.218
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'HK_speednode_0024 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.68
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'HK_speednode_0025 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.157
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'HK_speednode_0026 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: '!!str c6ef72e4635d15a5'
+  server: 45.196.201.163
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f75814f6-8f81-4847-b792-168c41f2dc85

@@ -122,7 +122,7 @@ proxies:
     short-id: '!!str 764f497dda21c4fc'
   server: 45.198.96.153
   servername: storage.yandex.net
-  tls: false
+  tls: true
   type: vless
   uuid: 83ab4443-ec22-4b3d-a587-53090be7beb2
 - cipher: chacha20-ietf
@@ -452,7 +452,7 @@ proxies:
     short-id: '!!str 7a5b89ecdb01f781'
   server: 94.126.206.121
   servername: www.singaporeair.com
-  tls: false
+  tls: true
   type: vless
   uuid: a8f84171-5f96-4547-b621-59758fe668c8
 - client-fingerprint: chrome
@@ -464,7 +464,7 @@ proxies:
     short-id: '!!str 302c4e8cdc613e24'
   server: 194.233.90.135
   servername: www.apple.com
-  tls: false
+  tls: true
   type: vless
   uuid: b6449404-7d69-4446-9590-e212023ceec3
 - name: 🇸🇬SG_16
@@ -595,7 +595,7 @@ proxies:
     short-id: '!!str 48050fab'
   server: 103.106.229.190
   servername: www.apple.com
-  tls: false
+  tls: true
   type: vless
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - name: 🇸🇬SG_2
@@ -667,7 +667,7 @@ proxies:
     short-id: '!!str 3b0b73e5'
   server: 140.245.50.174
   servername: gateway.icloud.com
-  tls: false
+  tls: true
   type: vless
   uuid: af6904c1-4349-4448-8e99-0024824a0c33
 - name: 🇸🇬_SG_新加坡_2

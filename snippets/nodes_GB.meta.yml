@@ -74,7 +74,7 @@ proxies:
   server: swe-8t.freeonline.pro
   servername: www.microsoft.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 980231fb-4372-5c81-b696-20aa34d33af0
@@ -112,7 +112,7 @@ proxies:
   server: 185.170.154.202
   servername: nodg.me3op.site
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: df7a61b3-fcfb-4e88-aea6-460f83a32823
@@ -139,7 +139,7 @@ proxies:
   server: 45.196.201.150
   servername: storage.yandex.net
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
@@ -156,7 +156,7 @@ proxies:
   server: 45.196.201.108
   servername: storage.yandex.net
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: f75814f6-8f81-4847-b792-168c41f2dc85
@@ -249,7 +249,7 @@ proxies:
     short-id: '!!str c39cc7310a'
   server: 82.39.171.131
   servername: yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - name: 英国/United Kingdom-4
@@ -465,13 +465,6 @@ proxies:
       Host: ad-010.flux3ni5o.info
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_4|2.0MB/s
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: '61312'
-  server: 129.151.75.220
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31271
@@ -493,15 +486,14 @@ proxies:
   type: ss
 - client-fingerprint: firefox
   encryption: none
-  name: 'GB_speednode_0009 #1'
+  name: 🇬🇧GB_1|2.9MB/s
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
     public-key: agZZLk3GNH8CME1dobmtO1UwIrXYL-WrEuLREy_EqnA
     short-id: '!!str aefe467c7b22f190'
   server: 31.76.249.31
   servername: cdn.shopify.com
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -566,7 +558,7 @@ proxies:
     short-id: '!!str 6c825bc79850'
   server: server.slavkiti.monster
   servername: www.microsoft.com
-  tls: false
+  tls: true
   type: vless
   uuid: 1896c6c9-a941-4688-a865-29027bf7f8e6
 - client-fingerprint: chrome
@@ -604,7 +596,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 78.47.104.140
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: efeefecf-72f9-4118-9e25-634ca2b2ca11
 - client-fingerprint: chrome
@@ -630,7 +622,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 46.62.142.16
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 97c9c483-5bcc-4918-8922-9f28c827710c
 - client-fingerprint: chrome
@@ -643,7 +635,7 @@ proxies:
     short-id: '!!str ee1716767f9b'
   server: 107.181.151.39
   servername: www.tradingview.com
-  tls: false
+  tls: true
   type: vless
   uuid: 4d017db2-7655-4276-9557-e2ec25b04ee7
 - client-fingerprint: chrome
@@ -656,7 +648,7 @@ proxies:
     short-id: '!!str 91af08b1ce1f'
   server: lists.soloramtin.cyou
   servername: www.foxsports.com
-  tls: false
+  tls: true
   type: vless
   uuid: 67eb6b17-7797-4ded-bf52-423c4c5f6cbd
 - client-fingerprint: chrome
@@ -680,7 +672,7 @@ proxies:
     short-id: '!!str 6ba85179e30d4fc2'
   server: 31.76.80.205
   servername: ads.x5.ru
-  tls: false
+  tls: true
   type: vless
   uuid: 6422cd50-ebf9-49d9-a9f3-ff21fa1a2325
 - cipher: chacha20-ietf-poly1305
@@ -698,7 +690,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 167.233.213.99
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 97c9c483-5bcc-4918-8922-9f28c827710c
 - client-fingerprint: chrome
@@ -809,7 +801,7 @@ proxies:
     short-id: '!!str f6e197a0b9f2'
   server: 107.181.147.22
   servername: www.techradar.com
-  tls: false
+  tls: true
   type: vless
   uuid: 5e18094c-18b1-4198-b211-96b40518cecf
 - client-fingerprint: chrome
@@ -942,7 +934,7 @@ proxies:
     short-id: '!!str 18e4d2d21241'
   server: staging.lastilhame.monster
   servername: www.microsoft.com
-  tls: false
+  tls: true
   type: vless
   uuid: 455cfdc6-9abf-4e40-863f-5ff6cc63457c
 - alpn:
@@ -990,7 +982,7 @@ proxies:
     short-id: '!!str 42e51b053eec3700'
   server: 5.254.121.199
   servername: cdn4-81.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
 - client-fingerprint: firefox
@@ -1004,7 +996,7 @@ proxies:
     short-id: '!!str 524efc1f88592266'
   server: 51.89.229.242
   servername: play.google.com
-  tls: false
+  tls: true
   type: vless
   uuid: e480ec05-1570-4a7d-b377-c3a20f80afa8
 - client-fingerprint: chrome
@@ -1015,7 +1007,7 @@ proxies:
     public-key: PEPivzCg5cBehVQUMVJLNPx3A9hy719Fq7HQsXMp4Ro
   server: hostvds-nl-nl.kvnfreetest.uk
   servername: cloudflare.com
-  tls: false
+  tls: true
   type: vless
   uuid: 122f8c58-f173-4f4a-acb8-86172ba5e10d
 - alpn:
@@ -1060,7 +1052,7 @@ proxies:
     short-id: '!!str 60debb3ab744d8ce'
   server: 67.159.56.57
   servername: uk.bvps.cloud
-  tls: false
+  tls: true
   type: vless
   uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
 - client-fingerprint: firefox
@@ -1072,7 +1064,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 77.42.125.134
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: efeefecf-72f9-4118-9e25-634ca2b2ca11
 - alpn:
@@ -1102,7 +1094,7 @@ proxies:
     short-id: '!!str a6aef5143d94'
   server: email.swiftraci.org
   servername: www.microsoft.com
-  tls: false
+  tls: true
   type: vless
   uuid: 7eb4a87d-e22f-4eb3-a793-ee3d6200fdc6
 - cipher: chacha20-ietf-poly1305
@@ -1121,7 +1113,7 @@ proxies:
     short-id: '!!str 5a018643df03'
   server: 107.181.151.241
   servername: www.microsoft.com
-  tls: false
+  tls: true
   type: vless
   uuid: 594d466e-8ac3-4fda-b1d1-eeb817853518
 - client-fingerprint: chrome
@@ -1161,7 +1153,7 @@ proxies:
     short-id: '!!str d6b2e9f1a4c8d3f5'
   server: 31.77.131.97
   servername: cloudflare.com
-  tls: false
+  tls: true
   type: vless
   uuid: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
 - client-fingerprint: chrome
@@ -1227,7 +1219,7 @@ proxies:
     short-id: '!!str 524efc1f88592266'
   server: gr029.bamajobin.ir
   servername: play.google.com
-  tls: false
+  tls: true
   type: vless
   uuid: e480ec05-1570-4a7d-b377-c3a20f80afa8
 - client-fingerprint: chrome
@@ -1396,3 +1388,17 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: '%2f%3fed%3d2048'
+- client-fingerprint: firefox
+  name: 'GB_speednode_0011 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M7fn-U9PikoH_WXu6HbDE5bi9ej5cFN8bgWy8qF14WU
+    short-id: '!!str 76f547961a8ca082'
+  server: 185.33.24.204
+  servername: cdn.shopify.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f93f3eb-8ff2-4da4-837b-8a333c281ff3

@@ -1,21 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 'DE_speednode_0006 #1'
-  network: ws
-  packet-encoding: xudp
-  port: 2053
-  server: 51.89.23.94
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
 - alterId: 0
   cipher: auto
   name: 'JP日本(v2clash.blog 2026-7.31更新)... #3'
@@ -67,7 +50,7 @@ proxies:
   server: apinbxs.eovay.com
   servername: iosapps.itunes.apple.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -464,7 +447,7 @@ proxies:
     short-id: '!!str d13ddfca12760d03'
   server: 51.195.116.82
   servername: speedtest.net
-  tls: false
+  tls: true
   type: vless
   uuid: 21c25bef-eb3b-44a8-9b26-fa7f674e5bfc
 - client-fingerprint: chrome
@@ -477,7 +460,7 @@ proxies:
     short-id: '!!str 479826bdfc3eb86e'
   server: 54.37.75.187
   servername: www.speedtest.net
-  tls: false
+  tls: true
   type: vless
   uuid: a0b067ac-162d-4237-956d-10b8b471d3f5
 - client-fingerprint: chrome
@@ -490,7 +473,7 @@ proxies:
     short-id: '!!str 9a4c7d2f8e1b6a3c'
   server: 51.91.158.180
   servername: www.speedtest.net
-  tls: false
+  tls: true
   type: vless
   uuid: 7b4b7d4e-7a53-4c0c-bd8e-9f3b1b2c7f21
 - cipher: aes-256-cfb
@@ -966,19 +949,6 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txt?ed=2560fp=random
-- client-fingerprint: chrome
-  name: 🇫🇷FR_229
-  network: ws
-  port: 443
-  server: 104.25.244.217
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷FR_1151
   password: XF0klw7870vXn3uQIxe19Q
@@ -1305,7 +1275,7 @@ proxies:
     short-id: '!!str b8aa'
   server: 194.226.169.36
   servername: yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
 - alpn:
@@ -2372,7 +2342,7 @@ proxies:
     short-id: '!!str 59625eb3275249ca'
   server: 35.180.187.82
   servername: www.tesla.com
-  tls: false
+  tls: true
   type: vless
   uuid: 795d5f5b-318c-49a6-844f-ee2ab63bbe94
 - name: 'FR法国 #78'
@@ -3295,7 +3265,7 @@ proxies:
     short-id: '!!str bbc68cec8bb8d2e3'
   server: node13.mxvpn.dev
   servername: node13.mxvpn.dev
-  tls: false
+  tls: true
   type: vless
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
 - name: 🇫🇷FR_97
@@ -4278,7 +4248,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 168.119.156.100
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 97c9c483-5bcc-4918-8922-9f28c827710c
 - alpn:
@@ -4379,7 +4349,7 @@ proxies:
     short-id: '!!str baeaf515feed2c64'
   server: 45.95.233.185
   servername: apple.com
-  tls: false
+  tls: true
   type: vless
   uuid: c90fdc71-d7ac-4b66-8c0c-2be2a7b4ae0c
 - name: 🇫🇷FR_568
@@ -4853,7 +4823,7 @@ proxies:
     short-id: '!!str bbc68cec8bb8d2e3'
   server: node14.mxvpn.dev
   servername: node14.mxvpn.dev
-  tls: false
+  tls: true
   type: vless
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
 - alpn:
@@ -5266,7 +5236,7 @@ proxies:
     short-id: '!!str 01'
   server: 62.210.91.2
   servername: fuck.rkn
-  tls: false
+  tls: true
   type: vless
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
 - client-fingerprint: chrome
@@ -5413,7 +5383,7 @@ proxies:
     path: /assignment
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'FR_speednode_0007 #1'
+  name: 'FR_speednode_0010 #1'
   network: tcp
   port: 443
   reality-opts:
@@ -7816,7 +7786,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 95.217.159.175
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: efeefecf-72f9-4118-9e25-634ca2b2ca11
 - alpn:
@@ -8503,7 +8473,7 @@ proxies:
     short-id: '!!str f57d8f26'
   server: 62.210.24.143
   servername: www.amazon.com
-  tls: false
+  tls: true
   type: vless
   uuid: 28148be2-61a7-4f36-8adb-030cc9f82bd0
   ws-opts:
@@ -9565,7 +9535,7 @@ proxies:
     short-id: '!!str a91045bc'
   server: 163.5.153.153
   servername: www.samsung.com
-  tls: false
+  tls: true
   type: vless
   uuid: 0a76a766-d141-44b8-944e-dff757d7116f
 - client-fingerprint: chrome
@@ -9591,7 +9561,7 @@ proxies:
     short-id: '!!str 364994a6f61fc955'
   server: 45.192.2.173
   servername: yandex.net
-  tls: false
+  tls: true
   type: vless
   uuid: 1478d83f-3e0b-4d96-99cc-b514495e53c6
 - client-fingerprint: chrome

@@ -11,7 +11,7 @@ proxies:
   server: 170.168.99.3
   servername: cdn.steamstatic.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
@@ -143,7 +143,7 @@ proxies:
     short-id: '!!str e8e019c424ccb765'
   server: st.onnstreaming.ru
   servername: st.onnstreaming.ru
-  tls: false
+  tls: true
   type: vless
   uuid: d1c624fc-d0b0-49c7-8afa-e15a5949bc17
 - client-fingerprint: chrome
@@ -166,7 +166,7 @@ proxies:
     public-key: HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U
   server: meow-warsaw.nethcloud.top
   servername: www.wikihow.com
-  tls: false
+  tls: true
   type: vless
   uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
 - client-fingerprint: firefox
@@ -179,7 +179,7 @@ proxies:
     short-id: '!!str bbc68cec8bb8d2e3'
   server: node1.mxvpn.dev
   servername: node1.mxvpn.dev
-  tls: false
+  tls: true
   type: vless
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
 - client-fingerprint: chrome
@@ -192,7 +192,7 @@ proxies:
     short-id: '!!str 58c5b3ee013bdc8f'
   server: 62.60.231.42
   servername: www.nvidia.com
-  tls: false
+  tls: true
   type: vless
   uuid: f7e0e597-636e-4550-9f54-6ab1c0e8cf49
 - client-fingerprint: chrome
@@ -218,7 +218,7 @@ proxies:
     short-id: '!!str bbc68cec8bb8d2e3'
   server: node.mxvpn.dev
   servername: node.mxvpn.dev
-  tls: false
+  tls: true
   type: vless
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
 - client-fingerprint: firefox
@@ -230,7 +230,7 @@ proxies:
     public-key: HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U
   server: 95.85.246.65
   servername: www.wikihow.com
-  tls: false
+  tls: true
   type: vless
   uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
 - client-fingerprint: chrome
@@ -260,7 +260,7 @@ proxies:
     public-key: p9ISfhV0uZpKSgrK_8R6Mm4A01tWdzpKMlFR2TIj81s
   server: meow-warsaw.nethcloud.top
   servername: wikihow.com
-  tls: false
+  tls: true
   type: vless
   uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
 - client-fingerprint: ios
@@ -273,7 +273,7 @@ proxies:
     short-id: '!!str 3e0527d94cc8d1'
   server: 148.253.211.10
   servername: vk.me
-  tls: false
+  tls: true
   type: vless
   uuid: 60576147-90e7-4afc-9cf9-c7361a8c7fd8
 - client-fingerprint: firefox
@@ -285,6 +285,6 @@ proxies:
     public-key: HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U
   server: 95.85.229.112
   servername: www.wikihow.com
-  tls: false
+  tls: true
   type: vless
   uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787

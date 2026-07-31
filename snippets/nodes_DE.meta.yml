@@ -9,9 +9,27 @@ proxies:
     short-id: '!!str 4c5a76834671'
   server: 185.164.111.48
   servername: www.cloudflare.com
-  tls: false
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vless
   uuid: 59eefc04-b831-45cf-8d68-63ca23381171
+- client-fingerprint: chrome
+  name: '🇩🇪_DE_德国->🇫🇮_FI_芬兰 #2'
+  network: ws
+  packet-encoding: xudp
+  port: 2053
+  server: 51.89.23.94
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
 - client-fingerprint: chrome
   name: 'DE德国 #3'
   network: tcp
@@ -22,7 +40,7 @@ proxies:
   server: 134.122.85.126
   servername: timeline.www.cloudflare.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: efc9ffd0-aff8-4f3a-b0f9-1c1777a4e2c4
@@ -70,7 +88,7 @@ proxies:
   server: 46.8.220.182
   servername: media2.tcpdoor.net
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
@@ -194,7 +212,7 @@ proxies:
   server: 2.26.84.95
   servername: api.avito.ru
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: deb9c015-1ffe-4e41-9d21-310eb0422a4c
@@ -357,7 +375,7 @@ proxies:
     short-id: '!!str 04bc695105689674'
   server: 159.195.46.178
   servername: 4.oncloudnineservicestreang.com
-  tls: false
+  tls: true
   type: vless
   uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - client-fingerprint: chrome
@@ -368,7 +386,7 @@ proxies:
     public-key: lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo
   server: de.hunerux.oorluma.ir
   servername: play.google.com
-  tls: false
+  tls: true
   type: vless
   uuid: b8ae8186-22ed-413b-b0de-dc590bbbc3bc
 - name: 塞尔维亚/贝尔格莱德/Serbia/Belgrade
@@ -383,7 +401,7 @@ proxies:
   skip-cert-verify: true
   sni: www.refersion.com
   type: hysteria2
-- name: 'US_speednode_0159 #1'
+- name: 'US_speednode_0154 #1'
   network: ws
   packet-encoding: xudp
   port: 80
@@ -582,7 +600,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 89.167.81.142
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 97c9c483-5bcc-4918-8922-9f28c827710c
 - alpn:
@@ -609,7 +627,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 128.140.114.57
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 97c9c483-5bcc-4918-8922-9f28c827710c
 - client-fingerprint: chrome
@@ -699,7 +717,7 @@ proxies:
     short-id: '!!str 453f365feecf'
   server: 94.249.197.147
   servername: images.apple.com
-  tls: false
+  tls: true
   type: vless
   uuid: a21678d7-2024-4370-8d2e-255b344b3e1b
 - client-fingerprint: chrome
@@ -725,7 +743,7 @@ proxies:
     short-id: '!!str 273940fba6ad8250'
   server: 159.195.44.159
   servername: 5.oncloudnineservicestreang.com
-  tls: false
+  tls: true
   type: vless
   uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - client-fingerprint: chrome
@@ -738,7 +756,7 @@ proxies:
     short-id: '!!str c39cc7310a'
   server: 82.39.171.148
   servername: yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - name: 🇩🇪DE_132
@@ -792,7 +810,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 91.99.119.155
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 97c9c483-5bcc-4918-8922-9f28c827710c
 - client-fingerprint: chrome
@@ -849,7 +867,7 @@ proxies:
     short-id: '!!str 7a'
   server: 168.222.244.66
   servername: play.google.com
-  tls: false
+  tls: true
   type: vless
   uuid: c95f6104-6b19-4f3e-aaa6-a74fec3ee258
 - client-fingerprint: firefox
@@ -861,7 +879,7 @@ proxies:
     short-id: '!!str 6a480648c1'
   server: 169.40.32.216
   servername: www.samsung.com
-  tls: false
+  tls: true
   type: vless
   uuid: cb71a24c-85bf-4251-8a42-7300f5122067
   ws-opts:
@@ -888,7 +906,7 @@ proxies:
     short-id: '!!str 3b802dad547b0847'
   server: 144.31.87.16
   servername: yandex.ru
-  tls: false
+  tls: true
   type: vless
   uuid: c40f773e-3b96-417e-b22c-e48cb63ca7d9
 - alpn:
@@ -959,7 +977,7 @@ proxies:
     short-id: '!!str 3c9c5d01c6f824dd'
   server: 155.117.137.201
   servername: cdn9-33.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
 - client-fingerprint: chrome
@@ -1011,7 +1029,7 @@ proxies:
     short-id: '!!str eb0cca7312345678'
   server: 138.124.126.158
   servername: eh.vk.com
-  tls: false
+  tls: true
   type: vless
   uuid: b12eebc2-369c-4f3c-96a0-a8bd150ca8d5
 - client-fingerprint: chrome
@@ -1315,7 +1333,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: tun.temas-bor.ir
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 38df5518-26c5-449b-98d9-a4f456f5f689
 - alpn:
@@ -1347,7 +1365,7 @@ proxies:
     short-id: '!!str 28415a7918168947'
   server: 159.195.27.99
   servername: 1.oncloudnineservicestreang.com
-  tls: false
+  tls: true
   type: vless
   uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - name: 🇩🇪DE_24
@@ -1394,7 +1412,7 @@ proxies:
     short-id: '!!str 10ffb85da1c2d986'
   server: 89.222.123.209
   servername: api-maps.yandex.ru
-  tls: false
+  tls: true
   type: vless
   uuid: a8a98c3e-0b0d-47c4-b4a0-1402ba3252ca
 - client-fingerprint: chrome
@@ -1406,7 +1424,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 167.233.233.187
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 38df5518-26c5-449b-98d9-a4f456f5f689
 - client-fingerprint: firefox
@@ -1420,7 +1438,7 @@ proxies:
     short-id: '!!str 5bc76436f2905fba'
   server: store.noneok.com
   servername: store.noneok.com
-  tls: false
+  tls: true
   type: vless
   uuid: ad5ff95a-81a8-4006-8771-8e33f0bcd9aa
 - client-fingerprint: chrome
@@ -1458,7 +1476,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 168.119.156.101
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 38df5518-26c5-449b-98d9-a4f456f5f689
 - name: 🇩🇪DE_31
@@ -1480,7 +1498,7 @@ proxies:
     short-id: '!!str d8d3dc6c3ca45dd4'
   server: 159.195.22.155
   servername: 2.oncloudnineservicestreang.com
-  tls: false
+  tls: true
   type: vless
   uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
 - client-fingerprint: chrome
@@ -1492,7 +1510,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 178.105.111.169
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 38df5518-26c5-449b-98d9-a4f456f5f689
 - client-fingerprint: chrome
@@ -1504,7 +1522,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 167.233.213.99
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 9e267ee7-45d1-47a3-88d7-f22230ad8c85
 - client-fingerprint: chrome
@@ -1611,7 +1629,7 @@ proxies:
     short-id: '!!str 0768452b5e736e7f'
   server: get.noneok.com
   servername: get.noneok.com
-  tls: false
+  tls: true
   type: vless
   uuid: ad5ff95a-81a8-4006-8771-8e33f0bcd9aa
 - name: 🇩🇪DE_161
@@ -1665,7 +1683,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 167.233.118.44
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 38df5518-26c5-449b-98d9-a4f456f5f689
 - client-fingerprint: chrome
@@ -1790,7 +1808,7 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   server: 45.131.212.22
   servername: sellflow.org
-  tls: false
+  tls: true
   type: vless
   uuid: 1bf44cb7-f947-441c-abb5-242c47e78292
 - client-fingerprint: chrome
@@ -1802,7 +1820,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 78.47.104.140
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 38df5518-26c5-449b-98d9-a4f456f5f689
 - client-fingerprint: chrome
@@ -1814,7 +1832,7 @@ proxies:
     short-id: '!!str c6e19c434dc87df7'
   server: 128.140.114.57
   servername: login.yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: 38df5518-26c5-449b-98d9-a4f456f5f689
 - alpn:
@@ -1900,7 +1918,7 @@ proxies:
     short-id: '!!str 04b38b6b152a1b0b'
   server: 144.31.87.16
   servername: pinterest.com
-  tls: false
+  tls: true
   type: vless
   uuid: c40f773e-3b96-417e-b22c-e48cb63ca7d9
 - client-fingerprint: chrome
@@ -1926,7 +1944,7 @@ proxies:
     short-id: '!!str e6b0240761f538e1'
   server: 2.26.125.51
   servername: site.rumedia-cdn.com
-  tls: false
+  tls: true
   type: vless
   uuid: 320fb564-c329-4d32-8187-89d7058af0eb
 - client-fingerprint: chrome
@@ -1993,3 +2011,11 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
     path: /?ed=2560
+- name: 'DE_speednode_0009 #1'
+  port: 49518
+  server: 49.12.130.109
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea

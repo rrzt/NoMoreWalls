@@ -231,7 +231,7 @@ proxies:
   sni: artistic-pigeon.rooster465.autos
   type: trojan
 - delay: 750
-  name: 'KR_speednode_0021 #1'
+  name: 🇰🇷 KR 637 | ⬇️ 52KB/s
   password: ''
   port: 1090
   server: 121.169.46.116
@@ -388,7 +388,7 @@ proxies:
     short-id: '!!str 33f6498052e5cb1a'
   server: 8mc0z4qk-7n2r-5t9x-0r6p-3a4w8k1d9e2.edge.ccdn3.work
   servername: www.bilibili.com
-  tls: false
+  tls: true
   type: vless
   uuid: d0b1d140-2c56-11f1-aa57-8f36e190ad40
 - name: 韩国_2
@@ -425,7 +425,7 @@ proxies:
     short-id: '!!str 48050fab'
   server: 3.39.4.109
   servername: www.apple.com
-  tls: false
+  tls: true
   type: vless
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
 - name: 韩国_1
@@ -547,6 +547,6 @@ proxies:
     short-id: '!!str 48050fab'
   server: 3.39.4.109
   servername: www.apple.com
-  tls: false
+  tls: true
   type: vless
   uuid: 814bd064-544d-4255-a070-5705c03f6da9

@@ -1,39 +1,12 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '🇷🇺 俄罗斯 starcorenode.com #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.9
-  servername: apple.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '🇷🇺 俄罗斯 starcorenode.com 2 #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.189
-  servername: apple.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
 - client-fingerprint: chrome
-  name: NL荷兰(v2clash.blog 2026-7.31更新)
+  name: '🇷🇺 俄罗斯 starcorenode.com #2'
   network: ws
   port: 2053
   server: 188.227.86.123
   servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vless
   udp: true
@@ -66,7 +39,7 @@ proxies:
   server: 90.156.254.164
   servername: yahoo.com
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3
@@ -96,7 +69,7 @@ proxies:
   server: 81.177.212.44
   servername: sw1.panel11.ru
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: 039a1658-e86e-475f-a3a4-67cc249acada
@@ -310,7 +283,7 @@ proxies:
   type: ss
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇷🇺 RU 040 | ⬇️ 25KB/s
+  name: 'BR_speednode_0006 #1'
   network: tcp
   port: 40443
   reality-opts:
@@ -318,6 +291,7 @@ proxies:
     short-id: '!!str 69d4'
   server: status.netraidly.ru
   servername: deepl.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -394,7 +368,7 @@ proxies:
   type: ss
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 'BR_speednode_0004 #1'
+  name: 'BR_speednode_0003 #1'
   network: tcp
   port: 443
   reality-opts:
@@ -424,7 +398,7 @@ proxies:
     short-id: '!!str 33f2'
   server: 45.145.163.115
   servername: yahoo.com
-  tls: false
+  tls: true
   type: vless
   uuid: e5bd3d75-06b3-490e-9651-930b1dc29cdb
 - client-fingerprint: qq
@@ -438,7 +412,7 @@ proxies:
     short-id: '!!str aabbccdd'
   server: 5.42.106.202
   servername: dl.google.com
-  tls: false
+  tls: true
   type: vless
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
 - alpn:
@@ -530,7 +504,7 @@ proxies:
     short-id: '!!str d4f1c403150d9964'
   server: ru.themesh.site
   servername: ru.themesh.site
-  tls: false
+  tls: true
   type: vless
   uuid: 6fa9f6ae-877b-4858-b128-a8377fd9038b
 - alpn:
@@ -562,7 +536,7 @@ proxies:
     short-id: '!!str 4e07408562be'
   server: red-fhmq5ehr3ievlnabv8l2.concept7.ru
   servername: api-maps.yandex.ru
-  tls: false
+  tls: true
   type: vless
   uuid: 15e0833c-08ad-47f3-bf80-60c2a47a6774
 - client-fingerprint: qq
@@ -575,7 +549,7 @@ proxies:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
   server: 72.56.38.194
   servername: dl.google.com
-  tls: false
+  tls: true
   type: vless
   uuid: 884d811f-577b-421e-aabb-608660b0ecfa
 - client-fingerprint: firefox
@@ -588,7 +562,7 @@ proxies:
     short-id: '!!str 93ae75024604f796'
   server: ru.rush-server.com
   servername: findmypackets.com
-  tls: false
+  tls: true
   type: vless
   uuid: fe444095-ab4b-45b5-8f25-2c2576fb1968
 - alpn:
@@ -655,7 +629,7 @@ proxies:
     short-id: '!!str ee6bb65a'
   server: zde96.tcpdoor.net
   servername: media2.tcpdoor.net
-  tls: false
+  tls: true
   type: vless
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - name: RU VLESS-705
@@ -679,7 +653,7 @@ proxies:
     short-id: '!!str 8de54d32a8d3fdf9'
   server: 193.93.194.120
   servername: site.rumedia-cdn.com
-  tls: false
+  tls: true
   type: vless
   uuid: cfb5b3d3-c094-4222-99e8-53faa787c857
 - client-fingerprint: qq
@@ -692,7 +666,7 @@ proxies:
     short-id: '!!str c1a7e9b4711d5f60'
   server: 193.168.46.180
   servername: rruu.persik.host
-  tls: false
+  tls: true
   type: vless
   uuid: 010d7dc9-776b-4495-a85c-44794f3da49c
 - name: 🇷🇺_RU_俄罗斯联邦_10
@@ -707,3 +681,18 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: '%2f%3fed%3d2048'
+- client-fingerprint: chrome
+  name: 'RU_speednode_0152 #1'
+  network: ws
+  port: 443
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0e192bd1-8f19-4184-9fff-6d67e4f738bd
+  ws-opts:
+    headers:
+      Host: ov186.ochmaybrooooo.online
+    path: /

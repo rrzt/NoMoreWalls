@@ -1,19 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_22
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
-    short-id: '!!str 250b5976473a'
-  server: jyvlryz.cvewfjg.shop
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
 - name: 'Node #134'
   network: ws
   port: 8880
@@ -963,7 +948,7 @@ proxies:
     short-id: '!!str 500aec9e9e5e2212'
   server: 45.206.5.122
   servername: storage.yandex.net
-  tls: false
+  tls: true
   type: vless
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
 - client-fingerprint: chrome
@@ -1107,7 +1092,7 @@ proxies:
     short-id: '!!str 0e'
   server: 130.107.73.148
   servername: google.com
-  tls: false
+  tls: true
   type: vless
   uuid: a71c8954-66a8-4321-bedb-2336230d81ce
 - client-fingerprint: chrome
