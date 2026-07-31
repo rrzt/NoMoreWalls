@@ -1,4 +1,4 @@
-name: Fetch
+name: Fetchspeed
 
 on:
   workflow_dispatch:
