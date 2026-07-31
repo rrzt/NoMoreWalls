@@ -410,6 +410,380 @@ proxies:
   tls: false
   type: vless
   uuid: 0fc0e114-8ed6-4c8e-931e-7e3674929750
+- down: 300
+  name: 法国节点0201 | 1倍率
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 04e0deb7-96e2-48dc-a65e-4ef1ffc9ea7f
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: 法国节点0202 | 1倍率
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 04e0deb7-96e2-48dc-a65e-4ef1ffc9ea7f
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #1'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: a23198af-60df-49fb-b362-1ed5f457a267
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #1'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: a23198af-60df-49fb-b362-1ed5f457a267
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #2'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 8fc29b90-a348-4fe7-8bcf-b36cee73b30a
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #2'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 8fc29b90-a348-4fe7-8bcf-b36cee73b30a
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #3'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: c0181cb3-a790-4ebc-b639-228759ceeefa
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #3'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: c0181cb3-a790-4ebc-b639-228759ceeefa
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #4'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 0cbd4244-97f4-4274-9c0c-abcdee04e010
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #4'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 0cbd4244-97f4-4274-9c0c-abcdee04e010
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #5'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 572b0329-f84d-4751-9b2a-8ea7e4605606
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #5'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 572b0329-f84d-4751-9b2a-8ea7e4605606
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #6'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 63769098-af8a-4c6d-9cdc-2b9b9856e004
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #6'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 63769098-af8a-4c6d-9cdc-2b9b9856e004
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #7'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 7e0a1425-f49f-44b5-88c3-e8ccc9883cf6
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #7'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 7e0a1425-f49f-44b5-88c3-e8ccc9883cf6
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #8'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: bbdeb737-cc0d-4143-99d8-33909ff0f570
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #8'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: bbdeb737-cc0d-4143-99d8-33909ff0f570
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #9'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: d9d86e64-afe3-401f-b5bc-d6d1666489e5
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #9'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: d9d86e64-afe3-401f-b5bc-d6d1666489e5
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #10'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: d98ea8e1-ea56-4c2f-8664-e7329a4e3090
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #10'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: d98ea8e1-ea56-4c2f-8664-e7329a4e3090
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #11'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: b71c46ad-84c6-4a1d-91a8-a56c21233c73
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #11'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: b71c46ad-84c6-4a1d-91a8-a56c21233c73
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #12'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: ae917970-de39-4df2-815d-307d523769f6
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #12'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: ae917970-de39-4df2-815d-307d523769f6
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #13'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 9615711b-0868-4956-b032-895769d5735c
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #13'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 9615711b-0868-4956-b032-895769d5735c
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #14'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: f9039cec-f085-4039-a953-a4f985f4556a
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #14'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: f9039cec-f085-4039-a953-a4f985f4556a
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #15'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 3b6a5e7a-80b1-4ec6-ab25-914e75e89571
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #15'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 3b6a5e7a-80b1-4ec6-ab25-914e75e89571
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0201 | 1倍率 #16'
+  obfs: salamander
+  obfs-password: sAShAaLP9v98OCbd
+  password: 99b75a4e-eb48-478b-b79c-5efa9e08d348
+  port: 45101
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
+- down: 300
+  name: '法国节点0202 | 1倍率 #16'
+  obfs: salamander
+  obfs-password: vrzX7TBJC0EhnrrS
+  password: 99b75a4e-eb48-478b-b79c-5efa9e08d348
+  port: 45201
+  server: v13fr2.stableq.top
+  skip-cert-verify: false
+  sni: v13fr2.stableq.top
+  type: hysteria2
+  up: 300
 - alterId: 0
   cipher: auto
   name: FR法国(v2clash.blog 2026-7.29更新)...
@@ -423,6 +797,87 @@ proxies:
     headers:
       Host: 2001:bc8:32d7:225::3
     path: /0zNW56sF
+- name: 🇫🇷FR_7|⬇️3.3MB/s
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: /ws
+- name: 🇫🇷FR_3|⬇️6.2MB/s
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: fr-1-fr-1.aiopen.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
+  ws-opts:
+    headers:
+      host: fr-1-fr-1.aiopen.sbs
+    path: /kbjc/fr1
+- name: FRVLESS-75|free-nodes
+  network: ws
+  port: 443
+  server: 69.84.182.20
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: /ws
+- name: 🇫🇷FR_1|⬇️4.3MB/s
+  network: ws
+  port: 443
+  server: 104.24.69.114
+  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+    path: /ws
+- name: 🇫🇷FR_6|⬇️1.2MB/s
+  network: ws
+  port: 443
+  server: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+  servername: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad2cfc08-9850-442e-dcc2-b5171f0a22f1
+  ws-opts:
+    headers:
+      host: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+    path: /@Arshiacomplus
+- flow: xtls-rprx-vision
+  name: 🇫🇷FR_4|⬇️2.7MB/s
+  network: tcp
+  port: 443
+  server: fr01-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
 - cipher: chacha20-ietf-poly1305
   name: 荷兰(yudou789.top 玉豆免费节点)_2
   password: RFK38Cg7APneSB5cWDcpbm
@@ -508,10 +963,43 @@ proxies:
   port: 8119
   server: 54.36.174.181
   type: ss
+- auth: github.com/Alvin9999-newpac/fanqiang
+  name: 🇫🇷 FR 137 | ⬇️ 1017KB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  tfo: false
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷 FR 024 | ⬇️ 12KB/s
+  password: AtU2Weu7mf4QUOH2Lomi3g
+  port: 1080
+  server: kaffee-tour.de
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alpn:
+  - h2%2Chttp%2F1.1
+  client-fingerprint: qq
+  name: 🇫🇷 FR 324 | ⬇️ 1MB/s
+  network: xhttp
+  port: 443
+  server: fr2.ethicsdinnerpave.online
+  servername: fr2.ethicsdinnerpave.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+  xhttp-opts:
+    host: fr2.ethicsdinnerpave.online
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/
 - encryption: none
-  name: 🇫🇷FR_1|2.5MB/s
+  name: 🇫🇷FR_1|2.7MB/s
   network: tcp
-  port: '22223'
+  port: '22222'
   server: 13.38.146.131
   type: vless
   udp: true
@@ -1951,6 +2439,19 @@ proxies:
     headers:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /fp=randomized
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1062
+  network: ws
+  port: 443
+  server: 104.16.72.251
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /
 - client-fingerprint: chrome
   name: 🇫🇷FR_1238
   network: ws

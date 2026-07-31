@@ -1,6 +1,6 @@
 proxies:
 - alterId: 0
-  name: '🇬🇧 英国 Technicolor SA 2 #2'
+  name: 🇬🇧 英国 Technicolor SA 2
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20035
@@ -188,7 +188,7 @@ proxies:
       host: mTCKUNDiGePwU3uP.v.3dns.vip
     path: /ws-vmess
 - cipher: chacha20-ietf-poly1305
-  name: gb|87a1|puddincat07@Telegram
+  name: SS-英国-NF解锁自制剧-ChatGPT-TikTok-1...
   password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
   port: 443
   server: 146.19.49.251
@@ -243,6 +243,34 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
+- name: 🇬🇧GB_2|⬇️1.7MB/s
+  network: ws
+  port: 443
+  server: 173.245.59.121
+  servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 979b6822-d65a-400d-89f8-30391903ac20
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+    path: /ws
+- name: GBVLESS-110|free-nodes
+  network: ws
+  port: 80
+  server: fuck1.tawanaproxy.online
+  servername: en.tawana.cf.panbehpanel.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c33275fd-a4fa-470d-90e4-55da39d849a8
+  ws-opts:
+    headers:
+      host: en.tawana.cf.panbehpanel.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 英国(yudou789.top 玉豆免费节点)_43
@@ -436,6 +464,49 @@ proxies:
   port: 8090
   server: 212.38.189.174
   type: ss
+- encryption: none
+  name: 🇬🇧 GB 006 | ⬇️ 16KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 59167
+  server: 193.104.58.45
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1d977a71-920e-4846-98b1-24f8e2fa0ea3
+- alpn:
+  - h2%2Chttp%2F1.1
+  client-fingerprint: qq
+  name: 🇺🇸US_2|1.9MB/s
+  network: xhttp
+  port: 443
+  server: uk2.denverpresents.top
+  servername: uk2.denverpresents.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+  xhttp-opts:
+    host: uk2.denverpresents.top
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/
+- client-fingerprint: chrome
+  name: 🇬🇧 GB 648 | ⬇️ 386KB/s
+  network: ws
+  packet-encoding: xudp
+  port: 8443
+  server: ad-010.flux3ni5o.info
+  servername: ad-010.flux3ni5o.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9047efd2-5aa4-4c9c-a58f-a5791b06c79e
+  ws-opts:
+    headers:
+      Host: ad-010.flux3ni5o.info
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

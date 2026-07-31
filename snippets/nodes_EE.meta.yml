@@ -12,6 +12,39 @@ proxies:
   tls: false
   type: vless
   uuid: dc7940e0-6bff-45e3-853d-4007561803c3
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_1|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: eston3.o4ka-internet.com
+  servername: eston3.o4ka-internet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a03df445-0666-4d61-acde-9705009e409c
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇪🇪EE_2|2.1MB/s
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ
+    short-id: '!!str 635a76c25a4b1820'
+  server: 94.183.170.95
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 942a6037-559d-476c-b7e2-2f6b4df101d6
+  xhttp-opts:
+    path: /xh
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇪🇪EE_2

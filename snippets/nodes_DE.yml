@@ -1,15 +1,19 @@
 proxies:
 - alterId: 0
+  disable-sni: true
   name: 'DE德国 #12'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
+  sni: ''
   tls: true
   type: trojan
   udp: true
-- name: 🇩🇪DE_93
+- client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 🇩🇪DE_93
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -55,6 +59,29 @@ proxies:
   port: 8881
   server: 145.239.1.100
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 DE 013 | ⬇️ 10KB/s
+  password: 6iOQhyxpH7i5ptiJe02Z0XbE1BdRwfr0npOJCK6hhy4=
+  port: 51570
+  server: e1.cover20.ir
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alpn:
+  - http/1.1
+  name: 🇩🇪 DE 658 | ⬇️ 378KB/s
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: com.digitalposts.dpdns.org
+    path: /bkdicj
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

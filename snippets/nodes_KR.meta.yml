@@ -116,15 +116,6 @@ proxies:
     headers:
       host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: 🇰🇷KR_6
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-kr-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-kr-003.fastervpn.world
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 韩国/首尔特别市/South Korea/Seoul
@@ -215,6 +206,31 @@ proxies:
   skip-cert-verify: false
   sni: artistic-pigeon.rooster465.autos
   type: trojan
+- delay: 750
+  name: 'KR_speednode_0003 #1'
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: T2clM0QlM0Q6
+- name: 🇰🇷 KR 603 | ⬇️ 7KB/s
+  password: ''
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+  username: ''
+- name: 🇰🇷 KR 649 | ⬇️ 323KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  sni: rr1.tube-cat.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -297,6 +313,14 @@ proxies:
   port: 8119
   server: 141.164.45.187
   type: ss
+- name: 🇰🇷KR_6
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-kr-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-003.fastervpn.world
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 'KR韩国 #4'
   network: ws
@@ -502,10 +526,3 @@ proxies:
   tls: false
   type: vless
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
-- name: 'KR_speednode_0003 #1'
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  udp: true
-  username: T2clM0QlM0Q6

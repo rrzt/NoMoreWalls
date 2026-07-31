@@ -215,6 +215,14 @@ proxies:
     headers:
       host: 7tImuei1uuFOiXbf.v.3dns.vip
     path: /ws-vmess
+- name: '香港_2 #3'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 🇭🇰 香港3|@stairnode
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687

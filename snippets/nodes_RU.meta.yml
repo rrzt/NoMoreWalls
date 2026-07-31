@@ -187,6 +187,26 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- flow: xtls-rprx-vision
+  name: 🇸🇪SE_1|⬇️2.7MB/s
+  network: tcp
+  port: 443
+  server: 176.125.240.166
+  servername: apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: RUVLESS-51|free-nodes
+  network: tcp
+  port: 10468
+  server: 185.113.10.198
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
 - cipher: aes-256-gcm
   name: 🇷🇺RU_8
   password: cfe685726eea2c4b
@@ -255,6 +275,71 @@ proxies:
     headers:
       Host: live.ok.ru
     path: /v1
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇧🇷BR_1|2.5MB/s
+  network: tcp
+  port: '40443'
+  reality-opts:
+    public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
+    short-id: '!!str 69d4'
+  server: status.netraidly.ru
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
+  xudp: true
+- client-fingerprint: qq
+  name: 🇷🇺 RU 163 | ⬇️ 15KB/s
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: 7QJA1tXQcNj8gioQVzief5a4KeUTDT7R8FE0jfKU41k
+    short-id: '!!str 3180'
+  server: tw05.kinomir.fun
+  servername: deepl.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f0eac976-e4e2-4e24-bc86-cda82ee31442
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺RU_4|2.8MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: '2053'
+  reality-opts:
+    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
+    short-id: '!!str f0131a4772b494d4'
+  server: 85.209.135.3
+  servername: dns.adguard-dns.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc
+  name: 🇷🇺 RU 372 | ⬇️ 198KB/s
+  network: grpc
+  port: 2053
+  reality-opts:
+    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
+    short-id: '!!str f0131a4772b494d4'
+  server: 85.209.135.3
+  servername: dns.adguard-dns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -276,22 +361,6 @@ proxies:
   port: 31348
   server: 5.189.201.250
   type: ss
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_5|2.3MB/s
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: FkyjJ-RLGIBWnsUQAuyfv-qReJSiuyb7qFnJS14ASgQ
-    short-id: '!!str 27e53bbcab7593d7'
-  server: 84.201.163.47
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a03df445-0666-4d61-acde-9705009e409c
-  xudp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 🇷🇺RU俄罗斯
