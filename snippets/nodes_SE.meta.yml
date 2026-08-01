@@ -83,42 +83,6 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'US_speednode_0198 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
-  server: se99.kubservice.icu
-  servername: se99.kubservice.icu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
-- name: 🇸🇪SE_3|⬇️3.2MB/s
-  network: tcp
-  port: 443
-  server: secdn17.suio.me
-  servername: secdn17.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-- grpc-opts:
-    grpc-service-name: JNIR
-  name: 未知VLESS-49|free-nodes
-  network: grpc
-  port: 504
-  server: dd.openaccessnode.com
-  servername: nobitex.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
 - cipher: aes-256-cfb
   name: SE_speednode_0170
   password: amazonskr05
@@ -146,23 +110,20 @@ proxies:
   server: 13.62.231.217
   type: ss
   udp: true
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: ns
-  name: 🇸🇪SE_3|1.6MB/s
-  network: grpc
-  port: '8443'
-  reality-opts:
-    public-key: ZpXBddDY5CBXaRTnUz4lM4xs_KBVX4CPulN-q9AqhAI
-    short-id: '!!str '
-  server: 213.219.212.254
-  servername: 360.yandex.ru
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: SE_speednode_0168
+  password: amazonskr05
+  port: 443
+  server: 13.61.5.244
+  type: ss
   udp: true
-  uuid: e906774b-80cb-437f-bcf7-dcafbd4a6adc
-  xudp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_3|1.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.51.233.2
+  type: ss
+  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇪SE_6
@@ -281,10 +242,3 @@ proxies:
   tls: true
   type: vless
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-- cipher: aes-256-cfb
-  name: SE_speednode_0168
-  password: amazonskr05
-  port: 443
-  server: 13.61.5.244
-  type: ss
-  udp: true

@@ -24,7 +24,6 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-  ws-path: h=%2Fassignment
 - alterId: 0
   cipher: aes-128-gcm
   name: 美国(yudou789.top 玉豆免费节点)_71
@@ -405,19 +404,6 @@ proxies:
   port: 443
   server: series-a2.varzesh360.co
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 未知 VMESS-972 | free-nodes - 54...
-  network: ws
-  port: 443
-  server: mtckundigepwu3up.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: mTCKUNDiGePwU3uP.v.3dns.vip
-    path: /ws-vmess
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB_65
   password: XF0klw7870vXn3uQIxe19Q

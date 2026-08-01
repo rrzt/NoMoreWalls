@@ -99,22 +99,6 @@ proxies:
   port: 80
   server: 84.17.53.163
   type: ss
-- client-fingerprint: firefox
-  encryption: mlkem768x25519plus.random.0rtt.DNEkik-zIXyoLVxh77RD34zZv8QsaSIf4YhtUMnfzEg
-  flow: xtls-rprx-vision
-  name: 🇨🇭CH_1|1.1MB/s
-  network: tcp
-  port: '50170'
-  reality-opts:
-    public-key: 7U__DL9_dFdZ2rMLH8TRPEOY24EJfg7ESXslAdujgzk
-    short-id: '!!str dc36bfb153f31f9a'
-  server: 83.228.246.208
-  servername: sweic.lodkirmm.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6950b1-5a5a-4bb6-ae54-814070840281
-  xudp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇭CH_5
   password: XF0klw7870vXn3uQIxe19Q
@@ -303,3 +287,18 @@ proxies:
   skip-cert-verify: true
   sni: 86.106.84.195
   type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'CH_speednode_0005 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: '!!str bbc68cec8bb8d2e3'
+  server: node6.mxvpn.dev
+  servername: node6.mxvpn.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4

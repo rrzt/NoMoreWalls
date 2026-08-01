@@ -126,45 +126,6 @@ proxies:
   type: http
   udp: true
   username: test
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇰🇷_韩国_79
-  port: 16000
-  reality-opts:
-    public-key: iv3BAoFjlsPSSjOn1cyXVZ3H31KqX65PoJusBEfU0lM
-  server: x-hg3.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇰🇷_韩国_80
-  port: 16000
-  reality-opts:
-    public-key: wTDp8GLmm9-e84raeixo46WniotkQIsPBqcYoa-Tqy4
-  server: x-hg.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇰🇷_韩国_84
-  port: 16000
-  reality-opts:
-    public-key: wTDp8GLmm9-e84raeixo46WniotkQIsPBqcYoa-Tqy4
-  server: x-hg2.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
 - alterId: 0
   cipher: auto
   name: 未知42 1.0MB/s
@@ -365,14 +326,11 @@ proxies:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
 - name: 'US_speednode_0179 #1'
-  password: ''
   port: 50161
   server: 168.107.13.220
-  skip-cert-verify: true
   tls: false
   type: socks5
   udp: true
-  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇰🇷KR_10

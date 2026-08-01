@@ -1,18 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: '🇫🇷 法国 国际航空电讯集团公司(SITA) #2'
-  network: tcp
-  port: 5039
-  reality-opts:
-    public-key: fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0
-    short-id: '!!str 2e8424a2696cb606'
-  server: it.speedserver.site
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: a5bea439-6176-4b5d-a891-bd31fc3530c9
 - alterId: 0
   cipher: auto
   name: 'JP日本(v2clash.blog 2026-7.31更新)... #3'
@@ -171,7 +157,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '未知 VMESS-832 | free-nodes - 10... #2'
+  name: '法國節點 #2'
   network: ws
   port: 80
   server: 69.84.182.49
@@ -468,100 +454,6 @@ proxies:
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇷_法国_94
-  port: 16000
-  reality-opts:
-    public-key: cMB0tAmD6scVvjRbLVm1IjryKtXM6SDtceLiz_qF6iw
-  server: x-fg.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- name: 🇫🇷FR_7|⬇️3.3MB/s
-  network: ws
-  port: 443
-  server: 194.76.18.25
-  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
-  ws-opts:
-    headers:
-      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-    path: /ws
-- name: 🇫🇷FR_3|⬇️6.2MB/s
-  network: ws
-  port: 443
-  server: 69.84.182.13
-  servername: fr-1-fr-1.aiopen.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
-  ws-opts:
-    headers:
-      host: fr-1-fr-1.aiopen.sbs
-    path: /kbjc/fr1
-- name: FRVLESS-75|free-nodes
-  network: ws
-  port: 443
-  server: 69.84.182.20
-  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
-  ws-opts:
-    headers:
-      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-    path: /ws
-- name: 🇫🇷FR_1|⬇️4.3MB/s
-  network: ws
-  port: 443
-  server: 104.24.69.114
-  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
-  ws-opts:
-    headers:
-      host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
-    path: /ws
-- name: 🇫🇷FR_6|⬇️1.2MB/s
-  network: ws
-  port: 443
-  server: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
-  servername: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad2cfc08-9850-442e-dcc2-b5171f0a22f1
-  ws-opts:
-    headers:
-      host: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
-    path: /@Arshiacomplus
-- flow: xtls-rprx-vision
-  name: 🇫🇷FR_4|⬇️2.7MB/s
-  network: tcp
-  port: 443
-  server: fr01-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
 - cipher: chacha20-ietf-poly1305
   name: 荷兰(yudou789.top 玉豆免费节点)_2
   password: RFK38Cg7APneSB5cWDcpbm
@@ -695,43 +587,6 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: /assignment
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'ZA_speednode_0231 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: '!!str f34818a561dfd1fe'
-  server: 45.192.2.51
-  servername: yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 44a6901d-6675-41b1-9a80-ee3308699e1d
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR_2|2.0MB/s
-  network: ws
-  port: '443'
-  server: 172.66.174.41
-  servername: pinalo.zenvorix.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 245bb424-b186-4738-8f42-bdbde719d4c9
-  ws-opts:
-    headers:
-      Host: pinalo.zenvorix.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /nova-geo-psiphon-fr
-  xudp: true
 - name: 🇫🇷FR_105
   network: ws
   port: 8880

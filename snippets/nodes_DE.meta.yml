@@ -305,105 +305,6 @@ proxies:
     max-early-data: 2560
     path: /ws
   xudp: true
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'BG_speednode_0002 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: dedger.skorostnet.space
-  servername: dedger.skorostnet.space
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'CZ_speednode_0007 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
-  server: de22.kubservice.icu
-  servername: de22.kubservice.icu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'DE_speednode_0010 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str 3c9c5d01c6f824dd'
-  server: 109.163.239.208
-  servername: cdn9-78.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪_德国_62
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str df5f7ec1de636bbb'
-  server: 5.254.121.227
-  servername: cdn6-72.yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'DE_speednode_0009 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str d08bb54b5b94b2fc'
-  server: 109.163.239.60
-  servername: cdn5-89.yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
-- client-fingerprint: randomized
-  name: 🇩🇪_德国_95
-  port: 443
-  reality-opts:
-    public-key: 3HQlKcaGPbJcrgPzKvsC0WxHucb7yIZmm_C6sLJKeyk
-    short-id: '!!str 2a616bf021be8169'
-  server: 5.252.26.190
-  servername: yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 92a8de02-b311-487b-a4ff-3d790cd28898
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪_德国_97
-  port: 16000
-  reality-opts:
-    public-key: cMB0tAmD6scVvjRbLVm1IjryKtXM6SDtceLiz_qF6iw
-  server: x-dg.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
 - name: 'Node #52'
   network: tcp
   port: 2553
@@ -414,115 +315,6 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
-- flow: xtls-rprx-vision
-  name: 德國
-  network: tcp
-  port: 443
-  server: fra-0001-xr.packet-drop-society.net
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: ba77276e-9939-4c6c-a73e-90e02b6faf13
-- flow: xtls-rprx-vision
-  name: DEVLESS-60|free-nodes
-  network: tcp
-  port: 350
-  server: iar.blackhoster.com
-  servername: excoino.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 79a48cba-4a44-4a5c-bfa9-64a53379df2c
-- name: 官网520.juanwangjc.top德国免费使用-03
-  network: ws
-  port: 2083
-  server: v3.dabache.top
-  servername: hajames.amirconfigpaanelllll.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c805b05e-339d-40e0-8787-432d97a27345
-  ws-opts:
-    headers:
-      host: hajames.amirconfigpaanelllll.com
-    path: /
-- name: 🇩🇪DE_6|⬇️4.3MB/s
-  network: ws
-  port: 2053
-  server: 172.64.152.23
-  servername: hz.badomzamini.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8a2240da-25ca-4c95-9c55-26ef2ab70bab
-  ws-opts:
-    headers:
-      host: hz.badomzamini.uk
-    path: /latest?ed=2560
-- name: 🇩🇪DE_13|⬇️5.6MB/s
-  network: ws
-  port: 443
-  server: 194.76.18.25
-  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
-  ws-opts:
-    headers:
-      host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-    path: /ws
-- flow: xtls-rprx-vision
-  name: 🇩🇪DE_9|⬇️3.5MB/s
-  network: tcp
-  port: 443
-  server: 178.17.50.111
-  servername: ads.x5.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 36f6f998-029e-48e2-ba30-24e2a8159075
-- name: 🇩🇪DE_5|⬇️4.2MB/s
-  network: tcp
-  port: 443
-  server: 0ru84.tcpdoor.net
-  servername: 0ru84.tcpdoor.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
-- name: 🇩🇪DE_8|⬇️4.8MB/s
-  network: tcp
-  port: 443
-  server: decdn13.suio.me
-  servername: decdn13.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-- name: DEVLESS-42|free-nodes
-  network: ws
-  port: 2052
-  server: nx.cloud1.hosting-ip.zulagaming.icu
-  servername: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1f00970a-14c1-40d0-9c06-43f513975be1
-  ws-opts:
-    headers:
-      host: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
-    path: /
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -782,42 +574,24 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: 🇩🇪DE_1|1003KB/s
+- encryption: none
+  name: 🇩🇪DE_1|1.1MB/s
   network: ws
-  port: 443
-  server: 104.26.12.41
-  servername: pinalo.zenvorix.ir
-  tls: true
+  port: '8880'
+  server: cdn-cloudflare91.korvexe.ir
   type: vless
   udp: true
-  uuid: 245bb424-b186-4738-8f42-bdbde719d4c9
+  uuid: 28926c34-865c-447e-8d42-a17240af743b
   ws-opts:
     headers:
-      Host: pinalo.zenvorix.ir
-    path: /nova-geo-psiphon-de
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-direct
-  name: 🇩🇪DE_2|3.2MB/s
-  network: grpc
-  port: '2053'
-  reality-opts:
-    public-key: WOf2IaQzzj3Kx0uIVKMu0njVKXyVJN-KDQ9ZFtOIcis
-    short-id: '!!str d6381024c55afb14'
-  server: 217.199.254.135
-  servername: cam-msk-3.videomonitor.cloud
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0a1afeba-642f-11f1-9ca8-da0cb7a547ac
+      Host: cdn-cloudflare91.korvexe.ir
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like
+        Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /
   xudp: true
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_5|2.0MB/s
+  name: 🇩🇪DE_2|2.0MB/s
   network: xhttp
   port: '8443'
   server: 162.159.38.119
@@ -2311,3 +2085,33 @@ proxies:
   uuid: 412d7fbe-7474-4f1d-86c6-7eebdc628f72
   ws-opts:
     path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'DE_speednode_0009 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str d08bb54b5b94b2fc'
+  server: 109.163.239.60
+  servername: cdn5-89.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'DE_speednode_0010 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str 3c9c5d01c6f824dd'
+  server: 109.163.239.208
+  servername: cdn9-78.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
