@@ -17,6 +17,19 @@ proxies:
   type: vmess
   udp: true
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-15
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -56,8 +69,7 @@ proxies:
   ws-headers:
     Host: lt.badns.help
   ws-path: /
-- client-fingerprint: chrome
-  name: '🇹🇼TW_3|2.3MB/s #1'
+- name: 🇹🇼TW_3|2.3MB/s
   password: i99Cef
   port: '28101'
   server: 209.248.32.116

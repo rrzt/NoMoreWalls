@@ -99,7 +99,6 @@ proxies:
     headers:
       Host: www.lamer.com.sg
 - client-fingerprint: edge
-  encryption: none
   flow: xtls-rprx-vision
   name: 'RU俄罗斯 #3'
   network: tcp
@@ -114,7 +113,6 @@ proxies:
   type: vless
   udp: true
   uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-  xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 'BR_speednode_0003 #1'
@@ -145,9 +143,9 @@ proxies:
   type: vless
   udp: true
   uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-- client-fingerprint: safari
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 'NL荷兰(mibei77.com 米贝节点分享)_12 #2'
+  name: 🇷🇺_俄罗斯_122
   port: 443
   reality-opts:
     public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
@@ -217,6 +215,63 @@ proxies:
   uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 🇷🇺_俄罗斯_103
+  port: 443
+  reality-opts:
+    public-key: sntQ0HsOXhaye-K7bKrMw1w3cRmjgp0lT5IhP-ngwlU
+    short-id: '!!str 998432bc'
+  server: 147.45.185.27
+  servername: userapi.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9cddcc01-3dfb-46e0-85d8-e3c6818232cf
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 'RU_speednode_0084 #1'
+  network: tcp
+  port: 9893
+  reality-opts:
+    public-key: GVNhQWxHlpnqLnhlOeFpagU1QLVVHBepBQN0YcPjXVg
+  server: 46.253.132.41
+  servername: www.io.ozone.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
+- name: 'US_speednode_0111 #1'
+  network: ws
+  port: 80
+  server: ru-de.apruxdomain.xyz
+  servername: ru-de.apruxdomain.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 84dc79c7-e443-489d-bf07-b4bb825f57d9
+  ws-opts:
+    headers:
+      Host: ru-de.apruxdomain.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 🇷🇺_俄罗斯_295
+  network: ws
+  port: 2053
+  server: 95.182.120.208
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '🇷🇺_RU_俄罗斯 #4'
   port: 443
   reality-opts:
@@ -228,6 +283,36 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
+- flow: xtls-rprx-vision
+  name: 🇸🇪SE_1|⬇️2.7MB/s
+  network: tcp
+  port: 443
+  server: 176.125.240.166
+  servername: apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: RUVLESS-51|free-nodes
+  network: tcp
+  port: 10468
+  server: 185.113.10.198
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
 - name: 俄罗斯联邦/莫斯科/Russia/Moscow
   network: ws
   port: 4100
@@ -725,20 +810,6 @@ proxies:
   server: 195.133.23.200
   type: ss
   udp: true
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 'RU_speednode_0084 #1'
-  network: tcp
-  port: 9893
-  reality-opts:
-    public-key: GVNhQWxHlpnqLnhlOeFpagU1QLVVHBepBQN0YcPjXVg
-  server: 46.253.132.41
-  servername: www.io.ozone.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
 - alpn:
   - http/1.1
   client-fingerprint: chrome

@@ -17,6 +17,33 @@ proxies:
   type: vmess
   udp: true
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- insecure: '1'
+  mport: 40000-49999
+  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-15
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -71,8 +98,7 @@ proxies:
   ws-headers:
     Host: lt.badns.help
   ws-path: /
-- client-fingerprint: chrome
-  name: '🇹🇼TW_3|2.3MB/s #1'
+- name: 🇹🇼TW_3|2.3MB/s
   password: i99Cef
   port: '28101'
   server: 209.248.32.116
@@ -151,15 +177,6 @@ proxies:
     headers:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
-- name: 🇹🇼TW_1|4.2MB/s
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: chacha20-ietf-poly1305
   name: 🇹🇼TW_9
   password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b

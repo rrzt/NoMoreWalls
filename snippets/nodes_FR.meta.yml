@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'JP日本(v2clash.blog 2026-7.31更新)... #3'
+  name: 🇫🇷_法国_192
   network: ws
   port: 55009
   server: 2001:bc8:32d7:225::3
@@ -12,7 +12,7 @@ proxies:
   uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
   ws-opts:
     path: /0zNW56sF
-- name: 'FR法国(v2clash.blog 2026-7.31更新)... #1'
+- name: 🇩🇪_德国_210
   network: ws
   port: 2053
   server: 51.89.23.94
@@ -410,6 +410,265 @@ proxies:
   tls: false
   type: vless
   uuid: 0fc0e114-8ed6-4c8e-931e-7e3674929750
+- grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: /
+  name: '🇫🇷 法国 starcorenode.com #1'
+  network: grpc
+  port: 8880
+  server: sca34.mysilipdir.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- client-fingerprint: firefox
+  name: 🇫🇷_法国_79
+  port: 443
+  reality-opts:
+    public-key: M7fn-U9PikoH_WXu6HbDE5bi9ej5cFN8bgWy8qF14WU
+    short-id: '!!str 76f547961a8ca082'
+  server: 185.33.24.204
+  servername: cdn.shopify.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6f93f3eb-8ff2-4da4-837b-8a333c281ff3
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_235
+  network: ws
+  port: 2053
+  server: 152.228.135.209
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_173
+  network: ws
+  port: 2053
+  server: 152.228.134.213
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_176
+  network: ws
+  port: 2053
+  server: 31.59.121.155
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_226
+  network: ws
+  port: 2053
+  server: 146.59.156.154
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_222
+  network: ws
+  port: 2053
+  server: 51.77.140.23
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_249
+  network: ws
+  port: 2053
+  server: 152.228.135.238
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_294
+  network: ws
+  port: 2053
+  server: 152.228.135.141
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- client-fingerprint: chrome
+  name: 🇫🇷_法国_292
+  network: ws
+  port: 2053
+  server: 77.221.153.168
+  servername: forfreeuse.sub-flow.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  ws-opts:
+    headers:
+      Host: forfreeuse.sub-flow.online
+    path: /
+- name: 'A - 🇫🇷 FR 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.85.119.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime56.workers.dev
+- name: 'A - 🇫🇷 FR 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 66.81.247.40
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime44.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'A - 🇫🇷 FR 03 TG: @nodpai'
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+  security: reality
+  server: 152.89.253.239
+  servername: ya.ru
+  tls: true
+  type: vless
+  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
+- name: 🇫🇷FR_7|⬇️3.3MB/s
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: /ws
+- name: 🇫🇷FR_3|⬇️6.2MB/s
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: fr-1-fr-1.aiopen.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
+  ws-opts:
+    headers:
+      host: fr-1-fr-1.aiopen.sbs
+    path: /kbjc/fr1
+- name: FRVLESS-75|free-nodes
+  network: ws
+  port: 443
+  server: 69.84.182.20
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: /ws
+- name: 🇫🇷FR_1|⬇️4.3MB/s
+  network: ws
+  port: 443
+  server: 104.24.69.114
+  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+    path: /ws
+- name: 🇫🇷FR_6|⬇️1.2MB/s
+  network: ws
+  port: 443
+  server: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+  servername: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad2cfc08-9850-442e-dcc2-b5171f0a22f1
+  ws-opts:
+    headers:
+      host: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+    path: /@Arshiacomplus
+- flow: xtls-rprx-vision
+  name: 🇫🇷FR_4|⬇️2.7MB/s
+  network: tcp
+  port: 443
+  server: fr01-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
 - cipher: chacha20-ietf-poly1305
   name: 荷兰(yudou789.top 玉豆免费节点)_2
   password: RFK38Cg7APneSB5cWDcpbm
@@ -503,6 +762,36 @@ proxies:
   port: 8119
   server: 54.36.174.181
   type: ss
+- cipher: aes-128-gcm
+  name: 🇫🇷FR_1|2.1MB/s
+  password: vrdedryU1n7uvL9casBpyhaSEmqiAYXD
+  port: '8443'
+  server: Killian.athforce.ir
+  type: ss
+  udp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '!!str f34818a561dfd1fe'
+  server: 45.192.2.51
+  servername: yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9b764b5-49cf-4400-9540-f56f7c09a87a
+  xudp: true
+- name: 🇫🇷FR_3|3.0MB/s
+  password: ''
+  port: '1088'
+  server: 144.91.111.48
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - name: 🇫🇷FR_105
   network: ws
   port: 8880
@@ -1018,19 +1307,6 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇫🇷FR_226
-  network: ws
-  port: 2083
-  server: 172.66.47.45
-  servername: wk1.f1w.de5.net
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: wk1.f1w.de5.net
-    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷FR_1135
   password: XF0klw7870vXn3uQIxe19Q
@@ -3428,19 +3704,6 @@ proxies:
     headers:
       Host: fancy-wind-799d.cloudneryacc.workers.dev
     path: /sync
-- client-fingerprint: random
-  name: 🇫🇷FR_989
-  network: ws
-  port: 8443
-  server: 173.245.58.217
-  servername: learn00.evany.de5.net
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt
 - name: 🇫🇷FR_1159
   password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
   port: 443
@@ -4142,6 +4405,19 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
     path: /fp
+- client-fingerprint: chrome
+  name: 🇫🇷FR_363
+  network: ws
+  port: 443
+  server: 172.64.146.86
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - alpn:
   - http/1.1
   client-fingerprint: chrome

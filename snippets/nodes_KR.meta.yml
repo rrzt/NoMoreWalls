@@ -127,6 +127,24 @@ proxies:
   type: http
   udp: true
   username: test
+- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
 - alterId: 0
   cipher: auto
   name: 韩国/首尔特别市/South Korea/Seoul
@@ -298,6 +316,19 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
+- name: 🇰🇷KR_1|1.1MB/s
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: Og%3D%3D
+- name: 🇰🇷KR_2|4.8MB/s
+  password: ''
+  port: '50161'
+  server: 168.107.13.220
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇰🇷KR_10

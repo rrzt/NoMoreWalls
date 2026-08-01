@@ -1,19 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '未知 VMESS-1048 | free-nodes - 7... #1'
-  network: ws
-  port: 36801
-  server: cindy50.ceoiii.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
 - name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
@@ -277,10 +262,10 @@ proxies:
   uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
 - alterId: 2
   cipher: auto
-  name: 美国(yudou789.top 玉豆免费节点)_53
+  name: '🇨🇳_CN_中国->🇮🇪_IE_爱尔兰 #1'
   port: 30804
   server: v4.hdacd.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -434,18 +419,30 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 🇺🇸_US_美国->🇨🇭_CH_瑞士
+- name: '🇺🇸 美国 CloudFlare节点 3 #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.64.105
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 'B - 🇺🇸 US 32 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45553
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: ch.01.naiun.bilibili.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
+  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -463,31 +460,31 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇺🇸_US_美国->🇫🇷_FR_法国
+- name: 'B - 🇺🇸 US 37 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
-- name: 🇺🇸_US_美国_1
+- name: 'B - 🇺🇸 US 36 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 47909
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
-- name: 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
+- name: 'B - 🇺🇸 US 33 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -712,313 +709,9 @@ proxies:
   ws-headers:
     Host: guanwang.awsno.com
   ws-path: /
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国 - 364ms
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国 - 571ms
-  network: tcp
-  port: 30804
-  server: v4.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1 - 2ms
-  network: ws
-  port: 2086
-  server: 104.18.114.188
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2 - 3ms
-  network: ws
-  port: 2086
-  server: 104.18.114.33
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3 - 2ms
-  network: ws
-  port: 2086
-  server: 104.18.114.69
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4 - 3ms
-  network: ws
-  port: 2086
-  server: 104.18.114.118
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5 - 2ms
-  network: ws
-  port: 2086
-  server: 162.159.45.165
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_6 - 5ms
-  network: ws
-  port: 2086
-  server: 104.18.114.162
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_8 - 3ms
-  network: ws
-  port: 2086
-  server: 104.26.0.87
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_9 - 3ms
-  network: ws
-  port: 2086
-  server: 104.21.238.37
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_10 - 2ms
-  network: ws
-  port: 2086
-  server: 104.26.0.239
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_11 - 3ms
-  network: ws
-  port: 2086
-  server: 104.18.114.125
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_12 - 4ms
-  network: ws
-  port: 2086
-  server: 104.21.238.148
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_13 - 4ms
-  network: ws
-  port: 2086
-  server: 104.18.114.183
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 3ms
-  network: ws
-  port: 2082
-  server: 190.93.244.1
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_14 - 3ms
-  network: ws
-  port: 2086
-  server: 104.18.114.107
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_15 - 5ms
-  network: ws
-  port: 2086
-  server: 104.26.0.183
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 4ms
-  network: ws
-  port: 8880
-  server: 104.18.114.56
-  tls: false
-  type: vmess
-  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-  ws-opts:
-    headers:
-      Host: m1.106778.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_17 - 5ms
-  network: ws
-  port: 2086
-  server: 104.26.0.71
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_18 - 4ms
-  network: ws
-  port: 2086
-  server: 104.18.114.58
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_19 - 4ms
-  network: ws
-  port: 2086
-  server: 104.18.114.122
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_20 - 5ms
-  network: ws
-  port: 2086
-  server: 104.18.114.108
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_21 - 4ms
-  network: ws
-  port: 2086
-  server: 104.21.238.182
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_22 - 2ms
-  network: ws
-  port: 2086
-  server: 104.18.114.111
-  tls: false
-  type: vmess
-  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-  ws-opts:
-    headers:
-      Host: e5.808075.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1 - 4ms
+  name: 🇺🇸_US_美国_1 - 6ms
   network: ws
   port: 2086
   server: 104.26.0.206
@@ -1031,7 +724,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4 - 4ms
+  name: 🇺🇸_US_美国_4 - 6ms
   network: ws
   port: 8880
   server: 104.26.0.15
@@ -1044,7 +737,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_7 - 4ms
+  name: 🇺🇸_US_美国_7 - 5ms
   network: ws
   port: 2086
   server: 162.159.45.53
@@ -1057,7 +750,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_9 - 4ms
+  name: 🇺🇸_US_美国_9 - 6ms
   network: ws
   port: 8880
   server: 104.26.0.100
@@ -1083,7 +776,20 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_11 - 2ms
+  name: 🇺🇸_US_美国_16 - 6ms
+  network: ws
+  port: 8880
+  server: 104.18.114.56
+  tls: false
+  type: vmess
+  uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+  ws-opts:
+    headers:
+      Host: m1.106778.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_11 - 6ms
   network: ws
   port: 2086
   server: 162.159.45.181
@@ -1096,7 +802,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_12 - 3ms
+  name: 🇺🇸_US_美国_12 - 6ms
   network: ws
   port: 8880
   server: 162.159.45.77
@@ -1109,7 +815,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_13 - 3ms
+  name: 🇺🇸_US_美国_13 - 5ms
   network: ws
   port: 2086
   server: 104.26.0.87
@@ -1120,6 +826,297 @@ proxies:
     headers:
       Host: p132.613055.xyz
     path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸_US_美国_1 - 6ms #1'
+  network: ws
+  port: 2086
+  server: 104.18.114.188
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2 - 6ms
+  network: ws
+  port: 2086
+  server: 104.18.114.33
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3 - 6ms
+  network: ws
+  port: 2086
+  server: 104.18.114.69
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸_US_美国_4 - 6ms #1'
+  network: ws
+  port: 2086
+  server: 104.18.114.118
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_5 - 6ms
+  network: ws
+  port: 2086
+  server: 162.159.45.165
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_6 - 6ms
+  network: ws
+  port: 2086
+  server: 104.18.114.162
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8 - 6ms
+  network: ws
+  port: 2086
+  server: 104.26.0.87
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸_US_美国_9 - 6ms #1'
+  network: ws
+  port: 2086
+  server: 104.21.238.37
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_10 - 6ms
+  network: ws
+  port: 2086
+  server: 104.26.0.239
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸_US_美国_11 - 6ms #1'
+  network: ws
+  port: 2086
+  server: 104.18.114.125
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_12 - 5ms
+  network: ws
+  port: 2086
+  server: 104.21.238.148
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_13 - 6ms
+  network: ws
+  port: 2086
+  server: 104.18.114.183
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 6ms
+  network: ws
+  port: 2082
+  server: 190.93.244.1
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_14 - 6ms
+  network: ws
+  port: 2086
+  server: 104.18.114.107
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_15 - 6ms
+  network: ws
+  port: 2086
+  server: 104.26.0.183
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_17 - 6ms
+  network: ws
+  port: 2086
+  server: 104.26.0.71
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_18 - 6ms
+  network: ws
+  port: 2086
+  server: 104.18.114.58
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_19 - 6ms
+  network: ws
+  port: 2086
+  server: 104.18.114.122
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_20 - 6ms
+  network: ws
+  port: 2086
+  server: 104.18.114.108
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_21 - 6ms
+  network: ws
+  port: 2086
+  server: 104.21.238.182
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_22 - 6ms
+  network: ws
+  port: 2086
+  server: 104.18.114.111
+  tls: false
+  type: vmess
+  uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+  ws-opts:
+    headers:
+      Host: e5.808075.xyz
+    path: github.com/Alvin9999
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国 - 364ms
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国 - 571ms
+  network: tcp
+  port: 30804
+  server: v4.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-111
   password: XF0klw7870vXn3uQIxe19Q
@@ -1128,6 +1125,77 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 24 TG: @nodpai'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  sni: support.zoom.us.blackshadow.dpdns.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.zoom.us.blackshadow.dpdns.org
+    path: /195.123.218.174-443
+- name: 'B - 🇺🇸 US 34 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 35 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 42 TG: @nodpai'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18000
+  server: 121.154.96.50
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trojan
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇺🇸 US 46 TG: @nodpai'
+  network: ws
+  port: 52620
+  server: 38.60.176.80
+  type: vmess
+  uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
+  ws-opts:
+    path: /8704a4ad
+- name: 美國_2
+  network: grpc
+  password: iWnFtzMiac
+  port: 19258
+  server: 205.185.115.223
+  skip-cert-verify: true
+  sni: cloudflare.com
+  type: trojan
+  udp: true
+- name: 美國_3
+  network: ws
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: Koma-YT.PAGeS.Dev
+    path: /tro8sFW1S91B6sZrM1?ed=2560
 - name: 🇺🇸 美国|@stairnode
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4019
@@ -1162,16 +1230,6 @@ proxies:
     headers:
       Host: epge.muarua.filegear-sg.me
     path: /?ed
-- alterId: 2
-  cipher: auto
-  name: 美国(yudou789.top 玉豆免费节点)_1
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 美国(yudou789.top 玉豆免费节点)_73
@@ -1202,7 +1260,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '🇹🇼TW_2|3.4MB/s #1'
+- name: 🇹🇼TW_2|3.4MB/s
   network: tcp
   password: i99Cef
   port: '28101'
@@ -1375,6 +1433,21 @@ proxies:
     headers:
       Host: bjsa2ygfitzjtho8ucze29xf2m2q9c.g3fiajpf0erm9k3x6ww-yegzl2.workers.dev
     path: /tr/J6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 12680
+  server: 18.163.100.58
+  sni: www.nintendogames.net
+  type: trojan
+- name: '美国3|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 35966
+  server: 43.198.98.22
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - alterId: 64
   cipher: auto
   name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
@@ -1805,7 +1878,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #3'
+  name: '🇨🇳_CN_中国->🇺🇸_US_美国 #4'
   network: ws
   port: 30836
   server: v36.heduian.link
@@ -2078,7 +2151,7 @@ proxies:
       Host: zxjp-c.tkong.cc
     path: /
 - client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 2
+  name: '🇺🇸 美国 CloudFlare节点 2 #2'
   network: ws
   password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
   port: 443
@@ -2149,7 +2222,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 #3'
+  name: '🇺🇸 美国 CloudFlare节点 #2'
   network: ws
   port: 443
   server: 104.21.15.36
@@ -2163,7 +2236,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 3
+  name: '🇺🇸 美国 CloudFlare节点 3 #2'
   network: ws
   port: 8443
   server: 141.101.121.34
@@ -2175,7 +2248,7 @@ proxies:
       Host: 1743919978.speed.laxha.cccp.freefly.pp.ua
     path: /
 - client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 4
+  name: '🇺🇸 美国 CloudFlare节点 4 #2'
   network: ws
   password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
   port: 443
@@ -2239,7 +2312,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 6ms
+  name: '🇺🇸_US_美国->🇨🇦_CA_加拿大 - 6ms #1'
   network: ws
   port: 2086
   server: 104.19.47.27
@@ -2642,7 +2715,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_10 - 6ms
+  name: '🇺🇸_US_美国_10 - 6ms #1'
   network: ws
   port: 2086
   server: 104.26.12.31
@@ -2707,7 +2780,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_13 - 6ms
+  name: '🇺🇸_US_美国_13 - 6ms #1'
   network: ws
   port: 2086
   server: 104.20.19.168
@@ -3140,16 +3213,6 @@ proxies:
       host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
 - alterId: 0
-  name: 🇺🇸US美国4
-  password: BxceQaOe
-  port: 38961
-  server: 16.162.122.119
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
   cipher: auto
   name: 🇺🇸US美国5
   network: ws
@@ -3243,12 +3306,6 @@ proxies:
   port: 1080
   server: 185.232.22.18
   type: ss
-- name: 美国_127
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  sni: www.multiplydose.com
-  type: trojan
 - cipher: aes-256-gcm
   name: 🇺🇸US_27
   password: faBAoD54k87UJG7

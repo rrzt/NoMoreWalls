@@ -9,16 +9,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 印度
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20035
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: false
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   name: GB英国(v2clash.blog 2026-7.31更新)
   network: ws
@@ -138,7 +128,8 @@ proxies:
   ws-opts:
     headers:
       Host: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-- name: 'GB英国 #1'
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 'GB英国 #1'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa8.api3-max.ru
@@ -245,10 +236,11 @@ proxies:
     headers:
       host: mTCKUNDiGePwU3uP.v.3dns.vip
     path: /ws-vmess
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+  name: 'B - 🇺🇸 US 19 TG: @nodpai'
   port: 22231
+  security: tls
   server: 85.234.114.53
   servername: r1.mizulina.top
   tls: true
@@ -285,6 +277,82 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
+- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: 🇳🇱NL_193
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: 🇬🇧GB_2|⬇️1.7MB/s
+  network: ws
+  port: 443
+  server: 173.245.59.121
+  servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 979b6822-d65a-400d-89f8-30391903ac20
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+    path: /ws
+- name: GBVLESS-110|free-nodes
+  network: ws
+  port: 80
+  server: fuck1.tawanaproxy.online
+  servername: en.tawana.cf.panbehpanel.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c33275fd-a4fa-470d-90e4-55da39d849a8
+  ws-opts:
+    headers:
+      host: en.tawana.cf.panbehpanel.ir
+    path: /
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -353,6 +421,14 @@ proxies:
   port: 8443
   server: 151.247.219.191
   sni: hopp-queen.roxa.org
+  tls: false
+  type: hysteria2
+- name: 🇬🇧GB_84
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa7.api3-max.ru
+  skip-cert-verify: true
+  sni: wopa7.api3-max.ru
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305

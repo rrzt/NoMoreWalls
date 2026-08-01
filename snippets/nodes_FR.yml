@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 'JP日本(v2clash.blog 2026-7.31更新)... #3'
+  name: 🇫🇷_法国_192
   network: ws
   port: 55009
   server: 2001:bc8:32d7:225::3
@@ -89,6 +89,13 @@ proxies:
   port: 8119
   server: 54.36.174.181
   type: ss
+- cipher: aes-128-gcm
+  name: 🇫🇷FR_1|2.1MB/s
+  password: vrdedryU1n7uvL9casBpyhaSEmqiAYXD
+  port: '8443'
+  server: Killian.athforce.ir
+  type: ss
+  udp: true
 - name: 🇫🇷FR_835
   network: ws
   password: humanity
