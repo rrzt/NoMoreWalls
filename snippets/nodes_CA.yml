@@ -25,7 +25,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇨🇦CA_5|112KB/s|C002-260622 01
+  name: '🇨🇦CA_5|112KB/s|C002-260622 01 #1'
   network: raw
   packet-encoding: xudp
   port: 18000

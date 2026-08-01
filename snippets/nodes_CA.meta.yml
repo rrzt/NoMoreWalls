@@ -150,7 +150,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇨🇦CA_5|112KB/s|C002-260622 01
+  name: '🇨🇦CA_5|112KB/s|C002-260622 01 #1'
   network: raw
   packet-encoding: xudp
   port: 18000
@@ -453,7 +453,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 🇨🇦CA_27|101KB/s|A004-260618 01
+  name: '🇨🇦CA_27|101KB/s|A004-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -472,7 +472,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 🇨🇦CA_28|166KB/s|F003-260618 01
+  name: '🇨🇦CA_28|166KB/s|F003-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -491,7 +491,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 🇨🇦CA_29|195KB/s|F003-260618 01
+  name: '🇨🇦CA_29|195KB/s|F003-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8443

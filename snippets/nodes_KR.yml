@@ -55,7 +55,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇰🇷KR_3|160KB/s|C002-260622 01
+  name: '🇰🇷KR_3|160KB/s|C002-260622 01 #1'
   network: raw
   packet-encoding: xudp
   port: 8888
@@ -69,7 +69,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇰🇷KR_5|93KB/s|C002-260622 01
+  name: '🇰🇷KR_5|93KB/s|C002-260622 01 #1'
   network: tcp
   packet-encoding: xudp
   port: 8888

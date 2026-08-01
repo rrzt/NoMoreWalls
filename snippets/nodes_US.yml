@@ -301,7 +301,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_1|342KB/s|C002-260622 01
+  name: '🇺🇸US_1|342KB/s|C002-260622 01 #1'
   network: raw
   packet-encoding: xudp
   port: 180
@@ -421,7 +421,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇺🇸US_31|256KB/s|A004-260618 01
+  name: '🇺🇸US_31|256KB/s|A004-260618 01 #1'
   network: tcp
   password: kkzh2prsyr2ik47as615
   port: 57142
@@ -478,7 +478,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_51|211KB/s|C002-260622 01
+  name: '🇺🇸US_51|211KB/s|C002-260622 01 #1'
   network: raw
   packet-encoding: xudp
   port: 18000
@@ -506,7 +506,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_54|186KB/s|C002-260622 01
+  name: '🇺🇸US_54|186KB/s|C002-260622 01 #1'
   network: raw
   packet-encoding: xudp
   port: 180
@@ -520,7 +520,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_55|408KB/s|C002-260622 01
+  name: '🇺🇸US_55|408KB/s|C002-260622 01 #1'
   network: raw
   packet-encoding: xudp
   port: 48111
@@ -534,7 +534,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_58|204KB/s|C002-260622 01
+  name: '🇺🇸US_58|204KB/s|C002-260622 01 #1'
   network: raw
   packet-encoding: xudp
   port: 443
@@ -548,7 +548,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_62|389KB/s|C002-260622 01
+  name: '🇺🇸US_62|389KB/s|C002-260622 01 #1'
   network: raw
   packet-encoding: xudp
   port: 18000
@@ -576,7 +576,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_64|343KB/s|C002-260622 01
+  name: '🇺🇸US_64|343KB/s|C002-260622 01 #1'
   network: raw
   packet-encoding: xudp
   port: 180
@@ -677,7 +677,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_173|161KB/s|C002-260622 0...
+  name: '🇺🇸US_173|161KB/s|C002-260622 0... #1'
   network: raw
   packet-encoding: xudp
   port: 18000
@@ -691,7 +691,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: aes-128-gcm
-  name: 🇺🇸US_174|65KB/s|C002-260622 01
+  name: '🇺🇸US_174|65KB/s|C002-260622 01 #1'
   network: raw
   packet-encoding: xudp
   port: 18000
@@ -705,7 +705,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_177|267KB/s|M002-260618 0...
+  name: '🇺🇸US_177|267KB/s|M002-260618 0... #1'
   network: tcp
   packet-encoding: xudp
   port: 18000
@@ -757,7 +757,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: aes-128-gcm
-  name: 🇺🇸US_228|323KB/s|C002-260622 0...
+  name: '🇺🇸US_228|323KB/s|C002-260622 0... #1'
   network: raw
   packet-encoding: xudp
   port: 18000
@@ -823,7 +823,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US_245|231KB/s|B007-260618 0...
+  name: '🇺🇸US_245|231KB/s|B007-260618 0... #1'
   network: ws
   packet-encoding: xudp
   port: 39495
@@ -840,7 +840,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇺🇸US_246|186KB/s|C002-260622 0...
+  name: '🇺🇸US_246|186KB/s|C002-260622 0... #1'
   network: raw
   packet-encoding: xudp
   port: 443
@@ -861,7 +861,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇺🇸US_271|250KB/s|A004-260618 0...
+  name: '🇺🇸US_271|250KB/s|A004-260618 0... #1'
   network: tcp
   password: kkzh2prsyr2ik47as615
   port: 57142
@@ -872,7 +872,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇺🇸US_328|345KB/s|A004-260618 0...
+  name: '🇺🇸US_328|345KB/s|A004-260618 0... #1'
   network: tcp
   password: kkzh2prsyr2ik47as615
   port: 57142
@@ -883,7 +883,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇺🇸US_338|236KB/s|A004-260618 0...
+  name: '🇺🇸US_338|236KB/s|A004-260618 0... #1'
   network: tcp
   password: kkzh2prsyr2ik47as615
   port: 57142
@@ -894,7 +894,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇺🇸US_346|243KB/s|C002-260622 0...
+  name: '🇺🇸US_346|243KB/s|C002-260622 0... #1'
   network: tcp
   password: kkzh2prsyr2ik47as615
   port: 57142
@@ -18302,7 +18302,7 @@ proxies:
     path: /kellie.makeup/linkvws
 - alterId: 1
   cipher: auto
-  name: 🇺🇸 US 4 → tg@nicevpn123
+  name: 🇯🇵JP_3|4.9MB/s
   port: 46482
   server: vt50k-g01.jp05-6786-vm0.entry.fr0307a.art
   skip-cert-verify: true
@@ -18625,7 +18625,7 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 🇺🇸 US 425 → tg@nicevpn123
+  name: 🇯🇵JP_4|4.5MB/s
   port: 21581
   server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
   skip-cert-verify: true
@@ -39847,6 +39847,22 @@ proxies:
     headers:
       Host: 104.19.46.22
     path: /
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|1.8MB/s
+  password: amazonskr05
+  port: '443'
+  server: 98.81.132.97
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: 🇺🇸US_4|1.5MB/s
+  password: amazonskr05
+  port: '443'
+  server: 54.226.30.144
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: US

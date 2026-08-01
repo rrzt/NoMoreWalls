@@ -218,7 +218,7 @@ proxies:
   uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇷🇺RU_17|288KB/s|B007-260618 01
+  name: '🇷🇺RU_17|288KB/s|B007-260618 01 #1'
   password: CsSYOhlDUy7Hz1yQCXSnxj
   port: 10792
   server: 130.49.189.158
@@ -294,7 +294,7 @@ proxies:
   uuid: 873f1046-0210-4b2e-a0ec-dc1826886071
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇭🇰HK_1|1.1MB/s
+  name: 🇷🇺_俄罗斯_21
   port: 443
   reality-opts:
     public-key: 84d_aHtsBvclx_Y6FnTmhhTqsZyQdfCGWtmFvefTrUI

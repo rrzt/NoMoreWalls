@@ -259,7 +259,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP_1|199KB/s 01
+  name: '🇯🇵JP_1|199KB/s 01 #1'
   network: ws
   packet-encoding: xudp
   port: 25686
@@ -277,7 +277,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP_3|351KB/s|B007-260618 01
+  name: '🇯🇵JP_3|351KB/s|B007-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 25686
@@ -302,7 +302,7 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇯🇵JP_8|455KB/s|P002-260618 01
+- name: '🇯🇵JP_8|455KB/s|P002-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -320,7 +320,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇯🇵JP_9|307KB/s|A003-260618 01
+  name: '🇯🇵JP_9|307KB/s|A003-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 4010
@@ -344,7 +344,7 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇯🇵JP_11|306KB/s|C002-260622 01
+- name: '🇯🇵JP_11|306KB/s|C002-260622 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -420,7 +420,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP_17|135KB/s|S004-260618 01
+  name: '🇯🇵JP_17|135KB/s|S004-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 80
@@ -441,7 +441,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 🇯🇵JP_18|75KB/s|C002-260622 01
+  name: '🇯🇵JP_18|75KB/s|C002-260622 01 #1'
   network: ws
   packet-encoding: xudp
   port: 80
@@ -457,7 +457,7 @@ proxies:
     path: /cctv13.m3u8
   xudp: true
 - client-fingerprint: chrome
-  name: 🇯🇵JP_19|261KB/s|S004-260618 01
+  name: '🇯🇵JP_19|261KB/s|S004-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -477,7 +477,7 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- name: 🇯🇵JP_20|248KB/s 01
+- name: '🇯🇵JP_20|248KB/s 01 #1'
   password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
   port: 443
   server: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
@@ -2602,6 +2602,30 @@ proxies:
   tls: false
   type: vmess
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
+- client-fingerprint: chrome
+  name: 🇯🇵JP_1|1001KB/s
+  network: ws
+  port: 25535
+  server: 193.111.30.245
+  servername: sni.ehb.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- auth: 4861843a-3187-4885-83d9-2f69fed13fc9
+  name: 🇯🇵JP_2|2.9MB/s
+  password: 4861843a-3187-4885-83d9-2f69fed13fc9
+  port: 20005
+  server: hkt2.nekohub.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇯🇵JP_19
   network: ws

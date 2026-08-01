@@ -210,7 +210,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB_6|393KB/s 01
+  name: '🇬🇧GB_6|393KB/s 01 #1'
   password: cAqbBYBB0f9CAmpU_mc_7FyvvLCcwzt0
   port: 8388
   server: 31.76.80.205
@@ -273,7 +273,7 @@ proxies:
   udp: true
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   xudp: true
-- name: 🇬🇧GB_13|387KB/s|C002-260622 01
+- name: '🇬🇧GB_13|387KB/s|C002-260622 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -289,7 +289,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: 🇬🇧GB_14|295KB/s|C002-260622 01
+- name: '🇬🇧GB_14|295KB/s|C002-260622 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -306,7 +306,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - encryption: none
-  name: ❓Other_45|250KB/s|B007-260618 ...
+  name: '❓Other_45|250KB/s|B007-260618 ... #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -325,7 +325,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: 🇬🇧GB_16|69KB/s|C002-260622 01
+  name: '🇬🇧GB_16|69KB/s|C002-260622 01 #1'
   network: raw
   packet-encoding: xudp
   port: 22324
@@ -337,7 +337,7 @@ proxies:
   udp: true
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   xudp: true
-- name: 🇬🇧GB_17|531KB/s|C002-260622 01
+- name: '🇬🇧GB_17|531KB/s|C002-260622 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -353,7 +353,7 @@ proxies:
         Chrome/65.0.3325.181 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: 🇬🇧GB_18|137KB/s|T001-260618 01
+- name: '🇬🇧GB_18|137KB/s|T001-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -423,7 +423,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇬🇧GB_23|166KB/s|M002-260618 01
+  name: '🇬🇧GB_23|166KB/s|M002-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -468,7 +468,7 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇬🇧GB_27|325KB/s|C002-260622 01
+- name: '🇬🇧GB_27|325KB/s|C002-260622 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -500,7 +500,7 @@ proxies:
       Host: blue-rice-7142.30-346.workers.dev
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: 🇬🇧GB_29|224KB/s 01
+- name: '🇬🇧GB_29|224KB/s 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -555,7 +555,7 @@ proxies:
       Host: ad-010.vector2llqn.info
     path: /
   xudp: true
-- name: 🇬🇧GB_35|165KB/s 01
+- name: '🇬🇧GB_35|165KB/s 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -570,7 +570,7 @@ proxies:
         Gecko) Chrome/50.0.2661.94 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: 🇬🇧GB_36|375KB/s|C002-260622 01
+- name: '🇬🇧GB_36|375KB/s|C002-260622 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -661,7 +661,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 🇬🇧GB_55|77KB/s|A004-260618 01
+  name: '🇬🇧GB_55|77KB/s|A004-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -805,7 +805,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   encryption: none
-  name: 🇬🇧GB_75|219KB/s|M002-260618 01
+  name: '🇬🇧GB_75|219KB/s|M002-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -2582,3 +2582,18 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'GB_speednode_0015 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
+    short-id: '!!str 5a8e1a04f3d92b67'
+  server: 2.26.129.68
+  servername: ukrop.mycdn-me.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f055899d-026b-49b5-88ed-0227795082da

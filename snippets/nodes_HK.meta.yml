@@ -250,7 +250,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇭🇰 香港 02
+  name: '🇭🇰 香港 02 #1'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -262,7 +262,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇭🇰 香港 03
+  name: '🇭🇰 香港 03 #1'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -273,7 +273,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇭🇰 香港 04
+  name: '🇭🇰 香港 04 #1'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -4551,6 +4551,38 @@ proxies:
     headers:
       Host: U2FRxj0G13vDI0Wo.v.3dns.vip
     path: /ws-vmess
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 🇭🇰HK_1|5.2MB/s
+  network: grpc
+  port: 10130
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42AD99DB-EC24-47B7-BE3D-8BEE715C2D2B
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: movie
+  name: 🇭🇰HK_2|5.0MB/s
+  network: grpc
+  port: '10130'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: 95.40.104.115
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42AD99DB-EC24-47B7-BE3D-8BEE715C2D2B
+  xudp: true
 - alterId: 0
   cipher: auto
   name: HK4

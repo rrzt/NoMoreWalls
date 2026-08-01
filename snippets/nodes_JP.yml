@@ -163,7 +163,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP_1|199KB/s 01
+  name: '🇯🇵JP_1|199KB/s 01 #1'
   network: ws
   packet-encoding: xudp
   port: 25686
@@ -181,7 +181,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP_3|351KB/s|B007-260618 01
+  name: '🇯🇵JP_3|351KB/s|B007-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 25686
@@ -208,7 +208,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: '0'
   cipher: auto
-  name: 🇯🇵JP_9|307KB/s|A003-260618 01
+  name: '🇯🇵JP_9|307KB/s|A003-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 4010
@@ -280,7 +280,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇯🇵JP_17|135KB/s|S004-260618 01
+  name: '🇯🇵JP_17|135KB/s|S004-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 80
@@ -301,7 +301,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 🇯🇵JP_18|75KB/s|C002-260622 01
+  name: '🇯🇵JP_18|75KB/s|C002-260622 01 #1'
   network: ws
   packet-encoding: xudp
   port: 80

@@ -377,7 +377,7 @@ proxies:
       Host: ad-005.novayjr9g.info
     path: /
   xudp: true
-- name: 🇩🇪DE_28|180KB/s|P002-260618 01
+- name: '🇩🇪DE_28|180KB/s|P002-260618 01 #1'
   password: ''
   port: 1080
   server: 152.89.104.11
@@ -540,7 +540,7 @@ proxies:
   - http/1.1
   client-fingerprint: ios
   encryption: none
-  name: 🇩🇪DE_54|202KB/s|M002-260618 01
+  name: '🇩🇪DE_54|202KB/s|M002-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -611,7 +611,7 @@ proxies:
   ws-opts:
     path: /bkdicj
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_69|488KB/s|A004-260618 01
+  name: '🇩🇪DE_69|488KB/s|A004-260618 01 #1'
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
   server: 62.113.194.49
@@ -652,7 +652,7 @@ proxies:
     path: /vless/
   xudp: true
 - client-fingerprint: chrome
-  name: 🇩🇪DE_73|164KB/s|B007-260618 01
+  name: '🇩🇪DE_73|164KB/s|B007-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -757,7 +757,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_84|102KB/s|S004-260618 01
+  name: '🇩🇪DE_84|102KB/s|S004-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -888,7 +888,7 @@ proxies:
   ws-opts:
     path: /free
   xudp: true
-- name: 🇩🇪DE_94|412KB/s|F003-260618 01
+- name: '🇩🇪DE_94|412KB/s|F003-260618 01 #1'
   network: ws
   packet-encoding: xudp
   port: 58500
@@ -2909,20 +2909,22 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|2.0MB/s
-  network: tcp
-  port: 44003
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-direct
+  name: 🇩🇪DE_1|1.1MB/s
+  network: grpc
+  port: 2053
   reality-opts:
-    public-key: mCtDwMr9u9MdztUGzCGADj-nfHv6CQpAf_ywbyKl8ww
-    short-id: '!!str dbd745'
-  server: ru.pool-b.netcenter-cdn.com
-  servername: pool-b.pools.netcenter-cdn.com
+    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
+    short-id: '!!str 5b9dc5fe4ad87cc2'
+  server: 95.163.183.109
+  servername: hh.ru
   tls: true
   type: vless
   udp: true
-  uuid: ee2f3100-512d-4ef1-9c8b-5725244aa740
+  uuid: fb258f28-89a0-11f1-9ca5-1e6febe3e1df
 - client-fingerprint: chrome
   name: 🇩🇪DE_6
   network: tcp

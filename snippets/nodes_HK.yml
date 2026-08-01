@@ -76,7 +76,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇭🇰 香港 02
+  name: '🇭🇰 香港 02 #1'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -88,7 +88,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇭🇰 香港 03
+  name: '🇭🇰 香港 03 #1'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -99,7 +99,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: 🇭🇰 香港 04
+  name: '🇭🇰 香港 04 #1'
   network: tcp
   password: BxceQaOe
   port: 443
