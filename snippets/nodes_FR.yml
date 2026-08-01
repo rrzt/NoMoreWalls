@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇫🇷_法国_192
+  name: 'JP日本(v2clash.blog 2026-7.31更新)... #3'
   network: ws
   port: 55009
   server: 2001:bc8:32d7:225::3
@@ -30,7 +30,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-842 | free-nodes - 6m...
+  name: '法國節點 #2'
   network: ws
   port: 80
   server: 69.84.182.49
@@ -50,13 +50,6 @@ proxies:
   server: switcher-nick-croquet.freesocks.work
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 法国/France
-  port: 2052
-  server: node-uk.connectsuite.org
-  type: vmess
-  uuid: 40b25dc2-8e1a-4889-b334-e3376ab3d865
 - cipher: aes-256-cfb
   name: '🇫🇷_FR_法国 #3'
   password: asdKkaskJKfnsa
@@ -89,13 +82,21 @@ proxies:
   port: 8119
   server: 54.36.174.181
   type: ss
-- cipher: aes-128-gcm
-  name: 🇫🇷FR_1|2.1MB/s
-  password: vrdedryU1n7uvL9casBpyhaSEmqiAYXD
-  port: '8443'
-  server: Killian.athforce.ir
-  type: ss
-  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷 FR 524 | ⬇️ 95KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.69
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
 - name: 🇫🇷FR_835
   network: ws
   password: humanity

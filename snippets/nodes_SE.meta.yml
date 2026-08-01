@@ -83,55 +83,6 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇸🇪 机场推荐:dafei.de 瑞典 02
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Z2c9dK70_0OWBEZGgeaXJyt9dup9h2-hZlCCvIGLg1Q
-    short-id: '!!str 496ee75c2f91f51d'
-  server: sw1-chr.astralweb.tech
-  servername: sw1-chr.astralweb.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-- name: 🇸🇪SE_3|⬇️3.2MB/s
-  network: tcp
-  port: 443
-  server: secdn17.suio.me
-  servername: secdn17.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-- grpc-opts:
-    grpc-service-name: JNIR
-  name: 未知VLESS-49|free-nodes
-  network: grpc
-  port: 504
-  server: dd.openaccessnode.com
-  servername: nobitex.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_14
-  password: amazonskr05
-  port: 443
-  server: 13.53.198.63
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_2|1.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.62.53.26
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: 🇸🇪SE_3|4.1MB/s
   password: amazonskr05
@@ -140,14 +91,39 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇸🇪SE_4|4.0MB/s
+  name: 🇸🇪SE_3|2.1MB/s
   password: amazonskr05
   port: 443
   server: 13.53.38.71
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇸🇪SE_1|1.2MB/s
+  name: 🇸🇪SE_14
+  password: amazonskr05
+  port: 443
+  server: 13.53.198.63
+  type: ss
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇸🇪SE_1|1.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
+  server: pl88.kubservice.icu
+  servername: pl88.kubservice.icu
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_2|4.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.51.233.2
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_4|3.4MB/s
   password: amazonskr05
   port: 443
   server: 13.62.20.75

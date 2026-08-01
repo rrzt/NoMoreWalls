@@ -1,4 +1,14 @@
 proxies:
+- name: 印度
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20035
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  tls: false
+  type: trojan
+  udp: true
 - name: 'US美国 #33'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -6,7 +16,7 @@ proxies:
   server: oplosgru-c.catcat321.com
   skip-cert-verify: false
   sni: hk.catxstar.com
-  tls: true
+  tls: false
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -128,8 +138,7 @@ proxies:
   ws-opts:
     headers:
       Host: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 'GB英国 #1'
+- name: 'GB英国 #1'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa8.api3-max.ru
@@ -165,8 +174,9 @@ proxies:
   tls: false
   type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US-157.254.38.210-28
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 861 | ⬇️ 725KB/s
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -236,11 +246,10 @@ proxies:
     headers:
       host: mTCKUNDiGePwU3uP.v.3dns.vip
     path: /ws-vmess
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 19 TG: @nodpai'
+  name: 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
   port: 22231
-  security: tls
   server: 85.234.114.53
   servername: r1.mizulina.top
   tls: true
@@ -253,21 +262,6 @@ proxies:
   port: 443
   server: 146.19.49.251
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧 机场推荐:dafei.de 英国 01
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: 31.76.37.2
-  servername: pro-it.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 35a23d16-4117-42e7-8489-a1cedd670374
-  xudp: true
 - name: 🇬🇧GB_86
   network: tcp
   port: 1446
@@ -277,82 +271,6 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
-- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 185.193.30.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.40.146.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /?ed=2560
-- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.80.110.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: 🇳🇱NL_193
-  network: ws
-  port: 8880
-  server: 185.159.247.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-    path: /
-- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 77.75.199.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: 🇬🇧GB_2|⬇️1.7MB/s
-  network: ws
-  port: 443
-  server: 173.245.59.121
-  servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 979b6822-d65a-400d-89f8-30391903ac20
-  ws-opts:
-    headers:
-      host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
-    path: /ws
-- name: GBVLESS-110|free-nodes
-  network: ws
-  port: 80
-  server: fuck1.tawanaproxy.online
-  servername: en.tawana.cf.panbehpanel.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c33275fd-a4fa-470d-90e4-55da39d849a8
-  ws-opts:
-    headers:
-      host: en.tawana.cf.panbehpanel.ir
-    path: /
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -361,50 +279,46 @@ proxies:
   sni: iosapps.itunes.apple.com
   tls: false
   type: hysteria2
+- name: '🇬🇧_GB_英国->🇩🇪_DE_德国 #2'
+  port: 2550
+  server: 194.242.129.183
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d8b42cd5-a149-4356-9e61-000000000000
 - cipher: chacha20-ietf-poly1305
-  name: 未知 SS-146
+  name: 🇳🇱NL_219
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.35
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-156
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.176
+  server: 82.38.31.204
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_337
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: pl1.levikogjgfdd.ir
+  name: 🇬🇧GB_19
+  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
+  port: 1234
+  server: 194.164.92.198
   type: ss
-- client-fingerprint: ios
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 未知 VLESS-727
+  name: 🇬🇧GB_3
   network: tcp
   port: 443
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 82.39.171.131
-  servername: yahoo.com
+    public-key: j5qmR8E9er-0n5zZbK6s_SdvYm-tYlraXVYm49ArWS8
+    short-id: '!!str 60debb3ab744d8ce'
+  server: 67.159.56.57
+  servername: uk.bvps.cloud
   tls: true
   type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: 英国/United Kingdom-4
-  network: ws
-  port: 2053
-  server: uk1.levikogjgfdd.ir
-  servername: vlso.1d.mom
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso.1d.mom
-    path: /socks5=888:888@8.210.127.248:1080
-- cipher: rc4-md5
-  name: 🇬🇧GB_2
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
-  type: ss
-- name: 英国/United Kingdom-5
+  uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
+- name: 英国/United Kingdom-7
   network: ws
   password: '!!str 521314'
   port: 443
@@ -416,20 +330,11 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: /
-- name: 🇬🇧GB_7
-  password: 7_Bz834J98n238cNbx7cjLAw_Nux28c_kIO1Hq86Vr
-  port: 8443
-  server: 151.247.219.191
-  sni: hopp-queen.roxa.org
-  tls: false
-  type: hysteria2
-- name: 🇬🇧GB_84
+- name: 英国/United Kingdom-8
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
-  server: wopa7.api3-max.ru
-  skip-cert-verify: true
+  server: 107.181.134.90
   sni: wopa7.api3-max.ru
-  tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_178
@@ -466,12 +371,6 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.208
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_219
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.35
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_74
@@ -659,12 +558,49 @@ proxies:
   port: 8080
   server: 82.38.31.219
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-146
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
+  type: ss
+- cipher: rc4-md5
+  name: 🇬🇧GB_2
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 146.70.61.37
+  type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧GB-212.38.189.174-0024 | 0.0...
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 212.38.189.174
   type: ss
+- name: 🇬🇧 GB 394 | ⬇️ 14KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 59167
+  server: 193.104.58.45
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: a95b6f06-af75-4cf8-bcb0-15bcdcec7b64
+- alpn:
+  - h2%2Chttp%2F1.1
+  client-fingerprint: qq
+  name: 🇬🇧 GB 949 | ⬇️ 2MB/s
+  network: xhttp
+  port: 443
+  server: uk2.denverpresents.top
+  servername: uk2.denverpresents.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+  xhttp-opts:
+    host: uk2.denverpresents.top
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -685,19 +621,88 @@ proxies:
   port: 443
   server: series-a2.varzesh360.co
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 未知 VMESS-972 | free-nodes - 15...
-  network: ws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|3.8MB/s
+  network: tcp
   port: 443
-  server: mtckundigepwu3up.v.3dns.vip
+  reality-opts:
+    public-key: tCWATDQkb8y96seamXD6wsMSTIQSm-qtAGPnSwQubSQ
+    short-id: '!!str 2d4f6a8b0c1e'
+  server: ukk.spectrum.vu
+  servername: ukk.spectrum.vu
   tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: mTCKUNDiGePwU3uP.v.3dns.vip
-    path: /ws-vmess
+  type: vless
+  udp: true
+  uuid: ba46709f-7324-48d3-a99c-66669d546448
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_2|1.3MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: rt.tunnelpoint.space
+  servername: rt.tunnelpoint.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- client-fingerprint: chrome
+  name: 🇬🇧GB_3|1.9MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-it.emrata.top
+  servername: pro-it.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0211247d-a963-456e-9299-681460b36335
+- alpn:
+  - h3
+  auth: c2948c84-748f-47f6-bc7a-b949ef279f85
+  name: 🇬🇧GB_4|1.3MB/s
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
+  port: 8443
+  server: 78.159.240.215
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  type: hysteria2
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: vkbrto
+  name: 🇬🇧GB_5|4.6MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: rAopr8hz39QCzy6_HFCjwuO93sA3LwHz1LVHAV7utjw
+    short-id: '!!str f5af261c314be426'
+  server: 89.208.85.165
+  servername: vbr.fastfive.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7309d92c-cb36-0003-8a29-40beb14f6bf1
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_6|2.9MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: w88Ys8dVF9DuslGwUD05J9-FHNoAT9qmPysCvHiEmmg
+    short-id: '!!str 1b40e7c2a1d8f635'
+  server: 2.26.128.73
+  servername: wombat.mycdn-me.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f055899d-026b-49b5-88ed-0227795082da
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧GB_50
@@ -782,6 +787,14 @@ proxies:
     headers:
       Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
     path: /@Marisa_kristi
+- name: 🇬🇧GB_84
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa7.api3-max.ru
+  skip-cert-verify: true
+  sni: wopa7.api3-max.ru
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: 🇬🇧GB_58
   network: ws
@@ -944,19 +957,6 @@ proxies:
     headers:
       Host: bfb7b8f7s861.gogocs.xyz
     path: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_3
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: j5qmR8E9er-0n5zZbK6s_SdvYm-tYlraXVYm49ArWS8
-    short-id: '!!str 60debb3ab744d8ce'
-  server: 67.159.56.57
-  servername: uk.bvps.cloud
-  tls: true
-  type: vless
-  uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f
 - client-fingerprint: chrome
   name: 🇬🇧GB_17
   network: ws
@@ -1393,6 +1393,13 @@ proxies:
   tls: true
   type: vless
   uuid: 3ef170be-05d0-479c-9753-aa2f860964ea
+- name: 🇬🇧GB_7
+  password: 7_Bz834J98n238cNbx7cjLAw_Nux28c_kIO1Hq86Vr
+  port: 8443
+  server: 151.247.219.191
+  sni: hopp-queen.roxa.org
+  tls: false
+  type: hysteria2
 - name: 🇬🇧_GB_英国_6
   network: ws
   port: 2053

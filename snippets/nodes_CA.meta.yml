@@ -1,4 +1,19 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_207
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
+    short-id: '!!str 250b5976473a'
+  server: jyvlryz.cvewfjg.shop
+  servername: www.cloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
 - name: 'Node #3'
   network: ws
   port: 8880
@@ -412,21 +427,6 @@ proxies:
     headers:
       host: t1s1.rittbo.kdns.fr
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_207
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs
-    short-id: '!!str 250b5976473a'
-  server: jyvlryz.cvewfjg.shop
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
 - cipher: aes-256-cfb
   name: 🇨🇦_CA_加拿大
   password: amazonskr05
@@ -469,31 +469,33 @@ proxies:
     headers:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 'A - 🇨🇦 CA 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 50.62.195.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  name: 'B - 🇨🇦 CA 02 TG: @nodpai'
+- cipher: aes-128-gcm
+  name: 🇨🇦CA_2
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 未知91
   network: ws
   port: 443
-  security: tls
-  server: shopify.com
-  servername: misaka.cndyw.ggff.net
+  server: 158.51.121.63
+  servername: seribus.org
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: misaka.cndyw.ggff.net
-    path: /?ed=2560
+      host: seribus.org
+    path: linkvws
+- cipher: rc4-md5
+  name: 🇨🇦CA_10
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸US_29
   password: G5p6ww4o67HB
@@ -514,18 +516,6 @@ proxies:
     headers:
       host: teams.microsoft.com
     path: /
-- cipher: rc4-md5
-  name: 🇨🇦CA_10
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇨🇦CA_2
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
-  type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦CA-85.208.108.58-0177 | 0.0M...
   password: e4FCWrgpkji3QY
@@ -625,19 +615,6 @@ proxies:
   ws-opts:
     headers:
       Host: ad-013.pixel9xdmq.info
-    path: /
-- client-fingerprint: chrome
-  name: 🇨🇦CA_16
-  network: ws
-  port: 8443
-  server: ad-013.orbitqgr7v.info
-  servername: ad-013.orbitqgr7v.info
-  tls: true
-  type: vless
-  uuid: 304a1e62-eb26-4b44-994e-b96a70fff9b4
-  ws-opts:
-    headers:
-      Host: ad-013.orbitqgr7v.info
     path: /
 - alpn:
   - h2

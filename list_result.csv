@@ -1,6 +1,6 @@
 序号,链接,节点数
 0,https://clashgithub.com/wp-content/uploads/rss/20260801.yml,0
-1,https://clashstair.cczzuu.top/node/20260801.yaml,9
+1,https://clashstair.cczzuu.top/node/20260801.yaml,14
 2,https://free.datiya.com/uploads/20260801-clash.yaml,14
 3,https://jichangx.com/nodes/v2ray-20260801-01,10
 4,https://jichangx.com/nodes/v2ray-20260801-02,1246
@@ -23,11 +23,11 @@
 21,https://nodefree.org/dy/2026/08/20260801.yaml,0
 22,https://oss.oneclash.cc/2026/7/20260730.yaml,0
 23,https://raw.githubusercontent.com/free-nodes/clashfree/main/clash20260801.yml,1237
-24,https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/7/20260731.yaml,219
-25,https://stairnode.cczzuu.top/node/20260801.yaml,9
+24,https://sfdr.zaixianyouxi.dpdns.org/uploads/2026/8/20260801.yaml,219
+25,https://stairnode.cczzuu.top/node/20260801.yaml,14
 26,https://static.v2rayshare.net/2026/08/20260801.yaml,20
 27,https://v2clash.blog/Link/20260731-clash.yaml,197
-28,https://wanzhuanmi.cczzuu.top/node/20260801.yaml,9
+28,https://wanzhuanmi.cczzuu.top/node/20260801.yaml,14
 29,https://cdn.jsdelivr.net/gh/vxiaov/free_proxies@main/clash/clash.provider.yaml,28
 30,https://fn03.fn0618.xyz/nodes/0c9fc7984c4693ab905cd15b7e431661,0
 31,https://fn03.fn0618.xyz/nodes/1ee8f8918de2089d65e4268ebc7adc1f,0
@@ -53,13 +53,13 @@
 51,https://ghproxy.cfd/https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml,0
 52,https://gist.githubusercontent.com/peasoft/40b87245630092f30cc98af61190b4e2/raw/,10
 53,https://nodebuf.com/files/public/cms6qzg140ar5qb5wivnv3m8l/download,22
-54,https://pai.yt/clash,124
+54,https://pai.yt/clash,0
 55,https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.yaml,60
 56,https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/ndnode.yaml,14
 57,https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.yaml,163
 58,https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/vmess,0
 59,https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg,0
-60,https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/merged_proxies_new.yaml,44
+60,https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/merged_proxies_new.yaml,56
 61,https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/all.yaml,0
 62,https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml,3646
 63,https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml,16
@@ -67,7 +67,7 @@
 65,https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2,42
 66,https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml,0
 67,https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml,2332
-68,https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml,181
+68,https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml,161
 69,https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml,25
 70,https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml,27
 71,https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml,18
@@ -80,9 +80,9 @@
 78,https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash,14
 79,https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub,14
 80,https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/combine.yaml,187
-81,https://raw.githubusercontent.com/rrzt/get_subscribe/main/subscribe/clash.yml,26
-82,https://raw.githubusercontent.com/rrzt/spider-clash/main/output/clash.yaml,1535
-83,https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml,102
+81,https://raw.githubusercontent.com/rrzt/get_subscribe/main/subscribe/clash.yml,27
+82,https://raw.githubusercontent.com/rrzt/spider-clash/main/output/clash.yaml,1950
+83,https://raw.githubusercontent.com/shaoyouvip/free/refs/heads/main/all.yaml,100
 84,https://raw.githubusercontent.com/ts-sf/fly/main/clash,200
 85,https://raw.githubusercontent.com/yafeisun/v2raynode/refs/heads/main/result/nodetotal.txt,3183
 86,https://raw.githubusercontent.com/yafeisun/v2raynode/refs/heads/main/result/v2rayse.txt,2
@@ -94,4 +94,4 @@
 92,https://tt.vg/freeclash,0
 93,https://www.xrayvip.com/free.yaml,0
 
-总计,,4284
+总计,,3906

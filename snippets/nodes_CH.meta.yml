@@ -58,19 +58,6 @@ proxies:
   type: vless
   udp: true
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
-- client-fingerprint: firefox
-  name: 🇨🇭_瑞士_99
-  port: 443
-  reality-opts:
-    public-key: a28gKquRbugXlI13fv5HeiiZ2yTPrqtQfNFqcAiHE1I
-    short-id: '!!str 76f547961a8ca082'
-  server: 138.124.60.95
-  servername: api.max.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f93f3eb-8ff2-4da4-837b-8a333c281ff3
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -96,12 +83,12 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-  name: 🇨🇭CH_10
+  name: 🇨🇭CH_11
   network: grpc
   port: 8082
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 83.228.196.3
+  server: 83.228.197.195
   servername: id.vk.com
   tls: true
   type: vless
@@ -112,12 +99,13 @@ proxies:
   port: 80
   server: 84.17.53.163
   type: ss
-- client-fingerprint: qq
-  encryption: none
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇨🇭CH_1|2.7MB/s
+  name: 🇨🇭CH_1|1.3MB/s
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
     public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc
     short-id: '!!str d515d6cfdfe60b02'
@@ -127,6 +115,21 @@ proxies:
   type: vless
   udp: true
   uuid: 7c0ae486-6e09-465c-9232-67a50f329eb9
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH_2|1003KB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY
+    short-id: '!!str '
+  server: 185.130.114.211
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6878235f-af14-4901-ba6d-4be8dc371456
   xudp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇭CH_5
@@ -166,19 +169,6 @@ proxies:
   port: 1080
   server: 185.212.170.58
   type: ss
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-  name: 🇨🇭CH_11
-  network: grpc
-  port: 8082
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 83.228.197.195
-  servername: id.vk.com
-  tls: true
-  type: vless
-  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -266,6 +256,19 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   server: 83.228.197.174
+  servername: id.vk.com
+  tls: true
+  type: vless
+  uuid: b4bc10bf-80f9-40c9-b4e5-29817c2f0992
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇨🇭CH_10
+  network: grpc
+  port: 8082
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 83.228.196.3
   servername: id.vk.com
   tls: true
   type: vless

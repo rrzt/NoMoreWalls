@@ -117,45 +117,19 @@ proxies:
     headers:
       host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
-- name: 🇰🇷 机场推荐:dafei.de 韩国 01
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
-  udp: true
-  username: test
-- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 108.162.196.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 72.167.230.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
 - alterId: 0
   cipher: auto
-  name: 韩国/首尔特别市/South Korea/Seoul
+  name: 未知95 1.2MB/s
   network: ws
   port: 80
   server: 132.145.80.230
+  skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
   ws-opts:
     headers:
-      Host: kr02.a0a.xyz
+      host: kr02.a0a.xyz
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
@@ -165,24 +139,11 @@ proxies:
   type: vmess
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0138 | 0....
+  name: 🇰🇷KR-221.139.79.57-0139 | 0.0M...
   password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
+  port: 13979
+  server: 221.139.79.57
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 韩国/首尔特别市/South Korea/Seoul-3
-  network: ws
-  port: 8443
-  server: 150.109.240.179
-  servername: www.bing.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
-  ws-opts:
-    path: /wsproxy
 - alterId: 0
   cipher: auto
   name: 🇰🇷KR-152.67.218.38-0124 | 0.05...
@@ -214,10 +175,10 @@ proxies:
   server: 141.164.45.187
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-221.139.79.57-0139 | 0.0M...
+  name: 🇰🇷KR-218.237.185.230-0138 | 0....
   password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
+  port: 4652
+  server: p141.panda001.net
   type: ss
 - cipher: aes-256-gcm
   name: ❓Other_49
@@ -259,6 +220,31 @@ proxies:
   skip-cert-verify: false
   sni: artistic-pigeon.rooster465.autos
   type: trojan
+- delay: 744
+  name: 🇰🇷 KR 985 | ⬇️ 46KB/s
+  password: ''
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: ''
+- name: 🇰🇷 KR 405 | ⬇️ 7KB/s
+  password: ''
+  port: 1080
+  server: 43.164.136.189
+  type: socks5
+  username: ''
+- name: 🇰🇷 KR 833 | ⬇️ 323KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  sni: rr1.tube-cat.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -316,19 +302,15 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
-- name: 🇰🇷KR_1|1.1MB/s
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: Og%3D%3D
-- name: 🇰🇷KR_2|4.8MB/s
-  password: ''
-  port: '50161'
-  server: 168.107.13.220
+- name: 🇰🇷KR_1|2.1MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
   skip-cert-verify: true
-  type: socks5
-  username: ''
+  tls: true
+  type: http
+  udp: true
+  username: test
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇰🇷KR_10

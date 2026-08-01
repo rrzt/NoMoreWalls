@@ -21,17 +21,6 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- name: 🇸🇬SG_4|⬇️5.1MB/s
-  network: ws
-  password: a9570330-769d-11ef-90dc-1577c1651679
-  port: 443
-  server: 104.18.1.196
-  skip-cert-verify: true
-  sni: sg-trojan.andfree.my.id
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /welcome
 - name: 🇸🇬 新加坡|@stairnode
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
@@ -60,35 +49,6 @@ proxies:
   server: 129.226.157.220
   type: vmess
   uuid: d9865d63-d95c-454b-ba07-8e88b838a801
-- cipher: chacha20-ietf
-  name: 🇸🇬SG-103.36.91.32-0125 | 0.033...
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- name: 新加坡|@ripaojiedian
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 45744
-  server: 188.163.100.58
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '新加坡2|@ripaojiedian #1'
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 32434
-  server: 18.166.178.12
-  sni: www.nintendogames.net
-  type: trojan
-- name: '新加坡3|@ripaojiedian #1'
-  network: tcp
-  password: BxceQaOe
-  port: 45744
-  server: 43.198.98.22
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - name: 🇸🇬SG_32
   network: tcp
   password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
@@ -97,6 +57,12 @@ proxies:
   skip-cert-verify: false
   sni: grape-power-sg.roxa.org
   type: trojan
+- cipher: chacha20-ietf
+  name: 🇸🇬SG-103.36.91.32-0125 | 0.033...
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
 - alterId: 0
   cipher: auto
   name: 🇸🇬SG-43.160.192.151-0131 | 0.0...

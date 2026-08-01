@@ -48,15 +48,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 韩国/首尔特别市/South Korea/Seoul
+  name: 未知95 1.2MB/s
   network: ws
   port: 80
   server: 132.145.80.230
+  skip-cert-verify: true
+  tls: true
   type: vmess
   uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
   ws-opts:
     headers:
-      Host: kr02.a0a.xyz
+      host: kr02.a0a.xyz
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
@@ -66,24 +68,11 @@ proxies:
   type: vmess
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-218.237.185.230-0138 | 0....
+  name: 🇰🇷KR-221.139.79.57-0139 | 0.0M...
   password: qwerREWQ@@
-  port: 4652
-  server: p141.panda001.net
+  port: 13979
+  server: 221.139.79.57
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 韩国/首尔特别市/South Korea/Seoul-3
-  network: ws
-  port: 8443
-  server: 150.109.240.179
-  servername: www.bing.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f9dcb303-3e73-40eb-9327-1ac88f9a2b72
-  ws-opts:
-    path: /wsproxy
 - alterId: 0
   cipher: auto
   name: 🇰🇷KR-152.67.218.38-0124 | 0.05...
@@ -115,10 +104,10 @@ proxies:
   server: 141.164.45.187
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-221.139.79.57-0139 | 0.0M...
+  name: 🇰🇷KR-218.237.185.230-0138 | 0....
   password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
+  port: 4652
+  server: p141.panda001.net
   type: ss
 - cipher: aes-256-gcm
   name: ❓Other_49
@@ -160,6 +149,15 @@ proxies:
   skip-cert-verify: false
   sni: artistic-pigeon.rooster465.autos
   type: trojan
+- name: 🇰🇷 KR 833 | ⬇️ 323KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  sni: rr1.tube-cat.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
