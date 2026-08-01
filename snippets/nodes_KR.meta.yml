@@ -116,16 +116,205 @@ proxies:
     headers:
       host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
-- name: 'KR_speednode_0034 #1'
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷_韩国_79
+  port: 16000
+  reality-opts:
+    public-key: iv3BAoFjlsPSSjOn1cyXVZ3H31KqX65PoJusBEfU0lM
+  server: x-hg3.xueshan168.cc
+  servername: s0.awsstatic.com
   skip-cert-verify: true
-  sni: testkr3.ssv.vc
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
+  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷_韩国_80
+  port: 16000
+  reality-opts:
+    public-key: wTDp8GLmm9-e84raeixo46WniotkQIsPBqcYoa-Tqy4
+  server: x-hg.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷_韩国_84
+  port: 16000
+  reality-opts:
+    public-key: wTDp8GLmm9-e84raeixo46WniotkQIsPBqcYoa-Tqy4
+  server: x-hg2.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
+- alterId: 0
+  cipher: auto
+  name: 未知
+  network: tcp
+  port: 443
+  server: 140.238.2.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+- alterId: 0
+  cipher: auto
+  name: 韩国 002
+  network: ws
+  port: 80
+  server: 132.145.80.230
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      Host: kr02.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 1
+  cipher: auto
+  name: 韩国 003
+  network: ws
+  port: 8080
+  server: 140.238.28.227
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 1
+  cipher: auto
+  name: 韩国 004
+  network: ws
+  port: 8080
+  server: 140.238.31.168
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 1
+  cipher: auto
+  name: 韩国 005
+  network: ws
+  port: 8888
+  server: 54.180.96.67
+  skip-cert-verify: true
+  type: vmess
+  uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89
+  ws-opts:
+    headers:
+      Host: 54.180.96.67
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 006
+  network: ws
+  port: 443
+  server: fullaccesstokoreannetsubnode1.azurewebsites.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstokoreannetsubnode1.azurewebsites.net
+    path: /ws
+- alterId: 64
+  cipher: auto
+  name: 韩国 007
+  network: ws
+  port: 443
+  server: 202.79.161.188
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.32278117.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 008
+  network: ws
+  port: 443
+  server: 202.79.160.243
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.32278117.xyz
+    path: /path/191019072927
+- alterId: 64
+  cipher: auto
+  name: 韩国 009
+  network: ws
+  port: 443
+  server: 202.79.160.164
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.20850772.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 韩国 010
+  network: ws
+  port: 30002
+  server: 220.123.48.124
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 韩国 011
+  network: ws
+  port: 17443
+  server: 211.248.216.119
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+    path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  name: 韩国 012
+  network: ws
+  port: 80
+  server: 92.223.61.25
+  skip-cert-verify: true
+  type: vmess
+  uuid: 22aa72b1-605b-4807-8a81-fb414cbb409c
+  ws-opts:
+    headers:
+      Host: mizban888.servecounterstrike.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 未知42 1.0MB/s
@@ -147,12 +336,6 @@ proxies:
   server: 217.142.138.61
   type: vmess
   uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-- cipher: aes-256-cfb
-  name: 🇰🇷KR-221.139.79.57-0165 | 0.05...
-  password: qwerREWQ@@
-  port: 13979
-  server: 221.139.79.57
-  type: ss
 - alterId: 0
   cipher: auto
   name: 🇰🇷KR-152.67.218.38-0152 | 4.69...
@@ -259,7 +442,7 @@ proxies:
   server: 43.164.136.189
   type: socks5
   username: ''
-- name: 🇰🇷 KR 833 | ⬇️ 323KB/s
+- name: node-217
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
@@ -325,12 +508,6 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
-- name: 'US_speednode_0179 #1'
-  port: 50161
-  server: 168.107.13.220
-  tls: false
-  type: socks5
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇰🇷KR_10
@@ -513,17 +690,6 @@ proxies:
   sni: vpn-kr-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: 🇰🇷KR_35
-  network: tcp
-  port: 2087
-  server: 178.83.31.31
-  tls: false
-  type: vless
-  uuid: 75b38c79-92e3-454b-b98e-52fbd254884d
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇰🇷KR_14
@@ -540,3 +706,12 @@ proxies:
   port: 5001
   server: 141.164.45.187
   type: ss
+- name: 'KR_speednode_0034 #1'
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test

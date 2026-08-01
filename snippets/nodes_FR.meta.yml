@@ -786,48 +786,98 @@ proxies:
   up: 300
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇫🇷 机场推荐:dafei.de 法国 01
-  network: tcp
-  port: 443
+  name: 🇫🇷_法国_94
+  port: 16000
   reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: '!!str bbc68cec8bb8d2e3'
-  server: 147.45.42.27
-  servername: node12.mxvpn.dev
+    public-key: cMB0tAmD6scVvjRbLVm1IjryKtXM6SDtceLiz_qF6iw
+  server: x-fg.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷 机场推荐:dafei.de 法国 02
-  network: tcp
-  port: 22223
-  server: 51.45.54.70
+  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
+- name: 🇫🇷FR_7|⬇️3.3MB/s
+  network: ws
+  port: 443
+  server: 194.76.18.25
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷 机场推荐:dafei.de 法国 03
-  network: tcp
-  port: 22224
-  server: 51.45.54.70
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: /ws
+- name: 🇫🇷FR_3|⬇️6.2MB/s
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: fr-1-fr-1.aiopen.sbs
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷 机场推荐:dafei.de 法国 04
-  network: tcp
-  port: 22222
-  server: 51.45.54.70
+  uuid: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
+  ws-opts:
+    headers:
+      host: fr-1-fr-1.aiopen.sbs
+    path: /kbjc/fr1
+- name: FRVLESS-75|free-nodes
+  network: ws
+  port: 443
+  server: 69.84.182.20
+  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+    path: /ws
+- name: 🇫🇷FR_1|⬇️4.3MB/s
+  network: ws
+  port: 443
+  server: 104.24.69.114
+  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+    path: /ws
+- name: 🇫🇷FR_6|⬇️1.2MB/s
+  network: ws
+  port: 443
+  server: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+  servername: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad2cfc08-9850-442e-dcc2-b5171f0a22f1
+  ws-opts:
+    headers:
+      host: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
+    path: /@Arshiacomplus
+- flow: xtls-rprx-vision
+  name: 🇫🇷FR_4|⬇️2.7MB/s
+  network: tcp
+  port: 443
+  server: fr01-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
 - cipher: chacha20-ietf-poly1305
   name: 荷兰(yudou789.top 玉豆免费节点)_2
   password: RFK38Cg7APneSB5cWDcpbm
@@ -835,6 +885,772 @@ proxies:
   server: switcher-nick-croquet.freesocks.work
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 未知121
+  network: tcp
+  port: 27726
+  server: fj260205.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知64 28.6KB/s
+  network: tcp
+  port: 27726
+  server: fj260304.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知38
+  network: tcp
+  port: 2053
+  server: fr.connfull.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 500e29aa-c40b-43e1-905c-e6e7ac4a5b83
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 未知57 17.9KB/s
+  network: tcp
+  port: 27726
+  server: 195.133.193.18
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知72 36.9KB/s
+  network: tcp
+  port: 27726
+  server: fj260204.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 未知106 26.0KB/s
+  network: tcp
+  port: 27726
+  server: fj260306.freechatup.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
+- alterId: 0
+  cipher: auto
+  name: 法国 007
+  network: ws
+  port: 8080
+  server: 141.11.139.82
+  skip-cert-verify: true
+  type: vmess
+  uuid: efb748ec-c921-42a1-ac9e-1d5485d6c447
+  ws-opts:
+    headers:
+      Host: download.windowsupdate.com
+    path: /download
+- alterId: 0
+  cipher: auto
+  name: 法国 008
+  network: ws
+  port: 443
+  server: 91.134.8.88
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: lammaland.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 009
+  network: ws
+  port: 443
+  server: 91.134.8.92
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: yichueng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 010
+  network: ws
+  port: 443
+  server: 91.134.8.93
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: pelang.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 011
+  network: ws
+  port: 443
+  server: 91.134.8.100
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kampong.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 012
+  network: ws
+  port: 443
+  server: 91.134.8.102
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: serkat.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 013
+  network: ws
+  port: 443
+  server: 146.59.118.250
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: lammaland.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 014
+  network: ws
+  port: 443
+  server: 146.59.55.50
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: o.metuji.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 015
+  network: ws
+  port: 443
+  server: 146.59.70.146
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: yichueng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 016
+  network: ws
+  port: 443
+  server: 146.59.85.226
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: pelang.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 017
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  skip-cert-verify: true
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 018
+  network: grpc
+  port: 2096
+  server: 51.254.142.162
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 388add20-90e0-40b7-b891-74ed3b817d71
+- alterId: 0
+  cipher: auto
+  name: 法国 019
+  network: ws
+  port: 443
+  server: 163.5.159.231
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws?ed=
+- alterId: 0
+  cipher: auto
+  name: 法国 020
+  network: ws
+  port: 443
+  server: 146.19.168.161
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: az05.beyondy.cfd
+    path: /link
+- alterId: 0
+  cipher: auto
+  name: 法国 021
+  network: ws
+  port: 443
+  server: 51.77.20.137
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: tilebani.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 022
+  network: ws
+  port: 443
+  server: 51.77.20.140
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: bamparda.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 023
+  network: ws
+  port: 2082
+  server: 5.196.29.123
+  skip-cert-verify: true
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 024
+  network: ws
+  port: 443
+  server: 91.134.8.101
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: fapeng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 025
+  network: ws
+  port: 443
+  server: 146.59.118.249
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: fapeng.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 法国 026
+  network: ws
+  port: 443
+  server: 194.9.172.65
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8d90c129-4156-4d6c-9115-24df25f26a02
+  ws-opts:
+    headers:
+      Host: beyonddbc.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 027
+  network: ws
+  port: 443
+  server: 193.160.130.245
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-816 | free-nodes - 14...
+  network: ws
+  port: 80
+  server: 51.254.133.152
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
+  ws-opts:
+    headers:
+      Host: fr5.niekotin.de
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 法国 029
+  network: ws
+  port: 443
+  server: 51.77.20.136
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: capellare.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 法国 030
+  network: ws
+  port: 443
+  server: 51.77.20.132
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: a.baradiha.com
+    path: /
+- name: 法国 031
+  network: ws
+  port: 8880
+  server: 45.80.111.175
+  servername: cnd.poland.myfilecdn.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6ed59a5b-efef-4ddf-99f2-57d200caed47
+  ws-opts:
+    headers:
+      Host: cnd.poland.myfilecdn.com
+    path: /cdn/assets/stream
+- name: 法国 032
+  network: ws
+  port: 22222
+  server: 15.237.4.255
+  servername: telegram-channel-vlessconfig.sohala.uk
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  ws-opts:
+    headers:
+      Host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
+- name: 法国 033
+  network: tcp
+  port: 443
+  server: 145.239.173.163
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05e09c8a-a3a9-4bd5-acf9-2c3c87bab827
+- client-fingerprint: chrome
+  name: 🇺🇸US_137
+  network: ws
+  port: 443
+  server: 141.11.202.29
+  servername: octopusss.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
+  ws-opts:
+    headers:
+      Host: octopusss.net
+    path: /odiyfws
+- name: 法国 035
+  network: xhttp
+  port: 28737
+  server: 141.11.167.220
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 723345e4-9c1b-4d92-a349-7c3742f9b61a
+- name: 🇫🇷FR_1190
+  network: tcp
+  port: 2087
+  server: 45.77.61.32
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 75b38c79-92e3-454b-b98e-52fbd254884d
+  ws-opts:
+    headers:
+      Host: play.google.com
+    path: /
+- name: 法国 037
+  network: grpc
+  port: 8880
+  server: 151.115.164.117
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: 法国 038
+  network: grpc
+  port: 8880
+  server: 151.115.164.120
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: 法国 039
+  network: grpc
+  port: 8880
+  server: 151.115.164.134
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: 法国 040
+  network: grpc
+  port: 8880
+  server: 151.115.164.37
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: 法国 041
+  network: grpc
+  port: 8880
+  server: 151.115.164.43
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: 法国 042
+  network: grpc
+  port: 8880
+  server: 151.115.165.172
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: 法国 043
+  network: grpc
+  port: 8880
+  server: 151.115.166.68
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: 法国 044
+  network: grpc
+  port: 8880
+  server: 151.115.167.188
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- name: 法国 045
+  network: grpc
+  port: 8880
+  server: 151.115.167.190
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+- client-fingerprint: chrome
+  name: 🇫🇷FR_17
+  network: ws
+  port: 443
+  server: 149.202.58.99
+  servername: bab-6.site
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  ws-opts:
+    headers:
+      Host: bab-6.site
+    path: /vws/
+- name: 法国 047
+  network: ws
+  port: 2087
+  server: 94.140.0.74
+  servername: aza002.vaslbash.site
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: dca945d2-6d9b-434f-8754-3626a6a75e21
+  ws-opts:
+    headers:
+      Host: aza002.vaslbash.site
+    path: /
+- name: 法国 048
+  network: tcp
+  port: 22223
+  server: 15.188.1.105
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 049
+  network: tcp
+  port: 22222
+  server: 15.188.211.23
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 050
+  network: tcp
+  port: 22224
+  server: 15.188.211.23
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 051
+  network: tcp
+  port: 22222
+  server: 15.188.58.27
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 052
+  network: tcp
+  port: 22224
+  server: 15.236.213.86
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 053
+  network: tcp
+  port: 22222
+  server: 15.236.85.145
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 054
+  network: tcp
+  port: 22224
+  server: 15.236.85.145
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 🇫🇷FR_1191
+  network: tcp
+  port: 22222
+  server: 15.237.168.93
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 056
+  network: tcp
+  port: 22223
+  server: 15.237.168.93
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 057
+  network: tcp
+  port: 22222
+  server: 35.181.156.38
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 058
+  network: tcp
+  port: 22223
+  server: 35.181.156.38
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 059
+  network: tcp
+  port: 22222
+  server: 35.181.204.6
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 060
+  network: tcp
+  port: 22223
+  server: 35.181.204.6
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 061
+  network: tcp
+  port: 22224
+  server: 35.181.204.6
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 062
+  network: tcp
+  port: 22222
+  server: 52.47.166.241
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 法国 063
+  network: tcp
+  port: 22224
+  server: 52.47.166.241
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- client-fingerprint: chrome
+  name: 法国 064
+  network: ws
+  port: 8443
+  server: 51.77.214.109
+  servername: s5gydl.936.us.ci
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - client-fingerprint: firefox
   name: 法国/France
   port: 8443
@@ -910,20 +1726,6 @@ proxies:
   port: 443
   server: 149.202.82.172
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 🇫🇷FR-51.195.35.134-0215 | 0.0M...
-  network: ws
-  port: 443
-  server: 51.195.35.134
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
-  ws-opts:
-    headers:
-      Host: www.98272029.xyz
-    path: /
 - cipher: aes-256-gcm
   name: 🇫🇷FR-54.36.174.181-0224 | 0.0M...
   password: cdBIDV42DCwnfIN
@@ -1457,19 +2259,6 @@ proxies:
     headers:
       Host: ld.235231.xyz
     path: /
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1081
-  network: ws
-  port: 8443
-  server: 172.67.157.55
-  servername: ad-020.novayjr9g.info
-  tls: true
-  type: vless
-  uuid: 1ad37675-b4cf-42fa-9dc5-83fd35cd63cb
-  ws-opts:
-    headers:
-      Host: ad-020.novayjr9g.info
-    path: /
 - name: 🇫🇷FR_103
   network: ws
   port: 8880
@@ -1619,26 +2408,6 @@ proxies:
     headers:
       Host: peekconfig.hamrahfree1.workers.dev
     path: /eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
-- name: 🇫🇷FR_613
-  network: tcp
-  port: 8888
-  server: 45.13.119.219
-  tls: false
-  type: vless
-  uuid: eb77be10-9d9e-527b-a78d-8caaf58992d6
-- client-fingerprint: chrome
-  name: 🇫🇷FR_240
-  network: ws
-  port: 443
-  server: 104.19.35.8
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - alpn:
   - http/1.1
   name: 🇫🇷FR_568
@@ -2438,17 +3207,6 @@ proxies:
     headers:
       Host: node-726721114-1b5aef.infinityconfig7-3b9f.workers.dev
     path: /
-- name: 🇫🇷FR_1190
-  network: tcp
-  port: 2087
-  server: 45.77.61.32
-  tls: false
-  type: vless
-  uuid: 75b38c79-92e3-454b-b98e-52fbd254884d
-  ws-opts:
-    headers:
-      Host: play.google.com
-    path: /
 - name: 🇫🇷FR_141
   network: ws
   port: 8880
@@ -2507,19 +3265,6 @@ proxies:
     headers:
       Host: z-e-u-s-panel-1bojih.z-e-u-s-ukqk3o.workers.dev
     path: /stream/PANEL_ZEUS/3abc19a4e3d2
-- client-fingerprint: random
-  name: 🇫🇷FR_1115
-  network: ws
-  port: 8443
-  server: 172.64.153.57
-  servername: learn00.evany.de5.net
-  tls: true
-  type: vless
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt
 - client-fingerprint: chrome
   name: 🇫🇷FR_321
   network: ws
@@ -2593,17 +3338,6 @@ proxies:
     headers:
       Host: rAyAn-007.fOtOn.dPdNs.oRg
     path: /
-- name: 🇫🇷FR_1111
-  network: ws
-  port: 80
-  server: 172.67.185.65
-  tls: false
-  type: vless
-  uuid: d682c8f4-e719-577e-cbe9-2e5b00000002
-  ws-opts:
-    headers:
-      Host: 0406.infinityconfig7.workers.dev
-    path: /sync
 - name: 🇫🇷FR_5
   network: ws
   port: 8880
@@ -2816,19 +3550,6 @@ proxies:
     headers:
       Host: server16.peekconfig.workers.dev
     path: /eyJqdW5rIjoiYXdUWFpSYnZubU5hIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1192
-  network: ws
-  port: 2053
-  server: 172.64.155.209
-  servername: ov.iran-servers.shop
-  tls: true
-  type: vless
-  uuid: d361072e-9e0e-4e2d-8ec7-2a4189b5b23a
-  ws-opts:
-    headers:
-      Host: ov.iran-servers.shop
-    path: /J5aLQOY1R9ONWYCM
 - name: 🇫🇷FR_165
   network: ws
   port: 80
@@ -3052,13 +3773,6 @@ proxies:
     headers:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txt
-- name: 🇫🇷FR_1209
-  network: tcp
-  port: 22222
-  server: 51.45.37.42
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: chrome
   name: 🇫🇷FR_552
   network: ws
@@ -3245,17 +3959,6 @@ proxies:
     headers:
       Host: muddy-shadow-8905.qara-atayi-1.workers.dev
     path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
-- name: 🇫🇷FR_316
-  network: ws
-  port: 2086
-  server: 172.67.213.2
-  tls: false
-  type: vless
-  uuid: 335035e6-65f1-4a51-a8a7-10fb0a89b8e7
-  ws-opts:
-    headers:
-      Host: shrill-lake-231c.jachhitachi69.workers.dev
-    path: /eyJqdW5rIjoia3dPRFJ2Nko5IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560
 - alpn:
   - http/1.1
   name: 🇫🇷FR_760
@@ -4039,19 +4742,6 @@ proxies:
     headers:
       Host: peekconfig.hamrahfree1.workers.dev
     path: /eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560
-- client-fingerprint: chrome
-  name: 🇫🇷FR_17
-  network: ws
-  port: 443
-  server: 149.202.58.99
-  servername: bab-6.site
-  tls: true
-  type: vless
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  ws-opts:
-    headers:
-      Host: bab-6.site
-    path: /vws/
 - name: 🇫🇷FR_206
   network: ws
   port: 8880
@@ -4263,19 +4953,6 @@ proxies:
     headers:
       Host: index.arcane509.workers.dev
     path: /pm1awvw769za
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1080
-  network: ws
-  port: 443
-  server: 104.17.182.11
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
 - name: 🇫🇷FR_184
   network: ws
   password: humanity
@@ -4675,19 +5352,6 @@ proxies:
     headers:
       Host: newwk1.f1w.de5.net
     path: /
-- client-fingerprint: chrome
-  name: 🇫🇷FR_415
-  network: ws
-  port: 443
-  server: 104.20.39.109
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - name: 🇫🇷FR_409
   network: ws
   port: 8880
@@ -5329,19 +5993,6 @@ proxies:
       Host: aged-silence-8d7d.tahaggs.workers.dev
     path: /taha3
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1204
-  network: ws
-  port: 443
-  server: 104.19.35.164
-  servername: withered-field-0ed4.a99850940.workers.dev
-  tls: true
-  type: vless
-  uuid: 0ac21825-6826-42bc-8680-9f8f2603c7da
-  ws-opts:
-    headers:
-      Host: withered-field-0ed4.a99850940.workers.dev
-    path: /
-- client-fingerprint: chrome
   name: 🇫🇷FR_38
   network: ws
   port: 443
@@ -5438,13 +6089,6 @@ proxies:
     headers:
       Host: shin-ra.ccwu.cc
     path: /
-- name: 🇫🇷FR_1211
-  network: tcp
-  port: 22224
-  server: 51.45.37.42
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: random
   name: 🇫🇷FR_822
   network: ws
@@ -5486,19 +6130,6 @@ proxies:
     headers:
       Host: index.arcane509.workers.dev
     path: /assets
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1186
-  network: ws
-  port: 443
-  server: 190.93.246.202
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
 - client-fingerprint: random
   name: 🇫🇷FR_528
   network: ws
@@ -5670,19 +6301,6 @@ proxies:
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1180
-  network: ws
-  port: 443
-  server: 104.16.239.120
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- client-fingerprint: chrome
   name: 🇫🇷FR_739
   network: ws
   port: 443
@@ -5707,19 +6325,6 @@ proxies:
     headers:
       Host: cnmfangbinxing.cnmfangbinxing-s.workers.dev
     path: /fp
-- client-fingerprint: chrome
-  name: 🇫🇷FR_362
-  network: ws
-  port: 2053
-  server: 173.245.59.14
-  servername: still-lake-3cf7.dls2026.workers.dev
-  tls: true
-  type: vless
-  uuid: 8cf1e524-ce8c-4c63-8440-3ecd687f5e8d
-  ws-opts:
-    headers:
-      Host: still-lake-3cf7.dls2026.workers.dev
-    path: /
 - name: 🇫🇷FR_138
   network: ws
   port: 8880
@@ -7185,13 +7790,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /tr/J6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr?ed=2560
-- name: 🇫🇷FR_1210
-  network: tcp
-  port: 22223
-  server: 51.45.37.42
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: chrome
   name: 🇫🇷FR_1175
   network: ws
@@ -7404,19 +8002,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1083
-  network: ws
-  port: 8443
-  server: 104.21.41.131
-  servername: ad-020.vector9nmb3.info
-  tls: true
-  type: vless
-  uuid: 1ad37675-b4cf-42fa-9dc5-83fd35cd63cb
-  ws-opts:
-    headers:
-      Host: ad-020.vector9nmb3.info
-    path: /
 - name: 🇫🇷FR_1120
   network: ws
   password: 0b5fa773-6f37-4134-87d4-0c349742b6f6
@@ -7596,13 +8181,6 @@ proxies:
     headers:
       Host: cnmfangbinxing.cnmfangbinxing-a.workers.dev
     path: /
-- name: 🇫🇷FR_1191
-  network: tcp
-  port: 22222
-  server: 15.237.168.93
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: chrome
   name: 🇫🇷FR_985
   network: ws
@@ -8026,18 +8604,6 @@ proxies:
     headers:
       Host: shrill-lake-231c.jachhitachi69.workers.dev
     path: /eyJqdW5rIjoiMW9GV3F3b2dGdkQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
-- name: 🇫🇷FR_1067
-  network: ws
-  port: 2095
-  server: 104.21.20.2
-  servername: my-pp.arminpixel2.workers.dev
-  tls: false
-  type: vless
-  uuid: 631a49ec-2eb5-2215-0cac-9d292696d162
-  ws-opts:
-    headers:
-      Host: my-pp.arminpixel2.workers.dev
-    path: /sync
 - client-fingerprint: chrome
   name: 🇫🇷FR_106
   network: ws
