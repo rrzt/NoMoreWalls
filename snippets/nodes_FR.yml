@@ -88,21 +88,6 @@ proxies:
   port: 8119
   server: 54.36.174.181
   type: ss
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷 FR 524 | ⬇️ 95KB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.69
-  skip-cert-verify: true
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: /assignment
 - name: 🇫🇷FR_835
   network: ws
   password: humanity

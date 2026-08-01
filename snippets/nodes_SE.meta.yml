@@ -83,6 +83,20 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'US_speednode_0198 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
+  server: se99.kubservice.icu
+  servername: se99.kubservice.icu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
 - cipher: aes-256-cfb
   name: SE_speednode_0170
   password: amazonskr05

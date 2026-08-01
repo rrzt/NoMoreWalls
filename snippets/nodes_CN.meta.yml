@@ -1,15 +1,16 @@
 proxies:
-- alpn:
-  - ''
-  alterId: 2
+- alterId: 2
   cipher: auto
-  client-fingerprint: ''
-  country: 🇮🇷IR
-  delay: 769
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰 HK 971 | ⬇️ 3KB/s
+  name: 🇨🇳_中国_152 - 405ms
   network: tcp
+  port: 30809
+  server: v9.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: '🇨🇳_CN_中国->🇭🇰_HK_中国香港 #1'
   port: 30809
   server: v9.hdacd.com
   skip-cert-verify: true

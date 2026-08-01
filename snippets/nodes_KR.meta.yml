@@ -126,6 +126,45 @@ proxies:
   type: http
   udp: true
   username: test
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷_韩国_79
+  port: 16000
+  reality-opts:
+    public-key: iv3BAoFjlsPSSjOn1cyXVZ3H31KqX65PoJusBEfU0lM
+  server: x-hg3.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷_韩国_80
+  port: 16000
+  reality-opts:
+    public-key: wTDp8GLmm9-e84raeixo46WniotkQIsPBqcYoa-Tqy4
+  server: x-hg.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷_韩国_84
+  port: 16000
+  reality-opts:
+    public-key: wTDp8GLmm9-e84raeixo46WniotkQIsPBqcYoa-Tqy4
+  server: x-hg2.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
 - alterId: 0
   cipher: auto
   name: 未知42 1.0MB/s
@@ -243,31 +282,6 @@ proxies:
   port: 7001
   server: 141.164.45.187
   type: ss
-- delay: 744
-  name: 🇰🇷 KR 985 | ⬇️ 46KB/s
-  password: ''
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  tls: false
-  type: socks5
-  udp: true
-  username: ''
-- name: 🇰🇷 KR 405 | ⬇️ 7KB/s
-  password: ''
-  port: 1080
-  server: 43.164.136.189
-  type: socks5
-  username: ''
-- name: 🇰🇷 KR 833 | ⬇️ 323KB/s
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 9450
-  server: rr1.tube-cat.com
-  skip-cert-verify: true
-  sni: rr1.tube-cat.com
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

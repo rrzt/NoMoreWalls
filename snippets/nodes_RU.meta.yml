@@ -1,21 +1,4 @@
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇷🇺 俄罗斯 starcorenode.com #2'
-  network: ws
-  port: 443
-  server: 77.105.163.46
-  servername: ov186.ochmaybrooooo.online
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 0e192bd1-8f19-4184-9fff-6d67e4f738bd
-  ws-opts:
-    headers:
-      Host: ov186.ochmaybrooooo.online
-    path: /
 - name: 美国_122
   network: ws
   port: 4100
@@ -130,40 +113,21 @@ proxies:
   type: vless
   udp: true
   uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'BR_speednode_0003 #1'
-  network: tcp
-  packet-encoding: xudp
-  port: 40443
-  reality-opts:
-    public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
-    short-id: '!!str 69d4'
-  server: status.netraidly.ru
-  servername: deepl.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
   name: RU俄罗斯
   network: tcp
-  packet-encoding: xudp
   port: 443
   reality-opts:
     public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
     short-id: '!!str 496ee75c2f91f51d'
   server: 201.51.2.248
   servername: ads.x5.ru
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-  xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: 'NL荷兰(mibei77.com 米贝节点分享)_12 #2'
@@ -220,6 +184,76 @@ proxies:
   server: 45.140.169.216
   type: ss
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺_俄罗斯_18
+  port: 8442
+  reality-opts:
+    public-key: TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg
+    short-id: '!!str a7f9106ba66e4796'
+  server: 217sub.ghost-lan.com
+  servername: max.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 873f1046-0210-4b2e-a0ec-dc1826886071
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇷🇺_俄罗斯_21
+  port: 443
+  reality-opts:
+    public-key: 84d_aHtsBvclx_Y6FnTmhhTqsZyQdfCGWtmFvefTrUI
+    short-id: '!!str ee57ea513371ce89'
+  server: code-sandbox.blog
+  servername: code-sandbox.blog
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺_俄罗斯_50
+  port: 443
+  reality-opts:
+    public-key: 3v-9P94hjSE1fw6we1J4RvyIYnFhySQUAe1DUKqkaBo
+    short-id: '!!str 7f2e9c4b1a8d6a53'
+  server: 37.139.43.57
+  servername: eh.vk.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: fb6b3497-2026-4a86-b9a5-3e5f18e77a37
+- name: 🇷🇺_俄罗斯_115
+  network: ws
+  port: 80
+  server: ru-de.apruxdomain.xyz
+  servername: ru-de.apruxdomain.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 84dc79c7-e443-489d-bf07-b4bb825f57d9
+  ws-opts:
+    headers:
+      Host: ru-de.apruxdomain.xyz
+    path: /
+- name: 🇷🇺_俄罗斯_174
+  network: ws
+  port: 2200
+  server: 168.222.140.233
+  servername: tn.tmn141246.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: d4aad26f-70b6-4411-8517-17f7b4281886
+  ws-opts:
+    headers:
+      Host: rzd.ru
+    path: /v1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '🇷🇺_RU_俄罗斯 #4'
@@ -360,104 +394,6 @@ proxies:
   port: 10921
   server: 185.22.154.103
   type: ss
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 178 | ⬇️ 91KB/s
-  password: 1a87017d0bf57f34
-  port: 50111
-  server: 176.32.34.152
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 871 | ⬇️ 166KB/s
-  password: b24a80e79cee1d1f
-  port: 50111
-  server: 195.133.5.207
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 900 | ⬇️ 85KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
-  server: pro-ru-bridge.emrata.top
-  servername: pro-ru-bridge.emrata.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 426 | ⬇️ 40KB/s
-  password: 9f3d1a6d31468599
-  port: 1291
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺 RU 418 | ⬇️ 26KB/s
-  password: fbaf33bcffe53cf9
-  port: 50111
-  server: 195.58.48.19
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇷🇺 RU 195 | ⬇️ 73KB/s
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
-  server: pro-ru-bridge.emrata.top
-  servername: pro-ru-bridge.emrata.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c245b785-bb81-481b-95c9-c2db14c66f25
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇷🇺 RU 936 | ⬇️ 443KB/s
-  network: grpc
-  packet-encoding: xudp
-  port: 2053
-  reality-opts:
-    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
-    short-id: '!!str f0131a4772b494d4'
-  server: 85.209.135.3
-  servername: dns.adguard-dns.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc
-  name: 🇷🇺 RU 606 | ⬇️ 935KB/s
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
-    short-id: '!!str f0131a4772b494d4'
-  server: 85.209.135.3
-  servername: dns.adguard-dns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 347e34f2-3211-4e01-b475-409f46788d3f
 - cipher: aes-256-gcm
   name: 🇷🇺RU_1|2.5MB/s
   password: d99c422199e62b6b

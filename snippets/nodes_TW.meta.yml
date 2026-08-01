@@ -37,6 +37,32 @@ proxies:
   sni: download.windowsupdate.com
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇼_台湾_81
+  port: 16000
+  reality-opts:
+    public-key: CuqzBeQR_1VIdOGOgn5v8-t-X-YzURF9b3wtKVVyKQ8
+  server: tw.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇼_台湾_90
+  port: 16000
+  reality-opts:
+    public-key: iv3BAoFjlsPSSjOn1cyXVZ3H31KqX65PoJusBEfU0lM
+  server: tw1.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
 - name: 台湾/台北市/Taiwan/Taipei
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443

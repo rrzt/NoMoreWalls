@@ -2,7 +2,6 @@ proxies:
 - client-fingerprint: chrome
   name: 'Node #76'
   network: ws
-  packet-encoding: xudp
   port: 2053
   server: 51.89.23.94
   servername: forfreeuse.sub-flow.online
@@ -48,14 +47,12 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- disable-sni: true
-  name: 'DE德国 #10'
+- name: 'DE德国 #10'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
-  sni: ''
   tls: true
   type: trojan
   udp: true
@@ -76,8 +73,6 @@ proxies:
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
 - alterId: 0
-  client-fingerprint: chrome
-  country: 🇺🇸US
   name: 未知 TROJAN-208
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -167,10 +162,9 @@ proxies:
   udp: true
 - name: 'DE德国 #4'
   network: tcp
-  packet-encoding: xudp
   port: 49518
   server: 49.12.130.109
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vless
   udp: true
@@ -305,6 +299,117 @@ proxies:
     max-early-data: 2560
     path: /ws
   xudp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'BG_speednode_0002 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: dedger.skorostnet.space
+  servername: dedger.skorostnet.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'CZ_speednode_0007 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
+  server: de22.kubservice.icu
+  servername: de22.kubservice.icu
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'DE_speednode_0010 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str 3c9c5d01c6f824dd'
+  server: 109.163.239.208
+  servername: cdn9-78.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪_德国_62
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str df5f7ec1de636bbb'
+  server: 5.254.121.227
+  servername: cdn6-72.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'DE_speednode_0009 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str d08bb54b5b94b2fc'
+  server: 109.163.239.60
+  servername: cdn5-89.yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+- client-fingerprint: randomized
+  name: 🇩🇪_德国_95
+  port: 443
+  reality-opts:
+    public-key: 3HQlKcaGPbJcrgPzKvsC0WxHucb7yIZmm_C6sLJKeyk
+    short-id: '!!str 2a616bf021be8169'
+  server: 5.252.26.190
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92a8de02-b311-487b-a4ff-3d790cd28898
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪_德国_97
+  port: 16000
+  reality-opts:
+    public-key: cMB0tAmD6scVvjRbLVm1IjryKtXM6SDtceLiz_qF6iw
+  server: x-dg.xueshan168.cc
+  servername: s0.awsstatic.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '55'
+  name: '🇩🇪_DE_德国 #6'
+  port: 54177
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  udp: true
+  up: '11'
 - name: 'Node #52'
   network: tcp
   port: 2553
@@ -489,70 +594,6 @@ proxies:
   port: 5000
   server: 145.239.1.100
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪 DE 220 | ⬇️ 92KB/s
-  network: xhttp
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    _spider-x: /f62ae31c90331d1
-    public-key: 1b2izbhtR6wHXWblNSX8RC_EXajb8_Ux-rFxBc1Q2G0
-    short-id: '!!str 55824008eed348'
-  server: 2.28.5.45
-  servername: www.amazon.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc0615e5-cb47-40f2-a06c-d79f594a6fae
-  xhttp-opts:
-    host: www.speedtest.net
-    mode: auto
-    path: /foot
-    x-padding-bytes: 100-1000
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: auragrpc
-  name: 🇩🇪 DE 356 | ⬇️ 20KB/s
-  network: grpc
-  port: 25024
-  reality-opts:
-    public-key: 35OdbrjSZnfb0CFBL220snHDxIZrZqHi4UrOMeZO1TY
-    short-id: '!!str a3d8f1e9b2c7d4e6'
-  server: nl06.auragg.org
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-- name: 🇩🇪 DE 164 | ⬇️ 3MB/s
-  obfs: salamander
-  obfs-password: 3f68c77e2abcdf148cf7c77f76859a35
-  password: Gda238Qr5GeEgGAM
-  port: 443
-  server: de1-hsmekfff.skynode.me
-  skip-cert-verify: true
-  sni: de1-hsmekfff.skynode.me
-  type: hysteria2
-  udp: true
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: auragrpc
-  name: 🇩🇪 DE 247 | ⬇️ 24KB/s
-  network: grpc
-  port: 25034
-  reality-opts:
-    public-key: Gt8Da93zNnfkXQLNTzwCFzLU_h0eZV-SqRDTTQ-rDwU
-    short-id: '!!str d6b2e9f1a4c8d3f5'
-  server: nl01.auragg.org
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -2096,33 +2137,3 @@ proxies:
   uuid: 412d7fbe-7474-4f1d-86c6-7eebdc628f72
   ws-opts:
     path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'DE_speednode_0009 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str d08bb54b5b94b2fc'
-  server: 109.163.239.60
-  servername: cdn5-89.yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'DE_speednode_0010 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str 3c9c5d01c6f824dd'
-  server: 109.163.239.208
-  servername: cdn9-78.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef

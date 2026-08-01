@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '🇸🇬 新加坡 腾讯云 #2'
+  network: ws
+  port: 36824
+  server: sylva53.ceoiii.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4f198ea9-311e-3dcf-910c-896de6cb160b
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - name: '🇸🇬_SG_新加坡 #3'
   password: FC60532879
   port: 443
