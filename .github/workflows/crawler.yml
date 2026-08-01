@@ -1,46 +1,39 @@
 # .github/workflows/crawler.yml
-# GitHub Actions 定时任务：每 3 小时运行一次节点爬虫
-
 name: Crawler Scheduled Task
 
 on:
-  # 定时触发：每 3 小时执行一次（分针为 0，即整点）
   schedule:
     - cron: '0 */3 * * *'
-  # 支持手动触发（方便测试）
   workflow_dispatch:
 
 jobs:
   run-crawler:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # 授予写权限
 
     steps:
-      # 1. 检出代码仓库
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2. 设置 Python 环境
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'  # 可根据需要调整版本
+          python-version: '3.10'
 
-      # 3. 安装 Python 依赖
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install requests beautifulsoup4 pyyaml
 
-      # 4. 运行爬虫程序
       - name: Run crawler
         run: python crawler.py
 
-      # 5. 上传生成的配置文件作为 Artifact（便于查看和下载）
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: node-configs
-          path: |
-            crawclash.yaml
-            crawsub.txt
-          if-no-files-found: warn
+      - name: Commit and push output files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add crawclash.yaml crawsub.txt || echo "No files to add"
+          git diff --staged --quiet || git commit -m "Update node configs $(date +'%Y-%m-%d %H:%M')"
+          git push
