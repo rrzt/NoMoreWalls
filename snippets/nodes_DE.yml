@@ -1,1 +1,10 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 'DE德国(v2clash.blog 2026-6.4更新) ... #1'
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

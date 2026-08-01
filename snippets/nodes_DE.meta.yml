@@ -1,5 +1,5 @@
 proxies:
-- name: 🇩🇪_DE_德国->🇹🇭_TH_泰国
+- name: '🇩🇪_DE_德国->🇹🇭_TH_泰国 #1'
   network: ws
   port: 80
   server: www.true.th
@@ -17,7 +17,7 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: '55'
-  name: 🇩🇪_DE_德国
+  name: '🇩🇪_DE_德国 #1'
   port: 54177
   server: 5.83.129.90
   skip-cert-verify: true
@@ -25,3 +25,12 @@ proxies:
   type: hysteria
   udp: true
   up: '11'
+- alterId: 0
+  cipher: auto
+  name: 'DE德国(v2clash.blog 2026-6.4更新) ... #1'
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
