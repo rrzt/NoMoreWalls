@@ -238,7 +238,7 @@ proxies:
   type: vless
   udp: true
   uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- name: '🇷🇺_RU_俄罗斯 #8'
+- name: '🇷🇺_RU_俄罗斯 #7'
   port: 29311
   server: 46.29.163.32
   skip-cert-verify: true
@@ -246,6 +246,56 @@ proxies:
   type: vless
   udp: true
   uuid: dee59997-f3f0-4dc5-bb26-ae24ae63ec5a
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺RU_12
+  network: grpc
+  packet-encoding: xudp
+  port: 2083
+  server: 45.138.100.226
+  servername: using.neobo-tooth.ru
+  sub_tag: A004-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '🇷🇺RU_17|288KB/s|B007-260618 01 #1'
+  password: CsSYOhlDUy7Hz1yQCXSnxj
+  port: 10792
+  server: 130.49.189.158
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 未知 SS-204
+  password: fbaf33bcffe53cf9
+  port: 50111
+  server: 195.58.48.19
+  skip-cert-verify: false
+  sub_tag: K001-260618
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_19
+  password: 9f3d1a6d31468599
+  port: 1291
+  server: 195.133.23.200
+  skip-cert-verify: false
+  sub_tag: K001-260618
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_20
+  password: b24a80e79cee1d1f
+  port: 50111
+  server: 195.133.5.207
+  skip-cert-verify: false
+  sub_tag: K001-260618
+  type: ss
+  udp: false
 - name: 俄罗斯(免费节点)_3
   network: ws
   port: 8443
@@ -309,21 +359,6 @@ proxies:
   type: vless
   udp: true
   uuid: fb6b3497-2026-4a86-b9a5-3e5f18e77a37
-- name: 🇩🇪DE_92
-  network: ws
-  port: 80
-  server: ru-de.apruxdomain.xyz
-  servername: ru-de.apruxdomain.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 84dc79c7-e443-489d-bf07-b4bb825f57d9
-  ws-opts:
-    headers:
-      Host: ru-de.apruxdomain.xyz
-    path: /
 - name: 🇷🇺_俄罗斯_174
   network: ws
   port: 2200
@@ -340,7 +375,7 @@ proxies:
     path: /v1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '🇷🇺_RU_俄罗斯 #5'
+  name: '🇷🇺_RU_俄罗斯 #4'
   port: 443
   reality-opts:
     public-key: KgKu2yHqldNUFnYCY7suz-YTQKi6ZX2mLBduS2yy1xs
@@ -1684,22 +1719,6 @@ proxies:
     headers:
       Host: forfreeuse.sub-flow.online
     path: /
-- client-fingerprint: chrome
-  name: 🇫🇮FI_9
-  network: ws
-  port: 2053
-  server: 89.110.120.140
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
 - name: 俄罗斯 040
   network: ws
   port: 443
@@ -1725,17 +1744,6 @@ proxies:
   type: vless
   udp: true
   uuid: d3aebc17-a731-40fb-a755-aac1a4cf80f2
-- client-fingerprint: chrome
-  name: 🇫🇷FR_198
-  network: tcp
-  port: 8888
-  server: 45.13.119.219
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: eb77be10-9d9e-527b-a78d-8caaf58992d6
 - name: 俄罗斯 043
   network: tcp
   port: 41617
@@ -1908,14 +1916,6 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_20
-  password: b24a80e79cee1d1f
-  port: 50111
-  server: 195.133.5.207
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺RU_28
@@ -1931,22 +1931,6 @@ proxies:
   type: vless
   udp: true
   uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_19
-  password: 9f3d1a6d31468599
-  port: 1291
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 未知 SS-204
-  password: fbaf33bcffe53cf9
-  port: 50111
-  server: 195.58.48.19
-  skip-cert-verify: false
-  type: ss
-  udp: false
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺 RU 195 | ⬇️ 73KB/s
@@ -1998,12 +1982,6 @@ proxies:
   type: vless
   udp: true
   uuid: 347e34f2-3211-4e01-b475-409f46788d3f
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_1|1.1MB/s
-  password: 94571d62-a23f-364e-8065-2a740b342216
-  port: 20030
-  server: 7.8.k.w.d.a.4.3.b.ru01-ae5.entry.v51124-1.qpon
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -2070,17 +2048,6 @@ proxies:
   ws-opts:
     headers:
       Host: 57be39cds394.csgfw.top
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇷🇺RU_12
-  network: grpc
-  port: 2083
-  server: 45.138.100.226
-  servername: using.neobo-tooth.ru
-  tls: true
-  type: vless
-  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: RU VLESS-237

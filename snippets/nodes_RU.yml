@@ -22,6 +22,41 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '🇷🇺RU_17|288KB/s|B007-260618 01 #1'
+  password: CsSYOhlDUy7Hz1yQCXSnxj
+  port: 10792
+  server: 130.49.189.158
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 未知 SS-204
+  password: fbaf33bcffe53cf9
+  port: 50111
+  server: 195.58.48.19
+  skip-cert-verify: false
+  sub_tag: K001-260618
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_19
+  password: 9f3d1a6d31468599
+  port: 1291
+  server: 195.133.23.200
+  skip-cert-verify: false
+  sub_tag: K001-260618
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_20
+  password: b24a80e79cee1d1f
+  port: 50111
+  server: 195.133.5.207
+  skip-cert-verify: false
+  sub_tag: K001-260618
+  type: ss
+  udp: false
 - cipher: aes-256-gcm
   name: '🇷🇺_RU_俄罗斯 #3'
   password: c5fcdf7829112cb4
@@ -1239,36 +1274,6 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_20
-  password: b24a80e79cee1d1f
-  port: 50111
-  server: 195.133.5.207
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_19
-  password: 9f3d1a6d31468599
-  port: 1291
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 未知 SS-204
-  password: fbaf33bcffe53cf9
-  port: 50111
-  server: 195.58.48.19
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_1|1.1MB/s
-  password: 94571d62-a23f-364e-8065-2a740b342216
-  port: 20030
-  server: 7.8.k.w.d.a.4.3.b.ru01-ae5.entry.v51124-1.qpon
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

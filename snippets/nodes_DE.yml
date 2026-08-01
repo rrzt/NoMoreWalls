@@ -20,6 +20,7 @@ proxies:
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: de.catxstar.com
+  sub_tag: A004-260618
   tls: true
   type: trojan
   udp: true
@@ -31,6 +32,103 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_2
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_3
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_4
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_18
+  password: uROuEqsL8IUMMVb4wDwnGU
+  port: 10443
+  server: 57.129.121.230
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- alterId: 0
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 'CN_speednode_0006 #2'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  sub_tag: C002-260622
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_66
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /bkdicj
+- cipher: chacha20-ietf-poly1305
+  name: '🇩🇪DE_69|488KB/s|A004-260618 01 #1'
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 62.113.194.49
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_70
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: cctvhikvision.center
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /bkdicj
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_74
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /bkdicj
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -47,32 +145,6 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇩🇪 德国
-  network: ws
-  port: 46092
-  server: mmde92.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmde92.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 'DE德国(v2clash.blog 2026-6.4更新) ... #1'
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: DE_speednode_0008
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
@@ -972,6 +1044,16 @@ proxies:
     path: /vlesswebs1546877
 - alterId: 0
   cipher: auto
+  name: 未知 VMESS-966 | free-nodes - 15...
+  network: tcp
+  port: 51459
+  server: 91.107.139.186
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
+- alterId: 0
+  cipher: auto
   name: 德国 060
   network: tcp
   port: 2053
@@ -1032,55 +1114,3 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_66
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: hyperon.site
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  ws-opts:
-    path: /bkdicj
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_70
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: cctvhikvision.center
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  ws-opts:
-    path: /bkdicj
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_18
-  password: uROuEqsL8IUMMVb4wDwnGU
-  port: 10443
-  server: 57.129.121.230
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪DE_3
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 185.226.172.8
-  type: ss
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_74
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: undef.network
-  skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  ws-opts:
-    path: /bkdicj
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_2
-  password: PWpjPo3tqhPN4yRZ
-  port: 20001
-  server: 8.209.74.72
-  type: ss
