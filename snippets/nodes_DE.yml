@@ -1,6 +1,6 @@
 proxies:
 - disable-sni: true
-  name: 'DE德国 #10'
+  name: 'DE德国 #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -13,7 +13,7 @@ proxies:
 - alterId: 0
   client-fingerprint: chrome
   country: 🇺🇸US
-  name: 未知 TROJAN-208
+  name: 🇩🇪DE_51
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -123,42 +123,7 @@ proxies:
   udp: true
 - alpn:
   - http/1.1
-  name: 🇩🇪DE_150
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: cctvhikvision.center
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  ws-opts:
-    path: /bkdicj
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_137
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 62.113.194.158
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇩🇪DE_6
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 185.226.172.8
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_149
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 62.113.194.49
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_156
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.114.133
-  type: ss
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_146
+  name: 🇩🇪DE_66
   network: ws
   password: 5xjmr1dz66pgsew0
   port: 8443
@@ -169,7 +134,30 @@ proxies:
     path: /bkdicj
 - alpn:
   - http/1.1
-  name: 🇩🇪DE_161
+  name: 🇩🇪DE_70
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: cctvhikvision.center
+  sni: com.digitalposts.dpdns.org
+  type: trojan
+  ws-opts:
+    path: /bkdicj
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_18
+  password: uROuEqsL8IUMMVb4wDwnGU
+  port: 10443
+  server: 57.129.121.230
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_3
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
+- alpn:
+  - http/1.1
+  name: 🇩🇪DE_74
   network: ws
   password: 5xjmr1dz66pgsew0
   port: 8443
@@ -180,26 +168,8 @@ proxies:
   ws-opts:
     path: /bkdicj
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_158
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 62.113.194.157
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_5
+  name: 🇩🇪DE_2
   password: PWpjPo3tqhPN4yRZ
   port: 20001
   server: 8.209.74.72
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_136
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 62.113.237.3
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_24
-  password: uROuEqsL8IUMMVb4wDwnGU
-  port: 10443
-  server: 57.129.121.230
   type: ss

@@ -17,26 +17,19 @@ proxies:
   type: vmess
   udp: true
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- client-fingerprint: chrome
-  name: 🇨🇳 机场推荐:dafei.de 台湾 01
-  network: tcp
-  password: i99Cef
-  port: 28101
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇨🇳 机场推荐:dafei.de 台湾 02
-  network: tcp
-  password: i99Cef
-  port: 28101
-  server: 209.248.32.115
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-15
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -135,16 +128,10 @@ proxies:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_9
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  name: 🇹🇼TW_18
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_5
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: R3MRCG00129437X.cybervena.com
+  server: 36.224.191.247
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇹🇼TW_11

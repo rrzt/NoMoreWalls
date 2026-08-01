@@ -1,5 +1,5 @@
 proxies:
-- name: 'Node #34'
+- name: 'Node #79'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -53,7 +53,7 @@ proxies:
       HOST: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - cipher: aes-128-gcm
-  name: 🇨🇦CA_2
+  name: 🇨🇦CA-149.22.95.183-0125 | 42.7...
   password: shadowsocks
   port: 443
   server: 149.22.95.183
@@ -74,13 +74,13 @@ proxies:
       host: seribus.org
     path: linkvws
 - cipher: rc4-md5
-  name: 🇨🇦CA_10
+  name: 🇨🇦CA-137.184.174.93-0078 | 0.0...
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 137.184.174.93
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_29
+  name: 🇺🇸US_244
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.118.10
@@ -133,27 +133,9 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA_42
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: ca1.levikogjgfdd.ir
-  type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦CA_1
   password: KixLvKzwjekG00rm
   port: 8080
   server: 185.196.61.82
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇦CA_32
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 184.75.221.134
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '未知 SS-118 #1'
-  password: XF0klw7870vXn3uQIxe19Q
-  port: 1080
-  server: 68.168.114.226
   type: ss

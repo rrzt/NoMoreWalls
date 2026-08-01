@@ -17,58 +17,40 @@ proxies:
   type: vmess
   udp: true
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- client-fingerprint: chrome
-  name: 🇨🇳 机场推荐:dafei.de 台湾 01
-  network: tcp
-  password: i99Cef
-  port: 28101
-  server: 209.248.32.116
+- insecure: '1'
+  mport: 40000-49999
+  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: tw.9966690.xyz
   skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇨🇳 机场推荐:dafei.de 台湾 02
-  network: tcp
-  password: i99Cef
-  port: 28101
-  server: 209.248.32.115
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇹🇼_台湾_81
-  port: 16000
-  reality-opts:
-    public-key: CuqzBeQR_1VIdOGOgn5v8-t-X-YzURF9b3wtKVVyKQ8
-  server: tw.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
   tls: true
-  type: vless
-  udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇹🇼_台湾_90
-  port: 16000
-  reality-opts:
-    public-key: iv3BAoFjlsPSSjOn1cyXVZ3H31KqX65PoJusBEfU0lM
-  server: tw1.xueshan168.cc
-  servername: s0.awsstatic.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- name: 台湾/台北市/Taiwan/Taipei
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
+- name: 🇹🇼TW_17
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 160.187.100.109
   skip-cert-verify: true
   sni: vpn-tw-002.fastervpn.world
+  tls: false
   type: hysteria2
 - name: 🇹🇼TW_1
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
@@ -176,24 +158,11 @@ proxies:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_9
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  name: 🇹🇼TW_18
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: r3mrcg00129437x.cybervena.com
+  server: 36.224.191.247
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_5
-  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
-  port: 50099
-  server: R3MRCG00129437X.cybervena.com
-  type: ss
-- name: 🇹🇼TW_6
-  network: tcp
-  port: 10000
-  server: 60.249.101.14
-  tls: false
-  type: vless
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - name: 🇹🇼TW_14
   network: tcp
   port: 10000

@@ -1,16 +1,16 @@
 proxies:
-- name: 'KR韩国 #4'
+- name: 'KR韩国 #1'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
   server: rr2.tube-cat.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: hk.catxstar.com
   tls: true
   type: trojan
   udp: true
 - alterId: 0
-  name: 'KR韩国 #3'
+  name: 未知 TROJAN-217
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
@@ -91,7 +91,7 @@ proxies:
   server: 141.164.45.187
   type: ss
 - cipher: aes-256-cfb
-  name: 🇰🇷KR-211.178.105.134-0160 | 0....
+  name: 🇰🇷KR_16
   password: qwerREWQ@@
   port: 6123
   server: 211.178.105.134
@@ -157,7 +157,7 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-gcm
-  name: ❓Other_49
+  name: 🇰🇷KR-141.164.45.187-0197 | 0.0...
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 141.164.45.187
@@ -229,54 +229,43 @@ proxies:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
 - cipher: aes-256-gcm
-  name: 🇰🇷KR_25
+  name: 🇰🇷KR_12
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 141.164.45.187
   type: ss
 - cipher: aes-256-gcm
-  name: 🇰🇷KR_24
+  name: 🇰🇷KR_14
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 141.164.45.187
+  type: ss
+- name: 🇰🇷KR_20
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: 154.64.226.149
+  sni: hk.catxstar.com
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_13
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇰🇷KR_11
   password: faBAoD54k87UJG7
   port: 2376
   server: 141.164.45.187
   type: ss
 - cipher: aes-256-gcm
-  name: 🇰🇷KR_28
-  password: RexnBgU7EV5ADxG
-  port: 7002
+  name: 🇰🇷KR_10
+  password: TEzjfAYq2IjtuoS
+  port: 6697
   server: 141.164.45.187
   type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_23
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_18
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_27
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 141.164.45.187
-  type: ss
-- name: 韩国_1
-  password: '!!str 521314'
-  port: 443
-  server: 118.218.10.159
-  sni: hhtj.hhllfly.kdns.fr
-  type: trojan
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_29
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 141.164.45.187
-  type: ss
-- name: 🇰🇷KR_32
+- name: 🇰🇷KR_18
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 9450
@@ -284,21 +273,9 @@ proxies:
   skip-cert-verify: true
   sni: rr2.tube-cat.com
   type: trojan
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_26
-  password: Y6R9pAtvxxzmGC
-  port: 9090
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_19
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 141.164.45.187
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇰🇷KR_30
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 141.164.45.187
-  type: ss
+- name: 韩国_1
+  password: '!!str 521314'
+  port: 443
+  server: 118.218.10.159
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
