@@ -211,6 +211,62 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: 'RU_speednode_0139 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
+  server: 94.139.250.35
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'RU_speednode_0140 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+  server: 94.139.251.23
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'RU_speednode_0141 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.250.36
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'RU_speednode_0142 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+  server: 94.139.250.34
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 🇷🇺_俄罗斯_18
   port: 8442
   reality-opts:
@@ -292,26 +348,6 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|⬇️2.7MB/s
-  network: tcp
-  port: 443
-  server: 176.125.240.166
-  servername: apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: RUVLESS-51|free-nodes
-  network: tcp
-  port: 10468
-  server: 185.113.10.198
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
 - alterId: 0
   cipher: auto
   name: 🇷🇺RU-176.119.156.229-0034 | 0....
@@ -1342,59 +1378,3 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'RU_speednode_0139 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
-  server: 94.139.250.35
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 'RU_speednode_0140 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-  server: 94.139.251.23
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'RU_speednode_0141 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.250.36
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 'RU_speednode_0142 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-  server: 94.139.250.34
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5

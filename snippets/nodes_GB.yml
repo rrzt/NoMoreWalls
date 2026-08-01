@@ -80,7 +80,20 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇩🇪DE-2.26.54.218-0552 | 10.367...
+  name: 未知 VMESS-972 | free-nodes - 79...
+  network: ws
+  port: 443
+  server: mtckundigepwu3up.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: mTCKUNDiGePwU3uP.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪DE-2.26.54.218-0552 | 0.996M...
   network: ws
   port: 443
   server: panel.safeconfigmasoud.com
@@ -98,16 +111,6 @@ proxies:
   network: tcp
   port: 180
   server: 82.198.246.97
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: US20 38.1MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.37
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -346,18 +349,8 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: DE德国(v2clash.blog 2026-6.4更新) ...
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.35-0092 | 82.178...
+  name: 🇬🇧GB-82.38.31.35-0092 | 67.848...
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.35
@@ -398,7 +391,7 @@ proxies:
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.184-0107 | 89.83...
+  name: 🇬🇧GB-82.38.31.184-0107 | 98.17...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.184
@@ -412,7 +405,7 @@ proxies:
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.187-0090 | 88.52...
+  name: 🇬🇧GB-82.38.31.187-0090 | 96.41...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.187
@@ -524,7 +517,7 @@ proxies:
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.202-0108 | 82.88...
+  name: 🇬🇧GB-82.38.31.202-0108 | 68.24...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.202
@@ -559,7 +552,7 @@ proxies:
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.186-0093 | 79.77...
+  name: 🇬🇧GB-82.38.31.186-0093 | 52.96...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.186
@@ -594,14 +587,14 @@ proxies:
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
-  name: 🇬🇧GB-141.98.101.181-0138 | 19....
+  name: 🇬🇧GB-141.98.101.181-0138 | 4.5...
   password: shadowsocks
   port: 443
   server: 141.98.101.181
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
-  name: 🇬🇧GB-141.98.101.182-0141 | 15....
+  name: 🇬🇧GB-141.98.101.182-0141 | 2.9...
   password: shadowsocks
   port: 443
   server: 141.98.101.182
@@ -722,19 +715,6 @@ proxies:
   server: series-a2.varzesh360.co
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 未知 VMESS-972 | free-nodes - 79...
-  network: ws
-  port: 443
-  server: mtckundigepwu3up.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: mTCKUNDiGePwU3uP.v.3dns.vip
-    path: /ws-vmess
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB_72
   password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=

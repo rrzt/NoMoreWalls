@@ -3,7 +3,7 @@ proxies:
   http-opts:
     path:
     - /
-  name: '瑞典 #1'
+  name: 瑞典
   network: xhttp
   port: 443
   reality-opts:
@@ -85,6 +85,45 @@ proxies:
     path: /
 - client-fingerprint: qq
   flow: xtls-rprx-vision
+  name: '🇸🇪_SE_瑞典 #1'
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 82.29.43.42
+  servername: auto.malina24.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 635a1c4e-122b-45f5-8339-03bce6039739
+- cipher: aes-256-cfb
+  name: SE_speednode_0146
+  password: amazonskr05
+  port: 443
+  server: 13.61.5.244
+  skip-cert-verify: true
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: '🇸🇪SE_1|1.7MB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 13.62.20.75
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: '🇸🇪SE_2|2.2MB/s #1'
+  password: amazonskr05
+  port: '443'
+  server: 13.51.233.2
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
   name: 🇸🇪_瑞典_29
   port: 443
   reality-opts:
@@ -96,45 +135,6 @@ proxies:
   type: vless
   udp: true
   uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
-- name: 🇸🇪SE_3|⬇️3.2MB/s
-  network: tcp
-  port: 443
-  server: secdn17.suio.me
-  servername: secdn17.suio.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
-- grpc-opts:
-    grpc-service-name: JNIR
-  name: 未知VLESS-49|free-nodes
-  network: grpc
-  port: 504
-  server: dd.openaccessnode.com
-  servername: nobitex.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 31701b5d-ca95-92f9-d684-dae3706161ea
-- cipher: aes-256-cfb
-  name: '🇸🇪SE_2|2.2MB/s #1'
-  password: amazonskr05
-  port: '443'
-  server: 13.51.233.2
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-cfb
-  name: SE_speednode_0146
-  password: amazonskr05
-  port: 443
-  server: 13.61.5.244
-  skip-cert-verify: true
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇪SE_1
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
@@ -429,20 +429,6 @@ proxies:
   type: vless
   udp: true
   uuid: f75566a5-4744-4806-ac2e-ccaefe1b1080
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '🇸🇪_SE_瑞典 #1'
-  port: 443
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 82.29.43.42
-  servername: auto.malina24.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 635a1c4e-122b-45f5-8339-03bce6039739
 - client-fingerprint: random
   flow: xtls-rprx-vision
   name: 🇸🇪SE_2

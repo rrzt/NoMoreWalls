@@ -1,18 +1,26 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '🇸🇪SE_2|2.2MB/s #1'
-  password: amazonskr05
-  port: '443'
-  server: 13.51.233.2
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-cfb
   name: SE_speednode_0146
   password: amazonskr05
   port: 443
   server: 13.61.5.244
   skip-cert-verify: true
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: '🇸🇪SE_1|1.7MB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 13.62.20.75
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: '🇸🇪SE_2|2.2MB/s #1'
+  password: amazonskr05
+  port: '443'
+  server: 13.51.233.2
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888

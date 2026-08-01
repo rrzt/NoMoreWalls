@@ -32,12 +32,12 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: '未知 VMESS-832 | free-nodes - 3m... #1'
+  name: 美国 079
   network: ws
   port: 80
   server: 69.84.182.49
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
   uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
@@ -73,16 +73,6 @@ proxies:
   uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
 - alterId: 0
   cipher: auto
-  name: 未知23 29.5KB/s
-  network: tcp
-  port: 27726
-  server: fj260205.freechatup.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- alterId: 0
-  cipher: auto
   name: 未知26
   network: tcp
   port: 36864
@@ -107,16 +97,6 @@ proxies:
   network: tcp
   port: 27726
   server: fj260204.freechatup.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6
-- alterId: 0
-  cipher: auto
-  name: 未知49
-  network: tcp
-  port: 27726
-  server: fj260304.freechatup.com
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -428,20 +408,6 @@ proxies:
     headers:
       Host: beyonddsz.cfd
     path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 未知 VMESS-816 | free-nodes - 10...
-  network: ws
-  port: 80
-  server: 51.254.133.152
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
-  ws-opts:
-    headers:
-      Host: fr5.niekotin.de
-    path: /vmess
 - alterId: 0
   cipher: auto
   name: 法国 031

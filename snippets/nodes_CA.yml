@@ -57,6 +57,16 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
+  name: 未知71 4.7MB/s
+  network: tcp
+  port: 18000
+  server: 23.162.200.198
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
   name: 加拿大 001
   network: ws
   port: 443
@@ -576,7 +586,7 @@ proxies:
   type: vmess
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - cipher: aes-128-gcm
-  name: 🇨🇦CA-149.22.95.183-0125 | 42.7...
+  name: 🇨🇦CA-149.22.95.183-0125 | 18.2...
   password: shadowsocks
   port: 443
   server: 149.22.95.183
