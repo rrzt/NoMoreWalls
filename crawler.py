@@ -553,8 +553,15 @@ class Crawler:
                 print(f"  Found wildcard-matched URL from href: {full_url}")
                 if depth < MAX_DEPTH:
                     self.enqueue(full_url, depth + 1, patterns)
-                if is_node_link(full_url):
-                    self.download_subscription(full_url)
+                # ====== 修改 ======
+                # 原因：通配符匹配的 URL 可能是普通网页，而不是直接订阅。
+                # 若此处调用 download_subscription，会导致将普通网页当作订阅下载，
+                # 从而无法解析页面内部的真正订阅链接（如 .yaml）。
+                # 解决：仅入队作为网页爬取，真正的订阅链接会在后续的 is_node_link 判断中被捕获。
+                # 删除下面两行注释代码，不再在此处下载。
+                # if is_node_link(full_url):
+                #     self.download_subscription(full_url)
+                # ====== 修改结束 ======
                 continue
 
             if is_node_link(full_url):
