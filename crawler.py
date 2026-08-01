@@ -184,13 +184,23 @@ def parse_node_link(link):
         return None
 
 def parse_subscription_content(content, url_hint=''):
+    """
+    解析订阅内容，返回节点列表。
+    支持：
+    - 标准 Clash YAML（proxies 字段）
+    - Clash 配置（proxy-providers 字段，自动下载 http 类型 provider 的 url）
+    - Base64 编码的节点链接
+    - 每行一个节点链接的纯文本
+    """
     nodes = []
     if not content:
         return nodes
 
+    # ---------- 第一步：尝试作为 Clash YAML 解析 ----------
     try:
         data = yaml.safe_load(content)
         if isinstance(data, dict):
+            # 1. 标准 proxies 字段
             proxy_list = data.get('proxies') or data.get('Proxy') or data.get('proxy') or []
             if proxy_list:
                 for proxy in proxy_list:
@@ -209,10 +219,43 @@ def parse_subscription_content(content, url_hint=''):
                         'raw': f"{proxy.get('type', '')}://{proxy.get('server', '')}:{proxy.get('port', '')}"
                     }
                     nodes.append(node)
-                return nodes
-    except:
+                return nodes  # 如果找到 proxies，直接返回，不再处理 provider
+
+            # 2. proxy-providers 字段（新增支持）
+            if 'proxy-providers' in data:
+                providers = data['proxy-providers']
+                for provider_name, provider_config in providers.items():
+                    if not isinstance(provider_config, dict):
+                        continue
+                    # 只处理 http 类型的 provider
+                    if provider_config.get('type') == 'http':
+                        provider_url = provider_config.get('url')
+                        if provider_url:
+                            print(f"  Found proxy-provider '{provider_name}', downloading: {provider_url}")
+                            try:
+                                # 下载 provider 内容
+                                provider_content = fetch_binary(provider_url)
+                                if provider_content:
+                                    try:
+                                        provider_text = provider_content.decode('utf-8', errors='ignore')
+                                    except:
+                                        provider_text = ''
+                                    # 递归解析（但注意避免无限循环，这里只递归一层）
+                                    sub_nodes = parse_subscription_content(provider_text, provider_url)
+                                    if sub_nodes:
+                                        nodes.extend(sub_nodes)
+                                        print(f"  -> Got {len(sub_nodes)} nodes from provider")
+                            except Exception as e:
+                                print(f"  -> Error downloading provider {provider_url}: {e}")
+                    # 可以扩展支持 file 类型（需读取本地文件，但一般不适用于远程抓取）
+                # 如果从 provider 中获取到了节点，返回
+                if nodes:
+                    return nodes
+    except Exception as e:
+        # YAML 解析失败，继续尝试其他格式
         pass
 
+    # ---------- 第二步：尝试 Base64 解码 ----------
     try:
         b64_clean = content.replace('\n', '').replace('\r', '').replace(' ', '')
         if re.match(r'^[A-Za-z0-9+/=]+$', b64_clean) and len(b64_clean) % 4 == 0:
@@ -229,6 +272,7 @@ def parse_subscription_content(content, url_hint=''):
     except:
         pass
 
+    # ---------- 第三步：按行解析节点链接 ----------
     for line in content.splitlines():
         line = line.strip()
         if line and (line.startswith(('vmess://', 'ss://', 'trojan://'))):
