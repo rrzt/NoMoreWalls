@@ -1,47 +1,19 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇳🇱NL_199
+  name: '🇷🇺 俄罗斯 莫斯科TransTeleCom公司 #2'
   network: tcp
-  port: 443
+  port: 7098
   reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-  server: 94.139.251.9
-  servername: apple.com
+    public-key: BjJOlYcS3QvqafeDIHyfG1xBUiK_Zs3eYKjMCs2DWQo
+    short-id: '!!str 1488'
+  server: 188.43.105.233
+  servername: static.vk.com
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  udp: true
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_284
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
-  server: 94.139.251.191
-  servername: apple.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d6dc1358-1bb5-4a9d-92fd-3e255567e3fc
-- name: 🇳🇱NL_136
-  network: ws
-  port: 8880
-  server: 176.124.223.30
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-    path: /
+  uuid: 152003f4-7659-43eb-88b3-da1dfad2a223
 - name: 美国_122
   network: ws
   port: 4100
@@ -335,6 +307,16 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
 - flow: xtls-rprx-vision
   name: 🇸🇪SE_1|⬇️2.7MB/s
   network: tcp

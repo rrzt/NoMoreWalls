@@ -1,156 +1,126 @@
 proxies:
-- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 'US美国 #41'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga3.api3-max.ru
-  skip-cert-verify: false
-  sni: taga3.api3-max.ru
-  tls: false
-  type: hysteria2
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'US_speednode_0174 #1'
+- name: 美国 1017
   network: ws
-  port: 80
-  server: www.true.th
-  servername: d7iwyzy9wpvuu.cloudfront.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
-  ws-opts:
-    headers:
-      Host: d7iwyzy9wpvuu.cloudfront.net
-    path: /knl8
-- client-fingerprint: chrome
-  name: 🇺🇸US_301
-  network: ws
-  port: 443
-  server: 104.21.90.146
-  servername: node-dispatch-c8-2.e20260720.kdns.fr
+  port: 8880
+  server: www.glassdoor.com
+  servername: silent-heart-175f.325-a85.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   udp: true
-  uuid: e35a5ad5-0175-4cd6-b654-1eb220ff28f0
+  uuid: 3bf2781f-63a2-4c38-ad02-2cc337c2f7fa
   ws-opts:
     headers:
-      Host: node-dispatch-c8-2.e20260720.kdns.fr
-    path: /Wvf67jc5MgASmsb9Qsr0
-- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 'US美国 #26'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga4.api3-max.ru
-  skip-cert-verify: false
-  sni: taga4.api3-max.ru
-  tls: false
-  type: hysteria2
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  name: 'US美国 #10'
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8080
-  server: 23.95.75.151
-  skip-cert-verify: false
-  sni: hopp-us.yyuyy.com
-  tls: false
-  type: hysteria2
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 CloudFlare节点 2 #2'
+      Host: silent-heart-175f.325-a85.workers.dev
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+- client-fingerprint: random
+  name: 🇫🇷FR_868
   network: ws
   port: 443
-  server: 162.159.38.78
+  server: cmcc.877774.xyz
   servername: learn00.evany.de5.net
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
+  udp: true
   uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     headers:
       Host: learn00.evany.de5.net
-    path: /fdip
-- client-fingerprint: chrome
-  name: 🇳🇱NL_210
+    path: /fdip=tw.william.us.ci!txt
+- name: 'US_speednode_0208 #1'
   network: ws
-  port: 443
-  server: 170.114.46.6
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-melbi
-- name: 🇫🇷FR_25
-  network: ws
-  port: 8880
-  server: 172.66.200.130
+  packet-encoding: xudp
+  port: 80
+  server: www.true.th
+  servername: d2pwbkmfr5lxa4.cloudfront.net
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 4c37df21-0a34-41bf-8bc7-78efd823c03b
-  ws-opts:
-    headers:
-      Host: shiny-salad-e491.479.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 🇺🇸 美国 2
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa8.api3-max.ru
-  skip-cert-verify: false
-  sni: wopa8.api3-max.ru
-  tls: false
-  type: hysteria2
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  ws-opts:
+    headers:
+      Host: d2pwbkmfr5lxa4.cloudfront.net
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸 美国
-  network: tcp
+  name: '未知 VLESS-546 #1'
+  network: raw
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
     short-id: '!!str 7a76f3c4b9dd'
-  server: jdwadgw.cvewfjg.shop
+  server: jdwabxe.cvewfjg.shop
   servername: www.cloudflare.com
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
-  ws-opts:
-    headers:
-      Host: www.cloudflare.com
-    path: /
 - client-fingerprint: random
-  name: 🇫🇷FR_580
+  name: 🇺🇸US_142
   network: ws
-  port: 443
-  server: 104.17.144.235
-  servername: hhlfy.twiladaphne.ndjp.net
+  port: 8443
+  server: 162.159.44.58
+  servername: learn00.evany.de5.net
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: learn00.evany.de5.net
+    path: /fdip=tw.william.us.ci!txt
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 starcorenode.com 3 #2'
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 0c0b895d-b954-4bec-94e6-5770677e7925
+  ws-opts:
+    headers:
+      Host: ssl.fastly.com
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+- name: '🇺🇸 美国 麻省理工学院 #2'
+  network: ws
+  port: 80
+  server: 18.239.134.69
+  servername: 18.239.134.69
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
+  ws-opts:
+    headers:
+      Host: 18.239.134.69
     path: /
+- name: 美国 1021
+  network: ws
+  port: 8880
+  server: deepl.com
+  servername: nameless-poetry-cc33.268-910.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: b1b99d33-8df1-4c74-b140-28941b43a4d2
+  ws-opts:
+    headers:
+      Host: nameless-poetry-cc33.268-910.workers.dev
+    path: /pyip=ProxyIP.KR.CMLiussss.net
 - client-fingerprint: chrome
   name: 美国+CloudFlare节点
   network: ws
@@ -216,19 +186,6 @@ proxies:
     headers:
       Host: pan11.global.ssl.fastly.net
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '未知 VLESS-546 #1'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: '!!str 7a76f3c4b9dd'
-  server: jdwabxe.cvewfjg.shop
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - client-fingerprint: chrome
   name: 🇨🇦CA_7
   network: ws
@@ -568,6 +525,16 @@ proxies:
     path: /
   xhttp-opts:
     mode: auto
+- name: 'US美国 #10'
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8080
+  server: 23.95.75.151
+  skip-cert-verify: false
+  sni: hopp-us.yyuyy.com
+  tls: false
+  type: hysteria2
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇫🇷FR_515
   network: ws
@@ -653,21 +620,6 @@ proxies:
   type: vless
   udp: true
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: 'US_speednode_0208 #1'
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: www.true.th
-  servername: d2pwbkmfr5lxa4.cloudfront.net
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
-  ws-opts:
-    headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
-    path: /
 - name: 美国(yudou789.top 玉豆免费节点)_11
   password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   port: 443
@@ -1311,6 +1263,21 @@ proxies:
   uuid: 73c8ad8a-5803-49fb-8183-39f34ad3a3ea
   ws-opts:
     path: /
+- client-fingerprint: chrome
+  name: 🇺🇸US_301
+  network: ws
+  port: 443
+  server: 104.21.90.146
+  servername: node-dispatch-c8-2.e20260720.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e35a5ad5-0175-4cd6-b654-1eb220ff28f0
+  ws-opts:
+    headers:
+      Host: node-dispatch-c8-2.e20260720.kdns.fr
+    path: /Wvf67jc5MgASmsb9Qsr0
 - client-fingerprint: qq
   http-opts:
     headers:
@@ -2658,13 +2625,13 @@ proxies:
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: ch.01.naiun.bilibili.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
+  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -2688,7 +2655,7 @@ proxies:
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
@@ -2698,7 +2665,7 @@ proxies:
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
@@ -2708,7 +2675,7 @@ proxies:
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
@@ -2918,924 +2885,70 @@ proxies:
     headers:
       HOST: cg1c14.waimaojd.com
     path: /api/v1/graphql
-- name: 美国节点0902 | 1倍率
-  network: tcp
-  password: d53ca555-b357-4fe3-bb06-efb759feb91d
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 美国节点0903 | 1倍率
-  network: tcp
-  password: d53ca555-b357-4fe3-bb06-efb759feb91d
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: 美国节点3001 | 1倍率
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: d53ca555-b357-4fe3-bb06-efb759feb91d
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: 美国节点3002 | 1倍率
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: d53ca555-b357-4fe3-bb06-efb759feb91d
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: 美国节点3003 | 1倍率
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: d53ca555-b357-4fe3-bb06-efb759feb91d
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #1'
-  network: tcp
-  password: 90b343e3-35ad-4833-bb35-36a42127002b
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #1'
-  network: tcp
-  password: 90b343e3-35ad-4833-bb35-36a42127002b
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #1'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: 90b343e3-35ad-4833-bb35-36a42127002b
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #1'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: 90b343e3-35ad-4833-bb35-36a42127002b
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #1'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: 90b343e3-35ad-4833-bb35-36a42127002b
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #2'
-  network: tcp
-  password: f839d0aa-3a07-444d-a869-78b689643176
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #2'
-  network: tcp
-  password: f839d0aa-3a07-444d-a869-78b689643176
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #2'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: f839d0aa-3a07-444d-a869-78b689643176
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #2'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: f839d0aa-3a07-444d-a869-78b689643176
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #2'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: f839d0aa-3a07-444d-a869-78b689643176
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #3'
-  network: tcp
-  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #3'
-  network: tcp
-  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #3'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #3'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #3'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #4'
-  network: tcp
-  password: 0c165b92-52b0-4d4f-961c-6172d5bd19fd
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #4'
-  network: tcp
-  password: 0c165b92-52b0-4d4f-961c-6172d5bd19fd
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #4'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: 0c165b92-52b0-4d4f-961c-6172d5bd19fd
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #4'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: 0c165b92-52b0-4d4f-961c-6172d5bd19fd
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #4'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: 0c165b92-52b0-4d4f-961c-6172d5bd19fd
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #5'
-  network: tcp
-  password: 1c087379-454a-46ab-8b61-e7f54449b909
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #5'
-  network: tcp
-  password: 1c087379-454a-46ab-8b61-e7f54449b909
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #5'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: 1c087379-454a-46ab-8b61-e7f54449b909
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #5'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: 1c087379-454a-46ab-8b61-e7f54449b909
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #5'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: 1c087379-454a-46ab-8b61-e7f54449b909
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #6'
-  network: tcp
-  password: db8f6592-e9aa-4840-b9f1-916424459943
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #6'
-  network: tcp
-  password: db8f6592-e9aa-4840-b9f1-916424459943
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #6'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: db8f6592-e9aa-4840-b9f1-916424459943
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #6'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: db8f6592-e9aa-4840-b9f1-916424459943
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #6'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: db8f6592-e9aa-4840-b9f1-916424459943
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #7'
-  network: tcp
-  password: bf9eb26e-8455-4372-a2c8-8c7b5e72a5b6
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #7'
-  network: tcp
-  password: bf9eb26e-8455-4372-a2c8-8c7b5e72a5b6
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #7'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: bf9eb26e-8455-4372-a2c8-8c7b5e72a5b6
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #7'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: bf9eb26e-8455-4372-a2c8-8c7b5e72a5b6
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #7'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: bf9eb26e-8455-4372-a2c8-8c7b5e72a5b6
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #8'
-  network: tcp
-  password: 59a52714-07de-4001-ac1c-7d29ff9c49da
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #8'
-  network: tcp
-  password: 59a52714-07de-4001-ac1c-7d29ff9c49da
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #8'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: 59a52714-07de-4001-ac1c-7d29ff9c49da
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #8'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: 59a52714-07de-4001-ac1c-7d29ff9c49da
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #8'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: 59a52714-07de-4001-ac1c-7d29ff9c49da
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #9'
-  network: tcp
-  password: 71b9f949-e6bc-4324-9696-c654c8b7b3de
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #9'
-  network: tcp
-  password: 71b9f949-e6bc-4324-9696-c654c8b7b3de
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #9'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: 71b9f949-e6bc-4324-9696-c654c8b7b3de
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #9'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: 71b9f949-e6bc-4324-9696-c654c8b7b3de
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #9'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: 71b9f949-e6bc-4324-9696-c654c8b7b3de
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #10'
-  network: tcp
-  password: 8e30d6f3-7025-4ede-80ac-f859eaeaf262
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #10'
-  network: tcp
-  password: 8e30d6f3-7025-4ede-80ac-f859eaeaf262
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #10'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: 8e30d6f3-7025-4ede-80ac-f859eaeaf262
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #10'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: 8e30d6f3-7025-4ede-80ac-f859eaeaf262
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #10'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: 8e30d6f3-7025-4ede-80ac-f859eaeaf262
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #11'
-  network: tcp
-  password: e1cacc75-5952-4536-a19d-152dd7e49c69
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #11'
-  network: tcp
-  password: e1cacc75-5952-4536-a19d-152dd7e49c69
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #11'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: e1cacc75-5952-4536-a19d-152dd7e49c69
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #11'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: e1cacc75-5952-4536-a19d-152dd7e49c69
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #11'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: e1cacc75-5952-4536-a19d-152dd7e49c69
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #12'
-  network: tcp
-  password: 6056b9ae-5874-43cb-ad17-bf0e4cd51d4d
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #12'
-  network: tcp
-  password: 6056b9ae-5874-43cb-ad17-bf0e4cd51d4d
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #12'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: 6056b9ae-5874-43cb-ad17-bf0e4cd51d4d
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #12'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: 6056b9ae-5874-43cb-ad17-bf0e4cd51d4d
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #12'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: 6056b9ae-5874-43cb-ad17-bf0e4cd51d4d
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #13'
-  network: tcp
-  password: 60b977f1-ecee-412e-a82b-5a6c058d5ca0
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #13'
-  network: tcp
-  password: 60b977f1-ecee-412e-a82b-5a6c058d5ca0
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #13'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: 60b977f1-ecee-412e-a82b-5a6c058d5ca0
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #13'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: 60b977f1-ecee-412e-a82b-5a6c058d5ca0
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #13'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: 60b977f1-ecee-412e-a82b-5a6c058d5ca0
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #14'
-  network: tcp
-  password: 1e61e04d-b4ae-480c-a5ec-5c2a1e50e40f
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #14'
-  network: tcp
-  password: 1e61e04d-b4ae-480c-a5ec-5c2a1e50e40f
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #14'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: 1e61e04d-b4ae-480c-a5ec-5c2a1e50e40f
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #14'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: 1e61e04d-b4ae-480c-a5ec-5c2a1e50e40f
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #14'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: 1e61e04d-b4ae-480c-a5ec-5c2a1e50e40f
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #15'
-  network: tcp
-  password: 6611073f-b570-422b-b412-25c4a8fe22b8
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #15'
-  network: tcp
-  password: 6611073f-b570-422b-b412-25c4a8fe22b8
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #15'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: 6611073f-b570-422b-b412-25c4a8fe22b8
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #15'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: 6611073f-b570-422b-b412-25c4a8fe22b8
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #15'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: 6611073f-b570-422b-b412-25c4a8fe22b8
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0902 | 1倍率 #16'
-  network: tcp
-  password: 9ee0164b-ec48-47d1-9d35-ea9cf5120bac
-  port: 24422
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '美国节点0903 | 1倍率 #16'
-  network: tcp
-  password: 9ee0164b-ec48-47d1-9d35-ea9cf5120bac
-  port: 24413
-  server: vf3us9.stableq.top
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3001 | 1倍率 #16'
-  obfs: salamander
-  obfs-password: RzQcDjBTDgtoVYMn
-  password: 9ee0164b-ec48-47d1-9d35-ea9cf5120bac
-  port: 45103
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3002 | 1倍率 #16'
-  obfs: salamander
-  obfs-password: YJNcm1r7aRL0vF2K
-  password: 9ee0164b-ec48-47d1-9d35-ea9cf5120bac
-  port: 45204
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 500
-  name: '美国节点3003 | 1倍率 #16'
-  obfs: salamander
-  obfs-password: FS0N29jsaCqOyAsA
-  password: 9ee0164b-ec48-47d1-9d35-ea9cf5120bac
-  port: 45304
-  server: us30.stablenode.top
-  skip-cert-verify: false
-  sni: us30.stablenode.top
-  type: hysteria2
-  up: 500
-  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 美国 254
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip005.dtku47.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国2
+  network: ws
+  port: 46036
+  server: mmus36.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmus36.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国3
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
+  ws-opts:
+    headers:
+      Host: us2jdgv5GC7.fzbqfrse.xyz
+    path: /video/DDC4btA8wc/
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 美国 191
+  network: ws
+  port: 2086
+  server: 104.26.0.56
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
 - name: 'US_speednode_0182 #1'
   port: 9002
   server: 138.199.35.198
@@ -4605,6 +3718,20 @@ proxies:
   type: vless
   udp: true
   uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
+- name: 'US_speednode_0174 #1'
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d7iwyzy9wpvuu.cloudfront.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: ff0c1cde-6f94-4bf1-9774-ab25c6b4977d
+  ws-opts:
+    headers:
+      Host: d7iwyzy9wpvuu.cloudfront.net
+    path: /knl8
 - client-fingerprint: chrome
   name: 🇦🇲_亚美尼亚_212
   network: ws
@@ -4751,6 +3878,482 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
+- name: 'A - 🇺🇸 US 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 50.62.198.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime39.workers.dev
+    path: /?ed=2560
+- name: 'A - 🇺🇸 US 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 108.162.193.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime56.workers.dev
+    path: /
+- name: 'A - 🇺🇸 US 03 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 104.129.167.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime44.workers.dev
+    path: /
+- name: 'A - 🇺🇸 US 04 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 8.34.70.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+    path: /?ed=2560
+- name: 'A - 🇺🇸 US 05 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.40.151.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /
+- name: 🇳🇱NL_178
+  network: ws
+  port: 8880
+  server: 160.153.138.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime04.workers.dev
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: 'A - 🇺🇸 US 07 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: www.4chan.org
+  servername: misaka.cndyw.ggff.net
+  tls: true
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  ws-opts:
+    headers:
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560
+- client-fingerprint: random
+  encryption: none
+  name: 'A - 🇺🇸 US 08 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: icook.hk
+  servername: misaka.cndyw.ggff.net
+  tls: true
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  ws-opts:
+    headers:
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560
+- client-fingerprint: random
+  encryption: none
+  name: 'A - 🇺🇸 US 09 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: fbi.gov
+  servername: misaka.cndyw.ggff.net
+  tls: true
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  ws-opts:
+    headers:
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560
+- client-fingerprint: random
+  encryption: none
+  name: 'A - 🇺🇸 US 10 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: www.gov.se
+  servername: misaka.cndyw.ggff.net
+  tls: true
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  ws-opts:
+    headers:
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560
+- encryption: none
+  name: 'A - 🇺🇸 US 11 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 198.41.208.203
+  type: vless
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  ws-opts:
+    headers:
+      Host: index.harmony715.workers.dev
+    path: /mpmva3e8rtr6v7qq
+- client-fingerprint: random
+  encryption: none
+  name: 'A - 🇺🇸 US 12 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: www.zsu.gov.ua
+  servername: misaka.cndyw.ggff.net
+  tls: true
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  ws-opts:
+    headers:
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560
+- name: 'A - 🇺🇸 US 13 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.40.153.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime44.workers.dev
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: 'A - 🇺🇸 US 14 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: www.baipiao.eu.org
+  servername: misaka.cndyw.ggff.net
+  tls: true
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  ws-opts:
+    headers:
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560
+- name: 美国 1188
+  network: ws
+  port: 8880
+  server: 173.245.49.30
+  servername: vms.lifetime36.workers.dev
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /
+- encryption: none
+  name: 'B - 🇺🇸 US 16 TG: @nodpai'
+  network: tcp
+  port: 443
+  server: 155.117.127.137
+  type: vless
+  uuid: 5a20b5d0-3a98-4792-9559-95f4e24277ec
+- client-fingerprint: random
+  encryption: none
+  name: 'B - 🇺🇸 US 17 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: www.udacity.com
+  servername: misaka.cndyw.ggff.net
+  tls: true
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  ws-opts:
+    headers:
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 20 TG: @nodpai'
+  network: ws
+  port: 2083
+  security: tls
+  server: 172.66.44.211
+  servername: wk1.f1w.de5.net
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: wk1.f1w.de5.net
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 22 TG: @nodpai'
+  network: ws
+  port: 56671
+  server: 173.249.210.53
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  skip-cert-verify: true
+  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+    path: /@Marisa_kristi
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 23 TG: @nodpai'
+  port: 443
+  security: tls
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 24 TG: @nodpai'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  sni: support.zoom.us.blackshadow.dpdns.org
+  tls: true
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: support.zoom.us.blackshadow.dpdns.org
+    path: /195.123.218.174-443
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  host: apple.com
+  name: 'B - 🇺🇸 US 25 TG: @nodpai'
+  network: tcp
+  port: 54254
+  reality-opts:
+    public-key: HFEz9fAOugljXea_ZVOUHMju08su8h0P9RANNcHP2y4
+    short-id: '!!str db35ffdc'
+  security: reality
+  server: 134.33.73.249
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: acba684c-4098-4eca-f519-828b09f96464
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇫🇷FR_235
+  network: ws
+  port: 2083
+  security: tls
+  server: 172.66.47.45
+  servername: wk1.f1w.de5.net
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: wk1.f1w.de5.net
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+  name: 'B - 🇺🇸 US 27 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: _yzmX8WwaZJD4ddVgOZWJsx6r0lJzhTrTbkQLhwiWXk
+    short-id: '!!str c8540a3e9e1d8136'
+  security: reality
+  server: usr.moktana.app
+  servername: us.moktana.app
+  tls: true
+  type: vless
+  uuid: 7841aff6-8552-4f8e-ad0c-06c3b73e6440
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 28 TG: @nodpai'
+  network: tcp
+  port: 12443
+  reality-opts:
+    public-key: D3bNJPmy4YJqhWQ3Xv1Fu3Z1danrTzswShytnkkG9Q4
+    short-id: '!!str ca4a1317e03791b3'
+  security: reality
+  server: 31.58.87.71
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
+- client-fingerprint: random
+  encryption: none
+  name: 'B - 🇺🇸 US 29 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: singapore.com
+  servername: misaka.cndyw.ggff.net
+  tls: true
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  ws-opts:
+    headers:
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560
+- encryption: none
+  name: 'B - 🇺🇸 US 30 TG: @nodpai'
+  network: ws
+  port: 80
+  server: srv1.khatibirepair.ir
+  type: vless
+  uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
+  ws-opts:
+    headers:
+      Host: fragrant-tooth-a5b7.cajeba6448.workers.dev
+    path: /
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: 'B - 🇺🇸 US 31 TG: @nodpai'
+  port: 22231
+  security: tls
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: 'B - 🇺🇸 US 34 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'B - 🇺🇸 US 35 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 'B - 🇺🇸 US 38 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: yx.cloudflare.182682.xyz
+  servername: gddy.hhlfy.de5.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
+  ws-opts:
+    headers:
+      Host: gddy.hhlfy.de5.net
+    path: /fp=firefox
+- encryption: none
+  name: 'B - 🇺🇸 US 39 TG: @nodpai'
+  network: ws
+  port: 2052
+  server: www.visa.com.sg
+  type: vless
+  uuid: 363a6072-05d7-48d5-8f19-312b05fdd9cd
+  ws-opts:
+    headers:
+      Host: chosenflyesqt-q3y28ipf-v3.chosen-fly-esqt.workers.dev
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: 'B - 🇺🇸 US 40 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: japan.com
+  servername: misaka.cndyw.ggff.net
+  tls: true
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  ws-opts:
+    headers:
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560
+- client-fingerprint: random
+  encryption: none
+  name: 'B - 🇺🇸 US 41 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: russia.com
+  servername: misaka.cndyw.ggff.net
+  tls: true
+  type: vless
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  ws-opts:
+    headers:
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560
+- name: 'B - 🇺🇸 US 42 TG: @nodpai'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18000
+  server: 121.154.96.50
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision-udp443
+  name: 'B - 🇺🇸 US 44 TG: @nodpai'
+  network: tcp
+  port: 443
+  security: tls
+  server: s881.ccgfw.top
+  servername: s881.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
+- encryption: none
+  name: 'C - 🇺🇸 US 45 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 172.64.146.127
+  type: vless
+  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
+  ws-opts:
+    headers:
+      Host: frejd.11258.workers.dev
+    path: /telegram🇨🇳@wangcai2/
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇺🇸 US 46 TG: @nodpai'
+  network: ws
+  port: 52620
+  server: 38.60.176.80
+  type: vmess
+  uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
+  ws-opts:
+    path: /8704a4ad
 - flow: xtls-rprx-vision
   name: 未知VLESS-37|free-nodes
   network: tcp
@@ -31343,20 +30946,6 @@ proxies:
     path: /realtime
 - alterId: 0
   cipher: auto
-  name: 美国 191
-  network: ws
-  port: 2086
-  server: 104.26.0.56
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 美国 192
   network: ws
   port: 8443
@@ -32131,19 +31720,6 @@ proxies:
     headers:
       Host: cg1c04.waimaojd.com
     path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  name: 美国 254
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  skip-cert-verify: true
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.dtku47.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 美国 255
@@ -41414,68 +40990,6 @@ proxies:
     headers:
       Host: www.17354742.xyz
     path: /path/1719749022163
-- name: 美国 1017
-  network: ws
-  port: 8880
-  server: www.glassdoor.com
-  servername: silent-heart-175f.325-a85.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3bf2781f-63a2-4c38-ad02-2cc337c2f7fa
-  ws-opts:
-    headers:
-      Host: silent-heart-175f.325-a85.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-- client-fingerprint: random
-  name: 🇫🇷FR_868
-  network: ws
-  port: 443
-  server: cmcc.877774.xyz
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt
-- client-fingerprint: random
-  name: 🇺🇸US_142
-  network: ws
-  port: 8443
-  server: 162.159.44.58
-  servername: learn00.evany.de5.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  ws-opts:
-    headers:
-      Host: learn00.evany.de5.net
-    path: /fdip=tw.william.us.ci!txt
-- name: 美国 1021
-  network: ws
-  port: 8880
-  server: deepl.com
-  servername: nameless-poetry-cc33.268-910.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1b99d33-8df1-4c74-b140-28941b43a4d2
-  ws-opts:
-    headers:
-      Host: nameless-poetry-cc33.268-910.workers.dev
-    path: /pyip=ProxyIP.KR.CMLiussss.net
 - name: 美国 1022
   network: ws
   port: 443
@@ -43875,21 +43389,6 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
     path: /?Telegram🇨🇳
-- name: 美国 1188
-  network: ws
-  port: 8880
-  server: 173.245.49.30
-  servername: vms.lifetime36.workers.dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /
 - name: 美国 1189
   network: ws
   port: 8880
@@ -49959,18 +49458,6 @@ proxies:
   ws-opts:
     headers:
       Host: fangbinxingnmsl.pusytroller.gq
-    path: /
-- name: 美国_20
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  servername: vms.lifetime42.workers.dev
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
     path: /
 - name: 美国_33
   network: ws

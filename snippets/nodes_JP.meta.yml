@@ -298,413 +298,80 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
-- down: 300
-  name: 日本节点0201 | 1倍率
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: d53ca555-b357-4fe3-bb06-efb759feb91d
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
+- client-fingerprint: chrome
+  name: 🇯🇵 日本
+  password: yEnxJlVC
+  port: 51012
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
   uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: 日本节点0202 | 1倍率
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: d53ca555-b357-4fe3-bb06-efb759feb91d
-  port: 45203
-  server: v8jp2.stablenode.top
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 日本 014
+  network: ws
+  port: 443
+  server: 134.122.139.79
+  servername: www.48907900.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.48907900.xyz
+    path: /path/011410073331
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本5
+  network: ws
+  port: 46011
+  server: mmjp11.micloud.buzz
   skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmjp11.micloud.buzz
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇯🇵 日本4
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 49207
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #1'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: 90b343e3-35ad-4833-bb35-36a42127002b
-  port: 45103
-  server: v8jp2.stablenode.top
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本6
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
   skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #1'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: 90b343e3-35ad-4833-bb35-36a42127002b
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #2'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: f839d0aa-3a07-444d-a869-78b689643176
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #2'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: f839d0aa-3a07-444d-a869-78b689643176
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #3'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #3'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #4'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: 0c165b92-52b0-4d4f-961c-6172d5bd19fd
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #4'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: 0c165b92-52b0-4d4f-961c-6172d5bd19fd
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #5'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: 1c087379-454a-46ab-8b61-e7f54449b909
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #5'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: 1c087379-454a-46ab-8b61-e7f54449b909
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #6'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: db8f6592-e9aa-4840-b9f1-916424459943
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #6'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: db8f6592-e9aa-4840-b9f1-916424459943
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #7'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: bf9eb26e-8455-4372-a2c8-8c7b5e72a5b6
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #7'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: bf9eb26e-8455-4372-a2c8-8c7b5e72a5b6
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #8'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: 59a52714-07de-4001-ac1c-7d29ff9c49da
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #8'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: 59a52714-07de-4001-ac1c-7d29ff9c49da
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #9'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: 71b9f949-e6bc-4324-9696-c654c8b7b3de
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #9'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: 71b9f949-e6bc-4324-9696-c654c8b7b3de
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #10'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: 8e30d6f3-7025-4ede-80ac-f859eaeaf262
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #10'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: 8e30d6f3-7025-4ede-80ac-f859eaeaf262
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #11'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: e1cacc75-5952-4536-a19d-152dd7e49c69
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #11'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: e1cacc75-5952-4536-a19d-152dd7e49c69
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #12'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: 6056b9ae-5874-43cb-ad17-bf0e4cd51d4d
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #12'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: 6056b9ae-5874-43cb-ad17-bf0e4cd51d4d
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #13'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: 60b977f1-ecee-412e-a82b-5a6c058d5ca0
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #13'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: 60b977f1-ecee-412e-a82b-5a6c058d5ca0
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #14'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: 1e61e04d-b4ae-480c-a5ec-5c2a1e50e40f
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #14'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: 1e61e04d-b4ae-480c-a5ec-5c2a1e50e40f
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #15'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: 6611073f-b570-422b-b412-25c4a8fe22b8
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #15'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: 6611073f-b570-422b-b412-25c4a8fe22b8
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0201 | 1倍率 #16'
-  obfs: salamander
-  obfs-password: 0UjyQeICpbvx8o8v
-  password: 9ee0164b-ec48-47d1-9d35-ea9cf5120bac
-  port: 45103
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
-  uuid: 88888888-8888-8888-8888-888888888888
-- down: 300
-  name: '日本节点0202 | 1倍率 #16'
-  obfs: salamander
-  obfs-password: cUGqLRFh8ZNiG3g9
-  password: 9ee0164b-ec48-47d1-9d35-ea9cf5120bac
-  port: 45203
-  server: v8jp2.stablenode.top
-  skip-cert-verify: false
-  sni: v8jp2.stablenode.top
-  type: hysteria2
-  up: 300
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇯🇵 日本特殊
+  password: amazonskr05
+  port: 443
+  server: 47.128.150.72
+  tfo: false
+  type: ss
   uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇯🇵 机场推荐:dafei.de 日本 01
   password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
@@ -721,8 +388,10 @@ proxies:
   network: tcp
   port: 30845
   server: v45.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: qq
   flow: xtls-rprx-vision
@@ -812,6 +481,121 @@ proxies:
   type: vless
   udp: true
   uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
+- name: 'A - 🇯🇵 JP 01 TG: @nodpai'
+  network: ws
+  port: 17416
+  security: tls
+  server: 103.133.240.115
+  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristifp=chrome
+- name: 'A - 🇯🇵 JP 02 TG: @nodpai'
+  network: ws
+  port: 30003
+  security: tls
+  server: 140.235.10.14
+  servername: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rolaqoubhqt.bpd67081tsq.ddns-ip.net
+    path: /@Marisa_kristifp=chrome
+- client-fingerprint: chrome
+  name: 'A - 🇯🇵 JP 03 TG: @nodpai'
+  network: ws
+  port: 15807
+  server: 138.2.112.117
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  skip-cert-verify: true
+  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+    path: /@Marisa_kristi
+- alterId: 0
+  cipher: auto
+  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: 'A - 🇯🇵 JP 05 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 176.124.223.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime38.workers.dev
+- client-fingerprint: chrome
+  name: 'A - 🇯🇵 JP 06 TG: @nodpai'
+  network: ws
+  port: 30001
+  security: tls
+  server: 114.204.40.185
+  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 'A - 🇯🇵 JP 07 TG: @nodpai'
+  network: ws
+  port: 7152
+  security: tls
+  server: 8.219.129.246
+  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
+  name: 'B - 🇯🇵 JP 08 TG: @nodpai'
+  network: ws
+  port: 42769
+  server: 45.143.131.216
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  skip-cert-verify: true
+  sni: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+    path: /@Marisa_kristi
+- name: 'B - 🇯🇵 JP 09 TG: @nodpai'
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  port: 443
+  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇯🇵 日本|@stairnode
   password: BxceQaOe
   port: 3022
@@ -1756,34 +1540,6 @@ proxies:
     headers:
       Host: download.windowsupdate.com
     path: /download
-- alterId: 64
-  cipher: auto
-  name: 日本 014
-  network: ws
-  port: 443
-  server: 134.122.139.79
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.48907900.xyz
-    path: /path/011410073331
-- alterId: 64
-  cipher: auto
-  name: 日本 015
-  network: ws
-  port: 30000
-  server: 137.220.130.58
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.68703921.xyz
-    path: /path/011410073331
 - alterId: 4
   cipher: auto
   name: 日本 016

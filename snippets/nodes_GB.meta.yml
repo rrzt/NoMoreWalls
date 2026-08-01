@@ -129,6 +129,17 @@ proxies:
   ws-opts:
     headers:
       Host: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  name: 🇺🇸 美国 2
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa8.api3-max.ru
+  skip-cert-verify: false
+  sni: wopa8.api3-max.ru
+  tls: false
+  type: hysteria2
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'GB英国 #7'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -236,6 +247,7 @@ proxies:
   flow: xtls-rprx-vision
   name: '🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚 #1'
   port: 22231
+  security: tls
   server: 85.234.114.53
   servername: r1.mizulina.top
   tls: true
@@ -290,6 +302,53 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
+- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: 'B - 🇬🇧 GB 04 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
 - name: 🇬🇧GB_2|⬇️1.7MB/s
   network: ws
   port: 443
