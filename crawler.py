@@ -180,7 +180,6 @@ def parse_subscription_content(content, url_hint=''):
     if not content:
         return nodes
 
-    # 尝试 Clash YAML
     try:
         data = yaml.safe_load(content)
         if isinstance(data, dict):
@@ -206,7 +205,6 @@ def parse_subscription_content(content, url_hint=''):
     except:
         pass
 
-    # 尝试 Base64
     try:
         b64_clean = content.replace('\n', '').replace('\r', '').replace(' ', '')
         if re.match(r'^[A-Za-z0-9+/=]+$', b64_clean) and len(b64_clean) % 4 == 0:
@@ -223,7 +221,6 @@ def parse_subscription_content(content, url_hint=''):
     except:
         pass
 
-    # 普通文本，每行一个链接
     for line in content.splitlines():
         line = line.strip()
         if line and (line.startswith(('vmess://', 'ss://', 'trojan://'))):
@@ -346,9 +343,9 @@ class Crawler:
 
     def process_sources(self, lines):
         """预处理所有源，建立配对关系"""
-        wildcard_map = {}  # {base_url: [pattern1, pattern2, ...]}
+        wildcard_items = []  # (原始url, pattern_regex)
         direct_urls = []
-        plain_pages = []
+        plain_pages_set = set()
 
         for line in lines:
             line = line.strip()
@@ -369,20 +366,45 @@ class Crawler:
                 url = line
 
             if '*' in url:
-                # 提取基础URL：取第一个*之前的部分
-                base_part = url.split('*', 1)[0].rstrip('/')
-                if base_part.startswith(('http://', 'https://')):
-                    pattern = re.escape(url).replace('\\*', '.*')
-                    regex = re.compile('^' + pattern + '$', re.IGNORECASE)
-                    if base_part not in wildcard_map:
-                        wildcard_map[base_part] = []
-                    wildcard_map[base_part].append(regex)
+                pattern = re.escape(url).replace('\\*', '.*')
+                regex = re.compile('^' + pattern + '$', re.IGNORECASE)
+                wildcard_items.append((url, regex))
             else:
                 if is_node_link(url):
                     direct_urls.append(url)
                 else:
-                    plain_pages.append(url)
+                    # 标准化：去掉尾部斜杠
+                    clean = url.rstrip('/')
+                    plain_pages_set.add(clean)
 
+        # 建立通配符配对
+        wildcard_map = {}  # base_url -> [patterns]
+        for url, regex in wildcard_items:
+            base_part = url.split('*', 1)[0].rstrip('/')
+            matched_base = None
+
+            # 1. 精确匹配
+            if base_part in plain_pages_set:
+                matched_base = base_part
+            else:
+                # 2. 尝试根域名
+                parsed = urlparse(base_part)
+                root_url = f"{parsed.scheme}://{parsed.netloc}".rstrip('/')
+                if root_url in plain_pages_set:
+                    matched_base = root_url
+
+            if matched_base:
+                if matched_base not in wildcard_map:
+                    wildcard_map[matched_base] = []
+                wildcard_map[matched_base].append(regex)
+            else:
+                # 无匹配，使用自身的 base
+                if base_part not in wildcard_map:
+                    wildcard_map[base_part] = []
+                wildcard_map[base_part].append(regex)
+
+        # 将 plain_pages_set 转为列表
+        plain_pages = list(plain_pages_set)
         return wildcard_map, direct_urls, plain_pages
 
     def enqueue(self, url, depth, patterns):
@@ -482,7 +504,7 @@ class Crawler:
                 if depth < MAX_DEPTH and url not in self.visited_urls:
                     self.enqueue(url, depth + 1, patterns)
 
-        # 提取直接节点链接
+        # 提取直接节点链接 (vmess://, ss://, trojan://)
         node_link_regex = re.compile(r'(vmess|ss|trojan)://[^\s<>"\'{}|\\^`\[\]]+', re.IGNORECASE)
         for match in node_link_regex.findall(text):
             link = match.strip()
@@ -501,13 +523,13 @@ class Crawler:
 
         # 处理普通网页（含配对逻辑）
         for url in plain_pages:
-            patterns = wildcard_map.pop(url, None)  # 取出配对的通配符模式
+            patterns = wildcard_map.pop(url, None)
             if patterns:
                 self.enqueue(url, 1, patterns)
             else:
                 self.enqueue(url, 1, None)
 
-        # 处理剩余未配对的通配符
+        # 处理剩余未配对的通配符（其base不在plain_pages中）
         for base_url, patterns in wildcard_map.items():
             self.enqueue(base_url, 1, patterns)
 
