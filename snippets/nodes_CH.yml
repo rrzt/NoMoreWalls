@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '🇨🇭CH_2|272KB/s|A004-260618 01 #1'
+  name: 🇨🇭CH_2|272KB/s|A004-260618 01
   network: tcp
   password: y3b03zx3tznhyo538p4c
   port: 53261

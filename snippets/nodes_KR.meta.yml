@@ -109,7 +109,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: '🇰🇷KR_3|160KB/s|C002-260622 01 #1'
+  name: 🇰🇷KR_3|160KB/s|C002-260622 01
   network: raw
   packet-encoding: xudp
   port: 8888
@@ -123,7 +123,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: '🇰🇷KR_5|93KB/s|C002-260622 01 #1'
+  name: 🇰🇷KR_5|93KB/s|C002-260622 01
   network: tcp
   packet-encoding: xudp
   port: 8888
@@ -237,7 +237,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: '🇰🇷KR_23|256KB/s|T001-260618 01 #1'
+  name: 🇰🇷KR_23|256KB/s|T001-260618 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -258,7 +258,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇰🇷KR_24|212KB/s|T001-260618 01 #1'
+  name: 🇰🇷KR_24|212KB/s|T001-260618 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -346,16 +346,15 @@ proxies:
   tfo: false
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'KR_speednode_0034 #1'
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+- name: 'US_speednode_0150 #1'
+  password: ''
+  port: 50161
+  server: 168.107.13.220
   skip-cert-verify: true
-  sni: testkr3.ssv.vc
-  tls: true
-  type: http
+  tls: false
+  type: socks5
   udp: true
-  username: test
+  username: ''
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision

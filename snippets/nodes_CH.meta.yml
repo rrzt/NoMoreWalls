@@ -59,7 +59,7 @@ proxies:
   udp: true
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: chrome
-  name: '🇨🇭CH_2|272KB/s|A004-260618 01 #1'
+  name: 🇨🇭CH_2|272KB/s|A004-260618 01
   network: tcp
   password: y3b03zx3tznhyo538p4c
   port: 53261
@@ -204,7 +204,7 @@ proxies:
   - http/1.1
   client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 'IT_speednode_0028 #1'
+  name: 'IT_speednode_0013 #1'
   network: tcp
   port: 443
   reality-opts:

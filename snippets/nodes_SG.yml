@@ -42,7 +42,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: '🇸🇬SG_22|315KB/s|C002-260622 01 #1'
+  name: 🇸🇬SG_22|315KB/s|C002-260622 01
   network: raw
   packet-encoding: xudp
   port: 18000
@@ -56,7 +56,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: '🇸🇬SG_24|456KB/s|C002-260622 01 #1'
+  name: 🇸🇬SG_24|456KB/s|C002-260622 01
   network: raw
   packet-encoding: xudp
   port: 18000
@@ -82,7 +82,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: '0'
   cipher: auto
-  name: '🇸🇬SG_30|386KB/s|C002-260622 01 #1'
+  name: 🇸🇬SG_30|386KB/s|C002-260622 01
   network: tcp
   packet-encoding: xudp
   port: 18000
@@ -119,7 +119,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: '🇸🇬SG_40|275KB/s|A004-260618 01 #1'
+  name: 🇸🇬SG_40|275KB/s|A004-260618 01
   network: tcp
   password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
   port: 50573

@@ -250,7 +250,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: '🇭🇰 香港 02 #1'
+  name: 🇭🇰 香港 02
   network: tcp
   password: BxceQaOe
   port: 443
@@ -262,7 +262,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: '🇭🇰 香港 03 #1'
+  name: 🇭🇰 香港 03
   network: tcp
   password: BxceQaOe
   port: 443
@@ -273,7 +273,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: '🇭🇰 香港 04 #1'
+  name: 🇭🇰 香港 04
   network: tcp
   password: BxceQaOe
   port: 443
@@ -286,7 +286,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-905 | free-nodes - 62...
+  name: 未知 VMESS-895 | free-nodes - 19...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -311,7 +311,7 @@ proxies:
       - sjskendn.dingtalk.com
     path:
     - /x
-  name: '🇭🇰_HK_中国香港_4 #1'
+  name: 🇭🇰HK-47.86.167.194-28
   network: http
   packet-encoding: xudp
   port: 800
@@ -328,7 +328,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-915 | free-nodes - 61...
+  name: 未知 VMESS-910 | free-nodes - 19...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -3626,9 +3626,9 @@ proxies:
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - alterId: 2
   cipher: auto
-  name: '香港|@ripaojiedian #1'
+  name: 🇭🇰_香港_108 - 267ms
   network: tcp
-  port: '30807'
+  port: 30807
   server: v10.hdacd.com
   servername: ''
   skip-cert-verify: true
@@ -3640,7 +3640,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_香港_213 - 1059ms
+  name: 🇭🇰_香港_213 - 220ms
   network: ws
   port: 443
   server: drbkg16egf3fzlm3.v.3dns.vip
@@ -3653,7 +3653,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_香港_216 - 1890ms
+  name: 🇭🇰_香港_216 - 474ms
   network: ws
   port: 443
   server: 7timuei1uufoixbf.v.3dns.vip
@@ -3666,7 +3666,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_香港_217 - 1952ms
+  name: 🇭🇰_香港_217 - 801ms
   network: ws
   port: 443
   server: nycqg19zkwacpm1b.v.3dns.vip
@@ -3679,7 +3679,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-1146 | free-nodes - 3...
+  name: 未知 VMESS-1149 | free-nodes - 5...
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -3694,7 +3694,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_香港_219 - 1644ms
+  name: 🇭🇰_香港_219 - 655ms
   network: ws
   port: 443
   server: ex1ogt73nzpqkac2.v.3dns.vip
@@ -3706,7 +3706,7 @@ proxies:
       Host: ex1ogt73nzpqkac2.v.3dns.vip
     path: /ws-vmess
 - alterId: 0
-  name: 'HK_speednode_0024 #2'
+  name: 🇺🇸US美国
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -3736,7 +3736,7 @@ proxies:
   type: vmess
   udp: true
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- name: '🇭🇰_HK_中国香港_1 #5'
+- name: 香港/香港/Hong Kong/Hong Kong-8
   port: 5100
   server: 47.240.80.220
   skip-cert-verify: true
@@ -3943,7 +3943,7 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 'HK_speednode_0023 #2'
+- name: 🇺🇸 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -4077,7 +4077,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-970 | free-nodes - 53...
+  name: '未知 VMESS-970 | free-nodes - 76... #1'
   network: ws
   port: 443
   server: m01c7b2z26dtqgee.v.3dns.vip
@@ -4102,7 +4102,7 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-872 | free-nodes - 38...
+  name: 未知 VMESS-872 | free-nodes - 12...
   network: ws
   port: 443
   server: 7timuei1uufoixbf.v.3dns.vip
@@ -4117,7 +4117,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-901 | free-nodes - 15...
+  name: 未知 VMESS-901 | free-nodes - 18...
   network: ws
   port: 443
   server: 47.83.19.148
@@ -4132,7 +4132,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-938 | free-nodes - 26...
+  name: 未知 VMESS-938 | free-nodes - 12...
   network: ws
   port: 443
   server: nycqg19zkwacpm1b.v.3dns.vip
@@ -4147,7 +4147,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-971 | free-nodes - 53...
+  name: 未知 VMESS-971 | free-nodes - 78...
   network: ws
   port: 443
   server: mh7r5ardl0z5jtgy.v.3dns.vip
@@ -4189,7 +4189,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-903 | free-nodes - 78...
+  name: 未知 VMESS-901 | free-nodes - 49...
   network: ws
   port: 443
   server: drbkg16egf3fzlm3.v.3dns.vip
@@ -4255,7 +4255,7 @@ proxies:
   ws-path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇩🇪_DE_德国 - 250ms
+  name: 🇭🇰HK-103.181.164.21-22
   network: tcp
   port: 30833
   server: v33.hdacd.com
@@ -4323,6 +4323,18 @@ proxies:
     host: hk.denverpresents.top
     mode: auto
     path: /assets/build/_app/immutable/chunks/stream-one/
+- alterId: 0
+  name: 🇭🇰HK香港
+  network: tcp
+  password: BxceQaOe
+  port: 29443
+  server: 35.76.126.253
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -4488,7 +4500,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-953 | free-nodes - 19...
+  name: 未知 VMESS-882 | free-nodes - 47...
   network: ws
   port: 443
   server: 93ucrn4i0pffuabk.v.3dns.vip
@@ -4501,7 +4513,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-973 | free-nodes - 10...
+  name: 未知 VMESS-973 | free-nodes - 79...
   network: ws
   port: 443
   server: qtkdr8jxe3wefxjm.v.3dns.vip
@@ -4514,7 +4526,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-975 | free-nodes - 57...
+  name: 未知 VMESS-975 | free-nodes - 82...
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -4527,7 +4539,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-968 | free-nodes - 13...
+  name: 未知 VMESS-968 | free-nodes - 22...
   network: ws
   port: 443
   server: ejomsxptp19apygl.v.3dns.vip
@@ -4540,7 +4552,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-1077 | free-nodes - 4...
+  name: 未知 VMESS-974 | free-nodes - 82...
   network: ws
   port: 443
   server: u2frxj0g13vdi0wo.v.3dns.vip
@@ -4550,6 +4562,19 @@ proxies:
   ws-opts:
     headers:
       Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-977 | free-nodes - 73...
+  network: ws
+  port: 443
+  server: zudssgtmrqg9lpvi.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: zUDssgTMRqg9LpvI.v.3dns.vip
     path: /ws-vmess
 - client-fingerprint: chrome
   grpc-opts:
@@ -4822,27 +4847,3 @@ proxies:
   tls: true
   type: vless
   uuid: 5e3f974b-06fc-4555-907a-6681391b7c17
-- name: 'HK_speednode_0022 #1'
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  port: 8443
-  server: 61711f60-tdups0-tf8z9r-1pr35.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  uuid: 88888888-8888-8888-8888-888888888888
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 'HK_speednode_0025 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
-    short-id: '!!str c6ef72e4635d15a5'
-  server: 45.196.201.115
-  servername: storage.yandex.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f75814f6-8f81-4847-b792-168c41f2dc85

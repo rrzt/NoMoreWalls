@@ -131,7 +131,7 @@ proxies:
   uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 'BR_speednode_0003 #1'
+  name: 🇧🇷 巴西
   network: tcp
   packet-encoding: xudp
   port: 40443
@@ -140,7 +140,7 @@ proxies:
     short-id: '!!str 69d4'
   server: status.netraidly.ru
   servername: deepl.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -194,7 +194,7 @@ proxies:
   type: vless
   udp: true
   uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- name: '🇷🇺_RU_俄罗斯 #6'
+- name: '🇷🇺_RU_俄罗斯 #5'
   port: 29311
   server: 46.29.163.32
   skip-cert-verify: true
@@ -218,7 +218,7 @@ proxies:
   uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '🇷🇺RU_17|288KB/s|B007-260618 01 #1'
+  name: 🇷🇺RU_17|288KB/s|B007-260618 01
   password: CsSYOhlDUy7Hz1yQCXSnxj
   port: 10792
   server: 130.49.189.158
@@ -2257,18 +2257,75 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: /?ed=2048
-- client-fingerprint: firefox
+- cipher: aes-256-gcm
+  name: RU_speednode_0135
+  password: 895b4b796a357570
+  port: 10910
+  server: 176.32.35.51
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: RU_speednode_0136
+  password: 2027e830399d8d08
+  port: 10910
+  server: 195.58.48.19
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'RU_speednode_0166 #1'
+  name: 'RU_speednode_0139 #1'
   network: tcp
   port: 443
   reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: usa02.myxasecure.space
-  servername: usa02.myxasecure.space
+    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
+  server: 94.139.250.35
+  servername: apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'RU_speednode_0140 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+  server: 94.139.251.23
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'RU_speednode_0141 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+  server: 94.139.250.36
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 'RU_speednode_0142 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+  server: 94.139.250.34
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5

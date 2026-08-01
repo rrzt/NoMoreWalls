@@ -84,7 +84,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: '🇬🇧GB_6|393KB/s 01 #1'
+  name: 🇬🇧GB_6|393KB/s 01
   password: cAqbBYBB0f9CAmpU_mc_7FyvvLCcwzt0
   port: 8388
   server: 31.76.80.205
@@ -117,7 +117,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: '🇬🇧GB_16|69KB/s|C002-260622 01 #1'
+  name: 🇬🇧GB_16|69KB/s|C002-260622 01
   network: raw
   packet-encoding: xudp
   port: 22324
@@ -1056,7 +1056,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-972 | free-nodes - 54...
+  name: 未知 VMESS-972 | free-nodes - 79...
   network: ws
   port: 443
   server: mtckundigepwu3up.v.3dns.vip

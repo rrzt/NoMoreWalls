@@ -22,10 +22,10 @@ proxies:
   ws-path: /
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇭🇰_HK_中国香港
+  name: 美国(yudou789.top 玉豆免费节点)_1
   port: 30809
   server: v9.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
@@ -4734,7 +4734,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK-43.100.32.4-0176 | 0.0MB
+  name: 未知 VMESS-889 | free-nodes - 13...
   network: ws
   port: 443
   server: n1747624260.4u9ma.icu
@@ -4832,7 +4832,7 @@ proxies:
   uuid: d9865d63-d95c-454b-ba07-8e88b838a801
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-893 | free-nodes - 15...
+  name: 未知 VMESS-893 | free-nodes - 16...
   network: ws
   port: 443
   server: n1747624274.4u9ma.icu
@@ -6175,7 +6175,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /Telegram🇨🇳
-- name: 🇨🇳_CN_中国
+- name: '🇨🇳_CN_中国 #2'
   port: 12528
   server: 120.227.1.43
   skip-cert-verify: true

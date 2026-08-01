@@ -72,7 +72,7 @@ proxies:
 - alterId: 0
   client-fingerprint: chrome
   country: 🇺🇸US
-  name: 'CN_speednode_0006 #2'
+  name: 🇩🇪DE德国2
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -101,7 +101,7 @@ proxies:
   ws-opts:
     path: /bkdicj
 - cipher: chacha20-ietf-poly1305
-  name: '🇩🇪DE_69|488KB/s|A004-260618 01 #1'
+  name: 🇩🇪DE_69|488KB/s|A004-260618 01
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
   server: 62.113.194.49
@@ -173,14 +173,6 @@ proxies:
     headers:
       Host: mmde92.micloud.buzz
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  name: DE_speednode_0008
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.33.205
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 🇷🇺RU俄罗斯
@@ -1113,12 +1105,11 @@ proxies:
   uuid: 2d4dd672-180f-415c-9035-e2fc461dd95a
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-966 | free-nodes - 15...
+  name: 德国 060
   network: tcp
   port: 51459
   server: 91.107.139.186
   skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
 - alterId: 0

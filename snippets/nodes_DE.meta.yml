@@ -377,7 +377,7 @@ proxies:
       Host: ad-005.novayjr9g.info
     path: /
   xudp: true
-- name: '🇩🇪DE_28|180KB/s|P002-260618 01 #1'
+- name: 🇩🇪DE_28|180KB/s|P002-260618 01
   password: ''
   port: 1080
   server: 152.89.104.11
@@ -505,7 +505,7 @@ proxies:
 - alterId: 0
   client-fingerprint: chrome
   country: 🇺🇸US
-  name: 'CN_speednode_0006 #2'
+  name: 🇩🇪DE德国2
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
@@ -540,7 +540,7 @@ proxies:
   - http/1.1
   client-fingerprint: ios
   encryption: none
-  name: '🇩🇪DE_54|202KB/s|M002-260618 01 #1'
+  name: 🇩🇪DE_54|202KB/s|M002-260618 01
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -611,7 +611,7 @@ proxies:
   ws-opts:
     path: /bkdicj
 - cipher: chacha20-ietf-poly1305
-  name: '🇩🇪DE_69|488KB/s|A004-260618 01 #1'
+  name: 🇩🇪DE_69|488KB/s|A004-260618 01
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
   server: 62.113.194.49
@@ -652,7 +652,7 @@ proxies:
     path: /vless/
   xudp: true
 - client-fingerprint: chrome
-  name: '🇩🇪DE_73|164KB/s|B007-260618 01 #1'
+  name: 🇩🇪DE_73|164KB/s|B007-260618 01
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -757,7 +757,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇩🇪DE_84|102KB/s|S004-260618 01 #1'
+  name: 🇩🇪DE_84|102KB/s|S004-260618 01
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -888,7 +888,7 @@ proxies:
   ws-opts:
     path: /free
   xudp: true
-- name: '🇩🇪DE_94|412KB/s|F003-260618 01 #1'
+- name: 🇩🇪DE_94|412KB/s|F003-260618 01
   network: ws
   packet-encoding: xudp
   port: 58500
@@ -1039,29 +1039,21 @@ proxies:
     headers:
       Host: mmde92.micloud.buzz
     path: /zh-cn
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: randomized
   encryption: none
-  name: 🇩🇪 机场推荐:dafei.de 德国 02
-  network: ws
+  name: 🇩🇪_德国_95
+  network: tcp
   port: 443
-  server: forallpanel.srtongston.ir
-  servername: wwwg333.phonemarketshop.com.
+  reality-opts:
+    public-key: 3HQlKcaGPbJcrgPzKvsC0WxHucb7yIZmm_C6sLJKeyk
+    short-id: '!!str 2a616bf021be8169'
+  server: 5.252.26.190
+  servername: yahoo.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 9ce2c239-1301-c676-f9e6-d31a48854fa8
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: wwwg333.phonemarketshop.com.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    max-early-data: 2560
-    path: /ws
+  uuid: 92a8de02-b311-487b-a4ff-3d790cd28898
   xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
@@ -1080,29 +1072,27 @@ proxies:
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 'CZ_speednode_0007 #1'
-  network: tcp
+  name: 🇩🇪_德国_26
   port: 443
   reality-opts:
     public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
   server: de22.kubservice.icu
   servername: de22.kubservice.icu
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'DE_speednode_0010 #1'
-  network: tcp
+  name: 🇩🇪_德国_45
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
     short-id: '!!str 3c9c5d01c6f824dd'
   server: 109.163.239.208
   servername: cdn9-78.yahoo.com
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
@@ -1123,8 +1113,7 @@ proxies:
   uuid: 55f7d143-a594-4a91-b030-f227039f85ef
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'DE_speednode_0009 #1'
-  network: tcp
+  name: 🇩🇪_德国_67
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
@@ -1136,19 +1125,6 @@ proxies:
   type: vless
   udp: true
   uuid: 55f7d143-a594-4a91-b030-f227039f85ef
-- client-fingerprint: randomized
-  name: 🇩🇪_德国_95
-  port: 443
-  reality-opts:
-    public-key: 3HQlKcaGPbJcrgPzKvsC0WxHucb7yIZmm_C6sLJKeyk
-    short-id: '!!str 2a616bf021be8169'
-  server: 5.252.26.190
-  servername: yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 92a8de02-b311-487b-a4ff-3d790cd28898
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇩🇪_德国_97
@@ -1282,14 +1258,6 @@ proxies:
     headers:
       host: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: DE_speednode_0008
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.33.205
-  type: ss
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 🇷🇺RU俄罗斯
@@ -1771,21 +1739,10 @@ proxies:
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪3
+- name: 🇩🇪Telegram=V2RayyNGvpn⚡🇩🇪
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: 1Tm8undefinedEG5fl
-  port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪DE_78
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: 4IGOAN2QIY
+  password: HChdbj6duc
   port: 443
   server: 91.107.178.22
   skip-cert-verify: true
@@ -1801,17 +1758,6 @@ proxies:
   server: 91.107.178.22
   skip-cert-verify: true
   sni: www.refersion.com
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪5
-  obfs: salamander
-  obfs-password: V2RayyNGvpn
-  password: im0McIgBXw
-  port: 43913
-  server: 91.107.178.22
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
@@ -2288,12 +2234,11 @@ proxies:
   uuid: 2d4dd672-180f-415c-9035-e2fc461dd95a
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-966 | free-nodes - 15...
+  name: 德国 060
   network: tcp
   port: 51459
   server: 91.107.139.186
   skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
 - name: 德国 061
@@ -2828,7 +2773,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   encryption: none
-  name: '未命名 #2'
+  name: '未命名 #3'
   network: xhttp
   packet-encoding: xudp
   port: 8443
@@ -3247,6 +3192,17 @@ proxies:
     headers:
       Host: cloudflare.vhub.pro
     path: /websocket?ed=2560
+- name: 🇩🇪DE_78
+  obfs: salamander
+  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
+  password: 4IGOAN2QIY
+  port: 443
+  server: 91.107.178.22
+  skip-cert-verify: true
+  sni: www.refersion.com
+  tls: false
+  type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 德国_2
   network: ws
   port: 443
@@ -3297,3 +3253,11 @@ proxies:
   tls: true
   type: vless
   uuid: 1ee6dbe4-b7bd-47bd-b6e5-23deb076f95b
+- name: 'DE_speednode_0004 #1'
+  port: 443
+  server: secdn-105.nem-osh-rkp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6daae99a-82f8-4675-9069-a34a165b6c6b

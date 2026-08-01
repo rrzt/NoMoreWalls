@@ -130,8 +130,7 @@ proxies:
   ws-opts:
     headers:
       Host: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 🇺🇸 美国 2
+- name: 🇺🇸 美国 2
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa8.api3-max.ru
@@ -210,7 +209,7 @@ proxies:
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: '🇬🇧GB_6|393KB/s 01 #1'
+  name: 🇬🇧GB_6|393KB/s 01
   password: cAqbBYBB0f9CAmpU_mc_7FyvvLCcwzt0
   port: 8388
   server: 31.76.80.205
@@ -273,7 +272,7 @@ proxies:
   udp: true
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   xudp: true
-- name: '🇬🇧GB_13|387KB/s|C002-260622 01 #1'
+- name: 🇬🇧GB_13|387KB/s|C002-260622 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -289,7 +288,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇬🇧GB_14|295KB/s|C002-260622 01 #1'
+- name: 🇬🇧GB_14|295KB/s|C002-260622 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -306,7 +305,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '❓Other_45|250KB/s|B007-260618 ... #1'
+  name: ❓Other_45|250KB/s|B007-260618 ...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -325,7 +324,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: '🇬🇧GB_16|69KB/s|C002-260622 01 #1'
+  name: 🇬🇧GB_16|69KB/s|C002-260622 01
   network: raw
   packet-encoding: xudp
   port: 22324
@@ -337,7 +336,7 @@ proxies:
   udp: true
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   xudp: true
-- name: '🇬🇧GB_17|531KB/s|C002-260622 01 #1'
+- name: 🇬🇧GB_17|531KB/s|C002-260622 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -353,7 +352,7 @@ proxies:
         Chrome/65.0.3325.181 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇬🇧GB_18|137KB/s|T001-260618 01 #1'
+- name: 🇬🇧GB_18|137KB/s|T001-260618 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -423,7 +422,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇬🇧GB_23|166KB/s|M002-260618 01 #1'
+  name: 🇬🇧GB_23|166KB/s|M002-260618 01
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -468,7 +467,7 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '🇬🇧GB_27|325KB/s|C002-260622 01 #1'
+- name: 🇬🇧GB_27|325KB/s|C002-260622 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -500,7 +499,7 @@ proxies:
       Host: blue-rice-7142.30-346.workers.dev
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇬🇧GB_29|224KB/s 01 #1'
+- name: 🇬🇧GB_29|224KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -555,7 +554,7 @@ proxies:
       Host: ad-010.vector2llqn.info
     path: /
   xudp: true
-- name: '🇬🇧GB_35|165KB/s 01 #1'
+- name: 🇬🇧GB_35|165KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -570,7 +569,7 @@ proxies:
         Gecko) Chrome/50.0.2661.94 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇬🇧GB_36|375KB/s|C002-260622 01 #1'
+- name: 🇬🇧GB_36|375KB/s|C002-260622 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -661,7 +660,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇬🇧GB_55|77KB/s|A004-260618 01 #1'
+  name: 🇬🇧GB_55|77KB/s|A004-260618 01
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -805,7 +804,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   encryption: none
-  name: '🇬🇧GB_75|219KB/s|M002-260618 01 #1'
+  name: 🇬🇧GB_75|219KB/s|M002-260618 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -918,27 +917,20 @@ proxies:
   server: 146.19.49.251
   type: ss
   uuid: 88888888-8888-8888-8888-888888888888
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: 🇬🇧 机场推荐:dafei.de 英国 03
-  network: ws
+  network: tcp
   port: 443
-  server: openai.com
-  servername: minify.hmdprv.qzz.io
+  reality-opts:
+    public-key: JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY
+    short-id: '!!str 6c6082a2223c1d03'
+  server: 5.181.21.234
+  servername: fl4.raketa-balance.com
   tls: true
   type: vless
   udp: true
-  uuid: 52f0f840-5e5c-440c-92bc-992d9e59fcd5
-  ws-opts:
-    headers:
-      Host: minify.hmdprv.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /ws4
-  xudp: true
+  uuid: d7fc372d-c057-43ce-8070-9b96abbc60f3
 - name: 英国 043
   network: tcp
   port: 1446
@@ -1442,22 +1434,6 @@ proxies:
   server: 5.183.102.113
   skip-cert-verify: true
   sni: iosapps.itunes.apple.com
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇬🇧129105 | ⚡️Telegram = t.me/S...
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: soskeynets.api3-max.ru
-  sni: wopa3.api3-max.ru
-  tls: false
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 👁️‍🗨️38@oneclickvpnkeys
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa3.api3-max.ru
-  sni: wopa3.api3-max.ru
   tls: false
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
@@ -1999,13 +1975,32 @@ proxies:
   type: vless
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '🇬🇧_GB_英国->🇩🇪_DE_德国 #1'
-  port: 2550
-  server: 194.242.129.183
-  skip-cert-verify: true
+- name: 未知 VLESS-748
+  network: tcp
+  port: 22222
+  server: 51.45.54.70
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vless
   udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  ws-opts:
+    path: /
+- name: 英国 050
+  network: tcp
+  port: 22224
+  server: 51.45.54.70
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 英国/United Kingdom
+  port: 2550
+  server: 194.242.129.183
+  type: vless
   uuid: d8b42cd5-a149-4356-9e61-000000000000
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧GB-82.38.31.35-0092 | 82.178...
@@ -2042,7 +2037,7 @@ proxies:
     path: /
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 'GB_speednode_0020 #1'
+  name: 'GB_speednode_0011 #1'
   network: tcp
   port: 443
   reality-opts:
@@ -2057,7 +2052,7 @@ proxies:
   uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 'GB_speednode_0017 #1'
+  name: 'GB_speednode_0009 #1'
   network: tcp
   port: 443
   reality-opts:
@@ -2212,7 +2207,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-972 | free-nodes - 54...
+  name: 未知 VMESS-972 | free-nodes - 79...
   network: ws
   port: 443
   server: mtckundigepwu3up.v.3dns.vip
@@ -2584,7 +2579,7 @@ proxies:
     path: /?ed=2048
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 'GB_speednode_0015 #1'
+  name: 'GB_speednode_0008 #1'
   network: tcp
   port: 443
   reality-opts:
