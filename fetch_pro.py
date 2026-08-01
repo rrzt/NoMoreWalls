@@ -758,12 +758,21 @@ class Node:
             ret['server'] = ret['server'][1:-1]
         if 'password' in ret and ret['password'].isdigit():
             ret['password'] = '!!str '+ret['password']
-        # ====== 修复：确保 uuid 字段始终存在 ======
+        # ====== 确保 uuid 字段始终存在 ======
         if 'uuid' not in ret or len(ret['uuid']) != len(DEFAULT_UUID):
             ret['uuid'] = DEFAULT_UUID
         if 'group' in ret: del ret['group']
-        if 'cipher' in ret and not ret['cipher']:
-            ret['cipher'] = 'auto'
+        
+        # ====== 修复 Shadowsocks cipher 问题 ======
+        if self.type == 'ss':
+            # 如果 cipher 缺失、为空或为 'auto'，设置为一个有效的默认值
+            if 'cipher' not in ret or not ret['cipher'] or ret['cipher'] == 'auto':
+                ret['cipher'] = 'aes-256-gcm'
+        else:
+            # 其他类型（VMess 等）空缺时仍设为 auto
+            if 'cipher' in ret and not ret['cipher']:
+                ret['cipher'] = 'auto'
+        
         if self.type == 'vless' and 'flow' in ret:
             if ret['flow'].endswith('-udp443'):
                 ret['flow'] = ret['flow'][:-7]
