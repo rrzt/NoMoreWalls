@@ -43,7 +43,15 @@ def safe_urljoin(base, url):
     except:
         return None
 
+def is_direct_subscription(url):
+    """严格判断是否为直接订阅链接（仅基于扩展名）"""
+    if not url:
+        return False
+    lower = url.lower()
+    return lower.endswith(('.yaml', '.yml', '.txt'))
+
 def is_node_link(url):
+    """判断 URL 是否可能是节点订阅链接（基于扩展名或关键字）"""
     if not url:
         return False
     lower = url.lower()
@@ -348,6 +356,7 @@ class Crawler:
         1. 精确匹配 base
         2. 查找以 base 为前缀的更具体的 plain_page（路径更长）
         3. 回退到根域名匹配
+        直接订阅判断：仅当 URL 以 .yaml/.yml/.txt 结尾时才视为直接订阅
         """
         wildcard_items = []  # (原始url, pattern_regex)
         direct_urls = []
@@ -376,7 +385,8 @@ class Crawler:
                 regex = re.compile('^' + pattern + '$', re.IGNORECASE)
                 wildcard_items.append((url, regex))
             else:
-                if is_node_link(url):
+                # 严格判断：只有以 .yaml/.yml/.txt 结尾的才视为直接订阅
+                if is_direct_subscription(url):
                     direct_urls.append(url)
                 else:
                     clean = url.rstrip('/')
@@ -499,11 +509,11 @@ class Crawler:
                 print(f"  Found wildcard-matched URL from href: {full_url}")
                 if depth < MAX_DEPTH:
                     self.enqueue(full_url, depth + 1, patterns)
-                if any(kw.lower() in full_url.lower() for kw in KEYWORDS):
+                if is_node_link(full_url):
                     self.download_subscription(full_url)
                 continue
 
-            if any(kw.lower() in full_url.lower() for kw in KEYWORDS):
+            if is_node_link(full_url):
                 self.download_subscription(full_url)
                 if depth < MAX_DEPTH and full_url not in self.visited_urls:
                     self.enqueue(full_url, depth + 1, patterns)
@@ -525,7 +535,7 @@ class Crawler:
             if already_matched:
                 continue
 
-            if any(kw.lower() in url.lower() for kw in KEYWORDS):
+            if is_node_link(url):
                 self.download_subscription(url)
                 if depth < MAX_DEPTH and url not in self.visited_urls:
                     self.enqueue(url, depth + 1, patterns)
