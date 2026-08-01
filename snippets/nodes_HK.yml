@@ -24,6 +24,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'Node #21'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -34,6 +35,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 中国 004
@@ -60,6 +62,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 香港 05
   network: tcp
@@ -71,8 +74,9 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: '🇭🇰 香港 02 #1'
+  name: 🇭🇰 香港 02
   network: tcp
   password: BxceQaOe
   port: 443
@@ -82,8 +86,9 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: '🇭🇰 香港 03 #1'
+  name: 🇭🇰 香港 03
   network: tcp
   password: BxceQaOe
   port: 443
@@ -92,8 +97,9 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: '🇭🇰 香港 04 #1'
+  name: 🇭🇰 香港 04
   network: tcp
   password: BxceQaOe
   port: 443
@@ -103,6 +109,7 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 未知 VMESS-905 | free-nodes - 62...
@@ -175,6 +182,7 @@ proxies:
   sub_tag: K001-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: HK19 56.9KB/s
@@ -285,6 +293,85 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港2
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 中国 028
+  network: ws
+  port: 443
+  server: 103.212.98.234
+  servername: www.59795160.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59795160.xyz
+    path: /path/011410073331
+- client-fingerprint: chrome
+  name: 🇭🇰 香港4
+  password: llyEnxJlVC
+  port: 51017
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港5
+  port: 54104
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港6
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 36993
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港7
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港8
+  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
+  port: 10182
+  server: 36.139.183.164
+  tfo: false
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
   name: HK15 173.0KB/s
   network: tcp
   port: 800
@@ -304,6 +391,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇭🇰_香港_76
   password: BxceQaOe
   port: 45744
@@ -312,6 +400,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 香港/香港/Hong Kong/Hong Kong
@@ -400,6 +489,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇭🇰 香港3|@stairnode
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687
@@ -407,6 +497,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
   port: 6313
@@ -414,6 +505,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇭🇰 香港5|@stairnode
   password: BxceQaOe
   port: 6313
@@ -421,6 +513,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   name: 🇭🇰HK香港2
   network: tcp
@@ -432,6 +525,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   name: 🇯🇵JP日本2
   network: tcp
@@ -443,6 +537,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   name: 🇯🇵JP日本4
   network: tcp
@@ -454,6 +549,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   name: 🇸🇬SG新加坡
   network: tcp
@@ -465,6 +561,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -473,6 +570,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   name: 🇺🇸US美国3
   network: tcp
@@ -484,6 +582,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   client-fingerprint: chrome
   name: 🇺🇸US美国2
@@ -496,6 +595,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'HK_speednode_0023 #2'
   network: tcp
   password: BxceQaOe
@@ -505,6 +605,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
   name: '香港|@ripaojiedian #1'
@@ -534,6 +635,7 @@ proxies:
   server: 1.65.223.223
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇭🇰 HK 10 → tg@nicevpn123
   password: 507ca9a0-2d8e-4b65-8763-82dfbdbd599f
   port: 443
@@ -541,6 +643,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 中国 042
@@ -564,6 +667,7 @@ proxies:
   sni: hkg01.service.nahidacloud.top
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇭🇰 HK 3 → tg@nicevpn123
   password: a-wym4ovY4Yw
@@ -579,6 +683,7 @@ proxies:
   server: 1.65.139.54
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇭🇰 HK 4 → tg@nicevpn123
@@ -627,6 +732,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 未知 VMESS-970 | free-nodes - 53...
@@ -782,6 +888,7 @@ proxies:
   port: 8388
   server: 103.149.182.105
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇭🇰HK-47.244.120.197-0170 | 0.0...
@@ -880,6 +987,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 02 | 1x HK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -887,6 +995,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港家宽 03 | 1x HK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -894,6 +1003,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 01 | 1x HK
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -901,6 +1011,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港 02 | 1x HK
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -908,6 +1019,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇭🇰 香港住宅IP 03 | 1x HK
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -915,6 +1027,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 12|🇭🇰 香港|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
@@ -922,6 +1035,7 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 12|🇭🇰 香港2|@ripaojiedian
   password: be443689-bc64-49ff-85a5-8eecaa2235d3
@@ -929,6 +1043,7 @@ proxies:
   server: hk2.fgmcx.top
   tfo: false
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 12|🇭🇰 香港3|@ripaojiedian
   password: 2be0c954-4291-45ea-b47d-ca713180550b
@@ -936,6 +1051,7 @@ proxies:
   server: 111.29.57.125
   tfo: false
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 2
   cipher: auto
   name: 12,13|香港4|@ripaojiedian
@@ -974,6 +1090,7 @@ proxies:
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 64
   cipher: auto
   name: 12|🇭🇰 香港7|@ripaojiedian
@@ -991,6 +1108,7 @@ proxies:
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 13|香港5|@ripaojiedian

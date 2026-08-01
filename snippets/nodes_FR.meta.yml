@@ -87,6 +87,7 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 'FR法国 #3'
   password: OVlHEMLx3ZBjznj/RJ6p8jAIcLdRyzojPMqIjPI215U=
@@ -95,6 +96,7 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 'Node #71'
   network: ws
@@ -322,6 +324,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -334,6 +337,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -354,7 +358,7 @@ proxies:
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_7|262KB/s 01 #1'
+  name: 🇫🇷FR_7|262KB/s 01
   network: ws
   password: humanity
   port: 443
@@ -363,6 +367,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -379,6 +384,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -391,6 +397,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -403,6 +410,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
@@ -431,6 +439,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
@@ -523,7 +532,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_20|94KB/s 01 #1'
+  name: 🇫🇷FR_20|94KB/s 01
   network: ws
   password: humanity
   port: 443
@@ -532,6 +541,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
@@ -600,23 +610,9 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- encryption: none
-  name: 🇫🇷FR_25
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: 172.66.200.130
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4c37df21-0a34-41bf-8bc7-78efd823c03b
-  ws-opts:
-    headers:
-      Host: shiny-salad-e491.479.workers.dev
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
 - client-fingerprint: chrome
   name: 🇫🇷FR_26
   network: ws
@@ -627,6 +623,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -639,10 +636,11 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_28|334KB/s 01 #1'
+  name: 🇫🇷FR_28|334KB/s 01
   network: ws
   password: humanity
   port: 443
@@ -651,13 +649,14 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_29|370KB/s 01 #1'
+  name: 🇫🇷FR_29|370KB/s 01
   network: ws
   password: humanity
   port: 443
@@ -666,18 +665,20 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
 - cipher: chacha20-ietf-poly1305
-  name: '🇫🇷FR_30|213KB/s 01 #1'
+  name: 🇫🇷FR_30|213KB/s 01
   password: bBnV36tzt7MKV75aDZTbzG
   port: 8388
   server: 141.227.152.129
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇫🇷FR_31
   network: ws
@@ -688,6 +689,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -700,6 +702,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -791,6 +794,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -803,10 +807,11 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_41|179KB/s 01 #1'
+  name: 🇫🇷FR_41|179KB/s 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -868,7 +873,7 @@ proxies:
       Host: patient-cake-39c7.44-e7a.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_45|159KB/s 01 #1'
+- name: 🇫🇷FR_45|159KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -893,6 +898,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -905,10 +911,11 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_48|247KB/s 01 #1'
+  name: 🇫🇷FR_48|247KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -938,7 +945,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_50|337KB/s 01 #1'
+  name: 🇫🇷FR_50|337KB/s 01
   network: ws
   password: bpb-trojan
   port: 443
@@ -947,6 +954,7 @@ proxies:
   sni: vless.herogoing.top
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
@@ -1013,6 +1021,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1042,6 +1051,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1165,7 +1175,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_66|144KB/s 01 #1'
+  name: 🇫🇷FR_66|144KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1180,7 +1190,7 @@ proxies:
         (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_67|456KB/s 01 #1'
+- name: 🇫🇷FR_67|456KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1196,7 +1206,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_68|189KB/s 01 #1'
+  name: 🇫🇷FR_68|189KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1211,7 +1221,7 @@ proxies:
         like Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_69|262KB/s 01 #1'
+- name: 🇫🇷FR_69|262KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1226,7 +1236,7 @@ proxies:
         like Gecko) Chrome/62.0.3202.89 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_953|329KB/s|F003-260618 0... #1'
+- name: 🇫🇷FR_953|329KB/s|F003-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1261,7 +1271,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_72|287KB/s 01 #1'
+  name: 🇫🇷FR_72|287KB/s 01
   network: ws
   packet-encoding: xudp
   port: 2086
@@ -1299,7 +1309,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_74|152KB/s 01 #1'
+  name: 🇫🇷FR_74|152KB/s 01
   network: ws
   packet-encoding: xudp
   port: 2096
@@ -1333,7 +1343,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
     path: /
   xudp: true
-- name: '🇫🇷FR_76|331KB/s 01 #1'
+- name: 🇫🇷FR_76|331KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1352,7 +1362,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_77|225KB/s 01 #1'
+  name: 🇫🇷FR_77|225KB/s 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1388,7 +1398,7 @@ proxies:
       Host: sweet-art-a13d.5ejrdnfcv.workers.dev
     path: /
   xudp: true
-- name: '🇫🇷FR_79|145KB/s 01 #1'
+- name: 🇫🇷FR_79|145KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1419,7 +1429,7 @@ proxies:
       Host: round-art-52ee.eadfgv.workers.dev
     path: /
   xudp: true
-- name: '🇫🇷FR_81|259KB/s 01 #1'
+- name: 🇫🇷FR_81|259KB/s 01
   network: ws
   packet-encoding: xudp
   port: 80
@@ -1440,7 +1450,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_82|196KB/s 01 #1'
+  name: 🇫🇷FR_82|196KB/s 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -1479,7 +1489,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_84|199KB/s 01 #1'
+  name: 🇫🇷FR_84|199KB/s 01
   network: ws
   password: 988sR-269PKCKlb&3pMrFTEr
   port: 443
@@ -1488,6 +1498,7 @@ proxies:
   sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
@@ -1519,7 +1530,7 @@ proxies:
     mode: stream-one
     path: /
   xudp: true
-- name: '🇫🇷FR_86|191KB/s 01 #1'
+- name: 🇫🇷FR_86|191KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1641,7 +1652,7 @@ proxies:
       Host: red-unit-60bc.165-1dd.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_94|443KB/s 01 #1'
+- name: 🇫🇷FR_94|443KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1656,7 +1667,7 @@ proxies:
         like Gecko) Chrome/5.0.342.1 Safari/533.2
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_95|416KB/s 01 #1'
+- name: 🇫🇷FR_95|416KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1685,7 +1696,7 @@ proxies:
       Host: sparkling-shadow-481d.342-429.workers.dev
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_97|276KB/s 01 #1'
+- name: 🇫🇷FR_97|276KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1758,6 +1769,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_102
@@ -1917,9 +1929,10 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- name: '🇫🇷FR_113|347KB/s 01 #1'
+- name: 🇫🇷FR_113|347KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1946,13 +1959,14 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_115|180KB/s 01 #1'
+  name: 🇫🇷FR_115|180KB/s 01
   network: ws
   packet-encoding: xudp
   port: 2096
@@ -1971,7 +1985,7 @@ proxies:
     max-early-data: 2560
     path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
   xudp: true
-- name: '🇫🇷FR_116|160KB/s 01 #1'
+- name: 🇫🇷FR_116|160KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -1990,7 +2004,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_117|401KB/s 01 #1'
+  name: 🇫🇷FR_117|401KB/s 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -2009,7 +2023,7 @@ proxies:
     max-early-data: 2560
     path: /eyJqdW5rIjoiOUZIcXVMV3FlbnoiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
   xudp: true
-- name: '🇫🇷FR_118|304KB/s 01 #1'
+- name: 🇫🇷FR_118|304KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2024,7 +2038,7 @@ proxies:
         Chrome/70.0.3538.102 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_119|151KB/s 01 #1'
+- name: 🇫🇷FR_119|151KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2079,6 +2093,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -2130,7 +2145,7 @@ proxies:
     path: /eyJqdW5rIjoidnlSRWhQQ3ZCNGZRNHVYMyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSJdfQ==
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_126|391KB/s 01 #1'
+  name: 🇫🇷FR_126|391KB/s 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -2148,7 +2163,7 @@ proxies:
     path: /eyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_127|296KB/s 01 #1'
+  name: 🇫🇷FR_127|296KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2166,7 +2181,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_128|100KB/s 01 #1'
+  name: 🇫🇷FR_128|100KB/s 01
   network: ws
   password: bd85f5fe32d9446a8b1f59e4f710455b
   port: 443
@@ -2175,6 +2190,7 @@ proxies:
   sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
@@ -2198,7 +2214,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_130|319KB/s 01 #1'
+  name: 🇫🇷FR_130|319KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2214,7 +2230,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_131|135KB/s 01 #1'
+  name: 🇫🇷FR_131|135KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2229,7 +2245,7 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_132|147KB/s 01 #1'
+- name: 🇫🇷FR_132|147KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2259,7 +2275,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnm-fangbinxingnmsl-250.workers.dev
     path: /
   xudp: true
-- name: '🇫🇷FR_134|435KB/s 01 #1'
+- name: 🇫🇷FR_134|435KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2302,7 +2318,7 @@ proxies:
       Host: 6crihfknlqjdu3yuzco9phspq86dbp6q.christanmoccasin.workers.dev
     path: /eyJqdW5rIjoiTlZxbGYyajQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
   xudp: true
-- name: '🇫🇷FR_137|186KB/s 01 #1'
+- name: 🇫🇷FR_137|186KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2331,7 +2347,7 @@ proxies:
       Host: steep-bread-32f0.92-d12.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_139|318KB/s 01 #1'
+- name: 🇫🇷FR_139|318KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2360,7 +2376,7 @@ proxies:
       Host: steep-thunder-97fa.108-d10.workers.dev
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_141|254KB/s 01 #1'
+- name: 🇫🇷FR_141|254KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2392,7 +2408,7 @@ proxies:
       Host: 002.inc-electrocell-001-002.workers.dev
     path: /eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
   xudp: true
-- name: '🇫🇷FR_143|300KB/s 01 #1'
+- name: 🇫🇷FR_143|300KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2421,7 +2437,7 @@ proxies:
       Host: icy-fog-9a41.70-a39.workers.dev
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_145|341KB/s 01 #1'
+- name: 🇫🇷FR_145|341KB/s 01
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -2437,7 +2453,7 @@ proxies:
         Gecko) Chrome/36.0.1985.143 Safari/537.36
     path: /
   xudp: true
-- name: '🇫🇷FR_146|323KB/s 01 #1'
+- name: 🇫🇷FR_146|323KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2483,7 +2499,7 @@ proxies:
       Host: soucuovls.pages.dev
     path: /pyip=proxyip.cmliussss.netfp=random
   xudp: true
-- name: '🇫🇷FR_149|126KB/s 01 #1'
+- name: 🇫🇷FR_149|126KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2498,7 +2514,7 @@ proxies:
         Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_150|171KB/s 01 #1'
+- name: 🇫🇷FR_150|171KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2514,7 +2530,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_151|102KB/s 01 #1'
+  name: 🇫🇷FR_151|102KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2530,7 +2546,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_152|269KB/s 01 #1'
+  name: 🇫🇷FR_152|269KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2548,7 +2564,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_153|244KB/s 01 #1'
+  name: 🇫🇷FR_153|244KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2563,7 +2579,7 @@ proxies:
         Chrome/57.0.2987.133 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_458|190KB/s|X001-260618 0... #1'
+- name: 🇫🇷FR_458|190KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2581,7 +2597,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_155|384KB/s 01 #1'
+  name: 🇫🇷FR_155|384KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2641,7 +2657,7 @@ proxies:
       Host: billowing-sunset-e340.qaraatayi.workers.dev
     path: /eyJqdW5rIjoiOUhPbnRlV0xaekI1cjciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
   xudp: true
-- name: '🇫🇷FR_159|266KB/s 01 #1'
+- name: 🇫🇷FR_159|266KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2657,7 +2673,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_160|76KB/s 01 #1'
+  name: 🇫🇷FR_160|76KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2672,7 +2688,7 @@ proxies:
         like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_161|75KB/s 01 #1'
+- name: 🇫🇷FR_161|75KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2687,7 +2703,7 @@ proxies:
         like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_162|249KB/s 01 #1'
+- name: 🇫🇷FR_162|249KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2702,7 +2718,7 @@ proxies:
         Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_163|354KB/s 01 #1'
+- name: 🇫🇷FR_163|354KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2748,7 +2764,7 @@ proxies:
       Host: wild-mode-4ca6.234-8f6.workers.dev
     path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_166|217KB/s 01 #1'
+- name: 🇫🇷FR_166|217KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2778,7 +2794,7 @@ proxies:
       Host: broken-glitter-6d2f.408-51c.workers.dev
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_168|134KB/s 01 #1'
+- name: 🇫🇷FR_168|134KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2809,7 +2825,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_170|324KB/s 01 #1'
+  name: 🇫🇷FR_170|324KB/s 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -2838,9 +2854,10 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- name: '🇫🇷FR_172|280KB/s 01 #1'
+- name: 🇫🇷FR_172|280KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -2875,7 +2892,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_174|300KB/s 01 #1'
+  name: 🇫🇷FR_174|300KB/s 01
   network: ws
   packet-encoding: xudp
   port: 2053
@@ -2904,6 +2921,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -2916,6 +2934,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_177
@@ -2977,6 +2996,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -2990,6 +3010,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -3003,6 +3024,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -3016,6 +3038,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -3029,6 +3052,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -3042,10 +3066,11 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_188|295KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_188|295KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -3055,6 +3080,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -3071,6 +3097,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -3084,10 +3111,11 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_191|452KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_191|452KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3105,7 +3133,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_192|238KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_192|238KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -3124,7 +3152,7 @@ proxies:
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_193|633KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_193|633KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3236,6 +3264,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -3249,10 +3278,11 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_201|207KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_201|207KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -3262,6 +3292,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
@@ -3278,6 +3309,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -3291,6 +3323,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -3304,6 +3337,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -3317,6 +3351,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -3330,6 +3365,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -3345,6 +3381,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -3362,6 +3399,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -3501,7 +3539,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_218|416KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_218|416KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3534,7 +3572,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_220|331KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_220|331KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3587,7 +3625,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_223|284KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_223|284KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3604,7 +3642,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_224|342KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_224|342KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3621,7 +3659,7 @@ proxies:
     path: /pyip
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_225|279KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_225|279KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3638,7 +3676,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_226|364KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_226|364KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3671,7 +3709,7 @@ proxies:
     path: /eyJqdW5rIjoiaUhoWE5FbWloZWY1MGxobSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjE2OS4zNC45OSJdfQ==
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_228|174KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_228|174KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3706,7 +3744,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_230|239KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_230|239KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3777,7 +3815,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_234|149KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_234|149KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3830,7 +3868,7 @@ proxies:
     path: /pyip=proxyip.cmliussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_237|347KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_237|347KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3847,7 +3885,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_238|206KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_238|206KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3867,7 +3905,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_239|296KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_239|296KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -3888,7 +3926,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_240|202KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_240|202KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3905,7 +3943,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_241|219KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_241|219KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3939,7 +3977,7 @@ proxies:
     path: /sg-melbi
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_243|259KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_243|259KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3973,7 +4011,7 @@ proxies:
       Host: nahan-core.fatitelegram.workers.dev
     path: /sync
   xudp: true
-- name: '🇫🇷FR_246|180KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_246|180KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -3989,7 +4027,7 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_247|271KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_247|271KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4005,7 +4043,7 @@ proxies:
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_248|133KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_248|133KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4022,7 +4060,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_813|127KB/s 01 #1'
+  name: 🇫🇷FR_813|127KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4040,7 +4078,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_250|246KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_250|246KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4058,7 +4096,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_251|147KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_251|147KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -4076,7 +4114,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
-- name: '🇫🇷FR_252|357KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_252|357KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4092,7 +4130,7 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_253|304KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_253|304KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4109,7 +4147,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_254|262KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_254|262KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4141,7 +4179,7 @@ proxies:
       Host: snowy-lab-6cab.237-2da.workers.dev
     path: /pyip=proxyip.us.cmliussss.net
   xudp: true
-- name: '🇫🇷FR_256|321KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_256|321KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4179,7 +4217,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_258|333KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_258|333KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -4217,7 +4255,7 @@ proxies:
       Host: old-cloud-a96a.rohamsahh90.workers.dev
     path: /
   xudp: true
-- name: '🇫🇷FR_260|328KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_260|328KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4283,7 +4321,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
   xudp: true
-- name: '🇫🇷FR_264|313KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_264|313KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4399,7 +4437,7 @@ proxies:
       Host: dawn-mode-a061.444-a0e.workers.dev
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_271|172KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_271|172KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4415,7 +4453,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_272|220KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_272|220KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4448,7 +4486,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_274|209KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_274|209KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -4486,7 +4524,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_277|334KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_277|334KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4519,7 +4557,7 @@ proxies:
       Host: shin-ra.ccwu.cc
     path: /
   xudp: true
-- name: '🇫🇷FR_280|126KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_280|126KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4536,7 +4574,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_281|146KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_281|146KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2082
@@ -4574,7 +4612,7 @@ proxies:
       Host: peekconfig.hamrahfree1.workers.dev
     path: /eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
   xudp: true
-- name: '🇫🇷FR_283|275KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_283|275KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4601,6 +4639,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -4622,7 +4661,7 @@ proxies:
     path: /ws
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_286|250KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_286|250KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4638,7 +4677,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.77 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_287|232KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_287|232KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4665,11 +4704,12 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_289|192KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_289|192KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -4706,7 +4746,7 @@ proxies:
     path: /sync
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_291|394KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_291|394KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2086
@@ -4737,9 +4777,10 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
-- name: '🇫🇷FR_293|412KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_293|412KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4756,7 +4797,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_294|389KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_294|389KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4773,7 +4814,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_295|230KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_295|230KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4830,6 +4871,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_299
@@ -4848,7 +4890,7 @@ proxies:
       Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
     path: /fp=randomized
   xudp: true
-- name: '🇫🇷FR_300|344KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_300|344KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4875,6 +4917,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: firefox
@@ -4896,7 +4939,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_303|117KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_303|117KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4913,7 +4956,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_304|184KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_304|184KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4929,7 +4972,7 @@ proxies:
         Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_305|572KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_305|572KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -4963,7 +5006,7 @@ proxies:
       Host: damp-voice-0cd5.qplm2770.workers.dev
     path: /proxyip=31.77.161.247,31.57.190.85,208.85.17.114
   xudp: true
-- name: '🇫🇷FR_307|196KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_307|196KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -5016,7 +5059,7 @@ proxies:
     path: /sg-melbi
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_310|235KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_310|235KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5033,7 +5076,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_311|145KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_311|145KB/s|C002-260622 0...
   network: ws
   password: humanity
   port: 443
@@ -5043,6 +5086,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
@@ -5059,10 +5103,11 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_313|321KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_313|321KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5078,7 +5123,7 @@ proxies:
         like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_314|421KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_314|421KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5112,7 +5157,7 @@ proxies:
     path: /sg-melbi
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_316|361KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_316|361KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5128,7 +5173,7 @@ proxies:
         like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_317|127KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_317|127KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5145,7 +5190,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_318|209KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_318|209KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -5178,7 +5223,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_320|201KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_320|201KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5195,7 +5240,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_321|149KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_321|149KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5229,7 +5274,7 @@ proxies:
       Host: ad-020.limaklhc6.info
     path: /
   xudp: true
-- name: '🇫🇷FR_323|414KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_323|414KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5256,10 +5301,11 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_325|161KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_325|161KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5276,7 +5322,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_326|146KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_326|146KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5293,7 +5339,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_327|294KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_327|294KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 80
@@ -5312,7 +5358,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_328|239KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_328|239KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5328,7 +5374,7 @@ proxies:
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_329|470KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_329|470KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5414,7 +5460,7 @@ proxies:
       Host: red-surf-2007.matriska.workers.dev
     path: /eyJqdW5rIjoiYWNoMkxHaUVYIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
   xudp: true
-- name: '🇫🇷FR_334|74KB/s|C002-260622 01 #1'
+- name: 🇫🇷FR_334|74KB/s|C002-260622 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5458,6 +5504,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -5478,7 +5525,7 @@ proxies:
       Host: broad-wind-e1ca.salmanmahigir9508.workers.dev
     path: /sync
   xudp: true
-- name: '🇫🇷FR_338|393KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_338|393KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5505,6 +5552,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -5567,6 +5615,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -5588,7 +5637,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_345|302KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_345|302KB/s|C002-260622 0...
   network: ws
   password: humanity
   port: 443
@@ -5598,13 +5647,14 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_346|329KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_346|329KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5624,7 +5674,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_347|145KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_347|145KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -5661,7 +5711,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
   xudp: true
-- name: '🇫🇷FR_349|245KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_349|245KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5694,7 +5744,7 @@ proxies:
       Host: nahan-core.netizo09.workers.dev
     path: /sync
   xudp: true
-- name: '🇫🇷FR_351|190KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_351|190KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5711,7 +5761,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_352|279KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_352|279KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -5728,7 +5778,7 @@ proxies:
         like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /fp
   xudp: true
-- name: '🇫🇷FR_353|125KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_353|125KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5761,7 +5811,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
   xudp: true
-- name: '🇫🇷FR_355|220KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_355|220KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5777,7 +5827,7 @@ proxies:
         like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_356|497KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_356|497KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5811,7 +5861,7 @@ proxies:
       Host: nahan-core.fatitelegram.workers.dev
     path: /sync
   xudp: true
-- name: '🇫🇷FR_358|600KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_358|600KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5831,7 +5881,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_359|339KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_359|339KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2087
@@ -5867,7 +5917,7 @@ proxies:
       Host: ad-018.cloud25075.info
     path: /
 - encryption: none
-  name: '🇫🇷FR_361|339KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_361|339KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5883,7 +5933,7 @@ proxies:
         Gecko) Chrome/50.0.2661.94 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_362|256KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_362|256KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5899,7 +5949,7 @@ proxies:
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_363|194KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_363|194KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5919,7 +5969,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_364|191KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_364|191KB/s|C002-260622 0...
   network: ws
   password: humanity
   port: 443
@@ -5929,13 +5979,14 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_365|225KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_365|225KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5952,7 +6003,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_366|323KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_366|323KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -5969,7 +6020,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_367|204KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_367|204KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -6003,7 +6054,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_369|284KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_369|284KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6019,7 +6070,7 @@ proxies:
         Gecko) Chrome/37.0.2062.120 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_370|315KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_370|315KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6035,7 +6086,7 @@ proxies:
         like Gecko) Chrome/68.0.3440.75 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_371|103KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_371|103KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6052,7 +6103,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_372|165KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_372|165KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6079,6 +6130,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -6092,10 +6144,11 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_375|292KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_375|292KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6122,6 +6175,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -6139,6 +6193,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
@@ -6158,7 +6213,7 @@ proxies:
       Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
     path: /fp
   xudp: true
-- name: '🇫🇷FR_379|282KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_379|282KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6209,7 +6264,7 @@ proxies:
       Host: young-queen-488a.adriansheykhi730.workers.dev
     path: /
   xudp: true
-- name: '🇫🇷FR_382|479KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_382|479KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6225,7 +6280,7 @@ proxies:
         Chrome/12.0.742.100 Safari/534.30
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_383|164KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_383|164KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6242,7 +6297,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_384|187KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_384|187KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6258,7 +6313,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_386|249KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_386|249KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6274,7 +6329,7 @@ proxies:
         like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_387|314KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_387|314KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6307,7 +6362,7 @@ proxies:
     path: /ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_389|240KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_389|240KB/s|C002-260622 0...
   network: ws
   password: humanity
   port: 443
@@ -6317,12 +6372,13 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /assignment
-- name: '🇫🇷FR_390|377KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_390|377KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6339,7 +6395,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_391|267KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_391|267KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6356,7 +6412,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_392|266KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_392|266KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6373,7 +6429,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_393|65KB/s|C002-260622 01 #1'
+  name: 🇫🇷FR_393|65KB/s|C002-260622 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6390,7 +6446,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_394|160KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_394|160KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6440,7 +6496,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
   xudp: true
-- name: '🇫🇷FR_398|417KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_398|417KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6456,7 +6512,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_399|276KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_399|276KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6491,7 +6547,7 @@ proxies:
       Host: netlivpn2950.bbxff.workers.dev
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
-- name: '🇫🇷FR_401|556KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_401|556KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6508,7 +6564,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_402|377KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_402|377KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6541,7 +6597,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
   xudp: true
-- name: '🇫🇷FR_404|159KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_404|159KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6586,6 +6642,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -6606,7 +6663,7 @@ proxies:
       Host: young-queen-488a.adriansheykhi730.workers.dev
     path: /
   xudp: true
-- name: '🇫🇷FR_408|292KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_408|292KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6622,7 +6679,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_409|129KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_409|129KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6638,7 +6695,7 @@ proxies:
         like Gecko) Chrome/65.0.3325.162 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_410|177KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_410|177KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6705,7 +6762,7 @@ proxies:
     path: /sync
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_414|116KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_414|116KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6722,7 +6779,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_415|595KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_415|595KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6739,7 +6796,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_416|180KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_416|180KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6755,7 +6812,7 @@ proxies:
         like Gecko) Chrome/63.0.3239.84 Safari/537.36
     path: /pyip=proxyip.jp.cmliussss.net
   xudp: true
-- name: '🇫🇷FR_417|147KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_417|147KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6771,7 +6828,7 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_418|443KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_418|443KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6843,7 +6900,7 @@ proxies:
     path: /sg-melbi
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_422|279KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_422|279KB/s|C002-260622 0...
   network: ws
   password: humanity
   port: 443
@@ -6853,12 +6910,13 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/37.0.2062.120 Safari/537.36
     path: /%2Fassignment
-- name: '🇫🇷FR_423|347KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_423|347KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6874,7 +6932,7 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_424|354KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_424|354KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6906,7 +6964,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
     path: /
   xudp: true
-- name: '🇫🇷FR_426|408KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_426|408KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6923,7 +6981,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_427|168KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_427|168KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6939,7 +6997,7 @@ proxies:
         like Gecko) Chrome/67.0.3396.87 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_428|88KB/s|C002-260622 01 #1'
+- name: 🇫🇷FR_428|88KB/s|C002-260622 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6955,7 +7013,7 @@ proxies:
         Chrome/49.0.2623.112 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_429|101KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_429|101KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -6982,10 +7040,11 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_431|184KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_431|184KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7001,7 +7060,7 @@ proxies:
         Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_432|238KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_432|238KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7019,7 +7078,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_433|174KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_433|174KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -7048,6 +7107,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -7086,7 +7146,7 @@ proxies:
       Host: newwk1.f1w.de5.net
     path: /
   xudp: true
-- name: '🇫🇷FR_437|176KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_437|176KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7103,7 +7163,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_438|247KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_438|247KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7120,7 +7180,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_439|281KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_439|281KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7136,7 +7196,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_440|217KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_440|217KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7203,6 +7263,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -7227,7 +7288,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_445|334KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_445|334KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -7247,8 +7308,25 @@ proxies:
     max-early-data: 2048
     path: /js/cHlpcC55Z2tray5kcGRucy5vcmc=/
   xudp: true
+- client-fingerprint: chrome
+  name: 🇫🇷FR_446
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 198.41.209.43
+  servername: support.zoom.us.yxls.eu.cc
+  sub_tag: C002-260622
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+  xudp: true
 - encryption: none
-  name: '🇫🇷FR_447|112KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_447|112KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7266,7 +7344,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_448|193KB/s|T001-260618 0... #1'
+  name: 🇫🇷FR_448|193KB/s|T001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -7285,7 +7363,7 @@ proxies:
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_450|144KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_450|144KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7301,7 +7379,7 @@ proxies:
         like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_451|379KB/s|X001-260618 0... #1'
+- name: 🇫🇷FR_451|379KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -7319,7 +7397,7 @@ proxies:
     path: /fp=randomized
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_452|360KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_452|360KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7336,7 +7414,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_453|207KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_453|207KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7368,7 +7446,7 @@ proxies:
       Host: cnmfangbinxingnmsl.cnmfangbinxing-h.workers.dev
     path: /
   xudp: true
-- name: '🇫🇷FR_455|276KB/s|X001-260618 0... #1'
+- name: 🇫🇷FR_455|276KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7384,7 +7462,7 @@ proxies:
         Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_456|234KB/s|X001-260618 0... #1'
+- name: 🇫🇷FR_456|234KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7401,7 +7479,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_457|183KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_457|183KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7418,7 +7496,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_459|190KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_459|190KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7435,7 +7513,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_460|233KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_460|233KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7452,7 +7530,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_461|193KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_461|193KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7469,7 +7547,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_462|167KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_462|167KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7485,7 +7563,7 @@ proxies:
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_463|147KB/s|X001-260618 0... #1'
+- name: 🇫🇷FR_463|147KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7509,8 +7587,9 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - encryption: none
-  name: '🇫🇷FR_465|295KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_465|295KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7527,7 +7606,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_466|402KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_466|402KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7561,7 +7640,7 @@ proxies:
       Host: netlivpn2584.vjvdgbc.workers.dev
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
-- name: '🇫🇷FR_468|173KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_468|173KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7594,7 +7673,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
   xudp: true
-- name: '🇫🇷FR_470|514KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_470|514KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7610,7 +7689,7 @@ proxies:
         Chrome/65.0.3325.181 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_471|147KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_471|147KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7626,7 +7705,7 @@ proxies:
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_472|253KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_472|253KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7643,7 +7722,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_473|240KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_473|240KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7692,7 +7771,7 @@ proxies:
     path: /eyJqdW5rIjoiVGtvRGR4TXdHSzdseGpZWCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_476|170KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_476|170KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7742,7 +7821,7 @@ proxies:
       Host: v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev
     path: /ws
   xudp: true
-- name: '🇫🇷FR_479|287KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_479|287KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7759,7 +7838,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_480|187KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_480|187KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7793,7 +7872,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_482|249KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_482|249KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7809,7 +7888,7 @@ proxies:
         like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_483|203KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_483|203KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7825,7 +7904,7 @@ proxies:
         like Gecko) Chrome/64.0.3282.186 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_484|356KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_484|356KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7841,7 +7920,7 @@ proxies:
         Gecko) Chrome/49.0.2623.110 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_485|403KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_485|403KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7872,7 +7951,7 @@ proxies:
       Host: misty-wood-62b4.263-93e.workers.dev
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_487|275KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_487|275KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7904,7 +7983,7 @@ proxies:
       Host: calm-haze-d105.21-7cd.workers.dev
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_489|274KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_489|274KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7920,7 +7999,7 @@ proxies:
         like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_490|146KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_490|146KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7937,7 +8016,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_491|178KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_491|178KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -7973,7 +8052,7 @@ proxies:
       Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
     path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
   xudp: true
-- name: '🇫🇷FR_493|294KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_493|294KB/s|C002-260622 0...
   network: ws
   port: 2095
   server: www.epicgames.com
@@ -7987,7 +8066,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/41.0.2272.101 Safari/537.36
     path: /
-- name: '🇫🇷FR_494|157KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_494|157KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -8023,7 +8102,7 @@ proxies:
       Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
     path: /
   xudp: true
-- name: '🇫🇷FR_496|302KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_496|302KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -8039,7 +8118,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_497|364KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_497|364KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -8056,7 +8135,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_499|142KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_499|142KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -8074,7 +8153,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_501|308KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_501|308KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -8093,7 +8172,7 @@ proxies:
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_502|327KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_502|327KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -8111,7 +8190,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_503|276KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_503|276KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -8145,7 +8224,7 @@ proxies:
       Host: empty-rain-1df4.332-633.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_505|184KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_505|184KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -8163,7 +8242,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_506|182KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_506|182KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -8210,13 +8289,14 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /195.123.218.174-443
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_509|261KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_509|261KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -8238,7 +8318,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_510|175KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_510|175KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -8257,7 +8337,7 @@ proxies:
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_511|121KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_511|121KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -8273,7 +8353,7 @@ proxies:
         like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_512|224KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_512|224KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -8310,7 +8390,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_516|515KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_516|515KB/s|M002-260618 0...
   network: ws
   password: A4u^p(_UR*F6
   port: 443
@@ -8320,6 +8400,7 @@ proxies:
   sub_tag: M002-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
@@ -8345,7 +8426,7 @@ proxies:
       Host: small-scene-f215.amiralizarefast1.workers.dev
     path: /eyJqdW5rIjoiZW5GMjJSRmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
   xudp: true
-- name: '🇫🇷FR_518|261KB/s|X001-260618 0... #1'
+- name: 🇫🇷FR_518|261KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -8362,7 +8443,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_519|264KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_519|264KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -8567,7 +8648,7 @@ proxies:
     path: /sync
   xudp: true
 - client-fingerprint: random
-  name: '🇫🇷FR_531|182KB/s|S001-260618 0... #1'
+  name: 🇫🇷FR_531|182KB/s|S001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -8622,7 +8703,7 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
   xudp: true
 - client-fingerprint: random
-  name: '🇫🇷FR_534|140KB/s|S001-260618 0... #1'
+  name: 🇫🇷FR_534|140KB/s|S001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 2087
@@ -8643,7 +8724,7 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
   xudp: true
 - client-fingerprint: random
-  name: '🇫🇷FR_535|413KB/s|S001-260618 0... #1'
+  name: 🇫🇷FR_535|413KB/s|S001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 2087
@@ -8698,7 +8779,7 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
   xudp: true
 - client-fingerprint: random
-  name: '🇫🇷FR_538|908KB/s|S001-260618 0... #1'
+  name: 🇫🇷FR_538|908KB/s|S001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -8787,7 +8868,7 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
   xudp: true
 - client-fingerprint: random
-  name: '🇫🇷FR_543|299KB/s|S001-260618 0... #1'
+  name: 🇫🇷FR_543|299KB/s|S001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -8808,7 +8889,7 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
   xudp: true
 - client-fingerprint: random
-  name: '🇫🇷FR_544|357KB/s|S001-260618 0... #1'
+  name: 🇫🇷FR_544|357KB/s|S001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -8846,7 +8927,7 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
   xudp: true
 - client-fingerprint: random
-  name: '🇫🇷FR_546|213KB/s|S001-260618 0... #1'
+  name: 🇫🇷FR_546|213KB/s|S001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -9023,7 +9104,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_556|161KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_556|161KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 2083
@@ -9054,10 +9135,11 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_558|242KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_558|242KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -9067,13 +9149,14 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_559|379KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_559|379KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -9083,6 +9166,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
@@ -9091,7 +9175,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_560|236KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_560|236KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -9101,6 +9185,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -9123,7 +9208,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_562|102KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_562|102KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -9156,12 +9241,13 @@ proxies:
   sub_tag: T001-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_564|193KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_564|193KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -9171,6 +9257,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
@@ -9228,7 +9315,7 @@ proxies:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txt
   xudp: true
-- name: '🇫🇷FR_568|101KB/s|V006-260618 0... #1'
+- name: 🇫🇷FR_568|101KB/s|V006-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9255,10 +9342,28 @@ proxies:
   sub_tag: M001-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: www.calmloud.com
     path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_570
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: free77-sg1.node2.top
+  servername: sie704.pages.dev
+  sub_tag: A001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30235bbe-f791-4e53-89f9-5d9363af9b0a
+  ws-opts:
+    headers:
+      Host: sie704.pages.dev
+    path: /XFJVPNfp=chrome
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -9272,6 +9377,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -9354,7 +9460,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_577|377KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_577|377KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -9383,6 +9489,7 @@ proxies:
   sub_tag: F003-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /
 - client-fingerprint: chrome
@@ -9402,23 +9509,6 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
     path: /fp=chrome
-  xudp: true
-- client-fingerprint: random
-  name: 🇫🇷FR_580
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.17.144.235
-  servername: hhlfy.twiladaphne.ndjp.net
-  sub_tag: M002-260618
-  tls: true
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
   xudp: true
 - alpn:
   - h3
@@ -9460,7 +9550,7 @@ proxies:
       Host: hhlfy.twiladaphne.ndjp.net
     path: /fp=chrome
   xudp: true
-- name: '🇫🇷FR_583|376KB/s|P002-260618 0... #1'
+- name: 🇫🇷FR_583|376KB/s|P002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9477,7 +9567,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_584|176KB/s|S004-260618 0... #1'
+  name: 🇫🇷FR_584|176KB/s|S004-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -9487,6 +9577,7 @@ proxies:
   sub_tag: S004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
@@ -9538,10 +9629,11 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_686|200KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_686|200KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9559,7 +9651,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_589|117KB/s 01 #1'
+  name: 🇫🇷FR_589|117KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9575,7 +9667,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_590|311KB/s 01 #1'
+  name: 🇫🇷FR_590|311KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9591,7 +9683,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_591|132KB/s 01 #1'
+  name: 🇫🇷FR_591|132KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9610,7 +9702,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_592|273KB/s 01 #1'
+  name: 🇫🇷FR_592|273KB/s 01
   network: ws
   packet-encoding: xudp
   port: 2083
@@ -9639,10 +9731,11 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_594|198KB/s 01 #1'
+  name: 🇫🇷FR_594|198KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9658,7 +9751,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_595|299KB/s 01 #1'
+  name: 🇫🇷FR_595|299KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9672,6 +9765,22 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- name: 🇫🇷FR_596|178KB/s 01
+  network: ws
+  packet-encoding: xudp
+  port: 2095
+  server: www.npmjs.com
+  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /fp=randomized
   xudp: true
 - name: 🇫🇷FR_597
   network: ws
@@ -9706,7 +9815,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_599|202KB/s 01 #1'
+  name: 🇫🇷FR_599|202KB/s 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -9763,7 +9872,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_602|399KB/s 01 #1'
+  name: 🇫🇷FR_602|399KB/s 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -9782,7 +9891,7 @@ proxies:
     max-early-data: 2560
     path: /eyJqdW5rIjoicG9pMkt4TDY2TVNtRSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
   xudp: true
-- name: '🇫🇷FR_604|661KB/s 01 #1'
+- name: 🇫🇷FR_604|661KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9799,7 +9908,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_605|203KB/s 01 #1'
+  name: 🇫🇷FR_605|203KB/s 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -9816,7 +9925,7 @@ proxies:
         like Gecko) Chrome/59.0.3071.115 Safari/537.36
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
-- name: '🇫🇷FR_606|285KB/s 01 #1'
+- name: 🇫🇷FR_606|285KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9831,7 +9940,7 @@ proxies:
         like Gecko) Chrome/56.0.2924.87 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_607|565KB/s 01 #1'
+- name: 🇫🇷FR_607|565KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9861,7 +9970,7 @@ proxies:
       Host: cnmfangbinxing.cnmfangbinxing-k.workers.dev
     path: /fp=randomized
   xudp: true
-- name: '🇫🇷FR_609|92KB/s 01 #1'
+- name: 🇫🇷FR_609|92KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9878,7 +9987,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_610|341KB/s 01 #1'
+  name: 🇫🇷FR_610|341KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9894,7 +10003,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_611|316KB/s 01 #1'
+  name: 🇫🇷FR_611|316KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9925,7 +10034,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_613|274KB/s 01 #1'
+  name: 🇫🇷FR_613|274KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9941,7 +10050,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_614|219KB/s 01 #1'
+  name: 🇫🇷FR_614|219KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -9956,7 +10065,7 @@ proxies:
         Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_615|330KB/s 01 #1'
+- name: 🇫🇷FR_615|330KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10026,7 +10135,7 @@ proxies:
       Host: shiny-mud-d9fa.466.workers.dev
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_619|148KB/s 01 #1'
+- name: 🇫🇷FR_619|148KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10059,7 +10168,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_622|347KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_622|347KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -10069,6 +10178,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
@@ -10101,6 +10211,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -10114,10 +10225,11 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_626|259KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_626|259KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10170,7 +10282,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_629|181KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_629|181KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10188,7 +10300,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_630|226KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_630|226KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -10210,7 +10322,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_631|254KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_631|254KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -10231,7 +10343,7 @@ proxies:
     path: /eyJqdW5rIjoiMTZpQjhzZjhJS08iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_632|251KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_632|251KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -10248,7 +10360,7 @@ proxies:
     path: /fp=randomized
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_633|93KB/s|C002-260622 01 #1'
+  name: 🇫🇷FR_633|93KB/s|C002-260622 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10264,7 +10376,7 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_634|122KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_634|122KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10284,7 +10396,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_635|122KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_635|122KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2096
@@ -10321,7 +10433,7 @@ proxies:
     path: /fp=randomized
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_637|231KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_637|231KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10337,7 +10449,7 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_638|238KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_638|238KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -10355,7 +10467,7 @@ proxies:
     path: /fp=randomized
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_639|313KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_639|313KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10382,6 +10494,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -10395,6 +10508,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -10423,7 +10537,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_643|323KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_643|323KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10441,7 +10555,7 @@ proxies:
     max-early-data: 2560
     path: /?https://t.me/youtube@ZYFXS🇨🇳
   xudp: true
-- name: '🇫🇷FR_644|140KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_644|140KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10474,7 +10588,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
   xudp: true
-- name: '🇫🇷FR_646|128KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_646|128KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10491,7 +10605,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_647|245KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_647|245KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10507,7 +10621,7 @@ proxies:
         like Gecko) Chrome/54.0.2840.71 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_648|235KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_648|235KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10540,7 +10654,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
   xudp: true
-- name: '🇫🇷FR_650|230KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_650|230KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10557,7 +10671,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_651|242KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_651|242KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8080
@@ -10577,7 +10691,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_652|271KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_652|271KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -10597,7 +10711,7 @@ proxies:
     max-early-data: 2560
     path: /
   xudp: true
-- name: '🇫🇷FR_654|187KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_654|187KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10613,7 +10727,7 @@ proxies:
         Gecko) Chrome/11.0.696.3 Safari/534.24
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_655|294KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_655|294KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10629,7 +10743,7 @@ proxies:
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_656|100KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_656|100KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -10675,6 +10789,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_659
@@ -10704,13 +10819,14 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_661|285KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_661|285KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2087
@@ -10728,7 +10844,7 @@ proxies:
         Gecko) Chrome/49.0.2623.110 Safari/537.36
     path: /eyJqdW5rIjoiR1BxUFhYR0w1TlBLMTRsIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
   xudp: true
-- name: '🇫🇷FR_662|125KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_662|125KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10744,7 +10860,7 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_663|262KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_663|262KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10760,7 +10876,7 @@ proxies:
         Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_664|477KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_664|477KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10777,7 +10893,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_665|446KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_665|446KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10793,7 +10909,24 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_667|175KB/s|C002-260622 0... #1'
+- client-fingerprint: chrome
+  name: 🇫🇷FR_666
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.146.86
+  servername: support.zoom.us.yxls.eu.cc
+  sub_tag: C002-260622
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+  xudp: true
+- name: 🇫🇷FR_667|175KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10828,7 +10961,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_669|480KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_669|480KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -10865,7 +10998,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_671|127KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_671|127KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -10883,7 +11016,7 @@ proxies:
         Gecko) Chrome/47.0.2526.111 Safari/537.36
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
-- name: '🇫🇷FR_672|375KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_672|375KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10900,7 +11033,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_673|204KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_673|204KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10917,7 +11050,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_674|249KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_674|249KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2086
@@ -10936,7 +11069,7 @@ proxies:
     path: /eyJqdW5rIjoiQTdKUTVZeVVoQWpjamhqIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_675|154KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_675|154KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10952,7 +11085,7 @@ proxies:
         Gecko) Chrome/11.0.696.3 Safari/534.24
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_676|546KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_676|546KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -10985,7 +11118,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_678|588KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_678|588KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -11019,7 +11152,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_680|116KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_680|116KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11048,10 +11181,11 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
 - encryption: none
-  name: '🇫🇷FR_682|308KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_682|308KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11070,7 +11204,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_683|183KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_683|183KB/s|C002-260622 0...
   network: ws
   password: 988sR-269PKCKlb&3pMrFTEr
   port: 443
@@ -11080,6 +11214,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
@@ -11105,7 +11240,7 @@ proxies:
       Host: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
     path: /game
   xudp: true
-- name: '🇫🇷FR_685|117KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_685|117KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11157,7 +11292,7 @@ proxies:
       Host: nova-atlas-core-5a95.rajabyshokofeh3-bcc.workers.dev
     path: /
   xudp: true
-- name: '🇫🇷FR_689|342KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_689|342KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11175,7 +11310,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_690|174KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_690|174KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -11196,7 +11331,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_691|261KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_691|261KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -11216,7 +11351,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_692|445KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_692|445KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -11269,7 +11404,7 @@ proxies:
     path: /fdip=tw.william.us.ci!txtfp=random
   xudp: true
 - client-fingerprint: random
-  name: '🇫🇷FR_695|164KB/s|S001-260618 0... #1'
+  name: 🇫🇷FR_695|164KB/s|S001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 2053
@@ -11307,7 +11442,7 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_697|220KB/s|V004-260618 0... #1'
+  name: 🇫🇷FR_697|220KB/s|V004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11324,7 +11459,7 @@ proxies:
     path: /pyip
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_910|447KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_910|447KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11380,7 +11515,7 @@ proxies:
     path: /eyJqdW5rIjoiNDIxWGNPNW5CQXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_701|139KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_701|139KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11413,7 +11548,7 @@ proxies:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txt
   xudp: true
-- name: '🇫🇷FR_704|151KB/s 01 #1'
+- name: 🇫🇷FR_704|151KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11429,7 +11564,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_705|288KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_705|288KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11446,7 +11581,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_706|97KB/s|C002-260622 01 #1'
+  name: 🇫🇷FR_706|97KB/s|C002-260622 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11462,7 +11597,7 @@ proxies:
         like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_707|142KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_707|142KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11478,7 +11613,7 @@ proxies:
         like Gecko) Chrome/66.0.3359.181 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_708|378KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_708|378KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11496,7 +11631,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_709|227KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_709|227KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -11531,7 +11666,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_711|266KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_711|266KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2096
@@ -11578,10 +11713,11 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_714|159KB/s 01 #1'
+  name: 🇫🇷FR_714|159KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11597,7 +11733,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_715|189KB/s 01 #1'
+  name: 🇫🇷FR_715|189KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11613,7 +11749,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_716|226KB/s 01 #1'
+  name: 🇫🇷FR_716|226KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11628,7 +11764,7 @@ proxies:
         (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_717|366KB/s 01 #1'
+- name: 🇫🇷FR_717|366KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11645,7 +11781,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_718|286KB/s 01 #1'
+  name: 🇫🇷FR_718|286KB/s 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -11664,7 +11800,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_719|134KB/s 01 #1'
+  name: 🇫🇷FR_719|134KB/s 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -11686,7 +11822,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_720|255KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_720|255KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -11706,7 +11842,7 @@ proxies:
     max-early-data: 2048
     path: /js/cHlpcC55Z2tray5kcGRucy5vcmc=/
   xudp: true
-- name: '🇫🇷FR_721|130KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_721|130KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11722,7 +11858,7 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_722|129KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_722|129KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11755,7 +11891,7 @@ proxies:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
   xudp: true
-- name: '🇫🇷FR_724|407KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_724|407KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11772,7 +11908,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_725|120KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_725|120KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11789,7 +11925,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_726|224KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_726|224KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11806,7 +11942,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_727|238KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_727|238KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11823,7 +11959,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_728|215KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_728|215KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11850,6 +11986,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - name: 🇫🇷FR_730
@@ -11868,7 +12005,7 @@ proxies:
     path: /eyJqdW5rIjoiNUZVWmdPNWNpTW5LOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_731|369KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_731|369KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -11901,7 +12038,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_733|139KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_733|139KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -11919,7 +12056,7 @@ proxies:
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
-- name: '🇫🇷FR_734|207KB/s|A001-260618 0... #1'
+- name: 🇫🇷FR_734|207KB/s|A001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12010,7 +12147,7 @@ proxies:
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_740|205KB/s 01 #1'
+  name: 🇫🇷FR_740|205KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12025,7 +12162,7 @@ proxies:
         like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_741|321KB/s 01 #1'
+- name: 🇫🇷FR_741|321KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12040,7 +12177,7 @@ proxies:
         like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_742|508KB/s 01 #1'
+- name: 🇫🇷FR_742|508KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12073,7 +12210,7 @@ proxies:
     path: /sg-melbi
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_745|359KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_745|359KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12089,7 +12226,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_746|403KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_746|403KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12142,7 +12279,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_750|188KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_750|188KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -12164,7 +12301,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_755|140KB/s|A004-260618 0... #1'
+  name: 🇫🇷FR_755|140KB/s|A004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -12185,7 +12322,7 @@ proxies:
     path: /vl/14m2B3TtxW5N85ews
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_752|381KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_752|381KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12205,7 +12342,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_753|102KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_753|102KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -12229,7 +12366,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_756|214KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_756|214KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -12249,7 +12386,7 @@ proxies:
     max-early-data: 2560
     path: /eyJqdW5rIjoiWWdUTFZiaTRQU3YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
   xudp: true
-- name: '🇫🇷FR_758|150KB/s 01 #1'
+- name: 🇫🇷FR_758|150KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12264,7 +12401,7 @@ proxies:
         like Gecko) Chrome/66.0.3359.181 Safari/537.36
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_759|176KB/s 01 #1'
+- name: 🇫🇷FR_759|176KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12308,7 +12445,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_762|175KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_762|175KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12324,7 +12461,7 @@ proxies:
         Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_763|146KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_763|146KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12360,7 +12497,7 @@ proxies:
       Host: square-salad-ebde.zdfgvccfguuyggg.workers.dev
     path: /eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
   xudp: true
-- name: '🇫🇷FR_765|263KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_765|263KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12376,7 +12513,7 @@ proxies:
         (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_766|243KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_766|243KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12393,7 +12530,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_767|132KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_767|132KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 80
@@ -12426,7 +12563,7 @@ proxies:
       Host: 0406.infinityconfig7.workers.dev
     path: /sync
   xudp: true
-- name: '🇫🇷FR_769|333KB/s|X001-260618 0... #1'
+- name: 🇫🇷FR_769|333KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12443,7 +12580,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_770|473KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_770|473KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12460,7 +12597,7 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_771|174KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_771|174KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12497,7 +12634,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_773|265KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_773|265KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -12517,7 +12654,7 @@ proxies:
     max-early-data: 2560
     path: /eyJqdW5rIjoiOENNZnB6WTgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
   xudp: true
-- name: '🇫🇷FR_774|464KB/s 01 #1'
+- name: 🇫🇷FR_774|464KB/s 01
   network: ws
   packet-encoding: xudp
   port: 80
@@ -12536,7 +12673,7 @@ proxies:
     path: /Telegram-XV2ry2
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_775|234KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_775|234KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12568,7 +12705,7 @@ proxies:
     path: /sync
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_777|455KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_777|455KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8080
@@ -12590,7 +12727,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_778|201KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_778|201KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -12611,7 +12748,7 @@ proxies:
     path: /eyJqdW5rIjoiVndBTWp2RGsyc0g4TlgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_779|115KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_779|115KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12661,7 +12798,7 @@ proxies:
       Host: lingering-cherry-5f41.42-08a.workers.dev
     path: /
   xudp: true
-- name: '🇫🇷FR_782|269KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_782|269KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12712,7 +12849,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_785|339KB/s|S004-260618 0... #1'
+  name: 🇫🇷FR_785|339KB/s|S004-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -12722,6 +12859,7 @@ proxies:
   sub_tag: S004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
@@ -12744,7 +12882,7 @@ proxies:
     path: /vasl
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_787|284KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_787|284KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12778,7 +12916,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_789|192KB/s 01 #1'
+  name: 🇫🇷FR_789|192KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12809,7 +12947,7 @@ proxies:
       Host: asmaos.uk
     path: /
   xudp: true
-- name: '🇫🇷FR_791|331KB/s 01 #1'
+- name: 🇫🇷FR_791|331KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12825,7 +12963,7 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_792|104KB/s 01 #1'
+  name: 🇫🇷FR_792|104KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12840,7 +12978,7 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_793|253KB/s 01 #1'
+- name: 🇫🇷FR_793|253KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12857,7 +12995,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_794|178KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_794|178KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -12891,7 +13029,7 @@ proxies:
       Host: silent-feather-8539.sddadad2233122eew.workers.dev
     path: /eyJqdW5rIjoiRURaNEp6YUhMbVlqdzQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
   xudp: true
-- name: '🇫🇷FR_796|579KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_796|579KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12910,7 +13048,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_797|185KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_797|185KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -12944,7 +13082,7 @@ proxies:
       Host: falling-lake-0b5a.192-3e2.workers.dev
     path: /pyip=ProxyIP.US.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_799|156KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_799|156KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -12961,7 +13099,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_800|225KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_800|225KB/s|C002-260622 0...
   network: ws
   password: d0298536-d670-4045-bbb1-ddd5ea68683e
   port: 443
@@ -12971,6 +13109,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
@@ -13041,7 +13180,7 @@ proxies:
       - node-uk.connectsuite.org
     path:
     - /
-  name: '🇫🇷FR_804|71KB/s|B007-260618 01 #1'
+  name: 🇫🇷FR_804|71KB/s|B007-260618 01
   network: http
   packet-encoding: xudp
   port: 2052
@@ -13129,7 +13268,7 @@ proxies:
     path: /admin.php
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_809|105KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_809|105KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -13139,13 +13278,14 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
         (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: /assignment
 - encryption: none
-  name: '🇫🇷FR_810|161KB/s 01 #1'
+  name: 🇫🇷FR_810|161KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13161,7 +13301,7 @@ proxies:
     path: /pyip
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_811|370KB/s 01 #1'
+  name: 🇫🇷FR_811|370KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13176,7 +13316,7 @@ proxies:
         (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_812|188KB/s 01 #1'
+- name: 🇫🇷FR_812|188KB/s 01
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -13193,7 +13333,7 @@ proxies:
     path: /fp=randomized
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_814|339KB/s 01 #1'
+  name: 🇫🇷FR_814|339KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13209,7 +13349,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_815|394KB/s 01 #1'
+  name: 🇫🇷FR_815|394KB/s 01
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13241,7 +13381,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_817|172KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_817|172KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13257,7 +13397,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
-- name: '🇫🇷FR_818|332KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_818|332KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13305,7 +13445,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_821|268KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_821|268KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -13323,7 +13463,7 @@ proxies:
         Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /vasl
   xudp: true
-- name: '🇫🇷FR_822|118KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_822|118KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13340,7 +13480,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_823|146KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_823|146KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13357,7 +13497,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_824|345KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_824|345KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13374,7 +13514,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_825|297KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_825|297KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13406,7 +13546,7 @@ proxies:
       Host: fuckingfangbinxing.cnmfangbinxing-n.workers.dev
     path: /fp
   xudp: true
-- name: '🇫🇷FR_828|207KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_828|207KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -13423,7 +13563,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_829|270KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_829|270KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13439,7 +13579,7 @@ proxies:
         Gecko) Chrome/46.0.2490.80 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
   xudp: true
-- name: '🇫🇷FR_830|232KB/s|C002-260622 0... #1'
+- name: 🇫🇷FR_830|232KB/s|C002-260622 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13506,7 +13646,7 @@ proxies:
       Host: restless-boat-ebf2.moha102030.workers.dev
     path: /sync
   xudp: true
-- name: '🇫🇷FR_834|265KB/s|M002-260618 0... #1'
+- name: 🇫🇷FR_834|265KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 2095
@@ -13524,7 +13664,7 @@ proxies:
     path: /fp=randomized
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_835|149KB/s|X001-260618 0... #1'
+  name: 🇫🇷FR_835|149KB/s|X001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -13646,7 +13786,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_842|213KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_842|213KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -13670,7 +13810,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_843|384KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_843|384KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 2083
@@ -13692,7 +13832,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_844|208KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_844|208KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -13757,7 +13897,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_847|177KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_847|177KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -13885,7 +14025,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_854|246KB/s|A004-260618 0... #1'
+  name: 🇫🇷FR_854|246KB/s|A004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -13904,7 +14044,7 @@ proxies:
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_855|95KB/s|A004-260618 01 #1'
+  name: 🇫🇷FR_855|95KB/s|A004-260618 01
   network: ws
   packet-encoding: xudp
   port: 443
@@ -13923,7 +14063,7 @@ proxies:
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_856|222KB/s|A004-260618 0... #1'
+  name: 🇫🇷FR_856|222KB/s|A004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -13942,7 +14082,7 @@ proxies:
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_857|113KB/s|A004-260618 0... #1'
+  name: 🇫🇷FR_857|113KB/s|A004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -13961,7 +14101,7 @@ proxies:
     path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_858|150KB/s|A004-260618 0... #1'
+  name: 🇫🇷FR_858|150KB/s|A004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -13996,7 +14136,7 @@ proxies:
       Host: learn00.evany.de5.net
     path: /
   xudp: true
-- name: '🇫🇷FR_860|388KB/s|S001-260618 0... #1'
+- name: 🇫🇷FR_860|388KB/s|S001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8080
@@ -14032,7 +14172,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_862|193KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_862|193KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -14061,10 +14201,11 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_864|318KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_864|318KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -14085,7 +14226,7 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_865|89KB/s|A004-260618 01 #1'
+  name: 🇫🇷FR_865|89KB/s|A004-260618 01
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -14193,7 +14334,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_871|237KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_871|237KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -14241,11 +14382,12 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_874|354KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_874|354KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -14318,7 +14460,7 @@ proxies:
       Host: learn00.evany.de5.net
     path: /fdip=tw.william.us.ci!txt
   xudp: true
-- name: '🇫🇷FR_878|169KB/s|T001-260618 0... #1'
+- name: 🇫🇷FR_878|169KB/s|T001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -14398,6 +14540,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -14413,11 +14556,12 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_884|79KB/s|M002-260618 01 #1'
+  name: 🇫🇷FR_884|79KB/s|M002-260618 01
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -14474,7 +14618,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_887|259KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_887|259KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -14492,7 +14636,7 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /
   xudp: true
-- name: '🇫🇷FR_888|183KB/s|B007-260618 0... #1'
+- name: 🇫🇷FR_888|183KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -14511,7 +14655,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_889|198KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_889|198KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -14563,7 +14707,8 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
-- name: '🇫🇷FR_894|239KB/s|A004-260618 0... #1'
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: 🇫🇷FR_894|239KB/s|A004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -14609,6 +14754,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
 - alpn:
@@ -14624,6 +14770,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
 - client-fingerprint: chrome
@@ -14703,7 +14850,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_902|169KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_902|169KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -14759,7 +14906,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_905|146KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_905|146KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -14833,7 +14980,7 @@ proxies:
     path: /fdip=tw.william.us.ci!txt
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_911|260KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_911|260KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -14873,7 +15020,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_914|197KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_914|197KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -14896,7 +15043,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_916|236KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_916|236KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -14916,7 +15063,7 @@ proxies:
     max-early-data: 2560
     path: /8eaZJhRwB5zzDy81
   xudp: true
-- name: '🇫🇷FR_917|167KB/s|T001-260618 0... #1'
+- name: 🇫🇷FR_917|167KB/s|T001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -14934,7 +15081,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_918|204KB/s|S004-260618 0... #1'
+  name: 🇫🇷FR_918|204KB/s|S004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -14955,7 +15102,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_920|150KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_920|150KB/s|B007-260618 0...
   network: ws
   password: MiTiVPN
   port: 443
@@ -14965,6 +15112,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
@@ -14990,7 +15138,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_922|94KB/s|S004-260618 01 #1'
+  name: 🇫🇷FR_922|94KB/s|S004-260618 01
   network: ws
   password: MITIVPN
   port: 443
@@ -15000,6 +15148,7 @@ proxies:
   sub_tag: S004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
@@ -15040,7 +15189,7 @@ proxies:
       Host: mkvmh.alnm.a7e.hh.vavava.kdns.fr
     path: /?ed=2560fp=chrome
   xudp: true
-- name: '🇫🇷FR_926|280KB/s|A004-260618 0... #1'
+- name: 🇫🇷FR_926|280KB/s|A004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -15059,7 +15208,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_928|380KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_928|380KB/s|B007-260618 0...
   network: ws
   password: MiTiVPN
   port: 443
@@ -15069,13 +15218,14 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/F-ls
 - encryption: none
-  name: '🇫🇷FR_929|128KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_929|128KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -15092,7 +15242,7 @@ proxies:
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_931|149KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_931|149KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -15148,7 +15298,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_935|127KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_935|127KB/s|B007-260618 0...
   network: ws
   password: MITIVPN
   port: 443
@@ -15158,6 +15308,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -15166,7 +15317,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_936|271KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_936|271KB/s|B007-260618 0...
   network: ws
   password: MiTiVPN
   port: 443
@@ -15176,6 +15327,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -15254,7 +15406,7 @@ proxies:
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_941|351KB/s|S004-260618 0... #1'
+  name: 🇫🇷FR_941|351KB/s|S004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -15289,7 +15441,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_943|110KB/s|T001-260618 0... #1'
+  name: 🇫🇷FR_943|110KB/s|T001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -15310,7 +15462,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_944|127KB/s|A004-260618 0... #1'
+  name: 🇫🇷FR_944|127KB/s|A004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -15331,7 +15483,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_945|182KB/s|A004-260618 0... #1'
+  name: 🇫🇷FR_945|182KB/s|A004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -15352,7 +15504,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_946|298KB/s|A004-260618 0... #1'
+  name: 🇫🇷FR_946|298KB/s|A004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -15373,7 +15525,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_947|386KB/s|A004-260618 0... #1'
+  name: 🇫🇷FR_947|386KB/s|A004-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -15411,7 +15563,7 @@ proxies:
     path: /fdip
   xudp: true
 - encryption: none
-  name: '🇫🇷FR_950|457KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_950|457KB/s|B007-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -15445,7 +15597,7 @@ proxies:
       Host: nuclear.us.kg
     path: /free/1.226.227.169:50001
   xudp: true
-- name: '🇫🇷FR_952|268KB/s|F003-260618 0... #1'
+- name: 🇫🇷FR_952|268KB/s|F003-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8880
@@ -15465,7 +15617,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_954|381KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_954|381KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -15501,7 +15653,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_956|347KB/s|T001-260618 0... #1'
+  name: 🇫🇷FR_956|347KB/s|T001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -15522,7 +15674,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_957|461KB/s|T001-260618 0... #1'
+  name: 🇫🇷FR_957|461KB/s|T001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 443
@@ -15574,12 +15726,13 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_962|418KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_962|418KB/s|B007-260618 0...
   network: ws
   password: MITIVPN
   port: 443
@@ -15589,6 +15742,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
@@ -15607,6 +15761,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
@@ -15622,6 +15777,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
@@ -15637,12 +15793,13 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_966|286KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_966|286KB/s|B007-260618 0...
   network: ws
   password: MiTiVPN
   port: 443
@@ -15652,6 +15809,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -15670,9 +15828,10 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '🇫🇷FR_969|637KB/s|K001-260618 0... #1'
+- name: 🇫🇷FR_969|637KB/s|K001-260618 0...
   network: ws
   packet-encoding: xudp
   port: 80
@@ -15712,7 +15871,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '🇫🇷FR_971|126KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_971|126KB/s|M002-260618 0...
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -16114,6 +16273,7 @@ proxies:
   server: switcher-nick-croquet.freesocks.work
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 1 → tg@nicevpn123
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
@@ -16121,6 +16281,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 10 → tg@nicevpn123
   password: kDWvXYZoTBcGkC4
@@ -16128,6 +16289,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷 FR 11 → tg@nicevpn123
   password: G!yBwPWH3Vao
@@ -16135,6 +16297,7 @@ proxies:
   server: 51.178.87.37
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 12 → tg@nicevpn123
   password: e4FCWrgpkji3QY
@@ -16142,6 +16305,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 13 → tg@nicevpn123
   password: 1038bc70-fe01-11ee-a6a2-1239d0255272
   port: 443
@@ -16149,6 +16313,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇫🇷 FR 14 → tg@nicevpn123
@@ -16169,6 +16334,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 16 → tg@nicevpn123
   password: KixLvKzwjekG00rm
@@ -16176,6 +16342,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 17 → tg@nicevpn123
   password: fc1e07b5-840b-4446-8232-94b0606f2e0d
   port: 443
@@ -16183,6 +16350,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷FR-149.202.82.172-0022 | 0.0...
   password: Y6R9pAtvxxzmGC
@@ -16190,6 +16358,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 19 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
@@ -16197,6 +16366,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   http-opts:
@@ -16219,6 +16389,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 21 → tg@nicevpn123
   password: RexnBgU7EV5ADxG
@@ -16226,6 +16397,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 22 → tg@nicevpn123
   password: kDWvXYZoTBcGkC4
@@ -16233,6 +16405,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 23 → tg@nicevpn123
   password: fc1e07b5-840b-4446-8232-94b0606f2e0d
   port: 443
@@ -16240,6 +16413,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 24 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
@@ -16247,6 +16421,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 25 → tg@nicevpn123
   password: TEzjfAYq2IjtuoS
@@ -16254,6 +16429,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷 FR 26 → tg@nicevpn123
   password: G!yBwPWH3Vao
@@ -16261,6 +16437,7 @@ proxies:
   server: 51.178.87.37
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 27 → tg@nicevpn123
   password: KixLvKzwjekG00rm
@@ -16268,6 +16445,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 28 → tg@nicevpn123
   password: FoOiGlkAA9yPEGP
@@ -16275,6 +16453,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 29 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
@@ -16282,6 +16461,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 3 → tg@nicevpn123
   password: FoOiGlkAA9yPEGP
@@ -16289,6 +16469,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 30 → tg@nicevpn123
   password: KixLvKzwjekG00rm
@@ -16296,6 +16477,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 31 → tg@nicevpn123
   password: e4FCWrgpkji3QY
@@ -16303,6 +16485,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 32 → tg@nicevpn123
   password: RexnBgU7EV5ADxG
@@ -16310,6 +16493,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷 FR 33 → tg@nicevpn123
   password: LE6Ee6PELhVu
@@ -16317,6 +16501,7 @@ proxies:
   server: 92.243.24.236
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 34 → tg@nicevpn123
   password: faBAoD54k87UJG7
@@ -16324,6 +16509,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 35 → tg@nicevpn123
   password: g5MeD6Ft3CWlJId
@@ -16331,6 +16517,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇫🇷 FR 36 → tg@nicevpn123
@@ -16348,6 +16535,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇫🇷 FR 38 → tg@nicevpn123
   password: f8f7aCzcPKbsF8p3
@@ -16355,6 +16543,7 @@ proxies:
   server: 51.159.111.208
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 39 → tg@nicevpn123
   password: pKEW8JPByTVTLtM
@@ -16362,6 +16551,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 4 → tg@nicevpn123
   password: KkDzY101Oe
@@ -16369,6 +16559,7 @@ proxies:
   server: 51.195.149.115
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 40 → tg@nicevpn123
   password: wkmY1R4EcP
   port: 443
@@ -16377,6 +16568,7 @@ proxies:
   sni: z-v2-002805.kailib.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷FR-149.202.82.172-0203 | 0.0...
   password: pKEW8JPByTVTLtM
@@ -16384,6 +16576,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 42 → tg@nicevpn123
   password: cdBIDV42DCwnfIN
@@ -16391,6 +16584,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 43 → tg@nicevpn123
   password: XKFKl2rULjIp74
@@ -16398,6 +16592,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷 FR 44 → tg@nicevpn123
   password: cqBAAW0fZcqQ1Bn06jwhro
@@ -16405,6 +16600,7 @@ proxies:
   server: 92.243.27.51
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 45 → tg@nicevpn123
   password: XKFKl2rULjIp74
@@ -16412,6 +16608,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 46 → tg@nicevpn123
   password: faBAoD54k87UJG7
@@ -16419,6 +16616,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 47 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
@@ -16426,6 +16624,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 法国 017
@@ -16462,6 +16661,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 50 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
@@ -16469,6 +16669,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 51 → tg@nicevpn123
   password: 7gaTTlW73G
@@ -16476,6 +16677,7 @@ proxies:
   server: 51.222.157.179
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 52 → tg@nicevpn123
   password: telegram-id-privatevpns
   port: 22222
@@ -16484,6 +16686,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 6 → tg@nicevpn123
   password: g5MeD6Ft3CWlJId
@@ -16491,6 +16694,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇫🇷 FR 7 → tg@nicevpn123
   password: f8f7aCzcPKbsF8p3
@@ -16498,6 +16702,7 @@ proxies:
   server: 195.154.169.198
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 8 → tg@nicevpn123
   password: telegram-id-privatevpns
   port: 22222
@@ -16506,6 +16711,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 9 → tg@nicevpn123
   password: cdBIDV42DCwnfIN
@@ -16513,6 +16719,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 未知23 29.5KB/s
@@ -17277,12 +17484,14 @@ proxies:
   server: 83.243.86.80
   sni: prodfr.h2corp.org
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: '🇫🇷_FR_法国 #3'
   password: asdKkaskJKfnsa
   port: 443
   server: 51.158.54.209
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - h2%2Chttp%2F1.1
   client-fingerprint: qq
@@ -17310,6 +17519,7 @@ proxies:
   skip-cert-verify: true
   sni: www.calmloud.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: www.calmloud.com
@@ -17420,6 +17630,7 @@ proxies:
   server: jquery.com
   sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
 - client-fingerprint: chrome
@@ -17482,6 +17693,7 @@ proxies:
   sni: vpn-fr-001.fastervpn.world
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇫🇷FR_449
@@ -17561,6 +17773,7 @@ proxies:
   server: 104.24.163.206
   sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560
 - client-fingerprint: chrome
@@ -17692,6 +17905,7 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -17744,6 +17958,7 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷FR_860
   network: ws
   port: 8080
@@ -17855,6 +18070,7 @@ proxies:
   server: 104.18.155.119
   sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
 - name: 🇫🇷FR_952
@@ -17986,6 +18202,7 @@ proxies:
   server: 104.16.174.22
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: //assignment
 - alpn:
@@ -18081,6 +18298,7 @@ proxies:
   server: vless.herogoing.top
   sni: vless.herogoing.top
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr?ed=2560
 - name: 🇫🇷FR_621
@@ -18091,6 +18309,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇫🇷FR_572
@@ -18127,6 +18346,7 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - h2
   - http/1.1
@@ -18213,6 +18433,7 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷FR_969
   network: ws
   port: 80
@@ -18312,6 +18533,7 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -18414,6 +18636,7 @@ proxies:
   server: 104.19.173.68
   sni: azadnet-5vk.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /azadnet-5vk.pages.dev/?ed=2560
 - alpn:
@@ -18439,6 +18662,7 @@ proxies:
   sni: vpn-fr-002.fastervpn.world
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
   client-fingerprint: chrome

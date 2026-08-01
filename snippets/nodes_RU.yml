@@ -22,14 +22,16 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: '🇷🇺RU_17|288KB/s|B007-260618 01 #1'
+  name: 🇷🇺RU_17|288KB/s|B007-260618 01
   password: CsSYOhlDUy7Hz1yQCXSnxj
   port: 10792
   server: 130.49.189.158
   sub_tag: B007-260618
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 未知 SS-204
   password: fbaf33bcffe53cf9
@@ -39,6 +41,7 @@ proxies:
   sub_tag: K001-260618
   type: ss
   udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇷🇺RU_19
   password: 9f3d1a6d31468599
@@ -48,6 +51,7 @@ proxies:
   sub_tag: K001-260618
   type: ss
   udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇷🇺RU_20
   password: b24a80e79cee1d1f
@@ -57,6 +61,7 @@ proxies:
   sub_tag: K001-260618
   type: ss
   udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: '🇷🇺_RU_俄罗斯 #3'
   password: c5fcdf7829112cb4
@@ -64,6 +69,7 @@ proxies:
   server: 45.140.169.216
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 1 → tg@nicevpn123
   password: 71ab3866-4c8b-4a0b-a4bd-a64f110afe0b
   port: 443
@@ -71,6 +77,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇷🇺 RU 10 → tg@nicevpn123
   password: U6qnYRhfyDmn8sgn
@@ -78,6 +85,7 @@ proxies:
   server: 45.89.52.66
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 11 → tg@nicevpn123
   password: Zu5sVdhPITkII1Rf9bUTjt0ws1nks4vgBoHhe7QxwEk0j3Ai
@@ -85,6 +93,7 @@ proxies:
   server: 146.185.198.44
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 12 → tg@nicevpn123
   password: faa0fd1b-ecf9-42ae-a5f3-0a96274b64cb
   port: 30002
@@ -93,6 +102,7 @@ proxies:
   sni: ru01.freeflyingcloud.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇪🇸ES-5.188.181.201-0220 | 0.0M...
   password: U6qnYRhfyDmn8sgn
@@ -100,6 +110,7 @@ proxies:
   server: 5.188.181.201
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 德国 025
@@ -122,6 +133,7 @@ proxies:
   server: 217.30.10.68
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇷🇺 RU 16 → tg@nicevpn123
   password: BwcAUZk8hUFAkDGN
@@ -129,6 +141,7 @@ proxies:
   server: 5.188.181.201
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 17 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -137,6 +150,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - name: 🇷🇺 RU 18 → tg@nicevpn123
@@ -146,6 +160,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 19 → tg@nicevpn123
   password: 1ef9jGvAyzXLLnjssRFr8M
@@ -153,6 +168,7 @@ proxies:
   server: 94.228.169.114
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 2 → tg@nicevpn123
   password: u3vnfMkutB4brBoGSkAphE
@@ -160,6 +176,7 @@ proxies:
   server: 195.2.76.71
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇷🇺 RU 20 → tg@nicevpn123
   password: gYCYXfkUQEs2TaJQ
@@ -167,6 +184,7 @@ proxies:
   server: 217.30.10.68
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇷🇺 RU 21 → tg@nicevpn123
@@ -200,6 +218,7 @@ proxies:
   server: 5.188.181.201
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇷🇺 RU 24 → tg@nicevpn123
   password: Telegram-ZEDMODEON
@@ -207,6 +226,7 @@ proxies:
   server: 78.153.149.211
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇷🇺 RU 25 → tg@nicevpn123
@@ -227,6 +247,7 @@ proxies:
   server: 45.67.32.147
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 27 → tg@nicevpn123
   password: DmMQUmI7pgQDnrWqLXC00L
@@ -234,6 +255,7 @@ proxies:
   server: 94.228.165.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 28 → tg@nicevpn123
   password: IKDBUJ8RH6qI10QR1MSTqR
@@ -241,6 +263,7 @@ proxies:
   server: 46.226.164.2
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 29 → tg@nicevpn123
   password: d2b376a2-c9b7-42be-8f52-26c0987f2884
   port: 443
@@ -248,6 +271,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 3 → tg@nicevpn123
   password: WrszSP43UAOcFljDkb8vAL
@@ -255,6 +279,7 @@ proxies:
   server: 185.174.137.72
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇷🇺 RU 30 → tg@nicevpn123
   password: GeregetR8cvQHzYr
@@ -262,6 +287,7 @@ proxies:
   server: 5.188.181.201
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 捷克 013
@@ -313,6 +339,7 @@ proxies:
   sni: ru01.freeflyingcloud.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 35 → tg@nicevpn123
   password: KTwIQM1cQJwtkrjfld6Usn
@@ -320,6 +347,7 @@ proxies:
   server: 46.226.162.112
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 36 → tg@nicevpn123
   password: UXoGWyjwDVZIl1WMuHtxSi
@@ -327,6 +355,7 @@ proxies:
   server: 139.28.220.18
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 德国 026
@@ -349,6 +378,7 @@ proxies:
   server: 45.89.52.66
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇷🇺 RU 39 → tg@nicevpn123
@@ -370,6 +400,7 @@ proxies:
   sni: ru01.freeflyingcloud.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇷🇺 RU 82 → tg@nicevpn123
@@ -388,6 +419,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - alterId: 0
@@ -412,6 +444,7 @@ proxies:
   server: 5.188.181.201
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 44 → tg@nicevpn123
   password: ba74833c-8c0f-4dcd-8cbc-13e3c32d3765
   port: 2053
@@ -419,6 +452,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 45 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -427,6 +461,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - cipher: aes-256-cfb
@@ -436,6 +471,7 @@ proxies:
   server: 146.185.248.22
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 47 → tg@nicevpn123
   password: ndJuPjq7WbFDjB4oacljGw
@@ -443,6 +479,7 @@ proxies:
   server: 5.182.36.245
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 48 → tg@nicevpn123
   password: P2zxXPewlV3BlfqqYiSthvtLc
@@ -450,6 +487,7 @@ proxies:
   server: 212.113.106.243
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 49 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -458,6 +496,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - cipher: aes-256-cfb
@@ -467,6 +506,7 @@ proxies:
   server: 45.89.52.66
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 50 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -475,6 +515,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - cipher: aes-256-cfb
@@ -484,6 +525,7 @@ proxies:
   server: 217.30.10.18
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 52 → tg@nicevpn123
   password: NC7jORVNrruV/+3+PwOJrnnOeG7n75X1
@@ -491,6 +533,7 @@ proxies:
   server: 89.19.216.18
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇷🇺 RU 53 → tg@nicevpn123
   password: p9z5BVADH2YFs3MN
@@ -498,6 +541,7 @@ proxies:
   server: 45.89.52.66
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇷🇺 RU 54 → tg@nicevpn123
   password: f8f7aCzcPKbsF8p3
@@ -505,6 +549,7 @@ proxies:
   server: 213.156.137.67
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 55 → tg@nicevpn123
   password: 1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA
@@ -512,6 +557,7 @@ proxies:
   server: 91.192.81.21
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇷🇺 RU 56 → tg@nicevpn123
   password: BwcAUZk8hUFAkDGN
@@ -519,6 +565,7 @@ proxies:
   server: 45.89.52.66
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 57 → tg@nicevpn123
   password: xCoBqYZGaMivNlzIhjpIH5
@@ -526,6 +573,7 @@ proxies:
   server: 85.192.63.92
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 58 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -534,6 +582,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - cipher: chacha20-ietf-poly1305
@@ -543,6 +592,7 @@ proxies:
   server: 45.139.24.63
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 6 → tg@nicevpn123
   password: CkMpBwWZ0Cr1RhVVNSXXMp
@@ -550,6 +600,7 @@ proxies:
   server: 5.44.42.60
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 60 → tg@nicevpn123
   password: bf2307e1-a58f-41c2-8392-d76197fc2866
   port: 443
@@ -557,6 +608,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 61 → tg@nicevpn123
   password: bf2307e1-a58f-41c2-8392-d76197fc2866
   port: 443
@@ -564,6 +616,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 62 → tg@nicevpn123
   password: XZMPTXYRC2XB8jet5UiHOn
@@ -571,6 +624,7 @@ proxies:
   server: 46.19.69.244
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 63 → tg@nicevpn123
   password: uSFiNtjwzC1y2QMPNhrXAT5gknE1mgHggsqL6gPkUFPvWqrHC63U5p5VCNZBktT7BNoykGd1gxPZy9zoSsj6Hrw5YV3XvoPh
@@ -578,6 +632,7 @@ proxies:
   server: 194.87.179.169
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 64 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -586,6 +641,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - cipher: chacha20-ietf-poly1305
@@ -595,6 +651,7 @@ proxies:
   server: 62.113.110.233
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 66 → tg@nicevpn123
   password: 4aa4c780-e45f-4011-8b0d-5ce48071bfa0
   port: 30002
@@ -603,6 +660,7 @@ proxies:
   sni: ru01.freeflyingcloud.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 67 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -611,6 +669,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - name: 🇷🇺 RU 68 → tg@nicevpn123
@@ -621,6 +680,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - cipher: chacha20-ietf-poly1305
@@ -630,6 +690,7 @@ proxies:
   server: 212.113.106.243
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇷🇺 RU 7 → tg@nicevpn123
@@ -664,6 +725,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - name: 🇷🇺 RU 72 → tg@nicevpn123
@@ -674,6 +736,7 @@ proxies:
   sni: is2-t.sshmax.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 73 → tg@nicevpn123
   password: 01278779-3f58-4477-8ae7-7b82033a5d2e
   port: 443
@@ -681,6 +744,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 74 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -689,6 +753,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - cipher: chacha20-ietf-poly1305
@@ -698,6 +763,7 @@ proxies:
   server: 212.113.106.76
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 76 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -706,6 +772,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - cipher: chacha20-ietf-poly1305
@@ -715,6 +782,7 @@ proxies:
   server: 83.217.9.199
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 78 → tg@nicevpn123
   password: qgpdyzHj8rZW9fDxxkUHRI
@@ -722,6 +790,7 @@ proxies:
   server: 217.196.103.206
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇷🇺 RU 79 → tg@nicevpn123
@@ -744,6 +813,7 @@ proxies:
   server: 109.107.172.30
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇷🇺 RU 80 → tg@nicevpn123
@@ -764,6 +834,7 @@ proxies:
   server: 5.42.86.33
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 83 → tg@nicevpn123
   password: 85bce006-4885-11ee-8792-f23c9164ca5d
   port: 1007
@@ -771,6 +842,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇷🇺 RU 84 → tg@nicevpn123
   password: GeregetR8cvQHzYr
@@ -778,6 +850,7 @@ proxies:
   server: 45.89.52.66
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇷🇺 RU 85 → tg@nicevpn123
@@ -810,6 +883,7 @@ proxies:
   server: 77.105.140.135
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   grpc-opts:
@@ -831,6 +905,7 @@ proxies:
   server: 185.229.65.157
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇷🇺 RU 9 → tg@nicevpn123
   password: UTJA57ypk2XKQpnm
@@ -838,6 +913,7 @@ proxies:
   server: 217.30.10.68
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 90 → tg@nicevpn123
   password: oog65JXEql48VTve79V89g
@@ -845,6 +921,7 @@ proxies:
   server: 212.113.106.76
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 91 → tg@nicevpn123
   password: VRKnPTULDqxaExI5yLJjoc
@@ -852,6 +929,7 @@ proxies:
   server: 92.246.136.190
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺 RU 92 → tg@nicevpn123
   password: cg0KkMjbGdJEh
@@ -859,6 +937,7 @@ proxies:
   server: 212.192.9.220
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇷🇺 RU 93 → tg@nicevpn123
@@ -906,6 +985,7 @@ proxies:
   server: 94.142.138.56
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇷🇺 RU 97 → tg@nicevpn123
   network: ws
   password: maHanVPpN
@@ -914,6 +994,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: '%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252Fmahan'
 - alterId: 0
@@ -1266,6 +1347,7 @@ proxies:
   port: 10921
   server: 185.22.154.103
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇷🇺 RU 178 | ⬇️ 91KB/s
   password: 1a87017d0bf57f34
@@ -1274,6 +1356,7 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -1281,6 +1364,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇷🇺 俄罗斯 01 | 1x RU
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -1288,6 +1372,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 🇷🇺 俄罗斯 克拉斯诺亚尔斯克G-Core Lab
@@ -1295,3 +1380,4 @@ proxies:
   port: 31348
   server: 5.189.201.250
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888

@@ -8,6 +8,7 @@ proxies:
   tls: false
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   country: 🏁 ZZ
   name: 🇸🇬SG²_1
@@ -15,6 +16,7 @@ proxies:
   port: 38388
   server: 103.186.155.16
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇸🇬SG_15
   password: Y6R9pAtvxxzmGC
@@ -23,6 +25,7 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 未知76 322.7KB/s
@@ -39,7 +42,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: '🇸🇬SG_22|315KB/s|C002-260622 01 #1'
+  name: 🇸🇬SG_22|315KB/s|C002-260622 01
   network: raw
   packet-encoding: xudp
   port: 18000
@@ -53,7 +56,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: '🇸🇬SG_24|456KB/s|C002-260622 01 #1'
+  name: 🇸🇬SG_24|456KB/s|C002-260622 01
   network: raw
   packet-encoding: xudp
   port: 18000
@@ -76,9 +79,10 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: '0'
   cipher: auto
-  name: '🇸🇬SG_30|386KB/s|C002-260622 01 #1'
+  name: 🇸🇬SG_30|386KB/s|C002-260622 01
   network: tcp
   packet-encoding: xudp
   port: 18000
@@ -101,6 +105,7 @@ proxies:
   sub_tag: K001-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇸🇬SG_32
   network: tcp
@@ -112,8 +117,9 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
-  name: '🇸🇬SG_40|275KB/s|A004-260618 01 #1'
+  name: 🇸🇬SG_40|275KB/s|A004-260618 01
   network: tcp
   password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
   port: 50573
@@ -122,6 +128,7 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-97
   password: W8T44NSLuczcncGIf92m6Q
@@ -130,6 +137,7 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇸🇬SG_48
   password: Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU=
@@ -138,6 +146,7 @@ proxies:
   sub_tag: B007-260618
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇸🇬SG_49
   network: tcp
@@ -149,6 +158,7 @@ proxies:
   sub_tag: C001-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 新加坡(免费节点)_3
   network: ws
   password: '!!str 521314'
@@ -158,10 +168,29 @@ proxies:
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡2
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39204
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇸🇬 狮城特殊
+  password: amazonskr05
+  port: 443
+  server: 18.183.186.14
+  tfo: false
+  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬SG_4|⬇️5.1MB/s
   network: ws
   password: a9570330-769d-11ef-90dc-1577c1651679
@@ -171,6 +200,7 @@ proxies:
   sni: sg-trojan.andfree.my.id
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /welcome
 - name: 🇸🇬 新加坡|@stairnode
@@ -180,6 +210,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 新加坡2|@stairnode
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 4674
@@ -187,6 +218,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 新加坡3|@stairnode
   password: BxceQaOe
   port: 25675
@@ -194,6 +226,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 SG 1 → tg@nicevpn123
   password: ISpGyFeSDr06
   port: 17418
@@ -202,6 +235,7 @@ proxies:
   sni: appsvs.shop
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 10 → tg@nicevpn123
   password: amazonskr05
@@ -209,6 +243,7 @@ proxies:
   server: 13.250.61.18
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇸🇬 SG 11 → tg@nicevpn123
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
@@ -216,6 +251,7 @@ proxies:
   server: 139.59.119.251
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 SG 12 → tg@nicevpn123
   password: 15f804fa-27be-4b0f-85d4-cead43a483ef
   port: 30020
@@ -224,6 +260,7 @@ proxies:
   sni: us05.freeflyingcloud.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 13 → tg@nicevpn123
   password: amazonskr05
@@ -231,6 +268,7 @@ proxies:
   server: 13.229.184.181
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 14 → tg@nicevpn123
   password: amazonskr05
@@ -238,6 +276,7 @@ proxies:
   server: 54.179.101.194
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 15 → tg@nicevpn123
   password: amazonskr05
@@ -245,6 +284,7 @@ proxies:
   server: 52.221.231.138
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 SG 16 → tg@nicevpn123
   password: yR7hP9aw5L
   port: 443
@@ -253,6 +293,7 @@ proxies:
   sni: aka.ms
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 17 → tg@nicevpn123
   password: amazonskr05
@@ -260,6 +301,7 @@ proxies:
   server: 18.142.56.221
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇸🇬 SG 18 → tg@nicevpn123
@@ -282,6 +324,7 @@ proxies:
   server: 139.59.119.251
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 SG 2 → tg@nicevpn123
   network: ws
   password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
@@ -291,6 +334,7 @@ proxies:
   sni: sg01.520s.pro
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: sg01.520s.pro
@@ -302,6 +346,7 @@ proxies:
   server: 18.141.207.80
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 21 → tg@nicevpn123
   password: amazonskr05
@@ -309,6 +354,7 @@ proxies:
   server: 52.221.183.250
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇸🇬 SG 22 → tg@nicevpn123
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
@@ -316,6 +362,7 @@ proxies:
   server: 139.59.119.251
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇸🇬 SG 23 → tg@nicevpn123
@@ -337,6 +384,7 @@ proxies:
   sni: sg04.freeflyingcloud.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 25 → tg@nicevpn123
   password: amazonskr05
@@ -344,6 +392,7 @@ proxies:
   server: 13.229.57.68
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇸🇬 SG 26 → tg@nicevpn123
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
@@ -351,6 +400,7 @@ proxies:
   server: 139.59.119.251
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 SG 27 → tg@nicevpn123
   password: b3965d2d-3b82-45cc-927b-1336aca3f3fe
   port: 443
@@ -358,6 +408,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 28 → tg@nicevpn123
   password: amazonskr05
@@ -365,6 +416,7 @@ proxies:
   server: 54.251.168.143
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 SG 29 → tg@nicevpn123
   password: 557340ab-4ae8-4593-989f-a8053bec73b6
   port: 443
@@ -372,6 +424,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 3 → tg@nicevpn123
   password: amazonskr05
@@ -379,6 +432,7 @@ proxies:
   server: 54.169.147.64
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 SG 30 → tg@nicevpn123
   network: ws
   password: 57460446-1a16-4ac4-bc7d-99b99a9ecc18
@@ -388,6 +442,7 @@ proxies:
   sni: sg01.520s.pro
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: sg01.520s.pro
@@ -400,6 +455,7 @@ proxies:
   sni: us05.freeflyingcloud.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 32 → tg@nicevpn123
   password: amazonskr05
@@ -407,6 +463,7 @@ proxies:
   server: 3.0.50.219
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 SG 33 → tg@nicevpn123
   password: 557340ab-4ae8-4593-989f-a8053bec73b6
   port: 443
@@ -414,6 +471,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇸🇬 SG 42 → tg@nicevpn123
   password: amazonskr05
@@ -421,6 +479,7 @@ proxies:
   server: 13.250.63.15
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇸🇬 SG 35 → tg@nicevpn123
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
@@ -428,6 +487,7 @@ proxies:
   server: 139.59.119.251
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 36 → tg@nicevpn123
   password: amazonskr05
@@ -435,6 +495,7 @@ proxies:
   server: 54.254.167.160
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇸🇬 SG 37 → tg@nicevpn123
@@ -468,6 +529,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇸🇬 SG 4 → tg@nicevpn123
   password: a-wym4ovY4Yw
@@ -475,6 +537,7 @@ proxies:
   server: 8.210.89.240
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 40 → tg@nicevpn123
   password: amazonskr05
@@ -482,6 +545,7 @@ proxies:
   server: 13.250.57.60
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇸🇬 SG 41 → tg@nicevpn123
   password: amazonskr05
@@ -489,6 +553,7 @@ proxies:
   server: 13.228.23.150
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇸🇬 SG 5 → tg@nicevpn123
@@ -509,6 +574,7 @@ proxies:
   server: 18.142.225.182
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 SG 7 → tg@nicevpn123
   password: I4bO2YDEgs
   port: 443
@@ -517,6 +583,7 @@ proxies:
   sni: aka.ms
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇸🇬 SG 8 → tg@nicevpn123
   password: af7d4ea7-e793-4030-9766-9a13e1f099f5
   port: 443
@@ -524,6 +591,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇸🇬 SG 9 → tg@nicevpn123
   password: df30da54-317f-4726-98bd-8bc8ec8140c9
@@ -531,6 +599,7 @@ proxies:
   server: 139.59.119.251
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 新加坡 001
@@ -811,6 +880,7 @@ proxies:
   port: 8388
   server: 103.36.91.32
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇸🇬SG-152.69.222.253-0027 | 0.0...
@@ -846,6 +916,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 01 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -853,6 +924,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 02 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -860,6 +932,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬新加坡 03 | 1x SG
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -867,6 +940,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 01 | 1x SG
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -874,6 +948,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 02 | 1x SG
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -881,6 +956,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇸🇬 新加坡 03 | 1x SG
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -888,6 +964,7 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 12|🇸🇬 新加坡|@ripaojiedian
@@ -905,6 +982,7 @@ proxies:
   server: gg21.hangfengjiasu.com
   tfo: false
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
@@ -912,9 +990,11 @@ proxies:
   server: 3.36.96.166
   tfo: false
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 新加坡_3
   password: '!!str 521314'
   port: 443
   server: 116.251.217.65
   sni: hhtj.hhllfly.kdns.fr
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888

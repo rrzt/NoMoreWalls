@@ -10,6 +10,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   client-fingerprint: chrome
   country: 🇺🇸US
@@ -24,6 +25,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 德国(yudou789.top 玉豆免费节点)
   password: XUMTygEM1jVYIvysXKqA5T
@@ -32,6 +34,7 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_2
   password: PWpjPo3tqhPN4yRZ
@@ -39,6 +42,7 @@ proxies:
   server: 8.209.74.72
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇩🇪DE_3
   password: XKFKl2rULjIp74
@@ -46,6 +50,7 @@ proxies:
   server: 185.226.172.8
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_4
   password: 1hhrqrokj3ag
@@ -54,6 +59,7 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪DE_18
   password: uROuEqsL8IUMMVb4wDwnGU
@@ -62,6 +68,7 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   client-fingerprint: chrome
   country: 🇺🇸US
@@ -76,6 +83,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -89,16 +97,18 @@ proxies:
   sub_tag: A001-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /bkdicj
 - cipher: chacha20-ietf-poly1305
-  name: '🇩🇪DE_69|488KB/s|A004-260618 01 #1'
+  name: 🇩🇪DE_69|488KB/s|A004-260618 01
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
   server: 62.113.194.49
   sub_tag: A004-260618
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -112,6 +122,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /bkdicj
 - alpn:
@@ -127,6 +138,7 @@ proxies:
   sub_tag: S004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /bkdicj
 - alterId: 0
@@ -145,6 +157,22 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇪 德国
+  network: ws
+  port: 46092
+  server: mmde92.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmde92.micloud.buzz
+    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   name: DE_speednode_0008
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
@@ -152,6 +180,7 @@ proxies:
   server: 130.61.33.205
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 🇷🇺RU俄罗斯
@@ -162,6 +191,7 @@ proxies:
   tls: true
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 10 → tg@nicevpn123
   password: 8ea03cb9-e073-4904-8081-f43cb43fddac
   port: 443
@@ -169,6 +199,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 11 → tg@nicevpn123
   password: your_password
   port: 443
@@ -177,6 +208,7 @@ proxies:
   sni: aws-ge-frankfurt-1.f1rocketnode.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 12 → tg@nicevpn123
   password: telegram-id-privatevpns
   port: 22222
@@ -185,6 +217,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE 13 → tg@nicevpn123
@@ -202,6 +235,7 @@ proxies:
   server: 217.182.198.219
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪 DE 15 → tg@nicevpn123
   password: Uxm4ADwftKdXq5qRA4ZfHS
@@ -209,6 +243,7 @@ proxies:
   server: 49.13.10.50
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE 16 → tg@nicevpn123
@@ -229,6 +264,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇩🇪 DE 18 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
@@ -236,6 +272,7 @@ proxies:
   server: 217.182.198.219
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE 19 → tg@nicevpn123
@@ -263,6 +300,7 @@ proxies:
   server: 213.183.44.17
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE 21 → tg@nicevpn123
@@ -280,6 +318,7 @@ proxies:
   server: 217.182.198.219
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 23 → tg@nicevpn123
   password: 4b1b3f03-6493-44a9-afcf-0ccf7c754154
   port: 443
@@ -287,6 +326,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE 24 → tg@nicevpn123
@@ -334,6 +374,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE 28 → tg@nicevpn123
@@ -351,6 +392,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 3 → tg@nicevpn123
   password: 0fe4bbdb-2854-4cc5-986c-f62dbb900bc5
   port: 443
@@ -358,6 +400,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇩🇪 DE 30 → tg@nicevpn123
   password: faBAoD54k87UJG7
@@ -365,6 +408,7 @@ proxies:
   server: 217.182.198.219
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE 31 → tg@nicevpn123
@@ -382,6 +426,7 @@ proxies:
   server: 5.161.81.6
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 33 → tg@nicevpn123
   password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff
   port: 443
@@ -390,6 +435,7 @@ proxies:
   sni: glc-de1.windowsupdatea.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE 34 → tg@nicevpn123
@@ -407,6 +453,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 36 → tg@nicevpn123
   password: telegram-id-directvpn
   port: 22222
@@ -415,6 +462,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE 37 → tg@nicevpn123
@@ -438,6 +486,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇩🇪 DE 39 → tg@nicevpn123
   password: g5MeD6Ft3CWlJId
@@ -445,6 +494,7 @@ proxies:
   server: 217.182.198.219
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 4 → tg@nicevpn123
   password: telegram-id-privatevpns
   port: 22222
@@ -453,6 +503,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇩🇪 DE 40 → tg@nicevpn123
   password: 4pWVbIVIuw4LK9wvMgcHW5
@@ -460,6 +511,7 @@ proxies:
   server: 193.228.128.143
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE 41 → tg@nicevpn123
@@ -513,6 +565,7 @@ proxies:
   sni: lovehjq.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 45 → tg@nicevpn123
   password: telegram-id-directvpn
   port: 22222
@@ -521,6 +574,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE 46 → tg@nicevpn123
@@ -539,6 +593,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 48 → tg@nicevpn123
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 46521
@@ -547,6 +602,7 @@ proxies:
   sni: lovehjq.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 5 → tg@nicevpn123
   password: c55c7930-858b-45f5-9ac3-d66b805a4569
   port: 443
@@ -554,6 +610,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇩🇪 DE 6 → tg@nicevpn123
@@ -576,6 +633,7 @@ proxies:
   server: 136.244.81.170
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇩🇪 DE 8 → tg@nicevpn123
   password: telegram-id-directvpn
   port: 22222
@@ -584,6 +642,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇩🇪 DE 9 → tg@nicevpn123
   password: faBAoD54k87UJG7
@@ -591,6 +650,7 @@ proxies:
   server: 217.182.198.219
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 未知131
@@ -1088,18 +1148,21 @@ proxies:
   port: 7001
   server: 145.239.1.100
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇩🇪DE-145.239.1.100-0225 | 0.0M...
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 145.239.1.100
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇩🇪DE-145.239.1.100-0228 | 0.0M...
   password: Y6R9pAtvxxzmGC
   port: 5000
   server: 145.239.1.100
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -1107,6 +1170,7 @@ proxies:
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 1|🇩🇪 德国 01 | 1x DE
   password: eea28d8c-2132-4147-85d5-93b4bd405b34
@@ -1114,3 +1178,4 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888

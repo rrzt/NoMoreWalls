@@ -20,6 +20,7 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 'FR法国 #3'
   password: OVlHEMLx3ZBjznj/RJ6p8jAIcLdRyzojPMqIjPI215U=
@@ -28,6 +29,7 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: '未知 VMESS-832 | free-nodes - 10... #2'
@@ -56,6 +58,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -68,10 +71,11 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_7|262KB/s 01 #1'
+  name: 🇫🇷FR_7|262KB/s 01
   network: ws
   password: humanity
   port: 443
@@ -80,6 +84,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -96,6 +101,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -108,6 +114,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -120,6 +127,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -133,10 +141,11 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_20|94KB/s 01 #1'
+  name: 🇫🇷FR_20|94KB/s 01
   network: ws
   password: humanity
   port: 443
@@ -145,6 +154,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
@@ -160,6 +170,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -172,6 +183,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -184,10 +196,11 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_28|334KB/s 01 #1'
+  name: 🇫🇷FR_28|334KB/s 01
   network: ws
   password: humanity
   port: 443
@@ -196,13 +209,14 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_29|370KB/s 01 #1'
+  name: 🇫🇷FR_29|370KB/s 01
   network: ws
   password: humanity
   port: 443
@@ -211,18 +225,20 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
 - cipher: chacha20-ietf-poly1305
-  name: '🇫🇷FR_30|213KB/s 01 #1'
+  name: 🇫🇷FR_30|213KB/s 01
   password: bBnV36tzt7MKV75aDZTbzG
   port: 8388
   server: 141.227.152.129
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇫🇷FR_31
   network: ws
@@ -233,6 +249,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -245,6 +262,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -257,6 +275,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -269,6 +288,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -281,6 +301,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -293,10 +314,11 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_50|337KB/s 01 #1'
+  name: 🇫🇷FR_50|337KB/s 01
   network: ws
   password: bpb-trojan
   port: 443
@@ -305,6 +327,7 @@ proxies:
   sni: vless.herogoing.top
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
@@ -322,6 +345,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -334,12 +358,13 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_84|199KB/s 01 #1'
+  name: 🇫🇷FR_84|199KB/s 01
   network: ws
   password: 988sR-269PKCKlb&3pMrFTEr
   port: 443
@@ -348,6 +373,7 @@ proxies:
   sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
@@ -365,6 +391,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -377,6 +404,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -391,6 +419,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -403,12 +432,13 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_128|100KB/s 01 #1'
+  name: 🇫🇷FR_128|100KB/s 01
   network: ws
   password: bd85f5fe32d9446a8b1f59e4f710455b
   port: 443
@@ -417,6 +447,7 @@ proxies:
   sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
@@ -436,6 +467,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -448,6 +480,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -460,6 +493,7 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -473,6 +507,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -486,6 +521,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -499,6 +535,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -512,6 +549,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -525,6 +563,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -538,10 +577,11 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_188|295KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_188|295KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -551,6 +591,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -567,6 +608,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -580,6 +622,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -593,6 +636,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -606,10 +650,11 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_201|207KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_201|207KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -619,6 +664,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
@@ -635,6 +681,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -648,6 +695,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -661,6 +709,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -674,6 +723,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -687,6 +737,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -702,6 +753,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -719,6 +771,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -732,6 +785,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -745,6 +799,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -760,6 +815,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -773,6 +829,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -786,10 +843,11 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_311|145KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_311|145KB/s|C002-260622 0...
   network: ws
   password: humanity
   port: 443
@@ -799,6 +857,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
@@ -815,6 +874,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -828,6 +888,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -841,6 +902,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -854,6 +916,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -867,10 +930,11 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_345|302KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_345|302KB/s|C002-260622 0...
   network: ws
   password: humanity
   port: 443
@@ -880,6 +944,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
@@ -889,7 +954,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_364|191KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_364|191KB/s|C002-260622 0...
   network: ws
   password: humanity
   port: 443
@@ -899,6 +964,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -915,6 +981,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -928,6 +995,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -941,6 +1009,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -958,10 +1027,11 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_389|240KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_389|240KB/s|C002-260622 0...
   network: ws
   password: humanity
   port: 443
@@ -971,6 +1041,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -987,10 +1058,11 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_422|279KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_422|279KB/s|C002-260622 0...
   network: ws
   password: humanity
   port: 443
@@ -1000,6 +1072,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -1016,6 +1089,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1029,6 +1103,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1042,6 +1117,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - cipher: chacha20-ietf-poly1305
@@ -1052,6 +1128,7 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   name: 🇫🇷FR_508
   network: ws
@@ -1063,12 +1140,13 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /195.123.218.174-443
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_516|515KB/s|M002-260618 0... #1'
+  name: 🇫🇷FR_516|515KB/s|M002-260618 0...
   network: ws
   password: A4u^p(_UR*F6
   port: 443
@@ -1078,6 +1156,7 @@ proxies:
   sub_tag: M002-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
@@ -1096,10 +1175,11 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_558|242KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_558|242KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -1109,13 +1189,14 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_559|379KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_559|379KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -1125,6 +1206,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
@@ -1133,7 +1215,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_560|236KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_560|236KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -1143,6 +1225,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -1161,12 +1244,13 @@ proxies:
   sub_tag: T001-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_564|193KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_564|193KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -1176,6 +1260,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
@@ -1191,6 +1276,7 @@ proxies:
   sub_tag: M001-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: www.calmloud.com
@@ -1208,6 +1294,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1221,10 +1308,11 @@ proxies:
   sub_tag: F003-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  name: '🇫🇷FR_584|176KB/s|S004-260618 0... #1'
+  name: 🇫🇷FR_584|176KB/s|S004-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -1234,6 +1322,7 @@ proxies:
   sub_tag: S004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
@@ -1249,6 +1338,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1261,10 +1351,11 @@ proxies:
   sni: www.gossipglove.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_622|347KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_622|347KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -1274,6 +1365,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
@@ -1290,6 +1382,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1303,6 +1396,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1316,6 +1410,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1329,6 +1424,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1342,6 +1438,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1355,6 +1452,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -1370,12 +1468,13 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_683|183KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_683|183KB/s|C002-260622 0...
   network: ws
   password: 988sR-269PKCKlb&3pMrFTEr
   port: 443
@@ -1385,6 +1484,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
@@ -1402,6 +1502,7 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1415,10 +1516,11 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_785|339KB/s|S004-260618 0... #1'
+  name: 🇫🇷FR_785|339KB/s|S004-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -1428,13 +1530,14 @@ proxies:
   sub_tag: S004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36
         (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: '🇫🇷FR_800|225KB/s|C002-260622 0... #1'
+  name: 🇫🇷FR_800|225KB/s|C002-260622 0...
   network: ws
   password: d0298536-d670-4045-bbb1-ddd5ea68683e
   port: 443
@@ -1444,6 +1547,7 @@ proxies:
   sub_tag: C002-260622
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     early-data-header-name: Sec-WebSocket-Protocol
     headers:
@@ -1461,7 +1565,7 @@ proxies:
       - node-uk.connectsuite.org
     path:
     - /
-  name: '🇫🇷FR_804|71KB/s|B007-260618 01 #1'
+  name: 🇫🇷FR_804|71KB/s|B007-260618 01
   network: http
   packet-encoding: xudp
   port: 2052
@@ -1474,7 +1578,7 @@ proxies:
   uuid: 40b25dc2-8e1a-4889-b334-e3376ab3d865
   xudp: true
 - client-fingerprint: chrome
-  name: '🇫🇷FR_809|105KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_809|105KB/s|B007-260618 0...
   network: ws
   password: humanity
   port: 443
@@ -1484,6 +1588,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
@@ -1500,6 +1605,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - client-fingerprint: chrome
@@ -1513,6 +1619,7 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /
 - client-fingerprint: chrome
@@ -1526,6 +1633,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - alpn:
@@ -1541,6 +1649,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /assignment
 - cipher: aes-256-gcm
@@ -1551,6 +1660,7 @@ proxies:
   sub_tag: A004-260618
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -1564,6 +1674,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
 - alpn:
@@ -1579,12 +1690,13 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_920|150KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_920|150KB/s|B007-260618 0...
   network: ws
   password: MiTiVPN
   port: 443
@@ -1594,6 +1706,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
@@ -1602,7 +1715,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_922|94KB/s|S004-260618 01 #1'
+  name: 🇫🇷FR_922|94KB/s|S004-260618 01
   network: ws
   password: MITIVPN
   port: 443
@@ -1612,6 +1725,7 @@ proxies:
   sub_tag: S004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
@@ -1620,7 +1734,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_928|380KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_928|380KB/s|B007-260618 0...
   network: ws
   password: MiTiVPN
   port: 443
@@ -1630,6 +1744,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
@@ -1638,7 +1753,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_935|127KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_935|127KB/s|B007-260618 0...
   network: ws
   password: MITIVPN
   port: 443
@@ -1648,6 +1763,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -1656,7 +1772,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_936|271KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_936|271KB/s|B007-260618 0...
   network: ws
   password: MiTiVPN
   port: 443
@@ -1666,6 +1782,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -1684,12 +1801,13 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_962|418KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_962|418KB/s|B007-260618 0...
   network: ws
   password: MITIVPN
   port: 443
@@ -1699,6 +1817,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
@@ -1717,6 +1836,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
@@ -1732,6 +1852,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
@@ -1747,12 +1868,13 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇫🇷FR_966|286KB/s|B007-260618 0... #1'
+  name: 🇫🇷FR_966|286KB/s|B007-260618 0...
   network: ws
   password: MiTiVPN
   port: 443
@@ -1762,6 +1884,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
@@ -1780,6 +1903,7 @@ proxies:
   sub_tag: B007-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - cipher: chacha20-ietf-poly1305
@@ -1789,6 +1913,7 @@ proxies:
   server: switcher-nick-croquet.freesocks.work
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 1 → tg@nicevpn123
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   port: 443
@@ -1796,6 +1921,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 10 → tg@nicevpn123
   password: kDWvXYZoTBcGkC4
@@ -1803,6 +1929,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷 FR 11 → tg@nicevpn123
   password: G!yBwPWH3Vao
@@ -1810,6 +1937,7 @@ proxies:
   server: 51.178.87.37
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 12 → tg@nicevpn123
   password: e4FCWrgpkji3QY
@@ -1817,6 +1945,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 13 → tg@nicevpn123
   password: 1038bc70-fe01-11ee-a6a2-1239d0255272
   port: 443
@@ -1824,6 +1953,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇫🇷 FR 14 → tg@nicevpn123
@@ -1844,6 +1974,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 16 → tg@nicevpn123
   password: KixLvKzwjekG00rm
@@ -1851,6 +1982,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 17 → tg@nicevpn123
   password: fc1e07b5-840b-4446-8232-94b0606f2e0d
   port: 443
@@ -1858,6 +1990,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷FR-149.202.82.172-0022 | 0.0...
   password: Y6R9pAtvxxzmGC
@@ -1865,6 +1998,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 19 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
@@ -1872,6 +2006,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   http-opts:
@@ -1894,6 +2029,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 21 → tg@nicevpn123
   password: RexnBgU7EV5ADxG
@@ -1901,6 +2037,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 22 → tg@nicevpn123
   password: kDWvXYZoTBcGkC4
@@ -1908,6 +2045,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 23 → tg@nicevpn123
   password: fc1e07b5-840b-4446-8232-94b0606f2e0d
   port: 443
@@ -1915,6 +2053,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 24 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
@@ -1922,6 +2061,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 25 → tg@nicevpn123
   password: TEzjfAYq2IjtuoS
@@ -1929,6 +2069,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷 FR 26 → tg@nicevpn123
   password: G!yBwPWH3Vao
@@ -1936,6 +2077,7 @@ proxies:
   server: 51.178.87.37
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 27 → tg@nicevpn123
   password: KixLvKzwjekG00rm
@@ -1943,6 +2085,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 28 → tg@nicevpn123
   password: FoOiGlkAA9yPEGP
@@ -1950,6 +2093,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 29 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
@@ -1957,6 +2101,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 3 → tg@nicevpn123
   password: FoOiGlkAA9yPEGP
@@ -1964,6 +2109,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 30 → tg@nicevpn123
   password: KixLvKzwjekG00rm
@@ -1971,6 +2117,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 31 → tg@nicevpn123
   password: e4FCWrgpkji3QY
@@ -1978,6 +2125,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 32 → tg@nicevpn123
   password: RexnBgU7EV5ADxG
@@ -1985,6 +2133,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷 FR 33 → tg@nicevpn123
   password: LE6Ee6PELhVu
@@ -1992,6 +2141,7 @@ proxies:
   server: 92.243.24.236
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 34 → tg@nicevpn123
   password: faBAoD54k87UJG7
@@ -1999,6 +2149,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 35 → tg@nicevpn123
   password: g5MeD6Ft3CWlJId
@@ -2006,6 +2157,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇫🇷 FR 36 → tg@nicevpn123
@@ -2023,6 +2175,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇫🇷 FR 38 → tg@nicevpn123
   password: f8f7aCzcPKbsF8p3
@@ -2030,6 +2183,7 @@ proxies:
   server: 51.159.111.208
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 39 → tg@nicevpn123
   password: pKEW8JPByTVTLtM
@@ -2037,6 +2191,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 4 → tg@nicevpn123
   password: KkDzY101Oe
@@ -2044,6 +2199,7 @@ proxies:
   server: 51.195.149.115
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 40 → tg@nicevpn123
   password: wkmY1R4EcP
   port: 443
@@ -2052,6 +2208,7 @@ proxies:
   sni: z-v2-002805.kailib.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷FR-149.202.82.172-0203 | 0.0...
   password: pKEW8JPByTVTLtM
@@ -2059,6 +2216,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 42 → tg@nicevpn123
   password: cdBIDV42DCwnfIN
@@ -2066,6 +2224,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 43 → tg@nicevpn123
   password: XKFKl2rULjIp74
@@ -2073,6 +2232,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷 FR 44 → tg@nicevpn123
   password: cqBAAW0fZcqQ1Bn06jwhro
@@ -2080,6 +2240,7 @@ proxies:
   server: 92.243.27.51
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 45 → tg@nicevpn123
   password: XKFKl2rULjIp74
@@ -2087,6 +2248,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 46 → tg@nicevpn123
   password: faBAoD54k87UJG7
@@ -2094,6 +2256,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 47 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
@@ -2101,6 +2264,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 法国 017
@@ -2137,6 +2301,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 50 → tg@nicevpn123
   password: Y6R9pAtvxxzmGC
@@ -2144,6 +2309,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 51 → tg@nicevpn123
   password: 7gaTTlW73G
@@ -2151,6 +2317,7 @@ proxies:
   server: 51.222.157.179
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 52 → tg@nicevpn123
   password: telegram-id-privatevpns
   port: 22222
@@ -2159,6 +2326,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 6 → tg@nicevpn123
   password: g5MeD6Ft3CWlJId
@@ -2166,6 +2334,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
   name: 🇫🇷 FR 7 → tg@nicevpn123
   password: f8f7aCzcPKbsF8p3
@@ -2173,6 +2342,7 @@ proxies:
   server: 195.154.169.198
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇫🇷 FR 8 → tg@nicevpn123
   password: telegram-id-privatevpns
   port: 22222
@@ -2181,6 +2351,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇫🇷 FR 9 → tg@nicevpn123
   password: cdBIDV42DCwnfIN
@@ -2188,6 +2359,7 @@ proxies:
   server: 149.202.82.172
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 未知23 29.5KB/s
@@ -2570,6 +2742,7 @@ proxies:
   port: 443
   server: 51.158.54.209
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -2581,6 +2754,7 @@ proxies:
   skip-cert-verify: true
   sni: www.calmloud.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
       Host: www.calmloud.com
@@ -2594,6 +2768,7 @@ proxies:
   server: jquery.com
   sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
 - alpn:
@@ -2605,6 +2780,7 @@ proxies:
   server: 104.24.163.206
   sni: BpB-PAnEL-62c3.mlM-eE9A3b83.wOrKErS.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoibkN2cER2SDZIUTkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6IiIsInBhbmVsSVBzIjoiWzJhMDI6ODk4OjE0Njo2NDo6XSJ9?ed=2560
 - alpn:
@@ -2616,6 +2792,7 @@ proxies:
   server: 104.18.155.119
   sni: LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560
 - name: 🇫🇷FR_422
@@ -2625,6 +2802,7 @@ proxies:
   server: 104.16.174.22
   sni: www.ignitelimit.com
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: //assignment
 - name: 🇫🇷FR_50
@@ -2634,6 +2812,7 @@ proxies:
   server: vless.herogoing.top
   sni: vless.herogoing.top
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /tr?ed=2560
 - name: 🇫🇷FR_800
@@ -2643,5 +2822,6 @@ proxies:
   server: 104.19.173.68
   sni: azadnet-5vk.pages.dev
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     path: /azadnet-5vk.pages.dev/?ed=2560

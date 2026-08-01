@@ -59,7 +59,7 @@ proxies:
   udp: true
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
 - client-fingerprint: chrome
-  name: '🇨🇭CH_2|272KB/s|A004-260618 01 #1'
+  name: 🇨🇭CH_2|272KB/s|A004-260618 01
   network: tcp
   password: y3b03zx3tznhyo538p4c
   port: 53261
@@ -68,6 +68,7 @@ proxies:
   sub_tag: A004-260618
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: CH 1 → tg@nicevpn123
   password: 55319b01-5d85-48a2-a40a-0b3fc1985755
   port: 11005
@@ -75,6 +76,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: CH 2 → tg@nicevpn123
   password: 55319b01-5d85-48a2-a40a-0b3fc1985755
   port: 11007
@@ -82,6 +84,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: CH 3 → tg@nicevpn123
   password: 55319b01-5d85-48a2-a40a-0b3fc1985755
   port: 11006
@@ -89,6 +92,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: CH 4 → tg@nicevpn123
   password: 55319b01-5d85-48a2-a40a-0b3fc1985755
   port: 11004
@@ -96,6 +100,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: CH 5 → tg@nicevpn123
   password: 55319b01-5d85-48a2-a40a-0b3fc1985755
   port: 11000
@@ -103,6 +108,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alpn:
   - h3
   name: 'کانال تلگرام : Free_VPN_CH@ #1'
@@ -115,6 +121,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 'کانال تلگرام : Free_VPN_CH@ #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -125,6 +132,7 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 瑞士 001
@@ -201,6 +209,7 @@ proxies:
   port: 80
   server: 84.17.53.163
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality
@@ -313,6 +322,7 @@ proxies:
   skip-cert-verify: true
   sni: 86.106.84.195
   type: trojan
+  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: vless-grpc-reality

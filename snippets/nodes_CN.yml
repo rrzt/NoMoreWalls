@@ -53,6 +53,7 @@ proxies:
   sni: ru01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 100 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36106
@@ -61,6 +62,7 @@ proxies:
   sni: jp02.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 101 → tg@nicevpn123
@@ -78,6 +80,7 @@ proxies:
   server: 211.99.97.5
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 103 → tg@nicevpn123
   password: BZjkHMao
   port: 40316
@@ -85,6 +88,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 104 → tg@nicevpn123
@@ -102,6 +106,7 @@ proxies:
   server: 3u1s03.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 106 → tg@nicevpn123
@@ -119,6 +124,7 @@ proxies:
   server: 211.99.97.9
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 108 → tg@nicevpn123
@@ -137,6 +143,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 11 → tg@nicevpn123
   password: 20ff026e-e9c7-4147-bf3c-d6e21063f92c
@@ -144,6 +151,7 @@ proxies:
   server: zsg2.capoonetwork.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 110 → tg@nicevpn123
   password: e6f8da28-345b-46aa-9ef8-edf27777a533
@@ -151,6 +159,7 @@ proxies:
   server: k9.b99.buzz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 111 → tg@nicevpn123
@@ -168,6 +177,7 @@ proxies:
   server: beromo.youxinye.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 113 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14442
@@ -176,6 +186,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 114 → tg@nicevpn123
   password: 20ff026e-e9c7-4147-bf3c-d6e21063f92c
@@ -183,6 +194,7 @@ proxies:
   server: zhk4.capoonetwork.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 115 → tg@nicevpn123
   password: 0a808411-2e85-4b1f-9365-5cde5457dfb4
@@ -190,6 +202,7 @@ proxies:
   server: hgu.zhuanaz.icu
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 116 → tg@nicevpn123
   password: 99301d55-a41f-4919-986b-1435996533aa
@@ -197,13 +210,15 @@ proxies:
   server: 120.238.122.207
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
-  name: 🇨🇳 CN 117 → tg@nicevpn123
+  name: xx|3176|puddincat07@Telegram
   password: dbEcUJ
   port: 24603
   server: us08.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 118 → tg@nicevpn123
@@ -236,6 +251,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 120 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14404
@@ -244,6 +260,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 121 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14414
@@ -252,6 +269,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 122 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14492
@@ -260,6 +278,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 123 → tg@nicevpn123
@@ -282,6 +301,7 @@ proxies:
   server: 36.212.237.146
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 125 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14403
@@ -290,6 +310,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 126 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14512
@@ -298,6 +319,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 127 → tg@nicevpn123
   password: 1a64d040-c56c-4e11-bcbb-272ff330f694
@@ -305,6 +327,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 128 → tg@nicevpn123
@@ -337,6 +360,7 @@ proxies:
   server: ztw1.capoonetwork.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 130 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -344,6 +368,7 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 131 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -351,6 +376,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 64
   cipher: auto
   name: 🇨🇳 CN 132 → tg@nicevpn123
@@ -368,6 +394,7 @@ proxies:
   server: 5fa33d2.vrqfmm.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 134 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -375,6 +402,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 135 → tg@nicevpn123
   password: b3a52055-af1a-4cbc-a554-1e107a82e76f
@@ -382,6 +410,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 136 → tg@nicevpn123
@@ -400,6 +429,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 138 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -407,6 +437,7 @@ proxies:
   server: 36.212.237.146
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 139 → tg@nicevpn123
   password: dbEcUJ
@@ -414,6 +445,7 @@ proxies:
   server: ge01.htz.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 14 → tg@nicevpn123
   password: 99301d55-a41f-4919-986b-1435996533aa
@@ -421,6 +453,7 @@ proxies:
   server: 120.238.122.208
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 140 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14323
@@ -429,6 +462,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 141 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -436,6 +470,7 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 142 → tg@nicevpn123
   password: 3ae13eaa-7e79-4079-9821-6178d35029ff
@@ -443,6 +478,7 @@ proxies:
   server: sgp3.network-cdn-gw.cc
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 143 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14502
@@ -451,6 +487,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 144 → tg@nicevpn123
   password: b3a52055-af1a-4cbc-a554-1e107a82e76f
@@ -458,6 +495,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 145 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -465,6 +503,7 @@ proxies:
   server: 120.199.94.30
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 146 → tg@nicevpn123
@@ -483,6 +522,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 148 → tg@nicevpn123
   password: 622d80c4-6aab-4182-bb83-1a98af9d1817
@@ -490,6 +530,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 149 → tg@nicevpn123
   password: 20ff026e-e9c7-4147-bf3c-d6e21063f92c
@@ -497,6 +538,7 @@ proxies:
   server: zsg1.capoonetwork.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 15 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
@@ -504,6 +546,7 @@ proxies:
   server: 3u1s02.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 64
   cipher: auto
   name: 🇨🇳 CN 150 → tg@nicevpn123
@@ -521,6 +564,7 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 152 → tg@nicevpn123
   password: 1abbe654-89f6-4f1e-837f-90e118bc74e8
@@ -528,6 +572,7 @@ proxies:
   server: 220.195.133.232
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 153 → tg@nicevpn123
   password: 861de7db-5ada-4b36-903c-0ad6ba25d75a
@@ -535,6 +580,7 @@ proxies:
   server: qs9.anpxrc7hk-l2mcmp7-hk01.my777999.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 154 → tg@nicevpn123
   password: 861de7db-5ada-4b36-903c-0ad6ba25d75a
@@ -542,6 +588,7 @@ proxies:
   server: 789rmi3z.chytenciz-jgufv-sg02.my777999.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 155 → tg@nicevpn123
@@ -565,6 +612,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 157 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
@@ -572,6 +620,7 @@ proxies:
   server: 1j8p03.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 158 → tg@nicevpn123
@@ -614,6 +663,7 @@ proxies:
   server: 211.99.97.3
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 161 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36401
@@ -622,6 +672,7 @@ proxies:
   sni: kr01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 162 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
@@ -629,6 +680,7 @@ proxies:
   server: 8t6w03.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 163 → tg@nicevpn123
@@ -666,6 +718,7 @@ proxies:
   server: 36.212.129.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 167 → tg@nicevpn123
   password: 96f29af6-abb3-4f1b-9b42-3dc0367176dd
@@ -673,6 +726,7 @@ proxies:
   server: k9.b99.buzz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 168 → tg@nicevpn123
@@ -690,6 +744,7 @@ proxies:
   server: 36.212.129.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 17 → tg@nicevpn123
@@ -707,6 +762,7 @@ proxies:
   server: hk09.network-cdn-gw.cc
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 171 → tg@nicevpn123
   password: dbEcUJ
@@ -714,6 +770,7 @@ proxies:
   server: tw13.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 172 → tg@nicevpn123
@@ -731,6 +788,7 @@ proxies:
   server: bff6ce3.xvvrkb.lol
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 174 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -738,6 +796,7 @@ proxies:
   server: 36.212.129.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 175 → tg@nicevpn123
   password: 99301d55-a41f-4919-986b-1435996533aa
@@ -745,6 +804,7 @@ proxies:
   server: 120.238.122.208
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 176 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14501
@@ -753,6 +813,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 177 → tg@nicevpn123
   password: 861de7db-5ada-4b36-903c-0ad6ba25d75a
@@ -760,6 +821,7 @@ proxies:
   server: mwd-mfzj777rc1.x7kp-hk02.my777999.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 178 → tg@nicevpn123
   password: dbEcUJ
@@ -767,6 +829,7 @@ proxies:
   server: us07.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 179 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36701
@@ -775,6 +838,7 @@ proxies:
   sni: ca01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 18 → tg@nicevpn123
@@ -792,6 +856,7 @@ proxies:
   server: 36.212.129.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 181 → tg@nicevpn123
   password: Rad35baG
@@ -799,6 +864,7 @@ proxies:
   server: 121.43.117.216
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 182 → tg@nicevpn123
@@ -817,6 +883,7 @@ proxies:
   sni: de01.ckcloud.info
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 184 → tg@nicevpn123
@@ -844,6 +911,7 @@ proxies:
   server: 36.212.129.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 187 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36901
@@ -852,6 +920,7 @@ proxies:
   sni: nl01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 188 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14411
@@ -860,6 +929,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 189 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14434
@@ -868,6 +938,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 19 → tg@nicevpn123
   password: dbEcUJ
@@ -875,6 +946,7 @@ proxies:
   server: 211.99.97.16
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 190 → tg@nicevpn123
@@ -892,6 +964,7 @@ proxies:
   server: 98899.xef9wvmj31-gc3qil6-jp02.my777999.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 192 → tg@nicevpn123
@@ -924,6 +997,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 195 → tg@nicevpn123
@@ -941,6 +1015,7 @@ proxies:
   server: 36.212.129.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 197 → tg@nicevpn123
@@ -973,6 +1048,7 @@ proxies:
   server: sgp03.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 2 → tg@nicevpn123
@@ -1000,6 +1076,7 @@ proxies:
   server: 220.195.133.232
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 201 → tg@nicevpn123
   password: a731a23b-58f9-4d79-8f0c-5194a6617d46
@@ -1007,6 +1084,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 202 → tg@nicevpn123
@@ -1050,6 +1128,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 206 → tg@nicevpn123
   password: 3bf7be43-e331-4dad-856c-8d312dedea90
@@ -1057,6 +1136,7 @@ proxies:
   server: rk2.izoizoizo.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 中国 037
@@ -1079,6 +1159,7 @@ proxies:
   server: 36.212.237.146
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 209 → tg@nicevpn123
   password: dbEcUJ
@@ -1086,6 +1167,7 @@ proxies:
   server: us06.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 21 → tg@nicevpn123
   password: b40e67cc-b615-4f5b-ab2f-aa8a1290cc42
@@ -1093,6 +1175,7 @@ proxies:
   server: k9.b99.buzz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 210 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36874
@@ -1101,6 +1184,7 @@ proxies:
   sni: vn01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 211 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
@@ -1108,6 +1192,7 @@ proxies:
   server: 8t6w02.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 212 → tg@nicevpn123
   password: dbEcUJ
@@ -1115,6 +1200,7 @@ proxies:
   server: ir01.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 213 → tg@nicevpn123
   password: d9c577328fb349fe
@@ -1122,6 +1208,7 @@ proxies:
   server: 5fa33d2.vrqfmm.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 524 → tg@nicevpn123
@@ -1139,6 +1226,7 @@ proxies:
   server: db.quanstring.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 216 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14425
@@ -1147,6 +1235,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 64
   cipher: auto
   name: 🇨🇳 CN 219 → tg@nicevpn123
@@ -1174,6 +1263,7 @@ proxies:
   server: bff6ce3.xvvrkb.lol
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 220 → tg@nicevpn123
@@ -1192,6 +1282,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 222 → tg@nicevpn123
   password: 861de7db-5ada-4b36-903c-0ad6ba25d75a
@@ -1199,6 +1290,7 @@ proxies:
   server: 4349ufu.54jvd5y6ojams-us02.my777999.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 223 → tg@nicevpn123
   password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
   port: 26681
@@ -1207,6 +1299,7 @@ proxies:
   sni: us04.ckcloud.info
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 224 → tg@nicevpn123
   password: 65af0e00-a583-31b3-a4d8-68bdb504d3a6
@@ -1214,6 +1307,7 @@ proxies:
   server: 220.195.133.232
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 225 → tg@nicevpn123
@@ -1237,6 +1331,7 @@ proxies:
   sni: sg01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 227 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14493
@@ -1245,6 +1340,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 228 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -1252,6 +1348,7 @@ proxies:
   server: 36.212.129.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 229 → tg@nicevpn123
   password: dbEcUJ
@@ -1259,6 +1356,7 @@ proxies:
   server: 211.99.97.17
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 23 → tg@nicevpn123
   password: 7f7f075c-53f4-4671-8782-7b54540d4a38
@@ -1266,6 +1364,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 230 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14509
@@ -1274,6 +1373,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 231 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14433
@@ -1282,6 +1382,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 232 → tg@nicevpn123
@@ -1299,6 +1400,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 234 → tg@nicevpn123
@@ -1336,6 +1438,7 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 238 → tg@nicevpn123
   password: 3bf7be43-e331-4dad-856c-8d312dedea90
@@ -1343,6 +1446,7 @@ proxies:
   server: rk.izoizoizo.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 239 → tg@nicevpn123
   password: c44758e2-67a4-40b2-bbc8-4ca97861ea47
@@ -1350,6 +1454,7 @@ proxies:
   server: beromo.youxinye.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 24 → tg@nicevpn123
   password: ba89b12a-b50b-45a1-ba6b-0181f24fd68b
@@ -1357,6 +1462,7 @@ proxies:
   server: gzcm183.pkyun.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 240 → tg@nicevpn123
   password: 65af0e00-a583-31b3-a4d8-68bdb504d3a6
@@ -1364,6 +1470,7 @@ proxies:
   server: 220.195.133.232
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 241 → tg@nicevpn123
   password: MyYoZhfX
   port: 51000
@@ -1371,6 +1478,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 523 → tg@nicevpn123
@@ -1388,6 +1496,7 @@ proxies:
   server: kr01.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 245 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -1395,6 +1504,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 246 → tg@nicevpn123
   password: 20ff026e-e9c7-4147-bf3c-d6e21063f92c
@@ -1402,6 +1512,7 @@ proxies:
   server: zhk1.capoonetwork.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 247 → tg@nicevpn123
@@ -1419,6 +1530,7 @@ proxies:
   server: 9s5g01.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 249 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14401
@@ -1427,6 +1539,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 25 → tg@nicevpn123
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
@@ -1434,6 +1547,7 @@ proxies:
   server: service.ouluyun9803.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 250 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -1441,6 +1555,7 @@ proxies:
   server: 36.212.129.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 251 → tg@nicevpn123
   password: 20ff026e-e9c7-4147-bf3c-d6e21063f92c
@@ -1448,6 +1563,7 @@ proxies:
   server: zus1.capoonetwork.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 252 → tg@nicevpn123
   password: dbEcUJ
@@ -1455,6 +1571,7 @@ proxies:
   server: 211.99.97.6
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 253 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
@@ -1462,6 +1579,7 @@ proxies:
   server: 1j8p01.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 254 → tg@nicevpn123
@@ -1484,6 +1602,7 @@ proxies:
   server: tw12.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 256 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36301
@@ -1492,6 +1611,7 @@ proxies:
   sni: tw01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 257 → tg@nicevpn123
@@ -1509,6 +1629,7 @@ proxies:
   server: 211.99.97.15
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 259 → tg@nicevpn123
@@ -1536,6 +1657,7 @@ proxies:
   server: tw15.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 64
   cipher: auto
   name: 🇨🇳 CN 261 → tg@nicevpn123
@@ -1554,6 +1676,7 @@ proxies:
   sni: tw02.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 263 → tg@nicevpn123
@@ -1581,6 +1704,7 @@ proxies:
   server: tw14.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 266 → tg@nicevpn123
@@ -1609,6 +1733,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 269 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -1616,6 +1741,7 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 27 → tg@nicevpn123
@@ -1643,6 +1769,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 272 → tg@nicevpn123
   password: 20ff026e-e9c7-4147-bf3c-d6e21063f92c
@@ -1650,6 +1777,7 @@ proxies:
   server: ztw2.capoonetwork.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 273 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -1657,6 +1785,7 @@ proxies:
   server: 36.212.237.146
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 274 → tg@nicevpn123
   password: f6e72e98-34b2-4a93-8252-80f875ebbcfa
@@ -1664,6 +1793,7 @@ proxies:
   server: 123.88.16.163
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 275 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36821
@@ -1672,6 +1802,7 @@ proxies:
   sni: au01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 276 → tg@nicevpn123
   password: dbEcUJ
@@ -1679,6 +1810,7 @@ proxies:
   server: jp02.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 277 → tg@nicevpn123
@@ -1717,6 +1849,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 28 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36206
@@ -1725,6 +1858,7 @@ proxies:
   sni: sg02.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 280 → tg@nicevpn123
@@ -1742,6 +1876,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 282 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
@@ -1749,6 +1884,7 @@ proxies:
   server: 1j8p01.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 283 → tg@nicevpn123
@@ -1766,6 +1902,7 @@ proxies:
   server: 120.199.94.30
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 285 → tg@nicevpn123
   password: dbEcUJ
@@ -1773,6 +1910,7 @@ proxies:
   server: fr01.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 286 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -1780,6 +1918,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 287 → tg@nicevpn123
   password: 61d681ab-d52b-4e1a-ad01-127825f9cdb8
@@ -1787,6 +1926,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 288 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14435
@@ -1795,6 +1935,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 289 → tg@nicevpn123
   password: 4d64c2f3-e70b-4516-90c6-83cf2ffe2b69
@@ -1802,6 +1943,7 @@ proxies:
   server: zf.miaosu666.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 29 → tg@nicevpn123
@@ -1820,6 +1962,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 291 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14508
@@ -1828,6 +1971,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 292 → tg@nicevpn123
@@ -1858,6 +2002,7 @@ proxies:
   server: 9s5g02.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 295 → tg@nicevpn123
   password: dbEcUJ
@@ -1865,6 +2010,7 @@ proxies:
   server: hk05.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 296 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36871
@@ -1873,6 +2019,7 @@ proxies:
   sni: ua01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 297 → tg@nicevpn123
@@ -1891,6 +2038,7 @@ proxies:
   sni: th01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 299 → tg@nicevpn123
@@ -1928,6 +2076,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 301 → tg@nicevpn123
   password: ba89b12a-b50b-45a1-ba6b-0181f24fd68b
@@ -1935,6 +2084,7 @@ proxies:
   server: gzcm183.pkyun.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 302 → tg@nicevpn123
   password: 20ff026e-e9c7-4147-bf3c-d6e21063f92c
@@ -1942,6 +2092,7 @@ proxies:
   server: zjp3.capoonetwork.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 303 → tg@nicevpn123
@@ -1959,6 +2110,7 @@ proxies:
   server: beromo.youxinye.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 305 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36511
@@ -1967,6 +2119,7 @@ proxies:
   sni: us03.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 306 → tg@nicevpn123
   password: 517e4b6c-8190-4f1b-8b77-53973f536225
@@ -1974,6 +2127,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 307 → tg@nicevpn123
   password: 61d681ab-d52b-4e1a-ad01-127825f9cdb8
@@ -1981,6 +2135,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 308 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36811
@@ -1989,6 +2144,7 @@ proxies:
   sni: uk01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 309 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -1996,6 +2152,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 31 → tg@nicevpn123
   password: e50dd0c1-b1bc-4910-aa3e-7237d55043c1
@@ -2003,6 +2160,7 @@ proxies:
   server: db.quanstring.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 310 → tg@nicevpn123
   password: f6e72e98-34b2-4a93-8252-80f875ebbcfa
@@ -2010,6 +2168,7 @@ proxies:
   server: 123.88.16.163
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 311 → tg@nicevpn123
   password: f9nawu1Umf2xWKGVsDuTu
@@ -2017,6 +2176,7 @@ proxies:
   server: 211.99.102.183
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 312 → tg@nicevpn123
   password: ba89b12a-b50b-45a1-ba6b-0181f24fd68b
@@ -2024,6 +2184,7 @@ proxies:
   server: gzyd.pkyun.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 314 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -2031,6 +2192,7 @@ proxies:
   server: 120.199.94.30
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 315 → tg@nicevpn123
   password: d9c577328fb349fe
@@ -2038,6 +2200,7 @@ proxies:
   server: bff6ce3.xvvrkb.lol
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 316 → tg@nicevpn123
   password: d9c577328fb349fe
@@ -2045,6 +2208,7 @@ proxies:
   server: bff6ce3.xvvrkb.lol
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 317 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
@@ -2052,6 +2216,7 @@ proxies:
   server: 8h2k03.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 318 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14413
@@ -2060,6 +2225,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 319 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14497
@@ -2068,6 +2234,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 32 → tg@nicevpn123
   password: dbEcUJ
@@ -2075,6 +2242,7 @@ proxies:
   server: 211.99.97.4
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 320 → tg@nicevpn123
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
@@ -2082,6 +2250,7 @@ proxies:
   server: service.ouluyun9803.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 321 → tg@nicevpn123
@@ -2129,6 +2298,7 @@ proxies:
   server: 120.238.122.208
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 326 → tg@nicevpn123
@@ -2146,6 +2316,7 @@ proxies:
   server: 101.91.164.138
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 328 → tg@nicevpn123
   password: b6c5467a-bc99-3fec-bd8a-b33ffc52c6ab
@@ -2153,6 +2324,7 @@ proxies:
   server: 220.195.133.232
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 中国 038
@@ -2185,6 +2357,7 @@ proxies:
   server: 211.99.97.21
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 331 → tg@nicevpn123
   password: e10bcd91-0b82-4c76-91c7-33aff0eb94bb
@@ -2192,6 +2365,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 332 → tg@nicevpn123
   password: 3ae13eaa-7e79-4079-9821-6178d35029ff
@@ -2199,6 +2373,7 @@ proxies:
   server: sgp05.network-cdn-gw.cc
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 333 → tg@nicevpn123
   password: 99301d55-a41f-4919-986b-1435996533aa
@@ -2206,6 +2381,7 @@ proxies:
   server: 120.238.122.208
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 334 → tg@nicevpn123
@@ -2223,6 +2399,7 @@ proxies:
   server: in01.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 336 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14520
@@ -2231,6 +2408,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 337 → tg@nicevpn123
   password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
   port: 26094
@@ -2239,6 +2417,7 @@ proxies:
   sni: id01.ckcloud.info
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 338 → tg@nicevpn123
@@ -2266,6 +2445,7 @@ proxies:
   server: 120.199.94.30
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 340 → tg@nicevpn123
@@ -2283,6 +2463,7 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 342 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -2290,6 +2471,7 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 343 → tg@nicevpn123
   password: de572e57-d776-4c52-b8eb-61ba3859f9f1
@@ -2297,6 +2479,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 344 → tg@nicevpn123
@@ -2314,6 +2497,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 346 → tg@nicevpn123
   password: 20ff026e-e9c7-4147-bf3c-d6e21063f92c
@@ -2321,6 +2505,7 @@ proxies:
   server: zsg3.capoonetwork.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 347 → tg@nicevpn123
   password: d9c577328fb349fe
@@ -2328,6 +2513,7 @@ proxies:
   server: bff6ce3.xvvrkb.lol
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 348 → tg@nicevpn123
   password: 3bf7be43-e331-4dad-856c-8d312dedea90
@@ -2335,6 +2521,7 @@ proxies:
   server: rk2.izoizoizo.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 349 → tg@nicevpn123
   password: 61d681ab-d52b-4e1a-ad01-127825f9cdb8
@@ -2342,6 +2529,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 35 → tg@nicevpn123
@@ -2360,6 +2548,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 351 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -2367,6 +2556,7 @@ proxies:
   server: 120.199.94.30
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 352 → tg@nicevpn123
   password: dbEcUJ
@@ -2374,6 +2564,7 @@ proxies:
   server: au01.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 353 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14511
@@ -2382,6 +2573,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 354 → tg@nicevpn123
   password: d9c577328fb349fe
@@ -2389,6 +2581,7 @@ proxies:
   server: bff6ce3.xvvrkb.lol
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 355 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -2396,6 +2589,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 356 → tg@nicevpn123
@@ -2419,6 +2613,7 @@ proxies:
   sni: us04.ckcloud.info
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 358 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14351
@@ -2427,6 +2622,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 359 → tg@nicevpn123
   password: dbEcUJ
@@ -2434,6 +2630,7 @@ proxies:
   server: 211.99.97.11
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 36 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -2441,6 +2638,7 @@ proxies:
   server: 36.212.129.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 360 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -2448,6 +2646,7 @@ proxies:
   server: 36.212.129.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 361 → tg@nicevpn123
@@ -2469,6 +2668,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 363 → tg@nicevpn123
@@ -2524,6 +2724,7 @@ proxies:
   server: bff6ce3.xvvrkb.lol
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 368 → tg@nicevpn123
   password: 20ff026e-e9c7-4147-bf3c-d6e21063f92c
@@ -2531,6 +2732,7 @@ proxies:
   server: zjp1.capoonetwork.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 369 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14510
@@ -2539,6 +2741,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 37 → tg@nicevpn123
   password: 861de7db-5ada-4b36-903c-0ad6ba25d75a
@@ -2546,6 +2749,7 @@ proxies:
   server: gfoq.b4-h5a6gq7.h3w-kr01.my777999.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 370 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14519
@@ -2554,6 +2758,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 371 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14451
@@ -2562,6 +2767,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 372 → tg@nicevpn123
   password: 99301d55-a41f-4919-986b-1435996533aa
@@ -2569,6 +2775,7 @@ proxies:
   server: 120.238.122.208
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 373 → tg@nicevpn123
   password: dbEcUJ
@@ -2576,6 +2783,7 @@ proxies:
   server: 211.99.97.13
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 374 → tg@nicevpn123
@@ -2593,6 +2801,7 @@ proxies:
   server: gzyd.pkyun.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 376 → tg@nicevpn123
   password: 6044e7a8-a7e2-41a2-b5fa-b2d371f9da51
@@ -2600,6 +2809,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 377 → tg@nicevpn123
@@ -2617,6 +2827,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 379 → tg@nicevpn123
@@ -2635,6 +2846,7 @@ proxies:
   sni: tr01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 380 → tg@nicevpn123
@@ -2653,6 +2865,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 382 → tg@nicevpn123
@@ -2681,6 +2894,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 385 → tg@nicevpn123
@@ -2698,6 +2912,7 @@ proxies:
   server: sgp01.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 387 → tg@nicevpn123
   password: dbEcUJ
@@ -2705,6 +2920,7 @@ proxies:
   server: 211.99.97.22
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 388 → tg@nicevpn123
   password: d9c577328fb349fe
@@ -2712,6 +2928,7 @@ proxies:
   server: bff6ce3.xvvrkb.lol
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 389 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14324
@@ -2720,6 +2937,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 39 → tg@nicevpn123
   password: 99301d55-a41f-4919-986b-1435996533aa
@@ -2727,6 +2945,7 @@ proxies:
   server: 120.238.122.208
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 390 → tg@nicevpn123
   password: Rad33xaT
@@ -2734,6 +2953,7 @@ proxies:
   server: 47.96.69.161
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 391 → tg@nicevpn123
   password: d9c577328fb349fe
@@ -2741,6 +2961,7 @@ proxies:
   server: bff6ce3.xvvrkb.lol
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 392 → tg@nicevpn123
@@ -2773,6 +2994,7 @@ proxies:
   server: k9.b99.buzz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 395 → tg@nicevpn123
@@ -2800,6 +3022,7 @@ proxies:
   server: fg5d.84bbo0t-olimkrx-kr02.my777999.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 398 → tg@nicevpn123
   password: e9d26ad4-d745-4874-a869-a027d82ce786
@@ -2807,6 +3030,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 399 → tg@nicevpn123
@@ -2824,6 +3048,7 @@ proxies:
   server: 5fa33d2.vrqfmm.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 40 → tg@nicevpn123
@@ -2854,6 +3079,7 @@ proxies:
   server: db.quanstring.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 402 → tg@nicevpn123
@@ -2872,6 +3098,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 404 → tg@nicevpn123
   password: 5439a350-4170-42cc-a408-9e3d4e098041
@@ -2879,6 +3106,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 405 → tg@nicevpn123
@@ -2906,6 +3134,7 @@ proxies:
   server: gg.efnwgood.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 409 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36501
@@ -2914,6 +3143,7 @@ proxies:
   sni: us01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 41 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14515
@@ -2922,6 +3152,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 410 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -2929,6 +3160,7 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 411 → tg@nicevpn123
@@ -2956,6 +3188,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 415 → tg@nicevpn123
   password: 4d64c2f3-e70b-4516-90c6-83cf2ffe2b69
@@ -2963,6 +3196,7 @@ proxies:
   server: zf.miaosu666.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 416 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14496
@@ -2971,6 +3205,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 417 → tg@nicevpn123
   password: MyYoZhfX
   port: 443
@@ -2978,6 +3213,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 418 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -2985,6 +3221,7 @@ proxies:
   server: 120.199.94.30
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 419 → tg@nicevpn123
@@ -3002,6 +3239,7 @@ proxies:
   server: 211.99.97.7
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 420 → tg@nicevpn123
   password: dbEcUJ
@@ -3009,6 +3247,7 @@ proxies:
   server: jp01.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 421 → tg@nicevpn123
   password: BZjkHMao
   port: 51000
@@ -3016,6 +3255,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 422 → tg@nicevpn123
@@ -3033,6 +3273,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 424 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -3040,6 +3281,7 @@ proxies:
   server: 120.199.94.30
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 426 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14505
@@ -3048,6 +3290,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 64
   cipher: auto
   name: 🇨🇳 CN 427 → tg@nicevpn123
@@ -3078,6 +3321,7 @@ proxies:
   server: 3u1s01.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 64
   cipher: auto
   name: 🇨🇳 CN 43 → tg@nicevpn123
@@ -3095,6 +3339,7 @@ proxies:
   server: 8h2k02.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 431 → tg@nicevpn123
   password: dbEcUJ
@@ -3102,6 +3347,7 @@ proxies:
   server: sgp02.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 432 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36311
@@ -3110,6 +3356,7 @@ proxies:
   sni: tw03.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 433 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36801
@@ -3118,6 +3365,7 @@ proxies:
   sni: ph01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 434 → tg@nicevpn123
   password: 65af0e00-a583-31b3-a4d8-68bdb504d3a6
@@ -3125,6 +3373,7 @@ proxies:
   server: 220.195.133.232
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 1
   cipher: auto
   name: 🇨🇳 CN 435 → tg@nicevpn123
@@ -3146,6 +3395,7 @@ proxies:
   sni: in01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 437 → tg@nicevpn123
@@ -3178,6 +3428,7 @@ proxies:
   server: 36.212.237.146
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 44 → tg@nicevpn123
   password: 99301d55-a41f-4919-986b-1435996533aa
@@ -3185,6 +3436,7 @@ proxies:
   server: 120.238.122.208
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 440 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14517
@@ -3193,6 +3445,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 441 → tg@nicevpn123
   password: 3bf7be43-e331-4dad-856c-8d312dedea90
@@ -3200,6 +3453,7 @@ proxies:
   server: rk.izoizoizo.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 442 → tg@nicevpn123
@@ -3218,6 +3472,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 444 → tg@nicevpn123
@@ -3235,6 +3490,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 446 → tg@nicevpn123
   password: MyYoZhfX
   port: 40316
@@ -3242,6 +3498,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 447 → tg@nicevpn123
   password: a501c82c72d790b8
@@ -3249,6 +3506,7 @@ proxies:
   server: 119.23.104.213
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 448 → tg@nicevpn123
   password: dbEcUJ
@@ -3256,6 +3514,7 @@ proxies:
   server: 211.99.97.8
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 449 → tg@nicevpn123
   password: 575bc4d8-e9e0-48d4-9286-f922c17b35fc
   port: 53279
@@ -3264,6 +3523,7 @@ proxies:
   sni: de01.ckcloud.info
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 中国 040
@@ -3301,6 +3561,7 @@ proxies:
   server: 7879va.xikv2dvn-3g5erg0-us01.my777999.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 452 → tg@nicevpn123
   password: c44758e2-67a4-40b2-bbc8-4ca97861ea47
@@ -3308,6 +3569,7 @@ proxies:
   server: beromo.youxinye.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 453 → tg@nicevpn123
@@ -3325,6 +3587,7 @@ proxies:
   server: zar.capoonetwork.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 455 → tg@nicevpn123
   password: dbEcUJ
@@ -3332,6 +3595,7 @@ proxies:
   server: 211.99.97.19
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 456 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -3339,6 +3603,7 @@ proxies:
   server: 36.212.237.146
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 457 → tg@nicevpn123
@@ -3356,6 +3621,7 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 459 → tg@nicevpn123
@@ -3379,6 +3645,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 460 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -3386,6 +3653,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 461 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14432
@@ -3394,6 +3662,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 中国 041
@@ -3427,6 +3696,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 465 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
@@ -3434,6 +3704,7 @@ proxies:
   server: 8h2k01.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 466 → tg@nicevpn123
   password: 99301d55-a41f-4919-986b-1435996533aa
@@ -3441,6 +3712,7 @@ proxies:
   server: 120.238.122.207
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 468 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -3448,6 +3720,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 469 → tg@nicevpn123
   password: dbEcUJ
@@ -3455,6 +3728,7 @@ proxies:
   server: ca01.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 47 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36506
@@ -3463,6 +3737,7 @@ proxies:
   sni: us02.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 470 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -3470,6 +3745,7 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 471 → tg@nicevpn123
@@ -3487,6 +3763,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 473 → tg@nicevpn123
   password: 99301d55-a41f-4919-986b-1435996533aa
@@ -3494,6 +3771,7 @@ proxies:
   server: 120.238.122.208
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 474 → tg@nicevpn123
   password: dbEcUJ
@@ -3501,6 +3779,7 @@ proxies:
   server: jp04.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 475 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14441
@@ -3509,6 +3788,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 476 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36606
@@ -3517,6 +3797,7 @@ proxies:
   sni: hk02.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 477 → tg@nicevpn123
   password: 9bc1eddf-1674-40f1-ad64-00a6fc5c2054
@@ -3524,6 +3805,7 @@ proxies:
   server: gran.efnwgood.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 478 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14341
@@ -3532,6 +3814,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 479 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14431
@@ -3540,6 +3823,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 48 → tg@nicevpn123
@@ -3568,6 +3852,7 @@ proxies:
   sni: my01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 482 → tg@nicevpn123
@@ -3586,6 +3871,7 @@ proxies:
   sni: es01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 484 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36864
@@ -3594,6 +3880,7 @@ proxies:
   sni: hu01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 美国 309
@@ -3616,6 +3903,7 @@ proxies:
   server: 211.99.97.14
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 487 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36841
@@ -3624,6 +3912,7 @@ proxies:
   sni: de01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 488 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -3631,6 +3920,7 @@ proxies:
   server: 36.212.129.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 489 → tg@nicevpn123
@@ -3653,6 +3943,7 @@ proxies:
   server: 9s5g03.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 490 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36211
@@ -3661,6 +3952,7 @@ proxies:
   sni: sg03.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 491 → tg@nicevpn123
   password: 3ae13eaa-7e79-4079-9821-6178d35029ff
@@ -3668,6 +3960,7 @@ proxies:
   server: hkp8.network-cdn-gw.cc
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 492 → tg@nicevpn123
   password: dbEcUJ
@@ -3675,6 +3968,7 @@ proxies:
   server: jp03.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 493 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36877
@@ -3683,6 +3977,7 @@ proxies:
   sni: br01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 494 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14436
@@ -3691,6 +3986,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 495 → tg@nicevpn123
   password: dbEcUJ
@@ -3698,6 +3994,7 @@ proxies:
   server: tw11.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 497 → tg@nicevpn123
@@ -3715,6 +4012,7 @@ proxies:
   server: 220.195.133.232
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 499 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36601
@@ -3723,6 +4021,7 @@ proxies:
   sni: hk01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 5 → tg@nicevpn123
   password: 4d64c2f3-e70b-4516-90c6-83cf2ffe2b69
@@ -3730,6 +4029,7 @@ proxies:
   server: zf.miaosu666.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 50 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14495
@@ -3738,6 +4038,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 500 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -3745,6 +4046,7 @@ proxies:
   server: 120.199.94.30
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
   name: 🇨🇳 CN 501 → tg@nicevpn123
   password: d88dfa88-f02d-45b5-bb47-f240ad3b9db2
@@ -3752,6 +4054,7 @@ proxies:
   server: k9.b99.buzz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 502 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -3759,6 +4062,7 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 503 → tg@nicevpn123
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
@@ -3766,6 +4070,7 @@ proxies:
   server: service.ouluyun9803.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 504 → tg@nicevpn123
   password: 3bf7be43-e331-4dad-856c-8d312dedea90
@@ -3773,6 +4078,7 @@ proxies:
   server: rk2.izoizoizo.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 505 → tg@nicevpn123
@@ -3795,6 +4101,7 @@ proxies:
   server: 120.199.94.30
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 507 → tg@nicevpn123
@@ -3812,6 +4119,7 @@ proxies:
   server: 211.99.97.12
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 509 → tg@nicevpn123
@@ -3830,6 +4138,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 510 → tg@nicevpn123
@@ -3847,6 +4156,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 512 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14415
@@ -3855,6 +4165,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 513 → tg@nicevpn123
   password: 9bc1eddf-1674-40f1-ad64-00a6fc5c2054
@@ -3862,6 +4173,7 @@ proxies:
   server: gran.efnwgood.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 514 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14506
@@ -3870,6 +4182,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 515 → tg@nicevpn123
@@ -3887,6 +4200,7 @@ proxies:
   server: 211.99.97.20
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 517 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14518
@@ -3895,6 +4209,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 518 → tg@nicevpn123
@@ -3912,6 +4227,7 @@ proxies:
   server: zf.miaosu666.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 52 → tg@nicevpn123
   password: 78eb5aff-ce9e-46e7-bfe4-1c0b21b6d6ca
@@ -3919,6 +4235,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 520 → tg@nicevpn123
@@ -3936,6 +4253,7 @@ proxies:
   server: 120.238.122.207
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 522 → tg@nicevpn123
   password: 511fa4e6-5571-4419-b8c0-e930e603c03f
   port: 10807
@@ -3944,6 +4262,7 @@ proxies:
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 526 → tg@nicevpn123
@@ -3982,6 +4301,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 55 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36611
@@ -3990,6 +4310,7 @@ proxies:
   sni: hk03.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 56 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36111
@@ -3998,6 +4319,7 @@ proxies:
   sni: jp03.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 57 → tg@nicevpn123
   password: 6044e7a8-a7e2-41a2-b5fa-b2d371f9da51
@@ -4005,6 +4327,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 58 → tg@nicevpn123
@@ -4032,6 +4355,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 60 → tg@nicevpn123
   password: 8e949d75-3510-4678-8593-3c5032dd931a
@@ -4039,6 +4363,7 @@ proxies:
   server: wqfuinwqffq.dfcloud.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 61 → tg@nicevpn123
   password: c44758e2-67a4-40b2-bbc8-4ca97861ea47
@@ -4046,6 +4371,7 @@ proxies:
   server: beromo.youxinye.com
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 62 → tg@nicevpn123
   password: 25d06cec-e5d7-4b23-9058-213d48c02c67
@@ -4053,6 +4379,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 63 → tg@nicevpn123
@@ -4070,6 +4397,7 @@ proxies:
   server: 120.199.94.29
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 65 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -4077,6 +4405,7 @@ proxies:
   server: 36.212.237.146
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 66 → tg@nicevpn123
   password: 99301d55-a41f-4919-986b-1435996533aa
@@ -4084,6 +4413,7 @@ proxies:
   server: 120.238.122.208
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 67 → tg@nicevpn123
   password: dbEcUJ
@@ -4091,6 +4421,7 @@ proxies:
   server: jp10.ktp.wtf
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 68 → tg@nicevpn123
   password: 99301d55-a41f-4919-986b-1435996533aa
@@ -4098,6 +4429,7 @@ proxies:
   server: 120.238.122.207
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 69 → tg@nicevpn123
@@ -4115,6 +4447,7 @@ proxies:
   server: hgu.zhuanaz.icu
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 70 → tg@nicevpn123
   password: 861de7db-5ada-4b36-903c-0ad6ba25d75a
@@ -4122,6 +4455,7 @@ proxies:
   server: 8980k6.ceova9qgbqsqmfdy-jp01.my777999.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 71 → tg@nicevpn123
@@ -4140,6 +4474,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 73 → tg@nicevpn123
   password: d9c577328fb349fe
@@ -4147,6 +4482,7 @@ proxies:
   server: 5fa33d2.vrqfmm.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 74 → tg@nicevpn123
   password: 4d64c2f3-e70b-4516-90c6-83cf2ffe2b69
@@ -4154,6 +4490,7 @@ proxies:
   server: zf.miaosu666.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 75 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36861
@@ -4162,6 +4499,7 @@ proxies:
   sni: ar01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 76 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -4169,6 +4507,7 @@ proxies:
   server: 36.212.237.146
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 77 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
@@ -4176,6 +4515,7 @@ proxies:
   server: 8t6w01.a3b5wy.xyz
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-128-gcm
   name: 🇨🇳 CN 78 → tg@nicevpn123
   password: 1a64d040-c56c-4e11-bcbb-272ff330f694
@@ -4183,6 +4523,7 @@ proxies:
   server: 03.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 79 → tg@nicevpn123
   password: MyYoZhfX
   port: 51002
@@ -4190,6 +4531,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 8 → tg@nicevpn123
@@ -4237,6 +4579,7 @@ proxies:
   server: 36.212.129.234
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 84 → tg@nicevpn123
   password: 3016be06-2f91-4b8f-9e6a-bd55f2c55610
   port: 36116
@@ -4245,6 +4588,7 @@ proxies:
   sni: jp01.abpilot.xyz
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 85 → tg@nicevpn123
   password: 861de7db-5ada-4b36-903c-0ad6ba25d75a
@@ -4252,6 +4596,7 @@ proxies:
   server: j90r55t0im2kfwz6.3a-sg01.my777999.top
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 86 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14513
@@ -4260,6 +4605,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 87 → tg@nicevpn123
@@ -4287,6 +4633,7 @@ proxies:
   server: bff6ce3.xvvrkb.lol
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 9 → tg@nicevpn123
   password: b6c5467a-bc99-3fec-bd8a-b33ffc52c6ab
@@ -4294,6 +4641,7 @@ proxies:
   server: 220.195.133.232
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
   name: 🇨🇳 CN 90 → tg@nicevpn123
   password: d3c7f55f-e2af-4114-b0a3-058d219e2992
@@ -4301,6 +4649,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 91 → tg@nicevpn123
@@ -4328,6 +4677,7 @@ proxies:
   server: 04.forlive.live
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇨🇳 CN 94 → tg@nicevpn123
@@ -4345,6 +4695,7 @@ proxies:
   server: 36.212.129.235
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 96 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14516
@@ -4353,6 +4704,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - cipher: rc4-md5
   name: 🇨🇳 CN 97 → tg@nicevpn123
   password: dbEcUJ
@@ -4360,6 +4712,7 @@ proxies:
   server: 211.99.97.10
   type: ss
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 🇨🇳 CN 98 → tg@nicevpn123
   password: 277E0712-F3F1-0435-CEC5-9177070F30FF
   port: 14503
@@ -4368,6 +4721,7 @@ proxies:
   sni: mpvideo.qpic.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 64
   cipher: auto
   name: 🇨🇳 CN 99 → tg@nicevpn123
@@ -4674,20 +5028,6 @@ proxies:
     headers:
       Host: download.cloud.189.cn
     path: /
-- alterId: 64
-  cipher: auto
-  name: 中国 028
-  network: ws
-  port: 443
-  server: 103.212.98.234
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59795160.xyz
-    path: /path/011410073331
 - alterId: 0
   cipher: auto
   name: 中国 029
@@ -5702,6 +6042,7 @@ proxies:
   port: 25252
   server: 14.29.124.168
   type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 2|🇺🇸24 |  4.8MB/s
@@ -5733,6 +6074,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0043
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 27102
@@ -5741,6 +6083,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0044
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 27103
@@ -5749,6 +6092,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0045
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 42881
@@ -5757,6 +6101,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0046
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43393
@@ -5765,6 +6110,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0047
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43383
@@ -5773,6 +6119,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0048
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 27001
@@ -5781,6 +6128,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0049
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 22271
@@ -5789,6 +6137,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0050
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 22269
@@ -5797,6 +6146,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0051
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 46668
@@ -5805,6 +6155,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0052
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 34017
@@ -5813,6 +6164,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0053
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43394
@@ -5821,6 +6173,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0054
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43395
@@ -5829,6 +6182,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0055
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43396
@@ -5837,6 +6191,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0056
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43591
@@ -5845,6 +6200,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0057
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 27408
@@ -5853,6 +6209,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0058
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 42883
@@ -5861,6 +6218,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0059
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 46925
@@ -5869,6 +6227,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0060
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43397
@@ -5877,6 +6236,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0061
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 33505
@@ -5885,6 +6245,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0062
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 33506
@@ -5893,6 +6254,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0063
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 34016
@@ -5901,6 +6263,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0064
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43583
@@ -5909,6 +6272,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0065
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43498
@@ -5917,6 +6281,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0066
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 44397
@@ -5925,6 +6290,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0067
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43497
@@ -5933,6 +6299,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0068
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43590
@@ -5941,6 +6308,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 14|CN_speednode_0069
   password: e254ed63-33df-4ca8-a980-7d0d9f510a93
   port: 43586
@@ -5949,6 +6317,7 @@ proxies:
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
   udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
