@@ -462,6 +462,22 @@ class Crawler:
 
         soup = BeautifulSoup(html, 'html.parser')
 
+        # ========== 新增：从页面纯文本中提取所有符合通配符模式的 URL ==========
+        if patterns:
+            text = soup.get_text()
+            url_regex = re.compile(r'https?://[^\s<>"\'{}|\\^`\[\]]+', re.IGNORECASE)
+            for match in url_regex.findall(text):
+                url = clean_url(match)
+                if url in self.visited_urls:
+                    continue
+                for pattern in patterns:
+                    if pattern.match(url):
+                        print(f"  Found wildcard-matched URL from text: {url}")
+                        if depth < MAX_DEPTH:
+                            self.enqueue(url, depth + 1, patterns)
+                        break
+        # ====================================================================
+
         # 处理 a[href]
         for a in soup.find_all('a', href=True):
             href = a['href']
@@ -472,7 +488,6 @@ class Crawler:
             if full_url in self.visited_urls:
                 continue
 
-            # 检查是否匹配任一通配符模式
             matched = False
             if patterns:
                 for pattern in patterns:
@@ -481,6 +496,7 @@ class Crawler:
                         break
 
             if matched:
+                print(f"  Found wildcard-matched URL from href: {full_url}")
                 if depth < MAX_DEPTH:
                     self.enqueue(full_url, depth + 1, patterns)
                 if any(kw.lower() in full_url.lower() for kw in KEYWORDS):
@@ -492,7 +508,7 @@ class Crawler:
                 if depth < MAX_DEPTH and full_url not in self.visited_urls:
                     self.enqueue(full_url, depth + 1, patterns)
 
-        # 从纯文本提取URL
+        # 从纯文本提取URL（跳过已匹配通配符的）
         text = soup.get_text()
         url_regex = re.compile(r'https?://[^\s<>"\'{}|\\^`\[\]]+', re.IGNORECASE)
         for match in url_regex.findall(text):
@@ -500,22 +516,21 @@ class Crawler:
             if url in self.visited_urls:
                 continue
 
-            matched = False
+            already_matched = False
             if patterns:
                 for pattern in patterns:
                     if pattern.match(url):
-                        matched = True
+                        already_matched = True
                         break
+            if already_matched:
+                continue
 
-            if matched:
-                if depth < MAX_DEPTH:
-                    self.enqueue(url, depth + 1, patterns)
-            elif any(kw.lower() in url.lower() for kw in KEYWORDS):
+            if any(kw.lower() in url.lower() for kw in KEYWORDS):
                 self.download_subscription(url)
                 if depth < MAX_DEPTH and url not in self.visited_urls:
                     self.enqueue(url, depth + 1, patterns)
 
-        # 提取直接节点链接 (vmess://, ss://, trojan://)
+        # 提取直接节点链接
         node_link_regex = re.compile(r'(vmess|ss|trojan)://[^\s<>"\'{}|\\^`\[\]]+', re.IGNORECASE)
         for match in node_link_regex.findall(text):
             link = match.strip()
