@@ -109,7 +109,7 @@ CLASH_SSR_PROTOCOL = "origin auth_sha1_v4 auth_aes128_md5 auth_aes128_sha1 auth_
 FAKE_IPS = "8.8.8.8; 8.8.4.4; 4.2.2.2; 4.2.2.1; 114.114.114.114; 127.0.0.1; 0.0.0.0".split('; ')
 FAKE_DOMAINS = ".google.com .github.com".split()
 
-FETCH_TIMEOUT = (6, 20)
+FETCH_TIMEOUT = (6, 10)
 
 BANNED_WORDS = b64decodes('5rOV6L2uIOi9ruWtkCDova4g57uDIOawlCDlip8g5L2/5YqyIOWKsiDliqrlipsg5Yqg5rK5IOWlsyDmnYMg6L+Q5YqoIG9uZ3RhaXdhbg==').split()
 
@@ -1170,6 +1170,21 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
 
     print(f"共有 {len(rules)} 条规则")
 
+def fix_proxy_group_loop(groups: List[Dict[str, Any]]) -> None:
+    """
+    检测并修复 proxy-groups 中的循环引用（自引用）。
+    如果某个组的 proxies 列表中包含自身组名，则移除该自引用。
+    """
+    for group in groups:
+        group_name = group.get('name')
+        if not group_name:
+            continue
+        proxies = group.get('proxies')
+        if proxies and isinstance(proxies, list):
+            if group_name in proxies:
+                proxies.remove(group_name)
+                print(f"  已移除 {group_name} 组中的自引用")
+
 def main():
     global merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
@@ -1257,7 +1272,7 @@ def main():
                     FETCH_TIMEOUT = (1, 0)
                     break
                 if not threads[i].is_alive(): break
-                print(f"{20*t}s")
+                print(f"{10*t}s")
             if threads[i].is_alive():
                 print("超时！")
                 continue
@@ -1428,6 +1443,11 @@ def main():
     names_clash = list(names_clash)
     names_clash_meta = list(names_clash_meta)
     conf_meta = copy.deepcopy(conf)
+
+    # ====== 新增：修复 proxy-groups 循环引用 ======
+    fix_proxy_group_loop(conf['proxy-groups'])
+    fix_proxy_group_loop(conf_meta['proxy-groups'])
+    # =============================================
 
     # Clash
     conf['proxies'] = proxies
