@@ -42,7 +42,7 @@ ABFWHITE = (          # Adblock 规则白名单
 import yaml
 import json
 import base64
-from urllib.parse import quote, unquote, urlparse
+from urllib.parse import quote, unquote, urlparse, parse_qs
 import requests
 from requests_file import FileAdapter
 import datetime
@@ -211,8 +211,6 @@ class Node:
             elif self.type == 'hysteria2':
                 path = data.get('sni', '')+':'
                 path += data.get('obfs-password', '')+':'
-                # print(self.url)
-                # return hash(self.url)
             path += '@'+','.join(data.get('alpn', []))+'@'+data.get('password', '')+data.get('uuid', '')
             hashstr = f"{self.type}:{data['server']}:{data['port']}:{path}"
             return hash(hashstr)
@@ -303,9 +301,13 @@ class Node:
             raise UnsupportedType('ss', 'SP')
         info = '@'.join(info)
         if not ':' in info:
-            info = b64decodes_safe(info)
+            try:
+                info = b64decodes_safe(info)
+            except Exception:
+                raise UnsupportedType('ss', 'SP')
+        # ====== 修复：使用 rsplit 避免密码中包含 ':' ======
         if ':' in info:
-            cipher, passwd = info.split(':')
+            cipher, passwd = info.rsplit(':', 1)   # 从右侧分割，只分割一次
         else:
             cipher = info
             passwd = ''
@@ -345,8 +347,10 @@ class Node:
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
                 'port': parsed.port, 'type': 'trojan', 'password': unquote(parsed.username)}
         if not parsed.query: return
-        for kv in parsed.query.split('&'):
-            k,v = kv.split('=', 1)
+        # ====== 使用 parse_qs 处理查询参数 ======
+        query = parse_qs(parsed.query)
+        for k, vals in query.items():
+            v = vals[0] if vals else ''
             if k in ('allowInsecure', 'insecure'):
                 self.data['skip-cert-verify'] = (v != '0')
             elif k == 'sni': self.data['sni'] = v
@@ -375,8 +379,10 @@ class Node:
                 'port': parsed.port, 'type': 'vless', 'uuid': unquote(parsed.username)}
         self.data['tls'] = False
         if not parsed.query: return
-        for kv in parsed.query.split('&'):
-            k,v = kv.split('=', 1)
+        # ====== 使用 parse_qs 处理查询参数，避免 split 错误 ======
+        query = parse_qs(parsed.query)
+        for k, vals in query.items():
+            v = vals[0] if vals else ''
             if k in ('allowInsecure', 'insecure'):
                 self.data['skip-cert-verify'] = (v != '0')
             elif k == 'sni': self.data['servername'] = v
@@ -413,12 +419,13 @@ class Node:
                 if 'reality-opts' not in self.data:
                     self.data['reality-opts'] = {}
                 self.data['reality-opts']['short-id'] = v
-            # TODO: Unused key encryption
 
     def _load_hysteria2(self, url: str, dt: str):
         parsed = self.urlparse(url)
+        # ====== 修复：username 可能为 None ======
+        username = unquote(parsed.username) if parsed.username else ''
         self.data = {'name': unquote(parsed.fragment), 'server': parsed.hostname,
-                'type': 'hysteria2', 'password': unquote(parsed.username)}
+                'type': 'hysteria2', 'password': username}
         if ':' in parsed.netloc:
             ports = parsed.netloc.split(':')[1]
             if ',' in ports:
@@ -431,12 +438,10 @@ class Node:
             self.data['port'] = 443
         self.data['tls'] = False
         if not parsed.query: return
-        k = v = ''
-        for kv in parsed.query.split('&'):
-            if '=' in kv:
-                k,v = kv.split('=', 1)
-            else:
-                v += '&' + kv
+        # ====== 使用 parse_qs ======
+        query = parse_qs(parsed.query)
+        for k, vals in query.items():
+            v = vals[0] if vals else ''
             if k == 'insecure':
                 self.data['skip-cert-verify'] = (v != '0')
             elif k == 'alpn':
@@ -450,15 +455,13 @@ class Node:
         self.data = {
             'name': unquote(parsed.fragment), 'server': parsed.hostname,
             'type': 'tuic', 'uuid': unquote(parsed.username),
-            'password': unquote(parsed.password), 'port': parsed.port or 136
+            'password': unquote(parsed.password) if parsed.password else '',
+            'port': parsed.port or 136
         }
         if not parsed.query: return
-        k = v = ''
-        for kv in parsed.query.split('&'):
-            if '=' in kv:
-                k,v = kv.split('=', 1)
-            else:
-                v += '&' + kv
+        query = parse_qs(parsed.query)
+        for k, vals in query.items():
+            v = vals[0] if vals else ''
             if k == 'allow_insecure':
                 self.data['skip-cert-verify'] = (v != '0')
             elif k == 'alpn':
@@ -470,12 +473,23 @@ class Node:
 
     def _load__legacy(self, url: str, dt: str):
         parsed = urlparse(url)
+        # ====== 修复端口解析：提取纯数字端口 ======
+        port_str = str(parsed.port) if parsed.port is not None else ''
+        # 如果端口包含 ? 或 &，说明后面跟着查询参数，需要截断
+        if '?' in port_str:
+            port_str = port_str.split('?')[0]
+        elif '&' in port_str:
+            port_str = port_str.split('&')[0]
+        try:
+            port = int(port_str) if port_str else 0
+        except ValueError:
+            port = 0
         self.data = {
             'name': unquote(parsed.fragment),
             'type': 'socks5' if self.type.startswith('socks') else 'http',
             'tls': parsed.scheme == 'https',
             'server': parsed.hostname,
-            'port': parsed.port,
+            'port': port,
             'username': parsed.username,
             'password': parsed.password
         }
