@@ -467,6 +467,28 @@ proxies:
     headers:
       host: EX1oGt73NzPQKAc2.v.3dns.vip
     path: /ws-vmess
+- name: '香港_1 #3'
+  network: ws
+  port: 443
+  server: s1.db-link.in
+  servername: dabaihk.webn.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53cddd30-34a1-32dd-b598-c1c4c8a0f813
+  ws-opts:
+    headers:
+      host: dabaihk.webn.cc
+    path: /db1024a105975707
+- name: '香港_2 #3'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - name: 🇭🇰 香港3|@stairnode
   password: 868ecdaf6aed618ec98cf78585672b2b
   port: 52687
@@ -489,6 +511,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
+  client-fingerprint: chrome
   name: 🇭🇰HK香港
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -524,6 +547,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
+  client-fingerprint: chrome
   name: 🇸🇬SG新加坡
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -554,6 +578,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
+  client-fingerprint: chrome
   name: 🇺🇸US美国9
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -565,6 +590,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
+  client-fingerprint: chrome
   name: 🇺🇸US美国6
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -664,7 +690,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-2
+  name: 未知 VMESS-970 | free-nodes - 53...
   network: ws
   port: 443
   server: m01c7b2z26dtqgee.v.3dns.vip
@@ -696,7 +722,7 @@ proxies:
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-4
+  name: 未知 VMESS-872 | free-nodes - 38...
   network: ws
   port: 443
   server: 7timuei1uufoixbf.v.3dns.vip
@@ -711,7 +737,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-5
+  name: 未知 VMESS-901 | free-nodes - 15...
   network: ws
   port: 443
   server: 47.83.19.148
@@ -726,7 +752,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-6
+  name: 未知 VMESS-1146 | free-nodes - 3...
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -741,7 +767,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-7
+  name: 未知 VMESS-938 | free-nodes - 26...
   network: ws
   port: 443
   server: nycqg19zkwacpm1b.v.3dns.vip
@@ -756,7 +782,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-9
+  name: 未知 VMESS-971 | free-nodes - 53...
   network: ws
   port: 443
   server: mh7r5ardl0z5jtgy.v.3dns.vip
@@ -798,7 +824,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-13
+  name: 未知 VMESS-903 | free-nodes - 78...
   network: ws
   port: 443
   server: drbkg16egf3fzlm3.v.3dns.vip
@@ -813,7 +839,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 香港/香港/Hong Kong/Hong Kong-14
+  name: 未知 VMESS-915 | free-nodes - 61...
   network: ws
   port: 443
   server: i2psm3knof5qjjix.v.3dns.vip
@@ -925,6 +951,35 @@ proxies:
   ws-headers:
     Host: vah4urdzl3jdx5r2.v.3dns.vip
   ws-path: /ws-vmess
+- name: 🇭🇰 HK 005 | ⬇️ 34KB/s
+  password: '!!str 111'
+  port: 11211
+  server: 47.243.173.50
+  tls: false
+  type: socks5
+  username: '111'
+- name: 🇭🇰 HK 898 | ⬇️ 45KB/s
+  password: '!!str 123'
+  port: 3060
+  server: 43.100.43.112
+  type: socks5
+  username: '123'
+- alpn:
+  - h2%2Chttp%2F1.1
+  client-fingerprint: qq
+  name: 🇭🇰 HK 402 | ⬇️ 4MB/s
+  network: xhttp
+  port: 443
+  server: hk.denverpresents.top
+  servername: hk.denverpresents.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+  xhttp-opts:
+    host: hk.denverpresents.top
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/
 - client-fingerprint: chrome
   name: '🇭🇰HK_2|4.3MB/s #1'
   password: BxceQaOe
@@ -1086,6 +1141,71 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-953 | free-nodes - 19...
+  network: ws
+  port: 443
+  server: 93ucrn4i0pffuabk.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 93ucrn4i0PffUAbk.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-973 | free-nodes - 10...
+  network: ws
+  port: 443
+  server: qtkdr8jxe3wefxjm.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-975 | free-nodes - 57...
+  network: ws
+  port: 443
+  server: vah4urdzl3jdx5r2.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: VAH4URdZL3jDX5r2.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-968 | free-nodes - 13...
+  network: ws
+  port: 443
+  server: ejomsxptp19apygl.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: ejOMsxPtP19APyGL.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 未知 VMESS-1077 | free-nodes - 4...
+  network: ws
+  port: 443
+  server: u2frxj0g13vdi0wo.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+    path: /ws-vmess
 - alterId: 0
   cipher: auto
   name: HK3 35.0KB/s

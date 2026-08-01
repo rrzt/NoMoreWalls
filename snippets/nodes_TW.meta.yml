@@ -106,7 +106,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇹🇼TW-125.224.48.114-00
+  name: 未知 VMESS-1049 | free-nodes - 1...
   network: tcp
   port: 51360
   server: lt.badns.help
