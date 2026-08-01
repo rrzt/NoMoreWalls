@@ -36,7 +36,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 中国 004
+  name: '香港_2 #2'
   network: ws
   port: 443
   server: 221.204.41.88
@@ -178,6 +178,7 @@ proxies:
   type: vmess
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
 - name: 'HK_speednode_0024 #2'
+  network: tcp
   password: BxceQaOe
   port: 35966
   server: 43.198.98.22
@@ -272,35 +273,6 @@ proxies:
     headers:
       host: EX1oGt73NzPQKAc2.v.3dns.vip
     path: /ws-vmess
-- name: '香港_2 #3'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇭🇰 香港3|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 52687
-  server: 18.162.54.192
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 6313
-  server: 52.194.222.108
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 6313
-  server: 3.112.196.41
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: '香港3|@ripaojiedian #1'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -333,7 +305,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '新加坡3|@ripaojiedian #1'
+- name: 🇸🇬 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -386,7 +358,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-970 | free-nodes - 53...
+  name: 香港/香港/Hong Kong/Hong Kong-2
   network: ws
   port: 443
   server: m01c7b2z26dtqgee.v.3dns.vip
@@ -411,7 +383,7 @@ proxies:
     path: /arki
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-872 | free-nodes - 38...
+  name: 香港/香港/Hong Kong/Hong Kong-4
   network: ws
   port: 443
   server: 7timuei1uufoixbf.v.3dns.vip
@@ -426,7 +398,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-901 | free-nodes - 15...
+  name: 香港/香港/Hong Kong/Hong Kong-5
   network: ws
   port: 443
   server: 47.83.19.148
@@ -441,7 +413,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-1146 | free-nodes - 3...
+  name: 香港/香港/Hong Kong/Hong Kong-6
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -456,7 +428,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-938 | free-nodes - 26...
+  name: 香港/香港/Hong Kong/Hong Kong-7
   network: ws
   port: 443
   server: nycqg19zkwacpm1b.v.3dns.vip
@@ -471,7 +443,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-971 | free-nodes - 53...
+  name: 香港/香港/Hong Kong/Hong Kong-9
   network: ws
   port: 443
   server: mh7r5ardl0z5jtgy.v.3dns.vip
@@ -513,7 +485,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-903 | free-nodes - 78...
+  name: 香港/香港/Hong Kong/Hong Kong-13
   network: ws
   port: 443
   server: drbkg16egf3fzlm3.v.3dns.vip
@@ -528,7 +500,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-915 | free-nodes - 61...
+  name: 香港/香港/Hong Kong/Hong Kong-14
   network: ws
   port: 443
   server: i2psm3knof5qjjix.v.3dns.vip
@@ -653,6 +625,18 @@ proxies:
   ws-headers:
     Host: nycqg19zkwacpm1b.v.3dns.vip
   ws-path: /ws-vmess
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇭🇰HK香港
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 13118
+  server: 18.167.20.3
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇭🇰香港 01 | 1x HK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
@@ -807,71 +791,6 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 未知 VMESS-953 | free-nodes - 19...
-  network: ws
-  port: 443
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: 93ucrn4i0PffUAbk.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 未知 VMESS-973 | free-nodes - 10...
-  network: ws
-  port: 443
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 未知 VMESS-975 | free-nodes - 57...
-  network: ws
-  port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 未知 VMESS-968 | free-nodes - 13...
-  network: ws
-  port: 443
-  server: ejomsxptp19apygl.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ejOMsxPtP19APyGL.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: 未知 VMESS-1077 | free-nodes - 4...
-  network: ws
-  port: 443
-  server: u2frxj0g13vdi0wo.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
   name: HK3 35.0KB/s
   network: tcp
   port: 52080
@@ -986,6 +905,16 @@ proxies:
     headers:
       host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: HK15
+  network: tcp
+  port: 8081
+  server: 185.206.171.78
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 450037e8-e9fb-4296-bdf7-213f40b753c1
 - alterId: 2
   cipher: auto
   name: HK16
@@ -1034,6 +963,16 @@ proxies:
     headers:
       host: 01.appleid.bf
     path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: HK19
+  network: tcp
+  port: 14979
+  server: 38.147.188.239
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 2919ef6f-b8d3-49ea-a32d-2f95d346e4cb
 - name: 香港 14
   network: tcp
   password: BxceQaOe
@@ -1056,5 +995,5 @@ proxies:
   port: 443
   server: 119.246.1.143
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me/ripaojiedian
   type: trojan
