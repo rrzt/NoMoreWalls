@@ -758,7 +758,8 @@ class Node:
             ret['server'] = ret['server'][1:-1]
         if 'password' in ret and ret['password'].isdigit():
             ret['password'] = '!!str '+ret['password']
-        if 'uuid' in ret and len(ret['uuid']) != len(DEFAULT_UUID):
+        # ====== 修复：确保 uuid 字段始终存在 ======
+        if 'uuid' not in ret or len(ret['uuid']) != len(DEFAULT_UUID):
             ret['uuid'] = DEFAULT_UUID
         if 'group' in ret: del ret['group']
         if 'cipher' in ret and not ret['cipher']:
@@ -878,7 +879,6 @@ class Source():
                     if 'ignore' in self.cfg:
                         self.cfg['ignore'] = [_ for _ in self.cfg['ignore'].split(',') if _.strip()]
                     self.url = '#'.join(segs[:-1])
-               # with session.get(normpath(self.url), stream=True) as r:
                 with session.get(normpath(self.url), stream=True, timeout=60) as r:
                     if r.status_code != 200:
                         if depth > 0 and isinstance(self.url_source, str):
