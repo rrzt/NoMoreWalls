@@ -20,19 +20,6 @@ proxies:
   server: 13.53.198.63
   type: ss
 - cipher: aes-256-cfb
-  name: 🇸🇪SE_2|4.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.51.233.2
-  type: ss
-- cipher: aes-256-cfb
-  name: US_speednode_0189
-  password: amazonskr05
-  port: 443
-  server: 13.62.20.75
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: US_speednode_0192
   password: amazonskr05
   port: 443
