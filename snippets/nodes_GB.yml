@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '未知 VMESS-972 | free-nodes - 54... #1'
+  name: '未知 VMESS-972 | free-nodes - 54... #2'
   network: ws
   port: 443
   server: mtckundigepwu3up.v.3dns.vip

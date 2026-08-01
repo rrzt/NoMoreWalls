@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '未知 VMESS-953 | free-nodes - 19... #1'
+  name: '未知 VMESS-953 | free-nodes - 19... #2'
   network: ws
   port: 443
   server: 93ucrn4i0pffuabk.v.3dns.vip
@@ -14,7 +14,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '未知 VMESS-973 | free-nodes - 10... #1'
+  name: '未知 VMESS-973 | free-nodes - 10... #2'
   network: ws
   port: 443
   server: qtkdr8jxe3wefxjm.v.3dns.vip
@@ -27,7 +27,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '未知 VMESS-970 | free-nodes - 53... #1'
+  name: '未知 VMESS-970 | free-nodes - 53... #2'
   network: ws
   port: 443
   server: m01c7b2z26dtqgee.v.3dns.vip
@@ -40,7 +40,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '未知 VMESS-971 | free-nodes - 53... #1'
+  name: '未知 VMESS-971 | free-nodes - 53... #2'
   network: ws
   port: 443
   server: mh7r5ardl0z5jtgy.v.3dns.vip
@@ -53,7 +53,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '未知 VMESS-975 | free-nodes - 57... #1'
+  name: '未知 VMESS-975 | free-nodes - 57... #2'
   network: ws
   port: 443
   server: vah4urdzl3jdx5r2.v.3dns.vip
@@ -66,7 +66,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '未知 VMESS-968 | free-nodes - 13... #1'
+  name: '未知 VMESS-968 | free-nodes - 13... #2'
   network: ws
   port: 443
   server: ejomsxptp19apygl.v.3dns.vip
@@ -79,7 +79,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '未知 VMESS-1077 | free-nodes - 4... #1'
+  name: '未知 VMESS-1077 | free-nodes - 4... #2'
   network: ws
   port: 443
   server: u2frxj0g13vdi0wo.v.3dns.vip

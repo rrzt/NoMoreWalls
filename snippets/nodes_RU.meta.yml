@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '🇷🇺_RU_俄罗斯 #1'
+  name: 🇷🇺_RU_俄罗斯
   port: 40443
   reality-opts:
     public-key: WRveYv8IuUyvai4jgnQ6nWCL971-wKboe8evES5arlg
@@ -14,7 +14,7 @@ proxies:
   udp: true
   uuid: 28d0edc6-93c9-4465-bac9-720274d8b8c4
 - client-fingerprint: firefox
-  name: '🇷🇺_RU_俄罗斯_1 #1'
+  name: 🇷🇺_RU_俄罗斯_1
   port: 443
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ

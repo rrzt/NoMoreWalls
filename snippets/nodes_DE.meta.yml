@@ -1,5 +1,5 @@
 proxies:
-- name: '🇩🇪_DE_德国->🇹🇭_TH_泰国 #1'
+- name: 🇩🇪_DE_德国->🇹🇭_TH_泰国
   network: ws
   port: 80
   server: www.true.th
@@ -17,7 +17,7 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: '55'
-  name: '🇩🇪_DE_德国 #1'
+  name: 🇩🇪_DE_德国
   port: 54177
   server: 5.83.129.90
   skip-cert-verify: true
