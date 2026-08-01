@@ -793,8 +793,13 @@ class Node:
         
         return ret
 
+    # ====== 修复：在 supports_clash 中过滤掉缺少密码的 SS 节点 ======
     def supports_clash(self, meta=False) -> bool:
         if self.isfake: return False
+        # 针对 SS 节点，检查密码是否缺失
+        if self.type == 'ss':
+            if not self.data.get('password'):
+                return False
         if 'obfs' in self.data and 'obfs-password' not in self.data:
             return False
         if self.type == 'vmess':
