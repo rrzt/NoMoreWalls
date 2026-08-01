@@ -60,9 +60,15 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
-- alterId: 0
+- alpn:
+  - ''
+  alterId: 0
   cipher: auto
-  name: 🇮🇷IR-94.182.88.61-41
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇳🇱 NL 927 | ⬇️ 87KB/s
   network: tcp
   port: 2078
   server: tun1.wizardx1.com
@@ -70,6 +76,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 8c207682-e007-4a0d-88a3-68b8638b3d10
   ws-headers:
     Host: tun1.wizardx1.com
@@ -241,12 +248,14 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- name: 'DE德国 #10'
+- disable-sni: true
+  name: 'DE德国 #10'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
+  sni: ''
   tls: true
   type: trojan
   udp: true
@@ -259,6 +268,8 @@ proxies:
   type: ss
   udp: true
 - alterId: 0
+  client-fingerprint: chrome
+  country: 🇺🇸US
   name: 未知 TROJAN-208
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -855,7 +866,9 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 🇺🇸US-157.254.38.210-32
+- client-fingerprint: chrome
+  name: 🇯🇵 JP 980 | ⬇️ 197KB/s
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
@@ -864,7 +877,10 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 🇺🇸US-157.254.38.210-28
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 861 | ⬇️ 725KB/s
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -1696,6 +1712,1182 @@ proxies:
     headers:
       HOST: cg1c14.waimaojd.com
     path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  name: 【重要】保存防失联网址https://www.stablep...
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0569986c-bd90-42cc-b274-da88d0dcfd4b
+- name: 印度节点0207 | 2倍率
+  network: tcp
+  password: 0569986c-bd90-42cc-b274-da88d0dcfd4b
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 印度节点0208 | 2倍率
+  network: tcp
+  password: 0569986c-bd90-42cc-b274-da88d0dcfd4b
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 防失联网址https://www.stableproxy.n...
+  network: tcp
+  password: 0569986c-bd90-42cc-b274-da88d0dcfd4b
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 美国节点0902 | 1倍率
+  network: tcp
+  password: 0569986c-bd90-42cc-b274-da88d0dcfd4b
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 美国节点0903 | 1倍率
+  network: tcp
+  password: 0569986c-bd90-42cc-b274-da88d0dcfd4b
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #1'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7ffd8772-4975-44fc-be56-6500ec0577de
+- name: '印度节点0207 | 2倍率 #1'
+  network: tcp
+  password: 7ffd8772-4975-44fc-be56-6500ec0577de
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #1'
+  network: tcp
+  password: 7ffd8772-4975-44fc-be56-6500ec0577de
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #1'
+  network: tcp
+  password: 7ffd8772-4975-44fc-be56-6500ec0577de
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #1'
+  network: tcp
+  password: 7ffd8772-4975-44fc-be56-6500ec0577de
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #1'
+  network: tcp
+  password: 7ffd8772-4975-44fc-be56-6500ec0577de
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #2'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f6a77e7c-541e-4985-928b-a194d273101e
+- name: '印度节点0207 | 2倍率 #2'
+  network: tcp
+  password: f6a77e7c-541e-4985-928b-a194d273101e
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #2'
+  network: tcp
+  password: f6a77e7c-541e-4985-928b-a194d273101e
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #2'
+  network: tcp
+  password: f6a77e7c-541e-4985-928b-a194d273101e
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #2'
+  network: tcp
+  password: f6a77e7c-541e-4985-928b-a194d273101e
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #2'
+  network: tcp
+  password: f6a77e7c-541e-4985-928b-a194d273101e
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #3'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 73840736-debd-4096-b322-cc3cfd1bb3b2
+- name: '印度节点0207 | 2倍率 #3'
+  network: tcp
+  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #3'
+  network: tcp
+  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #3'
+  network: tcp
+  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #3'
+  network: tcp
+  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #3'
+  network: tcp
+  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #4'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ab4046b8-e669-47e1-8ad6-b07640b06781
+- name: '印度节点0207 | 2倍率 #4'
+  network: tcp
+  password: ab4046b8-e669-47e1-8ad6-b07640b06781
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #4'
+  network: tcp
+  password: ab4046b8-e669-47e1-8ad6-b07640b06781
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #4'
+  network: tcp
+  password: ab4046b8-e669-47e1-8ad6-b07640b06781
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #4'
+  network: tcp
+  password: ab4046b8-e669-47e1-8ad6-b07640b06781
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #4'
+  network: tcp
+  password: ab4046b8-e669-47e1-8ad6-b07640b06781
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #5'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a845dd5e-21e9-4586-a871-08d484c40612
+- name: '印度节点0207 | 2倍率 #5'
+  network: tcp
+  password: a845dd5e-21e9-4586-a871-08d484c40612
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #5'
+  network: tcp
+  password: a845dd5e-21e9-4586-a871-08d484c40612
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #5'
+  network: tcp
+  password: a845dd5e-21e9-4586-a871-08d484c40612
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #5'
+  network: tcp
+  password: a845dd5e-21e9-4586-a871-08d484c40612
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #5'
+  network: tcp
+  password: a845dd5e-21e9-4586-a871-08d484c40612
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #6'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6ac40de6-6ec8-4586-b926-5f6231ab851a
+- name: '印度节点0207 | 2倍率 #6'
+  network: tcp
+  password: 6ac40de6-6ec8-4586-b926-5f6231ab851a
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #6'
+  network: tcp
+  password: 6ac40de6-6ec8-4586-b926-5f6231ab851a
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #6'
+  network: tcp
+  password: 6ac40de6-6ec8-4586-b926-5f6231ab851a
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #6'
+  network: tcp
+  password: 6ac40de6-6ec8-4586-b926-5f6231ab851a
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #6'
+  network: tcp
+  password: 6ac40de6-6ec8-4586-b926-5f6231ab851a
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #7'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: fd52a92f-1002-4266-b27c-a2d650ef2bb2
+- name: '印度节点0207 | 2倍率 #7'
+  network: tcp
+  password: fd52a92f-1002-4266-b27c-a2d650ef2bb2
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #7'
+  network: tcp
+  password: fd52a92f-1002-4266-b27c-a2d650ef2bb2
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #7'
+  network: tcp
+  password: fd52a92f-1002-4266-b27c-a2d650ef2bb2
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #7'
+  network: tcp
+  password: fd52a92f-1002-4266-b27c-a2d650ef2bb2
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #7'
+  network: tcp
+  password: fd52a92f-1002-4266-b27c-a2d650ef2bb2
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #8'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 00f1585c-7ea6-4a0c-af2b-5f08add7ce52
+- name: '印度节点0207 | 2倍率 #8'
+  network: tcp
+  password: 00f1585c-7ea6-4a0c-af2b-5f08add7ce52
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #8'
+  network: tcp
+  password: 00f1585c-7ea6-4a0c-af2b-5f08add7ce52
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #8'
+  network: tcp
+  password: 00f1585c-7ea6-4a0c-af2b-5f08add7ce52
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #8'
+  network: tcp
+  password: 00f1585c-7ea6-4a0c-af2b-5f08add7ce52
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #8'
+  network: tcp
+  password: 00f1585c-7ea6-4a0c-af2b-5f08add7ce52
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #9'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9061d0aa-11fe-4cb3-a49d-d60fc96d5a77
+- name: '印度节点0207 | 2倍率 #9'
+  network: tcp
+  password: 9061d0aa-11fe-4cb3-a49d-d60fc96d5a77
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #9'
+  network: tcp
+  password: 9061d0aa-11fe-4cb3-a49d-d60fc96d5a77
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #9'
+  network: tcp
+  password: 9061d0aa-11fe-4cb3-a49d-d60fc96d5a77
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #9'
+  network: tcp
+  password: 9061d0aa-11fe-4cb3-a49d-d60fc96d5a77
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #9'
+  network: tcp
+  password: 9061d0aa-11fe-4cb3-a49d-d60fc96d5a77
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #10'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a1cfa06d-fa25-4534-8469-9ac9f8b939f7
+- name: '印度节点0207 | 2倍率 #10'
+  network: tcp
+  password: a1cfa06d-fa25-4534-8469-9ac9f8b939f7
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #10'
+  network: tcp
+  password: a1cfa06d-fa25-4534-8469-9ac9f8b939f7
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #10'
+  network: tcp
+  password: a1cfa06d-fa25-4534-8469-9ac9f8b939f7
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #10'
+  network: tcp
+  password: a1cfa06d-fa25-4534-8469-9ac9f8b939f7
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #10'
+  network: tcp
+  password: a1cfa06d-fa25-4534-8469-9ac9f8b939f7
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #11'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 26ef78f8-a6e0-4f51-a87c-a8b5e6298779
+- name: '印度节点0207 | 2倍率 #11'
+  network: tcp
+  password: 26ef78f8-a6e0-4f51-a87c-a8b5e6298779
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #11'
+  network: tcp
+  password: 26ef78f8-a6e0-4f51-a87c-a8b5e6298779
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #11'
+  network: tcp
+  password: 26ef78f8-a6e0-4f51-a87c-a8b5e6298779
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #11'
+  network: tcp
+  password: 26ef78f8-a6e0-4f51-a87c-a8b5e6298779
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #11'
+  network: tcp
+  password: 26ef78f8-a6e0-4f51-a87c-a8b5e6298779
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #12'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4db91b7d-5cc8-4943-8cac-7af8d45ea2d5
+- name: '印度节点0207 | 2倍率 #12'
+  network: tcp
+  password: 4db91b7d-5cc8-4943-8cac-7af8d45ea2d5
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #12'
+  network: tcp
+  password: 4db91b7d-5cc8-4943-8cac-7af8d45ea2d5
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #12'
+  network: tcp
+  password: 4db91b7d-5cc8-4943-8cac-7af8d45ea2d5
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #12'
+  network: tcp
+  password: 4db91b7d-5cc8-4943-8cac-7af8d45ea2d5
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #12'
+  network: tcp
+  password: 4db91b7d-5cc8-4943-8cac-7af8d45ea2d5
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #13'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 051acce2-6f99-4965-9980-18961f4b8ce1
+- name: '印度节点0207 | 2倍率 #13'
+  network: tcp
+  password: 051acce2-6f99-4965-9980-18961f4b8ce1
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #13'
+  network: tcp
+  password: 051acce2-6f99-4965-9980-18961f4b8ce1
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #13'
+  network: tcp
+  password: 051acce2-6f99-4965-9980-18961f4b8ce1
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #13'
+  network: tcp
+  password: 051acce2-6f99-4965-9980-18961f4b8ce1
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #13'
+  network: tcp
+  password: 051acce2-6f99-4965-9980-18961f4b8ce1
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #14'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 61791717-4462-4b54-abc6-6e0d852d3525
+- name: '印度节点0207 | 2倍率 #14'
+  network: tcp
+  password: 61791717-4462-4b54-abc6-6e0d852d3525
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #14'
+  network: tcp
+  password: 61791717-4462-4b54-abc6-6e0d852d3525
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #14'
+  network: tcp
+  password: 61791717-4462-4b54-abc6-6e0d852d3525
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #14'
+  network: tcp
+  password: 61791717-4462-4b54-abc6-6e0d852d3525
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #14'
+  network: tcp
+  password: 61791717-4462-4b54-abc6-6e0d852d3525
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #15'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: bd6c9582-2ba5-49e5-b1f7-d8303dbb80d2
+- name: '印度节点0207 | 2倍率 #15'
+  network: tcp
+  password: bd6c9582-2ba5-49e5-b1f7-d8303dbb80d2
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #15'
+  network: tcp
+  password: bd6c9582-2ba5-49e5-b1f7-d8303dbb80d2
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #15'
+  network: tcp
+  password: bd6c9582-2ba5-49e5-b1f7-d8303dbb80d2
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #15'
+  network: tcp
+  password: bd6c9582-2ba5-49e5-b1f7-d8303dbb80d2
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #15'
+  network: tcp
+  password: bd6c9582-2ba5-49e5-b1f7-d8303dbb80d2
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '【重要】保存防失联网址https://www.stablep... #16'
+  network: tcp
+  port: 24402
+  server: v1hk5.stablenode.top
+  servername: null
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9b9f7250-69b7-453e-86f3-3bdf6081a7b3
+- name: '印度节点0207 | 2倍率 #16'
+  network: tcp
+  password: 9b9f7250-69b7-453e-86f3-3bdf6081a7b3
+  port: 24407
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '印度节点0208 | 2倍率 #16'
+  network: tcp
+  password: 9b9f7250-69b7-453e-86f3-3bdf6081a7b3
+  port: 24408
+  server: v1in2.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '防失联网址https://www.stableproxy.n... #16'
+  network: tcp
+  password: 9b9f7250-69b7-453e-86f3-3bdf6081a7b3
+  port: 24421
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #16'
+  network: tcp
+  password: 9b9f7250-69b7-453e-86f3-3bdf6081a7b3
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #16'
+  network: tcp
+  password: 9b9f7250-69b7-453e-86f3-3bdf6081a7b3
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港2
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港3
+  network: ws
+  port: 443
+  server: 103.212.98.234
+  servername: www.59795160.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59795160.xyz
+    path: /path/011410073331
+- client-fingerprint: chrome
+  name: 🇭🇰 香港4
+  password: llyEnxJlVC
+  port: 51017
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇰 香港5
+  port: 54104
+  server: 183.236.51.23
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港6
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 36993
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇭🇰 香港7
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39301
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇭🇰 香港8
+  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
+  port: 10182
+  server: 36.139.183.164
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇹🇼 台湾
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39201
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 🇯🇵 日本
+  password: yEnxJlVC
+  port: 51012
+  server: 183.232.139.24
+  skip-cert-verify: true
+  type: trojan
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本2
+  network: ws
+  port: 443
+  server: 134.122.139.79
+  servername: www.48907900.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.48907900.xyz
+    path: /path/011410073331
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本5
+  network: ws
+  port: 46011
+  server: mmjp11.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmjp11.micloud.buzz
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇯🇵 日本4
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 49207
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇯🇵 日本6
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国2
+  network: ws
+  port: 30000
+  server: 137.220.130.58
+  servername: www.68703921.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68703921.xyz
+    path: /path/011410073331
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇸🇬 新加坡2
+  password: 3632bd90-d85e-42ef-a2b3-36393ae88c17
+  port: 39204
+  server: aa01gg.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip005.dtku47.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国2
+  network: ws
+  port: 46036
+  server: mmus36.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmus36.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国3
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c27e0c5-de26-43a5-bffd-2d25beb1c1d3
+  ws-opts:
+    headers:
+      Host: us2jdgv5GC7.fzbqfrse.xyz
+    path: /video/DDC4btA8wc/
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇺🇸 美国5
+  network: ws
+  port: 2086
+  server: 104.26.0.56
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇯🇵 日本特殊
+  password: amazonskr05
+  port: 443
+  server: 47.128.150.72
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国特殊
+  password: amazonskr05
+  port: 443
+  server: 3.112.220.140
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇸🇬 狮城特殊
+  password: amazonskr05
+  port: 443
+  server: 18.183.186.14
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇪 德国
+  network: ws
+  port: 46092
+  server: mmde92.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmde92.micloud.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇭🇺 匈牙利
+  network: ws
+  port: 46082
+  server: mmhu82.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmhu82.micloud.buzz
+    path: /zh-cn
 - client-fingerprint: chrome
   name: United States_None_trojan_1130
   network: tcp
@@ -1762,14 +2954,23 @@ proxies:
   ws-headers:
     Host: guanwang.awsno.com
   ws-path: /
-- alterId: 2
+- alpn:
+  - ''
+  alterId: 2
   cipher: auto
-  name: 🇨🇳_中国_152 - 405ms
+  client-fingerprint: ''
+  country: 🇮🇷IR
+  delay: 769
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰 HK 971 | ⬇️ 3KB/s
   network: tcp
   port: 30809
   server: v9.hdacd.com
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
@@ -2533,6 +3734,69 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+- name: '香港_2 #3'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 美國_2
+  network: grpc
+  password: iWnFtzMiac
+  port: 19258
+  server: 205.185.115.223
+  skip-cert-verify: true
+  sni: cloudflare.com
+  type: trojan
+  udp: true
+- name: 美國_3
+  network: ws
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: Koma-YT.PAGeS.Dev
+    path: /tro8sFW1S91B6sZrM1?ed=2560
+- name: https://t.me/zyzzzoao⚡️_3
+  network: tcp
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  port: 443
+  server: tuntro006.instconn.com
+  skip-cert-verify: true
+  sni: torontorm1.686911.xyz
+  type: trojan
+  udp: true
+- name: 🇸🇬SG_4|⬇️5.1MB/s
+  network: ws
+  password: a9570330-769d-11ef-90dc-1577c1651679
+  port: 443
+  server: 104.18.1.196
+  skip-cert-verify: true
+  sni: sg-trojan.andfree.my.id
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /welcome
+- name: TRTROJAN-26|free-nodes
+  network: ws
+  password: T9BpZIVMNv
+  port: 8443
+  server: v1.dabache.top
+  skip-cert-verify: true
+  sni: sweden.vmaxpanel.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: sweden.vmaxpanel.com
+    path: /amd
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #2'
   password: amazonskr05
@@ -2688,6 +3952,7 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
+  client-fingerprint: chrome
   name: 🇭🇰HK香港
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -2745,6 +4010,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
+  client-fingerprint: chrome
   name: 🇸🇬SG新加坡
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -2775,6 +4041,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - alterId: 0
+  client-fingerprint: chrome
   name: 🇺🇸US美国9
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -2786,6 +4053,7 @@ proxies:
   type: trojan
   udp: true
 - alterId: 0
+  client-fingerprint: chrome
   name: 🇺🇸US美国6
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -3439,7 +4707,10 @@ proxies:
   type: vmess
   uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
 - alterId: 0
+  client-fingerprint: chrome
+  country: 🇺🇸US
   name: 'CN_speednode_0006 #1'
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
@@ -5292,6 +6563,62 @@ proxies:
   ws-headers:
     Host: vah4urdzl3jdx5r2.v.3dns.vip
   ws-path: /ws-vmess
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 178 | ⬇️ 91KB/s
+  password: 1a87017d0bf57f34
+  port: 50111
+  server: 176.32.34.152
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 871 | ⬇️ 166KB/s
+  password: b24a80e79cee1d1f
+  port: 50111
+  server: 195.133.5.207
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 426 | ⬇️ 40KB/s
+  password: 9f3d1a6d31468599
+  port: 1291
+  server: 195.133.23.200
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-gcm
+  name: 🇷🇺 RU 418 | ⬇️ 26KB/s
+  password: fbaf33bcffe53cf9
+  port: 50111
+  server: 195.58.48.19
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷 FR 524 | ⬇️ 95KB/s
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.69
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: 🇰🇷 KR 833 | ⬇️ 323KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  sni: rr1.tube-cat.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: 🇸🇪SE_2|4.2MB/s
   password: amazonskr05

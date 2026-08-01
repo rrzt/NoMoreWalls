@@ -168,7 +168,10 @@ proxies:
   tls: false
   type: hysteria2
   udp: true
-- name: 🇺🇸US-157.254.38.210-28
+- alterId: 0
+  client-fingerprint: chrome
+  name: 🇩🇪 DE 861 | ⬇️ 725KB/s
+  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -292,6 +295,34 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
+- name: 🇬🇧GB_2|⬇️1.7MB/s
+  network: ws
+  port: 443
+  server: 173.245.59.121
+  servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 979b6822-d65a-400d-89f8-30391903ac20
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+    path: /ws
+- name: GBVLESS-110|free-nodes
+  network: ws
+  port: 80
+  server: fuck1.tawanaproxy.online
+  servername: en.tawana.cf.panbehpanel.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c33275fd-a4fa-470d-90e4-55da39d849a8
+  ws-opts:
+    headers:
+      host: en.tawana.cf.panbehpanel.ir
+    path: /
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -636,6 +667,31 @@ proxies:
   port: 8090
   server: 212.38.189.174
   type: ss
+- name: 🇬🇧 GB 394 | ⬇️ 14KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 59167
+  server: 193.104.58.45
+  skip-cert-verify: false
+  type: vless
+  udp: true
+  uuid: a95b6f06-af75-4cf8-bcb0-15bcdcec7b64
+- alpn:
+  - h2%2Chttp%2F1.1
+  client-fingerprint: qq
+  name: 🇬🇧 GB 949 | ⬇️ 2MB/s
+  network: xhttp
+  port: 443
+  server: uk2.denverpresents.top
+  servername: uk2.denverpresents.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
+  xhttp-opts:
+    host: uk2.denverpresents.top
+    mode: auto
+    path: /assets/build/_app/immutable/chunks/stream-one/
 - cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧英国家宽 01 | 1x UK
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

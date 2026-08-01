@@ -45,6 +45,31 @@ proxies:
     headers:
       host: hhtj.hhllfly.kdns.fr
     path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国2
+  network: ws
+  port: 30000
+  server: 137.220.130.58
+  servername: www.68703921.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.68703921.xyz
+    path: /path/011410073331
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 🇰🇷 韩国特殊
+  password: amazonskr05
+  port: 443
+  server: 3.112.220.140
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 未知42 1.0MB/s
@@ -162,6 +187,15 @@ proxies:
   port: 7001
   server: 141.164.45.187
   type: ss
+- name: 🇰🇷 KR 833 | ⬇️ 323KB/s
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  sni: rr1.tube-cat.com
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549

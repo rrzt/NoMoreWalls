@@ -1,14 +1,18 @@
 proxies:
-- name: 'DE德国 #10'
+- disable-sni: true
+  name: 'DE德国 #10'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
+  sni: ''
   tls: true
   type: trojan
   udp: true
 - alterId: 0
+  client-fingerprint: chrome
+  country: 🇺🇸US
   name: 未知 TROJAN-208
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -43,6 +47,22 @@ proxies:
     headers:
       HOST: node4.rtxconfigz.com
     path: /@Malinda6104
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 🇩🇪 德国
+  network: ws
+  port: 46092
+  server: mmde92.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmde92.micloud.buzz
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: 德国/Germany-3
