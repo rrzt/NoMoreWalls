@@ -342,7 +342,13 @@ class Crawler:
         self.request_count = 0
 
     def process_sources(self, lines):
-        """预处理所有源，建立配对关系"""
+        """
+        预处理所有源，建立配对关系
+        增强配对逻辑：
+        1. 精确匹配 base
+        2. 查找以 base 为前缀的更具体的 plain_page（路径更长）
+        3. 回退到根域名匹配
+        """
         wildcard_items = []  # (原始url, pattern_regex)
         direct_urls = []
         plain_pages_set = set()
@@ -373,7 +379,6 @@ class Crawler:
                 if is_node_link(url):
                     direct_urls.append(url)
                 else:
-                    # 标准化：去掉尾部斜杠
                     clean = url.rstrip('/')
                     plain_pages_set.add(clean)
 
@@ -387,11 +392,17 @@ class Crawler:
             if base_part in plain_pages_set:
                 matched_base = base_part
             else:
-                # 2. 尝试根域名
-                parsed = urlparse(base_part)
-                root_url = f"{parsed.scheme}://{parsed.netloc}".rstrip('/')
-                if root_url in plain_pages_set:
-                    matched_base = root_url
+                # 2. 查找以 base_part 为前缀的 plain_page（更具体路径）
+                candidates = [p for p in plain_pages_set if p.startswith(base_part) and p != base_part]
+                if candidates:
+                    # 选择路径最长的（最具体）
+                    matched_base = max(candidates, key=len)
+                else:
+                    # 3. 回退到根域名匹配
+                    parsed = urlparse(base_part)
+                    root_url = f"{parsed.scheme}://{parsed.netloc}".rstrip('/')
+                    if root_url in plain_pages_set:
+                        matched_base = root_url
 
             if matched_base:
                 if matched_base not in wildcard_map:
