@@ -109,7 +109,7 @@ CLASH_SSR_PROTOCOL = "origin auth_sha1_v4 auth_aes128_md5 auth_aes128_sha1 auth_
 FAKE_IPS = "8.8.8.8; 8.8.4.4; 4.2.2.2; 4.2.2.1; 114.114.114.114; 127.0.0.1; 0.0.0.0".split('; ')
 FAKE_DOMAINS = ".google.com .github.com".split()
 
-FETCH_TIMEOUT = (6, 10)
+FETCH_TIMEOUT = (6, 5)
 
 BANNED_WORDS = b64decodes('5rOV6L2uIOi9ruWtkCDova4g57uDIOawlCDlip8g5L2/5YqyIOWKsiDliqrlipsg5Yqg5rK5IOWlsyDmnYMg6L+Q5YqoIG9uZ3RhaXdhbg==').split()
 
@@ -967,14 +967,49 @@ class Source():
             ret = content.decode('ignore')
         return ret
 
+    # ====== 修改：增强 parse 方法，支持 proxy-providers ======
     def parse(self):
         try:
             text = self.content
             if isinstance(text, str):
-                if "proxies:" in text:
-                    # Clash config
+                # 先尝试作为 Clash 配置文件解析（可能包含 proxies 或 proxy-providers）
+                if "proxies:" in text or "proxy-providers:" in text:
                     config = yaml.full_load(text.replace("!<str>","!!str"))
-                    sub = config['proxies']
+                    sub = []
+                    # 1. 检查是否有 proxies 字段
+                    if 'proxies' in config:
+                        sub = config['proxies']
+                    # 2. 如果没有 proxies，检查 proxy-providers
+                    elif 'proxy-providers' in config:
+                        providers = config['proxy-providers']
+                        for provider_name, provider_config in providers.items():
+                            if isinstance(provider_config, dict) and provider_config.get('type') == 'http':
+                                provider_url = provider_config.get('url')
+                                if provider_url:
+                                    # 下载 provider 内容并解析
+                                    try:
+                                        resp = session.get(provider_url, timeout=30)
+                                        if resp.status_code == 200:
+                                            provider_text = resp.text
+                                            # 递归解析，但用已有函数 parse_subscription_content
+                                            # 但我们不能直接调用 Node 函数，简单处理：如果 provider 内容包含 vmess:// 等，直接提取
+                                            # 更好的方式：将 provider_text 交给 parse_subscription_content 处理
+                                            # 这里我们调用全局函数 parse_subscription_content（之前已经导入）
+                                            # 但需要确保 parse_subscription_content 可用
+                                            sub.extend(parse_subscription_content(provider_text, provider_url))
+                                        else:
+                                            self.exc_queue.append(f"Provider {provider_url} 下载失败，状态码 {resp.status_code}")
+                                    except Exception as e:
+                                        self.exc_queue.append(f"Provider {provider_url} 下载异常：{str(e)}")
+                    # 如果 sub 为空但 content 中包含节点链接，尝试按行解析
+                    if not sub and '://' in text:
+                        sub = text.strip().splitlines()
+                    elif not sub:
+                        # 尝试 Base64 解码
+                        try:
+                            sub = b64decodes(text.strip()).strip().splitlines()
+                        except:
+                            sub = []
                 elif '://' in text:
                     # V2Ray raw list
                     sub = text.strip().splitlines()
@@ -1102,9 +1137,10 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
         try:
             res = session.get(normpath(url))
         except requests.exceptions.RequestException as e:
+            # ====== 修复异常处理：直接打印异常信息，避免访问 reason 属性 ======
             try:
-                print(f"{url} 下载失败：{e.args[0].reason}")
-            except Exception:
+                print(f"{url} 下载失败：{str(e)}")
+            except:
                 print(f"{url} 下载失败：无法解析的错误！")
                 traceback.print_exc()
             continue
@@ -1126,8 +1162,8 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]):
             res = session.get(normpath(url))
         except requests.exceptions.RequestException as e:
             try:
-                print(f"{url} 下载失败：{e.args[0].reason}")
-            except Exception:
+                print(f"{url} 下载失败：{str(e)}")
+            except:
                 print(f"{url} 下载失败：无法解析的错误！")
                 traceback.print_exc()
             continue
@@ -1272,7 +1308,7 @@ def main():
                     FETCH_TIMEOUT = (1, 0)
                     break
                 if not threads[i].is_alive(): break
-                print(f"{10*t}s")
+                print(f"{20*t}s")
             if threads[i].is_alive():
                 print("超时！")
                 continue
