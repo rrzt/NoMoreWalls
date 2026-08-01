@@ -31,13 +31,11 @@ TEST_WORKERS = 20
 # ======================== 辅助函数 ========================
 
 def clean_url(url):
-    """去除 URL 末尾常见的标点符号"""
     if not url:
         return url
     return re.sub(r'[:,.?!;]+$', '', url.strip())
 
 def safe_urljoin(base, url):
-    """安全的 urljoin"""
     if not url:
         return None
     try:
@@ -46,7 +44,6 @@ def safe_urljoin(base, url):
         return None
 
 def is_node_link(url):
-    """判断 URL 是否可能是节点订阅链接"""
     if not url:
         return False
     lower = url.lower()
@@ -58,7 +55,6 @@ def is_node_link(url):
     return False
 
 def fetch_content(url, retries=3, delay=1):
-    """获取网页文本内容"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -79,7 +75,6 @@ def fetch_content(url, retries=3, delay=1):
     return None
 
 def fetch_binary(url, retries=3, delay=1):
-    """获取二进制内容"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     }
@@ -94,8 +89,6 @@ def fetch_binary(url, retries=3, delay=1):
                 continue
             raise
     return None
-
-# ----- 节点解析核心 -----
 
 def parse_vmess(vmess_url):
     if not vmess_url.startswith('vmess://'):
@@ -191,7 +184,6 @@ def parse_subscription_content(content, url_hint=''):
     try:
         data = yaml.safe_load(content)
         if isinstance(data, dict):
-            # 处理常见的 Clash 结构
             proxy_list = data.get('proxies') or data.get('Proxy') or data.get('proxy') or []
             if proxy_list:
                 for proxy in proxy_list:
@@ -352,43 +344,53 @@ class Crawler:
         self.all_nodes = []
         self.request_count = 0
 
-    def process_source_line(self, line):
-        line = line.strip()
-        if not line or line.startswith('#'):
-            return None
+    def process_sources(self, lines):
+        """预处理所有源，建立配对关系"""
+        wildcard_map = {}  # {base_url: [pattern1, pattern2, ...]}
+        direct_urls = []
+        plain_pages = []
 
-        if line.startswith('+date'):
-            parts = line.split(maxsplit=1)
-            if len(parts) < 2:
-                return None
-            url_template = parts[1].strip()
-            try:
-                url = datetime.now().strftime(url_template)
-            except:
-                url = url_template
-        else:
-            url = line
+        for line in lines:
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
 
-        if '*' in url:
-            base_part = url.split('*', 1)[0]
-            if not base_part.startswith(('http://', 'https://')):
-                return None
-            base_url = base_part.rstrip('/')
-            pattern = re.escape(url).replace('\\*', '.*')
-            regex = re.compile('^' + pattern + '$', re.IGNORECASE)
-            return ('page', base_url, 1, regex)
-        else:
-            if is_node_link(url):
-                return ('direct', url, None, None)
+            # 处理 +date
+            if line.startswith('+date'):
+                parts = line.split(maxsplit=1)
+                if len(parts) < 2:
+                    continue
+                url_template = parts[1].strip()
+                try:
+                    url = datetime.now().strftime(url_template)
+                except:
+                    url = url_template
             else:
-                return ('page', url, 1, None)
+                url = line
 
-    def enqueue(self, url, depth, pattern):
+            if '*' in url:
+                # 提取基础URL：取第一个*之前的部分
+                base_part = url.split('*', 1)[0].rstrip('/')
+                if base_part.startswith(('http://', 'https://')):
+                    pattern = re.escape(url).replace('\\*', '.*')
+                    regex = re.compile('^' + pattern + '$', re.IGNORECASE)
+                    if base_part not in wildcard_map:
+                        wildcard_map[base_part] = []
+                    wildcard_map[base_part].append(regex)
+            else:
+                if is_node_link(url):
+                    direct_urls.append(url)
+                else:
+                    plain_pages.append(url)
+
+        return wildcard_map, direct_urls, plain_pages
+
+    def enqueue(self, url, depth, patterns):
         if url in self.visited_urls:
             return
         if self.request_count >= MAX_REQUESTS:
             return
-        self.queue.append((url, depth, pattern))
+        self.queue.append((url, depth, patterns))
 
     def download_subscription(self, url):
         if url in self.visited_urls:
@@ -420,7 +422,11 @@ class Crawler:
         except Exception as e:
             print(f"  -> Error: {e}")
 
-    def parse_page(self, html, base_url, depth, pattern):
+    def parse_page(self, html, base_url, depth, patterns):
+        """解析页面，patterns可以是单个正则或列表"""
+        if patterns and not isinstance(patterns, list):
+            patterns = [patterns]
+
         soup = BeautifulSoup(html, 'html.parser')
 
         # 处理 a[href]
@@ -433,36 +439,50 @@ class Crawler:
             if full_url in self.visited_urls:
                 continue
 
-            if pattern and pattern.match(full_url):
+            # 检查是否匹配任一通配符模式
+            matched = False
+            if patterns:
+                for pattern in patterns:
+                    if pattern.match(full_url):
+                        matched = True
+                        break
+
+            if matched:
                 if depth < MAX_DEPTH:
-                    self.enqueue(full_url, depth + 1, pattern)
+                    self.enqueue(full_url, depth + 1, patterns)
                 if any(kw.lower() in full_url.lower() for kw in KEYWORDS):
                     self.download_subscription(full_url)
-                    if depth < MAX_DEPTH and full_url not in self.visited_urls:
-                        self.enqueue(full_url, depth + 1, pattern)
                 continue
 
             if any(kw.lower() in full_url.lower() for kw in KEYWORDS):
                 self.download_subscription(full_url)
                 if depth < MAX_DEPTH and full_url not in self.visited_urls:
-                    self.enqueue(full_url, depth + 1, pattern)
+                    self.enqueue(full_url, depth + 1, patterns)
 
-        # 从纯文本提取 URL
+        # 从纯文本提取URL
         text = soup.get_text()
         url_regex = re.compile(r'https?://[^\s<>"\'{}|\\^`\[\]]+', re.IGNORECASE)
         for match in url_regex.findall(text):
             url = clean_url(match)
             if url in self.visited_urls:
                 continue
-            if pattern and pattern.match(url):
+
+            matched = False
+            if patterns:
+                for pattern in patterns:
+                    if pattern.match(url):
+                        matched = True
+                        break
+
+            if matched:
                 if depth < MAX_DEPTH:
-                    self.enqueue(url, depth + 1, pattern)
+                    self.enqueue(url, depth + 1, patterns)
             elif any(kw.lower() in url.lower() for kw in KEYWORDS):
                 self.download_subscription(url)
                 if depth < MAX_DEPTH and url not in self.visited_urls:
-                    self.enqueue(url, depth + 1, pattern)
+                    self.enqueue(url, depth + 1, patterns)
 
-        # 提取直接节点链接（vmess:// 等）
+        # 提取直接节点链接
         node_link_regex = re.compile(r'(vmess|ss|trojan)://[^\s<>"\'{}|\\^`\[\]]+', re.IGNORECASE)
         for match in node_link_regex.findall(text):
             link = match.strip()
@@ -473,27 +493,29 @@ class Crawler:
                 print(f"  Found direct node link: {link[:50]}...")
 
     def crawl(self, source_lines):
-        valid_lines = [l for l in source_lines if l.strip() and not l.strip().startswith('#')]
-        if not valid_lines:
-            print("⚠️  No valid source lines found in crawler.list.")
-            return
-        print(f"✅ Loaded {len(valid_lines)} source lines.")
+        wildcard_map, direct_urls, plain_pages = self.process_sources(source_lines)
 
-        for line in valid_lines:
-            task = self.process_source_line(line)
-            if task is None:
-                print(f"⚠️  Skipped invalid line: {line}")
-                continue
-            task_type, target, depth, pattern = task
-            if task_type == 'direct':
-                self.download_subscription(target)
-            elif task_type == 'page':
-                self.enqueue(target, depth, pattern)
+        # 处理直接订阅
+        for url in direct_urls:
+            self.download_subscription(url)
+
+        # 处理普通网页（含配对逻辑）
+        for url in plain_pages:
+            patterns = wildcard_map.pop(url, None)  # 取出配对的通配符模式
+            if patterns:
+                self.enqueue(url, 1, patterns)
+            else:
+                self.enqueue(url, 1, None)
+
+        # 处理剩余未配对的通配符
+        for base_url, patterns in wildcard_map.items():
+            self.enqueue(base_url, 1, patterns)
 
         print(f"📋 Initial queue size: {len(self.queue)}")
 
+        # 执行爬取队列
         while self.queue and self.request_count < MAX_REQUESTS:
-            url, depth, pattern = self.queue.popleft()
+            url, depth, patterns = self.queue.popleft()
             if url in self.visited_urls:
                 continue
             self.visited_urls.add(url)
@@ -503,7 +525,7 @@ class Crawler:
                 html = fetch_content(url)
                 if html is None:
                     continue
-                self.parse_page(html, url, depth, pattern)
+                self.parse_page(html, url, depth, patterns)
             except Exception as e:
                 print(f"  Error crawling {url}: {e}")
 
