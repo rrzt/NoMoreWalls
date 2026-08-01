@@ -1,12 +1,29 @@
 proxies:
-- name: 'US美国 #33'
+- http-opts:
+    headers:
+      Host:
+      - play.google.com
+    method: GET
+    path:
+    - /
+  name: '🇬🇧 英国 starcorenode.com #2'
+  network: http
+  port: 1234
+  server: 82.40.62.103
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: db8dc0ce-d9ef-4362-b2b3-72e0532bf166
+- alterId: 0
+  name: 'US美国 #33'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
   skip-cert-verify: false
   sni: hk.catxstar.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
 - client-fingerprint: chrome
@@ -25,7 +42,7 @@ proxies:
       Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
 - alterId: 0
-  name: 🇬🇧GB英国
+  name: 🇺🇸US美国8
   password: humanity
   port: 443
   server: 165.215.250.14
@@ -128,16 +145,6 @@ proxies:
   ws-opts:
     headers:
       Host: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 'GB英国 #1'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa8.api3-max.ru
-  skip-cert-verify: false
-  sni: wopa8.api3-max.ru
-  tls: false
-  type: hysteria2
-  udp: true
 - name: GB英国
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
@@ -237,10 +244,11 @@ proxies:
     headers:
       host: mTCKUNDiGePwU3uP.v.3dns.vip
     path: /ws-vmess
-- client-fingerprint: chrome
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
+  name: 'B - 🇺🇸 US 19 TG: @nodpai'
   port: 22231
+  security: tls
   server: 85.234.114.53
   servername: r1.mizulina.top
   tls: true
@@ -291,6 +299,82 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
+- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: 🇳🇱NL_193
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: 🇬🇧GB_2|⬇️1.7MB/s
+  network: ws
+  port: 443
+  server: 173.245.59.121
+  servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 979b6822-d65a-400d-89f8-30391903ac20
+  ws-opts:
+    headers:
+      host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+    path: /ws
+- name: GBVLESS-110|free-nodes
+  network: ws
+  port: 80
+  server: fuck1.tawanaproxy.online
+  servername: en.tawana.cf.panbehpanel.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c33275fd-a4fa-470d-90e4-55da39d849a8
+  ws-opts:
+    headers:
+      host: en.tawana.cf.panbehpanel.ir
+    path: /
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -357,64 +441,16 @@ proxies:
   sni: wopa7.api3-max.ru
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_178
+  name: 🇳🇱NL_177
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 82.38.31.155
+  server: 82.38.31.149
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_59
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.57
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-178
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.2
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-175
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.174
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_69
+  name: ❓Other_34
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.187
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-160
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.208
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_74
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_158
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.205
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_141
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.216
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_1
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.48
+  server: 82.38.31.184
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_57
@@ -423,46 +459,22 @@ proxies:
   server: 82.38.31.46
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_69
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.187
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 未知 SS-165
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.217
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧GB-82.38.31.194-0071 | 78.52...
+  name: 🇬🇧GB-82.38.31.194-0099 | 87.35...
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.194
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_2
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.210
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_204
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.174
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_148
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.36
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_52
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.189
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_149
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.49
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_68
@@ -476,47 +488,41 @@ proxies:
   port: 8080
   server: 82.38.31.191
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: ❓Other_34
-  password: k1dBOmOB4oqi7Ump37a1bQ
+- cipher: rc4-md5
+  name: 🇬🇧GB_2
+  password: 14fFPrbezE3HDZzsMOr6
   port: 8080
-  server: 82.38.31.184
+  server: 146.70.61.37
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_81
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.202
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_177
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.149
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_4
+  name: 🇳🇱NL_148
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
-  server: 82.38.31.15
+  server: 82.38.31.36
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_160
+  name: 未知 SS-160
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.208
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_178
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 82.38.31.10
+  server: 82.38.31.155
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 未知 SS-162
+  name: 🇳🇱NL_2
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.214
+  server: 82.38.31.210
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 未知 SS-153
+  name: 未知 SS-146
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.192
+  server: 82.38.31.176
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-147
@@ -525,19 +531,97 @@ proxies:
   server: 82.38.31.179
   type: ss
 - cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_52
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.189
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_4
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.15
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_204
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_1
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.48
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_141
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.216
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_149
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.49
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_81
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-175
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_59
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.57
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_158
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.205
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-162
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.214
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_74
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.186
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_160
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.10
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_55
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.16
   type: ss
-- cipher: aes-256-gcm
-  name: 🇬🇧GB_20
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-153
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.192
   type: ss
 - cipher: aes-128-gcm
-  name: 🇬🇧GB-141.98.101.179-0106 | 12....
+  name: 🇬🇧GB-141.98.101.179-0137 | 22....
   password: shadowsocks
   port: 443
   server: 141.98.101.179
@@ -549,16 +633,22 @@ proxies:
   server: 141.98.101.181
   type: ss
 - cipher: aes-128-gcm
+  name: 🇬🇧GB_10
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  type: ss
+- cipher: aes-128-gcm
   name: 🇬🇧GB_1
   password: shadowsocks
   port: 443
   server: 141.98.101.178
   type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧GB_10
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.182
+- cipher: aes-256-gcm
+  name: 🇬🇧GB_20
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 94.156.250.148
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: ❓Other_5
@@ -567,31 +657,63 @@ proxies:
   server: 82.38.31.218
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL_75
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_10
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.219
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 未知 SS-146
+  name: 未知 SS-178
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱NL_75
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
-  server: 82.38.31.176
+  server: 82.38.31.199
   type: ss
-- cipher: rc4-md5
-  name: 🇬🇧GB_2
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 146.70.61.37
-  type: ss
+- name: 🇬🇧GB-185.44.76.188-5627 | 0.0M...
+  password: 8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272
+  port: 443
+  server: 185.44.76.188
+  skip-cert-verify: false
+  type: trojan
 - cipher: aes-256-gcm
-  name: 🇬🇧GB-212.38.189.174-0024 | 0.0...
+  name: 🇬🇧GB-212.38.189.174-0051 | 0.0...
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 212.38.189.174
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧GB-51.137.133.181-0041 | 0.0...
+  network: ws
+  port: 13828
+  server: 51.137.133.181
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2b5ee2ed-ddaa-4f13-a86c-ee47acf26a0e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧GB-51.137.133.181-0038 | 0.0...
+  network: ws
+  port: 13828
+  server: 51.137.133.181
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2b5ee2ed-ddaa-4f13-a86c-ee47acf26a0e
+  ws-opts:
+    headers:
+      Host: 51.137.133.181
+    path: /
+- cipher: aes-256-gcm
+  name: 🇬🇧GB-212.38.189.174-0217 | 0.0...
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 212.38.189.174

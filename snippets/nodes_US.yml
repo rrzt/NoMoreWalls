@@ -1,4 +1,49 @@
 proxies:
+- name: '🇺🇸 美国 CloudFlare节点 2 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '🇺🇸 美国 CloudFlare节点 3 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- alterId: 0
+  cipher: chacha20-ietf-poly1305
+  name: 🇺🇸US美国4 286.5KB/s
+  password: ljqdalu13..
+  port: 8316
+  server: 38.180.135.39
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- name: '🇺🇸 美国 CloudFlare节点 4 #2'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: '美国+CloudFlare节点 #3'
   network: ws
   password: humanity
@@ -19,8 +64,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  name: 'US美国 #18'
+- name: 'US美国 #18'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20023
@@ -79,7 +123,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇲🇾_马来西亚_190 - 249ms
+  name: 🇲🇾_马来西亚_190
   network: ws
   port: 36803
   server: cindy52.ceoiii.com
@@ -146,8 +190,7 @@ proxies:
   uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
   ws-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
-- alterId: 0
-  name: US7
+- name: 'US美國丨yoyapai.com_1 #2'
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
   server: 211.49.57.178
@@ -193,8 +236,7 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- alterId: 0
-  name: 未知11
+- name: '美國+CloudFlare节点丨yoyapai.com_1 #2'
   password: 9c521e24-7326-acd3-acec-d0afac2b465d
   port: 8080
   server: 104.25.108.147
@@ -207,8 +249,7 @@ proxies:
     headers:
       Host: red-cell-47f9.milaniomilan9.workers.dev
     path: /
-- alterId: 0
-  name: 'Node #133'
+- name: 'Node #133'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -218,8 +259,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  name: 'Node #120'
+- name: 'Node #120'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -229,8 +269,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alterId: 0
-  name: 'Node #27'
+- name: 'Node #27'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -419,18 +458,18 @@ proxies:
   udp: true
   ws-opts:
     path: /assignment
-- name: 🇺🇸_US_美国->🇨🇭_CH_瑞士
+- name: 'B - 🇺🇸 US 32 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45553
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: ch.01.naiun.bilibili.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
+  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -448,31 +487,31 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇺🇸_US_美国->🇫🇷_FR_法国
+- name: 'B - 🇺🇸 US 37 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
-- name: 🇺🇸_US_美国_1
+- name: 'B - 🇺🇸 US 36 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 47909
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
-- name: 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
+- name: 'B - 🇺🇸 US 33 TG: @nodpai'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
-  tls: false
+  tls: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -672,6 +711,278 @@ proxies:
     headers:
       HOST: cg1c14.waimaojd.com
     path: /api/v1/graphql
+- name: 美国节点0902 | 1倍率
+  network: tcp
+  password: 0569986c-bd90-42cc-b274-da88d0dcfd4b
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 美国节点0903 | 1倍率
+  network: tcp
+  password: 0569986c-bd90-42cc-b274-da88d0dcfd4b
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #1'
+  network: tcp
+  password: 7ffd8772-4975-44fc-be56-6500ec0577de
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #1'
+  network: tcp
+  password: 7ffd8772-4975-44fc-be56-6500ec0577de
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #2'
+  network: tcp
+  password: f6a77e7c-541e-4985-928b-a194d273101e
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #2'
+  network: tcp
+  password: f6a77e7c-541e-4985-928b-a194d273101e
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #3'
+  network: tcp
+  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #3'
+  network: tcp
+  password: 73840736-debd-4096-b322-cc3cfd1bb3b2
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #4'
+  network: tcp
+  password: ab4046b8-e669-47e1-8ad6-b07640b06781
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #4'
+  network: tcp
+  password: ab4046b8-e669-47e1-8ad6-b07640b06781
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #5'
+  network: tcp
+  password: a845dd5e-21e9-4586-a871-08d484c40612
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #5'
+  network: tcp
+  password: a845dd5e-21e9-4586-a871-08d484c40612
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #6'
+  network: tcp
+  password: 6ac40de6-6ec8-4586-b926-5f6231ab851a
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #6'
+  network: tcp
+  password: 6ac40de6-6ec8-4586-b926-5f6231ab851a
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #7'
+  network: tcp
+  password: fd52a92f-1002-4266-b27c-a2d650ef2bb2
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #7'
+  network: tcp
+  password: fd52a92f-1002-4266-b27c-a2d650ef2bb2
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #8'
+  network: tcp
+  password: 00f1585c-7ea6-4a0c-af2b-5f08add7ce52
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #8'
+  network: tcp
+  password: 00f1585c-7ea6-4a0c-af2b-5f08add7ce52
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #9'
+  network: tcp
+  password: 9061d0aa-11fe-4cb3-a49d-d60fc96d5a77
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #9'
+  network: tcp
+  password: 9061d0aa-11fe-4cb3-a49d-d60fc96d5a77
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #10'
+  network: tcp
+  password: a1cfa06d-fa25-4534-8469-9ac9f8b939f7
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #10'
+  network: tcp
+  password: a1cfa06d-fa25-4534-8469-9ac9f8b939f7
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #11'
+  network: tcp
+  password: 26ef78f8-a6e0-4f51-a87c-a8b5e6298779
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #11'
+  network: tcp
+  password: 26ef78f8-a6e0-4f51-a87c-a8b5e6298779
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #12'
+  network: tcp
+  password: 4db91b7d-5cc8-4943-8cac-7af8d45ea2d5
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #12'
+  network: tcp
+  password: 4db91b7d-5cc8-4943-8cac-7af8d45ea2d5
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #13'
+  network: tcp
+  password: 051acce2-6f99-4965-9980-18961f4b8ce1
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #13'
+  network: tcp
+  password: 051acce2-6f99-4965-9980-18961f4b8ce1
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #14'
+  network: tcp
+  password: 61791717-4462-4b54-abc6-6e0d852d3525
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #14'
+  network: tcp
+  password: 61791717-4462-4b54-abc6-6e0d852d3525
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #15'
+  network: tcp
+  password: bd6c9582-2ba5-49e5-b1f7-d8303dbb80d2
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #15'
+  network: tcp
+  password: bd6c9582-2ba5-49e5-b1f7-d8303dbb80d2
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0902 | 1倍率 #16'
+  network: tcp
+  password: 9b9f7250-69b7-453e-86f3-3bdf6081a7b3
+  port: 24422
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '美国节点0903 | 1倍率 #16'
+  network: tcp
+  password: 9b9f7250-69b7-453e-86f3-3bdf6081a7b3
+  port: 24413
+  server: vf3us9.stableq.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸US-23.95.248.105-44
@@ -1110,6 +1421,98 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 'B - 🇺🇸 US 24 TG: @nodpai'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  sni: support.zoom.us.blackshadow.dpdns.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.zoom.us.blackshadow.dpdns.org
+    path: /195.123.218.174-443
+- name: 'B - 🇺🇸 US 34 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 35 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: 'B - 🇺🇸 US 42 TG: @nodpai'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18000
+  server: 121.154.96.50
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trojan
+- alterId: 0
+  cipher: auto
+  name: 'C - 🇺🇸 US 46 TG: @nodpai'
+  network: ws
+  port: 52620
+  server: 38.60.176.80
+  type: vmess
+  uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
+  ws-opts:
+    path: /8704a4ad
+- name: 美國_2
+  network: grpc
+  password: iWnFtzMiac
+  port: 19258
+  server: 205.185.115.223
+  skip-cert-verify: true
+  sni: cloudflare.com
+  type: trojan
+  udp: true
+- name: 美國_3
+  network: ws
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: Koma-YT.PAGeS.Dev
+    path: /tro8sFW1S91B6sZrM1?ed=2560
+- name: 🇺🇸 美国|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4019
+  server: 43.207.115.26
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国2|@stairnode
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 3057
+  server: 13.231.134.78
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 美国3|@stairnode
+  password: BxceQaOe
+  port: 23255
+  server: 16.162.122.123
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: 🇺🇸 美国 4
   password: Aimer
   port: 2053
@@ -1123,16 +1526,6 @@ proxies:
     headers:
       Host: epge.muarua.filegear-sg.me
     path: /?ed
-- alterId: 2
-  cipher: auto
-  name: '🇨🇳_CN_中国->🇭🇰_HK_中国香港 #1'
-  port: 30809
-  server: v9.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 美国(yudou789.top 玉豆免费节点)_73
@@ -1163,12 +1556,6 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 'tg频道:@ripaojiedian #2'
-  password: amazonskr05
-  port: 443
-  server: 63.180.254.10
-  type: ss
 - cipher: aes-256-cfb
   name: United States_None_ss_1126
   password: amazonskr05
@@ -1466,7 +1853,37 @@ proxies:
       host: mm3.shabijichang.com
     path: /
 - cipher: aes-128-gcm
-  name: 🇺🇸US-156.146.38.168-0069 | 172...
+  name: 🇺🇸US_30
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.236
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸US_5
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.243
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸US-37.19.198.244-0080 | 184....
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.244
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸US_4
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.160
+  type: ss
+- cipher: rc4-md5
+  name: 🇺🇸US_16
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 138.199.42.68
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸US-156.146.38.168-0074 | 91....
   password: shadowsocks
   port: 443
   server: 156.146.38.168
@@ -1478,40 +1895,22 @@ proxies:
   server: 156.146.38.167
   type: ss
 - cipher: aes-128-gcm
-  name: 🇺🇸US_2
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.169
-  type: ss
-- cipher: aes-128-gcm
   name: 🇺🇸US_3
   password: shadowsocks
   port: 443
   server: 156.146.38.170
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸US_2
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.169
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸US_142
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.0.177
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸US-37.19.198.244-0052 | 89.7...
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.244
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸US_4
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.160
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸US_5
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.243
   type: ss
 - cipher: aes-128-gcm
   name: 🇺🇸US_1
@@ -1527,7 +1926,85 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US-154.17.238.183-0140 | 0.0...
+  name: 🇺🇸US-149.57.199.151-0069 | 0.0...
+  network: ws
+  port: 30345
+  server: 149.57.199.151
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ba771461-5a4a-43f1-a61b-20d48e49e756
+  ws-opts:
+    headers:
+      Host: 149.57.199.151
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-149.57.199.151-0068 | 0.0...
+  network: ws
+  port: 30345
+  server: 149.57.199.151
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ba771461-5a4a-43f1-a61b-20d48e49e756
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-20.106.74.17-0066 | 0.0MB
+  network: ws
+  port: 23690
+  server: 20.106.74.17
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4928085d-637e-4b9e-e26d-e14627a45c46
+  ws-opts:
+    headers:
+      Host: YouTube-aweikeji
+    path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸US-38.68.134.191-0061 | 0.0M...
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.68.134.191
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-20.106.74.17-0044 | 0.0MB
+  network: ws
+  port: 23690
+  server: 20.106.74.17
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4928085d-637e-4b9e-e26d-e14627a45c46
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  name: 🇺🇸US-167.88.61.175-0033 | 0.0M...
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 167.88.61.175
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-104.194.74.77-0029 | 0.0M...
+  network: ws
+  port: 443
+  server: www.noobiehwang.top
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 67025907-3ffe-4636-9a79-359e17c91bda
+  ws-opts:
+    headers:
+      Host: www.noobiehwang.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US-154.17.238.183-0164 | 0.0...
   network: ws
   port: 8880
   server: 154.17.238.183
@@ -1541,7 +2018,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 🇺🇸US-38.11.69.42-1743 | 0.0MB
+  name: 🇺🇸US-38.11.69.42-0172 | 0.0MB
   network: ws
   port: 30003
   server: 38.11.69.42
@@ -1553,93 +2030,87 @@ proxies:
     headers:
       Host: www.52140341.xyz
     path: /
-- cipher: aes-128-gcm
-  name: 🇺🇸US_30
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.236
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US-167.88.61.2-0045 | 0.0MB
+  name: 🇺🇸US-167.88.61.2-0180 | 0.0MB
   password: G!yBwPWH3Vao
   port: 804
   server: 167.88.61.2
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-167.88.61.50-0044 | 0.0MB
+  name: 🇺🇸US-167.88.61.50-0181 | 0.0MB
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 167.88.61.50
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-167.88.63.99-0043 | 0.0MB
+  name: 🇺🇸US-167.88.63.99-0182 | 0.0MB
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 167.88.63.99
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-167.88.63.99-0042 | 0.0MB
+  name: 🇺🇸US-167.88.63.99-0183 | 0.0MB
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 167.88.63.99
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.114.114.69-0041 | 0.0M...
+  name: 🇺🇸US-38.114.114.69-0185 | 0.0M...
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 38.114.114.69
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.114.114.69-0040 | 0.0M...
+  name: 🇺🇸US-38.114.114.69-0186 | 0.0M...
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 38.114.114.69
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.121.43.71-0039 | 0.0MB
+  name: 🇺🇸US-38.121.43.71-0188 | 0.0MB
   password: Y6R9pAtvxxzmGC
   port: 5600
   server: 38.121.43.71
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.68.134.191-0038 | 0.0M...
+  name: 🇺🇸US-38.68.134.191-0189 | 0.0M...
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 38.68.134.191
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.68.134.191-0037 | 0.0M...
+  name: 🇺🇸US-38.68.134.191-0190 | 0.0M...
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 38.68.134.191
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.68.134.85-0036 | 0.0MB
+  name: 🇺🇸US-38.68.134.85-0191 | 0.0MB
   password: KixLvKzwjekG00rm
   port: 8080
   server: 38.68.134.85
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.75.136.21-0035 | 0.0MB
+  name: 🇺🇸US-38.75.136.21-0192 | 0.0MB
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 38.75.136.21
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.86.135.36-0034 | 0.0MB
+  name: 🇺🇸US-38.86.135.36-0194 | 0.0MB
   password: Y6R9pAtvxxzmGC
   port: 5000
   server: 38.86.135.36
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸US-169.197.142.187-0027 | 0....
+  name: 🇺🇸US-169.197.142.187-0204 | 0....
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 169.197.142.187
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US-192.204.57.30-0152 | 0.0M...
+  name: 🇺🇸US-192.204.57.30-0208 | 0.0M...
   network: ws
   port: 443
   server: 192.204.57.30
@@ -1649,7 +2120,7 @@ proxies:
   uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
   ws-opts:
     path: /
-- name: 🇺🇸US-157.254.38.210-0156 | 0.0...
+- name: 🇺🇸US-157.254.38.210-0211 | 0.0...
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -1657,40 +2128,22 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
 - cipher: aes-256-gcm
-  name: 🇺🇸US-38.68.134.85-0163 | 0.0MB
+  name: 🇺🇸US-38.68.134.85-0218 | 0.0MB
   password: pKEW8JPByTVTLtM
   port: 443
   server: 38.68.134.85
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US-162.251.61.221-0166 | 0.0...
+  name: 🇺🇸US-162.251.61.221-0221 | 0.0...
   password: G!yBwPWH3Vao
   port: 805
   server: 162.251.61.221
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US-138.68.248.130-0172 | 0.0...
+  name: 🇺🇸US-138.68.248.130-0226 | 0.0...
   password: Ultr@r00t_2017
   port: 811
   server: 138.68.248.130
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸US-167.88.63.59-0183 | 0.0MB
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 167.88.63.59
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸US-54.197.30.38-0209 | 0.0MB
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸US-34.207.235.215-0212 | 0.0...
-  password: amazonskr05
-  port: 443
-  server: 34.207.235.215
   type: ss
 - name: 🇺🇸US-157.254.38.210-16
   password: 订阅内容解析错误ba07a8af-5544-48ac-ab62-3b6c00a44fa6
@@ -2128,279 +2581,7 @@ proxies:
     path: /register
 - alterId: 0
   cipher: auto
-  name: US
-  network: ws
-  port: 80
-  server: 69.84.182.49
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  ws-opts:
-    headers:
-      host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: US2
-  network: tcp
-  port: 8881
-  server: 170.187.163.89
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  name: US3
-  network: ws
-  port: 443
-  server: xsj004-10.facai2024.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
-  ws-opts:
-    headers:
-      host: xsj004-10.facai2024.com
-    path: /1f1aa362-25
-- alterId: 0
-  cipher: auto
-  name: US4
-  network: ws
-  port: 22047
-  server: 103.179.142.212
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 948763b5-a064-453c-a015-185cb183bbfe
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: US5
-  network: tcp
-  port: 42899
-  server: 47.251.91.241
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0925b355-2bcd-4eae-9720-d2709e4f7e36
-- alterId: 0
-  cipher: auto
-  name: US6 89.9KB/s
-  network: ws
-  port: 2086
-  server: 154.17.234.39
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7e25875e-50bb-47ed-9627-261e6d232f69
-  ws-opts:
-    headers:
-      host: www.bing.com
-    path: /7e25875e-50bb-47ed-9627-261e6d232f69-vm
-- alterId: 0
-  cipher: auto
-  name: US8
-  network: tcp
-  port: 20001
-  server: 74.211.102.179
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83
-- alterId: 0
-  cipher: auto
-  name: US9
-  network: tcp
-  port: 10086
-  server: 43.173.74.241
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: bd7e0c40-79c7-4db1-ba27-43894d59a4a1
-- alterId: 0
-  cipher: auto
-  name: US10
-  network: tcp
-  port: 44806
-  server: ambxxic01hk.dorabbb.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628
-- alterId: 0
-  cipher: auto
-  name: US11
-  network: tcp
-  port: 443
-  server: 165.140.216.141
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- alterId: 0
-  cipher: auto
-  name: US12
-  network: ws
-  port: 2052
-  server: cfcdn3.sanfencdn9.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 78c40177-c364-480d-bd77-76e9d89f69b4
-  ws-opts:
-    headers:
-      host: kvjqqknzjp6.yofnhkfc.xyz
-    path: /video/Zo98PYfE
-- alterId: 0
-  cipher: auto
-  name: US13
-  network: tcp
-  port: 8881
-  server: 159.65.44.98
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  name: US14
-  network: tcp
-  port: 8881
-  server: 143.198.18.35
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  name: US15
-  network: ws
-  port: 2082
-  server: 69.63.204.31
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
-  ws-opts:
-    path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
-- alterId: 0
-  cipher: auto
-  name: US16
-  network: ws
-  port: 8880
-  server: 154.21.83.77
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 04bccfa1-a6a8-4ace-991f-454624a8766f
-  ws-opts:
-    headers:
-      host: www.bing.com
-    path: 04bccfa1-a6a8-4ace-991f-454624a8766f-vm
-- alterId: 0
-  cipher: auto
-  name: US17
-  network: ws
-  port: 2082
-  server: us1.levikogjgfdd.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
-  ws-opts:
-    headers:
-      host: www.bing.com
-    path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
-- alterId: 0
-  cipher: auto
-  name: US18 141.9MB/s
-  network: tcp
-  port: 443
-  server: 165.140.216.142
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: US19
-  network: ws
-  port: 443
-  server: gt021.bestforxray.buzz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
-  ws-opts:
-    headers:
-      host: ausgt02.bestforxray.buzz
-    path: /linkws
-- alterId: 64
-  cipher: auto
-  name: US20
-  network: tcp
-  port: 41911
-  server: 107.148.192.150
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: US21
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 0921f18e-db32-4c07-939b-4388673bfe59
-  ws-opts:
-    headers:
-      host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  name: 🇺🇸US美国4
-  password: BxceQaOe
-  port: 38961
-  server: 16.162.122.119
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸US美国5
-  network: ws
-  port: 36803
-  server: cindy52.ceoiii.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  name: US22
-  network: ws
-  port: 2095
-  server: 64.186.253.113
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
-  ws-opts:
-    path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
-- alterId: 0
-  cipher: auto
-  name: US23 295.7KB/s
+  name: US 284.9KB/s
   network: ws
   port: 8880
   server: 154.17.238.183
@@ -2414,7 +2595,66 @@ proxies:
     path: b7479b73-8cea-4a82-97e8-bacf9bd86605-vm
 - alterId: 0
   cipher: auto
-  name: US24
+  name: US2
+  network: tcp
+  port: 44806
+  server: ambxxic01hk.dorabbb.top
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628
+- alterId: 0
+  cipher: auto
+  name: US3 44.0KB/s
+  network: ws
+  port: 2086
+  server: 154.17.234.39
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7e25875e-50bb-47ed-9627-261e6d232f69
+  ws-opts:
+    headers:
+      host: www.bing.com
+    path: /7e25875e-50bb-47ed-9627-261e6d232f69-vm
+- alterId: 0
+  cipher: auto
+  name: US4
+  network: ws
+  port: 80
+  server: slime-rhinestone-spy.glitch.me
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1d5fb496-19fb-48fb-9880-a147326dee62
+  ws-opts:
+    headers:
+      host: best-charm-pediatrician.glitch.me
+    path: /1d5fb496-19fb-48fb-9880-a147326dee62-vmess
+- alterId: 0
+  name: 🇺🇸US美国2
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.77
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US5
+  network: tcp
+  port: 8881
+  server: 157.245.4.52
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alterId: 0
+  cipher: auto
+  name: US6
   network: ws
   port: 2086
   server: 23.254.166.237
@@ -2428,27 +2668,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: US25 469.6MB/s
-  network: tcp
-  port: 180
-  server: 82.198.246.37
+  name: US7
+  network: ws
+  port: 8880
+  server: 154.21.83.77
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  uuid: 04bccfa1-a6a8-4ace-991f-454624a8766f
+  ws-opts:
+    headers:
+      host: www.bing.com
+    path: 04bccfa1-a6a8-4ace-991f-454624a8766f-vm
 - alterId: 0
   cipher: auto
-  name: US26
-  network: tcp
-  port: 8881
-  server: 157.245.4.52
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  name: US27
+  name: US8
   network: ws
   port: 80
   server: cfcdn3.sanfencdn9.com
@@ -2460,18 +2694,284 @@ proxies:
     headers:
       host: agzbjszujp4.yofnhkfc.xyz
     path: /video/ibCT6z55
+- alterId: 0
+  cipher: auto
+  name: US9
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9ebb09ef-ce69-4bbb-ba8f-3be6c52ef9c2
+  ws-opts:
+    headers:
+      host: zifstzamhk1.yofnhkfc.xyz
+    path: /video/VuDFdktz
+- alterId: 0
+  cipher: auto
+  name: US10
+  network: ws
+  port: 443
+  server: gt021.bestforxray.buzz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
+  ws-opts:
+    headers:
+      host: ausgt02.bestforxray.buzz
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: US11
+  network: tcp
+  port: 8881
+  server: 170.187.163.89
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alterId: 0
+  cipher: auto
+  name: US12
+  network: ws
+  port: 443
+  server: xsj004-10.facai2024.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  ws-opts:
+    headers:
+      host: xsj004-10.facai2024.com
+    path: /1f1aa362-25
+- alterId: 0
+  cipher: auto
+  name: US13
+  network: tcp
+  port: 10086
+  server: 43.173.74.241
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bd7e0c40-79c7-4db1-ba27-43894d59a4a1
+- alterId: 0
+  cipher: auto
+  name: US14
+  network: ws
+  port: 80
+  server: blang.kcapsys.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f0273043-d637-4fdf-971c-eb486efa9c4b
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US15
+  network: ws
+  port: 22047
+  server: 103.179.142.212
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 948763b5-a064-453c-a015-185cb183bbfe
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US16
+  network: ws
+  port: 33410
+  server: yd4.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9301afcd-025e-781f-1abc-c10efabd1211
+  ws-opts:
+    headers:
+      host: yd4.ainivp.com
+    path: /ray
+- alterId: 0
+  name: 🇺🇸US美国5
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US17 459.3MB/s
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: US18
+  network: ws
+  port: 2082
+  server: us1.levikogjgfdd.ir
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
+  ws-opts:
+    headers:
+      host: www.bing.com
+    path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
+- alterId: 0
+  cipher: auto
+  name: US19
+  network: tcp
+  port: 8881
+  server: 159.65.44.98
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alterId: 0
+  cipher: auto
+  name: US20
+  network: tcp
+  port: 8881
+  server: 143.198.18.35
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alterId: 0
+  name: 🇺🇸US美国7
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: US21
+  network: tcp
+  port: 41911
+  server: 107.148.192.150
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: US22
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0921f18e-db32-4c07-939b-4388673bfe59
+  ws-opts:
+    headers:
+      host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: US23
+  network: ws
+  port: 2052
+  server: cfcdn3.sanfencdn9.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 78c40177-c364-480d-bd77-76e9d89f69b4
+  ws-opts:
+    headers:
+      host: kvjqqknzjp6.yofnhkfc.xyz
+    path: /video/Zo98PYfE
+- alterId: 0
+  cipher: auto
+  name: US24
+  network: tcp
+  port: 42899
+  server: 47.251.91.241
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 0925b355-2bcd-4eae-9720-d2709e4f7e36
+- alterId: 0
+  cipher: auto
+  name: US25
+  network: ws
+  port: 80
+  server: 69.84.182.49
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  ws-opts:
+    headers:
+      host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US26
+  network: tcp
+  port: 20001
+  server: 74.211.102.179
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83
+- alterId: 0
+  cipher: auto
+  name: US27 28.3KB/s
+  network: ws
+  port: 2095
+  server: 64.186.253.113
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
+  ws-opts:
+    path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
+- alterId: 0
+  cipher: auto
+  name: US28 93.1KB/s
+  network: ws
+  port: 2082
+  server: 69.63.204.31
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
+  ws-opts:
+    path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
+- alterId: 0
+  cipher: auto
+  name: US29 120.3MB/s
+  network: tcp
+  port: 443
+  server: 165.140.216.142
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - cipher: chacha20-ietf-poly1305
   name: 未知 SS-106
   password: XF0klw7870vXn3uQIxe19Q
   port: 1080
   server: 185.232.22.18
   type: ss
-- name: 美国_127
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  sni: www.multiplydose.com
-  type: trojan
 - cipher: aes-256-gcm
   name: 🇺🇸US_27
   password: faBAoD54k87UJG7
@@ -2591,12 +3091,6 @@ proxies:
   skip-cert-verify: true
   sni: static.rutube.ru
   type: trojan
-- cipher: rc4-md5
-  name: 🇺🇸US_16
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 138.199.42.68
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: '未知 SS-42 #1'
   password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
