@@ -8,6 +8,123 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- name: 'TW_speednode_0173 #1'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-14
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001287h3p.cybervena.com
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_5|174KB/s|A003-260618 01
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  port: 50099
+  server: r3mrcg001287h3p.cybervena.com
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: '0'
+  cipher: auto
+  name: 🇹🇼TW_6|206KB/s|C002-260622 01
+  network: raw
+  packet-encoding: xudp
+  port: 35034
+  server: 165.154.195.38
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 加拿大 038
+  network: tcp
+  packet-encoding: xudp
+  port: 35034
+  server: 165.154.195.38
+  skip-cert-verify: true
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  xudp: true
+- name: 🇹🇼TW_8
+  network: tcp
+  packet-encoding: xudp
+  port: 10000
+  server: 60.249.101.13
+  sub_tag: A004-260618
+  tls: false
+  type: vless
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+  ws-opts:
+    path: /
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 未知 SS-15
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_11
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 61.231.49.122
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_12|248KB/s|A004-260618 01
+  password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b
+  port: 50099
+  server: 61.231.49.122
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- encryption: none
+  name: 🇹🇼TW_14
+  network: tcp
+  packet-encoding: xudp
+  port: 10000
+  server: 60.249.101.16
+  sub_tag: B007-260618
+  tls: false
+  type: vless
+  udp: true
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇼TW_18
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 36.224.191.247
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾
@@ -49,6 +166,15 @@ proxies:
   type: trojan
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - 353ms
+  network: tcp
+  port: 2510
+  server: world.t.51guangtaobao.com
+  tls: false
+  type: vmess
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇹🇼_台湾_81
@@ -75,35 +201,6 @@ proxies:
   type: vless
   udp: true
   uuid: bcb4dffa-2300-4c0c-8d2f-bd5840232423
-- insecure: '1'
-  mport: 40000-49999
-  name: 'A - 🇹🇼 TW 01 TG: @nodpai'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 40000
-  server: tw.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-  uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 中国 016
-  network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
 - name: 🇨🇳 TW 1 → tg@nicevpn123
   password: 0cc6b4268dea0ba8
   port: 3389
@@ -388,20 +485,6 @@ proxies:
   type: hysteria2
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: chacha20-ietf-poly1305
-  name: 未知 SS-15
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg00129437x.cybervena.com
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
-  name: 未知 SS-14
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
   port: 31241
@@ -478,33 +561,3 @@ proxies:
     headers:
       Host: fadawtawd.zhangwei.li
     path: /zh-cn
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_18
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 36.224.191.247
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 🇹🇼TW_14
-  network: tcp
-  port: 10000
-  server: 60.249.101.16
-  tls: false
-  type: vless
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW_11
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 61.231.49.122
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 'TW_speednode_0173 #1'
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-  uuid: 88888888-8888-8888-8888-888888888888

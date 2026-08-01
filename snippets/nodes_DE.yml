@@ -21,6 +21,7 @@ proxies:
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: de.catxstar.com
+  sub_tag: A004-260618
   tls: true
   type: trojan
   udp: true
@@ -34,6 +35,112 @@ proxies:
   type: ss
   udp: true
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_2
+  password: PWpjPo3tqhPN4yRZ
+  port: 20001
+  server: 8.209.74.72
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇩🇪DE_3
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 185.226.172.8
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_4
+  password: 1hhrqrokj3ag
+  port: 8388
+  server: 209.46.102.22
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_18
+  password: uROuEqsL8IUMMVb4wDwnGU
+  port: 10443
+  server: 57.129.121.230
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  name: 'CN_speednode_0006 #2'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  sub_tag: C002-260622
+  tls: true
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_66
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: hyperon.site
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /bkdicj
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_69|488KB/s|A004-260618 01
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 62.113.194.49
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_70
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: cctvhikvision.center
+  skip-cert-verify: false
+  sni: com.digitalposts.dpdns.org
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /bkdicj
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇩🇪DE_74
+  network: ws
+  password: 5xjmr1dz66pgsew0
+  port: 8443
+  server: undef.network
+  skip-cert-verify: true
+  sni: com.digitalposts.dpdns.org
+  sub_tag: S004-260618
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    path: /bkdicj
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -1057,62 +1164,4 @@ proxies:
   server: free.2weradf.xyz
   type: ss
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_66
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: hyperon.site
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /bkdicj
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_70
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: cctvhikvision.center
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /bkdicj
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_18
-  password: uROuEqsL8IUMMVb4wDwnGU
-  port: 10443
-  server: 57.129.121.230
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇩🇪DE_3
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 185.226.172.8
-  type: ss
-  uuid: 88888888-8888-8888-8888-888888888888
-- alpn:
-  - http/1.1
-  name: 🇩🇪DE_74
-  network: ws
-  password: 5xjmr1dz66pgsew0
-  port: 8443
-  server: undef.network
-  skip-cert-verify: true
-  sni: com.digitalposts.dpdns.org
-  type: trojan
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: /bkdicj
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_2
-  password: PWpjPo3tqhPN4yRZ
-  port: 20001
-  server: 8.209.74.72
-  type: ss
   uuid: 88888888-8888-8888-8888-888888888888

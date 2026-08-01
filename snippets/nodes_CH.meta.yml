@@ -58,6 +58,17 @@ proxies:
   type: vless
   udp: true
   uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08
+- client-fingerprint: chrome
+  name: 🇨🇭CH_2|272KB/s|A004-260618 01
+  network: tcp
+  password: y3b03zx3tznhyo538p4c
+  port: 53261
+  server: 86.106.84.195
+  skip-cert-verify: true
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: CH 1 → tg@nicevpn123
   password: 55319b01-5d85-48a2-a40a-0b3fc1985755
   port: 11005

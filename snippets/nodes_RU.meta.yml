@@ -194,7 +194,7 @@ proxies:
   type: vless
   udp: true
   uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
-- name: '🇷🇺_RU_俄罗斯 #7'
+- name: '🇷🇺_RU_俄罗斯 #6'
   port: 29311
   server: 46.29.163.32
   skip-cert-verify: true
@@ -202,6 +202,60 @@ proxies:
   type: vless
   udp: true
   uuid: dee59997-f3f0-4dc5-bb26-ae24ae63ec5a
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇷🇺RU_12
+  network: grpc
+  packet-encoding: xudp
+  port: 2083
+  server: 45.138.100.226
+  servername: using.neobo-tooth.ru
+  sub_tag: A004-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺RU_17|288KB/s|B007-260618 01
+  password: CsSYOhlDUy7Hz1yQCXSnxj
+  port: 10792
+  server: 130.49.189.158
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 未知 SS-204
+  password: fbaf33bcffe53cf9
+  port: 50111
+  server: 195.58.48.19
+  skip-cert-verify: false
+  sub_tag: K001-260618
+  type: ss
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_19
+  password: 9f3d1a6d31468599
+  port: 1291
+  server: 195.133.23.200
+  skip-cert-verify: false
+  sub_tag: K001-260618
+  type: ss
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_20
+  password: b24a80e79cee1d1f
+  port: 50111
+  server: 195.133.5.207
+  skip-cert-verify: false
+  sub_tag: K001-260618
+  type: ss
+  udp: false
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: 俄罗斯(免费节点)_3
   network: ws
   port: 8443
@@ -266,20 +320,6 @@ proxies:
   type: vless
   udp: true
   uuid: fb6b3497-2026-4a86-b9a5-3e5f18e77a37
-- name: 🇩🇪DE_92
-  network: ws
-  port: 80
-  server: ru-de.apruxdomain.xyz
-  servername: ru-de.apruxdomain.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 84dc79c7-e443-489d-bf07-b4bb825f57d9
-  ws-opts:
-    headers:
-      Host: ru-de.apruxdomain.xyz
-    path: /
 - name: 🇷🇺_俄罗斯_174
   network: ws
   port: 2200
@@ -307,16 +347,6 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
 - flow: xtls-rprx-vision
   name: 🇸🇪SE_1|⬇️2.7MB/s
   network: tcp
@@ -1737,17 +1767,6 @@ proxies:
   type: vless
   udp: true
   uuid: d3aebc17-a731-40fb-a755-aac1a4cf80f2
-- client-fingerprint: chrome
-  name: 🇫🇷FR_198
-  network: tcp
-  port: 8888
-  server: 45.13.119.219
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: eb77be10-9d9e-527b-a78d-8caaf58992d6
 - name: 俄罗斯 041
   network: tcp
   port: 41617
@@ -1890,15 +1909,6 @@ proxies:
   type: ss
   udp: false
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_20
-  password: b24a80e79cee1d1f
-  port: 50111
-  server: 195.133.5.207
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺RU_28
@@ -1914,24 +1924,6 @@ proxies:
   type: vless
   udp: true
   uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_19
-  password: 9f3d1a6d31468599
-  port: 1291
-  server: 195.133.23.200
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-gcm
-  name: 未知 SS-204
-  password: fbaf33bcffe53cf9
-  port: 50111
-  server: 195.58.48.19
-  skip-cert-verify: false
-  type: ss
-  udp: false
-  uuid: 88888888-8888-8888-8888-888888888888
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇷🇺 RU 195 | ⬇️ 73KB/s
@@ -2052,17 +2044,6 @@ proxies:
   ws-opts:
     headers:
       Host: 57be39cds394.csgfw.top
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇷🇺RU_12
-  network: grpc
-  port: 2083
-  server: 45.138.100.226
-  servername: using.neobo-tooth.ru
-  tls: true
-  type: vless
-  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: RU VLESS-237
