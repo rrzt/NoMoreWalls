@@ -698,9 +698,10 @@ class Node:
         ret = ret.rstrip('&')+'#'+name
         return ret
 
+    # ====== 修复：增强 _url_hysteria2 容错，缺失 password 时使用空字符串 ======
     def _url_hysteria2(self, data: DATA_TYPE) -> str:
-        passwd = quote(data['password'])
-        name = quote(data['name'])
+        passwd = quote(data.get('password', ''))
+        name = quote(data.get('name', '未命名'))
         ret = f"hysteria2://{passwd}@{data['server']}:{data['port']}"
         if 'ports' in data:
             ret += ','+data['ports']
@@ -877,7 +878,8 @@ class Source():
                     if 'ignore' in self.cfg:
                         self.cfg['ignore'] = [_ for _ in self.cfg['ignore'].split(',') if _.strip()]
                     self.url = '#'.join(segs[:-1])
-                with session.get(normpath(self.url), stream=True) as r:
+               # with session.get(normpath(self.url), stream=True) as r:
+                with session.get(normpath(self.url), stream=True, timeout=60) as r:
                     if r.status_code != 200:
                         if depth > 0 and isinstance(self.url_source, str):
                             exc = f"'{self.url}' 抓取时 {r.status_code}"
