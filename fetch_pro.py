@@ -793,8 +793,11 @@ class Node:
         
         return ret
 
-    # ====== 修复：在 supports_clash 中过滤掉缺少密码的 SS 节点 ======
+    # ====== 修复：在 supports_clash 中过滤无效类型和缺失密码的 SS ======
     def supports_clash(self, meta=False) -> bool:
+        # 过滤 type 为 none / 空 / None
+        if self.type in ('none', '', None):
+            return False
         if self.isfake: return False
         # 针对 SS 节点，检查密码是否缺失
         if self.type == 'ss':
