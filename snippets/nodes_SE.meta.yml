@@ -84,14 +84,14 @@ proxies:
       Host: max-gb1.global.ssl.fastly.net
     path: /
 - cipher: aes-256-cfb
-  name: 🇸🇪SE_3|4.1MB/s
+  name: Sweden_Stockholm_ss_1127
   password: amazonskr05
   port: 443
   server: 16.171.242.243
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 🇸🇪SE_3|2.1MB/s
+  name: '🇸🇪SE_3|2.1MB/s #1'
   password: amazonskr05
   port: 443
   server: 13.53.38.71
@@ -103,6 +103,19 @@ proxies:
   port: 443
   server: 13.53.198.63
   type: ss
+- cipher: aes-256-cfb
+  name: '🇸🇪SE_2|4.2MB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 13.51.233.2
+  type: ss
+- cipher: aes-256-cfb
+  name: '🇸🇪SE_4|3.4MB/s #1'
+  password: amazonskr05
+  port: 443
+  server: 13.62.20.75
+  type: ss
+  udp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 🇸🇪SE_1|1.3MB/s
@@ -116,19 +129,6 @@ proxies:
   type: vless
   udp: true
   uuid: 1a0bd0ba-df37-4d86-84ee-5f6eb4210d07
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_2|4.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.51.233.2
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_4|3.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.62.20.75
-  type: ss
-  udp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 🇸🇪SE_6

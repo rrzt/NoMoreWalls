@@ -179,27 +179,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇯🇵 日本|@stairnode
-  password: BxceQaOe
-  port: 3022
-  server: 52.194.222.108
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本2|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 4937
-  server: 13.231.134.78
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本3|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 9201
-  server: 43.207.115.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   name: 🇯🇵JP日本9
   network: tcp
@@ -211,12 +190,12 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 日本3|@ripaojiedian
+- name: 🇯🇵JP-3.114.9.167-09
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
   server: 3.114.9.167
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '香港5|@ripaojiedian #1'
@@ -227,7 +206,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇯🇵JP_1|5.3MB/s
+- name: '🇯🇵JP_1|5.3MB/s #1'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -237,7 +216,7 @@ proxies:
   type: trojan
 - alterId: 1
   cipher: auto
-  name: 🇯🇵JP_1|4.4MB/s
+  name: Japan_Tokyo_vmess_1131
   port: 444
   server: 7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art
   skip-cert-verify: true

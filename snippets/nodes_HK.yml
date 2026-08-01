@@ -178,27 +178,6 @@ proxies:
   tls: true
   type: vmess
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
-- name: 🇭🇰 香港3|@stairnode
-  password: 868ecdaf6aed618ec98cf78585672b2b
-  port: 52687
-  server: 18.162.54.192
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇭🇰 香港4|@stairnode
-  password: BxceQaOe
-  port: 6313
-  server: 52.194.222.108
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 香港5|@stairnode
-  password: BxceQaOe
-  port: 6313
-  server: 3.112.196.41
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - alterId: 0
   client-fingerprint: chrome
   name: 🇭🇰HK香港5
@@ -211,7 +190,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 香港4|@ripaojiedian
+- name: 🇭🇰HK-43.198.187.59-05
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -219,7 +198,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 香港5|@ripaojiedian
+- name: 🇭🇰HK-16.162.109.217-06
   network: tcp
   password: BxceQaOe
   port: 25982
@@ -227,7 +206,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 日本|@ripaojiedian
+- name: 🇭🇰HK-43.198.187.59-07
   network: tcp
   password: BxceQaOe
   port: 49811
@@ -258,7 +237,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 新加坡3|@ripaojiedian
+- name: 🇭🇰HK-43.198.187.59-12
   network: tcp
   password: BxceQaOe
   port: 32434
@@ -288,7 +267,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 美国3|@ripaojiedian
+- name: 🇭🇰HK-16.162.122.119-15
   network: tcp
   password: BxceQaOe
   port: 38961
@@ -342,7 +321,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_2|4.2MB/s
+- name: '🇸🇬SG_2|4.2MB/s #1'
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -350,7 +329,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 美国|@ripaojiedian
+- name: '美国|@ripaojiedian #1'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 12680
@@ -358,7 +337,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇺🇸US_6|3.3MB/s
+- name: '🇺🇸US_6|3.3MB/s #1'
   network: tcp
   password: BxceQaOe
   port: 35966
