@@ -628,6 +628,7 @@ class Node:
                 ret += '&'+urlk+'='+b64encodes_safe(data[k])
         return "ssr://"+ret
 
+    # ====== 修复：增强 _url_trojan 容错 ======
     def _url_trojan(self, data: DATA_TYPE) -> str:
         passwd = quote(data['password'])
         name = quote(data['name'])
@@ -640,7 +641,10 @@ class Node:
             ret += f"alpn={quote(','.join(data['alpn']))}&"
         if 'network' in data:
             if data['network'] == 'grpc':
-                ret += f"type=grpc&serviceName={data['grpc-opts']['grpc-service-name']}"
+                ret += f"type=grpc&"
+                # 容错：检查 grpc-opts 是否存在
+                if 'grpc-opts' in data and 'grpc-service-name' in data['grpc-opts']:
+                    ret += f"serviceName={data['grpc-opts']['grpc-service-name']}"
             elif data['network'] == 'ws':
                 ret += f"type=ws&"
                 if 'ws-opts' in data:
@@ -652,8 +656,11 @@ class Node:
         ret = ret.rstrip('&')+'#'+name
         return ret
 
+    # ====== 修复：增强 _url_vless 容错，处理缺失 uuid ======
     def _url_vless(self, data: DATA_TYPE) -> str:
-        passwd = quote(data['uuid'])
+        # 如果 data 中没有 uuid，使用默认值
+        uuid = data.get('uuid', DEFAULT_UUID)
+        passwd = quote(uuid)
         name = quote(data['name'])
         ret = f"vless://{passwd}@{data['server']}:{data['port']}?"
         if 'skip-cert-verify' in data:
@@ -665,9 +672,9 @@ class Node:
         if 'network' in data:
             if data['network'] == 'grpc':
                 ret += f"type=grpc&"
-                try:
+                # 容错：检查 grpc-opts 是否存在
+                if 'grpc-opts' in data and 'grpc-service-name' in data['grpc-opts']:
                     ret += f"serviceName={data['grpc-opts']['grpc-service-name']}&"
-                except KeyError: pass
             elif data['network'] == 'ws':
                 ret += f"type=ws&"
                 if 'ws-opts' in data:
