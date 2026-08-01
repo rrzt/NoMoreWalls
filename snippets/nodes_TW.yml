@@ -18,20 +18,20 @@ proxies:
   udp: true
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - client-fingerprint: chrome
-  name: United States_None_trojan_1130
+  name: 🇨🇳 机场推荐:dafei.de 台湾 01
   network: tcp
   password: i99Cef
-  port: '28101'
+  port: 28101
   server: 209.248.32.116
   skip-cert-verify: true
   sni: download.windowsupdate.com
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: United States_None_trojan_1129
+  name: 🇨🇳 机场推荐:dafei.de 台湾 02
   network: tcp
   password: i99Cef
-  port: '28101'
+  port: 28101
   server: 209.248.32.115
   skip-cert-verify: true
   sni: download.windowsupdate.com

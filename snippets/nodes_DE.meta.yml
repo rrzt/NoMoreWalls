@@ -315,6 +315,13 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-000000000000
+- cipher: chacha20-ietf-poly1305
+  name: DE_speednode_0008
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.33.205
+  type: ss
+  udp: true
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -553,13 +560,6 @@ proxies:
   type: vless
   udp: true
   uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0
-- cipher: chacha20-ietf-poly1305
-  name: DE_speednode_0008
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.33.205
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
   password: 035ceef0-c949-4e4e-bcaa-aaaafb9d0549
