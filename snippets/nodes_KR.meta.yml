@@ -116,7 +116,7 @@ proxies:
     headers:
       host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
     path: /@Marisa_kristi
-- name: 🇰🇷KR_1|2.1MB/s
+- name: 'KR_speednode_0034 #1'
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -126,24 +126,6 @@ proxies:
   type: http
   udp: true
   username: test
-- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 108.162.196.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 72.167.230.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
 - alterId: 0
   cipher: auto
   name: 未知42 1.0MB/s
@@ -343,6 +325,15 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: '%2F%3Fed%3D2560%26proxyip%3D110.9.4.54%3A50004'
+- name: 'US_speednode_0179 #1'
+  password: ''
+  port: 50161
+  server: 168.107.13.220
+  skip-cert-verify: true
+  tls: false
+  type: socks5
+  udp: true
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇰🇷KR_10

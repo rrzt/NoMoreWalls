@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇫🇷_法国_192
+  name: 'JP日本(v2clash.blog 2026-7.31更新)... #3'
   network: ws
   port: 55009
   server: 2001:bc8:32d7:225::3
@@ -12,7 +12,7 @@ proxies:
   uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
   ws-opts:
     path: /0zNW56sF
-- name: 🇩🇪_德国_210
+- name: 'FR法国(v2clash.blog 2026-7.31更新)... #1'
   network: ws
   port: 2053
   server: 51.89.23.94
@@ -828,253 +828,6 @@ proxies:
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   xudp: true
-- client-fingerprint: firefox
-  name: 🇫🇷_法国_79
-  port: 443
-  reality-opts:
-    public-key: M7fn-U9PikoH_WXu6HbDE5bi9ej5cFN8bgWy8qF14WU
-    short-id: '!!str 76f547961a8ca082'
-  server: 185.33.24.204
-  servername: cdn.shopify.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6f93f3eb-8ff2-4da4-837b-8a333c281ff3
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_235
-  network: ws
-  port: 2053
-  server: 152.228.135.209
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_173
-  network: ws
-  port: 2053
-  server: 152.228.134.213
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_176
-  network: ws
-  port: 2053
-  server: 31.59.121.155
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_226
-  network: ws
-  port: 2053
-  server: 146.59.156.154
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_222
-  network: ws
-  port: 2053
-  server: 51.77.140.23
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_249
-  network: ws
-  port: 2053
-  server: 152.228.135.238
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_294
-  network: ws
-  port: 2053
-  server: 152.228.135.141
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  name: 🇫🇷_法国_292
-  network: ws
-  port: 2053
-  server: 77.221.153.168
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- name: 'A - 🇫🇷 FR 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.85.119.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime56.workers.dev
-- name: 'A - 🇫🇷 FR 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 66.81.247.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'A - 🇫🇷 FR 03 TG: @nodpai'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-  security: reality
-  server: 152.89.253.239
-  servername: ya.ru
-  tls: true
-  type: vless
-  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
-- name: 🇫🇷FR_7|⬇️3.3MB/s
-  network: ws
-  port: 443
-  server: 194.76.18.25
-  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
-  ws-opts:
-    headers:
-      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-    path: /ws
-- name: 🇫🇷FR_3|⬇️6.2MB/s
-  network: ws
-  port: 443
-  server: 69.84.182.13
-  servername: fr-1-fr-1.aiopen.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: e72b54df-3c45-4856-bcf9-bf3e1bf6ff5e
-  ws-opts:
-    headers:
-      host: fr-1-fr-1.aiopen.sbs
-    path: /kbjc/fr1
-- name: FRVLESS-75|free-nodes
-  network: ws
-  port: 443
-  server: 69.84.182.20
-  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
-  ws-opts:
-    headers:
-      host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-    path: /ws
-- name: 🇫🇷FR_1|⬇️4.3MB/s
-  network: ws
-  port: 443
-  server: 104.24.69.114
-  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
-  ws-opts:
-    headers:
-      host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
-    path: /ws
-- name: 🇫🇷FR_6|⬇️1.2MB/s
-  network: ws
-  port: 443
-  server: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
-  servername: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad2cfc08-9850-442e-dcc2-b5171f0a22f1
-  ws-opts:
-    headers:
-      host: 8qfv4sx0uktvsr6jb9x8wiwwr8vbfidcg4uo.yaroo383mardak.online
-    path: /@Arshiacomplus
-- flow: xtls-rprx-vision
-  name: 🇫🇷FR_4|⬇️2.7MB/s
-  network: tcp
-  port: 443
-  server: fr01-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: e108f3eb-4d3a-4e20-a09b-7008e333bc23
 - cipher: chacha20-ietf-poly1305
   name: 荷兰(yudou789.top 玉豆免费节点)_2
   password: RFK38Cg7APneSB5cWDcpbm
@@ -1220,7 +973,7 @@ proxies:
   - http/1.1
   client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|1.1MB/s
+  name: 'ZA_speednode_0231 #1'
   network: tcp
   port: 443
   reality-opts:
@@ -1228,73 +981,16 @@ proxies:
     short-id: '!!str f34818a561dfd1fe'
   server: 45.192.2.51
   servername: yandex.net
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 44a6901d-6675-41b1-9a80-ee3308699e1d
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_2|3.0MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: '!!str 364994a6f61fc955'
-  server: 45.192.2.51
-  servername: yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 52f0f0ee-bc74-4757-8e1c-51e334233b4d
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_3|2.5MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: '!!str 364994a6f61fc955'
-  server: 45.192.2.51
-  servername: yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 69080ad0-9074-4c38-b729-ace93fd4ac13
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_4|1.9MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: '!!str f34818a561dfd1fe'
-  server: 45.192.2.51
-  servername: yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc58b0ab-2755-43bd-9388-b8edcf75d629
-- alpn:
-  - http/1.1
-  client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_5|2.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
-    short-id: '!!str ece180c605b5453c'
-  server: 45.192.2.51
-  servername: yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9346960-a429-4c1a-b661-512611450fea
 - alpn:
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: 🇫🇷FR_6|2.8MB/s
+  name: 🇫🇷FR_2|2.0MB/s
   network: ws
   port: '443'
   server: 172.66.174.41
@@ -1306,39 +1002,9 @@ proxies:
   ws-opts:
     headers:
       Host: pinalo.zenvorix.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /nova-geo-psiphon-fr
-  xudp: true
-- name: 'DE_speednode_0004 #1'
-  network: ws
-  port: 8880
-  server: 45.80.111.175
-  servername: cnd.poland.myfilecdn.com
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6ed59a5b-efef-4ddf-99f2-57d200caed47
-  ws-opts:
-    headers:
-      Host: cnd.poland.myfilecdn.com
-    path: /cdn/assets/stream
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_8|3.1MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
-    short-id: '!!str 5a8e1a04f3d92b67'
-  server: 2.26.129.68
-  servername: ukrop.mycdn-me.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f055899d-026b-49b5-88ed-0227795082da
   xudp: true
 - name: 🇫🇷FR_105
   network: ws
@@ -1868,6 +1534,19 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: 🇫🇷FR_226
+  network: ws
+  port: 2083
+  server: 172.66.47.45
+  servername: wk1.f1w.de5.net
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: wk1.f1w.de5.net
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷FR_1135
   password: XF0klw7870vXn3uQIxe19Q
@@ -9213,3 +8892,17 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
+- client-fingerprint: chrome
+  name: 'FR_speednode_0012 #1'
+  network: tcp
+  port: 5039
+  reality-opts:
+    public-key: fv-InxuZSzLlHc83OANs4U2windIUSwPilOpJkMgtW0
+    short-id: '!!str 2e8424a2696cb606'
+  server: taoccqyacf7e.dop66.com
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5bea439-6176-4b5d-a891-bd31fc3530c9

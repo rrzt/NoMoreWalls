@@ -244,11 +244,10 @@ proxies:
     headers:
       host: mTCKUNDiGePwU3uP.v.3dns.vip
     path: /ws-vmess
-- client-fingerprint: edge
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 'B - 🇺🇸 US 19 TG: @nodpai'
+  name: 🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚
   port: 22231
-  security: tls
   server: 85.234.114.53
   servername: r1.mizulina.top
   tls: true
@@ -282,13 +281,14 @@ proxies:
         like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /ws4
   xudp: true
-- name: 🇬🇧 机场推荐:dafei.de 英国 04
+- name: 'GB_speednode_0019 #1'
   password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
   port: 443
   server: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
   sni: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
   tls: true
   type: http
+  udp: true
   username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
 - name: 🇬🇧GB_86
   network: tcp
@@ -299,82 +299,6 @@ proxies:
   type: vless
   udp: true
   uuid: d8b42cd5-a149-4356-9e61-111111111111
-- name: 'A - 🇬🇧 GB 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 185.193.30.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: 'A - 🇬🇧 GB 02 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.40.146.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /?ed=2560
-- name: 'A - 🇬🇧 GB 03 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.80.110.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: 🇳🇱NL_193
-  network: ws
-  port: 8880
-  server: 185.159.247.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-    path: /
-- name: 'B - 🇬🇧 GB 05 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 77.75.199.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: 🇬🇧GB_2|⬇️1.7MB/s
-  network: ws
-  port: 443
-  server: 173.245.59.121
-  servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 979b6822-d65a-400d-89f8-30391903ac20
-  ws-opts:
-    headers:
-      host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
-    path: /ws
-- name: GBVLESS-110|free-nodes
-  network: ws
-  port: 80
-  server: fuck1.tawanaproxy.online
-  servername: en.tawana.cf.panbehpanel.ir
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c33275fd-a4fa-470d-90e4-55da39d849a8
-  ws-opts:
-    headers:
-      host: en.tawana.cf.panbehpanel.ir
-    path: /
 - name: 🇬🇧英国
   password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
   port: 443
@@ -651,11 +575,12 @@ proxies:
   server: 94.156.250.148
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: ❓Other_5
+  name: GB_speednode_0013
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.218
   type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱NL_10
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -763,88 +688,16 @@ proxies:
   port: 443
   server: series-a2.varzesh360.co
   type: ss
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|3.8MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: tCWATDQkb8y96seamXD6wsMSTIQSm-qtAGPnSwQubSQ
-    short-id: '!!str 2d4f6a8b0c1e'
-  server: ukk.spectrum.vu
-  servername: ukk.spectrum.vu
-  tls: true
-  type: vless
-  udp: true
-  uuid: ba46709f-7324-48d3-a99c-66669d546448
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_2|1.3MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: rt.tunnelpoint.space
-  servername: rt.tunnelpoint.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-- client-fingerprint: chrome
-  name: 🇬🇧GB_3|1.9MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: pro-it.emrata.top
-  servername: pro-it.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0211247d-a963-456e-9299-681460b36335
 - alpn:
   - h3
   auth: c2948c84-748f-47f6-bc7a-b949ef279f85
-  name: 🇬🇧GB_4|1.3MB/s
+  name: 🇬🇧GB_2|2.4MB/s
   password: c2948c84-748f-47f6-bc7a-b949ef279f85
   port: 8443
   server: 78.159.240.215
   skip-cert-verify: true
   sni: quic.tyr-agentstvo.tech
   type: hysteria2
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: vkbrto
-  name: 🇬🇧GB_5|4.6MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: rAopr8hz39QCzy6_HFCjwuO93sA3LwHz1LVHAV7utjw
-    short-id: '!!str f5af261c314be426'
-  server: 89.208.85.165
-  servername: vbr.fastfive.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7309d92c-cb36-0003-8a29-40beb14f6bf1
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_6|2.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: w88Ys8dVF9DuslGwUD05J9-FHNoAT9qmPysCvHiEmmg
-    short-id: '!!str 1b40e7c2a1d8f635'
-  server: 2.26.128.73
-  servername: wombat.mycdn-me.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: f055899d-026b-49b5-88ed-0227795082da
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇬🇧GB_50
@@ -1614,3 +1467,63 @@ proxies:
     headers:
       Host: juzibaipiao.5112233.xyz
     path: '%2f%3fed%3d2048'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'GB_speednode_0015 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
+    short-id: '!!str 5a8e1a04f3d92b67'
+  server: 2.26.129.68
+  servername: ukrop.mycdn-me.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f055899d-026b-49b5-88ed-0227795082da
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'GB_speednode_0017 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: w88Ys8dVF9DuslGwUD05J9-FHNoAT9qmPysCvHiEmmg
+    short-id: '!!str 1b40e7c2a1d8f635'
+  server: 2.26.128.73
+  servername: wombat.mycdn-me.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f055899d-026b-49b5-88ed-0227795082da
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 'GB_speednode_0018 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -qRasoN1QIcSdRL937b6s-Y2qOb-9OFmlaHBi7UcOSM
+    short-id: '!!str e17b4d9a8c1f3526'
+  server: 2.26.139.184
+  servername: kukuruza.mycdn-me.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f055899d-026b-49b5-88ed-0227795082da
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 'GB_speednode_0020 #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: rt.tunnelpoint.space
+  servername: rt.tunnelpoint.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078

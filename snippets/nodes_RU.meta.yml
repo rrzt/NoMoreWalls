@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 'RU_speednode_0085 #1'
+  name: '🇷🇺 俄罗斯 starcorenode.com #2'
   network: ws
   port: 443
   server: 77.105.163.46
@@ -11,7 +11,6 @@ proxies:
   tfo: false
   tls: true
   type: vless
-  udp: true
   uuid: 0e192bd1-8f19-4184-9fff-6d67e4f738bd
   ws-opts:
     headers:
@@ -165,9 +164,9 @@ proxies:
   udp: true
   uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
   xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 🇷🇺_俄罗斯_122
+  name: 'NL荷兰(mibei77.com 米贝节点分享)_12 #2'
   port: 443
   reality-opts:
     public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
@@ -223,63 +222,6 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇷🇺_俄罗斯_103
-  port: 443
-  reality-opts:
-    public-key: sntQ0HsOXhaye-K7bKrMw1w3cRmjgp0lT5IhP-ngwlU
-    short-id: '!!str 998432bc'
-  server: 147.45.185.27
-  servername: userapi.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9cddcc01-3dfb-46e0-85d8-e3c6818232cf
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 'RU_speednode_0084 #1'
-  network: tcp
-  port: 9893
-  reality-opts:
-    public-key: GVNhQWxHlpnqLnhlOeFpagU1QLVVHBepBQN0YcPjXVg
-  server: 46.253.132.41
-  servername: www.io.ozone.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 884d811f-577b-421e-aabb-608660b0ecfa
-- name: 'US_speednode_0111 #1'
-  network: ws
-  port: 80
-  server: ru-de.apruxdomain.xyz
-  servername: ru-de.apruxdomain.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 84dc79c7-e443-489d-bf07-b4bb825f57d9
-  ws-opts:
-    headers:
-      Host: ru-de.apruxdomain.xyz
-    path: /
-- client-fingerprint: chrome
-  name: 🇷🇺_俄罗斯_295
-  network: ws
-  port: 2053
-  server: 95.182.120.208
-  servername: forfreeuse.sub-flow.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: c7e9c591-2764-423a-afca-efbd010fd396
-  ws-opts:
-    headers:
-      Host: forfreeuse.sub-flow.online
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: '🇷🇺_RU_俄罗斯 #4'
   port: 443
   reality-opts:
@@ -291,36 +233,6 @@ proxies:
   type: vless
   udp: true
   uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-- name: 'A - 🇷🇺 RU 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
-- flow: xtls-rprx-vision
-  name: 🇸🇪SE_1|⬇️2.7MB/s
-  network: tcp
-  port: 443
-  server: 176.125.240.166
-  servername: apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: RUVLESS-51|free-nodes
-  network: tcp
-  port: 10468
-  server: 185.113.10.198
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3b12e953-96f0-40da-ac32-3038dadf20f7
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: 俄罗斯联邦/莫斯科/Russia/Moscow
@@ -464,14 +376,29 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 900 | ⬇️ 85KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
+  server: pro-ru-bridge.emrata.top
+  servername: pro-ru-bridge.emrata.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 831f56ff-d117-4a72-bb2b-a5e44eab6fbf
 - cipher: aes-256-gcm
-  name: RU_speednode_0083
+  name: 🇷🇺 RU 426 | ⬇️ 40KB/s
   password: 9f3d1a6d31468599
   port: 1291
   server: 195.133.23.200
   skip-cert-verify: false
   type: ss
-  udp: true
+  udp: false
 - cipher: aes-256-gcm
   name: 🇷🇺 RU 418 | ⬇️ 26KB/s
   password: fbaf33bcffe53cf9
@@ -480,14 +407,29 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇷🇺 RU 195 | ⬇️ 73KB/s
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: F8tqvcuJUSVbxv_i9ZsVOef3EPwULzzDqgvmj3vWNlA
+  server: pro-ru-bridge.emrata.top
+  servername: pro-ru-bridge.emrata.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: c245b785-bb81-481b-95c9-c2db14c66f25
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: 🇷🇺RU_2|1.4MB/s
+  name: 🇷🇺 RU 936 | ⬇️ 443KB/s
   network: grpc
   packet-encoding: xudp
-  port: '2053'
+  port: 2053
   reality-opts:
     public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
     short-id: '!!str f0131a4772b494d4'
@@ -498,7 +440,6 @@ proxies:
   type: vless
   udp: true
   uuid: 347e34f2-3211-4e01-b475-409f46788d3f
-  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: qq
@@ -518,7 +459,7 @@ proxies:
   udp: true
   uuid: 347e34f2-3211-4e01-b475-409f46788d3f
 - cipher: aes-256-gcm
-  name: '🇷🇺RU_1|2.5MB/s #1'
+  name: 🇷🇺RU_1|2.5MB/s
   password: d99c422199e62b6b
   port: '10910'
   server: 176.32.34.152
@@ -545,6 +486,21 @@ proxies:
   port: 31348
   server: 5.189.201.250
   type: ss
+- name: 'SK_speednode_0172 #1'
+  network: ws
+  port: 8880
+  server: 8.47.69.0
+  servername: rutube.ummapeople.online
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fd22ad82-2d89-4338-b72c-5092ae699c7d
+  ws-opts:
+    headers:
+      Host: rutube.ummapeople.online
+    path: /rutube
+  xudp: true
 - alterId: 0
   cipher: chacha20-ietf-poly1305
   name: 🇷🇺RU俄罗斯

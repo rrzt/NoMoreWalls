@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇫🇷_法国_192
+  name: 'JP日本(v2clash.blog 2026-7.31更新)... #3'
   network: ws
   port: 55009
   server: 2001:bc8:32d7:225::3

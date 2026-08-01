@@ -1,30 +1,4 @@
 proxies:
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 'NL_speednode_0016 #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
-    short-id: '!!str 5629431325884ff0'
-  server: eston3.o4ka-internet.com
-  servername: eston3.o4ka-internet.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a03df445-0666-4d61-acde-9705009e409c
-- name: 🇳🇱NL_115
-  network: ws
-  port: 8880
-  server: 45.80.110.50
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 爱沙尼亚/Estonia
@@ -37,6 +11,20 @@ proxies:
   tls: true
   type: vless
   uuid: dc7940e0-6bff-45e3-853d-4007561803c3
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇪🇪 EE 260 | ⬇️ 1MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: eston3.o4ka-internet.com
+  servername: eston3.o4ka-internet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a03df445-0666-4d61-acde-9705009e409c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 🇪🇪 EE 513 | ⬇️ 12KB/s
@@ -53,6 +41,22 @@ proxies:
   type: vless
   udp: true
   uuid: da0f3291-c93e-4a19-b3f2-d150aad828ed
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇪🇪EE_1|1.0MB/s
+  network: raw
+  port: '8442'
+  reality-opts:
+    public-key: TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg
+    short-id: '!!str a7f9106ba66e4796'
+  server: 217.16.25.61
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 873f1046-0210-4b2e-a0ec-dc1826886071
+  xudp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 🇪🇪EE_1
