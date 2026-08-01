@@ -21,7 +21,7 @@ import hashlib
 MAX_DEPTH = 3
 MAX_REQUESTS = 300
 REQUEST_TIMEOUT = 30
-KEYWORDS = ['subscri', 'feed', '.yaml', '.yml', '.txt']
+KEYWORDS = ['node','subscri', 'feed', '.yaml', '.yml', '.txt']
 OUTPUT_YAML = 'crawclash.yaml'
 OUTPUT_TXT = 'crawsub.txt'
 SOURCE_FILE = 'crawler.list'
