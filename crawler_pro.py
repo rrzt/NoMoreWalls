@@ -1,3 +1,4 @@
+请解析以下代码
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -17,6 +18,11 @@ from bs4 import BeautifulSoup
 import time
 import hashlib
 
+#直接订阅	以 .yaml / .yml / .txt 结尾	直接下载，不爬取	https://example.com/sub.yaml → 立即下载并解析节点
+#普通页面	不含 *，且非直接订阅	作为爬取起点（深度=1），可绑定通配符	https://example.com/index → 入队，patterns 可能来自通配符绑定
+#通配符项	含 *	不单独入队，而是与普通页面绑定；若无法绑定则自身作为起点	https://example.com/api/*/list → 
+#             可能绑定到 https://example.com/api/v2/list（若存在），否则自身 https://example.com/api/ 作为起点
+#动态日期	以 +date 开头	格式化后按上述规则继续分类	+date https://example.com/%Y%m%d → 2026-08-15 → https://example.com/20260815
 # ======================== 全局配置（可调参数） ========================
 # 爬虫控制
 MAX_DEPTH = 3               # 爬取深度（从起始页算起）。增大可发现更多链接，但增加请求数。建议 2~5
@@ -24,14 +30,14 @@ MAX_REQUESTS = 210          # 总请求数上限（含页面和订阅）。控�
 KEYWORDS = ['node', 'subscri', 'feed', '.yaml', '.yml', '.txt']  # 用于识别订阅链接的关键词（URL 包含即视为订阅）
 
 # 网络请求
-REQUEST_TIMEOUT = 30        # HTTP 请求超时（秒）。增大可应对慢速服务器，减小可加快失败检测。建议 15~60
+REQUEST_TIMEOUT = 15        # HTTP 请求超时（秒）。增大可应对慢速服务器，减小可加快失败检测。建议 15~60
 FETCH_RETRIES = 3           # 获取内容失败后的重试次数。建议 2~5
 FETCH_DELAY = 1             # 重试间隔（秒）。建议 0.5~2
 
 # 节点测通（TCP 握手）
-CONNECT_TIMEOUT = 3         # TCP 握手超时（秒）。增大可减少网络波动误判，但延长总验证时间。建议 3~10
+CONNECT_TIMEOUT = 2         # TCP 握手超时（秒）。增大可减少网络波动误判，但延长总验证时间。建议 3~10
 TEST_RETRIES = 2            # 测通失败后的重试次数。建议 1~3
-TEST_WORKERS = 10           # 测通并发线程数。增大可加快验证，但可能因资源竞争导致失败率上升。建议 5~20
+TEST_WORKERS = 15           # 测通并发线程数。增大可加快验证，但可能因资源竞争导致失败率上升。建议 5~20
 MAX_DELAY = 3000            # 节点最大可接受延迟（毫秒），超过则丢弃。调低可提高质量，但可能减少节点数。建议 2000~5000
 
 # 导出文件
